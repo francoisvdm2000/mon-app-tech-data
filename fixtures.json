@@ -1,0 +1,708 @@
+{
+  "version": 1,
+  "updatedAt": "2026-01-30T10:14:56.102Z",
+  "manufacturers": [
+    {
+      "name": "PR Lighting",
+      "products": [
+        {
+          "type": "Moving head beam light",
+          "name": "XR 380 Beam",
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 17,
+          "powerWatt": 600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "http://www.pr-lighting.com/upload/2018-07-11/XR380BEAM_User_Manual.pdf",
+          "dmxChartUrl": "http://www.pr-lighting.com/upload/2018-07-11/XR380BEAM_User_Manual.pdf"
+        },
+        {
+          "type": "Moving head beam spot wash",
+          "name": "XR 330 Spot",
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 16,
+          "powerWatt": 470,
+          "luminousFluxLumen": 0,
+          "manualUrl": "http://www.pr-lighting.com/upload/2017-03-16/XR330_User_Manual.pdf",
+          "dmxChartUrl": "http://www.pr-lighting.com/upload/2017-03-16/XR330_User_Manual.pdf"
+        },
+        {
+          "type": "Moving head beam light",
+          "name": "XR 230 Beam",
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 470,
+          "luminousFluxLumen": 0,
+          "manualUrl": "http://www.pr-lighting.com/upload/2016-08-18/XR230BEAM_User_Manual.pdf",
+          "dmxChartUrl": "http://www.pr-lighting.com/upload/2016-08-18/XR230BEAM_User_Manual.pdf"
+        },
+        {
+          "type": "Moving head wash light",
+          "name": "XLED 1061 Wash",
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 15
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 350,
+          "luminousFluxLumen": 0,
+          "manualUrl": "http://www.pr-lighting.com/upload/2016-06-14/XLED1061_User_Manual.pdf",
+          "dmxChartUrl": "http://www.pr-lighting.com/upload/2016-06-14/XLED1061_User_Manual.pdf"
+        },
+        {
+          "type": "Moving head wash light",
+          "name": "AQUA 580 Wash",
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 26
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "http://www.pr-lighting.com/upload/2019-04-02/AQUA580_User_Manual.pdf",
+          "dmxChartUrl": "http://www.pr-lighting.com/upload/2019-04-02/AQUA580_User_Manual.pdf"
+        },
+        {
+          "type": "Moving head profile light",
+          "name": "Best Boy Profile",
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 38
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "http://www.pr-lighting.com/upload/2020-05-18/BestBoyProfile_User_Manual.pdf",
+          "dmxChartUrl": "http://www.pr-lighting.com/upload/2020-05-18/BestBoyProfile_User_Manual.pdf"
+        },
+        {
+          "type": "Moving head wash light",
+          "name": "Studio 1200 Wash",
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 30
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 42
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "http://www.pr-lighting.com/upload/2021-01-12/STUDIO1200_User_Manual.pdf",
+          "dmxChartUrl": "http://www.pr-lighting.com/upload/2021-01-12/STUDIO1200_User_Manual.pdf"
+        },
+        {
+          "type": "Moving head beam light",
+          "name": "AQUA 580 Beam",
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 26
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.pr-lighting.com/vancheerfile/files/2021/4/20210413141629800.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head beam spot wash",
+          "name": "AQUA 580 BWS",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.pr-lighting.com/vancheerfile/files/2025/8/2025081215283832.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head beam light",
+          "name": "AQUA Marine 580 Beam",
+          "modes": [
+            {
+              "name": "Short mode",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head beam spot wash",
+          "name": "AQUA Marine 580 BWS",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head beam spot wash",
+          "name": "AQUA 480 BWS",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://pr-lighting.com/vancheerfile/files/2021/6/20210622105511266.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head beam light",
+          "name": "AQUA 480 Beam",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.pr-lighting.com/vancheerfile/files/2024/8/2024082114297810.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head beam spot wash",
+          "name": "AQUA 380 BWS",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head beam light",
+          "name": "AQUA 380 Beam",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Robe",
+      "products": [
+        {
+          "type": "Moving head profile light",
+          "name": "FORTE",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 54
+            },
+            {
+              "name": "Mode 2 - Enhanced gobo control",
+              "dmxChannels": 56
+            },
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 54
+            },
+            {
+              "name": "Mode 2 - Enhanced gobo control",
+              "dmxChannels": 56
+            }
+          ],
+          "weightKilogram": 41,
+          "powerWatt": 1250,
+          "luminousFluxLumen": 50000,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Forte.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Forte_DMX_charts.pdf"
+        },
+        {
+          "type": "Moving head profile light",
+          "name": "PAINTE",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 44
+            },
+            {
+              "name": "Mode 2 - Enhanced gobo control",
+              "dmxChannels": 45
+            },
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 44
+            },
+            {
+              "name": "Mode 2 - Enhanced gobo control",
+              "dmxChannels": 45
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 440,
+          "luminousFluxLumen": 15200,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Painte.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Painte_DMX_charts.pdf"
+        },
+        {
+          "type": "Moving head profile light",
+          "name": "ESPRITE FS",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 49
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 42
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 50
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 950,
+          "luminousFluxLumen": 34000,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Esprite.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Esprite_DMX_charts.pdf"
+        },
+        {
+          "type": "Moving head wash light",
+          "name": "LEDBeam 350",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 2 - Reduced 8-bit",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Mode 3 - Cpulse",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 450,
+          "luminousFluxLumen": 8200,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_LEDBeam_350_FW_EP_FWEP.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_LEDBeam_350_DMX_charts.pdf"
+        },
+        {
+          "type": "Moving head beam spot wash",
+          "name": "Pointe",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 30
+            },
+            {
+              "name": "Mode 1",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 470,
+          "luminousFluxLumen": 9870,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Pointe.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Pointe_DMX_charts.pdf"
+        },
+        {
+          "type": "Moving head beam spot wash",
+          "name": "MegaPointe",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 39
+            },
+            {
+              "name": "Mode 2 - Reduced 8-bit",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 39
+            },
+            {
+              "name": "Mode 2 - Reduced 8-bit",
+              "dmxChannels": 34
+            }
+          ],
+          "weightKilogram": 22,
+          "powerWatt": 670,
+          "luminousFluxLumen": 20375,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_MegaPointe.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_MegaPointe_DMX_charts.pdf"
+        },
+        {
+          "type": "Moving head spot light",
+          "name": "BMFL Spot",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Mode 2 - Reduced 8-bit",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_BMFL_Spot.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_BMFL_Spot_DMX_charts.pdf"
+        },
+        {
+          "type": "Moving head profile light",
+          "name": "BMFL Blade",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 48
+            },
+            {
+              "name": "Mode 2 - Reduced 8-bit",
+              "dmxChannels": 42
+            },
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 48
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_BMFL_Blade.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_BMFL_Blade_DMX_charts.pdf"
+        },
+        {
+          "type": "Linear moving head wash",
+          "name": "Tetra1",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard",
+              "dmxChannels": 19
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Tetra1.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Tetra1_DMX_charts.pdf"
+        },
+        {
+          "type": "Linear moving head wash",
+          "name": "Tetra2",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Mode 2 - Advanced",
+              "dmxChannels": 34
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Tetra2.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Tetra2_DMX_charts.pdf"
+        },
+        {
+          "type": "Linear moving head wash",
+          "name": "iTetra2 IP65",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_iTetra2_IP65.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_iTetra2_IP65_DMX_charts.pdf"
+        },
+        {
+          "type": "Linear moving head wash",
+          "name": "TetraX",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 42
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 62
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 76
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 85
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 89
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 98
+            },
+            {
+              "name": "Mode 1",
+              "dmxChannels": 42
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 62
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 320,
+          "luminousFluxLumen": 5300,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Tetra_X.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Tetra_X_DMX_charts.pdf"
+        },
+        {
+          "type": "Decorative lighting",
+          "name": "PATT 2013",
+          "modes": [
+            {
+              "name": "Mode 1 - RGB control",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/res/downloads/catalogues/ROBE_PATT_2013_leaflet.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Decorative lighting",
+          "name": "picklePATT",
+          "modes": [
+            {
+              "name": "Mode 1 - RGB control",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 575,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/res/downloads/catalogues/ROBE_picklePATT_leaflet.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Decorative lighting",
+          "name": "PATT 2017",
+          "modes": [
+            {
+              "name": "Mode 1 - RGB pixel control",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 7,
+          "powerWatt": 240,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/res/downloads/catalogues/ROBE_PATT_2017_leaflet.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Decorative lighting",
+          "name": "pixelPATT",
+          "modes": [
+            {
+              "name": "Mode 1 - Pixel control",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 1 - Pixel control",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 320,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_pixelPATT.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_pixelPATT_DMX_charts.pdf"
+        },
+        {
+          "type": "Wash and effect light",
+          "name": "WTF!",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Mode 2 - Extended",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 1 - Standard",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 600,
+          "luminousFluxLumen": 7200,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_WTF.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_WTF_DMX_charts.pdf"
+        },
+        {
+          "type": "Static wash light",
+          "name": "T15 Fresnel",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 2
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Mode 1",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 420,
+          "luminousFluxLumen": 11958,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_T15_PC_Fresnel.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Static wash light",
+          "name": "T15 PC",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 2
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 420,
+          "luminousFluxLumen": 11958,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_T15_PC_Fresnel.pdf",
+          "dmxChartUrl": ""
+        }
+      ]
+    }
+  ]
+}
