@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-01-30T11:39:44.115Z",
+  "updatedAt": "2026-01-30T11:49:38.238Z",
   "manufacturers": [
     {
       "name": "PR Lighting",
@@ -223,7 +223,7 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Moving head beam light",
+          "type": "Beam",
           "name": "AQUA 380 Beam",
           "modes": [],
           "weightKilogram": 0,
