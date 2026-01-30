@@ -1,7 +1,233 @@
 {
   "version": 1,
-  "updatedAt": "2026-01-30T15:59:39.279Z",
+  "updatedAt": "2026-01-30T16:09:39.959Z",
   "manufacturers": [
+    {
+      "name": "GLP",
+      "products": [
+        {
+          "type": "Wash",
+          "name": "impression X4",
+          "modes": [
+            {
+              "name": "Compressed mode",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Normal mode",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/files/products/impression-x4-product-data/GLP_impression_X4_User_Manual_EN.pdf",
+          "dmxChartUrl": "https://glp.de/files/products/impression-x4-product-data/GLP_impression_X4_DMX_Channel_Index_EN.pdf"
+        },
+        {
+          "type": "Wash",
+          "name": "impression X4 S",
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/files/products/impression-x4-s-product-data/impression_X4_S_User_Manual_EN.pdf",
+          "dmxChartUrl": "https://glp.de/files/products/impression-x4-s-product-data/impression_X4_S_DMX_Channel_Index_EN.pdf"
+        },
+        {
+          "type": "Wash",
+          "name": "impression X4 L",
+          "modes": [
+            {
+              "name": "Compressed mode",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Normal mode",
+              "dmxChannels": 29
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 900,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/files/products/impression-x4-l-product-data/impression_X4_L_User_Manual_EN.pdf",
+          "dmxChartUrl": "https://glp.de/files/products/impression-x4-l-product-data/impression_X4_L_DMX_Channel_Index_EN.pdf"
+        },
+        {
+          "type": "Wash",
+          "name": "impression X4 XL",
+          "modes": [
+            {
+              "name": "Compressed mode",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Normal mode",
+              "dmxChannels": 26
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/files/products/impression-x4-xl-product-data/impression_X4_XL_User_Manual_EN.pdf",
+          "dmxChartUrl": "https://glp.de/files/products/impression-x4-xl-product-data/impression_X4_XL_DMX_Channel_Index_EN.pdf"
+        },
+        {
+          "type": "Linear moving head wash",
+          "name": "impression X4 Bar 10",
+          "modes": [
+            {
+              "name": "Compressed mode",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Normal mode",
+              "dmxChannels": 33
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/files/products/impression-x4-bar-10-product-data/impression_X4_Bar_10_User_Manual_EN.pdf",
+          "dmxChartUrl": "https://glp.de/files/products/impression-x4-bar-10-product-data/impression_X4_Bar_10_DMX_Channel_Index_EN.pdf"
+        },
+        {
+          "type": "Linear moving head wash",
+          "name": "impression X4 Bar 20",
+          "modes": [
+            {
+              "name": "Normal mode",
+              "dmxChannels": 33
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/files/products/impression-x4-bar-20-product-data/impression_X4_Bar_20_User_Manual_EN.pdf",
+          "dmxChartUrl": "https://glp.de/files/products/impression-x4-bar-20-product-data/impression_X4_Bar_20_DMX_Channel_Index_EN.pdf"
+        },
+        {
+          "type": "Wash",
+          "name": "impression X5",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Normal mode",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Mulitpixel mode",
+              "dmxChannels": 89
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.germanlightproducts.com/wp-content/uploads/2022/01/GLP-impression-X5-User-Manual-EN.pdf",
+          "dmxChartUrl": "https://www.germanlightproducts.com/wp-content/uploads/2022/01/GLP-impression-X5-DMX-Channel-Index-EN.pdf"
+        },
+        {
+          "type": "Strobe wash light",
+          "name": "JDC1",
+          "modes": [
+            {
+              "name": "Compressed Pro mode",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Normal mode",
+              "dmxChannels": 23
+            },
+            {
+              "name": "SPix mode",
+              "dmxChannels": 68
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/files/products/jdc1-product-data/JDC1_User_Manual_EN.pdf",
+          "dmxChartUrl": "https://glp.de/files/products/jdc1-product-data/JDC1_DMX_Channel_Index_EN.pdf"
+        },
+        {
+          "type": "Wash",
+          "name": "impression FR1 TM",
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 170,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/files/products/impression-fr1-tm-product-data/GLP_impression_FR1TM_User_Manual_EN.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "MAD MAXX",
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/files/products/mad-maxx-product-data/GLP_MAD_MAXX_User_Manual_EN.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Strobe wash light",
+          "name": "JDC2 IP",
+          "modes": [
+            {
+              "name": "M1 - Dual Strobe",
+              "dmxChannels": 24
+            },
+            {
+              "name": "M2 - Segment 1-1",
+              "dmxChannels": 46
+            },
+            {
+              "name": "M3 - Segment 12-12",
+              "dmxChannels": 91
+            },
+            {
+              "name": "M4 - Segment 12-24",
+              "dmxChannels": 127
+            },
+            {
+              "name": "M5 - JDC1 SPix Patch",
+              "dmxChannels": 68
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 70000,
+          "manualUrl": "https://glp.de/files/products/jdc2-ip-product-data/GLP_JDC2_IP_User_Manual_EN_Rev20241001-04.pdf",
+          "dmxChartUrl": "https://glp.de/files/products/jdc2-ip-product-data/GLP_JDC2_IP_DMX_Channel_Index_EN_Rev20241002-05.pdf"
+        }
+      ]
+    },
     {
       "name": "PR Lighting",
       "products": [
