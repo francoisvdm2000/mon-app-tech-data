@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-01-30T11:49:38.238Z",
+  "updatedAt": "2026-01-30T11:59:42.290Z",
   "manufacturers": [
     {
       "name": "PR Lighting",
@@ -652,26 +652,6 @@
           "powerWatt": 420,
           "luminousFluxLumen": 11958,
           "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_T15_PC_Fresnel.pdf",
-          "dmxChartUrl": ""
-        }
-      ]
-    },
-    {
-      "name": "Test constructeur",
-      "products": [
-        {
-          "type": "dalle led",
-          "name": "ceci est un",
-          "modes": [
-            {
-              "name": "mode test",
-              "dmxChannels": 157
-            }
-          ],
-          "weightKilogram": 67.5,
-          "powerWatt": 9999,
-          "luminousFluxLumen": 123456,
-          "manualUrl": "",
           "dmxChartUrl": ""
         }
       ]
