@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "updatedAt": "2026-01-29",
+  "manufacturers": [
+    {
+      "name": "Robe",
+      "products": [
+        {
+          "type": "Spot",
+          "name": "Pointe",
+          "dmxChannels": 24,
+          "weightKilogram": 23.5,
+          "powerWatt": 650,
+          "luminousFluxLumen": 0,
+          "manualUrl": ""
+        }
+      ]
+    }
+  ]
+}
