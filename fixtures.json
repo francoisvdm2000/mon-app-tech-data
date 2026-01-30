@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-01-30T11:19:42.791Z",
+  "updatedAt": "2026-01-30T11:29:40.859Z",
   "manufacturers": [
     {
       "name": "PR Lighting",
@@ -238,7 +238,7 @@
       "name": "Robe",
       "products": [
         {
-          "type": "Moving head profile light",
+          "type": "Profile",
           "name": "FORTE",
           "modes": [
             {
@@ -265,7 +265,7 @@
           "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Forte_DMX_charts.pdf"
         },
         {
-          "type": "Moving head profile light",
+          "type": "Profile",
           "name": "PAINTE",
           "modes": [
             {
@@ -292,7 +292,7 @@
           "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Painte_DMX_charts.pdf"
         },
         {
-          "type": "Moving head profile light",
+          "type": "Profile",
           "name": "ESPRITE FS",
           "modes": [
             {
@@ -319,7 +319,7 @@
           "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Esprite_DMX_charts.pdf"
         },
         {
-          "type": "Moving head wash light",
+          "type": "Wash",
           "name": "LEDBeam 350",
           "modes": [
             {
@@ -342,21 +342,9 @@
           "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_LEDBeam_350_DMX_charts.pdf"
         },
         {
-          "type": "Moving head beam spot wash",
+          "type": "BSW",
           "name": "Pointe",
           "modes": [
-            {
-              "name": "Mode 1",
-              "dmxChannels": 24
-            },
-            {
-              "name": "Mode 2",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Mode 3",
-              "dmxChannels": 30
-            },
             {
               "name": "Mode 1",
               "dmxChannels": 24
@@ -377,17 +365,9 @@
           "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Pointe_DMX_charts.pdf"
         },
         {
-          "type": "Moving head beam spot wash",
+          "type": "BSW",
           "name": "MegaPointe",
           "modes": [
-            {
-              "name": "Mode 1 - Standard 16-bit",
-              "dmxChannels": 39
-            },
-            {
-              "name": "Mode 2 - Reduced 8-bit",
-              "dmxChannels": 34
-            },
             {
               "name": "Mode 1 - Standard 16-bit",
               "dmxChannels": 39
@@ -404,7 +384,7 @@
           "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_MegaPointe_DMX_charts.pdf"
         },
         {
-          "type": "Moving head spot light",
+          "type": "Spot",
           "name": "BMFL Spot",
           "modes": [
             {
@@ -414,10 +394,6 @@
             {
               "name": "Mode 2 - Reduced 8-bit",
               "dmxChannels": 33
-            },
-            {
-              "name": "Mode 1 - Standard 16-bit",
-              "dmxChannels": 40
             }
           ],
           "weightKilogram": 0,
@@ -427,7 +403,7 @@
           "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_BMFL_Spot_DMX_charts.pdf"
         },
         {
-          "type": "Moving head profile light",
+          "type": "Profile",
           "name": "BMFL Blade",
           "modes": [
             {
@@ -437,10 +413,6 @@
             {
               "name": "Mode 2 - Reduced 8-bit",
               "dmxChannels": 42
-            },
-            {
-              "name": "Mode 1 - Standard 16-bit",
-              "dmxChannels": 48
             }
           ],
           "weightKilogram": 0,
@@ -525,14 +497,6 @@
             {
               "name": "Mode 6",
               "dmxChannels": 98
-            },
-            {
-              "name": "Mode 1",
-              "dmxChannels": 42
-            },
-            {
-              "name": "Mode 2",
-              "dmxChannels": 62
             }
           ],
           "weightKilogram": 0,
@@ -593,10 +557,6 @@
             {
               "name": "Mode 1 - Pixel control",
               "dmxChannels": 24
-            },
-            {
-              "name": "Mode 1 - Pixel control",
-              "dmxChannels": 24
             }
           ],
           "weightKilogram": 8,
@@ -616,10 +576,6 @@
             {
               "name": "Mode 2 - Extended",
               "dmxChannels": 32
-            },
-            {
-              "name": "Mode 1 - Standard",
-              "dmxChannels": 20
             }
           ],
           "weightKilogram": 0,
@@ -655,10 +611,6 @@
             {
               "name": "Mode 6",
               "dmxChannels": 1
-            },
-            {
-              "name": "Mode 1",
-              "dmxChannels": 20
             }
           ],
           "weightKilogram": 12,
