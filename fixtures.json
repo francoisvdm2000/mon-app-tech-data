@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-01-30T11:29:40.859Z",
+  "updatedAt": "2026-01-30T11:39:44.115Z",
   "manufacturers": [
     {
       "name": "PR Lighting",
       "products": [
         {
-          "type": "Moving head beam light",
+          "type": "Beam",
           "name": "XR 380 Beam",
           "modes": [
             {
@@ -25,7 +25,7 @@
           "dmxChartUrl": "http://www.pr-lighting.com/upload/2018-07-11/XR380BEAM_User_Manual.pdf"
         },
         {
-          "type": "Moving head beam spot wash",
+          "type": "BWS",
           "name": "XR 330 Spot",
           "modes": [
             {
@@ -44,7 +44,7 @@
           "dmxChartUrl": "http://www.pr-lighting.com/upload/2017-03-16/XR330_User_Manual.pdf"
         },
         {
-          "type": "Moving head beam light",
+          "type": "Beam",
           "name": "XR 230 Beam",
           "modes": [
             {
@@ -59,7 +59,7 @@
           "dmxChartUrl": "http://www.pr-lighting.com/upload/2016-08-18/XR230BEAM_User_Manual.pdf"
         },
         {
-          "type": "Moving head wash light",
+          "type": "Wash",
           "name": "XLED 1061 Wash",
           "modes": [
             {
@@ -78,7 +78,7 @@
           "dmxChartUrl": "http://www.pr-lighting.com/upload/2016-06-14/XLED1061_User_Manual.pdf"
         },
         {
-          "type": "Moving head wash light",
+          "type": "Wash",
           "name": "AQUA 580 Wash",
           "modes": [
             {
@@ -97,7 +97,7 @@
           "dmxChartUrl": "http://www.pr-lighting.com/upload/2019-04-02/AQUA580_User_Manual.pdf"
         },
         {
-          "type": "Moving head profile light",
+          "type": "Profile",
           "name": "Best Boy Profile",
           "modes": [
             {
@@ -116,7 +116,7 @@
           "dmxChartUrl": "http://www.pr-lighting.com/upload/2020-05-18/BestBoyProfile_User_Manual.pdf"
         },
         {
-          "type": "Moving head wash light",
+          "type": "Wash",
           "name": "Studio 1200 Wash",
           "modes": [
             {
@@ -135,7 +135,7 @@
           "dmxChartUrl": "http://www.pr-lighting.com/upload/2021-01-12/STUDIO1200_User_Manual.pdf"
         },
         {
-          "type": "Moving head beam light",
+          "type": "Beam",
           "name": "AQUA 580 Beam",
           "modes": [
             {
@@ -150,7 +150,7 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Moving head beam spot wash",
+          "type": "BWS",
           "name": "AQUA 580 BWS",
           "modes": [],
           "weightKilogram": 0,
@@ -160,7 +160,7 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Moving head beam light",
+          "type": "Beam",
           "name": "AQUA Marine 580 Beam",
           "modes": [
             {
@@ -183,7 +183,7 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Moving head beam spot wash",
+          "type": "BWS",
           "name": "AQUA Marine 580 BWS",
           "modes": [],
           "weightKilogram": 0,
@@ -193,7 +193,7 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Moving head beam spot wash",
+          "type": "BWS",
           "name": "AQUA 480 BWS",
           "modes": [],
           "weightKilogram": 0,
@@ -203,7 +203,7 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Moving head beam light",
+          "type": "Beam",
           "name": "AQUA 480 Beam",
           "modes": [],
           "weightKilogram": 0,
@@ -213,7 +213,7 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Moving head beam spot wash",
+          "type": "BWS",
           "name": "AQUA 380 BWS",
           "modes": [],
           "weightKilogram": 0,
