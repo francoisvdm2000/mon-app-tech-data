@@ -39,28 +39,36 @@ android {
 
     // ✅ Signature release
     signingConfigs {
-    create("release") {
-        val keyAliasProp = keystoreProperties.getProperty("keyAlias")
-            ?: error("Missing 'keyAlias' in android/key.properties")
-        val keyPasswordProp = keystoreProperties.getProperty("keyPassword")
-            ?: error("Missing 'keyPassword' in android/key.properties")
-        val storeFileProp = keystoreProperties.getProperty("storeFile")
-            ?: error("Missing 'storeFile' in android/key.properties")
-        val storePasswordProp = keystoreProperties.getProperty("storePassword")
-            ?: error("Missing 'storePassword' in android/key.properties")
+        create("release") {
+            val keyAliasProp = keystoreProperties.getProperty("keyAlias")
+                ?: error("Missing 'keyAlias' in android/key.properties")
+            val keyPasswordProp = keystoreProperties.getProperty("keyPassword")
+                ?: error("Missing 'keyPassword' in android/key.properties")
+            val storeFileProp = keystoreProperties.getProperty("storeFile")
+                ?: error("Missing 'storeFile' in android/key.properties")
+            val storePasswordProp = keystoreProperties.getProperty("storePassword")
+                ?: error("Missing 'storePassword' in android/key.properties")
 
-        keyAlias = keyAliasProp
-        keyPassword = keyPasswordProp
-        storeFile = file(storeFileProp)
-        storePassword = storePasswordProp
+            keyAlias = keyAliasProp
+            keyPassword = keyPasswordProp
+            storeFile = file(storeFileProp)
+            storePassword = storePasswordProp
+        }
     }
-}
-
 
     buildTypes {
+        // On laisse debug tranquille
+        debug {
+            // rien
+        }
+
         release {
-            // ✅ On signe maintenant avec la config release (et plus debug)
+            // ✅ Signature release
             signingConfig = signingConfigs.getByName("release")
+
+            // ✅ APK bêta stable (pas de minify/shrink pour éviter bugs surprises)
+            isMinifyEnabled = false
+            isShrinkResources = false
         }
     }
 }
