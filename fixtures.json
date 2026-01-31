@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-01-31T13:09:37.277Z",
+  "updatedAt": "2026-01-31T13:19:39.346Z",
   "manufacturers": [
     {
       "name": "GLP",
@@ -624,7 +624,7 @@
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
-          "luminousFluxLumen": 0,
+          "luminousFluxLumen": 40000,
           "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_BMFL_Spot.pdf",
           "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_BMFL_Spot_DMX_charts.pdf"
         },
@@ -879,6 +879,21 @@
           "luminousFluxLumen": 11958,
           "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_T15_PC_Fresnel.pdf",
           "dmxChartUrl": ""
+        },
+        {
+          "type": "BWS",
+          "name": "iBolt",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard",
+              "dmxChannels": 37
+            }
+          ],
+          "weightKilogram": 54.4,
+          "powerWatt": 700,
+          "luminousFluxLumen": 26800,
+          "manualUrl": "https://www.robelighting.fr/res/downloads/user_manuals/User_manual_Robin_iBOLT.pdf",
+          "dmxChartUrl": "https://www.robelighting.fr/res/downloads/dmx_charts/Robin_iBolt_DMX_charts.pdf"
         }
       ]
     }
