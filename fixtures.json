@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-01-31T13:59:37.754Z",
+  "updatedAt": "2026-01-31T14:10:05.257Z",
   "manufacturers": [
     {
       "name": "GLP",
@@ -247,8 +247,8 @@
           "weightKilogram": 17,
           "powerWatt": 600,
           "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": "http://www.pr-lighting.com/upload/2018-07-11/XR380BEAM_User_Manual.pdf"
+          "manualUrl": "https://drive.google.com/file/d/1F8KhWlmIWOjpjfDsfl6L5SPzQo1e9tPI/view?usp=drive_link",
+          "dmxChartUrl": ""
         },
         {
           "type": "BWS",
@@ -390,33 +390,11 @@
             {
               "name": "Short mode",
               "dmxChannels": 25
-            }
-          ],
-          "weightKilogram": 37.6,
-          "powerWatt": 800,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1VgHTDJqWoF8RxC5GcTaceOEcfhze4sHj/view?usp=drive_link",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "BWS",
-          "name": "AQUA 580 BWS PR-2598",
-          "modes": [
+            },
             {
               "name": "Standard mode",
               "dmxChannels": 31
-            }
-          ],
-          "weightKilogram": 37.6,
-          "powerWatt": 800,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "BWS",
-          "name": "AQUA 580 BWS PR-2599",
-          "modes": [
+            },
             {
               "name": "Extended mode",
               "dmxChannels": 35
@@ -425,7 +403,7 @@
           "weightKilogram": 37.6,
           "powerWatt": 800,
           "luminousFluxLumen": 0,
-          "manualUrl": "",
+          "manualUrl": "https://drive.google.com/file/d/1VgHTDJqWoF8RxC5GcTaceOEcfhze4sHj/view?usp=drive_link",
           "dmxChartUrl": ""
         },
         {
@@ -478,33 +456,11 @@
             {
               "name": "Short mode",
               "dmxChannels": 19
-            }
-          ],
-          "weightKilogram": 45,
-          "powerWatt": 650,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1rMVDVcu2_3utiJE4ijlhG_0F8CDFoBp1/view?usp=drive_link",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Beam",
-          "name": "AQUA 480 Beam PR-2470",
-          "modes": [
+            },
             {
               "name": "Standard mode",
               "dmxChannels": 26
-            }
-          ],
-          "weightKilogram": 45,
-          "powerWatt": 650,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Beam",
-          "name": "AQUA 480 Beam PR-2471",
-          "modes": [
+            },
             {
               "name": "Extended mode",
               "dmxChannels": 29
@@ -513,7 +469,7 @@
           "weightKilogram": 45,
           "powerWatt": 650,
           "luminousFluxLumen": 0,
-          "manualUrl": "",
+          "manualUrl": "https://drive.google.com/file/d/1rMVDVcu2_3utiJE4ijlhG_0F8CDFoBp1/view?usp=drive_link",
           "dmxChartUrl": ""
         },
         {
@@ -534,6 +490,29 @@
           "powerWatt": 0,
           "luminousFluxLumen": 0,
           "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "AQUALED600",
+          "modes": [
+            {
+              "name": "Short mode",
+              "dmxChannels": 25
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 38
+            }
+          ],
+          "weightKilogram": 50,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://drive.google.com/file/d/1BLFnLEj65a6R-SGHtdv-3MduEpEct9aW/view?usp=drive_link",
           "dmxChartUrl": ""
         }
       ]
