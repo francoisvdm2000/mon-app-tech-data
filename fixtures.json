@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-01-31T13:39:56.419Z",
+  "updatedAt": "2026-01-31T13:49:37.282Z",
   "manufacturers": [
     {
       "name": "GLP",
@@ -233,15 +233,15 @@
       "products": [
         {
           "type": "Beam",
-          "name": "XR 380 Beam",
+          "name": "XR 380 Beam PR-2345A",
           "modes": [
             {
               "name": "Standard mode",
-              "dmxChannels": 16
+              "dmxChannels": 14
             },
             {
               "name": "Extended mode",
-              "dmxChannels": 20
+              "dmxChannels": 16
             }
           ],
           "weightKilogram": 17,
@@ -362,7 +362,7 @@
         },
         {
           "type": "Beam",
-          "name": "AQUA 580 Beam",
+          "name": "AQUA 580 Beam PR-",
           "modes": [
             {
               "name": "Standard mode",
@@ -377,10 +377,45 @@
         },
         {
           "type": "BWS",
-          "name": "AQUA 580 BWS",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
+          "name": "AQUA 580 BWS PR-2597",
+          "modes": [
+            {
+              "name": "Short mode",
+              "dmxChannels": 25
+            }
+          ],
+          "weightKilogram": 37.6,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.pr-lighting.com/vancheerfile/files/2025/8/2025081215283832.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "BWS",
+          "name": "AQUA 580 BWS PR-2598",
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 37.6,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.pr-lighting.com/vancheerfile/files/2025/8/2025081215283832.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "BWS",
+          "name": "AQUA 580 BWS PR-2599",
+          "modes": [
+            {
+              "name": "Extended mode",
+              "dmxChannels": 35
+            }
+          ],
+          "weightKilogram": 37.6,
+          "powerWatt": 800,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.pr-lighting.com/vancheerfile/files/2025/8/2025081215283832.pdf",
           "dmxChartUrl": ""
@@ -574,6 +609,37 @@
             }
           ],
           "weightKilogram": 28.2,
+          "powerWatt": 950,
+          "luminousFluxLumen": 34000,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Esprite.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Esprite_DMX_charts.pdf"
+        },
+        {
+          "type": "Profile",
+          "name": "iESPRITE",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 49
+            },
+            {
+              "name": "Mode 2 - Reduced 8-bit",
+              "dmxChannels": 42
+            },
+            {
+              "name": "Mode 3 - Standard 16-bit + green correction",
+              "dmxChannels": 50
+            },
+            {
+              "name": "Mode 4 - Reduce 8 bit + green correction",
+              "dmxChannels": 43
+            },
+            {
+              "name": "Mode 5 - Enhanced gobo control",
+              "dmxChannels": 51
+            }
+          ],
+          "weightKilogram": 34,
           "powerWatt": 950,
           "luminousFluxLumen": 34000,
           "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Esprite.pdf",
