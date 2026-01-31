@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-01-31T13:29:38.327Z",
+  "updatedAt": "2026-01-31T13:39:56.419Z",
   "manufacturers": [
     {
       "name": "GLP",
@@ -522,23 +522,58 @@
           "name": "ESPRITE FS",
           "modes": [
             {
-              "name": "Mode 1",
+              "name": "Mode 1 - Standard 16-bit",
               "dmxChannels": 49
             },
             {
-              "name": "Mode 2",
+              "name": "Mode 2 - Reduced 8-bit",
               "dmxChannels": 42
             },
             {
-              "name": "Mode 3",
+              "name": "Mode 3 - Standard 16-bit + green correction",
               "dmxChannels": 50
             },
             {
-              "name": "Mode 4",
+              "name": "Mode 4 - Reduce 8 bit + green correction",
               "dmxChannels": 43
+            },
+            {
+              "name": "Mode 5 - Enhanced gobo control",
+              "dmxChannels": 51
             }
           ],
           "weightKilogram": 0,
+          "powerWatt": 950,
+          "luminousFluxLumen": 34000,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Esprite.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Esprite_DMX_charts.pdf"
+        },
+        {
+          "type": "Profile",
+          "name": "ESPRITE",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 49
+            },
+            {
+              "name": "Mode 2 - Reduced 8-bit",
+              "dmxChannels": 42
+            },
+            {
+              "name": "Mode 3 - Standard 16-bit + green correction",
+              "dmxChannels": 50
+            },
+            {
+              "name": "Mode 4 - Reduce 8 bit + green correction",
+              "dmxChannels": 43
+            },
+            {
+              "name": "Mode 5 - Enhanced gobo control",
+              "dmxChannels": 51
+            }
+          ],
+          "weightKilogram": 28.2,
           "powerWatt": 950,
           "luminousFluxLumen": 34000,
           "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Esprite.pdf",
@@ -688,15 +723,15 @@
           "modes": [
             {
               "name": "Mode 1 - Wash",
-              "dmxChannels": 28
+              "dmxChannels": 34
             },
             {
               "name": "Mode 2 - Pattern",
-              "dmxChannels": 34
+              "dmxChannels": 56
             },
             {
               "name": "Mode 3 - Pixel RGB",
-              "dmxChannels": 34
+              "dmxChannels": 97
             },
             {
               "name": "Mode 4 - Pixel RGBW",
@@ -722,12 +757,32 @@
           "name": "iTetra2 IP65",
           "modes": [
             {
-              "name": "Mode 1 - Standard",
-              "dmxChannels": 28
+              "name": "Mode 1 - Wash",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Mode 2 - Pattern",
+              "dmxChannels": 56
+            },
+            {
+              "name": "Mode 3 - Pixel RGB",
+              "dmxChannels": 97
+            },
+            {
+              "name": "Mode 4 - Pixel RGBW",
+              "dmxChannels": 115
+            },
+            {
+              "name": "Mode 5 - Pattern Full RGB",
+              "dmxChannels": 110
+            },
+            {
+              "name": "Mode 6 - Pattern Full RGBW",
+              "dmxChannels": 128
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
+          "weightKilogram": 29.3,
+          "powerWatt": 600,
           "luminousFluxLumen": 10500,
           "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_iTetra2_IP65.pdf",
           "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_iTetra2_IP65_DMX_charts.pdf"
@@ -737,27 +792,27 @@
           "name": "TetraX",
           "modes": [
             {
-              "name": "Mode 1",
+              "name": "Mode 1 - Wash",
               "dmxChannels": 42
             },
             {
-              "name": "Mode 2",
+              "name": "Mode 2 - Pattern",
               "dmxChannels": 62
             },
             {
-              "name": "Mode 3",
+              "name": "Mode 3 - Pixel RGB",
               "dmxChannels": 76
             },
             {
-              "name": "Mode 4",
+              "name": "Mode 4 - Pixel RGBW",
               "dmxChannels": 85
             },
             {
-              "name": "Mode 5",
+              "name": "Mode 5 - Pattern Full RGB",
               "dmxChannels": 89
             },
             {
-              "name": "Mode 6",
+              "name": "Mode 6 - Pattern Full RGBW",
               "dmxChannels": 98
             }
           ],
