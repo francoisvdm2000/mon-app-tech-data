@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../app/ui/widgets.dart'; // numFormatter, ResultBox-like styling helpers if needed
 import 'laser/laser_calculations.dart';
 import 'laser/laser_storage.dart';
 
@@ -141,9 +142,7 @@ class _LaserPageState extends State<LaserPage> {
           content: TextField(
             controller: controller,
             autofocus: true,
-            decoration: const InputDecoration(
-              labelText: 'Nom du projecteur',
-            ),
+            decoration: const InputDecoration(labelText: 'Nom du projecteur'),
           ),
           actions: [
             TextButton(
@@ -204,7 +203,6 @@ class _LaserPageState extends State<LaserPage> {
     _showSnack('Enregistrement supprimé.');
   }
 
-  // ✅ Option B : renommage via icône crayon
   Future<void> _renamePreset(LaserPreset preset) async {
     final controller = TextEditingController(text: preset.name);
 
@@ -215,9 +213,7 @@ class _LaserPageState extends State<LaserPage> {
         content: TextField(
           controller: controller,
           autofocus: true,
-          decoration: const InputDecoration(
-            labelText: 'Nom du projecteur',
-          ),
+          decoration: const InputDecoration(labelText: 'Nom du projecteur'),
         ),
         actions: [
           TextButton(
@@ -255,26 +251,130 @@ class _LaserPageState extends State<LaserPage> {
     _showSnack('Nom mis à jour.');
   }
 
+  InputDecoration _dec(String label, String hint) {
+    return InputDecoration(
+      labelText: label,
+      hintText: hint,
+    );
+  }
+
+  Widget _numField({
+    required TextEditingController controller,
+    required String label,
+    required String hint,
+    TextInputAction? action,
+    VoidCallback? onDone,
+  }) {
+    return TextField(
+      controller: controller,
+      keyboardType: const TextInputType.numberWithOptions(decimal: true, signed: false),
+      inputFormatters: [numFormatter],
+      textInputAction: action,
+      onSubmitted: (_) => onDone?.call(),
+      decoration: _dec(label, hint),
+    );
+  }
+
+  Widget _resultsCard({
+    required String title,
+    required IconData icon,
+    required Widget child,
+  }) {
+    return Card(
+      elevation: 0,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+      child: Padding(
+        padding: const EdgeInsets.all(14),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Row(
+              children: [
+                Icon(icon, color: Colors.white),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Text(
+                    title,
+                    style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.white),
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 12),
+            child,
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _zoneLine({
+    required String label,
+    required String desc,
+    required String value,
+    required Color color,
+  }) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+      decoration: BoxDecoration(
+        color: const Color(0xFF0B0B0B),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: Colors.white.withValues(alpha: 0.10)),
+      ),
+      child: Row(
+        children: [
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+            decoration: BoxDecoration(
+              color: color.withValues(alpha: 0.16),
+              borderRadius: BorderRadius.circular(999),
+              border: Border.all(color: color.withValues(alpha: 0.35)),
+            ),
+            child: Text(
+              label,
+              style: TextStyle(
+                color: color.withValues(alpha: 0.95),
+                fontWeight: FontWeight.w900,
+                letterSpacing: 0.4,
+              ),
+            ),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Text(
+              desc,
+              style: TextStyle(color: Colors.white.withValues(alpha: 0.70), fontWeight: FontWeight.w600),
+            ),
+          ),
+          const SizedBox(width: 12),
+          Text(
+            value,
+            style: TextStyle(
+              fontFamily: 'monospace',
+              fontSize: 16,
+              fontWeight: FontWeight.w900,
+              color: Colors.white.withValues(alpha: 0.95),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
-    final bg = Colors.black;
-    final cardGrey = const Color(0xFFE6E6E6);
-    final orange = Colors.deepOrange;
-    final blue = Colors.lightBlueAccent;
+    final bottomPad = MediaQuery.of(context).viewPadding.bottom;
 
     final targetDistanceRaw = _targetDistanceController.text.trim();
     final parsedTargetDistance = _parseDouble(targetDistanceRaw) ?? 0.0;
     final hasTargetDistance = targetDistanceRaw.isNotEmpty && parsedTargetDistance > 0;
 
-    // vert si usage <= 100 %
     final within = _target.isWithinLimit;
     final adviceColor = within ? Colors.greenAccent : Colors.redAccent;
 
     final String? adviceText = !hasTargetDistance
         ? null
-        : (within
-            ? 'Pleine puissance autorisée (100 %)'
-            : 'Puissance maximale conseillée : ${_formatPercent(_target.recommendedMaxPercent)}');
+        : (within ? 'Pleine puissance autorisée (100 %)' : 'Puissance maximale conseillée : ${_formatPercent(_target.recommendedMaxPercent)}');
 
     final filteredPresets = _presets.where((p) {
       if (_searchQuery.isEmpty) return true;
@@ -282,56 +382,53 @@ class _LaserPageState extends State<LaserPage> {
     }).toList();
 
     return Scaffold(
-      backgroundColor: bg,
       appBar: AppBar(
-        backgroundColor: bg,
         title: const Text('Laser'),
-        centerTitle: false,
       ),
       body: SafeArea(
         bottom: true,
         child: SingleChildScrollView(
-          padding: const EdgeInsets.fromLTRB(12, 12, 12, 24),
+          padding: EdgeInsets.fromLTRB(16, 12, 16, 16 + bottomPad),
           child: Column(
             children: [
-              // Bloc entrées + Enregistrer
-              Container(
-                padding: const EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  color: cardGrey,
-                  borderRadius: BorderRadius.circular(6),
-                ),
+              // ---------------- Entrées + Enregistrer ----------------
+              SectionCard(
+                title: 'Entrées',
+                icon: Icons.tune,
                 child: Column(
                   children: [
-                    _inputRow(
-                      label: 'Puissance (milliwatt)',
+                    _numField(
                       controller: _powerController,
-                      hint: 'Puissance',
-                    ),
-                    const SizedBox(height: 10),
-                    _inputRow(
-                      label: 'Divergence (milliradian)',
-                      controller: _divergenceController,
-                      hint: 'Divergence',
-                    ),
-                    const SizedBox(height: 10),
-                    _inputRow(
-                      label: 'Diamètre de sortie (millimètre)',
-                      controller: _diameterController,
-                      hint: 'Diamètre',
+                      label: 'Puissance (mW)',
+                      hint: 'ex: 5000',
+                      action: TextInputAction.next,
                     ),
                     const SizedBox(height: 12),
-                    Align(
-                      alignment: Alignment.centerRight,
-                      child: ElevatedButton.icon(
-                        onPressed: _saveCurrentPreset,
-                        icon: const Icon(Icons.save),
-                        label: const Text('Enregistrer'),
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color(0xFF0A1F44),
-                          foregroundColor: Colors.white,
+                    _numField(
+                      controller: _divergenceController,
+                      label: 'Divergence (mrad)',
+                      hint: 'ex: 1.2',
+                      action: TextInputAction.next,
+                    ),
+                    const SizedBox(height: 12),
+                    _numField(
+                      controller: _diameterController,
+                      label: 'Diamètre de sortie (mm)',
+                      hint: 'ex: 3.0',
+                      action: TextInputAction.done,
+                      onDone: _recompute,
+                    ),
+                    const SizedBox(height: 12),
+                    Row(
+                      children: [
+                        Expanded(
+                          child: ElevatedButton.icon(
+                            onPressed: _saveCurrentPreset,
+                            icon: const Icon(Icons.save),
+                            label: const Text('Enregistrer ce projecteur'),
+                          ),
                         ),
-                      ),
+                      ],
                     ),
                   ],
                 ),
@@ -339,280 +436,163 @@ class _LaserPageState extends State<LaserPage> {
 
               const SizedBox(height: 12),
 
-              // Enregistrements + recherche
-              Container(
-                width: double.infinity,
-                padding: const EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  color: cardGrey,
-                  borderRadius: BorderRadius.circular(6),
-                ),
+              // ---------------- Résultats ----------------
+              _resultsCard(
+                title: 'Résultats de sécurité',
+                icon: Icons.shield_outlined,
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text(
-                      'Enregistrements',
-                      style: TextStyle(fontWeight: FontWeight.bold),
+                    _zoneLine(
+                      label: 'NOHD',
+                      desc: 'Danger oculaire',
+                      value: _formatMeters(_zones.nohdMeter),
+                      color: Colors.redAccent,
                     ),
-                    const SizedBox(height: 8),
+                    const SizedBox(height: 10),
+                    _zoneLine(
+                      label: 'SZED',
+                      desc: 'Zone sensible',
+                      value: _formatMeters(_zones.szedMeter),
+                      color: Colors.lightBlueAccent,
+                    ),
+                    const SizedBox(height: 10),
+                    _zoneLine(
+                      label: 'CZED',
+                      desc: 'Zone critique',
+                      value: _formatMeters(_zones.czedMeter),
+                      color: Colors.deepOrangeAccent,
+                    ),
+                    const SizedBox(height: 14),
+                    const Divider(height: 1, color: Colors.white12),
+                    const SizedBox(height: 14),
 
-                    // ✅ Recherche : texte plus foncé comme les autres inputs
+                    _numField(
+                      controller: _targetDistanceController,
+                      label: 'Distance cible (m)',
+                      hint: 'ex: 10',
+                      action: TextInputAction.done,
+                      onDone: _recompute,
+                    ),
+
+                    if (adviceText != null) ...[
+                      const SizedBox(height: 10),
+                      Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          adviceText,
+                          style: TextStyle(color: adviceColor, fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                    ],
+                  ],
+                ),
+              ),
+
+              const SizedBox(height: 12),
+
+              // ---------------- Presets ----------------
+              SectionCard(
+                title: 'Projecteurs enregistrés',
+                icon: Icons.bookmarks_outlined,
+                child: Column(
+                  children: [
                     TextField(
                       controller: _searchController,
-                      style: const TextStyle(
-                        color: Colors.black,
-                        fontWeight: FontWeight.w600,
-                      ),
-                      cursorColor: Colors.black,
-                      decoration: InputDecoration(
-                        hintText: 'Rechercher un projecteur',
-                        hintStyle: const TextStyle(color: Colors.black45),
-                        prefixIcon: const Icon(Icons.search, color: Colors.black54),
-                        filled: true,
-                        fillColor: Colors.white,
-                        enabledBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(6),
-                          borderSide: const BorderSide(color: Colors.black26, width: 1),
-                        ),
-                        focusedBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(6),
-                          borderSide: const BorderSide(color: Colors.black87, width: 1.5),
-                        ),
-                        isDense: true,
+                      decoration: const InputDecoration(
+                        labelText: 'Rechercher',
+                        hintText: 'ex: “RGB 5W”',
+                        prefixIcon: Icon(Icons.search),
                       ),
                     ),
-
-                    const SizedBox(height: 8),
+                    const SizedBox(height: 10),
 
                     if (filteredPresets.isEmpty)
-                      const Text(
-                        'Aucun enregistrement',
-                        style: TextStyle(color: Colors.black87),
+                      Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          'Aucun enregistrement',
+                          style: TextStyle(color: Colors.white.withValues(alpha: 0.70)),
+                        ),
                       )
                     else
-                      ...filteredPresets.map((p) {
-                        return Dismissible(
-                          key: ValueKey(p.id),
-                          direction: DismissDirection.endToStart,
-                          background: Container(
-                            alignment: Alignment.centerRight,
-                            padding: const EdgeInsets.only(right: 16),
-                            color: Colors.redAccent,
-                            child: const Icon(Icons.delete, color: Colors.white),
-                          ),
-                          onDismissed: (_) => _deletePreset(p),
-                          child: ListTile(
-                            contentPadding: EdgeInsets.zero,
-                            title: Text(
-                              p.name,
-                              style: const TextStyle(
-                                color: Colors.black87,
-                                fontWeight: FontWeight.w600,
+                      Column(
+                        children: filteredPresets.map((p) {
+                          return Dismissible(
+                            key: ValueKey(p.id),
+                            direction: DismissDirection.endToStart,
+                            background: Container(
+                              alignment: Alignment.centerRight,
+                              padding: const EdgeInsets.only(right: 16),
+                              color: Colors.redAccent.withValues(alpha: 0.85),
+                              child: const Icon(Icons.delete, color: Colors.white),
+                            ),
+                            onDismissed: (_) => _deletePreset(p),
+                            child: ListTile(
+                              contentPadding: EdgeInsets.zero,
+                              title: Text(
+                                p.name,
+                                style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700),
                               ),
+                              subtitle: Text(
+                                'P: ${p.powerMilliwatt.toStringAsFixed(0)} mW • '
+                                'Div: ${p.divergenceMilliradian.toStringAsFixed(2)} mrad • '
+                                'Ø: ${p.outputDiameterMillimeter.toStringAsFixed(1)} mm',
+                                style: TextStyle(color: Colors.white.withValues(alpha: 0.65)),
+                              ),
+                              trailing: IconButton(
+                                tooltip: 'Renommer',
+                                icon: const Icon(Icons.edit),
+                                onPressed: () => _renamePreset(p),
+                              ),
+                              onTap: () => _applyPreset(p),
                             ),
-                            subtitle: Text(
-                              'Puissance : ${p.powerMilliwatt.toStringAsFixed(0)} milliwatt • '
-                              'Divergence : ${p.divergenceMilliradian.toStringAsFixed(2)} milliradian • '
-                              'Diamètre : ${p.outputDiameterMillimeter.toStringAsFixed(1)} millimètre',
-                              style: const TextStyle(color: Colors.black54),
-                            ),
-                            // ✅ pas de chevron, mais un crayon pour renommer
-                            trailing: IconButton(
-                              icon: const Icon(Icons.edit),
-                              onPressed: () => _renamePreset(p),
-                            ),
-                            onTap: () => _applyPreset(p),
-                          ),
-                        );
-                      }),
-                  ],
-                ),
-              ),
-
-              const SizedBox(height: 12),
-
-              // Bloc paramètres de sécurité
-              Container(
-                width: double.infinity,
-                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 14),
-                decoration: BoxDecoration(
-                  color: orange,
-                  borderRadius: BorderRadius.circular(6),
-                ),
-                child: const Column(
-                  children: [
-                    Text(
-                      'Paramètres de sécurité retenus',
-                      style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
-                      textAlign: TextAlign.center,
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      'MPE pour la distance nominale de danger oculaire (NOHD) : 25,4 W/m²\n'
-                      '(Norme IEC 60825-1, édition 3.0)\n\n'
-                      'MPE pour la distance d’exposition de la zone sensible (SZED) : 1 W/m²\n'
-                      '(Norme ANSI Z136.6)\n\n'
-                      'MPE pour la distance d’exposition de la zone critique (CZED) : 0,05 W/m²\n'
-                      '(Norme ANSI Z136.6)',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(color: Colors.white),
-                    ),
-                  ],
-                ),
-              ),
-
-              const SizedBox(height: 12),
-
-              // Bloc résultats
-              Container(
-                width: double.infinity,
-                padding: const EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  color: cardGrey,
-                  borderRadius: BorderRadius.circular(6),
-                ),
-                child: Column(
-                  children: [
-                    const Text('Résultat', style: TextStyle(fontWeight: FontWeight.bold)),
-                    const SizedBox(height: 10),
-                    _resultLine(
-                      label: 'Distance nominale de danger oculaire (NOHD) :',
-                      value: _formatMeters(_zones.nohdMeter),
-                      valueColor: Colors.red,
-                    ),
-                     const SizedBox(height: 6),
-                    _resultLine(
-                      label: 'Distance d’exposition de la zone sensible (SZED) :',
-                      value: _formatMeters(_zones.szedMeter),
-                      valueColor: blue,
-                    ),
-                    const SizedBox(height: 6),
-                    _resultLine(
-                      label: 'Distance d’exposition de la zone critique (CZED) :',
-                      value: _formatMeters(_zones.czedMeter),
-                      valueColor: Colors.deepOrange,
-                    ),
-                    
-                  ],
-                ),
-              ),
-
-              const SizedBox(height: 12),
-
-              // Distance cible
-              Row(
-                children: [
-                  const Expanded(
-                    child: Text(
-                      'Distance cible (mètre) :',
-                      style: TextStyle(color: Colors.white70),
-                    ),
-                  ),
-                  const SizedBox(width: 10),
-                  SizedBox(
-                    width: 180,
-                    child: TextField(
-                      controller: _targetDistanceController,
-                      keyboardType: const TextInputType.numberWithOptions(decimal: true),
-                      style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
-                      cursorColor: Colors.white,
-                      decoration: InputDecoration(
-                        hintText: 'Distance cible',
-                        hintStyle: const TextStyle(color: Colors.white54),
-                        filled: true,
-                        fillColor: const Color(0xFF1F1F1F),
-                        enabledBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(6),
-                          borderSide: const BorderSide(color: Colors.white54, width: 1),
-                        ),
-                        focusedBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(6),
-                          borderSide: const BorderSide(color: Colors.white, width: 1.5),
-                        ),
-                        isDense: true,
+                          );
+                        }).toList(),
                       ),
-                    ),
-                  ),
-                ],
-              ),
-
-              // ✅ Important : ce if DOIT être dans children: [ ... ]
-              if (adviceText != null) ...[
-                const SizedBox(height: 10),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    adviceText,
-                    style: TextStyle(color: adviceColor, fontWeight: FontWeight.bold),
-                  ),
+                  ],
                 ),
-              ],
+              ),
 
               const SizedBox(height: 16),
+              
+// ---------------- Paramètres normatifs (dropdown fermé) ----------------
+              ExpandSectionCard(
+                title: 'Paramètres de sécurité retenus',
+                icon: Icons.info_outline,
+                initiallyExpanded: false,
+                child: Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFF0B0B0B),
+                    borderRadius: BorderRadius.circular(14),
+                    border: Border.all(color: Colors.white.withValues(alpha: 0.10)),
+                  ),
+                  child: Text(
+                    'MPE pour la distance nominale de danger oculaire (NOHD) : 25,4 W/m²\n'
+                    '(Norme IEC 60825-1, édition 3.0)\n\n'
+                    'MPE pour la distance d’exposition de la zone sensible (SZED) : 1 W/m²\n'
+                    '(Norme ANSI Z136.6)\n\n'
+                    'MPE pour la distance d’exposition de la zone critique (CZED) : 0,05 W/m²\n'
+                    '(Norme ANSI Z136.6)',
+                    style: TextStyle(
+                      color: Colors.white.withValues(alpha: 0.85),
+                      height: 1.35,
+                    ),
+                  ),
+                ),
+              ),
 
-              const Text(
+              const SizedBox(height: 12),
+              Text(
                 'Calcul indicatif. Ne remplace pas une analyse de sécurité laser.',
                 textAlign: TextAlign.center,
-                style: TextStyle(color: Colors.white38, fontSize: 12),
+                style: TextStyle(color: Colors.white.withValues(alpha: 0.38), fontSize: 12),
               ),
             ],
           ),
         ),
       ),
-    );
-  }
-
-  Widget _inputRow({
-    required String label,
-    required TextEditingController controller,
-    required String hint,
-  }) {
-    return Row(
-      children: [
-        Expanded(
-          child: Text(label, style: const TextStyle(color: Colors.black87)),
-        ),
-        const SizedBox(width: 10),
-        SizedBox(
-          width: 180,
-          child: TextField(
-            controller: controller,
-            keyboardType: const TextInputType.numberWithOptions(decimal: true),
-            style: const TextStyle(color: Colors.black, fontWeight: FontWeight.w600),
-            cursorColor: Colors.black,
-            decoration: InputDecoration(
-              hintText: hint,
-              hintStyle: const TextStyle(color: Colors.black45),
-              filled: true,
-              fillColor: Colors.white,
-              enabledBorder: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(6),
-                borderSide: const BorderSide(color: Colors.black26, width: 1),
-              ),
-              focusedBorder: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(6),
-                borderSide: const BorderSide(color: Colors.black87, width: 1.5),
-              ),
-              isDense: true,
-            ),
-          ),
-        ),
-      ],
-    );
-  }
-
-  Widget _resultLine({
-    required String label,
-    required String value,
-    required Color valueColor,
-  }) {
-    return Row(
-      children: [
-        Expanded(
-          child: Text(label, style: const TextStyle(color: Colors.black87)),
-        ),
-        Text(value, style: TextStyle(color: valueColor, fontWeight: FontWeight.bold)),
-      ],
     );
   }
 }

@@ -1,32 +1,29 @@
 import 'package:flutter/material.dart';
 
-import 'video_lens_measure_page.dart';
-import 'video_brightness_page.dart';
-import 'video_multiprojecteur_page.dart';
-import 'video_led_page.dart';
-import 'video_mire_page.dart';
+import 'mire_ecran_led_page.dart';
+import 'mire_ecran_video_page.dart';
 
-class PageVideo extends StatelessWidget {
-  const PageVideo({super.key});
+class VideoMirePage extends StatelessWidget {
+  const VideoMirePage({super.key});
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Vidéo')),
+      appBar: AppBar(title: const Text('Mire')),
       body: SafeArea(
         bottom: true,
         child: ListView(
           padding: const EdgeInsets.fromLTRB(16, 12, 16, 16),
           children: [
             Text(
-              'Outils vidéo',
+              'Générateur de mires',
               style: theme.textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800),
             ),
             const SizedBox(height: 6),
             Text(
-              "Calculs indicatifs. Vérifie toujours la documentation constructeur.",
+              'Mires indicatives (calage, focus, géométrie, blend, pixel perfect).',
               style: theme.textTheme.bodyMedium?.copyWith(
                 color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
                 height: 1.25,
@@ -35,51 +32,21 @@ class PageVideo extends StatelessWidget {
             const SizedBox(height: 16),
 
             _TileCard(
-              title: 'Lentille & mesure',
-              subtitle: 'Ratio / largeur / hauteur (calculs 1 à 3).',
-              icon: Icons.straighten,
+              title: 'Mire écran vidéo',
+              subtitle: 'Simple (WxH px) + Mapping multi-projos (N + overlap).',
+              icon: Icons.videocam,
               onTap: () => Navigator.of(context).push(
-                MaterialPageRoute(builder: (_) => const VideoLensMeasurePage()),
+                MaterialPageRoute(builder: (_) => const MireEcranVideoPage()),
               ),
             ),
             const SizedBox(height: 12),
 
             _TileCard(
-              title: 'Luminosité',
-              subtitle: 'Lux / nits / ft-L + seuil (calcul 4).',
-              icon: Icons.brightness_6,
-              onTap: () => Navigator.of(context).push(
-                MaterialPageRoute(builder: (_) => const VideoBrightnessPage()),
-              ),
-            ),
-            const SizedBox(height: 12),
-
-            _TileCard(
-              title: 'Multiprojecteur',
-              subtitle: 'Overlap + largeur/projo + nombre de projos (calculs 5 & 6).',
-              icon: Icons.grid_on,
-              onTap: () => Navigator.of(context).push(
-                MaterialPageRoute(builder: (_) => const VideoMultiprojecteurPage()),
-              ),
-            ),
-            const SizedBox(height: 12),
-
-            _TileCard(
-              title: 'LED',
-              subtitle: 'Pixels du mur LED selon taille, pitch, dimension des tiles.',
+              title: 'Mire écran LED',
+              subtitle: 'Mire selon WxH px (pixel perfect, uniformité, grille).',
               icon: Icons.view_quilt,
               onTap: () => Navigator.of(context).push(
-                MaterialPageRoute(builder: (_) => const VideoLedPage()),
-              ),
-            ),
-            const SizedBox(height: 12),
-
-            _TileCard(
-              title: 'Mire',
-              subtitle: 'Création de mire vidéo pour écran et mur LED (à faire après).',
-              icon: Icons.image,
-              onTap: () => Navigator.of(context).push(
-                MaterialPageRoute(builder: (_) => const VideoMirePage()),
+                MaterialPageRoute(builder: (_) => const MireEcranLedPage()),
               ),
             ),
           ],

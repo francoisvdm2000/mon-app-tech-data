@@ -2,14 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../app/constants.dart';
-
 import 'about_page.dart';
 import 'mentions_page.dart';
 import 'lumiere_page.dart';
 import 'laser_page.dart';
 import 'video/video_page.dart';
-
-// ✅ Nouveau : dialog séparé pour le consentement Laser
 import 'laser/laser_consent_dialog.dart';
 
 class PageAccueil extends StatefulWidget {
@@ -44,10 +41,12 @@ class _PageAccueilState extends State<PageAccueil> {
   Future<void> _resetConsents() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.remove(kPrefDisclaimerAccepted);
-      if (!mounted) return;
+    if (!mounted) return;
 
-    ScaffoldMessenger.of(context)
-        .showSnackBar(const SnackBar(content: Text("Consentements réinitialisés.")));
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(content: Text("Consentements réinitialisés.")),
+    );
+
     WidgetsBinding.instance.addPostFrameCallback((_) => _showDisclaimerDialog());
   }
 
@@ -103,31 +102,88 @@ class _PageAccueilState extends State<PageAccueil> {
     );
   }
 
-  // ✅ Modifié : consentement Laser via LaserConsentDialog séparé
   Future<void> _goToLaserWithConsent() async {
-  if (!mounted) return;
+    if (!mounted) return;
 
-  final accepted = await showDialog<bool>(
-    context: context,
-    barrierDismissible: false,
-    builder: (_) {
-      return LaserConsentDialog(
-        onAccepted: () async {
-          // ✅ On n'enregistre plus kPrefLaserAccepted
-          // (consentement affiché à chaque fois)
-        },
-      );
-    },
-  );
+    final accepted = await showDialog<bool>(
+      context: context,
+      barrierDismissible: false,
+      builder: (_) {
+        return LaserConsentDialog(
+          onAccepted: () async {
+            // consentement affiché à chaque entrée -> rien à stocker
+          },
+        );
+      },
+    );
 
-  if (accepted == true && mounted) {
-    Navigator.push(context, MaterialPageRoute(builder: (_) => LaserPage()));
+    if (accepted == true && mounted) {
+      Navigator.push(context, MaterialPageRoute(builder: (_) => LaserPage()));
+    }
   }
+
+  void _push(Widget page) {
+    Navigator.push(context, MaterialPageRoute(builder: (_) => page));
+  }
+
+  Widget _homeTile({
+  required IconData icon,
+  required String title,
+  required String subtitle,
+  required VoidCallback onTap,
+}) {
+  return Card(
+    elevation: 0,
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+    child: InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(16),
+      child: Padding(
+        padding: const EdgeInsets.all(14),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Row(
+              children: [
+                Icon(icon, color: Colors.white),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Text(
+                    title,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+                Icon(Icons.chevron_right, color: Colors.white.withValues(alpha: 0.55)),
+              ],
+            ),
+            const SizedBox(height: 12),
+            Text(
+              subtitle,
+              style: TextStyle(
+                color: Colors.white.withValues(alpha: 0.70),
+                height: 1.25,
+                fontSize: 13,
+              ),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
 }
+
 
 
   @override
   Widget build(BuildContext context) {
+    final bottom = MediaQuery.of(context).viewPadding.bottom;
+
     return Scaffold(
       appBar: AppBar(title: const Text('Accueil')),
       drawer: Drawer(
@@ -145,10 +201,7 @@ class _PageAccueilState extends State<PageAccueil> {
               leading: const Icon(Icons.gavel),
               onTap: () {
                 Navigator.pop(context);
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (_) => const PageMentionsLegales()),
-                );
+                _push(const PageMentionsLegales());
               },
             ),
             ListTile(
@@ -162,40 +215,44 @@ class _PageAccueilState extends State<PageAccueil> {
           ],
         ),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            ElevatedButton(
-              onPressed: () => Navigator.push(
-                context,
-                MaterialPageRoute(builder: (_) => const PageAbout()),
+      body: SafeArea(
+        bottom: true,
+        child: SingleChildScrollView(
+          padding: EdgeInsets.fromLTRB(16, 12, 16, 16 + bottom),
+          child: Column(
+            children: [
+              _homeTile(
+                icon: Icons.person_outline,
+                title: "About",
+                subtitle: "Informations, contexte et notes sur l’application.",
+                onTap: () => _push(const PageAbout()),
               ),
-              child: const Text('Partie 1 : About me'),
-            ),
-            const SizedBox(height: 12),
-            ElevatedButton(
-              onPressed: () => Navigator.push(
-                context,
-                MaterialPageRoute(builder: (_) => const PageVideo()),
+              const SizedBox(height: 12),
+
+              _homeTile(
+                icon: Icons.video_settings,
+                title: "Vidéo",
+                subtitle: "Lentille & mesure, luminosité, multiprojecteur, LED et mires.",
+                onTap: () => _push(const PageVideo()),
               ),
-              child: const Text('Partie 2 : Vidéo'),
-            ),
-            const SizedBox(height: 12),
-            ElevatedButton(
-              onPressed: () => Navigator.push(
-                context,
-                MaterialPageRoute(builder: (_) => const PageLumiere()),
+              const SizedBox(height: 12),
+
+              _homeTile(
+                icon: Icons.lightbulb_outline,
+                title: "Lumière",
+                subtitle: "Taille de projection, dip-switch DMX, photométrie, catalogue, patch DMX.",
+                onTap: () => _push(const PageLumiere()),
               ),
-              child: const Text('Partie 3 : Lumière'),
-            ),
-            const SizedBox(height: 12),
-            ElevatedButton(
-              onPressed: _goToLaserWithConsent,
-              child: const Text('Partie 4 : Laser'),
-            ),
-          ],
+              const SizedBox(height: 12),
+
+              _homeTile(
+                icon: Icons.center_focus_strong, // ✅ remplace l’icône inexistante
+                title: "Laser",
+                subtitle: "Calculs et sécurité laser (consentement requis à chaque entrée).",
+                onTap: _goToLaserWithConsent,
+              ),
+            ],
+          ),
         ),
       ),
     );
