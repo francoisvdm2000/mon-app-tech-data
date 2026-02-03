@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-03T12:09:41.589Z",
+  "updatedAt": "2026-02-03T12:19:41.022Z",
   "manufacturers": [
     {
       "name": "GLP",
@@ -710,8 +710,8 @@
           "weightKilogram": 15,
           "powerWatt": 470,
           "luminousFluxLumen": 9870,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Pointe.pdf",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Pointe_DMX_charts.pdf"
+          "manualUrl": "https://drive.google.com/file/d/13R7m4C0EtabQUEah06R30EKgesCesrSG/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1jMZQPDaVrHeWi6ejrD5enzycdw37qU-r/view?usp=sharing"
         },
         {
           "type": "BSW",
@@ -729,8 +729,8 @@
           "weightKilogram": 22,
           "powerWatt": 670,
           "luminousFluxLumen": 20375,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_MegaPointe.pdf",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_MegaPointe_DMX_charts.pdf"
+          "manualUrl": "https://drive.google.com/file/d/1Ri4mIoceJ4XZmc6aknEqksOQpUOihCbw/view?usp=sharing",
+          "dmxChartUrl": "https://drive.google.com/file/d/1gL1bSzr8mNHYYQks2nsfG16UELuUBdFp/view?usp=sharing"
         },
         {
           "type": "Spot",
