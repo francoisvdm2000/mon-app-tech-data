@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-03T12:49:41.681Z",
+  "updatedAt": "2026-02-03T12:59:39.782Z",
   "manufacturers": [
     {
       "name": "GLP",
@@ -571,8 +571,8 @@
           "weightKilogram": 0,
           "powerWatt": 440,
           "luminousFluxLumen": 15200,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Painte.pdf",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Painte_DMX_charts.pdf"
+          "manualUrl": "https://drive.google.com/file/d/1EjgetGdFprzCQXQITZ8jh9IS3agIzB49/view?usp=sharing",
+          "dmxChartUrl": "https://drive.google.com/file/d/1nGpDwzjxmOur42F4YEvUpbObfav2Pn1y/view?usp=sharing"
         },
         {
           "type": "Profile",
