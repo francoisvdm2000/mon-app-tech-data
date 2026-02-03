@@ -1,9 +1,18 @@
 import 'package:flutter/material.dart';
 
-import '../../app/ui/widgets.dart';
+import '../../app/ui/widgets.dart'; // SectionCard, copyToClipboard
 
 class AboutInformatiquePage extends StatefulWidget {
-  const AboutInformatiquePage({super.key});
+  const AboutInformatiquePage({super.key, this.initialAnchor});
+
+  /// ID d’ancre optionnel pour arriver DIRECT à la bonne section.
+  /// Valeurs possibles :
+  /// - kUsb
+  /// - kStorage
+  /// - kVideo
+  /// - kPcie
+  /// - kChecklist
+  final String? initialAnchor;
 
   @override
   State<AboutInformatiquePage> createState() => _AboutInformatiquePageState();
@@ -19,33 +28,57 @@ class _AboutInformatiquePageState extends State<AboutInformatiquePage> {
   final _kChecklist = GlobalKey();
 
   @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final id = widget.initialAnchor;
+      if (id == null || id.trim().isEmpty) return;
+      _goToAnchor(id.trim());
+    });
+  }
+
+  @override
   void dispose() {
     _scroll.dispose();
     super.dispose();
   }
 
-  Future<void> _goTo(GlobalKey key) async {
+  void _goTo(GlobalKey key) {
     final ctx = key.currentContext;
     if (ctx == null) return;
-    await Scrollable.ensureVisible(
+    Scrollable.ensureVisible(
       ctx,
       duration: const Duration(milliseconds: 280),
-      curve: Curves.easeOut,
+      curve: Curves.easeOutCubic,
       alignment: 0.06,
     );
+  }
+
+  GlobalKey? _keyForAnchor(String id) {
+    switch (id) {
+      case 'kUsb':
+        return _kUsb;
+      case 'kStorage':
+        return _kStorage;
+      case 'kVideo':
+        return _kVideo;
+      case 'kPcie':
+        return _kPcie;
+      case 'kChecklist':
+        return _kChecklist;
+    }
+    return null;
+  }
+
+  void _goToAnchor(String id) {
+    final key = _keyForAnchor(id);
+    if (key == null) return;
+    _goTo(key);
   }
 
   @override
   Widget build(BuildContext context) {
     final bottom = MediaQuery.of(context).viewPadding.bottom;
-
-    final toc = <_TocEntry>[
-      _TocEntry('1) USB / USB-C / Thunderbolt', _kUsb),
-      _TocEntry('2) Stockage (SATA / NVMe / SSD)', _kStorage),
-      _TocEntry('3) Liaisons vidéo (DP / HDMI)', _kVideo),
-      _TocEntry('4) PCIe / GPU (repères)', _kPcie),
-      _TocEntry('5) Checklist (plateau)', _kChecklist),
-    ];
 
     return Scaffold(
       appBar: AppBar(title: const Text('Informatique — repères terrain')),
@@ -57,10 +90,6 @@ class _AboutInformatiquePageState extends State<AboutInformatiquePage> {
           child: Column(
             children: [
               _TocCard(
-                title: 'Sommaire',
-                icon: Icons.computer,
-                entries: toc,
-                onTapEntry: _goTo,
                 onCopy: () {
                   final txt = '''
 INFO — repères terrain
@@ -68,151 +97,50 @@ INFO — repères terrain
 • NVMe (M.2) bien plus rapide que SATA.
 • DisplayPort/HDMI = standards, attention versions/câbles.
 • Sur serveurs vidéo : stockage + GPU + débit sont la base.
-'''.trim();
+'''
+                      .trim();
                   copyToClipboard(context, txt);
                 },
+                items: [
+                  _TocItem('1) USB / USB-C / Thunderbolt', onTap: () => _goTo(_kUsb)),
+                  _TocItem('2) Stockage (SATA / NVMe / SSD)', onTap: () => _goTo(_kStorage)),
+                  _TocItem('3) Liaisons vidéo (DP / HDMI)', onTap: () => _goTo(_kVideo)),
+                  _TocItem('4) PCIe / GPU (repères)', onTap: () => _goTo(_kPcie)),
+                  _TocItem('5) Checklist (plateau)', onTap: () => _goTo(_kChecklist)),
+                ],
               ),
               const SizedBox(height: 12),
 
               _Anchor(key: _kUsb),
-              ExpandSectionCard(
-                title: '1) USB / USB-C / Thunderbolt',
-                icon: Icons.usb,
-                child: const Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    _Callout(
-                      title: 'Point critique',
-                      bullets: [
-                        'USB-C = connecteur (forme). Ça ne dit pas la vitesse.',
-                        'Un câble USB-C peut être “charge only” et ne pas passer la data/vidéo.',
-                      ],
-                    ),
-                    SizedBox(height: 10),
-                    _Callout(
-                      title: 'Repères vitesses (ordre de grandeur)',
-                      bullets: [
-                        'USB 2.0 : lent (claviers, dongles, petits périph).',
-                        'USB 3.x : beaucoup plus rapide (disques, interfaces).',
-                        'USB4 / Thunderbolt : très haut débit (dock, eGPU, vidéo selon matériel).',
-                      ],
-                    ),
-                    SizedBox(height: 10),
-                    _Paragraph(
-                      "En show : si un périphérique “déconne”, suspecte le câble (qualité/standard) avant le device.",
-                    ),
-                  ],
-                ),
-              ),
+              const _Section1Usb(),
               const SizedBox(height: 12),
 
               _Anchor(key: _kStorage),
-              ExpandSectionCard(
-                title: '2) Stockage (SATA / NVMe / SSD)',
-                icon: Icons.storage,
-                child: const Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    _Callout(
-                      title: 'SATA vs NVMe',
-                      bullets: [
-                        'SSD SATA : bon et stable, mais limité (interface ancienne).',
-                        'SSD NVMe (M.2) : bien plus rapide (idéal pour serveurs média, gros fichiers).',
-                      ],
-                    ),
-                    SizedBox(height: 10),
-                    _Callout(
-                      title: 'Terrain vidéo',
-                      bullets: [
-                        'Lecture de gros fichiers 4K/ProRes → NVMe recommandé.',
-                        'Attention à la température : un NVMe peut throttler (ralentir) si ça chauffe.',
-                        'Toujours tester en conditions réelles avant le show.',
-                      ],
-                    ),
-                  ],
-                ),
-              ),
+              const _Section2Storage(),
               const SizedBox(height: 12),
 
               _Anchor(key: _kVideo),
-              ExpandSectionCard(
-                title: '3) Liaisons vidéo (DP / HDMI)',
-                icon: Icons.display_settings,
-                child: const Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    _Callout(
-                      title: 'Repère important',
-                      bullets: [
-                        'Les versions comptent : câble + port + device doivent être compatibles.',
-                        'Longue distance = convertisseurs actifs / fibre souvent nécessaires.',
-                      ],
-                    ),
-                    SizedBox(height: 10),
-                    _Callout(
-                      title: 'DP vs HDMI (très simplifié)',
-                      bullets: [
-                        'HDMI : omniprésent (TV, processors), mais EDID/HDCP peuvent gêner.',
-                        'DisplayPort : très courant PC, souvent très “capable” en débit.',
-                      ],
-                    ),
-                  ],
-                ),
-              ),
+              const _Section3VideoLinks(),
               const SizedBox(height: 12),
 
               _Anchor(key: _kPcie),
-              ExpandSectionCard(
-                title: '4) PCIe / GPU (repères)',
-                icon: Icons.developer_board,
-                child: const Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    _Paragraph(
-                      "Pour les serveurs vidéo / mapping : GPU + bus + drivers = stabilité. "
-                      "Les problèmes typiques : drivers, câbles, conversion, et limitations de sorties.",
-                    ),
-                    SizedBox(height: 10),
-                    _Callout(
-                      title: 'Terrain',
-                      bullets: [
-                        'Bloquer une version de driver stable avant un gros show.',
-                        'Éviter les adaptateurs “cheap”.',
-                        'Tester à la résolution/FPS réels du show.',
-                      ],
-                    ),
-                  ],
-                ),
-              ),
+              const _Section4PcieGpu(),
               const SizedBox(height: 12),
 
               _Anchor(key: _kChecklist),
-              ExpandSectionCard(
-                title: '5) Checklist (plateau)',
-                icon: Icons.checklist,
-                trailing: IconButton(
-                  tooltip: 'Copier',
-                  icon: const Icon(Icons.copy, color: Colors.white70),
-                  onPressed: () {
-                    final txt = '''
+              _Section5Checklist(
+                onCopy: () {
+                  final txt = '''
 INFO — Checklist
 ☐ Câbles USB-C certifiés (data/vidéo si besoin)
 ☐ Stockage adapté (NVMe si gros flux)
 ☐ Drivers GPU stables (version connue)
 ☐ Test résolution/FPS réels
 ☐ Éviter adaptateurs cheap
-'''.trim();
-                    copyToClipboard(context, txt);
-                  },
-                ),
-                child: const _Callout(
-                  title: 'Rapide',
-                  bullets: [
-                    'Câble/standard correct.',
-                    'Drivers stables.',
-                    'Test réel avant show.',
-                  ],
-                ),
+'''
+                      .trim();
+                  copyToClipboard(context, txt);
+                },
               ),
 
               const SizedBox(height: 18),
@@ -225,73 +153,257 @@ INFO — Checklist
   }
 }
 
-/// ===== mini-widgets =====
-
-class _TocEntry {
-  const _TocEntry(this.label, this.key);
-  final String label;
-  final GlobalKey key;
-}
+/// =======================
+/// TOC
+/// =======================
 
 class _TocCard extends StatelessWidget {
   const _TocCard({
-    required this.title,
-    required this.icon,
-    required this.entries,
-    required this.onTapEntry,
+    required this.items,
     required this.onCopy,
   });
 
-  final String title;
-  final IconData icon;
-  final List<_TocEntry> entries;
-  final ValueChanged<GlobalKey> onTapEntry;
+  final List<_TocItem> items;
   final VoidCallback onCopy;
 
   @override
   Widget build(BuildContext context) {
     return SectionCard(
-      title: title,
-      icon: icon,
+      title: 'Sommaire',
+      icon: Icons.computer,
       trailing: IconButton(
-        tooltip: 'Copier',
+        tooltip: 'Copier résumé',
         icon: const Icon(Icons.copy, color: Colors.white70),
         onPressed: onCopy,
       ),
       child: Column(
-        children: entries
-            .map((e) => InkWell(
-                  onTap: () => onTapEntry(e.key),
+        children: items
+            .map(
+              (it) => Padding(
+                padding: const EdgeInsets.only(bottom: 8),
+                child: Material(
+                  color: const Color(0xFF0B0B0B),
                   borderRadius: BorderRadius.circular(12),
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 8),
-                    child: Row(
-                      children: [
-                        Icon(Icons.chevron_right, color: Colors.white.withValues(alpha: 0.65)),
-                        const SizedBox(width: 6),
-                        Expanded(
-                          child: Text(
-                            e.label,
-                            style: TextStyle(
-                              color: Colors.white.withValues(alpha: 0.88),
-                              fontWeight: FontWeight.w700,
+                  child: InkWell(
+                    borderRadius: BorderRadius.circular(12),
+                    onTap: it.onTap,
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+                      child: Row(
+                        children: [
+                          Expanded(
+                            child: Text(
+                              it.label,
+                              style: TextStyle(
+                                color: Colors.white.withValues(alpha: 0.92),
+                                fontWeight: FontWeight.w800,
+                              ),
                             ),
                           ),
-                        ),
-                      ],
+                          Icon(Icons.chevron_right, color: Colors.white.withValues(alpha: 0.55)),
+                        ],
+                      ),
                     ),
                   ),
-                ))
+                ),
+              ),
+            )
             .toList(),
       ),
     );
   }
 }
 
+class _TocItem {
+  _TocItem(this.label, {required this.onTap});
+  final String label;
+  final VoidCallback onTap;
+}
+
+/// =======================
+/// SECTION 1 — USB
+/// =======================
+
+class _Section1Usb extends StatelessWidget {
+  const _Section1Usb();
+
+  @override
+  Widget build(BuildContext context) {
+    return SectionCard(
+      title: '1) USB / USB-C / Thunderbolt',
+      icon: Icons.usb,
+      child: const Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          _Callout(
+            title: 'Point critique',
+            bullets: [
+              'USB-C = connecteur (forme). Ça ne dit pas la vitesse.',
+              'Un câble USB-C peut être “charge only” et ne pas passer la data/vidéo.',
+            ],
+          ),
+          SizedBox(height: 10),
+          _Callout(
+            title: 'Repères vitesses (ordre de grandeur)',
+            bullets: [
+              'USB 2.0 : lent (claviers, dongles, petits périph).',
+              'USB 3.x : beaucoup plus rapide (disques, interfaces).',
+              'USB4 / Thunderbolt : très haut débit (dock, eGPU, vidéo selon matériel).',
+            ],
+          ),
+          SizedBox(height: 10),
+          _Paragraph("En show : si un périphérique “déconne”, suspecte le câble (qualité/standard) avant le device."),
+        ],
+      ),
+    );
+  }
+}
+
+/// =======================
+/// SECTION 2 — STORAGE
+/// =======================
+
+class _Section2Storage extends StatelessWidget {
+  const _Section2Storage();
+
+  @override
+  Widget build(BuildContext context) {
+    return SectionCard(
+      title: '2) Stockage (SATA / NVMe / SSD)',
+      icon: Icons.storage,
+      child: const Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          _Callout(
+            title: 'SATA vs NVMe',
+            bullets: [
+              'SSD SATA : bon et stable, mais limité (interface ancienne).',
+              'SSD NVMe (M.2) : bien plus rapide (idéal pour serveurs média, gros fichiers).',
+            ],
+          ),
+          SizedBox(height: 10),
+          _Callout(
+            title: 'Terrain vidéo',
+            bullets: [
+              'Lecture de gros fichiers 4K/ProRes → NVMe recommandé.',
+              'Attention à la température : un NVMe peut throttler (ralentir) si ça chauffe.',
+              'Toujours tester en conditions réelles avant le show.',
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// =======================
+/// SECTION 3 — VIDEO LINKS
+/// =======================
+
+class _Section3VideoLinks extends StatelessWidget {
+  const _Section3VideoLinks();
+
+  @override
+  Widget build(BuildContext context) {
+    return SectionCard(
+      title: '3) Liaisons vidéo (DP / HDMI)',
+      icon: Icons.display_settings,
+      child: const Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          _Callout(
+            title: 'Repère important',
+            bullets: [
+              'Les versions comptent : câble + port + device doivent être compatibles.',
+              'Longue distance = convertisseurs actifs / fibre souvent nécessaires.',
+            ],
+          ),
+          SizedBox(height: 10),
+          _Callout(
+            title: 'DP vs HDMI (très simplifié)',
+            bullets: [
+              'HDMI : omniprésent (TV, processors), mais EDID/HDCP peuvent gêner.',
+              'DisplayPort : très courant PC, souvent très “capable” en débit.',
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// =======================
+/// SECTION 4 — PCIE / GPU
+/// =======================
+
+class _Section4PcieGpu extends StatelessWidget {
+  const _Section4PcieGpu();
+
+  @override
+  Widget build(BuildContext context) {
+    return SectionCard(
+      title: '4) PCIe / GPU (repères)',
+      icon: Icons.developer_board,
+      child: const Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          _Paragraph(
+            "Pour les serveurs vidéo / mapping : GPU + bus + drivers = stabilité. "
+            "Les problèmes typiques : drivers, câbles, conversion, et limitations de sorties.",
+          ),
+          SizedBox(height: 10),
+          _Callout(
+            title: 'Terrain',
+            bullets: [
+              'Bloquer une version de driver stable avant un gros show.',
+              'Éviter les adaptateurs “cheap”.',
+              'Tester à la résolution/FPS réels du show.',
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// =======================
+/// SECTION 5 — CHECKLIST
+/// =======================
+
+class _Section5Checklist extends StatelessWidget {
+  const _Section5Checklist({required this.onCopy});
+  final VoidCallback onCopy;
+
+  @override
+  Widget build(BuildContext context) {
+    return SectionCard(
+      title: '5) Checklist (plateau)',
+      icon: Icons.checklist,
+      trailing: IconButton(
+        tooltip: 'Copier',
+        icon: const Icon(Icons.copy, color: Colors.white70),
+        onPressed: onCopy,
+      ),
+      child: const _Callout(
+        title: 'Rapide',
+        bullets: [
+          'Câble/standard correct.',
+          'Stockage adapté au flux.',
+          'Drivers stables.',
+          'Test réel avant show.',
+          'Éviter adaptateurs cheap.',
+        ],
+      ),
+    );
+  }
+}
+
+/// =======================
+/// HELPERS
+/// =======================
+
 class _Anchor extends StatelessWidget {
   const _Anchor({super.key});
-
-  
   @override
   Widget build(BuildContext context) => const SizedBox(height: 0);
 }

@@ -127,58 +127,56 @@ class _PageAccueilState extends State<PageAccueil> {
   }
 
   Widget _homeTile({
-  required IconData icon,
-  required String title,
-  required String subtitle,
-  required VoidCallback onTap,
-}) {
-  return Card(
-    elevation: 0,
-    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-    child: InkWell(
-      onTap: onTap,
-      borderRadius: BorderRadius.circular(16),
-      child: Padding(
-        padding: const EdgeInsets.all(14),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Row(
-              children: [
-                Icon(icon, color: Colors.white),
-                const SizedBox(width: 10),
-                Expanded(
-                  child: Text(
-                    title,
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                    style: const TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
+    required IconData icon,
+    required String title,
+    required String subtitle,
+    required VoidCallback onTap,
+  }) {
+    return Card(
+      elevation: 0,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(16),
+        child: Padding(
+          padding: const EdgeInsets.all(14),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Row(
+                children: [
+                  Icon(icon, color: Colors.white),
+                  const SizedBox(width: 10),
+                  Expanded(
+                    child: Text(
+                      title,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: const TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
                     ),
                   ),
-                ),
-                Icon(Icons.chevron_right, color: Colors.white.withValues(alpha: 0.55)),
-              ],
-            ),
-            const SizedBox(height: 12),
-            Text(
-              subtitle,
-              style: TextStyle(
-                color: Colors.white.withValues(alpha: 0.70),
-                height: 1.25,
-                fontSize: 13,
+                  Icon(Icons.chevron_right, color: Colors.white.withValues(alpha: 0.55)),
+                ],
               ),
-            ),
-          ],
+              const SizedBox(height: 12),
+              Text(
+                subtitle,
+                style: TextStyle(
+                  color: Colors.white.withValues(alpha: 0.70),
+                  height: 1.25,
+                  fontSize: 13,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
-    ),
-  );
-}
-
-
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -222,14 +220,6 @@ class _PageAccueilState extends State<PageAccueil> {
           child: Column(
             children: [
               _homeTile(
-                icon: Icons.person_outline,
-                title: "About",
-                subtitle: "Informations, contexte et notes sur l’application.",
-                onTap: () => _push(const PageAbout()),
-              ),
-              const SizedBox(height: 12),
-
-              _homeTile(
                 icon: Icons.video_settings,
                 title: "Vidéo",
                 subtitle: "Lentille & mesure, luminosité, multiprojecteur, LED et mires.",
@@ -246,10 +236,19 @@ class _PageAccueilState extends State<PageAccueil> {
               const SizedBox(height: 12),
 
               _homeTile(
-                icon: Icons.center_focus_strong, // ✅ remplace l’icône inexistante
+                icon: Icons.center_focus_strong,
                 title: "Laser",
                 subtitle: "Calculs et sécurité laser (consentement requis à chaque entrée).",
                 onTap: _goToLaserWithConsent,
+              ),
+              const SizedBox(height: 12),
+
+              // ✅ Déplacé en dernier + renommé
+              _homeTile(
+                icon: Icons.menu_book,
+                title: "Références",
+                subtitle: "DMX / réseau / vidéo : fiches & repères terrain.",
+                onTap: () => _push(const PageAbout()),
               ),
             ],
           ),

@@ -9,16 +9,18 @@ class PageMentionsLegales extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Mentions légales")),
-      body: Padding(
-        padding: const EdgeInsets.all(16),
-        child: SectionCard(
-          title: "Mentions légales",
-          icon: Icons.gavel,
-          child: const SingleChildScrollView(
-            child: Text(kDisclaimerText, style: TextStyle(fontSize: 13)),
-          ),
-        ),
-      ),
+      body: SafeArea(
+  bottom: true,
+  child: SingleChildScrollView(
+    padding: const EdgeInsets.all(16),
+    child: SectionCard(
+      title: "Mentions légales",
+      icon: Icons.gavel,
+      child: const Text(kDisclaimerText, style: TextStyle(fontSize: 13)),
+    ),
+  ),
+),
+
     );
   }
 }
