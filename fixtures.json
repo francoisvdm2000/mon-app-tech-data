@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-03T12:19:41.022Z",
+  "updatedAt": "2026-02-03T12:29:41.700Z",
   "manufacturers": [
     {
       "name": "GLP",
@@ -909,6 +909,25 @@
           "luminousFluxLumen": 5300,
           "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Tetra_X.pdf",
           "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Tetra_X_DMX_charts.pdf"
+        },
+        {
+          "type": "Beam Spot",
+          "name": "Giga Pointe",
+          "modes": [
+            {
+              "name": "Mode 1 - Megapointe",
+              "dmxChannels": 39
+            },
+            {
+              "name": "Mode 2 - Advanced features",
+              "dmxChannels": 41
+            }
+          ],
+          "weightKilogram": 26.5,
+          "powerWatt": 500,
+          "luminousFluxLumen": 23400,
+          "manualUrl": "https://drive.google.com/file/d/1ZRgf9fXGBIwEyTUIxfd-8fLUcShbz7hG/view?usp=sharing",
+          "dmxChartUrl": "https://drive.google.com/file/d/1ChvaGx_aO-I5CutnxrKfP7AoMXEdyDvI/view?usp=sharing"
         },
         {
           "type": "Decorative lighting",
