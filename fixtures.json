@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T10:09:36.820Z",
+  "updatedAt": "2026-02-04T10:19:42.640Z",
   "manufacturers": [
     {
       "name": "GLP",
@@ -802,8 +802,8 @@
           "weightKilogram": 11.3,
           "powerWatt": 300,
           "luminousFluxLumen": 5300,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Tetra1.pdf",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Tetra1_DMX_charts.pdf"
+          "manualUrl": "https://drive.google.com/file/d/1epj7_IGYCXrFgiL-nIb3kAjhezQm4Vxk/view?usp=sharing",
+          "dmxChartUrl": "https://drive.google.com/file/d/1TZH1W5Yfcq3GzCfmQHECuz8myAJBIAH1/view?usp=sharing"
         },
         {
           "type": "Linear moving head wash",
@@ -837,8 +837,8 @@
           "weightKilogram": 18.1,
           "powerWatt": 600,
           "luminousFluxLumen": 10500,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Tetra2.pdf",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Tetra2_DMX_charts.pdf"
+          "manualUrl": "https://drive.google.com/file/d/1TXxTrVRhI4klDDtGR-CQQ97i3bBNCZ7u/view?usp=sharing",
+          "dmxChartUrl": "https://drive.google.com/file/d/1Oy66n3TDVRKWePE9EoF1vjnJUYyfGHjT/view?usp=sharing"
         },
         {
           "type": "Linear moving head wash",
@@ -872,7 +872,7 @@
           "weightKilogram": 29.3,
           "powerWatt": 600,
           "luminousFluxLumen": 10500,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_iTetra2_IP65.pdf",
+          "manualUrl": "https://drive.google.com/file/d/1LmSS_ocynpzShY1HK_ZnbspryPKX21jN/view?usp=sharing",
           "dmxChartUrl": "https://drive.google.com/file/d/10ECLXsggQTkgLn9yWMt3e9sZ86-eR4Y8/view?usp=sharing"
         },
         {
@@ -907,8 +907,8 @@
           "weightKilogram": 0,
           "powerWatt": 320,
           "luminousFluxLumen": 5300,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Tetra_X.pdf",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Tetra_X_DMX_charts.pdf"
+          "manualUrl": "https://drive.google.com/file/d/18AdbUqtf2Lpe5r-5cI2gHciZ4C0uG493/view?usp=sharing",
+          "dmxChartUrl": "https://drive.google.com/file/d/12H5BoBDaKC16tfEdlEzL3e2p6yex12Uq/view?usp=sharing"
         },
         {
           "type": "Beam Spot",
@@ -935,7 +935,7 @@
           "modes": [
             {
               "name": "Mode 1 - RGB control",
-              "dmxChannels": 8
+              "dmxChannels": 1
             }
           ],
           "weightKilogram": 0,
@@ -953,11 +953,26 @@
               "dmxChannels": 8
             }
           ],
-          "weightKilogram": 0,
+          "weightKilogram": 12,
           "powerWatt": 575,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.robe.cz/res/downloads/catalogues/ROBE_picklePATT_leaflet.pdf",
           "dmxChartUrl": ""
+        },
+        {
+          "type": "Decorative lighting",
+          "name": "pixelPATT",
+          "modes": [
+            {
+              "name": "Mode 1 - Pixel control",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 320,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_pixelPATT.pdf",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_pixelPATT_DMX_charts.pdf"
         },
         {
           "type": "Decorative lighting",
@@ -973,21 +988,6 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.robe.cz/res/downloads/catalogues/ROBE_PATT_2017_leaflet.pdf",
           "dmxChartUrl": ""
-        },
-        {
-          "type": "Decorative lighting",
-          "name": "pixelPATT",
-          "modes": [
-            {
-              "name": "Mode 1 - Pixel control",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 8,
-          "powerWatt": 320,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_pixelPATT.pdf",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_pixelPATT_DMX_charts.pdf"
         },
         {
           "type": "Wash and effect light",
