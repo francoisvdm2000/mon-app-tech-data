@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T13:59:38.976Z",
+  "updatedAt": "2026-02-04T14:09:42.962Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -102,18 +102,18 @@
           "weightKilogram": 52,
           "powerWatt": 1800,
           "luminousFluxLumen": 51000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/10PSboThYTjp2GZEXlFlPh1y3BiaEuPS0/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1pDa0ZVDdpDydvJS-jmJnl4ycPvaXDOjv/view?usp=drive_link"
         },
         {
           "type": "Wash",
-          "name": "Domino Was",
+          "name": "Domino Wash",
           "modes": [],
           "weightKilogram": 52,
           "powerWatt": 1600,
           "luminousFluxLumen": 52000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/17K6cMLcM4P5YI44dJ6ls_ioI51ip8EbK/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1o6IsgpHf6QzQ_Y_0ee97PbLNv3k9LpOO/view?usp=drive_link"
         },
         {
           "type": "Profile",
@@ -122,8 +122,8 @@
           "weightKilogram": 38.8,
           "powerWatt": 800,
           "luminousFluxLumen": 30000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/1VwWdlyuYHubv61EWBnThtPRtOAkOSN18/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1F3C194L38XiGek3ekRZxrZLtVJ3Ayh-y/view?usp=drive_link"
         },
         {
           "type": "Beam",
@@ -132,8 +132,8 @@
           "weightKilogram": 41.5,
           "powerWatt": 700,
           "luminousFluxLumen": 18000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/1ApTcCsRb_CjTxpc9y795WA0TZxmvaU0D/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1cU-wgFEY089PTL26yQ1Ypv8ptpVGNTvs/view?usp=drive_link"
         },
         {
           "type": "Profile",
@@ -142,8 +142,8 @@
           "weightKilogram": 35.6,
           "powerWatt": 800,
           "luminousFluxLumen": 23000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/1023hClTX8X0192bFC-xOTMS9hNwbDUON/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1suAhKf7CdqAYFELTRIg2J4XNDyrjltH6/view?usp=drive_link"
         },
         {
           "type": "Long throw",
@@ -152,8 +152,8 @@
           "weightKilogram": 27,
           "powerWatt": 550,
           "luminousFluxLumen": 14000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/11YmocnwhdVw7P02enp_UVTn3xEet_RfP/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1KwQidqNqgYC_KFYkeVJWYBEdpnpUb2u1/view?usp=drive_link"
         },
         {
           "type": "Profile",
@@ -162,8 +162,8 @@
           "weightKilogram": 22,
           "powerWatt": 550,
           "luminousFluxLumen": 19000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/1tj0UqOCrRIVq-54TFrPCTeRUwAsHYV7u/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1_u2-ZbYmUvtVNKCle6QIcdYx2_8rAy_B/view?usp=drive_link"
         },
         {
           "type": "Profile",
@@ -172,8 +172,8 @@
           "weightKilogram": 30.8,
           "powerWatt": 700,
           "luminousFluxLumen": 30000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/1RI0t_j7eXJZqYLEQkJwrYaNbdT0pAG3C/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1-QTWjAbEJVSb6Bt_hw6aebGJpVRLbQH4/view?usp=drive_link"
         },
         {
           "type": "Wash",
@@ -182,8 +182,8 @@
           "weightKilogram": 30.8,
           "powerWatt": 700,
           "luminousFluxLumen": 28000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/1ltVSUkhaIjamTbPr0XBealg6ROlZ1Rku/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1SeXiq4ocJUeS7gDROE4aRMJCb5ozkORc/view?usp=drive_link"
         },
         {
           "type": "Wash",
@@ -192,8 +192,8 @@
           "weightKilogram": 15.6,
           "powerWatt": 550,
           "luminousFluxLumen": 11000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/1ablRgmz5XbQwBg36NNtThkfon4rkBY_X/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1lunJuGOdKnw3Rz9ULnpP_3_sN8pCK2HX/view?usp=drive_link"
         }
       ]
     },
