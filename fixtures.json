@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T13:49:39.538Z",
+  "updatedAt": "2026-02-04T13:59:38.976Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -12,8 +12,8 @@
           "weightKilogram": 30.7,
           "powerWatt": 480,
           "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/1Agy2qoHQqw_rSBKZzUxYzYIKLR8Dv2-u/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1nDGhVqkoqy7ig8CCdVIelatgLgQqesy7/view?usp=drive_link"
         },
         {
           "type": "Beam",
@@ -32,8 +32,8 @@
           "weightKilogram": 13,
           "powerWatt": 400,
           "luminousFluxLumen": 4200,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/15rW6CPGpS0Hvszs8zupOPyv4lQg_81d7/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1qU2l0G16QwlyeCkBaGy7qGzeqcjfsiS8/view?usp=drive_link"
         },
         {
           "type": "Wash FX",
@@ -42,8 +42,8 @@
           "weightKilogram": 28.7,
           "powerWatt": 1000,
           "luminousFluxLumen": 13500,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/1jzhPckg5RWOE5YEFe0e1KZP85P7FQSkt/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1pbFk_P9PWTsfrDBI811Ji5At7Xxxs7ZY/view?usp=drive_link"
         },
         {
           "type": "Beam",
@@ -52,8 +52,8 @@
           "weightKilogram": 6.6,
           "powerWatt": 0,
           "luminousFluxLumen": 5000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/1tH2dmyJCtPsAhBpTtUSAnPdEh7yacwO3/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1yGmjxKwAa1KoPYcj09d_FZJBZVm1yQdA/view?usp=drive_link"
         },
         {
           "type": "Long throw",
@@ -62,8 +62,8 @@
           "weightKilogram": 53.8,
           "powerWatt": 1470,
           "luminousFluxLumen": 51000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/1fAfpHVh8wFNGXRrckZ1QQnpx-BY5okGI/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1d-ZpyGp0Mat7xNYGIOvUDXkXrxapid3r/view?usp=drive_link"
         },
         {
           "type": "Profile",
@@ -72,18 +72,18 @@
           "weightKilogram": 46,
           "powerWatt": 1470,
           "luminousFluxLumen": 51000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/1jdjthGpujnpNBfqP7jAMXMprtM2q0oOr/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/18sEPcwQvcU7G2NyyR9e30RZeP0e9S3cE/view?usp=drive_link"
         },
         {
           "type": "Wash",
-          "name": "Hurac?n Was",
+          "name": "Hurac?n Wash",
           "modes": [],
           "weightKilogram": 42.5,
           "powerWatt": 1470,
           "luminousFluxLumen": 52000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/17k9DJi6EitKh8DSqjNLCA3j5hBbe0NJ-/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1C2ImDcJGX_2BY88imvmYn8pxk_YYtXup/view?usp=drive_link"
         },
         {
           "type": "Long throw",
@@ -92,8 +92,8 @@
           "weightKilogram": 60,
           "powerWatt": 1600,
           "luminousFluxLumen": 51000,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/137ui9W_Y7AI7Rwg-D5CLR_8lGoY_bnuR/view?usp=drive_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1zeZHOBVhmQPfnkRCNmIwGAPMoUh978fY/view?usp=drive_link"
         },
         {
           "type": "Profile",
