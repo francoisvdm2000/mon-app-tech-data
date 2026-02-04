@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T12:39:40.975Z",
+  "updatedAt": "2026-02-04T12:49:41.812Z",
   "manufacturers": [
     {
       "name": "GLP",
@@ -1062,6 +1062,25 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://drive.google.com/file/d/1eaUh4MEkon61nfdKSGEMPS2e-y2I9BXM/view?usp=sharing",
           "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "LedBeam 150",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 2 - Reduced 8-bit",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 5.7,
+          "powerWatt": 220,
+          "luminousFluxLumen": 3550,
+          "manualUrl": "https://drive.google.com/file/d/1lnHabfU1jWkUy-fSsZBa7bMfsioRxp1H/view?usp=sharing",
+          "dmxChartUrl": "https://drive.google.com/file/d/1LY9C-HbJOcLBU2q-To3uIgRIlFfbDB0H/view?usp=sharing"
         },
         {
           "type": "Wash and effect light",
