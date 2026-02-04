@@ -3,17 +3,7 @@ import 'package:flutter/material.dart';
 import '../../app/ui/widgets.dart'; // SectionCard, copyToClipboard
 
 class AboutElectricitePage extends StatefulWidget {
-  const AboutElectricitePage({super.key, this.initialAnchor});
-
-  /// ID d’ancre optionnel pour arriver DIRECT à la bonne section.
-  /// Valeurs possibles :
-  /// - kBasics
-  /// - kConnectors
-  /// - kMonoTri
-  /// - kPowerTable
-  /// - kSafety
-  /// - kChecklist
-  final String? initialAnchor;
+  const AboutElectricitePage({super.key});
 
   @override
   State<AboutElectricitePage> createState() => _AboutElectricitePageState();
@@ -30,16 +20,6 @@ class _AboutElectricitePageState extends State<AboutElectricitePage> {
   final _kChecklist = GlobalKey();
 
   @override
-  void initState() {
-    super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      final id = widget.initialAnchor;
-      if (id == null || id.trim().isEmpty) return;
-      _goToAnchor(id.trim());
-    });
-  }
-
-  @override
   void dispose() {
     _scroll.dispose();
     super.dispose();
@@ -54,30 +34,6 @@ class _AboutElectricitePageState extends State<AboutElectricitePage> {
       curve: Curves.easeOutCubic,
       alignment: 0.06,
     );
-  }
-
-  GlobalKey? _keyForAnchor(String id) {
-    switch (id) {
-      case 'kBasics':
-        return _kBasics;
-      case 'kConnectors':
-        return _kConnectors;
-      case 'kMonoTri':
-        return _kMonoTri;
-      case 'kPowerTable':
-        return _kPowerTable;
-      case 'kSafety':
-        return _kSafety;
-      case 'kChecklist':
-        return _kChecklist;
-    }
-    return null;
-  }
-
-  void _goToAnchor(String id) {
-    final key = _keyForAnchor(id);
-    if (key == null) return;
-    _goTo(key);
   }
 
   @override

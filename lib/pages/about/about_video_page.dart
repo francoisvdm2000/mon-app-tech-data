@@ -3,21 +3,7 @@ import 'package:flutter/material.dart';
 import '../../app/ui/widgets.dart'; // SectionCard, copyToClipboard
 
 class AboutVideoPage extends StatefulWidget {
-  const AboutVideoPage({super.key, this.initialAnchor});
-
-  /// ID d’ancre optionnel pour arriver DIRECT à la bonne section.
-  /// Valeurs possibles :
-  /// - kBasics
-  /// - kResFps
-  /// - kColor
-  /// - kSync
-  /// - kCables
-  /// - kSdi
-  /// - kHdmi
-  /// - kNdi
-  /// - kMappingLed
-  /// - kChecklist
-  final String? initialAnchor;
+  const AboutVideoPage({super.key});
 
   @override
   State<AboutVideoPage> createState() => _AboutVideoPageState();
@@ -38,53 +24,9 @@ class _AboutVideoPageState extends State<AboutVideoPage> {
   final _kChecklist = GlobalKey();
 
   @override
-  void initState() {
-    super.initState();
-
-    // Jump direct après le premier build (sinon les context n’existent pas)
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      final id = widget.initialAnchor;
-      if (id == null || id.trim().isEmpty) return;
-      _goToAnchor(id.trim());
-    });
-  }
-
-  @override
   void dispose() {
     _scroll.dispose();
     super.dispose();
-  }
-
-  GlobalKey? _keyForAnchor(String id) {
-    switch (id) {
-      case 'kBasics':
-        return _kBasics;
-      case 'kResFps':
-        return _kResFps;
-      case 'kColor':
-        return _kColor;
-      case 'kSync':
-        return _kSync;
-      case 'kCables':
-        return _kCables;
-      case 'kSdi':
-        return _kSdi;
-      case 'kHdmi':
-        return _kHdmi;
-      case 'kNdi':
-        return _kNdi;
-      case 'kMappingLed':
-        return _kMappingLed;
-      case 'kChecklist':
-        return _kChecklist;
-    }
-    return null;
-  }
-
-  void _goToAnchor(String id) {
-    final key = _keyForAnchor(id);
-    if (key == null) return;
-    _goTo(key);
   }
 
   void _goTo(GlobalKey key) {
@@ -206,10 +148,7 @@ VIDÉO — Checklist
 /// =======================
 
 class _TocCard extends StatelessWidget {
-  const _TocCard({
-    required this.items,
-    required this.onCopy,
-  });
+  const _TocCard({required this.items, required this.onCopy});
 
   final List<_TocItem> items;
   final VoidCallback onCopy;
@@ -269,7 +208,7 @@ class _TocItem {
 }
 
 /// =======================
-/// SECTIONS (ouvertes)
+/// SECTIONS (ouvertes) — inchangées
 /// =======================
 
 class _Section1Basics extends StatelessWidget {
@@ -574,11 +513,17 @@ class _Callout extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Text(title,
-              style: TextStyle(color: Colors.white.withValues(alpha: 0.92), fontWeight: FontWeight.w900)),
+          Text(
+            title,
+            style: TextStyle(color: Colors.white.withValues(alpha: 0.92), fontWeight: FontWeight.w900),
+          ),
           const SizedBox(height: 8),
-          ...bullets.map((b) => Text('• $b',
-              style: TextStyle(color: Colors.white.withValues(alpha: 0.80), height: 1.35))),
+          ...bullets.map(
+            (b) => Text(
+              '• $b',
+              style: TextStyle(color: Colors.white.withValues(alpha: 0.80), height: 1.35),
+            ),
+          ),
         ],
       ),
     );
@@ -587,10 +532,12 @@ class _Callout extends StatelessWidget {
 
 class _FooterNote extends StatelessWidget {
   const _FooterNote();
+
   @override
   Widget build(BuildContext context) {
     return const Text(
-      "Info indicative (terrain). Les comportements varient selon matériels.\nObjectif : comprendre vite et dépanner proprement.",
+      "Info indicative (terrain). Les comportements varient selon matériels.\n"
+      "Objectif : comprendre vite et dépanner proprement.",
       textAlign: TextAlign.center,
       style: TextStyle(color: Colors.white38, fontSize: 12),
     );

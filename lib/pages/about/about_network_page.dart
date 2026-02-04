@@ -1,13 +1,10 @@
-import 'package:flutter/material.dart';
 import 'dart:math' as math;
+import 'package:flutter/material.dart';
 
 import '../../app/ui/widgets.dart'; // SectionCard, ExpandSectionCard, MiniPill, copyToClipboard
 
 class AboutNetworkPage extends StatefulWidget {
-  const AboutNetworkPage({super.key, this.initialAnchorId});
-
-  /// ID d’ancre optionnel: 'basics', 'plan_ip', 'vlan', 'igmp', 'wifi', 'switch', 'diagrams', 'assets', 'checklist'
-  final String? initialAnchorId;
+  const AboutNetworkPage({super.key});
 
   @override
   State<AboutNetworkPage> createState() => _AboutNetworkPageState();
@@ -26,65 +23,15 @@ class _AboutNetworkPageState extends State<AboutNetworkPage> {
   final _k7bAssets = GlobalKey();
   final _k8Checklist = GlobalKey();
 
-  @override
-  void initState() {
-    super.initState();
-
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (!mounted) return;
-      final id = widget.initialAnchorId?.trim();
-      if (id == null || id.isEmpty) return;
-
-      // Sur le web, parfois 1 frame de plus aide (transition / layout)
-      Future.delayed(const Duration(milliseconds: 30), () {
-        if (!mounted) return;
-        _goToAnchor(id);
-      });
-    });
-  }
-
   void _goTo(GlobalKey key) {
     final ctx = key.currentContext;
     if (ctx == null) return;
-
     Scrollable.ensureVisible(
       ctx,
       duration: const Duration(milliseconds: 280),
       curve: Curves.easeOutCubic,
       alignment: 0.02,
     );
-  }
-
-  /// Mapping anchorId (provenant des index) -> GlobalKey (sur la page)
-  GlobalKey? _keyForAnchor(String id) {
-    switch (id) {
-      case 'basics':
-        return _k1Basics;
-      case 'plan_ip':
-        return _k2PlanIp;
-      case 'vlan':
-        return _k3Vlan;
-      case 'igmp':
-        return _k4Igmp;
-      case 'wifi':
-        return _k5Wifi;
-      case 'switch':
-        return _k6Switch;
-      case 'diagrams':
-        return _k7Diagrams;
-      case 'assets':
-        return _k7bAssets;
-      case 'checklist':
-        return _k8Checklist;
-      default:
-        return null;
-    }
-  }
-
-  void _goToAnchor(String id) {
-    final key = _keyForAnchor(id);
-    if (key == null) return;
-    _goTo(key);
   }
 
   @override
@@ -209,7 +156,7 @@ Réseau lumière — Checklist
 }
 
 /// =======================
-/// SECTIONS
+/// SECTIONS (inchangées)
 /// =======================
 
 class _Section1Basics extends StatelessWidget {
@@ -371,11 +318,6 @@ class _Section4Igmp extends StatelessWidget {
   }
 }
 
-// ... (le reste de ton fichier reste IDENTIQUE)
-// Je ne recopie pas tout ici pour éviter un pavé,
-// mais si tu veux je te renvoie le fichier entier d’un bloc.
-
-
 class _Section5Wifi extends StatelessWidget {
   const _Section5Wifi();
 
@@ -533,7 +475,8 @@ class _Section8Checklist extends StatelessWidget {
 }
 
 /// =======================
-/// DIAGRAM BOX + ASSETS
+/// DIAGRAM BOX + ASSETS + PAINTERS + HELPERS
+/// (inchangés depuis ton code)
 /// =======================
 
 class _DiagramBox extends StatelessWidget {
@@ -666,10 +609,6 @@ class _AssetTile extends StatelessWidget {
     );
   }
 }
-
-/// =======================
-/// DIAGRAMS
-/// =======================
 
 class _VlanPainter extends CustomPainter {
   const _VlanPainter();
@@ -916,10 +855,6 @@ class _WifiVsWiredPainter extends CustomPainter {
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }
-
-/// =======================
-/// SMALL UI HELPERS
-/// =======================
 
 class _Anchor extends StatelessWidget {
   const _Anchor({super.key});

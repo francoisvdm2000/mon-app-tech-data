@@ -1,24 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../app/ui/widgets.dart'; // SectionCard, MiniPill, copyToClipboard
-
-/// ✅ Ancres utilisables depuis la recherche (PageAbout)
-enum ArtNetAnchor {
-  basics,
-  addressing,
-  limits,
-  nodesRdm,
-  troubleshooting,
-  diagrams,
-  assets,
-  checklist,
-}
+import '../../app/ui/widgets.dart'; // SectionCard, ExpandSectionCard, MiniPill, copyToClipboard
 
 class AboutArtNetPage extends StatefulWidget {
-  const AboutArtNetPage({super.key, this.initialAnchor});
-
-  /// Optionnel (si tu veux aussi l’ouvrir “à l’ancienne” via constructeur)
-  final ArtNetAnchor? initialAnchor;
+  const AboutArtNetPage({super.key});
 
   @override
   State<AboutArtNetPage> createState() => _AboutArtNetPageState();
@@ -35,54 +20,6 @@ class _AboutArtNetPageState extends State<AboutArtNetPage> {
   final _k6Diagrams = GlobalKey();
   final _k6bAssets = GlobalKey();
   final _k7Checklist = GlobalKey();
-
-  @override
-  void initState() {
-    super.initState();
-
-    // ✅ Scroll auto si une ancre est passée via:
-    // - constructeur (initialAnchor)
-    // - OU RouteSettings.arguments (depuis PageAbout)
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (!mounted) return;
-
-      final routeArg = ModalRoute.of(context)?.settings.arguments;
-      final anchor = widget.initialAnchor ?? (routeArg is ArtNetAnchor ? routeArg : null);
-      if (anchor == null) return;
-
-      final key = _keyForAnchor(anchor);
-      final ctx = key.currentContext;
-      if (ctx == null) return;
-
-      Scrollable.ensureVisible(
-        ctx,
-        duration: const Duration(milliseconds: 320),
-        curve: Curves.easeOutCubic,
-        alignment: 0.05,
-      );
-    });
-  }
-
-  GlobalKey _keyForAnchor(ArtNetAnchor a) {
-    switch (a) {
-      case ArtNetAnchor.basics:
-        return _k1Basics;
-      case ArtNetAnchor.addressing:
-        return _k2Addressing;
-      case ArtNetAnchor.limits:
-        return _k3Limits;
-      case ArtNetAnchor.nodesRdm:
-        return _k4NodesRdm;
-      case ArtNetAnchor.troubleshooting:
-        return _k5Troubleshooting;
-      case ArtNetAnchor.diagrams:
-        return _k6Diagrams;
-      case ArtNetAnchor.assets:
-        return _k6bAssets;
-      case ArtNetAnchor.checklist:
-        return _k7Checklist;
-    }
-  }
 
   void _goTo(GlobalKey key) {
     final ctx = key.currentContext;
@@ -466,7 +403,6 @@ class _Section6Diagrams extends StatelessWidget {
 
 class _Section6bAssets extends StatelessWidget {
   const _Section6bAssets({required this.onCopy});
-
   final VoidCallback onCopy;
 
   @override
@@ -491,11 +427,7 @@ class _Section6bAssets extends StatelessWidget {
           SizedBox(height: 10),
           _AssetRow(
             items: [
-              _AssetSpec(
-                label: 'RJ45',
-                assetPath: 'assets/images/connectors/rj45.png',
-                hint: 'Connecteur Ethernet',
-              ),
+              _AssetSpec(label: 'RJ45', assetPath: 'assets/images/connectors/rj45.png', hint: 'Connecteur Ethernet'),
               _AssetSpec(
                 label: 'Switch',
                 assetPath: 'assets/images/network/switch.png',
@@ -516,7 +448,6 @@ class _Section6bAssets extends StatelessWidget {
 
 class _Section7Checklist extends StatelessWidget {
   const _Section7Checklist({required this.onCopy});
-
   final VoidCallback onCopy;
 
   @override
@@ -581,10 +512,7 @@ class _TocCard extends StatelessWidget {
                           Expanded(
                             child: Text(
                               it.label,
-                              style: TextStyle(
-                                color: Colors.white.withValues(alpha: 0.92),
-                                fontWeight: FontWeight.w800,
-                              ),
+                              style: TextStyle(color: Colors.white.withValues(alpha: 0.92), fontWeight: FontWeight.w800),
                             ),
                           ),
                           Icon(Icons.chevron_right, color: Colors.white.withValues(alpha: 0.55)),
@@ -635,11 +563,7 @@ class _Subtitle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: TextStyle(
-        color: Colors.white.withValues(alpha: 0.92),
-        fontWeight: FontWeight.w900,
-        fontSize: 14.5,
-      ),
+      style: TextStyle(color: Colors.white.withValues(alpha: 0.92), fontWeight: FontWeight.w900, fontSize: 14.5),
     );
   }
 }
@@ -652,11 +576,7 @@ class _Paragraph extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: TextStyle(
-        color: Colors.white.withValues(alpha: 0.80),
-        height: 1.35,
-        fontSize: 13.5,
-      ),
+      style: TextStyle(color: Colors.white.withValues(alpha: 0.80), height: 1.35, fontSize: 13.5),
     );
   }
 }
@@ -693,7 +613,6 @@ class _BulletList extends StatelessWidget {
 
 class _Callout extends StatelessWidget {
   const _Callout({required this.title, required this.bullets});
-
   final String title;
   final List<String> bullets;
 
@@ -711,11 +630,7 @@ class _Callout extends StatelessWidget {
         children: [
           Text(
             title,
-            style: TextStyle(
-              color: Colors.white.withValues(alpha: 0.92),
-              fontWeight: FontWeight.w900,
-              fontSize: 13.5,
-            ),
+            style: TextStyle(color: Colors.white.withValues(alpha: 0.92), fontWeight: FontWeight.w900, fontSize: 13.5),
           ),
           const SizedBox(height: 8),
           _BulletList(items: bullets),
@@ -979,22 +894,11 @@ class _AssetTile extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 8),
-          Text(
-            spec.hint,
-            style: TextStyle(
-              color: Colors.white.withValues(alpha: 0.78),
-              height: 1.25,
-              fontSize: 12.5,
-            ),
-          ),
+          Text(spec.hint, style: TextStyle(color: Colors.white.withValues(alpha: 0.78), height: 1.25, fontSize: 12.5)),
           const SizedBox(height: 8),
           Text(
             spec.assetPath,
-            style: TextStyle(
-              fontFamily: 'monospace',
-              fontSize: 11.8,
-              color: Colors.white.withValues(alpha: 0.55),
-            ),
+            style: TextStyle(fontFamily: 'monospace', fontSize: 11.8, color: Colors.white.withValues(alpha: 0.55)),
           ),
         ],
       ),
@@ -1008,13 +912,8 @@ class _AssetTile extends StatelessWidget {
 
 class _Grid {
   static void paint(Canvas canvas, Size size) {
-    final bg = Paint()..color = const Color(0xFF0B0B0B);
-    canvas.drawRect(Offset.zero & size, bg);
-
-    final faint = Paint()
-      ..color = Colors.white.withValues(alpha: 0.16)
-      ..strokeWidth = 1;
-
+    canvas.drawRect(Offset.zero & size, Paint()..color = const Color(0xFF0B0B0B));
+    final faint = Paint()..color = Colors.white.withValues(alpha: 0.16)..strokeWidth = 1;
     final step = size.shortestSide / 10;
     for (double x = 0; x <= size.width; x += step) {
       canvas.drawLine(Offset(x, 0), Offset(x, size.height), faint);
@@ -1033,14 +932,9 @@ class _Box {
     final rr = RRect.fromRectAndRadius(rect, Radius.circular(size.shortestSide * 0.05));
 
     final fill = Paint()
-      ..color = accent
-          ? const Color(0xFF1E88E5).withValues(alpha: 0.18)
-          : Colors.white.withValues(alpha: 0.08);
-
+      ..color = accent ? const Color(0xFF1E88E5).withValues(alpha: 0.18) : Colors.white.withValues(alpha: 0.08);
     final border = Paint()
-      ..color = accent
-          ? const Color(0xFF1E88E5).withValues(alpha: 0.60)
-          : Colors.white.withValues(alpha: 0.30)
+      ..color = accent ? const Color(0xFF1E88E5).withValues(alpha: 0.60) : Colors.white.withValues(alpha: 0.30)
       ..style = PaintingStyle.stroke
       ..strokeWidth = 2;
 
@@ -1082,52 +976,30 @@ class _Box {
 }
 
 class _Text {
-  static TextPainter tp(
-    String s, {
-    required double fontSize,
-    required Color color,
-    required FontWeight weight,
-  }) {
+  static TextPainter tp(String s, {required double fontSize, required Color color, required FontWeight weight}) {
     final t = TextPainter(
       text: TextSpan(
         text: s,
-        style: TextStyle(
-          fontSize: fontSize,
-          color: color,
-          fontWeight: weight,
-          fontFamily: 'monospace',
-          height: 1.15,
-        ),
+        style: TextStyle(fontSize: fontSize, color: color, fontWeight: weight, fontFamily: 'monospace', height: 1.15),
       ),
       textDirection: TextDirection.ltr,
-      textAlign: TextAlign.left,
     );
     t.layout();
     return t;
   }
 
   static void center(Canvas canvas, Rect rect, TextPainter tp) {
-    final dx = rect.left + (rect.width - tp.width) / 2;
-    final dy = rect.top + (rect.height - tp.height) / 2;
-    tp.paint(canvas, Offset(dx, dy));
+    tp.paint(canvas, Offset(rect.left + (rect.width - tp.width) / 2, rect.top + (rect.height - tp.height) / 2));
   }
 
   static void paintLabel(Canvas canvas, Offset pos, TextPainter tp) {
-    final pad = 10.0;
+    const pad = 10.0;
     final r = RRect.fromRectAndRadius(
       Rect.fromLTWH(pos.dx, pos.dy, tp.width + pad * 2, tp.height + pad * 2),
       const Radius.circular(12),
     );
-
     canvas.drawRRect(r, Paint()..color = Colors.black.withValues(alpha: 0.45));
-    canvas.drawRRect(
-      r,
-      Paint()
-        ..color = Colors.white.withValues(alpha: 0.14)
-        ..style = PaintingStyle.stroke
-        ..strokeWidth = 1.5,
-    );
-
+    canvas.drawRRect(r, Paint()..color = Colors.white.withValues(alpha: 0.14)..style = PaintingStyle.stroke..strokeWidth = 1.5);
     tp.paint(canvas, Offset(pos.dx + pad, pos.dy + pad));
   }
 }

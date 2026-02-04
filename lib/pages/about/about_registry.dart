@@ -1,19 +1,6 @@
 // lib/pages/about/about_registry.dart
 import 'package:flutter/material.dart';
 
-import 'about_search.dart';
-
-// Indexes (texte scannable)
-import 'indexes/about_dmx_index.dart';
-import 'indexes/about_artnet_index.dart';
-import 'indexes/about_sacn_index.dart';
-import 'indexes/about_ip_basics_index.dart';
-import 'indexes/about_reseau_index.dart';
-import 'indexes/about_network_index.dart';
-import 'indexes/about_video_index.dart';
-import 'indexes/about_electricite_index.dart';
-import 'indexes/about_informatique_index.dart';
-
 // Pages (pour tuiles classiques)
 import 'about_dmx_page.dart';
 import 'about_artnet_page.dart';
@@ -26,18 +13,6 @@ import 'about_electricite_page.dart';
 import 'about_informatique_page.dart';
 
 class AboutRegistry {
-  static List<AboutSearchDoc> allDocs() => [
-        ...AboutDmxSearchIndex.docs(),
-        ...AboutArtNetSearchIndex.docs(),
-        ...AboutSacnSearchIndex.docs(),
-        ...AboutIpBasicsSearchIndex.docs(),
-        ...AboutReseauSearchIndex.docs(),
-        ...AboutNetworkSearchIndex.docs(),
-        ...AboutVideoSearchIndex.docs(),
-        ...AboutElectriciteSearchIndex.docs(),
-        ...AboutInformatiqueSearchIndex.docs(),
-      ];
-
   static List<AboutTile> tiles() => const [
         AboutTile(
           title: 'DMX — fonctionnement (simple & complet)',
@@ -107,34 +82,6 @@ class AboutRegistry {
           pageBuilder: AboutInformatiquePage.new,
         ),
       ];
-
-  /// Permet à la recherche d'ouvrir la bonne page à partir du doc.pageId.
-  /// IMPORTANT : on n'enlève rien, on ajoute juste un mapping.
-  static Widget Function() pageBuilderFor(String pageId) {
-    switch (pageId) {
-      case 'dmx':
-        return AboutDmxPage.new;
-      case 'artnet':
-        return AboutArtNetPage.new;
-      case 'sacn':
-        return AboutSacnPage.new;
-      case 'ip_basics':
-        return AboutIpBasicsPage.new;
-      case 'reseau':
-        return AboutReseauPage.new;
-      case 'network':
-        return AboutNetworkPage.new;
-      case 'video':
-        return AboutVideoPage.new;
-      case 'electricite':
-        return AboutElectricitePage.new;
-      case 'informatique':
-        return AboutInformatiquePage.new;
-    }
-
-    // Fallback (au cas où un index a un pageId inconnu)
-    return AboutDmxPage.new;
-  }
 }
 
 class AboutTile {

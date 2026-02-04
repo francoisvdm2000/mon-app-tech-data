@@ -3,20 +3,7 @@ import 'package:flutter/material.dart';
 import '../../app/ui/widgets.dart'; // SectionCard, ExpandSectionCard, MiniPill, copyToClipboard
 
 class AboutSacnPage extends StatefulWidget {
-  const AboutSacnPage({super.key, this.initialAnchor});
-
-  /// ID d’ancre optionnel pour arriver DIRECT à la bonne section.
-  /// Valeurs possibles :
-  /// - k1Basics
-  /// - k2Universe
-  /// - k3Multicast
-  /// - k4Priorities
-  /// - k5Perf
-  /// - k6Rdm
-  /// - k7Diagrams
-  /// - k7bAssets
-  /// - k8Checklist
-  final String? initialAnchor;
+  const AboutSacnPage({super.key});
 
   @override
   State<AboutSacnPage> createState() => _AboutSacnPageState();
@@ -36,13 +23,9 @@ class _AboutSacnPageState extends State<AboutSacnPage> {
   final _k8Checklist = GlobalKey();
 
   @override
-  void initState() {
-    super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      final id = widget.initialAnchor;
-      if (id == null || id.trim().isEmpty) return;
-      _goToAnchor(id.trim());
-    });
+  void dispose() {
+    _scrollCtrl.dispose();
+    super.dispose();
   }
 
   void _goTo(GlobalKey key) {
@@ -54,42 +37,6 @@ class _AboutSacnPageState extends State<AboutSacnPage> {
       curve: Curves.easeOutCubic,
       alignment: 0.02,
     );
-  }
-
-  GlobalKey? _keyForAnchor(String id) {
-    switch (id) {
-      case 'k1Basics':
-        return _k1Basics;
-      case 'k2Universe':
-        return _k2Universe;
-      case 'k3Multicast':
-        return _k3Multicast;
-      case 'k4Priorities':
-        return _k4Priorities;
-      case 'k5Perf':
-        return _k5Perf;
-      case 'k6Rdm':
-        return _k6Rdm;
-      case 'k7Diagrams':
-        return _k7Diagrams;
-      case 'k7bAssets':
-        return _k7bAssets;
-      case 'k8Checklist':
-        return _k8Checklist;
-    }
-    return null;
-  }
-
-  void _goToAnchor(String id) {
-    final key = _keyForAnchor(id);
-    if (key == null) return;
-    _goTo(key);
-  }
-
-  @override
-  void dispose() {
-    _scrollCtrl.dispose();
-    super.dispose();
   }
 
   @override
@@ -206,7 +153,7 @@ sACN (E1.31) — Checklist terrain
 }
 
 /// =======================
-/// SECTIONS
+/// SECTIONS (inchangées)
 /// =======================
 
 class _Section1Basics extends StatelessWidget {
@@ -479,7 +426,6 @@ class _Section7Diagrams extends StatelessWidget {
 
 class _Section7bAssets extends StatelessWidget {
   const _Section7bAssets({required this.onCopy});
-
   final VoidCallback onCopy;
 
   @override
@@ -499,21 +445,9 @@ class _Section7bAssets extends StatelessWidget {
           SizedBox(height: 10),
           _AssetRow(
             items: [
-              _AssetSpec(
-                label: 'Switch',
-                assetPath: 'assets/images/network/switch.png',
-                hint: 'Managed = utile si IGMP/VLAN',
-              ),
-              _AssetSpec(
-                label: 'IGMP',
-                assetPath: 'assets/images/network/igmp.png',
-                hint: 'Snooping/Querier',
-              ),
-              _AssetSpec(
-                label: 'Node',
-                assetPath: 'assets/images/network/node.png',
-                hint: 'IP → DMX',
-              ),
+              _AssetSpec(label: 'Switch', assetPath: 'assets/images/network/switch.png', hint: 'Managed = utile si IGMP/VLAN'),
+              _AssetSpec(label: 'IGMP', assetPath: 'assets/images/network/igmp.png', hint: 'Snooping/Querier'),
+              _AssetSpec(label: 'Node', assetPath: 'assets/images/network/node.png', hint: 'IP → DMX'),
             ],
           ),
         ],
@@ -524,7 +458,6 @@ class _Section7bAssets extends StatelessWidget {
 
 class _Section8Checklist extends StatelessWidget {
   const _Section8Checklist({required this.onCopy});
-
   final VoidCallback onCopy;
 
   @override
@@ -552,12 +485,11 @@ class _Section8Checklist extends StatelessWidget {
 }
 
 /// =======================
-/// DIAGRAM BOX + ASSETS
+/// DIAGRAM BOX + ASSETS (inchangés)
 /// =======================
 
 class _DiagramBox extends StatelessWidget {
   const _DiagramBox({required this.painter, this.aspect = 16 / 7});
-
   final CustomPainter painter;
   final double aspect;
 
@@ -638,11 +570,7 @@ class _AssetTile extends StatelessWidget {
         children: [
           Text(
             spec.label,
-            style: TextStyle(
-              color: Colors.white.withValues(alpha: 0.92),
-              fontWeight: FontWeight.w900,
-              fontSize: 13.5,
-            ),
+            style: TextStyle(color: Colors.white.withValues(alpha: 0.92), fontWeight: FontWeight.w900, fontSize: 13.5),
           ),
           const SizedBox(height: 8),
           AspectRatio(
@@ -678,10 +606,7 @@ class _AssetTile extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 8),
-          Text(
-            spec.hint,
-            style: TextStyle(color: Colors.white.withValues(alpha: 0.78), height: 1.25, fontSize: 12.5),
-          ),
+          Text(spec.hint, style: TextStyle(color: Colors.white.withValues(alpha: 0.78), height: 1.25, fontSize: 12.5)),
           const SizedBox(height: 8),
           Text(
             spec.assetPath,
@@ -694,7 +619,7 @@ class _AssetTile extends StatelessWidget {
 }
 
 /// =======================
-/// DIAGRAMS
+/// DIAGRAMS (inchangés)
 /// =======================
 
 class _SacnMulticastPainter extends CustomPainter {
@@ -742,9 +667,7 @@ class _SacnMulticastPainter extends CustomPainter {
 
   void _grid(Canvas canvas, Size size) {
     canvas.drawRect(Offset.zero & size, Paint()..color = const Color(0xFF0B0B0B));
-    final faint = Paint()
-      ..color = Colors.white.withValues(alpha: 0.16)
-      ..strokeWidth = 1;
+    final faint = Paint()..color = Colors.white.withValues(alpha: 0.16)..strokeWidth = 1;
     final step = size.shortestSide / 10;
     for (double x = 0; x <= size.width; x += step) {
       canvas.drawLine(Offset(x, 0), Offset(x, size.height), faint);
@@ -788,10 +711,7 @@ class _SacnMulticastPainter extends CustomPainter {
     canvas.drawRRect(rr, Paint()..color = Colors.white.withValues(alpha: 0.07));
     canvas.drawRRect(
       rr,
-      Paint()
-        ..color = Colors.white.withValues(alpha: 0.20)
-        ..style = PaintingStyle.stroke
-        ..strokeWidth = 2,
+      Paint()..color = Colors.white.withValues(alpha: 0.20)..style = PaintingStyle.stroke..strokeWidth = 2,
     );
 
     final tp = _Text.tp(
@@ -844,9 +764,7 @@ class _SacnPriorityPainter extends CustomPainter {
 
   void _grid(Canvas canvas, Size size) {
     canvas.drawRect(Offset.zero & size, Paint()..color = const Color(0xFF0B0B0B));
-    final faint = Paint()
-      ..color = Colors.white.withValues(alpha: 0.16)
-      ..strokeWidth = 1;
+    final faint = Paint()..color = Colors.white.withValues(alpha: 0.16)..strokeWidth = 1;
     final step = size.shortestSide / 10;
     for (double x = 0; x <= size.width; x += step) {
       canvas.drawLine(Offset(x, 0), Offset(x, size.height), faint);
@@ -886,12 +804,11 @@ class _SacnPriorityPainter extends CustomPainter {
 }
 
 /// =======================
-/// SMALL UI HELPERS
+/// SMALL UI HELPERS (inchangés)
 /// =======================
 
 class _Anchor extends StatelessWidget {
   const _Anchor({super.key});
-
   @override
   Widget build(BuildContext context) => const SizedBox(height: 0);
 }
@@ -904,11 +821,7 @@ class _Subtitle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: TextStyle(
-        color: Colors.white.withValues(alpha: 0.92),
-        fontWeight: FontWeight.w900,
-        fontSize: 14.5,
-      ),
+      style: TextStyle(color: Colors.white.withValues(alpha: 0.92), fontWeight: FontWeight.w900, fontSize: 14.5),
     );
   }
 }
@@ -921,11 +834,7 @@ class _Paragraph extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: TextStyle(
-        color: Colors.white.withValues(alpha: 0.80),
-        height: 1.35,
-        fontSize: 13.5,
-      ),
+      style: TextStyle(color: Colors.white.withValues(alpha: 0.80), height: 1.35, fontSize: 13.5),
     );
   }
 }
@@ -962,7 +871,6 @@ class _BulletList extends StatelessWidget {
 
 class _Callout extends StatelessWidget {
   const _Callout({required this.title, required this.bullets});
-
   final String title;
   final List<String> bullets;
 
@@ -1005,22 +913,11 @@ class _FooterNote extends StatelessWidget {
 }
 
 class _Text {
-  static TextPainter tp(
-    String s, {
-    required double fontSize,
-    required Color color,
-    required FontWeight weight,
-  }) {
+  static TextPainter tp(String s, {required double fontSize, required Color color, required FontWeight weight}) {
     final t = TextPainter(
       text: TextSpan(
         text: s,
-        style: TextStyle(
-          fontSize: fontSize,
-          color: color,
-          fontWeight: weight,
-          fontFamily: 'monospace',
-          height: 1.15,
-        ),
+        style: TextStyle(fontSize: fontSize, color: color, fontWeight: weight, fontFamily: 'monospace', height: 1.15),
       ),
       textDirection: TextDirection.ltr,
       textAlign: TextAlign.left,
@@ -1041,22 +938,17 @@ class _Text {
       Rect.fromLTWH(pos.dx, pos.dy, tp.width + pad * 2, tp.height + pad * 2),
       const Radius.circular(12),
     );
-
     canvas.drawRRect(r, Paint()..color = Colors.black.withValues(alpha: 0.45));
     canvas.drawRRect(
       r,
-      Paint()
-        ..color = Colors.white.withValues(alpha: 0.14)
-        ..style = PaintingStyle.stroke
-        ..strokeWidth = 1.5,
+      Paint()..color = Colors.white.withValues(alpha: 0.14)..style = PaintingStyle.stroke..strokeWidth = 1.5,
     );
-
     tp.paint(canvas, Offset(pos.dx + pad, pos.dy + pad));
   }
 }
 
 /// =======================
-/// TOC
+/// TOC (inchangé)
 /// =======================
 
 class _TocCard extends StatelessWidget {

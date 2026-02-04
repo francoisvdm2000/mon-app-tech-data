@@ -3,16 +3,7 @@ import 'package:flutter/material.dart';
 import '../../app/ui/widgets.dart'; // SectionCard, copyToClipboard
 
 class AboutInformatiquePage extends StatefulWidget {
-  const AboutInformatiquePage({super.key, this.initialAnchor});
-
-  /// ID d’ancre optionnel pour arriver DIRECT à la bonne section.
-  /// Valeurs possibles :
-  /// - kUsb
-  /// - kStorage
-  /// - kVideo
-  /// - kPcie
-  /// - kChecklist
-  final String? initialAnchor;
+  const AboutInformatiquePage({super.key});
 
   @override
   State<AboutInformatiquePage> createState() => _AboutInformatiquePageState();
@@ -26,16 +17,6 @@ class _AboutInformatiquePageState extends State<AboutInformatiquePage> {
   final _kVideo = GlobalKey();
   final _kPcie = GlobalKey();
   final _kChecklist = GlobalKey();
-
-  @override
-  void initState() {
-    super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      final id = widget.initialAnchor;
-      if (id == null || id.trim().isEmpty) return;
-      _goToAnchor(id.trim());
-    });
-  }
 
   @override
   void dispose() {
@@ -52,28 +33,6 @@ class _AboutInformatiquePageState extends State<AboutInformatiquePage> {
       curve: Curves.easeOutCubic,
       alignment: 0.06,
     );
-  }
-
-  GlobalKey? _keyForAnchor(String id) {
-    switch (id) {
-      case 'kUsb':
-        return _kUsb;
-      case 'kStorage':
-        return _kStorage;
-      case 'kVideo':
-        return _kVideo;
-      case 'kPcie':
-        return _kPcie;
-      case 'kChecklist':
-        return _kChecklist;
-    }
-    return null;
-  }
-
-  void _goToAnchor(String id) {
-    final key = _keyForAnchor(id);
-    if (key == null) return;
-    _goTo(key);
   }
 
   @override

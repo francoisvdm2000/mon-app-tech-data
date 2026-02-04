@@ -3,20 +3,7 @@ import 'package:flutter/material.dart';
 import '../../app/ui/widgets.dart'; // SectionCard, MiniPill, copyToClipboard
 
 class AboutIpBasicsPage extends StatefulWidget {
-  const AboutIpBasicsPage({super.key, this.initialAnchor});
-
-  /// ID d’ancre optionnel pour arriver DIRECT à la bonne section.
-  /// Valeurs possibles :
-  /// - k1WhatIsIp
-  /// - k2PrivateRanges
-  /// - k3MaskSubnet
-  /// - k4GatewayDnsDhcp
-  /// - k5HowDevicesTalk
-  /// - k6CommonShowPlans
-  /// - k7Troubleshooting
-  /// - k8MiniExercises
-  /// - k9Checklist
-  final String? initialAnchor;
+  const AboutIpBasicsPage({super.key});
 
   @override
   State<AboutIpBasicsPage> createState() => _AboutIpBasicsPageState();
@@ -25,7 +12,7 @@ class AboutIpBasicsPage extends StatefulWidget {
 class _AboutIpBasicsPageState extends State<AboutIpBasicsPage> {
   final _scrollCtrl = ScrollController();
 
-  // Anchors (table des matières -> sections)
+  // Sections (sommaire interne -> scroll)
   final _k1WhatIsIp = GlobalKey();
   final _k2PrivateRanges = GlobalKey();
   final _k3MaskSubnet = GlobalKey();
@@ -36,17 +23,6 @@ class _AboutIpBasicsPageState extends State<AboutIpBasicsPage> {
   final _k8MiniExercises = GlobalKey();
   final _k9Checklist = GlobalKey();
 
-  @override
-  void initState() {
-    super.initState();
-
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      final id = widget.initialAnchor;
-      if (id == null || id.trim().isEmpty) return;
-      _goToAnchor(id.trim());
-    });
-  }
-
   void _goTo(GlobalKey key) {
     final ctx = key.currentContext;
     if (ctx == null) return;
@@ -56,36 +32,6 @@ class _AboutIpBasicsPageState extends State<AboutIpBasicsPage> {
       curve: Curves.easeOutCubic,
       alignment: 0.02,
     );
-  }
-
-  GlobalKey? _keyForAnchor(String id) {
-    switch (id) {
-      case 'k1WhatIsIp':
-        return _k1WhatIsIp;
-      case 'k2PrivateRanges':
-        return _k2PrivateRanges;
-      case 'k3MaskSubnet':
-        return _k3MaskSubnet;
-      case 'k4GatewayDnsDhcp':
-        return _k4GatewayDnsDhcp;
-      case 'k5HowDevicesTalk':
-        return _k5HowDevicesTalk;
-      case 'k6CommonShowPlans':
-        return _k6CommonShowPlans;
-      case 'k7Troubleshooting':
-        return _k7Troubleshooting;
-      case 'k8MiniExercises':
-        return _k8MiniExercises;
-      case 'k9Checklist':
-        return _k9Checklist;
-    }
-    return null;
-  }
-
-  void _goToAnchor(String id) {
-    final key = _keyForAnchor(id);
-    if (key == null) return;
-    _goTo(key);
   }
 
   @override
@@ -262,7 +208,7 @@ class _TocItem {
 }
 
 /// =======================
-/// SECTION 1 — What is IP
+/// SECTIONS (inchangées)
 /// =======================
 
 class _Section1WhatIsIp extends StatelessWidget {
@@ -305,10 +251,6 @@ class _Section1WhatIsIp extends StatelessWidget {
     );
   }
 }
-
-/// =======================
-/// SECTION 2 — Private ranges
-/// =======================
 
 class _Section2PrivateRanges extends StatelessWidget {
   const _Section2PrivateRanges();
@@ -357,10 +299,6 @@ class _Section2PrivateRanges extends StatelessWidget {
     );
   }
 }
-
-/// =======================
-/// SECTION 3 — Mask & subnet
-/// =======================
 
 class _Section3MaskSubnet extends StatelessWidget {
   const _Section3MaskSubnet();
@@ -429,10 +367,6 @@ class _Section3MaskSubnet extends StatelessWidget {
   }
 }
 
-/// =======================
-/// SECTION 4 — DHCP / Gateway / DNS
-/// =======================
-
 class _Section4GatewayDnsDhcp extends StatelessWidget {
   const _Section4GatewayDnsDhcp();
 
@@ -487,10 +421,6 @@ class _Section4GatewayDnsDhcp extends StatelessWidget {
   }
 }
 
-/// =======================
-/// SECTION 5 — How devices talk
-/// =======================
-
 class _Section5HowDevicesTalk extends StatelessWidget {
   const _Section5HowDevicesTalk();
 
@@ -538,10 +468,6 @@ class _Section5HowDevicesTalk extends StatelessWidget {
     );
   }
 }
-
-/// =======================
-/// SECTION 6 — Common show plans
-/// =======================
 
 class _Section6CommonShowPlans extends StatelessWidget {
   const _Section6CommonShowPlans();
@@ -617,10 +543,6 @@ Node 2 : 2.0.0.101
   }
 }
 
-/// =======================
-/// SECTION 7 — Troubleshooting
-/// =======================
-
 class _Section7Troubleshooting extends StatelessWidget {
   const _Section7Troubleshooting();
 
@@ -664,10 +586,6 @@ class _Section7Troubleshooting extends StatelessWidget {
     );
   }
 }
-
-/// =======================
-/// SECTION 8 — Mini exercises
-/// =======================
 
 class _Section8MiniExercises extends StatelessWidget {
   const _Section8MiniExercises();
@@ -715,13 +633,8 @@ class _Section8MiniExercises extends StatelessWidget {
   }
 }
 
-/// =======================
-/// SECTION 9 — Checklist
-/// =======================
-
 class _Section9Checklist extends StatelessWidget {
   const _Section9Checklist({required this.onCopy});
-
   final VoidCallback onCopy;
 
   @override

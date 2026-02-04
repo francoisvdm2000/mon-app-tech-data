@@ -3,19 +3,7 @@ import 'package:flutter/material.dart';
 import '../../app/ui/widgets.dart'; // SectionCard, copyToClipboard
 
 class AboutReseauPage extends StatefulWidget {
-  const AboutReseauPage({super.key, this.initialAnchor});
-
-  /// ID d’ancre optionnel pour arriver DIRECT à la bonne section.
-  /// Valeurs possibles :
-  /// - kBasics
-  /// - kRj45
-  /// - kPoE
-  /// - kFiber
-  /// - kSfp
-  /// - kSwitch
-  /// - kArtNetSacn
-  /// - kChecklist
-  final String? initialAnchor;
+  const AboutReseauPage({super.key});
 
   @override
   State<AboutReseauPage> createState() => _AboutReseauPageState();
@@ -34,16 +22,6 @@ class _AboutReseauPageState extends State<AboutReseauPage> {
   final _kChecklist = GlobalKey();
 
   @override
-  void initState() {
-    super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      final id = widget.initialAnchor;
-      if (id == null || id.trim().isEmpty) return;
-      _goToAnchor(id.trim());
-    });
-  }
-
-  @override
   void dispose() {
     _scroll.dispose();
     super.dispose();
@@ -58,34 +36,6 @@ class _AboutReseauPageState extends State<AboutReseauPage> {
       curve: Curves.easeOutCubic,
       alignment: 0.06,
     );
-  }
-
-  GlobalKey? _keyForAnchor(String id) {
-    switch (id) {
-      case 'kBasics':
-        return _kBasics;
-      case 'kRj45':
-        return _kRj45;
-      case 'kPoE':
-        return _kPoE;
-      case 'kFiber':
-        return _kFiber;
-      case 'kSfp':
-        return _kSfp;
-      case 'kSwitch':
-        return _kSwitch;
-      case 'kArtNetSacn':
-        return _kArtNetSacn;
-      case 'kChecklist':
-        return _kChecklist;
-    }
-    return null;
-  }
-
-  void _goToAnchor(String id) {
-    final key = _keyForAnchor(id);
-    if (key == null) return;
-    _goTo(key);
   }
 
   @override
@@ -109,7 +59,8 @@ RÉSEAU — repères terrain
 • Fibre : longue distance + immunité EMI.
 • Switch : IGMP important pour sACN multicast.
 • VLAN : séparer lumière/vidéo/IT = stabilité.
-'''.trim();
+'''
+                      .trim();
                   copyToClipboard(context, txt);
                 },
                 items: [
@@ -164,7 +115,8 @@ RÉSEAU — Checklist
 ☐ Câbles testés + étiquetés
 ☐ Fibre : modules compatibles + connecteurs propres
 ☐ Éviter boucles (STP) + éviter Wi-Fi public sur show LAN
-'''.trim();
+'''
+                      .trim();
                   copyToClipboard(context, txt);
                 },
               ),
@@ -247,7 +199,7 @@ class _TocItem {
 }
 
 /// =======================
-/// SECTIONS (tuiles ouvertes)
+/// SECTIONS (tuiles ouvertes) — inchangées
 /// =======================
 
 class _Section1Basics extends StatelessWidget {
@@ -524,7 +476,6 @@ class _Section8Checklist extends StatelessWidget {
 
 class _Anchor extends StatelessWidget {
   const _Anchor({super.key});
-
   @override
   Widget build(BuildContext context) => const SizedBox(height: 0);
 }
