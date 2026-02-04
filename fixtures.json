@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T13:09:39.698Z",
+  "updatedAt": "2026-02-04T13:19:40.233Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -62,6 +62,56 @@
           "weightKilogram": 53.8,
           "powerWatt": 1470,
           "luminousFluxLumen": 51000,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Hurac?n Profile",
+          "modes": [],
+          "weightKilogram": 46,
+          "powerWatt": 1470,
+          "luminousFluxLumen": 51000,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Hurac?n Was",
+          "modes": [],
+          "weightKilogram": 42.5,
+          "powerWatt": 1470,
+          "luminousFluxLumen": 52000,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Long throw",
+          "name": "Domino LT",
+          "modes": [],
+          "weightKilogram": 60,
+          "powerWatt": 1600,
+          "luminousFluxLumen": 51000,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Domino Profile",
+          "modes": [],
+          "weightKilogram": 52,
+          "powerWatt": 1800,
+          "luminousFluxLumen": 51000,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Domino Was",
+          "modes": [],
+          "weightKilogram": 52,
+          "powerWatt": 1600,
+          "luminousFluxLumen": 52000,
           "manualUrl": "",
           "dmxChartUrl": ""
         }
