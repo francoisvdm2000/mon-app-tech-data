@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T10:49:41.460Z",
+  "updatedAt": "2026-02-04T10:59:40.314Z",
   "manufacturers": [
     {
       "name": "GLP",
@@ -668,7 +668,7 @@
           "powerWatt": 950,
           "luminousFluxLumen": 34000,
           "manualUrl": "https://drive.google.com/file/d/127kkb3odDrN4-_D4V9Qp0l3iD92JenXY/view?usp=sharing",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Esprite_DMX_charts.pdf"
+          "dmxChartUrl": "https://drive.google.com/file/d/1GUhtFPk4-NXpeYzxNng2j4lukAJddHWa/view?usp=sharing"
         },
         {
           "type": "Profile",
@@ -699,7 +699,7 @@
           "powerWatt": 950,
           "luminousFluxLumen": 34000,
           "manualUrl": "https://drive.google.com/file/d/127kkb3odDrN4-_D4V9Qp0l3iD92JenXY/view?usp=sharing",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Esprite_DMX_charts.pdf"
+          "dmxChartUrl": "https://drive.google.com/file/d/1GUhtFPk4-NXpeYzxNng2j4lukAJddHWa/view?usp=sharing"
         },
         {
           "type": "Profile",
@@ -752,8 +752,8 @@
           "weightKilogram": 0,
           "powerWatt": 450,
           "luminousFluxLumen": 8200,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_LEDBeam_350_FW_EP_FWEP.pdf",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_LEDBeam_350_DMX_charts.pdf"
+          "manualUrl": "https://drive.google.com/file/d/15eUZx_Zzy7fnOEoSbQjAjtq03Xt6nYwS/view?usp=sharing",
+          "dmxChartUrl": "https://drive.google.com/file/d/1yQH03220qqOYa6_CyEXI-k3q3PYVzJcQ/view?usp=sharing"
         },
         {
           "type": "BWS",
