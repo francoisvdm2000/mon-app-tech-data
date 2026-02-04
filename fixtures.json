@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T10:29:39.347Z",
+  "updatedAt": "2026-02-04T10:39:39.492Z",
   "manufacturers": [
     {
       "name": "GLP",
@@ -407,6 +407,29 @@
           "dmxChartUrl": ""
         },
         {
+          "type": "BWS",
+          "name": "AQUA 350 BWS PR-2367",
+          "modes": [
+            {
+              "name": "Short mode",
+              "dmxChannels": 23
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 32
+            }
+          ],
+          "weightKilogram": 24,
+          "powerWatt": 550,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://drive.google.com/file/d/1UfyXcTgHRHzfL-nFm7W9WnJv_-t_vc0L/view?usp=sharing",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Beam",
           "name": "AQUA Marine 580 Beam",
           "modes": [
@@ -494,7 +517,7 @@
         },
         {
           "type": "Spot",
-          "name": "AQUALED600",
+          "name": "AQUALED600 PR-8178",
           "modes": [
             {
               "name": "Short mode",
@@ -503,7 +526,18 @@
             {
               "name": "Standard mode",
               "dmxChannels": 31
-            },
+            }
+          ],
+          "weightKilogram": 50,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://drive.google.com/file/d/1BLFnLEj65a6R-SGHtdv-3MduEpEct9aW/view?usp=drive_link",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "AQUALED600 PR8-8178",
+          "modes": [
             {
               "name": "Extended mode",
               "dmxChannels": 38
@@ -512,7 +546,7 @@
           "weightKilogram": 50,
           "powerWatt": 750,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1BLFnLEj65a6R-SGHtdv-3MduEpEct9aW/view?usp=drive_link",
+          "manualUrl": "",
           "dmxChartUrl": ""
         }
       ]
@@ -691,7 +725,7 @@
           "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_LEDBeam_350_DMX_charts.pdf"
         },
         {
-          "type": "BSW",
+          "type": "BWS",
           "name": "Pointe",
           "modes": [
             {
@@ -714,7 +748,7 @@
           "dmxChartUrl": "https://drive.google.com/file/d/1jMZQPDaVrHeWi6ejrD5enzycdw37qU-r/view?usp=sharing"
         },
         {
-          "type": "BSW",
+          "type": "BWS",
           "name": "MegaPointe",
           "modes": [
             {
@@ -932,31 +966,11 @@
         {
           "type": "Decorative lighting",
           "name": "PATT 2013",
-          "modes": [
-            {
-              "name": "Mode 1 - RGB control",
-              "dmxChannels": 1
-            }
-          ],
+          "modes": [],
           "weightKilogram": 0,
           "powerWatt": 750,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.robe.cz/res/downloads/catalogues/ROBE_PATT_2013_leaflet.pdf",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Decorative lighting",
-          "name": "picklePATT",
-          "modes": [
-            {
-              "name": "Mode 1 - RGB control",
-              "dmxChannels": 8
-            }
-          ],
-          "weightKilogram": 12,
-          "powerWatt": 575,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.robe.cz/res/downloads/catalogues/ROBE_picklePATT_leaflet.pdf",
+          "manualUrl": "https://drive.google.com/file/d/1xk1v3nMeczpcbrHIr3znjoEgBEz46Y7_/view?usp=sharing",
           "dmxChartUrl": ""
         },
         {
@@ -1011,16 +1025,11 @@
         {
           "type": "Decorative lighting",
           "name": "PATT 2017",
-          "modes": [
-            {
-              "name": "Mode 1 - RGB pixel control",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 7,
-          "powerWatt": 240,
+          "modes": [],
+          "weightKilogram": 2.3,
+          "powerWatt": 210,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.robe.cz/res/downloads/catalogues/ROBE_PATT_2017_leaflet.pdf",
+          "manualUrl": "https://drive.google.com/file/d/1eaUh4MEkon61nfdKSGEMPS2e-y2I9BXM/view?usp=sharing",
           "dmxChartUrl": ""
         },
         {
