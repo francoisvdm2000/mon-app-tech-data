@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T13:29:39.176Z",
+  "updatedAt": "2026-02-04T13:39:40.006Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -142,6 +142,46 @@
           "weightKilogram": 35.6,
           "powerWatt": 800,
           "luminousFluxLumen": 23000,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Long throw",
+          "name": "Karif LT",
+          "modes": [],
+          "weightKilogram": 27,
+          "powerWatt": 550,
+          "luminousFluxLumen": 14000,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Diablo Profile",
+          "modes": [],
+          "weightKilogram": 22,
+          "powerWatt": 550,
+          "luminousFluxLumen": 19000,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Rivale Profile",
+          "modes": [],
+          "weightKilogram": 30.8,
+          "powerWatt": 700,
+          "luminousFluxLumen": 30000,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Rivale Wash",
+          "modes": [],
+          "weightKilogram": 30.8,
+          "powerWatt": 700,
+          "luminousFluxLumen": 28000,
           "manualUrl": "",
           "dmxChartUrl": ""
         }
