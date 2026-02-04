@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T10:39:39.492Z",
+  "updatedAt": "2026-02-04T10:49:41.460Z",
   "manufacturers": [
     {
       "name": "GLP",
@@ -430,6 +430,37 @@
           "dmxChartUrl": ""
         },
         {
+          "type": "Wash",
+          "name": "XLED 4022RZ PR-8541",
+          "modes": [
+            {
+              "name": "15 channels",
+              "dmxChannels": 15
+            },
+            {
+              "name": "28 channels",
+              "dmxChannels": 28
+            },
+            {
+              "name": "30 channels",
+              "dmxChannels": 30
+            },
+            {
+              "name": "81 channels",
+              "dmxChannels": 81
+            },
+            {
+              "name": "104 channels",
+              "dmxChannels": 104
+            }
+          ],
+          "weightKilogram": 23.6,
+          "powerWatt": 900,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://drive.google.com/file/d/1ZtcFf50FgF1Zmu_zHhWEdTCEg4vQkiwR/view?usp=sharing",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Beam",
           "name": "AQUA Marine 580 Beam",
           "modes": [
@@ -636,7 +667,7 @@
           "weightKilogram": 0,
           "powerWatt": 950,
           "luminousFluxLumen": 34000,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Esprite.pdf",
+          "manualUrl": "https://drive.google.com/file/d/127kkb3odDrN4-_D4V9Qp0l3iD92JenXY/view?usp=sharing",
           "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Esprite_DMX_charts.pdf"
         },
         {
@@ -667,7 +698,7 @@
           "weightKilogram": 28.2,
           "powerWatt": 950,
           "luminousFluxLumen": 34000,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Esprite.pdf",
+          "manualUrl": "https://drive.google.com/file/d/127kkb3odDrN4-_D4V9Qp0l3iD92JenXY/view?usp=sharing",
           "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Esprite_DMX_charts.pdf"
         },
         {
@@ -698,8 +729,8 @@
           "weightKilogram": 34,
           "powerWatt": 950,
           "luminousFluxLumen": 34000,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_Esprite.pdf",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_Esprite_DMX_charts.pdf"
+          "manualUrl": "https://drive.google.com/file/d/1cVwpWqYjXOrELmJJ4ger-NUqVam3olu7/view?usp=sharing",
+          "dmxChartUrl": "https://drive.google.com/file/d/16liKXju55BNhK6quruyFSiugR5W3x_E-/view?usp=sharing"
         },
         {
           "type": "Wash",
