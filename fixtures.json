@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T13:19:40.233Z",
+  "updatedAt": "2026-02-04T13:29:39.176Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -112,6 +112,36 @@
           "weightKilogram": 52,
           "powerWatt": 1600,
           "luminousFluxLumen": 52000,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Perseo Profile",
+          "modes": [],
+          "weightKilogram": 38.8,
+          "powerWatt": 800,
+          "luminousFluxLumen": 30000,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Beam",
+          "name": "Perseo Beam",
+          "modes": [],
+          "weightKilogram": 41.5,
+          "powerWatt": 700,
+          "luminousFluxLumen": 18000,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Ghibli",
+          "modes": [],
+          "weightKilogram": 35.6,
+          "powerWatt": 800,
+          "luminousFluxLumen": 23000,
           "manualUrl": "",
           "dmxChartUrl": ""
         }
