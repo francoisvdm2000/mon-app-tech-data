@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T14:19:38.925Z",
+  "updatedAt": "2026-02-04T14:29:39.422Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -8,7 +8,16 @@
         {
           "type": "Beam Spot",
           "name": "Cobra 2",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 45
+            }
+          ],
           "weightKilogram": 30.7,
           "powerWatt": 480,
           "luminousFluxLumen": 0,
@@ -18,7 +27,12 @@
         {
           "type": "Beam",
           "name": "Kyalami",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Extended mode",
+              "dmxChannels": 33
+            }
+          ],
           "weightKilogram": 14.5,
           "powerWatt": 200,
           "luminousFluxLumen": 0,
@@ -28,7 +42,20 @@
         {
           "type": "Linear moving head wash",
           "name": "MagicBlade FX",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 18
+            }
+          ],
           "weightKilogram": 13,
           "powerWatt": 400,
           "luminousFluxLumen": 4200,
