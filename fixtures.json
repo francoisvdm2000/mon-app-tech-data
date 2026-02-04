@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T10:19:42.640Z",
+  "updatedAt": "2026-02-04T10:29:39.347Z",
   "manufacturers": [
     {
       "name": "GLP",
@@ -962,17 +962,51 @@
         {
           "type": "Decorative lighting",
           "name": "pixelPATT",
+          "modes": [],
+          "weightKilogram": 12,
+          "powerWatt": 210,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://drive.google.com/file/d/11Z9_OOF4yjuqUIV81ceOt-qY1_Hl9_Pn/view?usp=sharing",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Decorative lighting",
+          "name": "pixelPATT driver",
           "modes": [
             {
-              "name": "Mode 1 - Pixel control",
-              "dmxChannels": 24
+              "name": "Mode 1 - Wash",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Mode 2 - Pattern",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 3 - Pixel-RGB",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Mode 4 - Pixel-RGBW",
+              "dmxChannels": 47
+            },
+            {
+              "name": "Mode 5 - Pattern full RGB",
+              "dmxChannels": 53
+            },
+            {
+              "name": "Mode 6 - Pattern full RGBW",
+              "dmxChannels": 60
+            },
+            {
+              "name": "Mode 7 - Pixel RGBW only",
+              "dmxChannels": 28
             }
           ],
-          "weightKilogram": 12,
-          "powerWatt": 320,
+          "weightKilogram": 3.8,
+          "powerWatt": 240,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_pixelPATT.pdf",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_pixelPATT_DMX_charts.pdf"
+          "manualUrl": "https://drive.google.com/file/d/1_wLgORKZm5ONv-mKhr7ZHOAzpj0mWcFr/view?usp=sharing",
+          "dmxChartUrl": "https://drive.google.com/file/d/1mT7rIM5zouGe3hgkwrztlswmsZP1LpyM/view?usp=sharing"
         },
         {
           "type": "Decorative lighting",
