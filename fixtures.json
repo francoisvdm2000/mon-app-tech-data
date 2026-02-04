@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T09:59:41.733Z",
+  "updatedAt": "2026-02-04T10:09:36.820Z",
   "manufacturers": [
     {
       "name": "GLP",
@@ -748,8 +748,8 @@
           "weightKilogram": 36,
           "powerWatt": 2000,
           "luminousFluxLumen": 40000,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_BMFL_Spot.pdf",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_BMFL_Spot_DMX_charts.pdf"
+          "manualUrl": "https://drive.google.com/file/d/15hR7xm2clw7u6h6RnyFHXzEFJO5G2j1p/view?usp=sharing",
+          "dmxChartUrl": "https://drive.google.com/file/d/1tBS2vanoKh0f7D2E0pKSXvswp49LVsMy/view?usp=sharing"
         },
         {
           "type": "Profile",
@@ -767,8 +767,8 @@
           "weightKilogram": 37.9,
           "powerWatt": 2000,
           "luminousFluxLumen": 40000,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_BMFL_Blade.pdf",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_BMFL_Blade_DMX_charts.pdf"
+          "manualUrl": "https://drive.google.com/file/d/1dJRjFD-CvB70RBLZrmWS4ld0p4ESDj_X/view?usp=sharing",
+          "dmxChartUrl": "https://drive.google.com/file/d/1JPbKK6Cs0FaAHUBNgYpTS3zBLUdW4q2_/view?usp=sharing"
         },
         {
           "type": "Linear moving head wash",
@@ -873,7 +873,7 @@
           "powerWatt": 600,
           "luminousFluxLumen": 10500,
           "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_iTetra2_IP65.pdf",
-          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_iTetra2_IP65_DMX_charts.pdf"
+          "dmxChartUrl": "https://drive.google.com/file/d/10ECLXsggQTkgLn9yWMt3e9sZ86-eR4Y8/view?usp=sharing"
         },
         {
           "type": "Linear moving head wash",
