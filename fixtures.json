@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T12:59:40.287Z",
+  "updatedAt": "2026-02-04T13:09:39.698Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -27,11 +27,41 @@
         },
         {
           "type": "Linear moving head wash",
-          "name": "Magicblade FX",
+          "name": "MagicBlade FX",
           "modes": [],
           "weightKilogram": 13,
           "powerWatt": 400,
           "luminousFluxLumen": 4200,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash FX",
+          "name": "MagicPanel FX",
+          "modes": [],
+          "weightKilogram": 28.7,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 13500,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Beam",
+          "name": "MagicDot Neo",
+          "modes": [],
+          "weightKilogram": 6.6,
+          "powerWatt": 0,
+          "luminousFluxLumen": 5000,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Long throw",
+          "name": "Hurac?n LT",
+          "modes": [],
+          "weightKilogram": 53.8,
+          "powerWatt": 1470,
+          "luminousFluxLumen": 51000,
           "manualUrl": "",
           "dmxChartUrl": ""
         }
