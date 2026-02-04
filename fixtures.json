@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-04T13:39:40.006Z",
+  "updatedAt": "2026-02-04T13:49:39.538Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -182,6 +182,16 @@
           "weightKilogram": 30.8,
           "powerWatt": 700,
           "luminousFluxLumen": 28000,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Nando 502 Wash",
+          "modes": [],
+          "weightKilogram": 15.6,
+          "powerWatt": 550,
+          "luminousFluxLumen": 11000,
           "manualUrl": "",
           "dmxChartUrl": ""
         }
