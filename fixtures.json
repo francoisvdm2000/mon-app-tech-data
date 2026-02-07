@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-07T15:49:40.600Z",
+  "updatedAt": "2026-02-07T15:59:38.883Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -421,6 +421,41 @@
           "luminousFluxLumen": 11000,
           "manualUrl": "https://drive.google.com/file/d/1ablRgmz5XbQwBg36NNtThkfon4rkBY_X/view?usp=drive_link",
           "dmxChartUrl": "https://drive.google.com/file/d/1lunJuGOdKnw3Rz9ULnpP_3_sN8pCK2HX/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      "name": "Chauvet Pro",
+      "products": [
+        {
+          "type": "Strobe wash light",
+          "name": "ColorStrike MV2",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Linear moving head wash",
+          "name": "Colorado pixel curve",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Static wash light",
+          "name": "Well panel X",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
         }
       ]
     },
