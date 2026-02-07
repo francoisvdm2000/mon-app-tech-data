@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-07T15:39:37.976Z",
+  "updatedAt": "2026-02-07T15:49:40.600Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -398,7 +398,24 @@
         {
           "type": "Wash",
           "name": "Nando 502 Wash",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Extended Ring mode",
+              "dmxChannels": 46
+            },
+            {
+              "name": "Extended Pixel mode",
+              "dmxChannels": 86
+            }
+          ],
           "weightKilogram": 15.6,
           "powerWatt": 550,
           "luminousFluxLumen": 11000,
@@ -866,39 +883,6 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Beam",
-          "name": "AQUA Marine 580 Beam",
-          "modes": [
-            {
-              "name": "Short mode",
-              "dmxChannels": 22
-            },
-            {
-              "name": "Standard mode",
-              "dmxChannels": 26
-            },
-            {
-              "name": "Extended mode",
-              "dmxChannels": 30
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "BWS",
-          "name": "AQUA Marine 580 BWS",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
-        },
-        {
           "type": "BWS",
           "name": "AQUA 480 BWS",
           "modes": [],
@@ -929,26 +913,6 @@
           "powerWatt": 650,
           "luminousFluxLumen": 0,
           "manualUrl": "https://drive.google.com/file/d/1rMVDVcu2_3utiJE4ijlhG_0F8CDFoBp1/view?usp=drive_link",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "BWS",
-          "name": "AQUA 380 BWS",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Beam",
-          "name": "AQUA 380 Beam",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
           "dmxChartUrl": ""
         },
         {
