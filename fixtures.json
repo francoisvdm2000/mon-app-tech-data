@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-07T15:19:37.258Z",
+  "updatedAt": "2026-02-07T15:29:39.196Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -65,7 +65,20 @@
         {
           "type": "Wash FX",
           "name": "MagicPanel FX",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 18
+            }
+          ],
           "weightKilogram": 28.7,
           "powerWatt": 1000,
           "luminousFluxLumen": 13500,
@@ -75,7 +88,12 @@
         {
           "type": "Beam",
           "name": "MagicDot Neo",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Extended mode",
+              "dmxChannels": 35
+            }
+          ],
           "weightKilogram": 6.6,
           "powerWatt": 0,
           "luminousFluxLumen": 5000,
@@ -85,7 +103,20 @@
         {
           "type": "Long throw",
           "name": "Hurac?n LT",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 44
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 46
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 70
+            }
+          ],
           "weightKilogram": 53.8,
           "powerWatt": 1470,
           "luminousFluxLumen": 51000,
@@ -95,7 +126,20 @@
         {
           "type": "Profile",
           "name": "Hurac?n Profile",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 44
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 46
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 70
+            }
+          ],
           "weightKilogram": 46,
           "powerWatt": 1470,
           "luminousFluxLumen": 51000,
@@ -105,7 +149,20 @@
         {
           "type": "Wash",
           "name": "Hurac?n Wash",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 39
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 61
+            }
+          ],
           "weightKilogram": 42.5,
           "powerWatt": 1470,
           "luminousFluxLumen": 52000,
@@ -115,7 +172,20 @@
         {
           "type": "Long throw",
           "name": "Domino LT",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 44
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 46
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 70
+            }
+          ],
           "weightKilogram": 60,
           "powerWatt": 1600,
           "luminousFluxLumen": 51000,
@@ -125,7 +195,20 @@
         {
           "type": "Profile",
           "name": "Domino Profile",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 42
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 44
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 66
+            }
+          ],
           "weightKilogram": 52,
           "powerWatt": 1800,
           "luminousFluxLumen": 51000,
@@ -135,7 +218,20 @@
         {
           "type": "Wash",
           "name": "Domino Wash",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 39
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 61
+            }
+          ],
           "weightKilogram": 52,
           "powerWatt": 1600,
           "luminousFluxLumen": 52000,
@@ -145,7 +241,20 @@
         {
           "type": "Profile",
           "name": "Perseo Profile",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 38
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 42
+            }
+          ],
           "weightKilogram": 38.8,
           "powerWatt": 800,
           "luminousFluxLumen": 30000,
@@ -155,7 +264,20 @@
         {
           "type": "Beam",
           "name": "Perseo Beam",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 29
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 42
+            }
+          ],
           "weightKilogram": 41.5,
           "powerWatt": 700,
           "luminousFluxLumen": 18000,
