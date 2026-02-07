@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-07T15:29:39.196Z",
+  "updatedAt": "2026-02-07T15:39:37.976Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -252,7 +252,7 @@
             },
             {
               "name": "Extended mode",
-              "dmxChannels": 42
+              "dmxChannels": 61
             }
           ],
           "weightKilogram": 38.8,
@@ -287,7 +287,20 @@
         {
           "type": "Profile",
           "name": "Ghibli",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 38
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 58
+            }
+          ],
           "weightKilogram": 35.6,
           "powerWatt": 800,
           "luminousFluxLumen": 23000,
@@ -297,7 +310,24 @@
         {
           "type": "Long throw",
           "name": "Karif LT",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Standard LOW mode",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Extended LOW mode",
+              "dmxChannels": 36
+            }
+          ],
           "weightKilogram": 27,
           "powerWatt": 550,
           "luminousFluxLumen": 14000,
@@ -307,7 +337,20 @@
         {
           "type": "Profile",
           "name": "Diablo Profile",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 65
+            }
+          ],
           "weightKilogram": 22,
           "powerWatt": 550,
           "luminousFluxLumen": 19000,
@@ -317,7 +360,16 @@
         {
           "type": "Profile",
           "name": "Rivale Profile",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 42
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 65
+            }
+          ],
           "weightKilogram": 30.8,
           "powerWatt": 700,
           "luminousFluxLumen": 30000,
@@ -327,7 +379,16 @@
         {
           "type": "Wash",
           "name": "Rivale Wash",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Standard mode",
+              "dmxChannels": 38
+            },
+            {
+              "name": "Extended Mode",
+              "dmxChannels": 60
+            }
+          ],
           "weightKilogram": 30.8,
           "powerWatt": 700,
           "luminousFluxLumen": 28000,
