@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-08T11:49:37.464Z",
+  "updatedAt": "2026-02-08T11:59:38.497Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -481,12 +481,57 @@
         {
           "type": "Linear moving head wash",
           "name": "Colorado pixel curve",
-          "modes": [],
-          "weightKilogram": 0,
+          "modes": [
+            {
+              "name": "Single controle Mode Tour",
+              "dmxChannels": 179
+            },
+            {
+              "name": "Single controle Mode Full Pxl",
+              "dmxChannels": 169
+            },
+            {
+              "name": "Single controle Mode Advanced2",
+              "dmxChannels": 169
+            },
+            {
+              "name": "Single controle Mode Advanced",
+              "dmxChannels": 155
+            },
+            {
+              "name": "Single controle Mode Standard",
+              "dmxChannels": 101
+            },
+            {
+              "name": "Single controle Mode Basic2",
+              "dmxChannels": 53
+            },
+            {
+              "name": "Single controle Mode Basic",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Dual controle mode Advanced",
+              "dmxChannels": 59
+            },
+            {
+              "name": "Dual controle mode Standard",
+              "dmxChannels": 53
+            },
+            {
+              "name": "Dual controle mode Basic2",
+              "dmxChannels": 41
+            },
+            {
+              "name": "Dual controle mode Basic",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 34.5,
           "powerWatt": 800,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "luminousFluxLumen": 5807,
+          "manualUrl": "https://drive.google.com/file/d/1as5RGLu61UIEIO69Ko-La4XEq-tFcsMC/view?usp=share_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1rfKMOhsQudpTA3T90ks8Q1Ke4t9lt23r/view?usp=share_link"
         },
         {
           "type": "Static wash light",
