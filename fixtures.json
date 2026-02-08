@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-08T12:19:38.070Z",
+  "updatedAt": "2026-02-08T12:29:36.647Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -579,17 +579,59 @@
         {
           "type": "Static wash light",
           "name": "Well fit",
-          "modes": [],
+          "modes": [
+            {
+              "name": "10 channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "6 channel",
+              "dmxChannels": 6
+            },
+            {
+              "name": "4 channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "HSV",
+              "dmxChannels": 3
+            },
+            {
+              "name": "HSI",
+              "dmxChannels": 2
+            }
+          ],
           "weightKilogram": 3.4,
           "powerWatt": 48,
           "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "https://drive.google.com/file/d/1PXQuZWPVwAUSC0lmTqpzK1k7lQi_FFfp/view?usp=share_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1nSJ01sXbQwi6bRfz3oD6liO2FQ7i5gIy/view?usp=share_link"
         },
         {
           "type": "Static wash light",
           "name": "Well panel",
-          "modes": [],
+          "modes": [
+            {
+              "name": "5 channel",
+              "dmxChannels": 5
+            },
+            {
+              "name": "8 channel",
+              "dmxChannels": 8
+            },
+            {
+              "name": "9 channel",
+              "dmxChannels": 9
+            },
+            {
+              "name": "12 channel",
+              "dmxChannels": 12
+            },
+            {
+              "name": "16 channel",
+              "dmxChannels": 16
+            }
+          ],
           "weightKilogram": 10.3,
           "powerWatt": 147,
           "luminousFluxLumen": 0,
