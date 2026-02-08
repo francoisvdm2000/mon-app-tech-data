@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-08T11:29:37.116Z",
+  "updatedAt": "2026-02-08T11:39:36.865Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -450,6 +450,46 @@
         {
           "type": "Static wash light",
           "name": "Well panel X",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Linear moving head wash",
+          "name": "Colorado solo edge",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Static wash light",
+          "name": "Well fit",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Static wash light",
+          "name": "Well panel",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Static wash light",
+          "name": "Well fit X",
           "modes": [],
           "weightKilogram": 0,
           "powerWatt": 0,
