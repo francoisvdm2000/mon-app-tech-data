@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-08T11:39:36.865Z",
+  "updatedAt": "2026-02-08T11:49:37.464Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -430,19 +430,60 @@
         {
           "type": "Strobe wash light",
           "name": "ColorStrike MV2",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "modes": [
+            {
+              "name": "8 channel",
+              "dmxChannels": 8
+            },
+            {
+              "name": "11 channel",
+              "dmxChannels": 11
+            },
+            {
+              "name": "13 channel",
+              "dmxChannels": 13
+            },
+            {
+              "name": "24 channel",
+              "dmxChannels": 24
+            },
+            {
+              "name": "30 channel",
+              "dmxChannels": 30
+            },
+            {
+              "name": "47 channel",
+              "dmxChannels": 47
+            },
+            {
+              "name": "68 channel",
+              "dmxChannels": 68
+            },
+            {
+              "name": "74 channel",
+              "dmxChannels": 74
+            },
+            {
+              "name": "96 channel",
+              "dmxChannels": 96
+            },
+            {
+              "name": "97 channel",
+              "dmxChannels": 97
+            }
+          ],
+          "weightKilogram": 12.1,
+          "powerWatt": 740,
+          "luminousFluxLumen": 71620,
+          "manualUrl": "https://drive.google.com/file/d/1aXaNKvAKfmsHBZaGTDxLltJBsRNABvQ2/view?usp=sharing",
+          "dmxChartUrl": "https://drive.google.com/file/d/1GPjS_cVwlGiixOMq2qum2ts-9X7aqLZk/view?usp=share_link"
         },
         {
           "type": "Linear moving head wash",
           "name": "Colorado pixel curve",
           "modes": [],
           "weightKilogram": 0,
-          "powerWatt": 0,
+          "powerWatt": 800,
           "luminousFluxLumen": 0,
           "manualUrl": "",
           "dmxChartUrl": ""
