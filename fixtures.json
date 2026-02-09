@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-09T17:19:41.543Z",
+  "updatedAt": "2026-02-09T17:29:40.779Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -1793,6 +1793,16 @@
           "luminousFluxLumen": 26800,
           "manualUrl": "https://www.robelighting.fr/res/downloads/user_manuals/User_manual_Robin_iBOLT.pdf",
           "dmxChartUrl": "https://www.robelighting.fr/res/downloads/dmx_charts/Robin_iBolt_DMX_charts.pdf"
+        },
+        {
+          "type": "Wash FX",
+          "name": "K20",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
         }
       ]
     }
