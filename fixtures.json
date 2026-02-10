@@ -1,13 +1,70 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T15:19:41.319Z",
+  "updatedAt": "2026-02-10T15:29:39.014Z",
   "manufacturers": [
     {
       "name": "ACME",
       "products": [
         {
           "type": "Moving Head",
-          "name": "Solar Impulse (XP-5000 SZ)",
+          "name": "Solaris (CM-S6)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 107
+            }
+          ],
+          "weightKilogram": 24,
+          "powerWatt": 22000,
+          "luminousFluxLumen": 750,
+          "manualUrl": "https://www.acme.com.cn/Product/details/id/351",
+          "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/351"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Gemini (CM-800)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 132
+            }
+          ],
+          "weightKilogram": 22,
+          "powerWatt": 15000,
+          "luminousFluxLumen": 700,
+          "manualUrl": "https://www.acme.com.cn/Product/details/id/415",
+          "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/415"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Lyra (XA-1000)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 38,
+          "powerWatt": 35000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.acme.com.cn/Product/details/id/360",
+          "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/360"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Oxygen (XP-5000)",
           "modes": [
             {
               "name": "Standard",
@@ -15,94 +72,189 @@
             },
             {
               "name": "Extended",
-              "dmxChannels": 34
+              "dmxChannels": 38
             }
           ],
-          "weightKilogram": 38,
-          "powerWatt": 35000,
-          "luminousFluxLumen": 1200,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
+          "weightKilogram": 32,
+          "powerWatt": 18000,
+          "luminousFluxLumen": 850,
+          "manualUrl": "https://www.acme.com.cn/Product/details/id/362",
+          "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/362"
         },
         {
           "type": "Moving Head",
-          "name": "Aeco 10 (XP-3300 BSW)",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 34
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 41
-            }
-          ],
-          "weightKilogram": 44,
-          "powerWatt": 65000,
-          "luminousFluxLumen": 2265,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Aeco 5",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 28
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 34
-            }
-          ],
-          "weightKilogram": 25,
-          "powerWatt": 22000,
-          "luminousFluxLumen": 600,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Gemini (Barre)",
+          "name": "Super Solaris",
           "modes": [
             {
               "name": "Standard",
               "dmxChannels": 26
             },
             {
-              "name": "Extended (Pixel)",
-              "dmxChannels": 113
+              "name": "Extended",
+              "dmxChannels": 143
             }
           ],
-          "weightKilogram": 20,
-          "powerWatt": 0,
-          "luminousFluxLumen": 1000,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
+          "weightKilogram": 42,
+          "powerWatt": 50000,
+          "luminousFluxLumen": 1600,
+          "manualUrl": "https://www.acme.com.cn/Product/details/id/430",
+          "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/430"
         },
         {
           "type": "Moving Head",
-          "name": "Oxygen (XP-260 BEAM)",
+          "name": "Spartan (BSW-400)",
           "modes": [
             {
               "name": "Standard",
-              "dmxChannels": 16
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 16000,
+          "luminousFluxLumen": 550,
+          "manualUrl": "https://www.acme.com.cn/Product/details/id/280",
+          "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/280"
+        },
+        {
+          "type": "Strobe/Wash",
+          "name": "Thunderbolt (ST-5000)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 10
             },
             {
               "name": "Extended",
-              "dmxChannels": 19
+              "dmxChannels": 52
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 150000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.acme.com.cn/Product/details/id/422",
+          "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/422"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Glory Framer",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 54
+            }
+          ],
+          "weightKilogram": 36,
+          "powerWatt": 31000,
+          "luminousFluxLumen": 1100,
+          "manualUrl": "https://www.acme.com.cn/Product/details/id/345",
+          "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/345"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Pageant (CM-600Z)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 8500,
+          "luminousFluxLumen": 500,
+          "manualUrl": "https://www.acme.com.cn/Product/details/id/212",
+          "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/212"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Aeco 10",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 49
+            }
+          ],
+          "weightKilogram": 42,
+          "powerWatt": 43000,
+          "luminousFluxLumen": 1400,
+          "manualUrl": "https://www.acme.com.cn/Product/details/id/405",
+          "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/405"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Pixel Line IP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 10
+            },
+            {
+              "name": "RGB Mode",
+              "dmxChannels": 30
+            },
+            {
+              "name": "Ultimate",
+              "dmxChannels": 112
             }
           ],
           "weightKilogram": 14,
           "powerWatt": 0,
-          "luminousFluxLumen": 350,
-          "manualUrl": "Parc",
-          "dmxChartUrl": ""
+          "luminousFluxLumen": 600,
+          "manualUrl": "https://www.acme.com.cn/Product/details/id/390",
+          "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/390"
         },
         {
           "type": "Moving Head",
-          "name": "Spartan Hybrid",
+          "name": "Sanderson (XP-1000)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 45
+            }
+          ],
+          "weightKilogram": 41,
+          "powerWatt": 32000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.acme.com.cn/Product/details/id/320",
+          "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/320"
+        },
+        {
+          "type": "Static",
+          "name": "Stage Par 100",
+          "modes": [
+            {
+              "name": "1-Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "2-Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3-Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 120,
+          "manualUrl": "https://www.acme.com.cn/Product/details/id/240",
+          "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/240"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Whirlwind",
           "modes": [
             {
               "name": "Standard",
@@ -110,238 +262,323 @@
             },
             {
               "name": "Extended",
-              "dmxChannels": 26
-            }
-          ],
-          "weightKilogram": 28,
-          "powerWatt": 0,
-          "luminousFluxLumen": 700,
-          "manualUrl": "Parc",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Glory Beam 400",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 15
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 18,
-          "powerWatt": 12000,
-          "luminousFluxLumen": 485,
-          "manualUrl": "Parc",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Saber (XP-380 BEAM)",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 15
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 18,
-          "powerWatt": 0,
-          "luminousFluxLumen": 450,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Pageant CM-600Z",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 14
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 8000,
-          "luminousFluxLumen": 450,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Stage Par 100 Col",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 5
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 9
+              "dmxChannels": 83
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
-          "luminousFluxLumen": 120,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "XP-16R BSW",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 22
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 30
-            }
-          ],
-          "weightKilogram": 21,
-          "powerWatt": 0,
-          "luminousFluxLumen": 450,
-          "manualUrl": "Vieux",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "XP-5R Beam",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 19
-            }
-          ],
-          "weightKilogram": 16,
-          "powerWatt": 0,
-          "luminousFluxLumen": 300,
-          "manualUrl": "Vieux",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "XP-1000 SZ",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 28
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 35
-            }
-          ],
-          "weightKilogram": 40,
-          "powerWatt": 0,
-          "luminousFluxLumen": 1200,
-          "manualUrl": "Vieux",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Thunderbolt",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 12
-            },
-            {
-              "name": "Pixel (Max)",
-              "dmxChannels": 124
-            }
-          ],
-          "weightKilogram": 18,
-          "powerWatt": 40000,
-          "luminousFluxLumen": 1000,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Lyra",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 26
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 34
-            }
-          ],
-          "weightKilogram": 25,
-          "powerWatt": 18500,
           "luminousFluxLumen": 550,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
-        },
+          "manualUrl": "https://www.acme.com.cn/Product/details/id/330",
+          "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/330"
+        }
+      ]
+    },
+    {
+      "name": "Astera",
+      "products": [
         {
-          "type": "Strobe",
-          "name": "Blizzard (Stroboscope)",
+          "type": "LED Tube",
+          "name": "AX1 PixelTube",
           "modes": [
             {
-              "name": "1-Channel",
-              "dmxChannels": 1
-            },
-            {
-              "name": "3-Channel",
+              "name": "RGB (1 cell)",
               "dmxChannels": 3
             },
             {
-              "name": "4-Channel",
+              "name": "RGBS (1 cell)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGBW (1 cell)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGB (16 cell)",
+              "dmxChannels": 48
+            },
+            {
+              "name": "RGBS (16 cell)",
+              "dmxChannels": 64
+            },
+            {
+              "name": "RGBW (16 cell)",
+              "dmxChannels": 64
+            }
+          ],
+          "weightKilogram": 1,
+          "powerWatt": 695,
+          "luminousFluxLumen": 28,
+          "manualUrl": "https://astera-led.com/ax1",
+          "dmxChartUrl": "https://astera-led.com/ax1"
+        },
+        {
+          "type": "LED Tube",
+          "name": "Titan Tube (FP1)",
+          "modes": [
+            {
+              "name": "RGB (1 cell)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "RGBW (1 cell)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGBS (1 cell)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGB CCT Dim (1 cell)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "RGB (16 cell)",
+              "dmxChannels": 48
+            },
+            {
+              "name": "RGBW (16 cell)",
+              "dmxChannels": 64
+            },
+            {
+              "name": "RGBS (16 cell)",
+              "dmxChannels": 64
+            },
+            {
+              "name": "RGB CCT Dim (16 cell)",
+              "dmxChannels": 112
+            },
+            {
+              "name": "RGB CCT Dim Tint (16 cell)",
+              "dmxChannels": 128
+            }
+          ],
+          "weightKilogram": 1.35,
+          "powerWatt": 2900,
+          "luminousFluxLumen": 72,
+          "manualUrl": "https://astera-led.com/titan",
+          "dmxChartUrl": "https://astera-led.com/titan"
+        },
+        {
+          "type": "LED Tube",
+          "name": "Helios Tube (FP2)",
+          "modes": [
+            {
+              "name": "RGB (1 cell)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "RGBW (8 cell)",
+              "dmxChannels": 32
+            },
+            {
+              "name": "RGB CCT Dim (8 cell)",
+              "dmxChannels": 56
+            }
+          ],
+          "weightKilogram": 0.76,
+          "powerWatt": 1450,
+          "luminousFluxLumen": 36,
+          "manualUrl": "https://astera-led.com/helios",
+          "dmxChartUrl": "https://astera-led.com/helios"
+        },
+        {
+          "type": "LED Tube",
+          "name": "Hyperion Tube (FP3)",
+          "modes": [
+            {
+              "name": "RGB (32 cell)",
+              "dmxChannels": 96
+            },
+            {
+              "name": "RGBW (32 cell)",
+              "dmxChannels": 128
+            },
+            {
+              "name": "RGB CCT Dim (32 cell)",
+              "dmxChannels": 224
+            }
+          ],
+          "weightKilogram": 2.9,
+          "powerWatt": 5800,
+          "luminousFluxLumen": 144,
+          "manualUrl": "https://astera-led.com/hyperion",
+          "dmxChartUrl": "https://astera-led.com/hyperion"
+        },
+        {
+          "type": "Static",
+          "name": "AX3 LightDrop",
+          "modes": [
+            {
+              "name": "RGB (1 cell)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "RGBW (1 cell)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGBS (1 cell)",
               "dmxChannels": 4
             }
           ],
-          "weightKilogram": 8,
-          "powerWatt": 0,
-          "luminousFluxLumen": 3000,
-          "manualUrl": "Parc",
-          "dmxChartUrl": ""
+          "weightKilogram": 0.67,
+          "powerWatt": 430,
+          "luminousFluxLumen": 15,
+          "manualUrl": "https://astera-led.com/ax3",
+          "dmxChartUrl": "https://astera-led.com/ax3"
         },
         {
-          "type": "Wash",
-          "name": "CM-400Z",
+          "type": "Static",
+          "name": "AX5 TriplePar",
           "modes": [
             {
-              "name": "Standard",
-              "dmxChannels": 14
+              "name": "RGB (1 cell)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "RGBW (1 cell)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGBS (1 cell)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGB CCT Dim (1 cell)",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 3.4,
+          "powerWatt": 1080,
+          "luminousFluxLumen": 45,
+          "manualUrl": "https://astera-led.com/ax5",
+          "dmxChartUrl": "https://astera-led.com/ax5"
+        },
+        {
+          "type": "Static",
+          "name": "AX9 PowerPar",
+          "modes": [
+            {
+              "name": "RGBW (1 cell)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGBS (1 cell)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGBW (7 cell)",
+              "dmxChannels": 28
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 350,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
+          "powerWatt": 3000,
+          "luminousFluxLumen": 105,
+          "manualUrl": "https://astera-led.com/ax9",
+          "dmxChartUrl": "https://astera-led.com/ax9"
         },
         {
-          "type": "Wash",
-          "name": "CM-800Z",
+          "type": "Static",
+          "name": "AX10 SpotMax",
           "modes": [
             {
-              "name": "Standard",
-              "dmxChannels": 18
+              "name": "RGBW (1 cell)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGBS (1 cell)",
+              "dmxChannels": 4
             }
           ],
-          "weightKilogram": 11,
-          "powerWatt": 0,
-          "luminousFluxLumen": 550,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
+          "weightKilogram": 0,
+          "powerWatt": 3350,
+          "luminousFluxLumen": 135,
+          "manualUrl": "https://astera-led.com/ax10",
+          "dmxChartUrl": "https://astera-led.com/ax10"
+        },
+        {
+          "type": "Static",
+          "name": "AX2 PixelBar (1m)",
+          "modes": [
+            {
+              "name": "RGBW (1 cell)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGBW (16 cell)",
+              "dmxChannels": 64
+            },
+            {
+              "name": "RGB CCT Dim (16 cell)",
+              "dmxChannels": 112
+            }
+          ],
+          "weightKilogram": 7.4,
+          "powerWatt": 3600,
+          "luminousFluxLumen": 160,
+          "manualUrl": "https://astera-led.com/ax2",
+          "dmxChartUrl": "https://astera-led.com/ax2"
+        },
+        {
+          "type": "Static",
+          "name": "HydraPanel",
+          "modes": [
+            {
+              "name": "RGB Mint Amber (1 cell)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGB CCT Dim (1 cell)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "RGBW (6 cell)",
+              "dmxChannels": 24
+            },
+            {
+              "name": "RGB CCT Dim (6 cell)",
+              "dmxChannels": 42
+            }
+          ],
+          "weightKilogram": 0.6,
+          "powerWatt": 1300,
+          "luminousFluxLumen": 17,
+          "manualUrl": "https://astera-led.com/hydrapanel",
+          "dmxChartUrl": "https://astera-led.com/hydrapanel"
+        },
+        {
+          "type": "Static",
+          "name": "PixelBrick",
+          "modes": [
+            {
+              "name": "RGBW (1 cell)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGB CCT Dim (1 cell)",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 450,
+          "luminousFluxLumen": 15,
+          "manualUrl": "https://astera-led.com/pixelbrick",
+          "dmxChartUrl": "https://astera-led.com/pixelbrick"
+        },
+        {
+          "type": "LED Bulb",
+          "name": "NYX Bulb",
+          "modes": [
+            {
+              "name": "RGBW (1 cell)",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0.24,
+          "powerWatt": 750,
+          "luminousFluxLumen": 10,
+          "manualUrl": "https://astera-led.com/nyx-bulb",
+          "dmxChartUrl": "https://astera-led.com/nyx-bulb"
         }
       ]
     },
@@ -772,7 +1009,7 @@
       "products": [
         {
           "type": "Moving Head",
-          "name": "OTOS H5",
+          "name": "Otus H25",
           "modes": [
             {
               "name": "Standard",
@@ -783,170 +1020,236 @@
               "dmxChannels": 32
             }
           ],
-          "weightKilogram": 33,
+          "weightKilogram": 32.5,
           "powerWatt": 19000,
-          "luminousFluxLumen": 700,
-          "manualUrl": "https://www.cameolight.com/fr/solutions/series/serie-otos/otos-h5/",
-          "dmxChartUrl": "https://www.cameolight.com/fr/solutions/series/serie-otos/otos-h5/"
+          "luminousFluxLumen": 800,
+          "manualUrl": "https://www.cameolight.com/otus-h25",
+          "dmxChartUrl": "https://www.cameolight.com/otus-h25"
         },
         {
           "type": "Moving Head",
-          "name": "OTOS B5",
+          "name": "Otus S25",
           "modes": [
             {
               "name": "Standard",
-              "dmxChannels": 16
-            }
-          ],
-          "weightKilogram": 33,
-          "powerWatt": 511000,
-          "luminousFluxLumen": 700,
-          "manualUrl": "https://www.cameolight.com/fr/solutions/series/serie-otos/otos-b5/",
-          "dmxChartUrl": "https://www.cameolight.com/fr/solutions/series/serie-otos/otos-b5/"
-        },
-        {
-          "type": "Moving Head",
-          "name": "OTOS W12",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 20
+              "dmxChannels": 26
             },
             {
               "name": "Extended",
-              "dmxChannels": 116
+              "dmxChannels": 32
             }
           ],
-          "weightKilogram": 22,
-          "powerWatt": 35000,
-          "luminousFluxLumen": 950,
-          "manualUrl": "https://www.cameolight.com/fr/solutions/series/serie-otos/otos-w12/",
-          "dmxChartUrl": "https://www.cameolight.com/fr/solutions/series/serie-otos/otos-w12/"
+          "weightKilogram": 32,
+          "powerWatt": 30000,
+          "luminousFluxLumen": 800,
+          "manualUrl": "https://www.cameolight.com/otus-s25",
+          "dmxChartUrl": "https://www.cameolight.com/otus-s25"
         },
         {
           "type": "Moving Head",
-          "name": "EVOS W7",
+          "name": "Opus S5",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 33
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 17500,
+          "luminousFluxLumen": 600,
+          "manualUrl": "https://www.cameolight.com/opus-s5",
+          "dmxChartUrl": "https://www.cameolight.com/opus-s5"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Evos W7",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Full Pixel",
+              "dmxChannels": 117
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 12500,
+          "luminousFluxLumen": 900,
+          "manualUrl": "https://www.cameolight.com/evos-w7",
+          "dmxChartUrl": "https://www.cameolight.com/evos-w7"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Evos W3",
           "modes": [
             {
               "name": "Standard",
               "dmxChannels": 18
             },
             {
-              "name": "Extended",
-              "dmxChannels": 96
+              "name": "Full Pixel",
+              "dmxChannels": 25
             }
           ],
-          "weightKilogram": 11,
-          "powerWatt": 12500,
-          "luminousFluxLumen": 450,
-          "manualUrl": "https://www.cameolight.com/fr/solutions/series/serie-evos/evos-w7/",
-          "dmxChartUrl": "https://www.cameolight.com/fr/solutions/series/serie-evos/evos-w7/"
-        },
-        {
-          "type": "Moving Head",
-          "name": "OPUS X Profile",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 37
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 53
-            }
-          ],
-          "weightKilogram": 39,
-          "powerWatt": 33000,
-          "luminousFluxLumen": 1100,
-          "manualUrl": "https://www.cameolight.com/fr/solutions/series/serie-opus/opus-x-profile/",
-          "dmxChartUrl": "https://www.cameolight.com/fr/solutions/series/serie-opus/opus-x-profile/"
-        },
-        {
-          "type": "Moving Head",
-          "name": "AZOR S2",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 22
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 13,
-          "powerWatt": 11000,
+          "weightKilogram": 7,
+          "powerWatt": 4035,
           "luminousFluxLumen": 350,
-          "manualUrl": "https://www.cameolight.com/fr/solutions/series/serie-azor/azor-s2/",
-          "dmxChartUrl": "https://www.cameolight.com/fr/solutions/series/serie-azor/azor-s2/"
+          "manualUrl": "https://www.cameolight.com/evos-w3",
+          "dmxChartUrl": "https://www.cameolight.com/evos-w3"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Azur W600",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 21,
+          "powerWatt": 21000,
+          "luminousFluxLumen": 650,
+          "manualUrl": "https://www.cameolight.com/azur-w600",
+          "dmxChartUrl": "https://www.cameolight.com/azur-w600"
         },
         {
           "type": "Static",
-          "name": "ZENIT W600",
+          "name": "Zenit W600",
+          "modes": [
+            {
+              "name": "2-Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3-Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4-Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "8-Channel",
+              "dmxChannels": 8
+            },
+            {
+              "name": "10-Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "15-Channel",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 13,
+          "powerWatt": 21000,
+          "luminousFluxLumen": 565,
+          "manualUrl": "https://www.cameolight.com/zenit-w600",
+          "dmxChartUrl": "https://www.cameolight.com/zenit-w600"
+        },
+        {
+          "type": "Static",
+          "name": "Zenit W300",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 10000,
+          "luminousFluxLumen": 300,
+          "manualUrl": "https://www.cameolight.com/zenit-w300",
+          "dmxChartUrl": "https://www.cameolight.com/zenit-w300"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Zenit B200",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 6600,
+          "luminousFluxLumen": 180,
+          "manualUrl": "https://www.cameolight.com/zenit-b200",
+          "dmxChartUrl": "https://www.cameolight.com/zenit-b200"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Pixbar 600 Pro",
           "modes": [
             {
               "name": "Standard",
               "dmxChannels": 2
             },
             {
-              "name": "Pixel",
-              "dmxChannels": 96
-            }
-          ],
-          "weightKilogram": 13,
-          "powerWatt": 21000,
-          "luminousFluxLumen": 565,
-          "manualUrl": "https://www.cameolight.com/fr/solutions/series/serie-zenit/zenit-w600/",
-          "dmxChartUrl": "https://www.cameolight.com/fr/solutions/series/serie-zenit/zenit-w600/"
-        },
-        {
-          "type": "LED Bar",
-          "name": "PIXBAR 600 PRO",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 12
+              "name": "RGB Mode",
+              "dmxChannels": 36
             },
             {
-              "name": "Pixel",
+              "name": "Full Mode",
               "dmxChannels": 78
             }
           ],
           "weightKilogram": 6,
-          "powerWatt": 3200,
+          "powerWatt": 0,
           "luminousFluxLumen": 160,
-          "manualUrl": "https://www.cameolight.com/fr/solutions/series/serie-pixbar/pixbar-600-pro/",
-          "dmxChartUrl": "https://www.cameolight.com/fr/solutions/series/serie-pixbar/pixbar-600-pro/"
+          "manualUrl": "https://www.cameolight.com/pixbar-600-pro",
+          "dmxChartUrl": "https://www.cameolight.com/pixbar-600-pro"
         },
         {
           "type": "Moving Head",
-          "name": "AURO SPOT 200",
+          "name": "Auro Beam 150",
           "modes": [
             {
               "name": "Standard",
               "dmxChannels": 13
-            }
-          ],
-          "weightKilogram": 10,
-          "powerWatt": 0,
-          "luminousFluxLumen": 250,
-          "manualUrl": "https://www.cameolight.com/fr/solutions/series/serie-auro/auro-spot-200/",
-          "dmxChartUrl": "https://www.cameolight.com/fr/solutions/series/serie-auro/auro-spot-200/"
-        },
-        {
-          "type": "Strobe",
-          "name": "THUNDER WASH 600",
-          "modes": [
+            },
             {
-              "name": "Standard",
-              "dmxChannels": 1
+              "name": "Extended",
+              "dmxChannels": 19
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
-          "luminousFluxLumen": 160,
-          "manualUrl": "https://www.cameolight.com/fr/produits/stroboscopes/thunder-wash-600-rgb/",
-          "dmxChartUrl": "https://www.cameolight.com/fr/produits/stroboscopes/thunder-wash-600-rgb/"
+          "luminousFluxLumen": 130,
+          "manualUrl": "https://www.cameolight.com/auro-beam-150",
+          "dmxChartUrl": "https://www.cameolight.com/auro-beam-150"
+        },
+        {
+          "type": "Strobe",
+          "name": "Zenit W600 SMD",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 118
+            }
+          ],
+          "weightKilogram": 13,
+          "powerWatt": 41000,
+          "luminousFluxLumen": 1100,
+          "manualUrl": "https://www.cameolight.com/zenit-w600-smd",
+          "dmxChartUrl": "https://www.cameolight.com/zenit-w600-smd"
         }
       ]
     },
@@ -3747,6 +4050,448 @@
           "luminousFluxLumen": 40200,
           "manualUrl": "User_manual_Robin_T3_Profile.pdf",
           "dmxChartUrl": "Robin_T3_Profile_DMX_charts.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Vari-Lite",
+      "products": [
+        {
+          "type": "Moving Head",
+          "name": "VL4000 Spot",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 57
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 71
+            }
+          ],
+          "weightKilogram": 41,
+          "powerWatt": 33000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl4000-spot",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl4000-spot"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL4000 BeamWash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 41
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 57
+            }
+          ],
+          "weightKilogram": 45,
+          "powerWatt": 43000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl4000-beamwash",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl4000-beamwash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL3500 Spot",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 41.3,
+          "powerWatt": 20000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl3500-spot",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl3500-spot"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL3500 Wash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 19
+            }
+          ],
+          "weightKilogram": 34,
+          "powerWatt": 50000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl3500-wash",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl3500-wash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL3500 Wash FX",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 41.7,
+          "powerWatt": 40000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl3500-wash-fx",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl3500-wash-fx"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL3000 Spot",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 37,
+          "powerWatt": 20000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl3000-spot",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl3000-spot"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL3000 Wash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 34,
+          "powerWatt": 35000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl3000-wash",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl3000-wash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL2600 Profile",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 42
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 55
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 19000,
+          "luminousFluxLumen": 820,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl2600-profile",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2600-profile"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL2600 Spot",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 31,
+          "powerWatt": 19000,
+          "luminousFluxLumen": 820,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl2600-spot",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2600-spot"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL2600 Wash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 29
+            }
+          ],
+          "weightKilogram": 29,
+          "powerWatt": 22000,
+          "luminousFluxLumen": 820,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl2600-wash",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2600-wash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL2500 Spot",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 14500,
+          "luminousFluxLumen": 700,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl2500-spot",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2500-spot"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL2500 Wash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 14500,
+          "luminousFluxLumen": 700,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl2500-wash",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2500-wash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL10 BeamWash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 41
+            }
+          ],
+          "weightKilogram": 33,
+          "powerWatt": 28000,
+          "luminousFluxLumen": 900,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl10-beamwash",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl10-beamwash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL5LED Wash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 81
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 14000,
+          "luminousFluxLumen": 530,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl5led-wash",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl5led-wash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL5 Arc (Legacy)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 0,
+          "luminousFluxLumen": 575,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl5",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl5"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL5 Wash (Tungsten)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1000,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl5",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl5"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL6 Spot (Legacy)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 400,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl6",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl6"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL6B (Legacy)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 17
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 400,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl6b",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl6b"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL1100 T (Tungsten)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 33.5,
+          "powerWatt": 10000,
+          "luminousFluxLumen": 1000,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl1100",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl1100"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL1100 Arc",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 33.5,
+          "powerWatt": 15000,
+          "luminousFluxLumen": 575,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl1100",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl1100"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL6000 Beam",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 55000,
+          "luminousFluxLumen": 1500,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl6000-beam",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl6000-beam"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL800 BeamFix",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 19
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 13000,
+          "luminousFluxLumen": 430,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl800-beamfix",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl800-beamfix"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL800 EventWash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 17
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 3500,
+          "luminousFluxLumen": 230,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl800-eventwash",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl800-eventwash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL500 Wash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 22,
+          "powerWatt": 0,
+          "luminousFluxLumen": 700,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl500-wash",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl500-wash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL1000 T",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 10000,
+          "luminousFluxLumen": 1000,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl1000",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl1000"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL2000 Spot",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 19
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 15500,
+          "luminousFluxLumen": 700,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl2000-spot",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2000-spot"
+        },
+        {
+          "type": "Moving Head",
+          "name": "VL2000 Wash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 13
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 15500,
+          "luminousFluxLumen": 700,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl2000-wash",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2000-wash"
         }
       ]
     }
