@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T15:39:37.379Z",
+  "updatedAt": "2026-02-10T15:49:39.448Z",
   "manufacturers": [
     {
       "name": "ACME",
@@ -1001,6 +1001,254 @@
           "luminousFluxLumen": 11000,
           "manualUrl": "Nando502Wash_Web_EN_V113.pdf",
           "dmxChartUrl": "NANDO_502_WASH_DMX_V113.pdf"
+        }
+      ]
+    },
+    {
+      "name": "CLF",
+      "products": [
+        {
+          "type": "Moving Head",
+          "name": "Poseidon MPE (Wash)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 106
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 14500,
+          "luminousFluxLumen": 650,
+          "manualUrl": "https://www.clf-lighting.com/product/poseidon-mpe",
+          "dmxChartUrl": "https://www.clf-lighting.com/product/poseidon-mpe"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Poseidon Wash XL",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 109
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 26000,
+          "luminousFluxLumen": 1100,
+          "manualUrl": "https://www.clf-lighting.com/product/poseidon-wash-xl",
+          "dmxChartUrl": "https://www.clf-lighting.com/product/poseidon-wash-xl"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Poseidon Hybrid",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 34
+            }
+          ],
+          "weightKilogram": 30,
+          "powerWatt": 0,
+          "luminousFluxLumen": 650,
+          "manualUrl": "https://www.clf-lighting.com/product/poseidon-hybrid",
+          "dmxChartUrl": "https://www.clf-lighting.com/product/poseidon-hybrid"
+        },
+        {
+          "type": "Static",
+          "name": "Ares (Wash)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Full Mode (4 sections)",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 360,
+          "manualUrl": "https://www.clf-lighting.com/product/ares",
+          "dmxChartUrl": "https://www.clf-lighting.com/product/ares"
+        },
+        {
+          "type": "Static",
+          "name": "Ares XS",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Full Mode (3 sections)",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 180,
+          "manualUrl": "https://www.clf-lighting.com/product/ares-xs",
+          "dmxChartUrl": "https://www.clf-lighting.com/product/ares-xs"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Hercules",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 38
+            }
+          ],
+          "weightKilogram": 45,
+          "powerWatt": 34000,
+          "luminousFluxLumen": 1100,
+          "manualUrl": "https://www.clf-lighting.com/product/hercules",
+          "dmxChartUrl": "https://www.clf-lighting.com/product/hercules"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Orion",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 14000,
+          "luminousFluxLumen": 550,
+          "manualUrl": "https://www.clf-lighting.com/product/orion",
+          "dmxChartUrl": "https://www.clf-lighting.com/product/orion"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Ledko (Bar)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 0,
+          "luminousFluxLumen": 180,
+          "manualUrl": "https://www.clf-lighting.com/product/ledko",
+          "dmxChartUrl": "https://www.clf-lighting.com/product/ledko"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Yara",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 150,
+          "manualUrl": "https://www.clf-lighting.com/product/yara",
+          "dmxChartUrl": "https://www.clf-lighting.com/product/yara"
+        },
+        {
+          "type": "Static",
+          "name": "Conan",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 11
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 0,
+          "luminousFluxLumen": 120,
+          "manualUrl": "https://www.clf-lighting.com/product/conan",
+          "dmxChartUrl": "https://www.clf-lighting.com/product/conan"
+        },
+        {
+          "type": "Strobe",
+          "name": "Turbine",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 48
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1000,
+          "manualUrl": "https://www.clf-lighting.com/product/turbine",
+          "dmxChartUrl": "https://www.clf-lighting.com/product/turbine"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Serena",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 12000,
+          "luminousFluxLumen": 450,
+          "manualUrl": "https://www.clf-lighting.com/product/serena",
+          "dmxChartUrl": "https://www.clf-lighting.com/product/serena"
+        },
+        {
+          "type": "Static",
+          "name": "Spectrum P1",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Full Mode",
+              "dmxChannels": 13
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 40,
+          "manualUrl": "https://www.clf-lighting.com/product/spectrum-p1",
+          "dmxChartUrl": "https://www.clf-lighting.com/product/spectrum-p1"
         }
       ]
     },
@@ -2297,6 +2545,200 @@
           "luminousFluxLumen": 160,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Desire",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Desire"
+        }
+      ]
+    },
+    {
+      "name": "Elation",
+      "products": [
+        {
+          "type": "Moving Head",
+          "name": "Proteus Maximus",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 61
+            }
+          ],
+          "weightKilogram": 53,
+          "powerWatt": 50000,
+          "luminousFluxLumen": 1400,
+          "manualUrl": "https://www.elationlighting.com/proteus-maximus",
+          "dmxChartUrl": "https://www.elationlighting.com/proteus-maximus"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Proteus Excalibur",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 49,
+          "powerWatt": 20000,
+          "luminousFluxLumen": 800,
+          "manualUrl": "https://www.elationlighting.com/proteus-excalibur",
+          "dmxChartUrl": "https://www.elationlighting.com/proteus-excalibur"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Proteus Brutus",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 37
+            }
+          ],
+          "weightKilogram": 47,
+          "powerWatt": 75000,
+          "luminousFluxLumen": 1500,
+          "manualUrl": "https://www.elationlighting.com/proteus-brutus",
+          "dmxChartUrl": "https://www.elationlighting.com/proteus-brutus"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Proteus Rayzor 760",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 25
+            },
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 80
+            },
+            {
+              "name": "Full (incl. SparkLED)",
+              "dmxChannels": 112
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 8000,
+          "luminousFluxLumen": 700,
+          "manualUrl": "https://www.elationlighting.com/proteus-rayzor-760",
+          "dmxChartUrl": "https://www.elationlighting.com/proteus-rayzor-760"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Artiste Mondrian",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 45
+            }
+          ],
+          "weightKilogram": 46,
+          "powerWatt": 51000,
+          "luminousFluxLumen": 1400,
+          "manualUrl": "https://www.elationlighting.com/artiste-mondrian",
+          "dmxChartUrl": "https://www.elationlighting.com/artiste-mondrian"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Artiste Rembrandt",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 35
+            }
+          ],
+          "weightKilogram": 43,
+          "powerWatt": 51000,
+          "luminousFluxLumen": 1300,
+          "manualUrl": "https://www.elationlighting.com/artiste-rembrandt",
+          "dmxChartUrl": "https://www.elationlighting.com/artiste-rembrandt"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Artiste Picasso",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 36
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 23000,
+          "luminousFluxLumen": 1000,
+          "manualUrl": "https://www.elationlighting.com/artiste-picasso",
+          "dmxChartUrl": "https://www.elationlighting.com/artiste-picasso"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Proteus Rayzor STROBE",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Full Pixel",
+              "dmxChannels": 124
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 0,
+          "luminousFluxLumen": 800,
+          "manualUrl": "https://www.elationlighting.com/proteus-rayzor-strobe",
+          "dmxChartUrl": "https://www.elationlighting.com/proteus-rayzor-strobe"
+        },
+        {
+          "type": "Strobe",
+          "name": "Protron 3K Color",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 3
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 40000,
+          "luminousFluxLumen": 800,
+          "manualUrl": "https://www.elationlighting.com/protron-3k-color",
+          "dmxChartUrl": "https://www.elationlighting.com/protron-3k-color"
+        },
+        {
+          "type": "Blinder",
+          "name": "Cuepix Blinder WW4",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 11,
+          "powerWatt": 0,
+          "luminousFluxLumen": 440,
+          "manualUrl": "https://www.elationlighting.com/cuepix-blinder-ww4",
+          "dmxChartUrl": "https://www.elationlighting.com/cuepix-blinder-ww4"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Fuze Wash Z350",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 19
+            }
+          ],
+          "weightKilogram": 17,
+          "powerWatt": 0,
+          "luminousFluxLumen": 400,
+          "manualUrl": "https://www.elationlighting.com/fuze-wash-z350",
+          "dmxChartUrl": "https://www.elationlighting.com/fuze-wash-z350"
         }
       ]
     },
@@ -3940,6 +4382,163 @@
       ]
     },
     {
+      "name": "Portman",
+      "products": [
+        {
+          "type": "Retro",
+          "name": "P1 Retro Lamp",
+          "modes": [
+            {
+              "name": "1-Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "7-Channel (Pixel)",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 2100,
+          "manualUrl": "https://portmanlights.com/products/p1-retro-lamp",
+          "dmxChartUrl": "https://portmanlights.com/products/p1-retro-lamp"
+        },
+        {
+          "type": "Retro",
+          "name": "P1 EVO (LED)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            },
+            {
+              "name": "RGBW Pixel",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 300,
+          "manualUrl": "https://portmanlights.com/products/p1-evo",
+          "dmxChartUrl": "https://portmanlights.com/products/p1-evo"
+        },
+        {
+          "type": "Retro",
+          "name": "P2 Hexaline",
+          "modes": [
+            {
+              "name": "1-Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "6-Channel (Pixel)",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 9,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1750,
+          "manualUrl": "https://portmanlights.com/products/p2-hexaline",
+          "dmxChartUrl": "https://portmanlights.com/products/p2-hexaline"
+        },
+        {
+          "type": "Retro",
+          "name": "P2 EVO (LED)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            },
+            {
+              "name": "RGBW Pixel",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 9,
+          "powerWatt": 0,
+          "luminousFluxLumen": 250,
+          "manualUrl": "https://portmanlights.com/products/p2-evo",
+          "dmxChartUrl": "https://portmanlights.com/products/p2-evo"
+        },
+        {
+          "type": "Retro",
+          "name": "P3 PIX3L",
+          "modes": [
+            {
+              "name": "1-Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3-Channel (Pixel)",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 875,
+          "manualUrl": "https://portmanlights.com/products/p3-pix3l",
+          "dmxChartUrl": "https://portmanlights.com/products/p3-pix3l"
+        },
+        {
+          "type": "Retro",
+          "name": "Mantis",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            },
+            {
+              "name": "RGBW Pixel Control",
+              "dmxChannels": 29
+            },
+            {
+              "name": "Ultra (Full Pixel)",
+              "dmxChannels": 41
+            }
+          ],
+          "weightKilogram": 11,
+          "powerWatt": 0,
+          "luminousFluxLumen": 250,
+          "manualUrl": "https://portmanlights.com/products/mantis",
+          "dmxChartUrl": "https://portmanlights.com/products/mantis"
+        },
+        {
+          "type": "Retro",
+          "name": "S-Tribuo",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            },
+            {
+              "name": "RGBW Pixel",
+              "dmxChannels": 25
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 180,
+          "manualUrl": "https://portmanlights.com/products/s-tribuo",
+          "dmxChartUrl": "https://portmanlights.com/products/s-tribuo"
+        },
+        {
+          "type": "Retro",
+          "name": "Custom (LED Bar)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 200,
+          "manualUrl": "https://portmanlights.com/products/custom",
+          "dmxChartUrl": "https://portmanlights.com/products/custom"
+        }
+      ]
+    },
+    {
       "name": "Robe",
       "products": [
         {
@@ -4868,6 +5467,688 @@
           "luminousFluxLumen": 40200,
           "manualUrl": "User_manual_Robin_T3_Profile.pdf",
           "dmxChartUrl": "Robin_T3_Profile_DMX_charts.pdf"
+        }
+      ]
+    },
+    {
+      "name": "SGM",
+      "products": [
+        {
+          "type": "Pixel Tube",
+          "name": "LT-100 (1m)",
+          "modes": [
+            {
+              "name": "Direct Control (RGB)",
+              "dmxChannels": 162
+            }
+          ],
+          "weightKilogram": 0.5,
+          "powerWatt": 0,
+          "luminousFluxLumen": 22,
+          "manualUrl": "https://sgmlight.com/products/lt-100",
+          "dmxChartUrl": "https://sgmlight.com/products/lt-100"
+        },
+        {
+          "type": "Pixel Tube",
+          "name": "LT-200 (2m)",
+          "modes": [
+            {
+              "name": "Direct Control (RGB)",
+              "dmxChannels": 324
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 44,
+          "manualUrl": "https://sgmlight.com/products/lt-200",
+          "dmxChartUrl": "https://sgmlight.com/products/lt-200"
+        },
+        {
+          "type": "Pixel Driver",
+          "name": "ILD (Driver for LT)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 1.2,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://sgmlight.com/products/ild",
+          "dmxChartUrl": "https://sgmlight.com/products/ild"
+        },
+        {
+          "type": "Moving Head",
+          "name": "G-7 BeaSt",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Extended (Pixel)",
+              "dmxChannels": 110
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 55000,
+          "luminousFluxLumen": 440,
+          "manualUrl": "https://sgmlight.com/products/g-7-beast",
+          "dmxChartUrl": "https://sgmlight.com/products/g-7-beast"
+        },
+        {
+          "type": "Moving Head",
+          "name": "G-7 Ident",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 22,
+          "powerWatt": 18000,
+          "luminousFluxLumen": 480,
+          "manualUrl": "https://sgmlight.com/products/g-7-ident",
+          "dmxChartUrl": "https://sgmlight.com/products/g-7-ident"
+        },
+        {
+          "type": "Moving Head",
+          "name": "G-Spot Turbo",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 38,
+          "powerWatt": 20000,
+          "luminousFluxLumen": 1100,
+          "manualUrl": "https://sgmlight.com/products/g-spot-turbo",
+          "dmxChartUrl": "https://sgmlight.com/products/g-spot-turbo"
+        },
+        {
+          "type": "Moving Head",
+          "name": "G-Profile Turbo",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 25
+            }
+          ],
+          "weightKilogram": 38,
+          "powerWatt": 20000,
+          "luminousFluxLumen": 1100,
+          "manualUrl": "https://sgmlight.com/products/g-profile-turbo",
+          "dmxChartUrl": "https://sgmlight.com/products/g-profile-turbo"
+        },
+        {
+          "type": "Static Wash",
+          "name": "Q-8 (Strobe/Wash)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 43
+            },
+            {
+              "name": "Full Pixel",
+              "dmxChannels": 107
+            }
+          ],
+          "weightKilogram": 14,
+          "powerWatt": 53000,
+          "luminousFluxLumen": 600,
+          "manualUrl": "https://sgmlight.com/products/q-8",
+          "dmxChartUrl": "https://sgmlight.com/products/q-8"
+        },
+        {
+          "type": "Static Wash",
+          "name": "Q-7",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 28000,
+          "luminousFluxLumen": 465,
+          "manualUrl": "https://sgmlight.com/products/q-7",
+          "dmxChartUrl": "https://sgmlight.com/products/q-7"
+        },
+        {
+          "type": "Static Wash",
+          "name": "Q-2",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 12000,
+          "luminousFluxLumen": 200,
+          "manualUrl": "https://sgmlight.com/products/q-2",
+          "dmxChartUrl": "https://sgmlight.com/products/q-2"
+        },
+        {
+          "type": "Static Wash",
+          "name": "P-6",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Pixel (2 cell)",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 20500,
+          "luminousFluxLumen": 600,
+          "manualUrl": "https://sgmlight.com/products/p-6",
+          "dmxChartUrl": "https://sgmlight.com/products/p-6"
+        },
+        {
+          "type": "Static Wash",
+          "name": "P-10",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Extended (8 cells)",
+              "dmxChannels": 32
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 40000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://sgmlight.com/products/p-10",
+          "dmxChartUrl": "https://sgmlight.com/products/p-10"
+        },
+        {
+          "type": "Static Wash",
+          "name": "P-5",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 23500,
+          "luminousFluxLumen": 450,
+          "manualUrl": "https://sgmlight.com/products/p-5",
+          "dmxChartUrl": "https://sgmlight.com/products/p-5"
+        },
+        {
+          "type": "Static Wash",
+          "name": "P-1 (Battery)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 11
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 2700,
+          "luminousFluxLumen": 50,
+          "manualUrl": "https://sgmlight.com/products/p-1",
+          "dmxChartUrl": "https://sgmlight.com/products/p-1"
+        },
+        {
+          "type": "Strobe",
+          "name": "X-5 (White)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Pixel (3 cell)",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 360,
+          "manualUrl": "https://sgmlight.com/products/x-5",
+          "dmxChartUrl": "https://sgmlight.com/products/x-5"
+        },
+        {
+          "type": "LED Bar",
+          "name": "V-7 (Wash Bar)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Pixel Control",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 0,
+          "luminousFluxLumen": 300,
+          "manualUrl": "https://sgmlight.com/products/v-7",
+          "dmxChartUrl": "https://sgmlight.com/products/v-7"
+        },
+        {
+          "type": "Moving Head",
+          "name": "G-1 Beam",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 50,
+          "manualUrl": "https://sgmlight.com/products/g-1-beam",
+          "dmxChartUrl": "https://sgmlight.com/products/g-1-beam"
+        },
+        {
+          "type": "Moving Head",
+          "name": "G-4 Wash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 0,
+          "luminousFluxLumen": 150,
+          "manualUrl": "https://sgmlight.com/products/g-4-wash",
+          "dmxChartUrl": "https://sgmlight.com/products/g-4-wash"
+        }
+      ]
+    },
+    {
+      "name": "Showtec",
+      "products": [
+        {
+          "type": "Moving Head",
+          "name": "Polar 340 Wash (IP65)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 17
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 85
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 380,
+          "manualUrl": "https://www.highlite.com/polar-340",
+          "dmxChartUrl": "https://www.highlite.com/polar-340"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Nebula 300 Beam",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 350,
+          "manualUrl": "https://www.highlite.com/nebula-300",
+          "dmxChartUrl": "https://www.highlite.com/nebula-300"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Phantom 1200 LED Wash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Full Pixel",
+              "dmxChannels": 95
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 450,
+          "manualUrl": "https://www.highlite.com/phantom-1220",
+          "dmxChartUrl": "https://www.highlite.com/phantom-1220"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Phantom 65 Spot",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Advanced",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 1870,
+          "luminousFluxLumen": 125,
+          "manualUrl": "https://www.highlite.com/phantom-65",
+          "dmxChartUrl": "https://www.highlite.com/phantom-65"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Phantom 180 Wash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 250,
+          "manualUrl": "https://www.highlite.com/phantom-180",
+          "dmxChartUrl": "https://www.highlite.com/phantom-180"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Expression 33000 Zoom",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Advanced",
+              "dmxChannels": 13
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 2800,
+          "luminousFluxLumen": 210,
+          "manualUrl": "https://www.highlite.com/expression-33000",
+          "dmxChartUrl": "https://www.highlite.com/expression-33000"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Pixel Bar 12 (MKII)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 3
+            },
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 36
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 50,
+          "manualUrl": "https://www.highlite.com/pixel-bar-12",
+          "dmxChartUrl": "https://www.highlite.com/pixel-bar-12"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Pixel Bar 18 Q4",
+          "modes": [
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 72
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 90,
+          "manualUrl": "https://www.highlite.com/pixel-bar-18",
+          "dmxChartUrl": "https://www.highlite.com/pixel-bar-18"
+        },
+        {
+          "type": "Static Wash",
+          "name": "Helix S5000 Q4 (IP65)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Section Mode",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 8800,
+          "luminousFluxLumen": 530,
+          "manualUrl": "https://www.highlite.com/helix-s5000",
+          "dmxChartUrl": "https://www.highlite.com/helix-s5000"
+        },
+        {
+          "type": "Blinder",
+          "name": "Stage Blinder Flex 3",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 240,
+          "manualUrl": "https://www.highlite.com/flex-3",
+          "dmxChartUrl": "https://www.highlite.com/flex-3"
+        },
+        {
+          "type": "Strobe",
+          "name": "Titan Strobe RGB",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 3
+            },
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 450,
+          "manualUrl": "https://www.highlite.com/titan-strobe",
+          "dmxChartUrl": "https://www.highlite.com/titan-strobe"
+        },
+        {
+          "type": "Par",
+          "name": "Cameleon Flood 15 Q4",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 150,
+          "manualUrl": "https://www.highlite.com/cameleon-flood",
+          "dmxChartUrl": "https://www.highlite.com/cameleon-flood"
+        },
+        {
+          "type": "Vintage",
+          "name": "Vintage Blaze '55",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 2
+            },
+            {
+              "name": "RGB/Tungsten",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 11,
+          "powerWatt": 0,
+          "luminousFluxLumen": 640,
+          "manualUrl": "https://www.highlite.com/vintage-blaze-55",
+          "dmxChartUrl": "https://www.highlite.com/vintage-blaze-55"
+        }
+      ]
+    },
+    {
+      "name": "URC",
+      "products": [
+        {
+          "type": "Moving Head",
+          "name": "LED Beam 210",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Ultra (Ring)",
+              "dmxChannels": 26
+            }
+          ],
+          "weightKilogram": 7,
+          "powerWatt": 2600,
+          "luminousFluxLumen": 290,
+          "manualUrl": "https://www.salesall.eu/urc-210",
+          "dmxChartUrl": "https://www.salesall.eu/urc-210"
+        },
+        {
+          "type": "Moving Head",
+          "name": "LED Wash 1915",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 90
+            }
+          ],
+          "weightKilogram": 11,
+          "powerWatt": 0,
+          "luminousFluxLumen": 300,
+          "manualUrl": "https://www.urc.nl/products",
+          "dmxChartUrl": "https://www.urc.nl/products"
+        },
+        {
+          "type": "Moving Head",
+          "name": "LED Beam 100",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 120,
+          "manualUrl": "https://www.urc.nl/products",
+          "dmxChartUrl": "https://www.urc.nl/products"
+        },
+        {
+          "type": "LED Bar",
+          "name": "LED Batten 12",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 36
+            }
+          ],
+          "weightKilogram": 5,
+          "powerWatt": 0,
+          "luminousFluxLumen": 150,
+          "manualUrl": "https://www.urc.nl/products",
+          "dmxChartUrl": "https://www.urc.nl/products"
+        },
+        {
+          "type": "Static Wash",
+          "name": "Light Up (Battery)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 10
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 60,
+          "manualUrl": "https://www.urc.nl/products",
+          "dmxChartUrl": "https://www.urc.nl/products"
+        },
+        {
+          "type": "Moving Head",
+          "name": "City Color LED",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 11
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 0,
+          "luminousFluxLumen": 450,
+          "manualUrl": "https://www.urc.nl/products",
+          "dmxChartUrl": "https://www.urc.nl/products"
         }
       ]
     },
