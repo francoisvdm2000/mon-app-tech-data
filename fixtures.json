@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T15:29:39.014Z",
+  "updatedAt": "2026-02-10T15:39:37.379Z",
   "manufacturers": [
     {
       "name": "ACME",
@@ -2042,6 +2042,498 @@
       ]
     },
     {
+      "name": "ETC",
+      "products": [
+        {
+          "type": "Profile",
+          "name": "Source Four LED Series 3",
+          "modes": [
+            {
+              "name": "Lustr X8 (Direct)",
+              "dmxChannels": 12
+            },
+            {
+              "name": "HSIC",
+              "dmxChannels": 8
+            },
+            {
+              "name": "RGB",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 13000,
+          "luminousFluxLumen": 315,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-3",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-3"
+        },
+        {
+          "type": "Profile",
+          "name": "Source Four LED Series 2",
+          "modes": [
+            {
+              "name": "Lustr (Direct)",
+              "dmxChannels": 15
+            },
+            {
+              "name": "Single Channel",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 8500,
+          "luminousFluxLumen": 250,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-2",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-2"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Relev? Spot",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 6000,
+          "luminousFluxLumen": 290,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Releve",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Releve"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Source 4WRD Color",
+          "modes": [
+            {
+              "name": "Direct Control",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 4600,
+          "luminousFluxLumen": 100,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-4WRD-Color",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-4WRD-Color"
+        },
+        {
+          "type": "LED Bar",
+          "name": "fos/4 Panel (8x24)",
+          "modes": [
+            {
+              "name": "Direct Control",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Multicell (8 cell)",
+              "dmxChannels": 104
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 19000,
+          "luminousFluxLumen": 420,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/fos4",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/fos4"
+        },
+        {
+          "type": "LED Bar",
+          "name": "ColorSource Liner (0.5m)",
+          "modes": [
+            {
+              "name": "Direct",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 1 (RGB)",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 4500,
+          "luminousFluxLumen": 130,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Linear",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Linear"
+        },
+        {
+          "type": "LED Bar",
+          "name": "ColorSource Liner (1m)",
+          "modes": [
+            {
+              "name": "Multicell (2 cell)",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 9000,
+          "luminousFluxLumen": 260,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Linear",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Linear"
+        },
+        {
+          "type": "Cyclo",
+          "name": "ColorSource Cyc",
+          "modes": [
+            {
+              "name": "Direct",
+              "dmxChannels": 8
+            },
+            {
+              "name": "RGB",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 130,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Cyc",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Cyc"
+        },
+        {
+          "type": "Wash",
+          "name": "ColorSource Spot",
+          "modes": [
+            {
+              "name": "Direct",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 6500,
+          "luminousFluxLumen": 185,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource"
+        },
+        {
+          "type": "Wash",
+          "name": "ColorSource Par",
+          "modes": [
+            {
+              "name": "Direct",
+              "dmxChannels": 9
+            },
+            {
+              "name": "RGB",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 3500,
+          "luminousFluxLumen": 120,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Par",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Par"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Halcyon Gold",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 54
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 31000,
+          "luminousFluxLumen": 750,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Halcyon Titanium",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 54
+            }
+          ],
+          "weightKilogram": 41.7,
+          "powerWatt": 40000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Halcyon Platinum",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 54
+            }
+          ],
+          "weightKilogram": 49.4,
+          "powerWatt": 54000,
+          "luminousFluxLumen": 1650,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon"
+        },
+        {
+          "type": "Static",
+          "name": "Desire D60",
+          "modes": [
+            {
+              "name": "Studio (Direct)",
+              "dmxChannels": 13
+            },
+            {
+              "name": "RGB",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 160,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Desire",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Desire"
+        }
+      ]
+    },
+    {
+      "name": "FOS",
+      "products": [
+        {
+          "type": "LED Panel",
+          "name": "F-7 (Outdoor Strobe/Wash)",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 3
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 15000,
+          "luminousFluxLumen": 500,
+          "manualUrl": "https://www.fos-lighting.eu/fos-f-7",
+          "dmxChartUrl": "https://www.fos-lighting.eu/fos-f-7"
+        },
+        {
+          "type": "LED Panel",
+          "name": "Pixel Panel RGB+WW",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Full Pixel Mapping",
+              "dmxChannels": 144
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 0,
+          "luminousFluxLumen": 130,
+          "manualUrl": "https://www.fos-lighting.eu/fos-pixel-panel-rgbww",
+          "dmxChartUrl": "https://www.fos-lighting.eu/fos-pixel-panel-rgbww"
+        },
+        {
+          "type": "LED Panel",
+          "name": "Pixel/Blinder Panel (FOS-12)",
+          "modes": [
+            {
+              "name": "10-Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "45-Channel",
+              "dmxChannels": 45
+            },
+            {
+              "name": "Full Pixel Control",
+              "dmxChannels": 468
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 180,
+          "manualUrl": "https://www.fos-lighting.eu/fos-pixel-blinder-panel",
+          "dmxChartUrl": "https://www.fos-lighting.eu/fos-pixel-blinder-panel"
+        },
+        {
+          "type": "LED Panel",
+          "name": "Pixel Panel 25 (5x5)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 29
+            },
+            {
+              "name": "Full Pixel Control",
+              "dmxChannels": 117
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 400,
+          "manualUrl": "https://www.fos-lighting.eu/fos-pixel-panel-25",
+          "dmxChartUrl": "https://www.fos-lighting.eu/fos-pixel-panel-25"
+        },
+        {
+          "type": "Moving Blade",
+          "name": "Pixel Blade 7",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 39
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 0,
+          "luminousFluxLumen": 120,
+          "manualUrl": "https://www.fos-lighting.eu/fos-pixel-blade-7",
+          "dmxChartUrl": "https://www.fos-lighting.eu/fos-pixel-blade-7"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Q19 Ultra",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 66
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 0,
+          "luminousFluxLumen": 760,
+          "manualUrl": "https://www.fos-lighting.eu/fos-q19-ultra",
+          "dmxChartUrl": "https://www.fos-lighting.eu/fos-q19-ultra"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Smart BSW",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Ring Pixel Mode",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 260,
+          "manualUrl": "https://www.fos-lighting.eu/fos-smart-bsw",
+          "dmxChartUrl": "https://www.fos-lighting.eu/fos-smart-bsw"
+        },
+        {
+          "type": "Retro",
+          "name": "Halo Led",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 19
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 300,
+          "manualUrl": "https://www.fos-lighting.eu/fos-halo-led",
+          "dmxChartUrl": "https://www.fos-lighting.eu/fos-halo-led"
+        },
+        {
+          "type": "Retro",
+          "name": "Vintage 7",
+          "modes": [
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 2100,
+          "manualUrl": "https://www.fos-lighting.eu/fos-vintage-7",
+          "dmxChartUrl": "https://www.fos-lighting.eu/fos-vintage-7"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Bar Pente",
+          "modes": [
+            {
+              "name": "10-Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Full Pixel",
+              "dmxChannels": 100
+            }
+          ],
+          "weightKilogram": 5,
+          "powerWatt": 0,
+          "luminousFluxLumen": 220,
+          "manualUrl": "https://www.fos-lighting.eu/fos-bar-pente",
+          "dmxChartUrl": "https://www.fos-lighting.eu/fos-bar-pente"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Pixel Line 80",
+          "modes": [
+            {
+              "name": "Pixel Control",
+              "dmxChannels": 240
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 80,
+          "manualUrl": "https://www.fos-lighting.eu/fos-pixel-line-80",
+          "dmxChartUrl": "https://www.fos-lighting.eu/fos-pixel-line-80"
+        },
+        {
+          "type": "Static",
+          "name": "Ares Profile",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 17
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 450,
+          "manualUrl": "https://www.fos-lighting.eu/fos-ares-profile",
+          "dmxChartUrl": "https://www.fos-lighting.eu/fos-ares-profile"
+        }
+      ]
+    },
+    {
       "name": "GLP",
       "products": [
         {
@@ -2264,6 +2756,332 @@
           "luminousFluxLumen": 70000,
           "manualUrl": "https://glp.de/files/products/jdc2-ip-product-data/GLP_JDC2_IP_User_Manual_EN_Rev20241001-04.pdf",
           "dmxChartUrl": "https://glp.de/files/products/jdc2-ip-product-data/GLP_JDC2_IP_DMX_Channel_Index_EN_Rev20241002-05.pdf"
+        }
+      ]
+    },
+    {
+      "name": "High End",
+      "products": [
+        {
+          "type": "Moving Mirror",
+          "name": "Cyberlight LED",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 48
+            }
+          ],
+          "weightKilogram": 41,
+          "powerWatt": 12750,
+          "luminousFluxLumen": 750,
+          "manualUrl": "https://www.etcconnect.com/Products/High-End-Systems/Cyberlight-LED",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/High-End-Systems/Cyberlight-LED"
+        },
+        {
+          "type": "Moving Mirror",
+          "name": "Cyberlight (Legacy)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 45,
+          "powerWatt": 30000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.etcconnect.com/Products/High-End-Systems/Legacy/Cyberlight",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/High-End-Systems/Legacy/Cyberlight"
+        },
+        {
+          "type": "Moving Mirror",
+          "name": "Cyberlight SV",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 46,
+          "powerWatt": 30000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.etcconnect.com/Products/High-End-Systems/Legacy/Cyberlight",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/High-End-Systems/Legacy/Cyberlight"
+        },
+        {
+          "type": "Moving Head",
+          "name": "SolaFrame 3000",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 49
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 63
+            }
+          ],
+          "weightKilogram": 48,
+          "powerWatt": 37000,
+          "luminousFluxLumen": 1450,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/3000",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/3000"
+        },
+        {
+          "type": "Moving Head",
+          "name": "SolaFrame 2000",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 42
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 51
+            }
+          ],
+          "weightKilogram": 43,
+          "powerWatt": 26000,
+          "luminousFluxLumen": 1100,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/2000",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/2000"
+        },
+        {
+          "type": "Moving Head",
+          "name": "SolaFrame 1000",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 30,
+          "powerWatt": 20000,
+          "luminousFluxLumen": 750,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/1000",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/1000"
+        },
+        {
+          "type": "Moving Head",
+          "name": "SolaFrame Studio",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 21,
+          "powerWatt": 10000,
+          "luminousFluxLumen": 450,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/Studio",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/Studio"
+        },
+        {
+          "type": "Moving Head",
+          "name": "SolaSpot 3000",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 46,
+          "powerWatt": 37000,
+          "luminousFluxLumen": 1450,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaSpot/3000",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaSpot/3000"
+        },
+        {
+          "type": "Moving Head",
+          "name": "SolaSpot 2000",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 33
+            }
+          ],
+          "weightKilogram": 40,
+          "powerWatt": 26000,
+          "luminousFluxLumen": 1100,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaSpot/2000",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaSpot/2000"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Lonestar",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 38
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 15400,
+          "luminousFluxLumen": 600,
+          "manualUrl": "https://www.etcconnect.com/Products/High-End-Systems/Lonestar",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/High-End-Systems/Lonestar"
+        },
+        {
+          "type": "Moving Head",
+          "name": "TurboRay",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Enhanced",
+              "dmxChannels": 105
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 600,
+          "manualUrl": "https://www.etcconnect.com/Products/TurboRay",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/TurboRay"
+        },
+        {
+          "type": "Moving Head",
+          "name": "SolaPix 7",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Pixel (RGBW)",
+              "dmxChannels": 48
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 7500,
+          "luminousFluxLumen": 300,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaPix/7",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaPix/7"
+        },
+        {
+          "type": "Moving Head",
+          "name": "SolaPix 19",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Pixel (RGBW)",
+              "dmxChannels": 97
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 19500,
+          "luminousFluxLumen": 750,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaPix/19",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaPix/19"
+        },
+        {
+          "type": "Moving Head",
+          "name": "SolaPix 37",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Pixel (RGBW)",
+              "dmxChannels": 169
+            }
+          ],
+          "weightKilogram": 31,
+          "powerWatt": 38000,
+          "luminousFluxLumen": 1450,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaPix/37",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaPix/37"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Showgun 2.0",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 34
+            }
+          ],
+          "weightKilogram": 63.5,
+          "powerWatt": 130000,
+          "luminousFluxLumen": 2800,
+          "manualUrl": "https://www.etcconnect.com/Products/Legacy/Showgun",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Showgun"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Showbeam 2.5",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 32
+            }
+          ],
+          "weightKilogram": 65,
+          "powerWatt": 140000,
+          "luminousFluxLumen": 3000,
+          "manualUrl": "https://www.etcconnect.com/Products/Legacy/Showbeam",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Showbeam"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Studio Color 575",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 750,
+          "manualUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Color",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Color"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Studio Spot 575",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 0,
+          "luminousFluxLumen": 750,
+          "manualUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Spot",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Spot"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Shapeshifter S1",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 128
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 0,
+          "luminousFluxLumen": 600,
+          "manualUrl": "https://www.etcconnect.com/Products/Legacy/Shapeshifter",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Shapeshifter"
         }
       ]
     },
