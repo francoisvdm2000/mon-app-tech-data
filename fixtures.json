@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T13:39:39.188Z",
+  "updatedAt": "2026-02-10T13:49:38.169Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -1952,11 +1952,21 @@
           "type": "Profile",
           "name": "T2 Profile",
           "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "weightKilogram": 36.9,
+          "powerWatt": 1150,
+          "luminousFluxLumen": 17600,
+          "manualUrl": "User_manual_Robin_T2_Profile.pdf",
+          "dmxChartUrl": "Robin_T2_Profile_DMX_charts.pdf"
+        },
+        {
+          "type": "Profile",
+          "name": "T2 Profile FS",
+          "modes": [],
+          "weightKilogram": 38,
+          "powerWatt": 1150,
+          "luminousFluxLumen": 17600,
+          "manualUrl": "User_manual_Robin_T2_Profile.pdf",
+          "dmxChartUrl": "Robin_T2_Profile_DMX_charts.pdf"
         },
         {
           "type": "PC",
@@ -1978,7 +1988,7 @@
           "weightKilogram": 45.6,
           "powerWatt": 1700,
           "luminousFluxLumen": 32300,
-          "manualUrl": "",
+          "manualUrl": "User_manual_Robin_T3_Fresnel_T3_PC.pdf",
           "dmxChartUrl": "Robin_T3_Fresnel_T3_PC_DMX_charts.pdf"
         },
         {
@@ -2001,7 +2011,7 @@
           "weightKilogram": 45.6,
           "powerWatt": 1700,
           "luminousFluxLumen": 35000,
-          "manualUrl": "",
+          "manualUrl": "User_manual_Robin_T3_Fresnel_T3_PC.pdf",
           "dmxChartUrl": "Robin_T3_Fresnel_T3_PC_DMX_charts.pdf"
         },
         {
@@ -2028,8 +2038,8 @@
           "weightKilogram": 45.6,
           "powerWatt": 1700,
           "luminousFluxLumen": 40200,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "User_manual_Robin_T3_Profile.pdf",
+          "dmxChartUrl": "Robin_T3_Profile_DMX_charts.pdf"
         },
         {
           "type": "Profile",
@@ -2055,8 +2065,8 @@
           "weightKilogram": 45.6,
           "powerWatt": 1700,
           "luminousFluxLumen": 40200,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "User_manual_Robin_T3_Profile.pdf",
+          "dmxChartUrl": "Robin_T3_Profile_DMX_charts.pdf"
         }
       ]
     }
