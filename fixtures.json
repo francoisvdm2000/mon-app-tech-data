@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T13:29:38.896Z",
+  "updatedAt": "2026-02-10T13:39:39.188Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -1919,10 +1919,10 @@
               "dmxChannels": 36
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
+          "weightKilogram": 36.2,
+          "powerWatt": 1150,
+          "luminousFluxLumen": 16500,
+          "manualUrl": "User_manual_Robin_T2_Fresnel_T2_PC.pdf",
           "dmxChartUrl": "Robin_T2_Fresnel_T2_PC_DMX_charts.pdf"
         },
         {
@@ -1942,10 +1942,10 @@
               "dmxChannels": 36
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
+          "weightKilogram": 36.2,
+          "powerWatt": 1150,
+          "luminousFluxLumen": 16250,
+          "manualUrl": "User_manual_Robin_T2_Fresnel_T2_PC.pdf",
           "dmxChartUrl": "Robin_T2_Fresnel_T2_PC_DMX_charts.pdf"
         },
         {
@@ -1961,20 +1961,100 @@
         {
           "type": "PC",
           "name": "T3 PC",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
+          "modes": [
+            {
+              "name": "Mode 1 - CMY/RGB",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 2 - Reduced CMY/RGB",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 3 - Five colours",
+              "dmxChannels": 36
+            }
+          ],
+          "weightKilogram": 45.6,
+          "powerWatt": 1700,
+          "luminousFluxLumen": 32300,
           "manualUrl": "",
-          "dmxChartUrl": ""
+          "dmxChartUrl": "Robin_T3_Fresnel_T3_PC_DMX_charts.pdf"
         },
         {
           "type": "Fresnel",
           "name": "T3 Fresnel",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
+          "modes": [
+            {
+              "name": "Mode 1 - CMY/RGB",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 2 - Reduced CMY/RGB",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 3 - Five colours",
+              "dmxChannels": 36
+            }
+          ],
+          "weightKilogram": 45.6,
+          "powerWatt": 1700,
+          "luminousFluxLumen": 35000,
+          "manualUrl": "",
+          "dmxChartUrl": "Robin_T3_Fresnel_T3_PC_DMX_charts.pdf"
+        },
+        {
+          "type": "Profile",
+          "name": "T3 Profile",
+          "modes": [
+            {
+              "name": "Mode 1 - CMY/RGB",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 2 - Reduced CMY/RGB",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Mode 3 - Five colours",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Mode 4 - Enhanced gobo control",
+              "dmxChannels": 37
+            }
+          ],
+          "weightKilogram": 45.6,
+          "powerWatt": 1700,
+          "luminousFluxLumen": 40200,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "T3 Profile FS",
+          "modes": [
+            {
+              "name": "Mode 1 - CMY/RGB",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 2 - Reduced CMY/RGB",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Mode 3 - Five colours",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Mode 4 - Enhanced gobo control",
+              "dmxChannels": 37
+            }
+          ],
+          "weightKilogram": 45.6,
+          "powerWatt": 1700,
+          "luminousFluxLumen": 40200,
           "manualUrl": "",
           "dmxChartUrl": ""
         }
