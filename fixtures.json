@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T15:49:39.448Z",
+  "updatedAt": "2026-02-10T15:59:40.150Z",
   "manufacturers": [
     {
       "name": "ACME",
@@ -270,6 +270,143 @@
           "luminousFluxLumen": 550,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/330",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/330"
+        }
+      ]
+    },
+    {
+      "name": "ADJ",
+      "products": [
+        {
+          "type": "Moving Head",
+          "name": "Focus Profile",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 33
+            }
+          ],
+          "weightKilogram": 26,
+          "powerWatt": 20000,
+          "luminousFluxLumen": 560,
+          "manualUrl": "https://www.adj.com/focus-profile",
+          "dmxChartUrl": "https://www.adj.com/focus-profile"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Vizi Beam 12RX",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 0,
+          "luminousFluxLumen": 300,
+          "manualUrl": "https://www.adj.com/vizi-beam-12rx",
+          "dmxChartUrl": "https://www.adj.com/vizi-beam-12rx"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Focus Wash 400",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 17
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 400,
+          "manualUrl": "https://www.adj.com/focus-wash-400",
+          "dmxChartUrl": "https://www.adj.com/focus-wash-400"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Vizi CMY 300",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 0,
+          "luminousFluxLumen": 398,
+          "manualUrl": "https://www.adj.com/vizi-cmy-300",
+          "dmxChartUrl": "https://www.adj.com/vizi-cmy-300"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Jolt Bar FX",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Full Pixel Mode",
+              "dmxChannels": 126
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 340,
+          "manualUrl": "https://www.adj.com/jolt-bar-fx",
+          "dmxChartUrl": "https://www.adj.com/jolt-bar-fx"
+        },
+        {
+          "type": "Strobe",
+          "name": "Jolt Panel FX",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Full Pixel Mode",
+              "dmxChannels": 81
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 340,
+          "manualUrl": "https://www.adj.com/jolt-panel-fx",
+          "dmxChartUrl": "https://www.adj.com/jolt-panel-fx"
+        },
+        {
+          "type": "Moving Bar",
+          "name": "Hydro Beam NW1",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 19
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 0,
+          "luminousFluxLumen": 220,
+          "manualUrl": "https://www.adj.com/hydro-beam-nw1",
+          "dmxChartUrl": "https://www.adj.com/hydro-beam-nw1"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Pixie Strip 120 (2m)",
+          "modes": [
+            {
+              "name": "Direct (RGB)",
+              "dmxChannels": 180
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 36,
+          "manualUrl": "https://www.adj.com/pixie-strip-120",
+          "dmxChartUrl": "https://www.adj.com/pixie-strip-120"
         }
       ]
     },
@@ -3528,6 +3665,79 @@
       ]
     },
     {
+      "name": "JB-Lighting",
+      "products": [
+        {
+          "type": "Moving Head",
+          "name": "P18 Profile",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 2 (Vector)",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 32000,
+          "luminousFluxLumen": 1100,
+          "manualUrl": "https://www.jb-lighting.de/P18",
+          "dmxChartUrl": "https://www.jb-lighting.de/P18"
+        },
+        {
+          "type": "Moving Head",
+          "name": "P12 Profile",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 32
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 20000,
+          "luminousFluxLumen": 700,
+          "manualUrl": "https://www.jb-lighting.de/P12",
+          "dmxChartUrl": "https://www.jb-lighting.de/P12"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Sparx 18",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Full Pixel",
+              "dmxChannels": 132
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 0,
+          "luminousFluxLumen": 750,
+          "manualUrl": "https://www.jb-lighting.de/Sparx18",
+          "dmxChartUrl": "https://www.jb-lighting.de/Sparx18"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Sparx 7",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 19
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 0,
+          "luminousFluxLumen": 250,
+          "manualUrl": "https://www.jb-lighting.de/Sparx7",
+          "dmxChartUrl": "https://www.jb-lighting.de/Sparx7"
+        }
+      ]
+    },
+    {
       "name": "Martin",
       "products": [
         {
@@ -4077,6 +4287,87 @@
           "luminousFluxLumen": 740,
           "manualUrl": "https://www.martin.com/en/products/mac-atomic-led",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-atomic-led"
+        }
+      ]
+    },
+    {
+      "name": "Minuit Une",
+      "products": [
+        {
+          "type": "Immersive",
+          "name": "IVL Photon",
+          "modes": [
+            {
+              "name": "Standard (Daily)",
+              "dmxChannels": 60
+            },
+            {
+              "name": "Extended (Creative)",
+              "dmxChannels": 93
+            }
+          ],
+          "weightKilogram": 16,
+          "powerWatt": 0,
+          "luminousFluxLumen": 200,
+          "manualUrl": "https://minuitune.com/photon",
+          "dmxChartUrl": "https://minuitune.com/photon"
+        },
+        {
+          "type": "Immersive",
+          "name": "IVL Dice",
+          "modes": [
+            {
+              "name": "Mode 1 (Basic)",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Mode 2 (Extended)",
+              "dmxChannels": 49
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 0,
+          "luminousFluxLumen": 200,
+          "manualUrl": "https://minuitune.com/dice",
+          "dmxChartUrl": "https://minuitune.com/dice"
+        },
+        {
+          "type": "Immersive",
+          "name": "IVL Square (Carr?)",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 25
+            },
+            {
+              "name": "Mode 2 (Full)",
+              "dmxChannels": 45
+            }
+          ],
+          "weightKilogram": 16,
+          "powerWatt": 0,
+          "luminousFluxLumen": 125,
+          "manualUrl": "https://minuitune.com/square",
+          "dmxChartUrl": "https://minuitune.com/square"
+        },
+        {
+          "type": "Immersive",
+          "name": "IVL Pyramide",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 25
+            },
+            {
+              "name": "Mode 2 (Full)",
+              "dmxChannels": 45
+            }
+          ],
+          "weightKilogram": 16,
+          "powerWatt": 0,
+          "luminousFluxLumen": 125,
+          "manualUrl": "https://minuitune.com/pyramide",
+          "dmxChartUrl": "https://minuitune.com/pyramide"
         }
       ]
     },
@@ -6591,6 +6882,71 @@
           "luminousFluxLumen": 700,
           "manualUrl": "https://www.vari-lite.com/global/products/vl2000-wash",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2000-wash"
+        }
+      ]
+    },
+    {
+      "name": "Zylight",
+      "products": [
+        {
+          "type": "LED Panel",
+          "name": "F8 (Fresnel)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 100,
+          "manualUrl": "https://zylight.com/f8-led-fresnel",
+          "dmxChartUrl": "https://zylight.com/f8-led-fresnel"
+        },
+        {
+          "type": "LED Panel",
+          "name": "IS3 (Softlight)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 220,
+          "manualUrl": "https://zylight.com/is3",
+          "dmxChartUrl": "https://zylight.com/is3"
+        },
+        {
+          "type": "LED Panel",
+          "name": "G36 (Softlight)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 0,
+          "luminousFluxLumen": 350,
+          "manualUrl": "https://zylight.com/g36",
+          "dmxChartUrl": "https://zylight.com/g36"
+        },
+        {
+          "type": "LED Panel",
+          "name": "Pro-Panel (V2)",
+          "modes": [
+            {
+              "name": "HSI Mode",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 110,
+          "manualUrl": "https://zylight.com/pro-panel",
+          "dmxChartUrl": "https://zylight.com/pro-panel"
         }
       ]
     }
