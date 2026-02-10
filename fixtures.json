@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T13:09:37.215Z",
+  "updatedAt": "2026-02-10T13:19:37.901Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -1804,22 +1804,48 @@
         {
           "type": "Fresnel",
           "name": "T1 Fresnel",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Mode 1 - CMY/RGB",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 2 - Reduced CMY/RGB",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 3 - Five colours",
+              "dmxChannels": 36
+            }
+          ],
           "weightKilogram": 0,
           "powerWatt": 750,
           "luminousFluxLumen": 10320,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "User_manual_Robin_T1_Fresnel_T1_PC.pdf",
+          "dmxChartUrl": "Robin_T1_Fresnel_Robin_T1_PC_DMX_charts.pdf"
         },
         {
           "type": "PC",
           "name": "T1 PC",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Mode 1 - CMY/RGB",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 2 - Reduced CMY/RGB",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 3 - Five colours",
+              "dmxChannels": 36
+            }
+          ],
           "weightKilogram": 0,
           "powerWatt": 750,
           "luminousFluxLumen": 9939,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "manualUrl": "User_manual_Robin_T1_Fresnel_T1_PC.pdf",
+          "dmxChartUrl": "Robin_T1_Fresnel_Robin_T1_PC_DMX_charts.pdf"
         },
         {
           "type": "Profile",
@@ -1844,9 +1870,34 @@
         {
           "type": "Profile",
           "name": "TX1 Posiprofile",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Mode 1 - CMY/RGB",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Mode 2 - Reduced CMY/RGB",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 3 - Five colours",
+              "dmxChannels": 44
+            },
+            {
+              "name": "Mode 4 - Mode 1+ Gobo module",
+              "dmxChannels": 48
+            },
+            {
+              "name": "Mode 5 - Mode 2+Gobo module",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Mode 6 - Mode 3+Gobo module",
+              "dmxChannels": 52
+            }
+          ],
           "weightKilogram": 0,
-          "powerWatt": 0,
+          "powerWatt": 640,
           "luminousFluxLumen": 0,
           "manualUrl": "",
           "dmxChartUrl": ""
