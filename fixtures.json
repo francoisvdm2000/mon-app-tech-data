@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T14:49:38.550Z",
+  "updatedAt": "2026-02-10T14:59:37.530Z",
   "manufacturers": [
     {
       "name": "ACME",
@@ -1194,59 +1194,136 @@
       "products": [
         {
           "type": "Moving Head",
-          "name": "Arolla Profile MP",
+          "name": "A.leda B-EYE K20",
           "modes": [
             {
               "name": "Standard",
-              "dmxChannels": 37
+              "dmxChannels": 21
+            },
+            {
+              "name": "Shapes",
+              "dmxChannels": 35
             },
             {
               "name": "Extended",
-              "dmxChannels": 39
+              "dmxChannels": 172
+            },
+            {
+              "name": "Extended RGBW",
+              "dmxChannels": 210
             }
           ],
-          "weightKilogram": 25,
-          "powerWatt": 22000,
-          "luminousFluxLumen": 700,
-          "manualUrl": "Actuel",
+          "weightKilogram": 21,
+          "powerWatt": 10500,
+          "luminousFluxLumen": 750,
+          "manualUrl": "https://www.claypaky.it/en/products/a-leda-b-eye-k20",
           "dmxChartUrl": ""
         },
         {
           "type": "Moving Head",
-          "name": "Arolla Spot MP",
+          "name": "A.leda B-EYE K10",
           "modes": [
             {
               "name": "Standard",
-              "dmxChannels": 29
+              "dmxChannels": 20
+            },
+            {
+              "name": "Shapes",
+              "dmxChannels": 34
             },
             {
               "name": "Extended",
-              "dmxChannels": 31
+              "dmxChannels": 77
+            },
+            {
+              "name": "Extended RGBW",
+              "dmxChannels": 96
             }
           ],
-          "weightKilogram": 24,
-          "powerWatt": 21000,
-          "luminousFluxLumen": 700,
-          "manualUrl": "Actuel",
+          "weightKilogram": 15,
+          "powerWatt": 5500,
+          "luminousFluxLumen": 450,
+          "manualUrl": "https://www.claypaky.it/en/products/a-leda-b-eye-k10",
           "dmxChartUrl": ""
         },
         {
           "type": "Moving Head",
-          "name": "Arolla Aqua",
+          "name": "A.leda B-EYE K10 CC",
           "modes": [
             {
               "name": "Standard",
-              "dmxChannels": 38
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 6000,
+          "luminousFluxLumen": 450,
+          "manualUrl": "https://www.claypaky.it/en/products/a-leda-b-eye-k10-cc",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "A.leda B-EYE K5",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
             },
             {
               "name": "Extended",
-              "dmxChannels": 40
+              "dmxChannels": 33
             }
           ],
-          "weightKilogram": 38.7,
-          "powerWatt": 40000,
+          "weightKilogram": 0,
+          "powerWatt": 2350,
+          "luminousFluxLumen": 150,
+          "manualUrl": "https://www.claypaky.it/en/products/a-leda-b-eye-k5",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "HY B-EYE K25",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Shapes",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 173
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 18000,
           "luminousFluxLumen": 1100,
-          "manualUrl": "Actuel",
+          "manualUrl": "https://www.claypaky.it/en/products/hy-b-eye-k25",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "HY B-EYE K15",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Shapes",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 101
+            }
+          ],
+          "weightKilogram": 21,
+          "powerWatt": 11000,
+          "luminousFluxLumen": 600,
+          "manualUrl": "https://www.claypaky.it/en/products/hy-b-eye-k15",
           "dmxChartUrl": ""
         },
         {
@@ -1265,7 +1342,7 @@
           "weightKilogram": 19,
           "powerWatt": 7950,
           "luminousFluxLumen": 350,
-          "manualUrl": "L?gendaire",
+          "manualUrl": "https://www.claypaky.it/en/products/sharpy",
           "dmxChartUrl": ""
         },
         {
@@ -1284,7 +1361,7 @@
           "weightKilogram": 23,
           "powerWatt": 12000,
           "luminousFluxLumen": 540,
-          "manualUrl": "Parc",
+          "manualUrl": "https://www.claypaky.it/en/products/sharpy-plus",
           "dmxChartUrl": ""
         },
         {
@@ -1303,7 +1380,26 @@
           "weightKilogram": 28,
           "powerWatt": 18800,
           "luminousFluxLumen": 750,
-          "manualUrl": "Actuel",
+          "manualUrl": "https://www.claypaky.it/en/products/sharpy-x-frame",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Sharpy Wash 330",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Vector",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 15500,
+          "luminousFluxLumen": 330,
+          "manualUrl": "https://www.claypaky.it/en/products/sharpy-wash-330",
           "dmxChartUrl": ""
         },
         {
@@ -1322,126 +1418,7 @@
           "weightKilogram": 32,
           "powerWatt": 22000,
           "luminousFluxLumen": 700,
-          "manualUrl": "Parc",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "A.leda B-EYE K20",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 21
-            },
-            {
-              "name": "Shape",
-              "dmxChannels": 35
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 172
-            },
-            {
-              "name": "Extended RGBW",
-              "dmxChannels": 210
-            }
-          ],
-          "weightKilogram": 21,
-          "powerWatt": 10500,
-          "luminousFluxLumen": 750,
-          "manualUrl": "Parc",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "A.leda B-EYE K10",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 20
-            },
-            {
-              "name": "Shape",
-              "dmxChannels": 34
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 77
-            },
-            {
-              "name": "Extended RGBW",
-              "dmxChannels": 96
-            }
-          ],
-          "weightKilogram": 15,
-          "powerWatt": 5500,
-          "luminousFluxLumen": 450,
-          "manualUrl": "Parc",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "HY B-EYE K25",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 22
-            },
-            {
-              "name": "Shape",
-              "dmxChannels": 36
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 173
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 18000,
-          "luminousFluxLumen": 1100,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "HY B-EYE K15",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 21
-            },
-            {
-              "name": "Shape",
-              "dmxChannels": 35
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 101
-            }
-          ],
-          "weightKilogram": 21,
-          "powerWatt": 11000,
-          "luminousFluxLumen": 600,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Mini-B",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 7,
-          "powerWatt": 3000,
-          "luminousFluxLumen": 250,
-          "manualUrl": "Actuel",
+          "manualUrl": "https://www.claypaky.it/en/products/mythos-2",
           "dmxChartUrl": ""
         },
         {
@@ -1460,7 +1437,26 @@
           "weightKilogram": 40.5,
           "powerWatt": 30000,
           "luminousFluxLumen": 1400,
-          "manualUrl": "Parc",
+          "manualUrl": "https://www.claypaky.it/en/products/scenius-profile",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Scenius Spot",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Vector",
+              "dmxChannels": 37
+            }
+          ],
+          "weightKilogram": 38,
+          "powerWatt": 30000,
+          "luminousFluxLumen": 1400,
+          "manualUrl": "https://www.claypaky.it/en/products/scenius-spot",
           "dmxChartUrl": ""
         },
         {
@@ -1479,7 +1475,45 @@
           "weightKilogram": 40.5,
           "powerWatt": 28000,
           "luminousFluxLumen": 1400,
-          "manualUrl": "Parc",
+          "manualUrl": "https://www.claypaky.it/en/products/scenius-unico",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Arolla Profile MP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 39
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 22000,
+          "luminousFluxLumen": 700,
+          "manualUrl": "https://www.claypaky.it/en/products/arolla-profile-mp",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Arolla Spot MP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 29
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 24,
+          "powerWatt": 21000,
+          "luminousFluxLumen": 700,
+          "manualUrl": "https://www.claypaky.it/en/products/arolla-spot-mp",
           "dmxChartUrl": ""
         },
         {
@@ -1498,26 +1532,7 @@
           "weightKilogram": 33,
           "powerWatt": 28000,
           "luminousFluxLumen": 800,
-          "manualUrl": "Parc",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Axcor Profile 400",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 28
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 34
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 16000,
-          "luminousFluxLumen": 600,
-          "manualUrl": "Parc",
+          "manualUrl": "https://www.claypaky.it/en/products/axcor-profile-600",
           "dmxChartUrl": ""
         },
         {
@@ -1529,14 +1544,52 @@
               "dmxChannels": 31
             },
             {
-              "name": "Extended",
+              "name": "Vector",
               "dmxChannels": 37
             }
           ],
           "weightKilogram": 41.5,
           "powerWatt": 28000,
           "luminousFluxLumen": 1650,
-          "manualUrl": "Vieux",
+          "manualUrl": "https://www.claypaky.it/en/products/alpha-spot-hpe-1500",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Alpha Wash 1500",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 39,
+          "powerWatt": 35000,
+          "luminousFluxLumen": 1650,
+          "manualUrl": "https://www.claypaky.it/en/products/alpha-wash-1500",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Alpha Beam 1500",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 40,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1650,
+          "manualUrl": "https://www.claypaky.it/en/products/alpha-beam-1500",
           "dmxChartUrl": ""
         },
         {
@@ -1546,12 +1599,16 @@
             {
               "name": "Standard",
               "dmxChannels": 26
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 32
             }
           ],
           "weightKilogram": 37.5,
           "powerWatt": 20000,
           "luminousFluxLumen": 1400,
-          "manualUrl": "Vieux",
+          "manualUrl": "https://www.claypaky.it/en/products/alpha-spot-hpe-1200",
           "dmxChartUrl": ""
         },
         {
@@ -1563,94 +1620,19 @@
               "dmxChannels": 25
             },
             {
-              "name": "Extended",
+              "name": "Vector",
               "dmxChannels": 31
             }
           ],
           "weightKilogram": 22,
           "powerWatt": 14700,
           "luminousFluxLumen": 940,
-          "manualUrl": "Vieux",
+          "manualUrl": "https://www.claypaky.it/en/products/alpha-spot-hpe-700",
           "dmxChartUrl": ""
         },
         {
           "type": "Moving Head",
-          "name": "Alpha Wash 1500",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 21
-            }
-          ],
-          "weightKilogram": 39,
-          "powerWatt": 35000,
-          "luminousFluxLumen": 1650,
-          "manualUrl": "Vieux",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Alpha Wash 700",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 16
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 16800,
-          "luminousFluxLumen": 940,
-          "manualUrl": "Vieux",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Alpha Beam 1500",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 22
-            }
-          ],
-          "weightKilogram": 40,
-          "powerWatt": 0,
-          "luminousFluxLumen": 1650,
-          "manualUrl": "Vieux",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Alpha Beam 700",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 22
-            }
-          ],
-          "weightKilogram": 20,
-          "powerWatt": 0,
-          "luminousFluxLumen": 940,
-          "manualUrl": "Vieux",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Alpha Beam 300",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 350,
-          "manualUrl": "Vieux",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Xtylos (Laser)",
+          "name": "Xtylos",
           "modes": [
             {
               "name": "Standard",
@@ -1664,26 +1646,7 @@
           "weightKilogram": 32,
           "powerWatt": 0,
           "luminousFluxLumen": 400,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Tambora Flash",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 32
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 1200,
-          "manualUrl": "Nouveau",
+          "manualUrl": "https://www.claypaky.it/en/products/xtylos",
           "dmxChartUrl": ""
         },
         {
@@ -1702,11 +1665,30 @@
           "weightKilogram": 0,
           "powerWatt": 8500,
           "luminousFluxLumen": 660,
-          "manualUrl": "Actuel",
+          "manualUrl": "https://www.claypaky.it/en/products/tambora-batten",
           "dmxChartUrl": ""
         },
         {
           "type": "Moving Head",
+          "name": "Volero Wave",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 106
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 800,
+          "manualUrl": "https://www.claypaky.it/en/products/volero-wave",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Scanner",
           "name": "Golden Scan 3",
           "modes": [
             {
@@ -1717,11 +1699,11 @@
           "weightKilogram": 38,
           "powerWatt": 0,
           "luminousFluxLumen": 1200,
-          "manualUrl": "Ancien",
+          "manualUrl": "https://www.claypaky.it/en/products/golden-scan-3",
           "dmxChartUrl": ""
         },
         {
-          "type": "Moving Head",
+          "type": "Scanner",
           "name": "Stage Scan",
           "modes": [
             {
@@ -1732,26 +1714,11 @@
           "weightKilogram": 38,
           "powerWatt": 0,
           "luminousFluxLumen": 1200,
-          "manualUrl": "Ancien",
+          "manualUrl": "https://www.claypaky.it/en/products/stage-scan",
           "dmxChartUrl": ""
         },
         {
-          "type": "Moving Head",
-          "name": "Silver Scan",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 20
-            }
-          ],
-          "weightKilogram": 22,
-          "powerWatt": 11000,
-          "luminousFluxLumen": 450,
-          "manualUrl": "Actuel",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
+          "type": "Static",
           "name": "Stormy CC",
           "modes": [
             {
@@ -1766,7 +1733,7 @@
           "weightKilogram": 0,
           "powerWatt": 0,
           "luminousFluxLumen": 480,
-          "manualUrl": "Parc",
+          "manualUrl": "https://www.claypaky.it/en/products/stormy-cc",
           "dmxChartUrl": ""
         }
       ]
