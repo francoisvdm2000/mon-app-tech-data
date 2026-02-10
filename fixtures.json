@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T11:39:37.574Z",
+  "updatedAt": "2026-02-10T11:49:38.690Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -1714,70 +1714,70 @@
           "name": "T15 Fresnel",
           "modes": [
             {
-              "name": "Mode 1",
+              "name": "Mode 1 16-bit CMY/RGB",
               "dmxChannels": 20
             },
             {
-              "name": "Mode 2",
+              "name": "Mode 2 8-bit CMY/RGB",
               "dmxChannels": 10
             },
             {
-              "name": "Mode 3",
+              "name": "Mode 3 16-bit RGBAL",
               "dmxChannels": 24
             },
             {
-              "name": "Mode 4",
+              "name": "Mode 4 White light+zoom & dimmer",
               "dmxChannels": 7
             },
             {
-              "name": "Mode 5",
+              "name": "Mode 5 Zoom & Dimmer",
               "dmxChannels": 2
             },
             {
-              "name": "Mode 6",
+              "name": "Mode 6 Only Dimmer",
               "dmxChannels": 1
             }
           ],
           "weightKilogram": 12,
-          "powerWatt": 420,
-          "luminousFluxLumen": 11958,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_T15_PC_Fresnel.pdf",
-          "dmxChartUrl": ""
+          "powerWatt": 440,
+          "luminousFluxLumen": 11960,
+          "manualUrl": "https://drive.google.com/file/d/1vaBsYrcS9UZHv_VYFrLQSvcweCbgP9XS/view?usp=share_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1DOJeAiCnp-HAPmzyziTJb2Ocgsee7yIO/view?usp=share_link"
         },
         {
           "type": "Static wash light",
           "name": "T15 PC",
           "modes": [
             {
-              "name": "Mode 1",
+              "name": "Mode 1 16-bit CMY/RGB",
               "dmxChannels": 20
             },
             {
-              "name": "Mode 2",
+              "name": "Mode 2 8-bit CMY/RGB",
               "dmxChannels": 10
             },
             {
-              "name": "Mode 3",
+              "name": "Mode 3 16-bit RGBAL",
               "dmxChannels": 24
             },
             {
-              "name": "Mode 4",
+              "name": "Mode 4 White light+zoom & dimmer",
               "dmxChannels": 7
             },
             {
-              "name": "Mode 5",
+              "name": "Mode 5 Zoom & Dimmer",
               "dmxChannels": 2
             },
             {
-              "name": "Mode 6",
+              "name": "Mode 6 Only Dimmer",
               "dmxChannels": 1
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 420,
-          "luminousFluxLumen": 11958,
-          "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_T15_PC_Fresnel.pdf",
-          "dmxChartUrl": ""
+          "powerWatt": 440,
+          "luminousFluxLumen": 11960,
+          "manualUrl": "https://drive.google.com/file/d/1vaBsYrcS9UZHv_VYFrLQSvcweCbgP9XS/view?usp=share_link",
+          "dmxChartUrl": "https://drive.google.com/file/d/1DOJeAiCnp-HAPmzyziTJb2Ocgsee7yIO/view?usp=share_link"
         },
         {
           "type": "BWS",
@@ -1793,16 +1793,6 @@
           "luminousFluxLumen": 26800,
           "manualUrl": "https://www.robelighting.fr/res/downloads/user_manuals/User_manual_Robin_iBOLT.pdf",
           "dmxChartUrl": "https://www.robelighting.fr/res/downloads/dmx_charts/Robin_iBolt_DMX_charts.pdf"
-        },
-        {
-          "type": "Wash FX",
-          "name": "K20",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
         }
       ]
     }
