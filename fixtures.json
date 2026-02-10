@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T14:29:41.487Z",
+  "updatedAt": "2026-02-10T14:39:37.694Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -664,6 +664,588 @@
       ]
     },
     {
+      "name": "ClayPaky",
+      "products": [
+        {
+          "type": "Moving Head",
+          "name": "Arolla Profile MP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 39
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 22000,
+          "luminousFluxLumen": 700,
+          "manualUrl": "Actuel",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Arolla Spot MP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 29
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 24,
+          "powerWatt": 21000,
+          "luminousFluxLumen": 700,
+          "manualUrl": "Actuel",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Arolla Aqua",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 38
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 38.7,
+          "powerWatt": 40000,
+          "luminousFluxLumen": 1100,
+          "manualUrl": "Actuel",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Sharpy",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Vector",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 19,
+          "powerWatt": 7950,
+          "luminousFluxLumen": 350,
+          "manualUrl": "L?gendaire",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Sharpy Plus",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Vector",
+              "dmxChannels": 34
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 12000,
+          "luminousFluxLumen": 540,
+          "manualUrl": "Parc",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Sharpy X Frame",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 41
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 18800,
+          "luminousFluxLumen": 750,
+          "manualUrl": "Actuel",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Mythos 2",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 30
+            },
+            {
+              "name": "Vector",
+              "dmxChannels": 34
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 22000,
+          "luminousFluxLumen": 700,
+          "manualUrl": "Parc",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "A.leda B-EYE K20",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Shape",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 172
+            },
+            {
+              "name": "Extended RGBW",
+              "dmxChannels": 210
+            }
+          ],
+          "weightKilogram": 21,
+          "powerWatt": 10500,
+          "luminousFluxLumen": 750,
+          "manualUrl": "Parc",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "A.leda B-EYE K10",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Shape",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 77
+            },
+            {
+              "name": "Extended RGBW",
+              "dmxChannels": 96
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 5500,
+          "luminousFluxLumen": 450,
+          "manualUrl": "Parc",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "HY B-EYE K25",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Shape",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 173
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 18000,
+          "luminousFluxLumen": 1100,
+          "manualUrl": "Actuel",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "HY B-EYE K15",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Shape",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 101
+            }
+          ],
+          "weightKilogram": 21,
+          "powerWatt": 11000,
+          "luminousFluxLumen": 600,
+          "manualUrl": "Actuel",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Mini-B",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 7,
+          "powerWatt": 3000,
+          "luminousFluxLumen": 250,
+          "manualUrl": "Actuel",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Scenius Profile",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Vector",
+              "dmxChannels": 41
+            }
+          ],
+          "weightKilogram": 40.5,
+          "powerWatt": 30000,
+          "luminousFluxLumen": 1400,
+          "manualUrl": "Parc",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Scenius Unico",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Vector",
+              "dmxChannels": 44
+            }
+          ],
+          "weightKilogram": 40.5,
+          "powerWatt": 28000,
+          "luminousFluxLumen": 1400,
+          "manualUrl": "Parc",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Axcor Profile 600",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 33,
+          "powerWatt": 28000,
+          "luminousFluxLumen": 800,
+          "manualUrl": "Parc",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Axcor Profile 400",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 34
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 16000,
+          "luminousFluxLumen": 600,
+          "manualUrl": "Parc",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Alpha Spot HPE 1500",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 37
+            }
+          ],
+          "weightKilogram": 41.5,
+          "powerWatt": 28000,
+          "luminousFluxLumen": 1650,
+          "manualUrl": "Vieux",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Alpha Spot HPE 1200",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 26
+            }
+          ],
+          "weightKilogram": 37.5,
+          "powerWatt": 20000,
+          "luminousFluxLumen": 1400,
+          "manualUrl": "Vieux",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Alpha Spot HPE 700",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 25
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 22,
+          "powerWatt": 14700,
+          "luminousFluxLumen": 940,
+          "manualUrl": "Vieux",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Alpha Wash 1500",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 39,
+          "powerWatt": 35000,
+          "luminousFluxLumen": 1650,
+          "manualUrl": "Vieux",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Alpha Wash 700",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 16800,
+          "luminousFluxLumen": 940,
+          "manualUrl": "Vieux",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Alpha Beam 1500",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 40,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1650,
+          "manualUrl": "Vieux",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Alpha Beam 700",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 0,
+          "luminousFluxLumen": 940,
+          "manualUrl": "Vieux",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Alpha Beam 300",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 350,
+          "manualUrl": "Vieux",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Xtylos (Laser)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 0,
+          "luminousFluxLumen": 400,
+          "manualUrl": "Actuel",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Tambora Flash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 32
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "Nouveau",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Tambora Batten",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 85
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 8500,
+          "luminousFluxLumen": 660,
+          "manualUrl": "Actuel",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Golden Scan 3",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 38,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "Ancien",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Stage Scan",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 38,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "Ancien",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Silver Scan",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 22,
+          "powerWatt": 11000,
+          "luminousFluxLumen": 450,
+          "manualUrl": "Actuel",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Stormy CC",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 480,
+          "manualUrl": "Parc",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "GLP",
       "products": [
         {
@@ -886,6 +1468,683 @@
           "luminousFluxLumen": 70000,
           "manualUrl": "https://glp.de/files/products/jdc2-ip-product-data/GLP_JDC2_IP_User_Manual_EN_Rev20241001-04.pdf",
           "dmxChartUrl": "https://glp.de/files/products/jdc2-ip-product-data/GLP_JDC2_IP_DMX_Channel_Index_EN_Rev20241002-05.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Martin",
+      "products": [
+        {
+          "type": "Moving Head",
+          "name": "MAC Ultra Performance",
+          "modes": [
+            {
+              "name": "P-Standard",
+              "dmxChannels": 48
+            },
+            {
+              "name": "P-Extended",
+              "dmxChannels": 58
+            }
+          ],
+          "weightKilogram": 44,
+          "powerWatt": 46500,
+          "luminousFluxLumen": 1150,
+          "manualUrl": "https://www.martin.com/en/products/mac-ultra-performance",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-ultra-performance"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC Ultra Wash",
+          "modes": [
+            {
+              "name": "W-Standard",
+              "dmxChannels": 30
+            },
+            {
+              "name": "W-Extended",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 39,
+          "powerWatt": 63500,
+          "luminousFluxLumen": 1150,
+          "manualUrl": "https://www.martin.com/en/products/mac-ultra-wash",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-ultra-wash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC Viper Performance",
+          "modes": [
+            {
+              "name": "16-bit",
+              "dmxChannels": 32
+            },
+            {
+              "name": "16-bit Extended",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 37.2,
+          "powerWatt": 26000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.martin.com/en/products/mac-viper-performance",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-viper-performance"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC Viper Profile",
+          "modes": [
+            {
+              "name": "16-bit",
+              "dmxChannels": 26
+            },
+            {
+              "name": "16-bit Extended",
+              "dmxChannels": 34
+            }
+          ],
+          "weightKilogram": 37.2,
+          "powerWatt": 26000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.martin.com/en/products/mac-viper-profile",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-viper-profile"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC Viper AirFX",
+          "modes": [
+            {
+              "name": "16-bit",
+              "dmxChannels": 20
+            },
+            {
+              "name": "16-bit Extended",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 34.1,
+          "powerWatt": 34500,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.martin.com/en/products/mac-viper-airfx",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-viper-airfx"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC Viper Wash",
+          "modes": [
+            {
+              "name": "16-bit",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 34.1,
+          "powerWatt": 33000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.martin.com/en/products/mac-viper-wash",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-viper-wash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC Viper Wash DX",
+          "modes": [
+            {
+              "name": "16-bit",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 34.1,
+          "powerWatt": 33000,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://www.martin.com/en/products/mac-viper-wash-dx",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-viper-wash-dx"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC Aura PXL",
+          "modes": [
+            {
+              "name": "Compact",
+              "dmxChannels": 17
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Ludicrous",
+              "dmxChannels": 512
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 10500,
+          "luminousFluxLumen": 560,
+          "manualUrl": "https://www.martin.com/en/products/mac-aura-pxl",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-aura-pxl"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC Aura XB",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Compressed",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 6000,
+          "luminousFluxLumen": 232,
+          "manualUrl": "https://www.martin.com/en/products/mac-aura-xb",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-aura-xb"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC Aura (Original)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Compressed",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 3850,
+          "luminousFluxLumen": 230,
+          "manualUrl": "https://www.martin.com/en/products/mac-aura",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-aura"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC Quantum Profile",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 12700,
+          "luminousFluxLumen": 750,
+          "manualUrl": "https://www.martin.com/en/products/mac-quantum-profile",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-quantum-profile"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC Quantum Wash",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 37
+            }
+          ],
+          "weightKilogram": 21,
+          "powerWatt": 16000,
+          "luminousFluxLumen": 1020,
+          "manualUrl": "https://www.martin.com/en/products/mac-quantum-wash",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-quantum-wash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC Encore Performance CLD",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 38
+            }
+          ],
+          "weightKilogram": 31,
+          "powerWatt": 12000,
+          "luminousFluxLumen": 600,
+          "manualUrl": "https://www.martin.com/en/products/mac-encore-performance-cld",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-encore-performance-cld"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC Encore Wash CLD",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 12000,
+          "luminousFluxLumen": 600,
+          "manualUrl": "https://www.martin.com/en/products/mac-encore-wash-cld",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-encore-wash-cld"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC 2000 Profile II",
+          "modes": [
+            {
+              "name": "8-bit",
+              "dmxChannels": 20
+            },
+            {
+              "name": "16-bit",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 38,
+          "powerWatt": 23000,
+          "luminousFluxLumen": 1470,
+          "manualUrl": "https://www.martin.com/en/products/mac-2000-profile-ii",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-2000-profile-ii"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC 2000 Performance",
+          "modes": [
+            {
+              "name": "8-bit",
+              "dmxChannels": 22
+            },
+            {
+              "name": "16-bit",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 39.5,
+          "powerWatt": 23000,
+          "luminousFluxLumen": 1470,
+          "manualUrl": "https://www.martin.com/en/products/mac-2000-performance",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-2000-performance"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC 2000 Wash",
+          "modes": [
+            {
+              "name": "8-bit",
+              "dmxChannels": 11
+            },
+            {
+              "name": "16-bit",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 34,
+          "powerWatt": 33000,
+          "luminousFluxLumen": 1470,
+          "manualUrl": "https://www.martin.com/en/products/mac-2000-wash",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-2000-wash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC 700 Profile",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 23
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 34.5,
+          "powerWatt": 14700,
+          "luminousFluxLumen": 940,
+          "manualUrl": "https://www.martin.com/en/products/mac-700-profile",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-700-profile"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC 700 Wash",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 16800,
+          "luminousFluxLumen": 940,
+          "manualUrl": "https://www.martin.com/en/products/mac-700-wash",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-700-wash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "ERA 800 Performance",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 42
+            }
+          ],
+          "weightKilogram": 40,
+          "powerWatt": 34000,
+          "luminousFluxLumen": 1235,
+          "manualUrl": "https://www.martin.com/en/products/era-800-performance",
+          "dmxChartUrl": "https://www.martin.com/en/products/era-800-performance"
+        },
+        {
+          "type": "Moving Head",
+          "name": "ERA 600 Performance",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 41
+            }
+          ],
+          "weightKilogram": 31,
+          "powerWatt": 19000,
+          "luminousFluxLumen": 800,
+          "manualUrl": "https://www.martin.com/en/products/era-600-performance",
+          "dmxChartUrl": "https://www.martin.com/en/products/era-600-performance"
+        },
+        {
+          "type": "Moving Head",
+          "name": "ERA 400 Performance CLD",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 38
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 10000,
+          "luminousFluxLumen": 450,
+          "manualUrl": "https://www.martin.com/en/products/era-400-performance-cld",
+          "dmxChartUrl": "https://www.martin.com/en/products/era-400-performance-cld"
+        },
+        {
+          "type": "Moving Head",
+          "name": "ERA 300 Beam",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 17,
+          "powerWatt": 9500,
+          "luminousFluxLumen": 450,
+          "manualUrl": "https://www.martin.com/en/products/era-300-beam",
+          "dmxChartUrl": "https://www.martin.com/en/products/era-300-beam"
+        },
+        {
+          "type": "Moving Head",
+          "name": "ERA 150 Wash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 3900,
+          "luminousFluxLumen": 180,
+          "manualUrl": "https://www.martin.com/en/products/era-150-wash",
+          "dmxChartUrl": "https://www.martin.com/en/products/era-150-wash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC 500",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 32.8,
+          "powerWatt": 9000,
+          "luminousFluxLumen": 750,
+          "manualUrl": "https://www.martin.com/en/products/mac-500",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-500"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC 600",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 12000,
+          "luminousFluxLumen": 750,
+          "manualUrl": "https://www.martin.com/en/products/mac-600",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-600"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC 250 Entour",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 5000,
+          "luminousFluxLumen": 350,
+          "manualUrl": "https://www.martin.com/en/products/mac-250-entour",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-250-entour"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC 250 Wash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 19
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 7700,
+          "luminousFluxLumen": 350,
+          "manualUrl": "https://www.martin.com/en/products/mac-250-wash",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-250-wash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC 101",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Compressed",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 2400,
+          "luminousFluxLumen": 125,
+          "manualUrl": "https://www.martin.com/en/products/mac-101",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-101"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC 301 Wash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Compressed",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 3500,
+          "luminousFluxLumen": 350,
+          "manualUrl": "https://www.martin.com/en/products/mac-301-wash",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-301-wash"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC 350 Entour",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 17
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 8000,
+          "luminousFluxLumen": 450,
+          "manualUrl": "https://www.martin.com/en/products/mac-350-entour",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-350-entour"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC One",
+          "modes": [
+            {
+              "name": "Compact",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Ludicrous",
+              "dmxChannels": 100
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 2400,
+          "luminousFluxLumen": 160,
+          "manualUrl": "https://www.martin.com/en/products/mac-one",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-one"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC III Profile",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 53.5,
+          "powerWatt": 33000,
+          "luminousFluxLumen": 1800,
+          "manualUrl": "https://www.martin.com/en/products/mac-iii-profile",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-iii-profile"
+        },
+        {
+          "type": "Moving Head",
+          "name": "MAC III Performance",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 33
+            }
+          ],
+          "weightKilogram": 53.5,
+          "powerWatt": 33000,
+          "luminousFluxLumen": 1800,
+          "manualUrl": "https://www.martin.com/en/products/mac-iii-performance",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-iii-performance"
+        },
+        {
+          "type": "Strobe",
+          "name": "Atomic 3000 DMX",
+          "modes": [
+            {
+              "name": "1-channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3-channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4-channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 3000,
+          "manualUrl": "https://www.martin.com/en/products/atomic-3000-dmx",
+          "dmxChartUrl": "https://www.martin.com/en/products/atomic-3000-dmx"
+        },
+        {
+          "type": "Strobe",
+          "name": "Atomic 3000 LED",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            },
+            {
+              "name": "7-channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 180000,
+          "luminousFluxLumen": 740,
+          "manualUrl": "https://www.martin.com/en/products/atomic-3000-led",
+          "dmxChartUrl": "https://www.martin.com/en/products/atomic-3000-led"
         }
       ]
     },
