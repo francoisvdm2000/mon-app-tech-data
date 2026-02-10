@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T13:19:37.901Z",
+  "updatedAt": "2026-02-10T13:29:38.896Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -1898,29 +1898,55 @@
           ],
           "weightKilogram": 0,
           "powerWatt": 640,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "luminousFluxLumen": 13600,
+          "manualUrl": "User_manual_Robin_TX1_PosiProfile.pdf",
+          "dmxChartUrl": "Robin_TX1_PosiProfile_DMX_charts.pdf"
         },
         {
           "type": "PC",
           "name": "T2 PC",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Mode 1 - CMY/RGB",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 2 - Reduced CMY/RGB",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 3 - Five colours",
+              "dmxChannels": 36
+            }
+          ],
           "weightKilogram": 0,
           "powerWatt": 0,
           "luminousFluxLumen": 0,
           "manualUrl": "",
-          "dmxChartUrl": ""
+          "dmxChartUrl": "Robin_T2_Fresnel_T2_PC_DMX_charts.pdf"
         },
         {
           "type": "Fresnel",
           "name": "T2 Fresnel",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Mode 1 - CMY/RGB",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 2 - Reduced CMY/RGB",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 3 - Five colours",
+              "dmxChannels": 36
+            }
+          ],
           "weightKilogram": 0,
           "powerWatt": 0,
           "luminousFluxLumen": 0,
           "manualUrl": "",
-          "dmxChartUrl": ""
+          "dmxChartUrl": "Robin_T2_Fresnel_T2_PC_DMX_charts.pdf"
         },
         {
           "type": "Profile",
