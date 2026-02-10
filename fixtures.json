@@ -1,7 +1,151 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T16:09:37.375Z",
+  "updatedAt": "2026-02-10T16:19:40.469Z",
   "manufacturers": [
+    {
+      "name": "A&O Technology",
+      "products": [
+        {
+          "type": "Searchlight",
+          "name": "Falcon Beam ARC White 7kW",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 220,
+          "powerWatt": 0,
+          "luminousFluxLumen": 7500,
+          "manualUrl": "https://ao-technology.com/falcon-beam-white",
+          "dmxChartUrl": "https://ao-technology.com/dmx/beam-white-7k"
+        },
+        {
+          "type": "Searchlight",
+          "name": "Falcon Beam ARC White 3kW",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 129,
+          "powerWatt": 0,
+          "luminousFluxLumen": 3200,
+          "manualUrl": "https://ao-technology.com/falcon-beam-white",
+          "dmxChartUrl": "https://ao-technology.com/dmx/beam-white-3k"
+        },
+        {
+          "type": "Searchlight",
+          "name": "Falcon Beam ARC Colour 7kW",
+          "modes": [
+            {
+              "name": "Standard CMY",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 220,
+          "powerWatt": 200000,
+          "luminousFluxLumen": 7500,
+          "manualUrl": "https://ao-technology.com/falcon-beam-colour",
+          "dmxChartUrl": "https://ao-technology.com/dmx/beam-colour-7k"
+        },
+        {
+          "type": "Searchlight",
+          "name": "Falcon Beam ARC Colour 3kW",
+          "modes": [
+            {
+              "name": "Standard CMY",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 129,
+          "powerWatt": 0,
+          "luminousFluxLumen": 3200,
+          "manualUrl": "https://ao-technology.com/falcon-beam-colour",
+          "dmxChartUrl": "https://ao-technology.com/dmx/beam-colour-3k"
+        },
+        {
+          "type": "Searchlight",
+          "name": "Falcon Flower Colour 7kW",
+          "modes": [
+            {
+              "name": "Standard+Effect",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 235,
+          "powerWatt": 0,
+          "luminousFluxLumen": 7500,
+          "manualUrl": "https://ao-technology.com/falcon-flower",
+          "dmxChartUrl": "https://ao-technology.com/dmx/flower-7k"
+        },
+        {
+          "type": "Searchlight",
+          "name": "Falcon Flower Colour 3kW",
+          "modes": [
+            {
+              "name": "Standard+Effect",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 128,
+          "powerWatt": 0,
+          "luminousFluxLumen": 3200,
+          "manualUrl": "https://ao-technology.com/falcon-flower",
+          "dmxChartUrl": "https://ao-technology.com/dmx/flower-3k"
+        },
+        {
+          "type": "Static Wash",
+          "name": "Falcon Static ARC Colour 7kW",
+          "modes": [
+            {
+              "name": "Mode 1 (Basic)",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 2 (Extended)",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 115,
+          "powerWatt": 0,
+          "luminousFluxLumen": 7500,
+          "manualUrl": "https://ao-technology.com/falcon-static",
+          "dmxChartUrl": "https://ao-technology.com/dmx/static-7k-m1"
+        },
+        {
+          "type": "Static Wash",
+          "name": "Falcon Static ARC Colour 3kW",
+          "modes": [
+            {
+              "name": "Standard CMY",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 75,
+          "powerWatt": 0,
+          "luminousFluxLumen": 3200,
+          "manualUrl": "https://ao-technology.com/falcon-static",
+          "dmxChartUrl": "https://ao-technology.com/dmx/static-3k"
+        },
+        {
+          "type": "Searchlight",
+          "name": "Falcon 6000 CMY",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 145,
+          "powerWatt": 0,
+          "luminousFluxLumen": 6300,
+          "manualUrl": "https://ao-technology.com/falcon-6000",
+          "dmxChartUrl": "https://ao-technology.com/dmx/falcon-6000"
+        }
+      ]
+    },
     {
       "name": "ACME",
       "products": [
@@ -3205,66 +3349,6 @@
       ]
     },
     {
-      "name": "Falcon 4000 White",
-      "products": [
-        {
-          "type": "Basic",
-          "name": "10",
-          "modes": [
-            {
-              "name": "115.0",
-              "dmxChannels": 4400
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
-        }
-      ]
-    },
-    {
-      "name": "Falcon Beam 7000",
-      "products": [
-        {
-          "type": "Standard",
-          "name": "14",
-          "modes": [
-            {
-              "name": "145.0",
-              "dmxChannels": 7500
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
-        }
-      ]
-    },
-    {
-      "name": "Falcon Flower 7000",
-      "products": [
-        {
-          "type": "Effect Mode",
-          "name": "18",
-          "modes": [
-            {
-              "name": "155.0",
-              "dmxChannels": 7500
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
-        }
-      ]
-    },
-    {
       "name": "GLP",
       "products": [
         {
@@ -5093,6 +5177,124 @@
           "luminousFluxLumen": 0,
           "manualUrl": "",
           "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "PRG",
+      "products": [
+        {
+          "type": "Moving Head",
+          "name": "Bad Boy Spot",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 33
+            }
+          ],
+          "weightKilogram": 75,
+          "powerWatt": 48000,
+          "luminousFluxLumen": 2000,
+          "manualUrl": "https://www.prg.com/bad-boy",
+          "dmxChartUrl": "https://www.prg.com/dmx/bad-boy"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Best Boy HP Spot",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 39
+            }
+          ],
+          "weightKilogram": 48,
+          "powerWatt": 33000,
+          "luminousFluxLumen": 1400,
+          "manualUrl": "https://www.prg.com/best-boy",
+          "dmxChartUrl": "https://www.prg.com/dmx/best-boy"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Best Boy Wash",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 43,
+          "powerWatt": 60000,
+          "luminousFluxLumen": 1400,
+          "manualUrl": "https://www.prg.com/best-boy-wash",
+          "dmxChartUrl": "https://www.prg.com/dmx/best-boy-wash"
+        },
+        {
+          "type": "Searchlight",
+          "name": "Longbow",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 105,
+          "powerWatt": 0,
+          "luminousFluxLumen": 4500,
+          "manualUrl": "https://www.prg.com/longbow",
+          "dmxChartUrl": "https://www.prg.com/dmx/longbow"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Icon Edge",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 15000,
+          "luminousFluxLumen": 470,
+          "manualUrl": "https://www.prg.com/icon-edge",
+          "dmxChartUrl": "https://www.prg.com/dmx/icon-edge"
+        },
+        {
+          "type": "LED Wash",
+          "name": "G-Lec Phantom 30",
+          "modes": [
+            {
+              "name": "Direct RGB",
+              "dmxChannels": 144
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 0,
+          "luminousFluxLumen": 400,
+          "manualUrl": "https://www.prg.com/g-lec",
+          "dmxChartUrl": "https://www.prg.com/dmx/phantom-30"
+        },
+        {
+          "type": "Ground Control",
+          "name": "Followspot System",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.prg.com/groundcontrol",
+          "dmxChartUrl": "https://www.prg.com/dmx/groundcontrol"
         }
       ]
     },
