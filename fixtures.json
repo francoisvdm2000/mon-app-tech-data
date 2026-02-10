@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T13:49:38.169Z",
+  "updatedAt": "2026-02-10T13:59:37.919Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -1850,22 +1850,48 @@
         {
           "type": "Profile",
           "name": "T1 Profile",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Mode 1 - CMY/RGB",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Mode 2 - Reduced CMY/RGB",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Mode 3 - Five colours",
+              "dmxChannels": 37
+            }
+          ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "powerWatt": 750,
+          "luminousFluxLumen": 10075,
+          "manualUrl": "User_manual_Robin_T1_Profile.pdf",
+          "dmxChartUrl": "Robin_T1_Profile_DMX_charts.pdf"
         },
         {
           "type": "Profile",
           "name": "T1 Profile FS",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Mode 1 - CMY/RGB",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Mode 2 - Reduced CMY/RGB",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Mode 3 - Five colours",
+              "dmxChannels": 37
+            }
+          ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "",
-          "dmxChartUrl": ""
+          "powerWatt": 750,
+          "luminousFluxLumen": 10075,
+          "manualUrl": "User_manual_Robin_T1_Profile.pdf",
+          "dmxChartUrl": "Robin_T1_Profile_DMX_charts.pdf"
         },
         {
           "type": "Profile",
@@ -1951,7 +1977,20 @@
         {
           "type": "Profile",
           "name": "T2 Profile",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Mode 1 - CMY/RGB",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Mode 2 - Reduced CMY/RGB",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Mode 3 - Five colours",
+              "dmxChannels": 37
+            }
+          ],
           "weightKilogram": 36.9,
           "powerWatt": 1150,
           "luminousFluxLumen": 17600,
@@ -1961,7 +2000,20 @@
         {
           "type": "Profile",
           "name": "T2 Profile FS",
-          "modes": [],
+          "modes": [
+            {
+              "name": "Mode 1 - CMY/RGB",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Mode 2 - Reduced CMY/RGB",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Mode 3 - Five colours",
+              "dmxChannels": 37
+            }
+          ],
           "weightKilogram": 38,
           "powerWatt": 1150,
           "luminousFluxLumen": 17600,
