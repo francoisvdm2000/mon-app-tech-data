@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T15:59:40.150Z",
+  "updatedAt": "2026-02-10T16:09:37.375Z",
   "manufacturers": [
     {
       "name": "ACME",
@@ -2427,6 +2427,98 @@
       ]
     },
     {
+      "name": "Coemar",
+      "products": [
+        {
+          "type": "Moving Head",
+          "name": "Infinity Spot M",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 29,
+          "powerWatt": 0,
+          "luminousFluxLumen": 700,
+          "manualUrl": "https://www.coemar.com/infinity-m",
+          "dmxChartUrl": "https://www.coemar.com/dmx/infinity-m"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Infinity Wash XL",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 38,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1400,
+          "manualUrl": "https://www.coemar.com/infinity-xl",
+          "dmxChartUrl": "https://www.coemar.com/dmx/infinity-xl"
+        },
+        {
+          "type": "LED Profile",
+          "name": "Reflection LEDko Full Color",
+          "modes": [
+            {
+              "name": "Standard RGBW",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Extended (16bit)",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 0,
+          "luminousFluxLumen": 200,
+          "manualUrl": "https://www.coemar.com/ledko",
+          "dmxChartUrl": "https://www.coemar.com/dmx/ledko-6ch"
+        },
+        {
+          "type": "Wash",
+          "name": "Pharos LED",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 0,
+          "luminousFluxLumen": 250,
+          "manualUrl": "https://www.coemar.com/pharos",
+          "dmxChartUrl": "https://www.coemar.com/dmx/pharos"
+        },
+        {
+          "type": "Wash LED",
+          "name": "Mini LEDko",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 40,
+          "manualUrl": "https://www.coemar.com/mini-ledko",
+          "dmxChartUrl": "https://www.coemar.com/dmx/mini-ledko"
+        }
+      ]
+    },
+    {
       "name": "ETC",
       "products": [
         {
@@ -3113,6 +3205,66 @@
       ]
     },
     {
+      "name": "Falcon 4000 White",
+      "products": [
+        {
+          "type": "Basic",
+          "name": "10",
+          "modes": [
+            {
+              "name": "115.0",
+              "dmxChannels": 4400
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Falcon Beam 7000",
+      "products": [
+        {
+          "type": "Standard",
+          "name": "14",
+          "modes": [
+            {
+              "name": "145.0",
+              "dmxChannels": 7500
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Falcon Flower 7000",
+      "products": [
+        {
+          "type": "Effect Mode",
+          "name": "18",
+          "modes": [
+            {
+              "name": "155.0",
+              "dmxChannels": 7500
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "GLP",
       "products": [
         {
@@ -3335,6 +3487,198 @@
           "luminousFluxLumen": 70000,
           "manualUrl": "https://glp.de/files/products/jdc2-ip-product-data/GLP_JDC2_IP_User_Manual_EN_Rev20241001-04.pdf",
           "dmxChartUrl": "https://glp.de/files/products/jdc2-ip-product-data/GLP_JDC2_IP_DMX_Channel_Index_EN_Rev20241002-05.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Griven",
+      "products": [
+        {
+          "type": "Skytracer",
+          "name": "Sky-Eagle 2500",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 70.5,
+          "powerWatt": 240000,
+          "luminousFluxLumen": 2800,
+          "manualUrl": "https://www.griven.com/catalog/sky-eagle",
+          "dmxChartUrl": "https://www.griven.com/DMX/sky-eagle"
+        },
+        {
+          "type": "Skytracer",
+          "name": "Sky Tracer MKII 4000",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 110,
+          "powerWatt": 0,
+          "luminousFluxLumen": 4400,
+          "manualUrl": "https://www.griven.com/catalog/sky-tracer",
+          "dmxChartUrl": "https://www.griven.com/DMX/sky-tracer"
+        },
+        {
+          "type": "Skytracer",
+          "name": "Imperial 4000",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 2
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 125,
+          "powerWatt": 0,
+          "luminousFluxLumen": 4200,
+          "manualUrl": "https://www.griven.com/catalog/imperial",
+          "dmxChartUrl": "https://www.griven.com/DMX/imperial"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Jade (Hybrid)",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Full",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 17,
+          "powerWatt": 9826,
+          "luminousFluxLumen": 423,
+          "manualUrl": "https://www.griven.com/catalog/jade",
+          "dmxChartUrl": "https://www.griven.com/DMX/jade"
+        },
+        {
+          "type": "Floodlight",
+          "name": "Powershine MK2 D RGBW",
+          "modes": [
+            {
+              "name": "RGBW (Mode 1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGBW+Dim (Mode 2)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "RGBW+Dim+Strobe (Mode 3)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "8-bit Independent",
+              "dmxChannels": 8
+            },
+            {
+              "name": "16-bit Full Control",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 56,
+          "powerWatt": 26000,
+          "luminousFluxLumen": 576,
+          "manualUrl": "https://www.griven.com/catalog/powershine-d",
+          "dmxChartUrl": "https://www.griven.com/DMX/powershine"
+        },
+        {
+          "type": "Floodlight",
+          "name": "Capital 600 RGBW",
+          "modes": [
+            {
+              "name": "Standard RGBW",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGBW+Dim",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Full Control",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 32.8,
+          "powerWatt": 32402,
+          "luminousFluxLumen": 512,
+          "manualUrl": "https://www.griven.com/catalog/capital-600",
+          "dmxChartUrl": "https://www.griven.com/DMX/capital-600"
+        },
+        {
+          "type": "Floodlight",
+          "name": "Onyx XQ RGBW",
+          "modes": [
+            {
+              "name": "RGBW (Mode 1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGBW+Dim (Mode 2)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Full Mode",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 13781,
+          "luminousFluxLumen": 286,
+          "manualUrl": "https://www.griven.com/catalog/onyx",
+          "dmxChartUrl": "https://www.griven.com/DMX/onyx"
+        },
+        {
+          "type": "Linear",
+          "name": "Parade L2 RGBW",
+          "modes": [
+            {
+              "name": "1 Pixel RGBW",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Independent Pixels",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 2087,
+          "luminousFluxLumen": 38,
+          "manualUrl": "https://www.griven.com/catalog/parade-l2",
+          "dmxChartUrl": "https://www.griven.com/DMX/parade-l2"
+        },
+        {
+          "type": "Pixel",
+          "name": "Graph-i-Cell RGBW",
+          "modes": [
+            {
+              "name": "1 Pixel RGBW",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0.6,
+          "powerWatt": 726,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/catalog/graph-i-cell",
+          "dmxChartUrl": "https://www.griven.com/DMX/graph-i-cell"
         }
       ]
     },
@@ -4368,6 +4712,86 @@
           "luminousFluxLumen": 125,
           "manualUrl": "https://minuitune.com/pyramide",
           "dmxChartUrl": "https://minuitune.com/pyramide"
+        }
+      ]
+    },
+    {
+      "name": "Novarlight",
+      "products": [
+        {
+          "type": "Skytracer",
+          "name": "High Ground",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 65,
+          "powerWatt": 0,
+          "luminousFluxLumen": 2000,
+          "manualUrl": "https://www.novarlight.it/high-ground",
+          "dmxChartUrl": "https://www.novarlight.it/dmx/high-ground"
+        },
+        {
+          "type": "Skytracer",
+          "name": "Nova-Flower",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 55,
+          "powerWatt": 0,
+          "luminousFluxLumen": 2000,
+          "manualUrl": "https://www.novarlight.it/nova-flower",
+          "dmxChartUrl": "https://www.novarlight.it/dmx/nova-flower"
+        },
+        {
+          "type": "Skytracer",
+          "name": "Super-Nova",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 68,
+          "powerWatt": 0,
+          "luminousFluxLumen": 2500,
+          "manualUrl": "https://www.novarlight.it/super-nova",
+          "dmxChartUrl": "https://www.novarlight.it/dmx/super-nova"
+        },
+        {
+          "type": "Searchlight",
+          "name": "Lume",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 10
+            }
+          ],
+          "weightKilogram": 35,
+          "powerWatt": 0,
+          "luminousFluxLumen": 2000,
+          "manualUrl": "https://www.novarlight.it/lume",
+          "dmxChartUrl": "https://www.novarlight.it/dmx/lume"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Star-Light",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 38,
+          "powerWatt": 0,
+          "luminousFluxLumen": 575,
+          "manualUrl": "https://www.novarlight.it/star-light",
+          "dmxChartUrl": "https://www.novarlight.it/dmx/star-light"
         }
       ]
     },
@@ -6317,6 +6741,278 @@
       ]
     },
     {
+      "name": "Space Cannon",
+      "products": [
+        {
+          "type": "Searchlight",
+          "name": "Hera 7000W",
+          "modes": [
+            {
+              "name": "Full CMY Mode",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Basic Mode",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 160,
+          "powerWatt": 0,
+          "luminousFluxLumen": 7500,
+          "manualUrl": "https://spacecannon.com/hera",
+          "dmxChartUrl": "https://spacecannon.com/dmx/hera-cmy"
+        },
+        {
+          "type": "Searchlight",
+          "name": "Ireos 4000/7000",
+          "modes": [
+            {
+              "name": "Extended CMY",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 145,
+          "powerWatt": 0,
+          "luminousFluxLumen": 7500,
+          "manualUrl": "https://spacecannon.com/ireos",
+          "dmxChartUrl": "https://spacecannon.com/dmx/ireos-ext"
+        },
+        {
+          "type": "Searchlight",
+          "name": "Iridium 7000W",
+          "modes": [
+            {
+              "name": "Standard White",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 110,
+          "powerWatt": 0,
+          "luminousFluxLumen": 7500,
+          "manualUrl": "https://spacecannon.com/iridium",
+          "dmxChartUrl": "https://spacecannon.com/dmx/iridium-7k"
+        },
+        {
+          "type": "Searchlight",
+          "name": "Iridium 2000W",
+          "modes": [
+            {
+              "name": "Standard White",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 65,
+          "powerWatt": 0,
+          "luminousFluxLumen": 2200,
+          "manualUrl": "https://spacecannon.com/iridium",
+          "dmxChartUrl": "https://spacecannon.com/dmx/iridium-2k"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Titan 2000/4000",
+          "modes": [
+            {
+              "name": "Standard CMY",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Vector Mode",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 115,
+          "powerWatt": 0,
+          "luminousFluxLumen": 4200,
+          "manualUrl": "https://spacecannon.com/titan",
+          "dmxChartUrl": "https://spacecannon.com/dmx/titan"
+        },
+        {
+          "type": "Searchlight LED",
+          "name": "Blackfin (IP66)",
+          "modes": [
+            {
+              "name": "RGBW Standard",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGBW Extended",
+              "dmxChannels": 10
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 18000,
+          "luminousFluxLumen": 450,
+          "manualUrl": "https://spacecannon.com/blackfin",
+          "dmxChartUrl": "https://spacecannon.com/dmx/blackfin-4ch"
+        },
+        {
+          "type": "Searchlight LED",
+          "name": "Setis RGBW",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 52,
+          "powerWatt": 35000,
+          "luminousFluxLumen": 850,
+          "manualUrl": "https://spacecannon.com/setis",
+          "dmxChartUrl": "https://spacecannon.com/dmx/setis-4ch"
+        }
+      ]
+    },
+    {
+      "name": "Studio Due",
+      "products": [
+        {
+          "type": "Skytracer",
+          "name": "Spaceflower 3000",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 3
+            },
+            {
+              "name": "Standard+Shutter",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 75,
+          "powerWatt": 0,
+          "luminousFluxLumen": 3000,
+          "manualUrl": "https://www.studiodue.com/spaceflower",
+          "dmxChartUrl": "https://www.studiodue.com/dmx/spaceflower"
+        },
+        {
+          "type": "Wash IP67",
+          "name": "CityColor LED RGBW",
+          "modes": [
+            {
+              "name": "4-Channel (RGBW)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "5-Channel (RGBW+D)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "9-Channel (Full)",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 53,
+          "powerWatt": 60000,
+          "luminousFluxLumen": 900,
+          "manualUrl": "https://www.studiodue.com/citycolor-led",
+          "dmxChartUrl": "https://www.studiodue.com/dmx/citycolor-led"
+        },
+        {
+          "type": "Wash IP",
+          "name": "CityColor 1800 (Lamp)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 53,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1800,
+          "manualUrl": "https://www.studiodue.com/citycolor-1800",
+          "dmxChartUrl": "https://www.studiodue.com/dmx/citycolor-1800"
+        },
+        {
+          "type": "Wash IP67",
+          "name": "Single 400 RGBW",
+          "modes": [
+            {
+              "name": "4-Channel (RGBW)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "8-Channel (Independent)",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 16000,
+          "luminousFluxLumen": 400,
+          "manualUrl": "https://www.studiodue.com/single-400",
+          "dmxChartUrl": "https://www.studiodue.com/dmx/single-400"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Archibar 250",
+          "modes": [
+            {
+              "name": "4-Channel (RGBW)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "9-Channel",
+              "dmxChannels": 9
+            },
+            {
+              "name": "16-Channel (Pixel)",
+              "dmxChannels": 16
+            },
+            {
+              "name": "21-Channel (Full Pixel)",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 345,
+          "manualUrl": "https://www.studiodue.com/archibar-250",
+          "dmxChartUrl": "https://www.studiodue.com/dmx/archibar-250"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Shark 250/C",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 13
+            }
+          ],
+          "weightKilogram": 13,
+          "powerWatt": 0,
+          "luminousFluxLumen": 300,
+          "manualUrl": "https://www.studiodue.com/shark-250",
+          "dmxChartUrl": "https://www.studiodue.com/dmx/shark-250"
+        },
+        {
+          "type": "Wash IP67",
+          "name": "Turbo Colour RGBW",
+          "modes": [
+            {
+              "name": "4-Channel (RGBW)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "7-Channel (Full)",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 0,
+          "luminousFluxLumen": 300,
+          "manualUrl": "https://www.studiodue.com/turbo-colour",
+          "dmxChartUrl": "https://www.studiodue.com/dmx/turbo-colour"
+        }
+      ]
+    },
+    {
       "name": "URC",
       "products": [
         {
@@ -6882,6 +7578,90 @@
           "luminousFluxLumen": 700,
           "manualUrl": "https://www.vari-lite.com/global/products/vl2000-wash",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2000-wash"
+        }
+      ]
+    },
+    {
+      "name": "Zap Technology",
+      "products": [
+        {
+          "type": "Searchlight",
+          "name": "BigLite 4.5",
+          "modes": [
+            {
+              "name": "Standard CMY",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 124,
+          "powerWatt": 0,
+          "luminousFluxLumen": 4800,
+          "manualUrl": "https://msh-europe.com/zap-biglite",
+          "dmxChartUrl": "https://msh-europe.com/dmx/biglite-cmy"
+        },
+        {
+          "type": "Searchlight",
+          "name": "LittleBig 3.5",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 13
+            }
+          ],
+          "weightKilogram": 85,
+          "powerWatt": 0,
+          "luminousFluxLumen": 3800,
+          "manualUrl": "https://msh-europe.com/littlebig",
+          "dmxChartUrl": "https://msh-europe.com/dmx/littlebig"
+        },
+        {
+          "type": "Searchlight",
+          "name": "MiniBig 3.0",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 13
+            }
+          ],
+          "weightKilogram": 96,
+          "powerWatt": 0,
+          "luminousFluxLumen": 3200,
+          "manualUrl": "https://msh-europe.com/minibig",
+          "dmxChartUrl": "https://msh-europe.com/dmx/minibig"
+        },
+        {
+          "type": "Searchlight",
+          "name": "SuperBeam 1200",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 45,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1500,
+          "manualUrl": "https://msh-europe.com/superbeam",
+          "dmxChartUrl": "https://msh-europe.com/dmx/superbeam"
+        },
+        {
+          "type": "Searchlight",
+          "name": "BigLite 7.0",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 145,
+          "powerWatt": 0,
+          "luminousFluxLumen": 7500,
+          "manualUrl": "https://msh-europe.com/biglite-7k",
+          "dmxChartUrl": "https://msh-europe.com/dmx/biglite-7k"
         }
       ]
     },
