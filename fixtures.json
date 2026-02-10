@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T12:19:37.643Z",
+  "updatedAt": "2026-02-10T12:29:36.752Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -1204,14 +1204,6 @@
             {
               "name": "Mode 2 - Enhanced gobo control",
               "dmxChannels": 56
-            },
-            {
-              "name": "Mode 1 - Standard 16-bit",
-              "dmxChannels": 54
-            },
-            {
-              "name": "Mode 2 - Enhanced gobo control",
-              "dmxChannels": 56
             }
           ],
           "weightKilogram": 41,
@@ -1224,14 +1216,6 @@
           "type": "Profile",
           "name": "PAINTE",
           "modes": [
-            {
-              "name": "Mode 1 - Standard 16-bit",
-              "dmxChannels": 44
-            },
-            {
-              "name": "Mode 2 - Enhanced gobo control",
-              "dmxChannels": 45
-            },
             {
               "name": "Mode 1 - Standard 16-bit",
               "dmxChannels": 44
