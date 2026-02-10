@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T12:29:36.752Z",
+  "updatedAt": "2026-02-10T12:39:36.789Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -21,8 +21,8 @@
           "weightKilogram": 30.7,
           "powerWatt": 480,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1Agy2qoHQqw_rSBKZzUxYzYIKLR8Dv2-u/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1nDGhVqkoqy7ig8CCdVIelatgLgQqesy7/view?usp=drive_link"
+          "manualUrl": "Cobra2_Web_EN_V116.pdf",
+          "dmxChartUrl": "Cobra?-DMX-Chart-V116.pdf"
         },
         {
           "type": "Beam",
@@ -36,8 +36,8 @@
           "weightKilogram": 14.5,
           "powerWatt": 200,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1YVPjdUac819PBQQNvI4fge05L1mB5toi/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1yeP4N7vFy3nqnjkwXFgg52S40nog9EK-/view?usp=drive_link"
+          "manualUrl": "Kyalami_Web_EN_V113-1.pdf",
+          "dmxChartUrl": "KYALAMI-DMX-Chart_V115.pdf"
         },
         {
           "type": "Linear moving head wash",
@@ -59,8 +59,8 @@
           "weightKilogram": 13,
           "powerWatt": 400,
           "luminousFluxLumen": 4200,
-          "manualUrl": "https://drive.google.com/file/d/15rW6CPGpS0Hvszs8zupOPyv4lQg_81d7/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1qU2l0G16QwlyeCkBaGy7qGzeqcjfsiS8/view?usp=drive_link"
+          "manualUrl": "MagicBladeFX_Web_EN.pdf",
+          "dmxChartUrl": "MAGICBLADE_FX.pdf"
         },
         {
           "type": "Wash FX",
@@ -82,8 +82,8 @@
           "weightKilogram": 28.7,
           "powerWatt": 1000,
           "luminousFluxLumen": 13500,
-          "manualUrl": "https://drive.google.com/file/d/1jzhPckg5RWOE5YEFe0e1KZP85P7FQSkt/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1pbFk_P9PWTsfrDBI811Ji5At7Xxxs7ZY/view?usp=drive_link"
+          "manualUrl": "MagicPanel-FX_Manual.pdf",
+          "dmxChartUrl": "MAGICPANEL_FX_V1.pdf"
         },
         {
           "type": "Beam",
@@ -97,8 +97,8 @@
           "weightKilogram": 6.6,
           "powerWatt": 0,
           "luminousFluxLumen": 5000,
-          "manualUrl": "https://drive.google.com/file/d/1tH2dmyJCtPsAhBpTtUSAnPdEh7yacwO3/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1yGmjxKwAa1KoPYcj09d_FZJBZVm1yQdA/view?usp=drive_link"
+          "manualUrl": "MagicDot-Specification-Sheet-V2.pdf",
+          "dmxChartUrl": "MAGICDOTNEO_DMX_V102.pdf"
         },
         {
           "type": "Long throw",
@@ -120,8 +120,8 @@
           "weightKilogram": 53.8,
           "powerWatt": 1470,
           "luminousFluxLumen": 51000,
-          "manualUrl": "https://drive.google.com/file/d/1fAfpHVh8wFNGXRrckZ1QQnpx-BY5okGI/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1d-ZpyGp0Mat7xNYGIOvUDXkXrxapid3r/view?usp=drive_link"
+          "manualUrl": "Huracan-LT-UM-en.pdf",
+          "dmxChartUrl": "Huracan-LT-DMX-Chart_V231.pdf"
         },
         {
           "type": "Profile",
@@ -143,8 +143,8 @@
           "weightKilogram": 46,
           "powerWatt": 1470,
           "luminousFluxLumen": 51000,
-          "manualUrl": "https://drive.google.com/file/d/1jdjthGpujnpNBfqP7jAMXMprtM2q0oOr/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/18sEPcwQvcU7G2NyyR9e30RZeP0e9S3cE/view?usp=drive_link"
+          "manualUrl": "HuracanProfile_Web_EN_V217.pdf",
+          "dmxChartUrl": "Huracan-Profile-DMX-Chart_V213.pdf"
         },
         {
           "type": "Wash",
@@ -166,8 +166,8 @@
           "weightKilogram": 42.5,
           "powerWatt": 1470,
           "luminousFluxLumen": 52000,
-          "manualUrl": "https://drive.google.com/file/d/17k9DJi6EitKh8DSqjNLCA3j5hBbe0NJ-/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1C2ImDcJGX_2BY88imvmYn8pxk_YYtXup/view?usp=drive_link"
+          "manualUrl": "HuracanWash_Web_EN_V114.pdf",
+          "dmxChartUrl": "Huracan-Wash-DMX-Chart-V114.pdf"
         },
         {
           "type": "Long throw",
@@ -189,8 +189,8 @@
           "weightKilogram": 60,
           "powerWatt": 1600,
           "luminousFluxLumen": 51000,
-          "manualUrl": "https://drive.google.com/file/d/137ui9W_Y7AI7Rwg-D5CLR_8lGoY_bnuR/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1zeZHOBVhmQPfnkRCNmIwGAPMoUh978fY/view?usp=drive_link"
+          "manualUrl": "DominoLT_V213_Web_EN.pdf",
+          "dmxChartUrl": "Domino-LT-DMX-Chart_V210.pdf"
         },
         {
           "type": "Profile",
@@ -212,8 +212,8 @@
           "weightKilogram": 52,
           "powerWatt": 1800,
           "luminousFluxLumen": 51000,
-          "manualUrl": "https://drive.google.com/file/d/10PSboThYTjp2GZEXlFlPh1y3BiaEuPS0/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1pDa0ZVDdpDydvJS-jmJnl4ycPvaXDOjv/view?usp=drive_link"
+          "manualUrl": "DominoProfile_Web_EN_V224.pdf",
+          "dmxChartUrl": "Domino-Profile-DMX-Chart_V222.pdf"
         },
         {
           "type": "Wash",
@@ -235,8 +235,8 @@
           "weightKilogram": 52,
           "powerWatt": 1600,
           "luminousFluxLumen": 52000,
-          "manualUrl": "https://drive.google.com/file/d/17K6cMLcM4P5YI44dJ6ls_ioI51ip8EbK/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1o6IsgpHf6QzQ_Y_0ee97PbLNv3k9LpOO/view?usp=drive_link"
+          "manualUrl": "DominoWash_Web_EN_V103.pdf",
+          "dmxChartUrl": "Domino-Wash-DMX-chart_V102.pdf"
         },
         {
           "type": "Profile",
@@ -258,8 +258,8 @@
           "weightKilogram": 38.8,
           "powerWatt": 800,
           "luminousFluxLumen": 30000,
-          "manualUrl": "https://drive.google.com/file/d/1VwWdlyuYHubv61EWBnThtPRtOAkOSN18/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1F3C194L38XiGek3ekRZxrZLtVJ3Ayh-y/view?usp=drive_link"
+          "manualUrl": "PerseoProfile_Web_EN_V226.pdf",
+          "dmxChartUrl": "Perseo-Profile-DMX-Chart_V222.pdf"
         },
         {
           "type": "Beam",
@@ -281,8 +281,8 @@
           "weightKilogram": 41.5,
           "powerWatt": 700,
           "luminousFluxLumen": 18000,
-          "manualUrl": "https://drive.google.com/file/d/1ApTcCsRb_CjTxpc9y795WA0TZxmvaU0D/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1cU-wgFEY089PTL26yQ1Ypv8ptpVGNTvs/view?usp=drive_link"
+          "manualUrl": "PERSEO-BEAM-UM.pdf",
+          "dmxChartUrl": "Perseo-Beam-DMX-Chart_V224.pdf"
         },
         {
           "type": "Profile",
@@ -304,8 +304,8 @@
           "weightKilogram": 35.6,
           "powerWatt": 800,
           "luminousFluxLumen": 23000,
-          "manualUrl": "https://drive.google.com/file/d/1023hClTX8X0192bFC-xOTMS9hNwbDUON/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1suAhKf7CdqAYFELTRIg2J4XNDyrjltH6/view?usp=drive_link"
+          "manualUrl": "Ghibli-UM-1.2.pdf",
+          "dmxChartUrl": "Ghibli-DMX-Chart_V201.pdf"
         },
         {
           "type": "Long throw",
@@ -331,8 +331,8 @@
           "weightKilogram": 27,
           "powerWatt": 550,
           "luminousFluxLumen": 14000,
-          "manualUrl": "https://drive.google.com/file/d/11YmocnwhdVw7P02enp_UVTn3xEet_RfP/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1KwQidqNqgYC_KFYkeVJWYBEdpnpUb2u1/view?usp=drive_link"
+          "manualUrl": "KARIF-User-Manual-V2.pdf",
+          "dmxChartUrl": "Karif-LT-DMX-Chart_V225.pdf"
         },
         {
           "type": "Profile",
@@ -354,8 +354,8 @@
           "weightKilogram": 22,
           "powerWatt": 550,
           "luminousFluxLumen": 19000,
-          "manualUrl": "https://drive.google.com/file/d/1tj0UqOCrRIVq-54TFrPCTeRUwAsHYV7u/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1_u2-ZbYmUvtVNKCle6QIcdYx2_8rAy_B/view?usp=drive_link"
+          "manualUrl": "Diablo_Web_EN_V231-2.pdf",
+          "dmxChartUrl": "Diablo-DMX-Chart_V231.pdf"
         },
         {
           "type": "Profile",
@@ -373,8 +373,8 @@
           "weightKilogram": 30.8,
           "powerWatt": 700,
           "luminousFluxLumen": 30000,
-          "manualUrl": "https://drive.google.com/file/d/1RI0t_j7eXJZqYLEQkJwrYaNbdT0pAG3C/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1-QTWjAbEJVSb6Bt_hw6aebGJpVRLbQH4/view?usp=drive_link"
+          "manualUrl": "RivaleProfile_Web_EN_V121.pdf",
+          "dmxChartUrl": "Rivale-Profile-DMX-chart_V118.pdf"
         },
         {
           "type": "Wash",
@@ -392,8 +392,8 @@
           "weightKilogram": 30.8,
           "powerWatt": 700,
           "luminousFluxLumen": 28000,
-          "manualUrl": "https://drive.google.com/file/d/1ltVSUkhaIjamTbPr0XBealg6ROlZ1Rku/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1SeXiq4ocJUeS7gDROE4aRMJCb5ozkORc/view?usp=drive_link"
+          "manualUrl": "RivaleWash_Web_EN_V107-2.pdf",
+          "dmxChartUrl": "Rivale_WASH_DMX_Chart_V107.pdf"
         },
         {
           "type": "Wash",
@@ -419,8 +419,8 @@
           "weightKilogram": 15.6,
           "powerWatt": 550,
           "luminousFluxLumen": 11000,
-          "manualUrl": "https://drive.google.com/file/d/1ablRgmz5XbQwBg36NNtThkfon4rkBY_X/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1lunJuGOdKnw3Rz9ULnpP_3_sN8pCK2HX/view?usp=drive_link"
+          "manualUrl": "Nando502Wash_Web_EN_V113.pdf",
+          "dmxChartUrl": "NANDO_502_WASH_DMX_V113.pdf"
         }
       ]
     },
@@ -475,8 +475,8 @@
           "weightKilogram": 12.1,
           "powerWatt": 740,
           "luminousFluxLumen": 71620,
-          "manualUrl": "https://drive.google.com/file/d/1aXaNKvAKfmsHBZaGTDxLltJBsRNABvQ2/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/1GPjS_cVwlGiixOMq2qum2ts-9X7aqLZk/view?usp=share_link"
+          "manualUrl": "Color_Strike_MV2_UM_Rev15.pdf",
+          "dmxChartUrl": "Color-STRIKE-MV2_DMX_Chart_Rev10.pdf"
         },
         {
           "type": "Linear moving head wash",
@@ -542,8 +542,8 @@
           "weightKilogram": 34.5,
           "powerWatt": 800,
           "luminousFluxLumen": 5807,
-          "manualUrl": "https://drive.google.com/file/d/1as5RGLu61UIEIO69Ko-La4XEq-tFcsMC/view?usp=share_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1rfKMOhsQudpTA3T90ks8Q1Ke4t9lt23r/view?usp=share_link"
+          "manualUrl": "COLORado-PXL-Curve-12_UM_Rev9.pdf",
+          "dmxChartUrl": "COLORado-PXL-Curve-12_DMX_Chart_Rev5.pdf"
         },
         {
           "type": "Static wash light",
@@ -908,7 +908,7 @@
           "weightKilogram": 17,
           "powerWatt": 600,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1F8KhWlmIWOjpjfDsfl6L5SPzQo1e9tPI/view?usp=drive_link",
+          "manualUrl": "XR 380 bws - 2393a.pdf",
           "dmxChartUrl": ""
         },
         {
@@ -1041,7 +1041,7 @@
           "weightKilogram": 39.8,
           "powerWatt": 800,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1RD-MzTd82ZiEJXVGBdpNF0jEJxVPCnDo/view?usp=drive_link",
+          "manualUrl": "Aquabeam580.pdf",
           "dmxChartUrl": ""
         },
         {
@@ -1064,7 +1064,7 @@
           "weightKilogram": 37.6,
           "powerWatt": 800,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1VgHTDJqWoF8RxC5GcTaceOEcfhze4sHj/view?usp=drive_link",
+          "manualUrl": "Aqua 580 BWS.pdf",
           "dmxChartUrl": ""
         },
         {
@@ -1087,7 +1087,7 @@
           "weightKilogram": 24,
           "powerWatt": 550,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1UfyXcTgHRHzfL-nFm7W9WnJv_-t_vc0L/view?usp=sharing",
+          "manualUrl": "350bws.pdf",
           "dmxChartUrl": ""
         },
         {
@@ -1118,7 +1118,7 @@
           "weightKilogram": 23.6,
           "powerWatt": 900,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1ZtcFf50FgF1Zmu_zHhWEdTCEg4vQkiwR/view?usp=sharing",
+          "manualUrl": "Xled4022rz manual.pdf",
           "dmxChartUrl": ""
         },
         {
@@ -1151,7 +1151,7 @@
           "weightKilogram": 45,
           "powerWatt": 650,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1rMVDVcu2_3utiJE4ijlhG_0F8CDFoBp1/view?usp=drive_link",
+          "manualUrl": "PR-2469  AQUA 480 BEAM User manual 320020545.pdf",
           "dmxChartUrl": ""
         },
         {
@@ -1170,7 +1170,7 @@
           "weightKilogram": 50,
           "powerWatt": 750,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1BLFnLEj65a6R-SGHtdv-3MduEpEct9aW/view?usp=drive_link",
+          "manualUrl": "AquaLed600manual.pdf",
           "dmxChartUrl": ""
         },
         {
@@ -1209,8 +1209,8 @@
           "weightKilogram": 41,
           "powerWatt": 1250,
           "luminousFluxLumen": 50000,
-          "manualUrl": "https://drive.google.com/file/d/1BKvvH540CjxswMheSL3wPsHjt4FX5hki/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/1TItfCRd1ADTlEfckS0L-RdW6aZLlxI7Y/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_Forte.pdf",
+          "dmxChartUrl": "Robin_Forte_DMX_charts.pdf"
         },
         {
           "type": "Profile",
@@ -1228,8 +1228,8 @@
           "weightKilogram": 0,
           "powerWatt": 440,
           "luminousFluxLumen": 15200,
-          "manualUrl": "https://drive.google.com/file/d/1EjgetGdFprzCQXQITZ8jh9IS3agIzB49/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/1nGpDwzjxmOur42F4YEvUpbObfav2Pn1y/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_Painte.pdf",
+          "dmxChartUrl": "Robin_Painte_DMX_charts.pdf"
         },
         {
           "type": "Profile",
@@ -1259,8 +1259,8 @@
           "weightKilogram": 0,
           "powerWatt": 950,
           "luminousFluxLumen": 34000,
-          "manualUrl": "https://drive.google.com/file/d/127kkb3odDrN4-_D4V9Qp0l3iD92JenXY/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/1GUhtFPk4-NXpeYzxNng2j4lukAJddHWa/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_Esprite.pdf",
+          "dmxChartUrl": "Robin_Esprite_DMX_charts.pdf"
         },
         {
           "type": "Profile",
@@ -1290,8 +1290,8 @@
           "weightKilogram": 28.2,
           "powerWatt": 950,
           "luminousFluxLumen": 34000,
-          "manualUrl": "https://drive.google.com/file/d/127kkb3odDrN4-_D4V9Qp0l3iD92JenXY/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/1GUhtFPk4-NXpeYzxNng2j4lukAJddHWa/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_Esprite.pdf",
+          "dmxChartUrl": "Robin_Esprite_DMX_charts.pdf"
         },
         {
           "type": "Profile",
@@ -1321,8 +1321,8 @@
           "weightKilogram": 34,
           "powerWatt": 950,
           "luminousFluxLumen": 34000,
-          "manualUrl": "https://drive.google.com/file/d/1cVwpWqYjXOrELmJJ4ger-NUqVam3olu7/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/16liKXju55BNhK6quruyFSiugR5W3x_E-/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_iEsprite_iEsprite_FS_CE.pdf",
+          "dmxChartUrl": "Robin_iEsprite_iEsprite_FS_DMX_charts.pdf"
         },
         {
           "type": "Wash",
@@ -1344,8 +1344,8 @@
           "weightKilogram": 0,
           "powerWatt": 450,
           "luminousFluxLumen": 8200,
-          "manualUrl": "https://drive.google.com/file/d/15eUZx_Zzy7fnOEoSbQjAjtq03Xt6nYwS/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/1yQH03220qqOYa6_CyEXI-k3q3PYVzJcQ/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_LEDBeam_350_FW_EP_FWEP.pdf",
+          "dmxChartUrl": "Robin_LedBeam_350_Robin_LEDBeam_350_FW_DMX_charts.pdf"
         },
         {
           "type": "BWS",
@@ -1367,8 +1367,8 @@
           "weightKilogram": 15,
           "powerWatt": 470,
           "luminousFluxLumen": 9870,
-          "manualUrl": "https://drive.google.com/file/d/13R7m4C0EtabQUEah06R30EKgesCesrSG/view?usp=drive_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1jMZQPDaVrHeWi6ejrD5enzycdw37qU-r/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_Pointe.pdf",
+          "dmxChartUrl": "Robin_Pointe_DMX_charts.pdf"
         },
         {
           "type": "BWS",
@@ -1386,8 +1386,8 @@
           "weightKilogram": 22,
           "powerWatt": 670,
           "luminousFluxLumen": 20375,
-          "manualUrl": "https://drive.google.com/file/d/1Ri4mIoceJ4XZmc6aknEqksOQpUOihCbw/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/1gL1bSzr8mNHYYQks2nsfG16UELuUBdFp/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_MegaPointe.pdf",
+          "dmxChartUrl": "Robin_Megapointe_DMX_charts.pdf"
         },
         {
           "type": "Spot",
@@ -1405,8 +1405,8 @@
           "weightKilogram": 36,
           "powerWatt": 2000,
           "luminousFluxLumen": 40000,
-          "manualUrl": "https://drive.google.com/file/d/15hR7xm2clw7u6h6RnyFHXzEFJO5G2j1p/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/1tBS2vanoKh0f7D2E0pKSXvswp49LVsMy/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_BMFL_Spot.pdf",
+          "dmxChartUrl": "Robin_BMFL_Spot_DMX_charts.pdf"
         },
         {
           "type": "Profile",
@@ -1424,8 +1424,8 @@
           "weightKilogram": 37.9,
           "powerWatt": 2000,
           "luminousFluxLumen": 40000,
-          "manualUrl": "https://drive.google.com/file/d/1dJRjFD-CvB70RBLZrmWS4ld0p4ESDj_X/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/1JPbKK6Cs0FaAHUBNgYpTS3zBLUdW4q2_/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_BMFL_Blade.pdf",
+          "dmxChartUrl": "Robin_BMFL_Blade_DMX_charts.pdf"
         },
         {
           "type": "Linear moving head wash",
@@ -1459,8 +1459,8 @@
           "weightKilogram": 11.3,
           "powerWatt": 300,
           "luminousFluxLumen": 5300,
-          "manualUrl": "https://drive.google.com/file/d/1epj7_IGYCXrFgiL-nIb3kAjhezQm4Vxk/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/1TZH1W5Yfcq3GzCfmQHECuz8myAJBIAH1/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_Tetra_1.pdf",
+          "dmxChartUrl": "Robin_Tetra_1_DMX_charts.pdf"
         },
         {
           "type": "Linear moving head wash",
@@ -1494,8 +1494,8 @@
           "weightKilogram": 18.1,
           "powerWatt": 600,
           "luminousFluxLumen": 10500,
-          "manualUrl": "https://drive.google.com/file/d/1TXxTrVRhI4klDDtGR-CQQ97i3bBNCZ7u/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/1Oy66n3TDVRKWePE9EoF1vjnJUYyfGHjT/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_Tetra_2.pdf",
+          "dmxChartUrl": "Robin_Tetra_2_DMX_charts.pdf"
         },
         {
           "type": "Linear moving head wash",
@@ -1529,8 +1529,8 @@
           "weightKilogram": 29.3,
           "powerWatt": 600,
           "luminousFluxLumen": 10500,
-          "manualUrl": "https://drive.google.com/file/d/1LmSS_ocynpzShY1HK_ZnbspryPKX21jN/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/10ECLXsggQTkgLn9yWMt3e9sZ86-eR4Y8/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_iTetra2.pdf",
+          "dmxChartUrl": "Robin_iTetra2_DMX_charts.pdf"
         },
         {
           "type": "Linear moving head wash",
@@ -1564,8 +1564,8 @@
           "weightKilogram": 0,
           "powerWatt": 320,
           "luminousFluxLumen": 5300,
-          "manualUrl": "https://drive.google.com/file/d/18AdbUqtf2Lpe5r-5cI2gHciZ4C0uG493/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/12H5BoBDaKC16tfEdlEzL3e2p6yex12Uq/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_Tetra_X.pdf",
+          "dmxChartUrl": "Robin_Tetra_X_DMX_charts.pdf"
         },
         {
           "type": "Beam Spot",
@@ -1583,8 +1583,8 @@
           "weightKilogram": 26.5,
           "powerWatt": 500,
           "luminousFluxLumen": 23400,
-          "manualUrl": "https://drive.google.com/file/d/1ZRgf9fXGBIwEyTUIxfd-8fLUcShbz7hG/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/1ChvaGx_aO-I5CutnxrKfP7AoMXEdyDvI/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_GigaPointe.pdf",
+          "dmxChartUrl": "Robin_GigaPointe_DMX_charts.pdf"
         },
         {
           "type": "Decorative lighting",
@@ -1593,7 +1593,7 @@
           "weightKilogram": 0,
           "powerWatt": 750,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1xk1v3nMeczpcbrHIr3znjoEgBEz46Y7_/view?usp=sharing",
+          "manualUrl": "User_manual_PATT_2013_EU.pdf",
           "dmxChartUrl": ""
         },
         {
@@ -1603,7 +1603,7 @@
           "weightKilogram": 12,
           "powerWatt": 210,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/11Z9_OOF4yjuqUIV81ceOt-qY1_Hl9_Pn/view?usp=sharing",
+          "manualUrl": "User_manual_pixelPATT.pdf",
           "dmxChartUrl": ""
         },
         {
@@ -1642,8 +1642,8 @@
           "weightKilogram": 3.8,
           "powerWatt": 240,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1_wLgORKZm5ONv-mKhr7ZHOAzpj0mWcFr/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/1mT7rIM5zouGe3hgkwrztlswmsZP1LpyM/view?usp=sharing"
+          "manualUrl": "User_manual_PATT_Driver.pdf",
+          "dmxChartUrl": "PATT_Driver_DMX_charts (1).pdf"
         },
         {
           "type": "Decorative lighting",
@@ -1652,8 +1652,8 @@
           "weightKilogram": 2.3,
           "powerWatt": 210,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://drive.google.com/file/d/1eaUh4MEkon61nfdKSGEMPS2e-y2I9BXM/view?usp=sharing",
-          "dmxChartUrl": ""
+          "manualUrl": "User_manual_PATT_2017.pdf",
+          "dmxChartUrl": "PATT_Driver_DMX_charts.pdf"
         },
         {
           "type": "Wash",
@@ -1671,8 +1671,8 @@
           "weightKilogram": 5.7,
           "powerWatt": 220,
           "luminousFluxLumen": 3550,
-          "manualUrl": "https://drive.google.com/file/d/1lnHabfU1jWkUy-fSsZBa7bMfsioRxp1H/view?usp=sharing",
-          "dmxChartUrl": "https://drive.google.com/file/d/1LY9C-HbJOcLBU2q-To3uIgRIlFfbDB0H/view?usp=sharing"
+          "manualUrl": "User_manual_Robin_LEDBeam_150_150Q.pdf",
+          "dmxChartUrl": "Robin_LEDBeam_150_150Q_150FW_150FWQ_RGBA_DMX_charts.pdf"
         },
         {
           "type": "Wash and effect light",
@@ -1725,8 +1725,8 @@
           "weightKilogram": 12,
           "powerWatt": 440,
           "luminousFluxLumen": 11960,
-          "manualUrl": "https://drive.google.com/file/d/1vaBsYrcS9UZHv_VYFrLQSvcweCbgP9XS/view?usp=share_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1DOJeAiCnp-HAPmzyziTJb2Ocgsee7yIO/view?usp=share_link"
+          "manualUrl": "User_manual_Robin_T15_PC_Fresnel.pdf",
+          "dmxChartUrl": "Robin_T15_Fresnel_PC_DMX_charts.pdf"
         },
         {
           "type": "Static wash light",
@@ -1760,8 +1760,8 @@
           "weightKilogram": 0,
           "powerWatt": 440,
           "luminousFluxLumen": 11960,
-          "manualUrl": "https://drive.google.com/file/d/1vaBsYrcS9UZHv_VYFrLQSvcweCbgP9XS/view?usp=share_link",
-          "dmxChartUrl": "https://drive.google.com/file/d/1DOJeAiCnp-HAPmzyziTJb2Ocgsee7yIO/view?usp=share_link"
+          "manualUrl": "User_manual_Robin_T15_PC_Fresnel.pdf",
+          "dmxChartUrl": "Robin_T15_Fresnel_PC_DMX_charts.pdf"
         },
         {
           "type": "BWS",
