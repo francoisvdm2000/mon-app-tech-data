@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T12:49:37.653Z",
+  "updatedAt": "2026-02-10T12:59:39.719Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -1729,7 +1729,7 @@
           "dmxChartUrl": "Robin_T15_Fresnel_PC_DMX_charts.pdf"
         },
         {
-          "type": "Static wash light",
+          "type": "Static PC light",
           "name": "T15 PC",
           "modes": [
             {
@@ -1764,7 +1764,7 @@
           "dmxChartUrl": "Robin_T15_Fresnel_PC_DMX_charts.pdf"
         },
         {
-          "type": "Static wash light",
+          "type": "Static profile light",
           "name": "T.5 profile",
           "modes": [
             {
@@ -1787,7 +1787,7 @@
           "dmxChartUrl": "Robin_T.5_Profile_DMX_charts.pdf"
         },
         {
-          "type": "BWS",
+          "type": "Beam",
           "name": "iBolt",
           "modes": [
             {
@@ -1798,8 +1798,8 @@
           "weightKilogram": 54.4,
           "powerWatt": 700,
           "luminousFluxLumen": 26800,
-          "manualUrl": "https://www.robelighting.fr/res/downloads/user_manuals/User_manual_Robin_iBOLT.pdf",
-          "dmxChartUrl": "https://www.robelighting.fr/res/downloads/dmx_charts/Robin_iBolt_DMX_charts.pdf"
+          "manualUrl": "Robin_T.5_Profile_DMX_charts.pdf",
+          "dmxChartUrl": "Robin_T.5_Profile_DMX_charts.pdf"
         }
       ]
     }
