@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-10T12:39:36.789Z",
+  "updatedAt": "2026-02-10T12:49:37.653Z",
   "manufacturers": [
     {
       "name": "Ayrton",
@@ -1762,6 +1762,29 @@
           "luminousFluxLumen": 11960,
           "manualUrl": "User_manual_Robin_T15_PC_Fresnel.pdf",
           "dmxChartUrl": "Robin_T15_Fresnel_PC_DMX_charts.pdf"
+        },
+        {
+          "type": "Static wash light",
+          "name": "T.5 profile",
+          "modes": [
+            {
+              "name": "Mode 1 - CMY/RGB",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 2 - Reduced CMY/RGB",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Mode 3 - Five colours",
+              "dmxChannels": 36
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 480,
+          "luminousFluxLumen": 10400,
+          "manualUrl": "User_manual_Robin_T.5_Profile.pdf",
+          "dmxChartUrl": "Robin_T.5_Profile_DMX_charts.pdf"
         },
         {
           "type": "BWS",
