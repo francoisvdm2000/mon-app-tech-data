@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-11T07:39:38.028Z",
+  "updatedAt": "2026-02-11T07:49:37.856Z",
   "manufacturers": [
     {
       "name": "A&O Technology",
@@ -7069,6 +7069,256 @@
           "luminousFluxLumen": 850,
           "manualUrl": "https://spacecannon.com/setis",
           "dmxChartUrl": "https://spacecannon.com/dmx/setis-4ch"
+        }
+      ]
+    },
+    {
+      "name": "Starway",
+      "products": [
+        {
+          "type": "Moving Head",
+          "name": "Supernova",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 54
+            }
+          ],
+          "weightKilogram": 31,
+          "powerWatt": 900,
+          "luminousFluxLumen": 33000,
+          "manualUrl": "https://www.star-way.com/supernova",
+          "dmxChartUrl": "https://www.star-way.com/dmx/supernova-std"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Vega",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 23
+            },
+            {
+              "name": "Extended (Pixel)",
+              "dmxChannels": 74
+            }
+          ],
+          "weightKilogram": 17,
+          "powerWatt": 400,
+          "luminousFluxLumen": 8500,
+          "manualUrl": "https://www.star-way.com/vega",
+          "dmxChartUrl": "https://www.star-way.com/dmx/vega-std"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Dino",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 17
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 350,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.star-way.com/dino",
+          "dmxChartUrl": "https://www.star-way.com/dmx/dino"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Servo Beam 10R",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 450,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.star-way.com/servo-beam-10r",
+          "dmxChartUrl": "https://www.star-way.com/dmx/servo-beam-10r"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Servo Beam 5R (V2)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 16,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.star-way.com/servo-beam-5r",
+          "dmxChartUrl": "https://www.star-way.com/dmx/servo-beam-5r"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Servo Zoom 250 (Legacy)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.star-way.com/archive",
+          "dmxChartUrl": "https://www.star-way.com/dmx/servo-zoom-250"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Servo Spot 250 (Legacy)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 24,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.star-way.com/archive",
+          "dmxChartUrl": "https://www.star-way.com/dmx/servo-spot-250"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Servo Color 600",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 11
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 250,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.star-way.com/servo-color-600",
+          "dmxChartUrl": "https://www.star-way.com/dmx/servo-color-600"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Ariane",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 53
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 180,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.star-way.com/ariane",
+          "dmxChartUrl": "https://www.star-way.com/dmx/ariane-std"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Ariane 2",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Full Pixel Mode",
+              "dmxChannels": 82
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.star-way.com/ariane-2",
+          "dmxChartUrl": "https://www.star-way.com/dmx/ariane-2-std"
+        },
+        {
+          "type": "Strobe",
+          "name": "StormLite HD",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 10
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.star-way.com/stormlite-hd",
+          "dmxChartUrl": "https://www.star-way.com/dmx/stormlite-hd"
+        },
+        {
+          "type": "Wash IP65",
+          "name": "FullKolor HD",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 11
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.star-way.com/fullkolor-hd",
+          "dmxChartUrl": "https://www.star-way.com/dmx/fullkolor-hd"
+        },
+        {
+          "type": "Wash IP65",
+          "name": "UrbanKolor",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 11
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 180,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.star-way.com/urbankolor",
+          "dmxChartUrl": "https://www.star-way.com/dmx/urbankolor"
+        },
+        {
+          "type": "Blinder",
+          "name": "Lusory 2",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.star-way.com/lusory-2",
+          "dmxChartUrl": "https://www.star-way.com/dmx/lusory-2"
+        },
+        {
+          "type": "Blinder",
+          "name": "Lusory 4",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.star-way.com/lusory-4",
+          "dmxChartUrl": "https://www.star-way.com/dmx/lusory-4"
         }
       ]
     },
