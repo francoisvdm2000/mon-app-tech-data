@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-23T16:09:42.800Z",
+  "updatedAt": "2026-02-23T16:19:41.325Z",
   "manufacturers": [
     {
       "name": "A&O Technology",
@@ -4089,6 +4089,114 @@
           "luminousFluxLumen": 600,
           "manualUrl": "https://www.etcconnect.com/Products/Legacy/Shapeshifter",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Shapeshifter"
+        }
+      ]
+    },
+    {
+      "name": "High End Systems",
+      "products": [
+        {
+          "type": "Strobe",
+          "name": "Dataflash AF1000",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 3
+            },
+            {
+              "name": "Architecture",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1000,
+          "manualUrl": "https://www.etcconnect.com/af1000",
+          "dmxChartUrl": "https://www.etcconnect.com/dmx/af1000"
+        },
+        {
+          "type": "Strobe",
+          "name": "SolaPix 7 (Strobe Mode)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 0,
+          "luminousFluxLumen": 300,
+          "manualUrl": "https://www.etcconnect.com/solapix",
+          "dmxChartUrl": "https://www.etcconnect.com/dmx/solapix"
+        },
+        {
+          "type": "Strobe",
+          "name": "TurboRay",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 29
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 0,
+          "luminousFluxLumen": 450,
+          "manualUrl": "https://www.etcconnect.com/turboray",
+          "dmxChartUrl": "https://www.etcconnect.com/dmx/turboray"
+        }
+      ]
+    },
+    {
+      "name": "Hungaroflash",
+      "products": [
+        {
+          "type": "Strobe",
+          "name": "Quasar (X?non)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 15000,
+          "manualUrl": "https://www.hungaroflash.hu/quasar",
+          "dmxChartUrl": "https://www.hungaroflash.hu/dmx/quasar"
+        },
+        {
+          "type": "Strobe",
+          "name": "T-Light (85kW)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 2
+            },
+            {
+              "name": "Turbo Mode",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 0,
+          "luminousFluxLumen": 85000,
+          "manualUrl": "https://www.hungaroflash.hu/t-light",
+          "dmxChartUrl": "https://www.hungaroflash.hu/dmx/t-light"
+        },
+        {
+          "type": "Strobe",
+          "name": "Euro-Light",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 0,
+          "luminousFluxLumen": 3000,
+          "manualUrl": "https://www.hungaroflash.hu/euro-light",
+          "dmxChartUrl": "https://www.hungaroflash.hu/dmx/euro-light"
         }
       ]
     },
