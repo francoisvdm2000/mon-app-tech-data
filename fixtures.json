@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-28T10:39:41.055Z",
+  "updatedAt": "2026-02-28T10:49:37.158Z",
   "manufacturers": [
     {
       "name": "A&O Technology",
@@ -4277,7 +4277,7 @@
       "name": "Martin",
       "products": [
         {
-          "type": "Moving Head",
+          "type": "Profile",
           "name": "MAC Ultra Performance",
           "modes": [
             {
@@ -4296,7 +4296,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-ultra-performance"
         },
         {
-          "type": "Moving Head",
+          "type": "Beam",
           "name": "MAC Ultra HyBeam",
           "modes": [
             {
@@ -4315,7 +4315,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-ultra-hybeam"
         },
         {
-          "type": "Moving Head",
+          "type": "Profile",
           "name": "MAC III Profile",
           "modes": [
             {
@@ -4334,7 +4334,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-iii-profile"
         },
         {
-          "type": "Moving Head",
+          "type": "Spot",
           "name": "MAC III Performance",
           "modes": [
             {
@@ -4353,7 +4353,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-iii-performance"
         },
         {
-          "type": "Moving Head",
+          "type": "Wash",
           "name": "MAC III Wash",
           "modes": [
             {
@@ -4368,7 +4368,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-iii-wash"
         },
         {
-          "type": "Moving Head",
+          "type": "Wash FX",
           "name": "MAC III AirFX",
           "modes": [
             {
@@ -4387,7 +4387,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-iii-airfx"
         },
         {
-          "type": "Moving Head",
+          "type": "Wash",
           "name": "MAC Aura (Original)",
           "modes": [
             {
@@ -4406,7 +4406,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-aura"
         },
         {
-          "type": "Moving Head",
+          "type": "Wash",
           "name": "MAC Aura XB",
           "modes": [
             {
@@ -4425,7 +4425,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-aura-xb"
         },
         {
-          "type": "Moving Head",
+          "type": "Wash FX",
           "name": "MAC Aura PXL",
           "modes": [
             {
@@ -4452,7 +4452,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-aura-pxl"
         },
         {
-          "type": "Moving Head",
+          "type": "Wash",
           "name": "MAC Aura XIP",
           "modes": [
             {
@@ -4479,7 +4479,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-aura-xip"
         },
         {
-          "type": "Moving Head",
+          "type": "Profile",
           "name": "MAC Quantum Profile",
           "modes": [
             {
@@ -4498,7 +4498,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-quantum-profile"
         },
         {
-          "type": "Moving Head",
+          "type": "Wash",
           "name": "MAC Quantum Wash",
           "modes": [
             {
@@ -4517,7 +4517,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-quantum-wash"
         },
         {
-          "type": "Moving Head",
+          "type": "Spot",
           "name": "MAC 2000 Profile",
           "modes": [
             {
@@ -4540,7 +4540,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-2000-profile"
         },
         {
-          "type": "Moving Head",
+          "type": "Wash",
           "name": "MAC 2000 Wash",
           "modes": [
             {
@@ -4559,7 +4559,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-2000-wash"
         },
         {
-          "type": "Moving Head",
+          "type": "Wash",
           "name": "MAC 2000 Wash XB",
           "modes": [
             {
@@ -4574,7 +4574,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-2000-wash-xb"
         },
         {
-          "type": "Moving Head",
+          "type": "Profile",
           "name": "MAC 2000 Performance",
           "modes": [
             {
@@ -4589,7 +4589,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-2000-performance"
         },
         {
-          "type": "Moving Head",
+          "type": "Wash",
           "name": "MAC 600 / 600 NT",
           "modes": [
             {
@@ -4612,7 +4612,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-600"
         },
         {
-          "type": "Moving Head",
+          "type": "Spot",
           "name": "MAC 500",
           "modes": [
             {
@@ -4635,7 +4635,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-500"
         },
         {
-          "type": "Moving Head",
+          "type": "Spot",
           "name": "MAC 250+",
           "modes": [
             {
@@ -4654,7 +4654,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-250-plus"
         },
         {
-          "type": "Moving Head",
+          "type": "Spot",
           "name": "MAC 250 Krypton",
           "modes": [
             {
@@ -4673,7 +4673,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-250-krypton"
         },
         {
-          "type": "Moving Head",
+          "type": "Profile",
           "name": "ERA 800 Performance",
           "modes": [
             {
@@ -4692,7 +4692,7 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-era-800-performance"
         },
         {
-          "type": "Moving Head",
+          "type": "Profile",
           "name": "ERA 600 Performance",
           "modes": [
             {
@@ -4823,6 +4823,120 @@
           "luminousFluxLumen": 740,
           "manualUrl": "https://www.martin.com/en/products/mac-atomic-led",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-atomic-led"
+        },
+        {
+          "type": "LED Fresnel",
+          "name": "ELP MANET 8f",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 23
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 500,
+          "manualUrl": "https://www.martin.com/elp-manet",
+          "dmxChartUrl": "https://www.martin.com/dmx/manet-std"
+        },
+        {
+          "type": "LED PAR",
+          "name": "ELP PAR",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Direct RGBW",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 3500,
+          "luminousFluxLumen": 300,
+          "manualUrl": "https://www.martin.com/elp-par",
+          "dmxChartUrl": "https://www.martin.com/dmx/elp-par-std"
+        },
+        {
+          "type": "LED PAR",
+          "name": "ELP PAR IP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Direct RGBW",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 3500,
+          "luminousFluxLumen": 300,
+          "manualUrl": "https://www.martin.com/elp-par-ip",
+          "dmxChartUrl": "https://www.martin.com/dmx/elp-par-ip-std"
+        },
+        {
+          "type": "LED Profile",
+          "name": "ELP CL (Color)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 17
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 6900,
+          "luminousFluxLumen": 260,
+          "manualUrl": "https://www.martin.com/elp-cl",
+          "dmxChartUrl": "https://www.martin.com/dmx/elp-cl-std"
+        },
+        {
+          "type": "LED Profile",
+          "name": "ELP CL IP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 17
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 6900,
+          "luminousFluxLumen": 260,
+          "manualUrl": "https://www.martin.com/elp-cl-ip",
+          "dmxChartUrl": "https://www.martin.com/dmx/elp-cl-ip-std"
+        },
+        {
+          "type": "LED Profile",
+          "name": "ELP WW (Warm White)",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 7000,
+          "luminousFluxLumen": 260,
+          "manualUrl": "https://www.martin.com/elp-ww",
+          "dmxChartUrl": "https://www.martin.com/dmx/elp-ww-std"
         }
       ]
     },
