@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-28T10:49:37.158Z",
+  "updatedAt": "2026-02-28T10:59:38.892Z",
   "manufacturers": [
     {
       "name": "A&O Technology",
@@ -163,8 +163,8 @@
             }
           ],
           "weightKilogram": 24,
-          "powerWatt": 22000,
-          "luminousFluxLumen": 750,
+          "powerWatt": 750,
+          "luminousFluxLumen": 22000,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/351",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/351"
         },
@@ -182,8 +182,8 @@
             }
           ],
           "weightKilogram": 22,
-          "powerWatt": 15000,
-          "luminousFluxLumen": 700,
+          "powerWatt": 700,
+          "luminousFluxLumen": 15000,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/415",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/415"
         },
@@ -201,8 +201,8 @@
             }
           ],
           "weightKilogram": 38,
-          "powerWatt": 35000,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 35000,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/360",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/360"
         },
@@ -220,8 +220,8 @@
             }
           ],
           "weightKilogram": 32,
-          "powerWatt": 18000,
-          "luminousFluxLumen": 850,
+          "powerWatt": 850,
+          "luminousFluxLumen": 18000,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/362",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/362"
         },
@@ -239,8 +239,8 @@
             }
           ],
           "weightKilogram": 42,
-          "powerWatt": 50000,
-          "luminousFluxLumen": 1600,
+          "powerWatt": 1600,
+          "luminousFluxLumen": 50000,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/430",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/430"
         },
@@ -254,8 +254,8 @@
             }
           ],
           "weightKilogram": 28,
-          "powerWatt": 16000,
-          "luminousFluxLumen": 550,
+          "powerWatt": 550,
+          "luminousFluxLumen": 16000,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/280",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/280"
         },
@@ -273,8 +273,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 150000,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 150000,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/422",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/422"
         },
@@ -292,8 +292,8 @@
             }
           ],
           "weightKilogram": 36,
-          "powerWatt": 31000,
-          "luminousFluxLumen": 1100,
+          "powerWatt": 1100,
+          "luminousFluxLumen": 31000,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/345",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/345"
         },
@@ -307,8 +307,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 8500,
-          "luminousFluxLumen": 500,
+          "powerWatt": 500,
+          "luminousFluxLumen": 8500,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/212",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/212"
         },
@@ -326,8 +326,8 @@
             }
           ],
           "weightKilogram": 42,
-          "powerWatt": 43000,
-          "luminousFluxLumen": 1400,
+          "powerWatt": 1400,
+          "luminousFluxLumen": 43000,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/405",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/405"
         },
@@ -349,8 +349,8 @@
             }
           ],
           "weightKilogram": 14,
-          "powerWatt": 0,
-          "luminousFluxLumen": 600,
+          "powerWatt": 600,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/390",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/390"
         },
@@ -368,8 +368,8 @@
             }
           ],
           "weightKilogram": 41,
-          "powerWatt": 32000,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 32000,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/320",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/320"
         },
@@ -391,8 +391,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 120,
+          "powerWatt": 120,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/240",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/240"
         },
@@ -410,8 +410,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 550,
+          "powerWatt": 550,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/330",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/330"
         }
@@ -587,8 +587,8 @@
             }
           ],
           "weightKilogram": 1,
-          "powerWatt": 695,
-          "luminousFluxLumen": 28,
+          "powerWatt": 28,
+          "luminousFluxLumen": 695,
           "manualUrl": "https://astera-led.com/ax1",
           "dmxChartUrl": "https://astera-led.com/ax1"
         },
@@ -634,8 +634,8 @@
             }
           ],
           "weightKilogram": 1.35,
-          "powerWatt": 2900,
-          "luminousFluxLumen": 72,
+          "powerWatt": 72,
+          "luminousFluxLumen": 2900,
           "manualUrl": "https://astera-led.com/titan",
           "dmxChartUrl": "https://astera-led.com/titan"
         },
@@ -657,8 +657,8 @@
             }
           ],
           "weightKilogram": 0.76,
-          "powerWatt": 1450,
-          "luminousFluxLumen": 36,
+          "powerWatt": 36,
+          "luminousFluxLumen": 1450,
           "manualUrl": "https://astera-led.com/helios",
           "dmxChartUrl": "https://astera-led.com/helios"
         },
@@ -680,8 +680,8 @@
             }
           ],
           "weightKilogram": 2.9,
-          "powerWatt": 5800,
-          "luminousFluxLumen": 144,
+          "powerWatt": 144,
+          "luminousFluxLumen": 5800,
           "manualUrl": "https://astera-led.com/hyperion",
           "dmxChartUrl": "https://astera-led.com/hyperion"
         },
@@ -703,8 +703,8 @@
             }
           ],
           "weightKilogram": 0.67,
-          "powerWatt": 430,
-          "luminousFluxLumen": 15,
+          "powerWatt": 15,
+          "luminousFluxLumen": 430,
           "manualUrl": "https://astera-led.com/ax3",
           "dmxChartUrl": "https://astera-led.com/ax3"
         },
@@ -730,8 +730,8 @@
             }
           ],
           "weightKilogram": 3.4,
-          "powerWatt": 1080,
-          "luminousFluxLumen": 45,
+          "powerWatt": 45,
+          "luminousFluxLumen": 1080,
           "manualUrl": "https://astera-led.com/ax5",
           "dmxChartUrl": "https://astera-led.com/ax5"
         },
@@ -753,8 +753,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 3000,
-          "luminousFluxLumen": 105,
+          "powerWatt": 105,
+          "luminousFluxLumen": 3000,
           "manualUrl": "https://astera-led.com/ax9",
           "dmxChartUrl": "https://astera-led.com/ax9"
         },
@@ -772,8 +772,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 3350,
-          "luminousFluxLumen": 135,
+          "powerWatt": 135,
+          "luminousFluxLumen": 3350,
           "manualUrl": "https://astera-led.com/ax10",
           "dmxChartUrl": "https://astera-led.com/ax10"
         },
@@ -795,8 +795,8 @@
             }
           ],
           "weightKilogram": 7.4,
-          "powerWatt": 3600,
-          "luminousFluxLumen": 160,
+          "powerWatt": 160,
+          "luminousFluxLumen": 3600,
           "manualUrl": "https://astera-led.com/ax2",
           "dmxChartUrl": "https://astera-led.com/ax2"
         },
@@ -822,8 +822,8 @@
             }
           ],
           "weightKilogram": 0.6,
-          "powerWatt": 1300,
-          "luminousFluxLumen": 17,
+          "powerWatt": 17,
+          "luminousFluxLumen": 1300,
           "manualUrl": "https://astera-led.com/hydrapanel",
           "dmxChartUrl": "https://astera-led.com/hydrapanel"
         },
@@ -841,8 +841,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 450,
-          "luminousFluxLumen": 15,
+          "powerWatt": 15,
+          "luminousFluxLumen": 450,
           "manualUrl": "https://astera-led.com/pixelbrick",
           "dmxChartUrl": "https://astera-led.com/pixelbrick"
         },
@@ -856,8 +856,8 @@
             }
           ],
           "weightKilogram": 0.24,
-          "powerWatt": 750,
-          "luminousFluxLumen": 10,
+          "powerWatt": 10,
+          "luminousFluxLumen": 750,
           "manualUrl": "https://astera-led.com/nyx-bulb",
           "dmxChartUrl": "https://astera-led.com/nyx-bulb"
         }
@@ -1307,7 +1307,7 @@
           ],
           "weightKilogram": 25,
           "powerWatt": 14500,
-          "luminousFluxLumen": 650,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.clf-lighting.com/product/poseidon-mpe",
           "dmxChartUrl": "https://www.clf-lighting.com/product/poseidon-mpe"
         },
@@ -1326,7 +1326,7 @@
           ],
           "weightKilogram": 32,
           "powerWatt": 26000,
-          "luminousFluxLumen": 1100,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.clf-lighting.com/product/poseidon-wash-xl",
           "dmxChartUrl": "https://www.clf-lighting.com/product/poseidon-wash-xl"
         },
@@ -1345,7 +1345,7 @@
           ],
           "weightKilogram": 30,
           "powerWatt": 0,
-          "luminousFluxLumen": 650,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.clf-lighting.com/product/poseidon-hybrid",
           "dmxChartUrl": "https://www.clf-lighting.com/product/poseidon-hybrid"
         },
@@ -1368,7 +1368,7 @@
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
-          "luminousFluxLumen": 360,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.clf-lighting.com/product/ares",
           "dmxChartUrl": "https://www.clf-lighting.com/product/ares"
         },
@@ -1387,7 +1387,7 @@
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
-          "luminousFluxLumen": 180,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.clf-lighting.com/product/ares-xs",
           "dmxChartUrl": "https://www.clf-lighting.com/product/ares-xs"
         },
@@ -1406,7 +1406,7 @@
           ],
           "weightKilogram": 45,
           "powerWatt": 34000,
-          "luminousFluxLumen": 1100,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.clf-lighting.com/product/hercules",
           "dmxChartUrl": "https://www.clf-lighting.com/product/hercules"
         },
@@ -1421,7 +1421,7 @@
           ],
           "weightKilogram": 25,
           "powerWatt": 14000,
-          "luminousFluxLumen": 550,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.clf-lighting.com/product/orion",
           "dmxChartUrl": "https://www.clf-lighting.com/product/orion"
         },
@@ -1440,7 +1440,7 @@
           ],
           "weightKilogram": 8,
           "powerWatt": 0,
-          "luminousFluxLumen": 180,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.clf-lighting.com/product/ledko",
           "dmxChartUrl": "https://www.clf-lighting.com/product/ledko"
         },
@@ -1459,7 +1459,7 @@
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
-          "luminousFluxLumen": 150,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.clf-lighting.com/product/yara",
           "dmxChartUrl": "https://www.clf-lighting.com/product/yara"
         },
@@ -1474,7 +1474,7 @@
           ],
           "weightKilogram": 4,
           "powerWatt": 0,
-          "luminousFluxLumen": 120,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.clf-lighting.com/product/conan",
           "dmxChartUrl": "https://www.clf-lighting.com/product/conan"
         },
@@ -1493,7 +1493,7 @@
           ],
           "weightKilogram": 12,
           "powerWatt": 0,
-          "luminousFluxLumen": 1000,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.clf-lighting.com/product/turbine",
           "dmxChartUrl": "https://www.clf-lighting.com/product/turbine"
         },
@@ -1508,7 +1508,7 @@
           ],
           "weightKilogram": 20,
           "powerWatt": 12000,
-          "luminousFluxLumen": 450,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.clf-lighting.com/product/serena",
           "dmxChartUrl": "https://www.clf-lighting.com/product/serena"
         },
@@ -1527,7 +1527,7 @@
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
-          "luminousFluxLumen": 40,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.clf-lighting.com/product/spectrum-p1",
           "dmxChartUrl": "https://www.clf-lighting.com/product/spectrum-p1"
         }
@@ -1550,8 +1550,8 @@
             }
           ],
           "weightKilogram": 32.5,
-          "powerWatt": 19000,
-          "luminousFluxLumen": 800,
+          "powerWatt": 800,
+          "luminousFluxLumen": 19000,
           "manualUrl": "https://www.cameolight.com/otus-h25",
           "dmxChartUrl": "https://www.cameolight.com/otus-h25"
         },
@@ -1569,8 +1569,8 @@
             }
           ],
           "weightKilogram": 32,
-          "powerWatt": 30000,
-          "luminousFluxLumen": 800,
+          "powerWatt": 800,
+          "luminousFluxLumen": 30000,
           "manualUrl": "https://www.cameolight.com/otus-s25",
           "dmxChartUrl": "https://www.cameolight.com/otus-s25"
         },
@@ -1588,8 +1588,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 17500,
-          "luminousFluxLumen": 600,
+          "powerWatt": 600,
+          "luminousFluxLumen": 17500,
           "manualUrl": "https://www.cameolight.com/opus-s5",
           "dmxChartUrl": "https://www.cameolight.com/opus-s5"
         },
@@ -1611,8 +1611,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 12500,
-          "luminousFluxLumen": 900,
+          "powerWatt": 900,
+          "luminousFluxLumen": 12500,
           "manualUrl": "https://www.cameolight.com/evos-w7",
           "dmxChartUrl": "https://www.cameolight.com/evos-w7"
         },
@@ -1630,8 +1630,8 @@
             }
           ],
           "weightKilogram": 7,
-          "powerWatt": 4035,
-          "luminousFluxLumen": 350,
+          "powerWatt": 350,
+          "luminousFluxLumen": 4035,
           "manualUrl": "https://www.cameolight.com/evos-w3",
           "dmxChartUrl": "https://www.cameolight.com/evos-w3"
         },
@@ -1649,8 +1649,8 @@
             }
           ],
           "weightKilogram": 21,
-          "powerWatt": 21000,
-          "luminousFluxLumen": 650,
+          "powerWatt": 650,
+          "luminousFluxLumen": 21000,
           "manualUrl": "https://www.cameolight.com/azur-w600",
           "dmxChartUrl": "https://www.cameolight.com/azur-w600"
         },
@@ -1684,8 +1684,8 @@
             }
           ],
           "weightKilogram": 13,
-          "powerWatt": 21000,
-          "luminousFluxLumen": 565,
+          "powerWatt": 565,
+          "luminousFluxLumen": 21000,
           "manualUrl": "https://www.cameolight.com/zenit-w600",
           "dmxChartUrl": "https://www.cameolight.com/zenit-w600"
         },
@@ -1699,8 +1699,8 @@
             }
           ],
           "weightKilogram": 8,
-          "powerWatt": 10000,
-          "luminousFluxLumen": 300,
+          "powerWatt": 300,
+          "luminousFluxLumen": 10000,
           "manualUrl": "https://www.cameolight.com/zenit-w300",
           "dmxChartUrl": "https://www.cameolight.com/zenit-w300"
         },
@@ -1714,8 +1714,8 @@
             }
           ],
           "weightKilogram": 12,
-          "powerWatt": 6600,
-          "luminousFluxLumen": 180,
+          "powerWatt": 180,
+          "luminousFluxLumen": 6600,
           "manualUrl": "https://www.cameolight.com/zenit-b200",
           "dmxChartUrl": "https://www.cameolight.com/zenit-b200"
         },
@@ -1737,8 +1737,8 @@
             }
           ],
           "weightKilogram": 6,
-          "powerWatt": 0,
-          "luminousFluxLumen": 160,
+          "powerWatt": 160,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.cameolight.com/pixbar-600-pro",
           "dmxChartUrl": "https://www.cameolight.com/pixbar-600-pro"
         },
@@ -1756,8 +1756,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 130,
+          "powerWatt": 130,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.cameolight.com/auro-beam-150",
           "dmxChartUrl": "https://www.cameolight.com/auro-beam-150"
         },
@@ -1775,8 +1775,8 @@
             }
           ],
           "weightKilogram": 13,
-          "powerWatt": 41000,
-          "luminousFluxLumen": 1100,
+          "powerWatt": 1100,
+          "luminousFluxLumen": 41000,
           "manualUrl": "https://www.cameolight.com/zenit-w600-smd",
           "dmxChartUrl": "https://www.cameolight.com/zenit-w600-smd"
         }
@@ -2046,8 +2046,8 @@
             }
           ],
           "weightKilogram": 21,
-          "powerWatt": 10500,
-          "luminousFluxLumen": 750,
+          "powerWatt": 750,
+          "luminousFluxLumen": 10500,
           "manualUrl": "https://www.claypaky.it/en/products/a-leda-b-eye-k20",
           "dmxChartUrl": ""
         },
@@ -2073,8 +2073,8 @@
             }
           ],
           "weightKilogram": 15,
-          "powerWatt": 5500,
-          "luminousFluxLumen": 450,
+          "powerWatt": 450,
+          "luminousFluxLumen": 5500,
           "manualUrl": "https://www.claypaky.it/en/products/a-leda-b-eye-k10",
           "dmxChartUrl": ""
         },
@@ -2088,8 +2088,8 @@
             }
           ],
           "weightKilogram": 15,
-          "powerWatt": 6000,
-          "luminousFluxLumen": 450,
+          "powerWatt": 450,
+          "luminousFluxLumen": 6000,
           "manualUrl": "https://www.claypaky.it/en/products/a-leda-b-eye-k10-cc",
           "dmxChartUrl": ""
         },
@@ -2107,8 +2107,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 2350,
-          "luminousFluxLumen": 150,
+          "powerWatt": 150,
+          "luminousFluxLumen": 2350,
           "manualUrl": "https://www.claypaky.it/en/products/a-leda-b-eye-k5",
           "dmxChartUrl": ""
         },
@@ -2130,8 +2130,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 18000,
-          "luminousFluxLumen": 1100,
+          "powerWatt": 1100,
+          "luminousFluxLumen": 18000,
           "manualUrl": "https://www.claypaky.it/en/products/hy-b-eye-k25",
           "dmxChartUrl": ""
         },
@@ -2153,8 +2153,8 @@
             }
           ],
           "weightKilogram": 21,
-          "powerWatt": 11000,
-          "luminousFluxLumen": 600,
+          "powerWatt": 600,
+          "luminousFluxLumen": 11000,
           "manualUrl": "https://www.claypaky.it/en/products/hy-b-eye-k15",
           "dmxChartUrl": ""
         },
@@ -2172,8 +2172,8 @@
             }
           ],
           "weightKilogram": 19,
-          "powerWatt": 7950,
-          "luminousFluxLumen": 350,
+          "powerWatt": 350,
+          "luminousFluxLumen": 7950,
           "manualUrl": "https://www.claypaky.it/en/products/sharpy",
           "dmxChartUrl": ""
         },
@@ -2191,8 +2191,8 @@
             }
           ],
           "weightKilogram": 23,
-          "powerWatt": 12000,
-          "luminousFluxLumen": 540,
+          "powerWatt": 540,
+          "luminousFluxLumen": 12000,
           "manualUrl": "https://www.claypaky.it/en/products/sharpy-plus",
           "dmxChartUrl": ""
         },
@@ -2210,8 +2210,8 @@
             }
           ],
           "weightKilogram": 28,
-          "powerWatt": 18800,
-          "luminousFluxLumen": 750,
+          "powerWatt": 750,
+          "luminousFluxLumen": 18800,
           "manualUrl": "https://www.claypaky.it/en/products/sharpy-x-frame",
           "dmxChartUrl": ""
         },
@@ -2229,8 +2229,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 15500,
-          "luminousFluxLumen": 330,
+          "powerWatt": 330,
+          "luminousFluxLumen": 15500,
           "manualUrl": "https://www.claypaky.it/en/products/sharpy-wash-330",
           "dmxChartUrl": ""
         },
@@ -2248,8 +2248,8 @@
             }
           ],
           "weightKilogram": 32,
-          "powerWatt": 22000,
-          "luminousFluxLumen": 700,
+          "powerWatt": 700,
+          "luminousFluxLumen": 22000,
           "manualUrl": "https://www.claypaky.it/en/products/mythos-2",
           "dmxChartUrl": ""
         },
@@ -2267,8 +2267,8 @@
             }
           ],
           "weightKilogram": 40.5,
-          "powerWatt": 30000,
-          "luminousFluxLumen": 1400,
+          "powerWatt": 1400,
+          "luminousFluxLumen": 30000,
           "manualUrl": "https://www.claypaky.it/en/products/scenius-profile",
           "dmxChartUrl": ""
         },
@@ -2286,8 +2286,8 @@
             }
           ],
           "weightKilogram": 38,
-          "powerWatt": 30000,
-          "luminousFluxLumen": 1400,
+          "powerWatt": 1400,
+          "luminousFluxLumen": 30000,
           "manualUrl": "https://www.claypaky.it/en/products/scenius-spot",
           "dmxChartUrl": ""
         },
@@ -2305,8 +2305,8 @@
             }
           ],
           "weightKilogram": 40.5,
-          "powerWatt": 28000,
-          "luminousFluxLumen": 1400,
+          "powerWatt": 1400,
+          "luminousFluxLumen": 28000,
           "manualUrl": "https://www.claypaky.it/en/products/scenius-unico",
           "dmxChartUrl": ""
         },
@@ -2324,8 +2324,8 @@
             }
           ],
           "weightKilogram": 25,
-          "powerWatt": 22000,
-          "luminousFluxLumen": 700,
+          "powerWatt": 700,
+          "luminousFluxLumen": 22000,
           "manualUrl": "https://www.claypaky.it/en/products/arolla-profile-mp",
           "dmxChartUrl": ""
         },
@@ -2343,8 +2343,8 @@
             }
           ],
           "weightKilogram": 24,
-          "powerWatt": 21000,
-          "luminousFluxLumen": 700,
+          "powerWatt": 700,
+          "luminousFluxLumen": 21000,
           "manualUrl": "https://www.claypaky.it/en/products/arolla-spot-mp",
           "dmxChartUrl": ""
         },
@@ -2362,8 +2362,8 @@
             }
           ],
           "weightKilogram": 33,
-          "powerWatt": 28000,
-          "luminousFluxLumen": 800,
+          "powerWatt": 800,
+          "luminousFluxLumen": 28000,
           "manualUrl": "https://www.claypaky.it/en/products/axcor-profile-600",
           "dmxChartUrl": ""
         },
@@ -2381,8 +2381,8 @@
             }
           ],
           "weightKilogram": 41.5,
-          "powerWatt": 28000,
-          "luminousFluxLumen": 1650,
+          "powerWatt": 1650,
+          "luminousFluxLumen": 28000,
           "manualUrl": "https://www.claypaky.it/en/products/alpha-spot-hpe-1500",
           "dmxChartUrl": ""
         },
@@ -2400,8 +2400,8 @@
             }
           ],
           "weightKilogram": 39,
-          "powerWatt": 35000,
-          "luminousFluxLumen": 1650,
+          "powerWatt": 1650,
+          "luminousFluxLumen": 35000,
           "manualUrl": "https://www.claypaky.it/en/products/alpha-wash-1500",
           "dmxChartUrl": ""
         },
@@ -2419,8 +2419,8 @@
             }
           ],
           "weightKilogram": 40,
-          "powerWatt": 0,
-          "luminousFluxLumen": 1650,
+          "powerWatt": 1650,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.claypaky.it/en/products/alpha-beam-1500",
           "dmxChartUrl": ""
         },
@@ -2438,8 +2438,8 @@
             }
           ],
           "weightKilogram": 37.5,
-          "powerWatt": 20000,
-          "luminousFluxLumen": 1400,
+          "powerWatt": 1400,
+          "luminousFluxLumen": 20000,
           "manualUrl": "https://www.claypaky.it/en/products/alpha-spot-hpe-1200",
           "dmxChartUrl": ""
         },
@@ -2457,8 +2457,8 @@
             }
           ],
           "weightKilogram": 22,
-          "powerWatt": 14700,
-          "luminousFluxLumen": 940,
+          "powerWatt": 940,
+          "luminousFluxLumen": 14700,
           "manualUrl": "https://www.claypaky.it/en/products/alpha-spot-hpe-700",
           "dmxChartUrl": ""
         },
@@ -2476,8 +2476,8 @@
             }
           ],
           "weightKilogram": 32,
-          "powerWatt": 0,
-          "luminousFluxLumen": 400,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.claypaky.it/en/products/xtylos",
           "dmxChartUrl": ""
         },
@@ -2495,8 +2495,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 8500,
-          "luminousFluxLumen": 660,
+          "powerWatt": 660,
+          "luminousFluxLumen": 8500,
           "manualUrl": "https://www.claypaky.it/en/products/tambora-batten",
           "dmxChartUrl": ""
         },
@@ -2514,8 +2514,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 800,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.claypaky.it/en/products/volero-wave",
           "dmxChartUrl": ""
         },
@@ -2529,8 +2529,8 @@
             }
           ],
           "weightKilogram": 38,
-          "powerWatt": 0,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.claypaky.it/en/products/golden-scan-3",
           "dmxChartUrl": ""
         },
@@ -2544,8 +2544,8 @@
             }
           ],
           "weightKilogram": 38,
-          "powerWatt": 0,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.claypaky.it/en/products/stage-scan",
           "dmxChartUrl": ""
         },
@@ -2563,8 +2563,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 480,
+          "powerWatt": 480,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.claypaky.it/en/products/stormy-cc",
           "dmxChartUrl": ""
         }
@@ -2683,8 +2683,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 13000,
-          "luminousFluxLumen": 315,
+          "powerWatt": 315,
+          "luminousFluxLumen": 13000,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-3",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-3"
         },
@@ -2702,8 +2702,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 8500,
-          "luminousFluxLumen": 250,
+          "powerWatt": 250,
+          "luminousFluxLumen": 8500,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-2",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-2"
         },
@@ -2717,8 +2717,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 6000,
-          "luminousFluxLumen": 290,
+          "powerWatt": 290,
+          "luminousFluxLumen": 6000,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Releve",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Releve"
         },
@@ -2732,8 +2732,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 4600,
-          "luminousFluxLumen": 100,
+          "powerWatt": 100,
+          "luminousFluxLumen": 4600,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-4WRD-Color",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-4WRD-Color"
         },
@@ -2751,8 +2751,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 19000,
-          "luminousFluxLumen": 420,
+          "powerWatt": 420,
+          "luminousFluxLumen": 19000,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/fos4",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/fos4"
         },
@@ -2770,8 +2770,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 4500,
-          "luminousFluxLumen": 130,
+          "powerWatt": 130,
+          "luminousFluxLumen": 4500,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Linear",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Linear"
         },
@@ -2785,8 +2785,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 9000,
-          "luminousFluxLumen": 260,
+          "powerWatt": 260,
+          "luminousFluxLumen": 9000,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Linear",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Linear"
         },
@@ -2804,8 +2804,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 130,
+          "powerWatt": 130,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Cyc",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Cyc"
         },
@@ -2819,8 +2819,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 6500,
-          "luminousFluxLumen": 185,
+          "powerWatt": 185,
+          "luminousFluxLumen": 6500,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource"
         },
@@ -2838,8 +2838,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 3500,
-          "luminousFluxLumen": 120,
+          "powerWatt": 120,
+          "luminousFluxLumen": 3500,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Par",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Par"
         },
@@ -2857,8 +2857,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 31000,
-          "luminousFluxLumen": 750,
+          "powerWatt": 750,
+          "luminousFluxLumen": 31000,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon"
         },
@@ -2876,8 +2876,8 @@
             }
           ],
           "weightKilogram": 41.7,
-          "powerWatt": 40000,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 40000,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon"
         },
@@ -2895,8 +2895,8 @@
             }
           ],
           "weightKilogram": 49.4,
-          "powerWatt": 54000,
-          "luminousFluxLumen": 1650,
+          "powerWatt": 1650,
+          "luminousFluxLumen": 54000,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon"
         },
@@ -2914,8 +2914,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 160,
+          "powerWatt": 160,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Desire",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Desire"
         }
@@ -3136,8 +3136,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 15000,
-          "luminousFluxLumen": 500,
+          "powerWatt": 500,
+          "luminousFluxLumen": 15000,
           "manualUrl": "https://www.fos-lighting.eu/fos-f-7",
           "dmxChartUrl": "https://www.fos-lighting.eu/fos-f-7"
         },
@@ -3155,8 +3155,8 @@
             }
           ],
           "weightKilogram": 4,
-          "powerWatt": 0,
-          "luminousFluxLumen": 130,
+          "powerWatt": 130,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.fos-lighting.eu/fos-pixel-panel-rgbww",
           "dmxChartUrl": "https://www.fos-lighting.eu/fos-pixel-panel-rgbww"
         },
@@ -3178,8 +3178,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 180,
+          "powerWatt": 180,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.fos-lighting.eu/fos-pixel-blinder-panel",
           "dmxChartUrl": "https://www.fos-lighting.eu/fos-pixel-blinder-panel"
         },
@@ -3201,8 +3201,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 400,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.fos-lighting.eu/fos-pixel-panel-25",
           "dmxChartUrl": "https://www.fos-lighting.eu/fos-pixel-panel-25"
         },
@@ -3224,8 +3224,8 @@
             }
           ],
           "weightKilogram": 10,
-          "powerWatt": 0,
-          "luminousFluxLumen": 120,
+          "powerWatt": 120,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.fos-lighting.eu/fos-pixel-blade-7",
           "dmxChartUrl": "https://www.fos-lighting.eu/fos-pixel-blade-7"
         },
@@ -3243,8 +3243,8 @@
             }
           ],
           "weightKilogram": 10,
-          "powerWatt": 0,
-          "luminousFluxLumen": 760,
+          "powerWatt": 760,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.fos-lighting.eu/fos-q19-ultra",
           "dmxChartUrl": "https://www.fos-lighting.eu/fos-q19-ultra"
         },
@@ -3262,8 +3262,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 260,
+          "powerWatt": 260,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.fos-lighting.eu/fos-smart-bsw",
           "dmxChartUrl": "https://www.fos-lighting.eu/fos-smart-bsw"
         },
@@ -3277,8 +3277,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 300,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.fos-lighting.eu/fos-halo-led",
           "dmxChartUrl": "https://www.fos-lighting.eu/fos-halo-led"
         },
@@ -3292,8 +3292,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 2100,
+          "powerWatt": 2100,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.fos-lighting.eu/fos-vintage-7",
           "dmxChartUrl": "https://www.fos-lighting.eu/fos-vintage-7"
         },
@@ -3311,8 +3311,8 @@
             }
           ],
           "weightKilogram": 5,
-          "powerWatt": 0,
-          "luminousFluxLumen": 220,
+          "powerWatt": 220,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.fos-lighting.eu/fos-bar-pente",
           "dmxChartUrl": "https://www.fos-lighting.eu/fos-bar-pente"
         },
@@ -3326,8 +3326,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 80,
+          "powerWatt": 80,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.fos-lighting.eu/fos-pixel-line-80",
           "dmxChartUrl": "https://www.fos-lighting.eu/fos-pixel-line-80"
         },
@@ -3341,8 +3341,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 450,
+          "powerWatt": 450,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.fos-lighting.eu/fos-ares-profile",
           "dmxChartUrl": "https://www.fos-lighting.eu/fos-ares-profile"
         }
@@ -3783,8 +3783,8 @@
             }
           ],
           "weightKilogram": 41,
-          "powerWatt": 12750,
-          "luminousFluxLumen": 750,
+          "powerWatt": 750,
+          "luminousFluxLumen": 12750,
           "manualUrl": "https://www.etcconnect.com/Products/High-End-Systems/Cyberlight-LED",
           "dmxChartUrl": "https://www.etcconnect.com/Products/High-End-Systems/Cyberlight-LED"
         },
@@ -3802,8 +3802,8 @@
             }
           ],
           "weightKilogram": 45,
-          "powerWatt": 30000,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 30000,
           "manualUrl": "https://www.etcconnect.com/Products/High-End-Systems/Legacy/Cyberlight",
           "dmxChartUrl": "https://www.etcconnect.com/Products/High-End-Systems/Legacy/Cyberlight"
         },
@@ -3821,8 +3821,8 @@
             }
           ],
           "weightKilogram": 46,
-          "powerWatt": 30000,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 30000,
           "manualUrl": "https://www.etcconnect.com/Products/High-End-Systems/Legacy/Cyberlight",
           "dmxChartUrl": "https://www.etcconnect.com/Products/High-End-Systems/Legacy/Cyberlight"
         },
@@ -3840,8 +3840,8 @@
             }
           ],
           "weightKilogram": 48,
-          "powerWatt": 37000,
-          "luminousFluxLumen": 1450,
+          "powerWatt": 1450,
+          "luminousFluxLumen": 37000,
           "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/3000",
           "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/3000"
         },
@@ -3859,8 +3859,8 @@
             }
           ],
           "weightKilogram": 43,
-          "powerWatt": 26000,
-          "luminousFluxLumen": 1100,
+          "powerWatt": 1100,
+          "luminousFluxLumen": 26000,
           "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/2000",
           "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/2000"
         },
@@ -3874,8 +3874,8 @@
             }
           ],
           "weightKilogram": 30,
-          "powerWatt": 20000,
-          "luminousFluxLumen": 750,
+          "powerWatt": 750,
+          "luminousFluxLumen": 20000,
           "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/1000",
           "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/1000"
         },
@@ -3889,8 +3889,8 @@
             }
           ],
           "weightKilogram": 21,
-          "powerWatt": 10000,
-          "luminousFluxLumen": 450,
+          "powerWatt": 450,
+          "luminousFluxLumen": 10000,
           "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/Studio",
           "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/Studio"
         },
@@ -3904,8 +3904,8 @@
             }
           ],
           "weightKilogram": 46,
-          "powerWatt": 37000,
-          "luminousFluxLumen": 1450,
+          "powerWatt": 1450,
+          "luminousFluxLumen": 37000,
           "manualUrl": "https://www.etcconnect.com/Products/SolaSpot/3000",
           "dmxChartUrl": "https://www.etcconnect.com/Products/SolaSpot/3000"
         },
@@ -3919,8 +3919,8 @@
             }
           ],
           "weightKilogram": 40,
-          "powerWatt": 26000,
-          "luminousFluxLumen": 1100,
+          "powerWatt": 1100,
+          "luminousFluxLumen": 26000,
           "manualUrl": "https://www.etcconnect.com/Products/SolaSpot/2000",
           "dmxChartUrl": "https://www.etcconnect.com/Products/SolaSpot/2000"
         },
@@ -3934,8 +3934,8 @@
             }
           ],
           "weightKilogram": 23,
-          "powerWatt": 15400,
-          "luminousFluxLumen": 600,
+          "powerWatt": 600,
+          "luminousFluxLumen": 15400,
           "manualUrl": "https://www.etcconnect.com/Products/High-End-Systems/Lonestar",
           "dmxChartUrl": "https://www.etcconnect.com/Products/High-End-Systems/Lonestar"
         },
@@ -3953,8 +3953,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 600,
+          "powerWatt": 600,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.etcconnect.com/Products/TurboRay",
           "dmxChartUrl": "https://www.etcconnect.com/Products/TurboRay"
         },
@@ -3972,8 +3972,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 7500,
-          "luminousFluxLumen": 300,
+          "powerWatt": 300,
+          "luminousFluxLumen": 7500,
           "manualUrl": "https://www.etcconnect.com/Products/SolaPix/7",
           "dmxChartUrl": "https://www.etcconnect.com/Products/SolaPix/7"
         },
@@ -3991,8 +3991,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 19500,
-          "luminousFluxLumen": 750,
+          "powerWatt": 750,
+          "luminousFluxLumen": 19500,
           "manualUrl": "https://www.etcconnect.com/Products/SolaPix/19",
           "dmxChartUrl": "https://www.etcconnect.com/Products/SolaPix/19"
         },
@@ -4010,8 +4010,8 @@
             }
           ],
           "weightKilogram": 31,
-          "powerWatt": 38000,
-          "luminousFluxLumen": 1450,
+          "powerWatt": 1450,
+          "luminousFluxLumen": 38000,
           "manualUrl": "https://www.etcconnect.com/Products/SolaPix/37",
           "dmxChartUrl": "https://www.etcconnect.com/Products/SolaPix/37"
         },
@@ -4025,8 +4025,8 @@
             }
           ],
           "weightKilogram": 63.5,
-          "powerWatt": 130000,
-          "luminousFluxLumen": 2800,
+          "powerWatt": 2800,
+          "luminousFluxLumen": 130000,
           "manualUrl": "https://www.etcconnect.com/Products/Legacy/Showgun",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Showgun"
         },
@@ -4040,8 +4040,8 @@
             }
           ],
           "weightKilogram": 65,
-          "powerWatt": 140000,
-          "luminousFluxLumen": 3000,
+          "powerWatt": 3000,
+          "luminousFluxLumen": 140000,
           "manualUrl": "https://www.etcconnect.com/Products/Legacy/Showbeam",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Showbeam"
         },
@@ -4055,8 +4055,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 750,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Color",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Color"
         },
@@ -4070,8 +4070,8 @@
             }
           ],
           "weightKilogram": 28,
-          "powerWatt": 0,
-          "luminousFluxLumen": 750,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Spot",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Spot"
         },
@@ -4085,8 +4085,8 @@
             }
           ],
           "weightKilogram": 25,
-          "powerWatt": 0,
-          "luminousFluxLumen": 600,
+          "powerWatt": 600,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.etcconnect.com/Products/Legacy/Shapeshifter",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Shapeshifter"
         }
@@ -4109,8 +4109,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 1000,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.etcconnect.com/af1000",
           "dmxChartUrl": "https://www.etcconnect.com/dmx/af1000"
         },
@@ -4124,8 +4124,8 @@
             }
           ],
           "weightKilogram": 8,
-          "powerWatt": 0,
-          "luminousFluxLumen": 300,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.etcconnect.com/solapix",
           "dmxChartUrl": "https://www.etcconnect.com/dmx/solapix"
         },
@@ -4139,8 +4139,8 @@
             }
           ],
           "weightKilogram": 23,
-          "powerWatt": 0,
-          "luminousFluxLumen": 450,
+          "powerWatt": 450,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.etcconnect.com/turboray",
           "dmxChartUrl": "https://www.etcconnect.com/dmx/turboray"
         }
@@ -4290,8 +4290,8 @@
             }
           ],
           "weightKilogram": 44,
-          "powerWatt": 46500,
-          "luminousFluxLumen": 1580,
+          "powerWatt": 1580,
+          "luminousFluxLumen": 46500,
           "manualUrl": "https://www.martin.com/en/products/mac-ultra-performance",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-ultra-performance"
         },
@@ -4309,8 +4309,8 @@
             }
           ],
           "weightKilogram": 44,
-          "powerWatt": 46500,
-          "luminousFluxLumen": 1580,
+          "powerWatt": 1580,
+          "luminousFluxLumen": 46500,
           "manualUrl": "https://www.martin.com/en/products/mac-ultra-hybeam",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-ultra-hybeam"
         },
@@ -4328,8 +4328,8 @@
             }
           ],
           "weightKilogram": 53.5,
-          "powerWatt": 33500,
-          "luminousFluxLumen": 1500,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 33500,
           "manualUrl": "https://www.martin.com/en/products/mac-iii-profile",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-iii-profile"
         },
@@ -4347,8 +4347,8 @@
             }
           ],
           "weightKilogram": 56.5,
-          "powerWatt": 26000,
-          "luminousFluxLumen": 1500,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 26000,
           "manualUrl": "https://www.martin.com/en/products/mac-iii-performance",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-iii-performance"
         },
@@ -4362,8 +4362,8 @@
             }
           ],
           "weightKilogram": 52,
-          "powerWatt": 50000,
-          "luminousFluxLumen": 1500,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 50000,
           "manualUrl": "https://www.martin.com/en/products/mac-iii-wash",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-iii-wash"
         },
@@ -4381,8 +4381,8 @@
             }
           ],
           "weightKilogram": 50,
-          "powerWatt": 43000,
-          "luminousFluxLumen": 1500,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 43000,
           "manualUrl": "https://www.martin.com/en/products/mac-iii-airfx",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-iii-airfx"
         },
@@ -4400,8 +4400,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 3850,
-          "luminousFluxLumen": 260,
+          "powerWatt": 260,
+          "luminousFluxLumen": 3850,
           "manualUrl": "https://www.martin.com/en/products/mac-aura",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-aura"
         },
@@ -4419,8 +4419,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 6000,
-          "luminousFluxLumen": 400,
+          "powerWatt": 400,
+          "luminousFluxLumen": 6000,
           "manualUrl": "https://www.martin.com/en/products/mac-aura-xb",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-aura-xb"
         },
@@ -4446,8 +4446,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 13000,
-          "luminousFluxLumen": 560,
+          "powerWatt": 560,
+          "luminousFluxLumen": 13000,
           "manualUrl": "https://www.martin.com/en/products/mac-aura-pxl",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-aura-pxl"
         },
@@ -4473,8 +4473,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 6000,
-          "luminousFluxLumen": 340,
+          "powerWatt": 340,
+          "luminousFluxLumen": 6000,
           "manualUrl": "https://www.martin.com/en/products/mac-aura-xip",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-aura-xip"
         },
@@ -4492,8 +4492,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 12700,
-          "luminousFluxLumen": 750,
+          "powerWatt": 750,
+          "luminousFluxLumen": 12700,
           "manualUrl": "https://www.martin.com/en/products/mac-quantum-profile",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-quantum-profile"
         },
@@ -4511,8 +4511,8 @@
             }
           ],
           "weightKilogram": 21,
-          "powerWatt": 15700,
-          "luminousFluxLumen": 1020,
+          "powerWatt": 1020,
+          "luminousFluxLumen": 15700,
           "manualUrl": "https://www.martin.com/en/products/mac-quantum-wash",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-quantum-wash"
         },
@@ -4534,8 +4534,8 @@
             }
           ],
           "weightKilogram": 38,
-          "powerWatt": 22000,
-          "luminousFluxLumen": 1470,
+          "powerWatt": 1470,
+          "luminousFluxLumen": 22000,
           "manualUrl": "https://www.martin.com/en/products/mac-2000-profile",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-2000-profile"
         },
@@ -4553,8 +4553,8 @@
             }
           ],
           "weightKilogram": 34,
-          "powerWatt": 33000,
-          "luminousFluxLumen": 1470,
+          "powerWatt": 1470,
+          "luminousFluxLumen": 33000,
           "manualUrl": "https://www.martin.com/en/products/mac-2000-wash",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-2000-wash"
         },
@@ -4568,8 +4568,8 @@
             }
           ],
           "weightKilogram": 34,
-          "powerWatt": 60000,
-          "luminousFluxLumen": 1500,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 60000,
           "manualUrl": "https://www.martin.com/en/products/mac-2000-wash-xb",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-2000-wash-xb"
         },
@@ -4583,8 +4583,8 @@
             }
           ],
           "weightKilogram": 39.5,
-          "powerWatt": 21000,
-          "luminousFluxLumen": 1470,
+          "powerWatt": 1470,
+          "luminousFluxLumen": 21000,
           "manualUrl": "https://www.martin.com/en/products/mac-2000-performance",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-2000-performance"
         },
@@ -4606,8 +4606,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 12000,
-          "luminousFluxLumen": 750,
+          "powerWatt": 750,
+          "luminousFluxLumen": 12000,
           "manualUrl": "https://www.martin.com/en/products/mac-600",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-600"
         },
@@ -4629,8 +4629,8 @@
             }
           ],
           "weightKilogram": 32.8,
-          "powerWatt": 9000,
-          "luminousFluxLumen": 750,
+          "powerWatt": 750,
+          "luminousFluxLumen": 9000,
           "manualUrl": "https://www.martin.com/en/products/mac-500",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-500"
         },
@@ -4648,8 +4648,8 @@
             }
           ],
           "weightKilogram": 21,
-          "powerWatt": 3500,
-          "luminousFluxLumen": 320,
+          "powerWatt": 320,
+          "luminousFluxLumen": 3500,
           "manualUrl": "https://www.martin.com/en/products/mac-250-plus",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-250-plus"
         },
@@ -4667,8 +4667,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 5000,
-          "luminousFluxLumen": 320,
+          "powerWatt": 320,
+          "luminousFluxLumen": 5000,
           "manualUrl": "https://www.martin.com/en/products/mac-250-krypton",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-250-krypton"
         },
@@ -4686,8 +4686,8 @@
             }
           ],
           "weightKilogram": 38.5,
-          "powerWatt": 34000,
-          "luminousFluxLumen": 1235,
+          "powerWatt": 1235,
+          "luminousFluxLumen": 34000,
           "manualUrl": "https://www.martin.com/en/products/mac-era-800-performance",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-era-800-performance"
         },
@@ -4701,8 +4701,8 @@
             }
           ],
           "weightKilogram": 30,
-          "powerWatt": 19000,
-          "luminousFluxLumen": 810,
+          "powerWatt": 810,
+          "luminousFluxLumen": 19000,
           "manualUrl": "https://www.martin.com/en/products/mac-era-600-performance",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-era-600-performance"
         },
@@ -4720,8 +4720,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 33,
+          "powerWatt": 33,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.martin.com/en/products/vdo-sceptron-10",
           "dmxChartUrl": "https://www.martin.com/en/products/vdo-sceptron-10"
         },
@@ -4739,8 +4739,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 28,
+          "powerWatt": 28,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.martin.com/en/products/vdo-fatron-20",
           "dmxChartUrl": "https://www.martin.com/en/products/vdo-fatron-20"
         },
@@ -4758,8 +4758,8 @@
             }
           ],
           "weightKilogram": 0.5,
-          "powerWatt": 0,
-          "luminousFluxLumen": 10,
+          "powerWatt": 10,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.martin.com/en/products/vdo-dotron",
           "dmxChartUrl": "https://www.martin.com/en/products/vdo-dotron"
         },
@@ -4781,8 +4781,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 3000,
+          "powerWatt": 3000,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.martin.com/en/products/atomic-3000-dmx",
           "dmxChartUrl": "https://www.martin.com/en/products/atomic-3000-dmx"
         },
@@ -4800,8 +4800,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 28,
+          "powerWatt": 28,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.martin.com/en/products/atomic-colors",
           "dmxChartUrl": "https://www.martin.com/en/products/atomic-colors"
         },
@@ -4819,8 +4819,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 740,
+          "powerWatt": 740,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.martin.com/en/products/mac-atomic-led",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-atomic-led"
         },
@@ -4838,8 +4838,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 500,
+          "powerWatt": 500,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.martin.com/elp-manet",
           "dmxChartUrl": "https://www.martin.com/dmx/manet-std"
         },
@@ -4857,8 +4857,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 3500,
-          "luminousFluxLumen": 300,
+          "powerWatt": 300,
+          "luminousFluxLumen": 3500,
           "manualUrl": "https://www.martin.com/elp-par",
           "dmxChartUrl": "https://www.martin.com/dmx/elp-par-std"
         },
@@ -4876,8 +4876,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 3500,
-          "luminousFluxLumen": 300,
+          "powerWatt": 300,
+          "luminousFluxLumen": 3500,
           "manualUrl": "https://www.martin.com/elp-par-ip",
           "dmxChartUrl": "https://www.martin.com/dmx/elp-par-ip-std"
         },
@@ -4895,8 +4895,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 6900,
-          "luminousFluxLumen": 260,
+          "powerWatt": 260,
+          "luminousFluxLumen": 6900,
           "manualUrl": "https://www.martin.com/elp-cl",
           "dmxChartUrl": "https://www.martin.com/dmx/elp-cl-std"
         },
@@ -4914,8 +4914,8 @@
             }
           ],
           "weightKilogram": 12,
-          "powerWatt": 6900,
-          "luminousFluxLumen": 260,
+          "powerWatt": 260,
+          "luminousFluxLumen": 6900,
           "manualUrl": "https://www.martin.com/elp-cl-ip",
           "dmxChartUrl": "https://www.martin.com/dmx/elp-cl-ip-std"
         },
@@ -4933,8 +4933,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 7000,
-          "luminousFluxLumen": 260,
+          "powerWatt": 260,
+          "luminousFluxLumen": 7000,
           "manualUrl": "https://www.martin.com/elp-ww",
           "dmxChartUrl": "https://www.martin.com/dmx/elp-ww-std"
         }
@@ -7830,8 +7830,8 @@
             }
           ],
           "weightKilogram": 41,
-          "powerWatt": 33000,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 33000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl4000-spot",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl4000-spot"
         },
@@ -7849,8 +7849,8 @@
             }
           ],
           "weightKilogram": 45,
-          "powerWatt": 43000,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 43000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl4000-beamwash",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl4000-beamwash"
         },
@@ -7864,8 +7864,8 @@
             }
           ],
           "weightKilogram": 41.3,
-          "powerWatt": 20000,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 20000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl3500-spot",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl3500-spot"
         },
@@ -7879,8 +7879,8 @@
             }
           ],
           "weightKilogram": 34,
-          "powerWatt": 50000,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 50000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl3500-wash",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl3500-wash"
         },
@@ -7894,8 +7894,8 @@
             }
           ],
           "weightKilogram": 41.7,
-          "powerWatt": 40000,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 40000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl3500-wash-fx",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl3500-wash-fx"
         },
@@ -7909,8 +7909,8 @@
             }
           ],
           "weightKilogram": 37,
-          "powerWatt": 20000,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 20000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl3000-spot",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl3000-spot"
         },
@@ -7924,8 +7924,8 @@
             }
           ],
           "weightKilogram": 34,
-          "powerWatt": 35000,
-          "luminousFluxLumen": 1200,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 35000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl3000-wash",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl3000-wash"
         },
@@ -7943,8 +7943,8 @@
             }
           ],
           "weightKilogram": 32,
-          "powerWatt": 19000,
-          "luminousFluxLumen": 820,
+          "powerWatt": 820,
+          "luminousFluxLumen": 19000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl2600-profile",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2600-profile"
         },
@@ -7962,8 +7962,8 @@
             }
           ],
           "weightKilogram": 31,
-          "powerWatt": 19000,
-          "luminousFluxLumen": 820,
+          "powerWatt": 820,
+          "luminousFluxLumen": 19000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl2600-spot",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2600-spot"
         },
@@ -7981,8 +7981,8 @@
             }
           ],
           "weightKilogram": 29,
-          "powerWatt": 22000,
-          "luminousFluxLumen": 820,
+          "powerWatt": 820,
+          "luminousFluxLumen": 22000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl2600-wash",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2600-wash"
         },
@@ -7996,8 +7996,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 14500,
-          "luminousFluxLumen": 700,
+          "powerWatt": 700,
+          "luminousFluxLumen": 14500,
           "manualUrl": "https://www.vari-lite.com/global/products/vl2500-spot",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2500-spot"
         },
@@ -8011,8 +8011,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 14500,
-          "luminousFluxLumen": 700,
+          "powerWatt": 700,
+          "luminousFluxLumen": 14500,
           "manualUrl": "https://www.vari-lite.com/global/products/vl2500-wash",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2500-wash"
         },
@@ -8030,8 +8030,8 @@
             }
           ],
           "weightKilogram": 33,
-          "powerWatt": 28000,
-          "luminousFluxLumen": 900,
+          "powerWatt": 900,
+          "luminousFluxLumen": 28000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl10-beamwash",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl10-beamwash"
         },
@@ -8049,8 +8049,8 @@
             }
           ],
           "weightKilogram": 25,
-          "powerWatt": 14000,
-          "luminousFluxLumen": 530,
+          "powerWatt": 530,
+          "luminousFluxLumen": 14000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl5led-wash",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl5led-wash"
         },
@@ -8064,8 +8064,8 @@
             }
           ],
           "weightKilogram": 12,
-          "powerWatt": 0,
-          "luminousFluxLumen": 575,
+          "powerWatt": 575,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.vari-lite.com/global/products/vl5",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl5"
         },
@@ -8079,8 +8079,8 @@
             }
           ],
           "weightKilogram": 12,
-          "powerWatt": 0,
-          "luminousFluxLumen": 1000,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.vari-lite.com/global/products/vl5",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl5"
         },
@@ -8094,8 +8094,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 400,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.vari-lite.com/global/products/vl6",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl6"
         },
@@ -8109,8 +8109,8 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 400,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.vari-lite.com/global/products/vl6b",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl6b"
         },
@@ -8124,8 +8124,8 @@
             }
           ],
           "weightKilogram": 33.5,
-          "powerWatt": 10000,
-          "luminousFluxLumen": 1000,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 10000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl1100",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl1100"
         },
@@ -8139,8 +8139,8 @@
             }
           ],
           "weightKilogram": 33.5,
-          "powerWatt": 15000,
-          "luminousFluxLumen": 575,
+          "powerWatt": 575,
+          "luminousFluxLumen": 15000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl1100",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl1100"
         },
@@ -8154,8 +8154,8 @@
             }
           ],
           "weightKilogram": 28,
-          "powerWatt": 55000,
-          "luminousFluxLumen": 1500,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 55000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl6000-beam",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl6000-beam"
         },
@@ -8169,8 +8169,8 @@
             }
           ],
           "weightKilogram": 20,
-          "powerWatt": 13000,
-          "luminousFluxLumen": 430,
+          "powerWatt": 430,
+          "luminousFluxLumen": 13000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl800-beamfix",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl800-beamfix"
         },
@@ -8184,8 +8184,8 @@
             }
           ],
           "weightKilogram": 6,
-          "powerWatt": 3500,
-          "luminousFluxLumen": 230,
+          "powerWatt": 230,
+          "luminousFluxLumen": 3500,
           "manualUrl": "https://www.vari-lite.com/global/products/vl800-eventwash",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl800-eventwash"
         },
@@ -8203,8 +8203,8 @@
             }
           ],
           "weightKilogram": 22,
-          "powerWatt": 0,
-          "luminousFluxLumen": 700,
+          "powerWatt": 700,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.vari-lite.com/global/products/vl500-wash",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl500-wash"
         },
@@ -8218,8 +8218,8 @@
             }
           ],
           "weightKilogram": 32,
-          "powerWatt": 10000,
-          "luminousFluxLumen": 1000,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 10000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl1000",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl1000"
         },
@@ -8233,8 +8233,8 @@
             }
           ],
           "weightKilogram": 25,
-          "powerWatt": 15500,
-          "luminousFluxLumen": 700,
+          "powerWatt": 700,
+          "luminousFluxLumen": 15500,
           "manualUrl": "https://www.vari-lite.com/global/products/vl2000-spot",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2000-spot"
         },
@@ -8248,8 +8248,8 @@
             }
           ],
           "weightKilogram": 23,
-          "powerWatt": 15500,
-          "luminousFluxLumen": 700,
+          "powerWatt": 700,
+          "luminousFluxLumen": 15500,
           "manualUrl": "https://www.vari-lite.com/global/products/vl2000-wash",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2000-wash"
         }
