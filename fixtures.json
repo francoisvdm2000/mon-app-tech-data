@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-02-28T11:09:40.139Z",
+  "updatedAt": "2026-02-28T11:19:38.949Z",
   "manufacturers": [
     {
       "name": "A&O Technology",
@@ -1786,7 +1786,7 @@
       "name": "Chauvet Pro",
       "products": [
         {
-          "type": "Strobe wash light",
+          "type": "Strobe",
           "name": "ColorStrike MV2",
           "modes": [
             {
@@ -2412,18 +2412,7 @@
             {
               "name": "Standard",
               "dmxChannels": 22
-            }
-          ],
-          "weightKilogram": 40,
-          "powerWatt": 1650,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/en/products/alpha-beam-1500",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Moving Head",
-          "name": "Alpha Beam 1500",
-          "modes": [
+            },
             {
               "name": "Extended",
               "dmxChannels": 28
@@ -2436,7 +2425,7 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Moving Head",
+          "type": "Spot",
           "name": "Alpha Spot HPE 1200",
           "modes": [
             {
@@ -2455,7 +2444,7 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Moving Head",
+          "type": "Spot",
           "name": "Alpha Spot HPE 700",
           "modes": [
             {
@@ -2474,7 +2463,7 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Moving Head",
+          "type": "Beam",
           "name": "Xtylos",
           "modes": [
             {
@@ -2493,7 +2482,7 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Moving Head",
+          "type": "LED Bar",
           "name": "Tambora Batten",
           "modes": [
             {
@@ -2512,7 +2501,7 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Moving Head",
+          "type": "LED Bar",
           "name": "Volero Wave",
           "modes": [
             {
