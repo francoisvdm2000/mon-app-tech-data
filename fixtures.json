@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-02T09:19:43.232Z",
+  "updatedAt": "2026-03-02T09:29:40.969Z",
   "manufacturers": [
     {
       "name": "A&O Technology",
@@ -4204,72 +4204,403 @@
       "name": "JB-Lighting",
       "products": [
         {
-          "type": "Moving Head",
-          "name": "P18 Profile",
+          "type": "Profile",
+          "name": "P18 Profile HP",
           "modes": [
             {
               "name": "Mode 1",
               "dmxChannels": 32
             },
             {
-              "name": "Mode 2 (Vector)",
+              "name": "Mode 2",
               "dmxChannels": 40
             }
           ],
           "weightKilogram": 32,
           "powerWatt": 1100,
-          "luminousFluxLumen": 32000,
+          "luminousFluxLumen": 40000,
           "manualUrl": "https://www.jb-lighting.de/P18",
-          "dmxChartUrl": "https://www.jb-lighting.de/P18"
+          "dmxChartUrl": "https://www.jb-lighting.de/P18-DMX"
         },
         {
-          "type": "Moving Head",
+          "type": "Profile",
           "name": "P12 Profile",
           "modes": [
             {
               "name": "Mode 1",
               "dmxChannels": 32
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 40
             }
           ],
           "weightKilogram": 23,
           "powerWatt": 700,
           "luminousFluxLumen": 20000,
           "manualUrl": "https://www.jb-lighting.de/P12",
-          "dmxChartUrl": "https://www.jb-lighting.de/P12"
+          "dmxChartUrl": "https://www.jb-lighting.de/P12-DMX"
         },
         {
-          "type": "Moving Head",
-          "name": "Sparx 18",
+          "type": "Spot",
+          "name": "P12 Spot",
           "modes": [
             {
-              "name": "Standard",
+              "name": "Mode 1",
               "dmxChannels": 26
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 700,
+          "luminousFluxLumen": 20000,
+          "manualUrl": "https://www.jb-lighting.de/P12",
+          "dmxChartUrl": "https://www.jb-lighting.de/P12-DMX"
+        },
+        {
+          "type": "Wash",
+          "name": "P12 Wash",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 700,
+          "luminousFluxLumen": 20000,
+          "manualUrl": "https://www.jb-lighting.de/P12",
+          "dmxChartUrl": "https://www.jb-lighting.de/P12-DMX"
+        },
+        {
+          "type": "Profile",
+          "name": "P10 Profile",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 32
             },
             {
-              "name": "Full Pixel",
-              "dmxChannels": 132
+              "name": "Mode 2",
+              "dmxChannels": 40
             }
           ],
           "weightKilogram": 18,
-          "powerWatt": 750,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.jb-lighting.de/Sparx18",
-          "dmxChartUrl": "https://www.jb-lighting.de/Sparx18"
+          "powerWatt": 490,
+          "luminousFluxLumen": 15800,
+          "manualUrl": "https://www.jb-lighting.de/P10",
+          "dmxChartUrl": "https://www.jb-lighting.de/P10-DMX"
         },
         {
-          "type": "Moving Head",
+          "type": "Spot",
+          "name": "P10 Spot",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 26
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 490,
+          "luminousFluxLumen": 15800,
+          "manualUrl": "https://www.jb-lighting.de/P10",
+          "dmxChartUrl": "https://www.jb-lighting.de/P10-DMX"
+        },
+        {
+          "type": "Spot",
+          "name": "P9 Spot",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 26
+            }
+          ],
+          "weightKilogram": 17,
+          "powerWatt": 500,
+          "luminousFluxLumen": 11000,
+          "manualUrl": "https://www.jb-lighting.de/P9",
+          "dmxChartUrl": "https://www.jb-lighting.de/P9-DMX"
+        },
+        {
+          "type": "Beam",
+          "name": "P9 Beam",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 17,
+          "powerWatt": 500,
+          "luminousFluxLumen": 11000,
+          "manualUrl": "https://www.jb-lighting.de/P9",
+          "dmxChartUrl": "https://www.jb-lighting.de/P9-DMX"
+        },
+        {
+          "type": "Wash FX",
+          "name": "Sparx 30",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 2 (Pixel)",
+              "dmxChannels": 50
+            }
+          ],
+          "weightKilogram": 30,
+          "powerWatt": 2200,
+          "luminousFluxLumen": 36000,
+          "manualUrl": "https://www.jb-lighting.de/Sparx30",
+          "dmxChartUrl": "https://www.jb-lighting.de/Sparx30-DMX"
+        },
+        {
+          "type": "Wash FX",
+          "name": "Sparx 18",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 22,
+          "powerWatt": 1350,
+          "luminousFluxLumen": 23000,
+          "manualUrl": "https://www.jb-lighting.de/Sparx18",
+          "dmxChartUrl": "https://www.jb-lighting.de/Sparx18-DMX"
+        },
+        {
+          "type": "Wash FX",
+          "name": "Sparx 12",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 880,
+          "luminousFluxLumen": 13000,
+          "manualUrl": "https://www.jb-lighting.de/Sparx12",
+          "dmxChartUrl": "https://www.jb-lighting.de/Sparx12-DMX"
+        },
+        {
+          "type": "Wash FX",
+          "name": "Sparx 10",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 600,
+          "luminousFluxLumen": 9000,
+          "manualUrl": "https://www.jb-lighting.de/Sparx10",
+          "dmxChartUrl": "https://www.jb-lighting.de/Sparx10-DMX"
+        },
+        {
+          "type": "Wash FX",
           "name": "Sparx 7",
           "modes": [
             {
-              "name": "Standard",
-              "dmxChannels": 19
+              "name": "Mode 1",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 350,
+          "luminousFluxLumen": 6000,
+          "manualUrl": "https://www.jb-lighting.de/Sparx7",
+          "dmxChartUrl": "https://www.jb-lighting.de/Sparx7-DMX"
+        },
+        {
+          "type": "Wash LED",
+          "name": "JBLED A12",
+          "modes": [
+            {
+              "name": "Mode 1 (S16)",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 2 (C8)",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 850,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.jb-lighting.de/archive",
+          "dmxChartUrl": "https://www.jb-lighting.de/A12-DMX"
+        },
+        {
+          "type": "Wash LED",
+          "name": "JBLED A7",
+          "modes": [
+            {
+              "name": "Mode 1 (S16)",
+              "dmxChannels": 23
+            },
+            {
+              "name": "Mode 2 (C8)",
+              "dmxChannels": 15
             }
           ],
           "weightKilogram": 8,
           "powerWatt": 250,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.jb-lighting.de/Sparx7",
-          "dmxChartUrl": "https://www.jb-lighting.de/Sparx7"
+          "manualUrl": "https://www.jb-lighting.de/archive",
+          "dmxChartUrl": "https://www.jb-lighting.de/A7-DMX"
+        },
+        {
+          "type": "Wash LED",
+          "name": "JBLED A4",
+          "modes": [
+            {
+              "name": "Mode 1 (S16)",
+              "dmxChannels": 19
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.jb-lighting.de/archive",
+          "dmxChartUrl": "https://www.jb-lighting.de/A4-DMX"
+        },
+        {
+          "type": "Spot",
+          "name": "Varyscan P7 CMY",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 17,
+          "powerWatt": 380,
+          "luminousFluxLumen": 11000,
+          "manualUrl": "https://www.jb-lighting.de/archive",
+          "dmxChartUrl": "https://www.jb-lighting.de/P7-DMX"
+        },
+        {
+          "type": "Spot",
+          "name": "Varyscan P6 575",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.jb-lighting.de/archive",
+          "dmxChartUrl": "https://www.jb-lighting.de/P6-DMX"
+        },
+        {
+          "type": "Spot",
+          "name": "Varyscan P4 1200",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 45,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.jb-lighting.de/archive",
+          "dmxChartUrl": "https://www.jb-lighting.de/P4-DMX"
+        },
+        {
+          "type": "Spot",
+          "name": "Varyscan P3",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 21,
+          "powerWatt": 450,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.jb-lighting.de/archive",
+          "dmxChartUrl": "https://www.jb-lighting.de/P3-DMX"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Varyscan 7 Roller",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 700,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.jb-lighting.de/archive",
+          "dmxChartUrl": "https://www.jb-lighting.de/VS7-DMX"
+        },
+        {
+          "type": "Moving Head",
+          "name": "L3",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 350,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.jb-lighting.de/archive",
+          "dmxChartUrl": "https://www.jb-lighting.de/L3-DMX"
+        },
+        {
+          "type": "Wash LED",
+          "name": "Varyled 384",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.jb-lighting.de/archive",
+          "dmxChartUrl": "https://www.jb-lighting.de/384-DMX"
+        },
+        {
+          "type": "Scanner",
+          "name": "Varyscan 4 EV",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 14,
+          "powerWatt": 250,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.jb-lighting.de/archive",
+          "dmxChartUrl": "https://www.jb-lighting.de/VS4-DMX"
+        },
+        {
+          "type": "Scanner",
+          "name": "Varyscan 6 Special",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.jb-lighting.de/archive",
+          "dmxChartUrl": "https://www.jb-lighting.de/VS6-DMX"
         }
       ]
     },
