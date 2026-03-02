@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-02T08:19:41.089Z",
+  "updatedAt": "2026-03-02T08:39:41.404Z",
   "manufacturers": [
     {
       "name": "A&O Technology",
@@ -4280,10 +4280,6 @@
           "type": "Profile",
           "name": "MAC Ultra Performance",
           "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 48
-            },
             {
               "name": "Extended",
               "dmxChannels": 52
