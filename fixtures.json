@@ -149,6 +149,912 @@
       "name": "ACME",
       "products": [
         {
+          "type": "Beam",
+          "name": "NOVA BEAM",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 19
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 5700,
+          "manualUrl": "https://en.acmelighting.com/item/NOVA-BEAM",
+          "dmxChartUrl": "https://en.acmelighting.com/item/NOVA-BEAM"
+        },
+        {
+          "type": "Beam",
+          "name": "SANA BEAM",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 29
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 590,
+          "luminousFluxLumen": 5500,
+          "manualUrl": "https://en.acmelighting.com/item/SANA-BEAM",
+          "dmxChartUrl": "https://en.acmelighting.com/item/SANA-BEAM"
+        },
+        {
+          "type": "Discharge Lamp Beam",
+          "name": "ARES",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 615,
+          "luminousFluxLumen": 10500,
+          "manualUrl": "https://en.acmelighting.com/item/ARES",
+          "dmxChartUrl": "https://en.acmelighting.com/item/ARES"
+        },
+        {
+          "type": "Discharge Lamp Beam",
+          "name": "ARES IP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 30,
+          "powerWatt": 615,
+          "luminousFluxLumen": 10500,
+          "manualUrl": "https://en.acmelighting.com/item/ARES-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/ARES-IP"
+        },
+        {
+          "type": "Discharge Lamp Beam",
+          "name": "BEAMONE",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 350,
+          "luminousFluxLumen": 8000,
+          "manualUrl": "https://en.acmelighting.com/item/BEAMONE",
+          "dmxChartUrl": "https://en.acmelighting.com/item/BEAMONE"
+        },
+        {
+          "type": "Discharge Lamp Beam",
+          "name": "SAGITTA IP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 650,
+          "luminousFluxLumen": 11000,
+          "manualUrl": "https://en.acmelighting.com/item/SAGITTA-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/SAGITTA-IP"
+        },
+        {
+          "type": "Discharge Lamp Hybrid",
+          "name": "ZEUS",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 35,
+          "powerWatt": 750,
+          "luminousFluxLumen": 18000,
+          "manualUrl": "https://en.acmelighting.com/item/ZEUS",
+          "dmxChartUrl": "https://en.acmelighting.com/item/ZEUS"
+        },
+        {
+          "type": "Effects",
+          "name": "BIG BANG",
+          "modes": [
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 156
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 115,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/item/BIG-BANG",
+          "dmxChartUrl": "https://en.acmelighting.com/item/BIG-BANG"
+        },
+        {
+          "type": "Effects",
+          "name": "BLINDER LINE 10 IP",
+          "modes": [
+            {
+              "name": "High Mode",
+              "dmxChannels": 55
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 600,
+          "luminousFluxLumen": 26300,
+          "manualUrl": "https://en.acmelighting.com/item/BLINDER-LINE-10-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/BLINDER-LINE-10-IP"
+        },
+        {
+          "type": "Effects",
+          "name": "BLINDER LINE 5 IP",
+          "modes": [
+            {
+              "name": "High Mode",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 300,
+          "luminousFluxLumen": 13000,
+          "manualUrl": "https://en.acmelighting.com/item/BLINDER-LINE-5-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/BLINDER-LINE-5-IP"
+        },
+        {
+          "type": "Effects",
+          "name": "CYCLONE",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 5100,
+          "manualUrl": "https://en.acmelighting.com/item/CYCLONE",
+          "dmxChartUrl": "https://en.acmelighting.com/item/CYCLONE"
+        },
+        {
+          "type": "Effects",
+          "name": "DOTCHAIN 300",
+          "modes": [
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 46
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 11,
+          "powerWatt": 180,
+          "luminousFluxLumen": 800,
+          "manualUrl": "https://en.acmelighting.com/item/DOTCHAIN-300",
+          "dmxChartUrl": "https://en.acmelighting.com/item/DOTCHAIN-300"
+        },
+        {
+          "type": "Effects",
+          "name": "FLANDINA 12",
+          "modes": [
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 55,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://en.acmelighting.com/item/FLANDINA-12",
+          "dmxChartUrl": "https://en.acmelighting.com/item/FLANDINA-12"
+        },
+        {
+          "type": "Effects",
+          "name": "GEMINI",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 58
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 1130,
+          "luminousFluxLumen": 42000,
+          "manualUrl": "https://en.acmelighting.com/item/GEMINI",
+          "dmxChartUrl": "https://en.acmelighting.com/item/GEMINI"
+        },
+        {
+          "type": "Effects",
+          "name": "HUELINE 16 IP",
+          "modes": [
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 88
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 600,
+          "luminousFluxLumen": 12000,
+          "manualUrl": "https://en.acmelighting.com/item/HUELINE-16-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/HUELINE-16-IP"
+        },
+        {
+          "type": "Effects",
+          "name": "LIGHTNING",
+          "modes": [
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 82
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 800,
+          "luminousFluxLumen": 60000,
+          "manualUrl": "https://en.acmelighting.com/item/LIGHTNING",
+          "dmxChartUrl": "https://en.acmelighting.com/item/LIGHTNING"
+        },
+        {
+          "type": "Effects",
+          "name": "LIGHTNING X",
+          "modes": [
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 156
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 13,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 100000,
+          "manualUrl": "https://en.acmelighting.com/item/LIGHTNING-X",
+          "dmxChartUrl": "https://en.acmelighting.com/item/LIGHTNING-X"
+        },
+        {
+          "type": "Effects",
+          "name": "LINEFORCE 10 IP",
+          "modes": [
+            {
+              "name": "High Mode",
+              "dmxChannels": 55
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 600,
+          "luminousFluxLumen": 26300,
+          "manualUrl": "https://en.acmelighting.com/item/LINEFORCE-10-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/LINEFORCE-10-IP"
+        },
+        {
+          "type": "Effects",
+          "name": "LINEFORCE 5 IP",
+          "modes": [
+            {
+              "name": "High Mode",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 300,
+          "luminousFluxLumen": 13000,
+          "manualUrl": "https://en.acmelighting.com/item/LINEFORCE-5-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/LINEFORCE-5-IP"
+        },
+        {
+          "type": "Effects",
+          "name": "PIXEL LINE IP",
+          "modes": [
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 56
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 400,
+          "luminousFluxLumen": 18000,
+          "manualUrl": "https://en.acmelighting.com/item/PIXEL-LINE-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/PIXEL-LINE-IP"
+        },
+        {
+          "type": "Effects",
+          "name": "PIXEL LINE IP 500",
+          "modes": [
+            {
+              "name": "Pixel Mode",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 200,
+          "luminousFluxLumen": 9000,
+          "manualUrl": "https://en.acmelighting.com/item/PIXEL-LINE-IP-500",
+          "dmxChartUrl": "https://en.acmelighting.com/item/PIXEL-LINE-IP-500"
+        },
+        {
+          "type": "Effects",
+          "name": "PULSAR PLUS S2",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 600,
+          "luminousFluxLumen": 12000,
+          "manualUrl": "https://en.acmelighting.com/item/PULSAR-PLUS-S2",
+          "dmxChartUrl": "https://en.acmelighting.com/item/PULSAR-PLUS-S2"
+        },
+        {
+          "type": "Effects",
+          "name": "PULSAR S2",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 17,
+          "powerWatt": 500,
+          "luminousFluxLumen": 10000,
+          "manualUrl": "https://en.acmelighting.com/item/PULSAR-S2",
+          "dmxChartUrl": "https://en.acmelighting.com/item/PULSAR-S2"
+        },
+        {
+          "type": "Effects",
+          "name": "SNOWSTORM",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 116
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 21,
+          "powerWatt": 1100,
+          "luminousFluxLumen": 24000,
+          "manualUrl": "https://en.acmelighting.com/item/SNOWSTORM",
+          "dmxChartUrl": "https://en.acmelighting.com/item/SNOWSTORM"
+        },
+        {
+          "type": "Effects",
+          "name": "STAGE PAR 100 IP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 5,
+          "powerWatt": 120,
+          "luminousFluxLumen": 4000,
+          "manualUrl": "https://en.acmelighting.com/item/STAGE-PAR-100-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/STAGE-PAR-100-IP"
+        },
+        {
+          "type": "Effects",
+          "name": "SUPER DOTLINE",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 46
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 600,
+          "luminousFluxLumen": 18000,
+          "manualUrl": "https://en.acmelighting.com/item/SUPER-DOTLINE",
+          "dmxChartUrl": "https://en.acmelighting.com/item/SUPER-DOTLINE"
+        },
+        {
+          "type": "Effects",
+          "name": "THUNDER IP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 14,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 120000,
+          "manualUrl": "https://en.acmelighting.com/item/THUNDER-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/THUNDER-IP"
+        },
+        {
+          "type": "Effects",
+          "name": "THUNDERBOLT",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 120000,
+          "manualUrl": "https://en.acmelighting.com/item/THUNDERBOLT",
+          "dmxChartUrl": "https://en.acmelighting.com/item/THUNDERBOLT"
+        },
+        {
+          "type": "Effects",
+          "name": "TORNADO",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 41
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 71
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 75
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 85
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 170
+            }
+          ],
+          "weightKilogram": 30,
+          "powerWatt": 350,
+          "luminousFluxLumen": 130000,
+          "manualUrl": "TORNADO User Manual F Version.pdf",
+          "dmxChartUrl": "TORNADO DMX CHART.pdf"
+        },
+        {
+          "type": "Effects",
+          "name": "ULTRA BLINDER IP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 400,
+          "luminousFluxLumen": 20000,
+          "manualUrl": "https://en.acmelighting.com/item/ULTRA-BLINDER-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/ULTRA-BLINDER-IP"
+        },
+        {
+          "type": "Effects",
+          "name": "ULTRA PAR IP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 10
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 350,
+          "luminousFluxLumen": 11000,
+          "manualUrl": "https://en.acmelighting.com/item/ULTRA-PAR-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/ULTRA-PAR-IP"
+        },
+        {
+          "type": "Effects",
+          "name": "VOLTKA",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 80000,
+          "manualUrl": "https://en.acmelighting.com/item/VOLTKA",
+          "dmxChartUrl": "https://en.acmelighting.com/item/VOLTKA"
+        },
+        {
+          "type": "Followspot",
+          "name": "COMET",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 51,
+          "powerWatt": 2180,
+          "luminousFluxLumen": 38000,
+          "manualUrl": "https://en.acmelighting.com/item/COMET",
+          "dmxChartUrl": "https://en.acmelighting.com/item/COMET"
+        },
+        {
+          "type": "Followspot",
+          "name": "GLORY FOLLOWSPOT",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 45,
+          "powerWatt": 1800,
+          "luminousFluxLumen": 32000,
+          "manualUrl": "https://en.acmelighting.com/item/GLORY-FOLLOWSPOT",
+          "dmxChartUrl": "https://en.acmelighting.com/item/GLORY-FOLLOWSPOT"
+        },
+        {
+          "type": "H-CRI",
+          "name": "AECO 15",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 29
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 38
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 33500,
+          "manualUrl": "https://en.acmelighting.com/item/AECO-15",
+          "dmxChartUrl": "https://en.acmelighting.com/item/AECO-15"
+        },
+        {
+          "type": "H-CRI",
+          "name": "AECO 20",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 38
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 36000,
+          "manualUrl": "https://en.acmelighting.com/item/AECO-20",
+          "dmxChartUrl": "https://en.acmelighting.com/item/AECO-20"
+        },
+        {
+          "type": "H-CRI",
+          "name": "AECO 30 IP",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 23
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 43000,
+          "manualUrl": "https://en.acmelighting.com/item/AECO-30-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/AECO-30-IP"
+        },
+        {
+          "type": "H-CRI",
+          "name": "AECO 5",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 13000,
+          "manualUrl": "https://en.acmelighting.com/item/AECO-5",
+          "dmxChartUrl": "https://en.acmelighting.com/item/AECO-5"
+        },
+        {
+          "type": "H-CRI",
+          "name": "ELLIPSOIDAL 300",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=323",
+          "dmxChartUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=323"
+        },
+        {
+          "type": "H-CRI",
+          "name": "ELLIPSOIDAL 40",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=331",
+          "dmxChartUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=331"
+        },
+        {
+          "type": "H-CRI",
+          "name": "THEATRE SPOT 300",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=322",
+          "dmxChartUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=322"
+        },
+        {
+          "type": "H-CRI",
+          "name": "THEATRE SPOT 500",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 34000,
+          "manualUrl": "https://en.acmelighting.com/item/THEATRE-SPOT-500-CW",
+          "dmxChartUrl": "https://en.acmelighting.com/item/THEATRE-SPOT-500-CW"
+        },
+        {
+          "type": "H-CRI",
+          "name": "TV LIGHT PANEL 1000",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=327",
+          "dmxChartUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=327"
+        },
+        {
+          "type": "H-CRI",
+          "name": "TV LIGHT PANEL 2000",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Mode 2A",
+              "dmxChannels": 2
+            },
+            {
+              "name": "Mode 2B",
+              "dmxChannels": 2
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 13,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/item/TV-LIGHT-PANEL-2000-WW",
+          "dmxChartUrl": "https://en.acmelighting.com/item/TV-LIGHT-PANEL-2000-WW"
+        },
+        {
+          "type": "H-CRI",
+          "name": "TV LIGHT PANEL 3000",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/item/TV-LIGHT-PANEL-3000",
+          "dmxChartUrl": "https://en.acmelighting.com/item/TV-LIGHT-PANEL-3000"
+        },
+        {
+          "type": "Hybrid",
+          "name": "MANA HYBRID",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 21000,
+          "manualUrl": "https://en.acmelighting.com/item/MANA-HYBRID",
+          "dmxChartUrl": "https://en.acmelighting.com/item/MANA-HYBRID"
+        },
+        {
+          "type": "Hybrid",
+          "name": "SOLAR WIND",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 30
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 16000,
+          "manualUrl": "https://en.acmelighting.com/item/SOLAR-WIND",
+          "dmxChartUrl": "https://en.acmelighting.com/item/SOLAR-WIND"
+        },
+        {
+          "type": "Hybrid",
+          "name": "WILLOW 200",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 17
+            }
+          ],
+          "weightKilogram": 9,
+          "powerWatt": 220,
+          "luminousFluxLumen": 8000,
+          "manualUrl": "https://en.acmelighting.com/item/WILLOW-200",
+          "dmxChartUrl": "https://en.acmelighting.com/item/WILLOW-200"
+        },
+        {
+          "type": "Hybrid",
+          "name": "WILLOW 500",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 460,
+          "luminousFluxLumen": 10100,
+          "manualUrl": "https://en.acmelighting.com/item/WILLOW-500",
+          "dmxChartUrl": "https://en.acmelighting.com/item/WILLOW-500"
+        },
+        {
+          "type": "Laser",
+          "name": "DIAMONDS",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 52
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 185,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/item/DIAMONDS",
+          "dmxChartUrl": "https://en.acmelighting.com/item/DIAMONDS"
+        },
+        {
+          "type": "Laser Beam",
+          "name": "SKYTRK",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 550,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/item/SKYTRK",
+          "dmxChartUrl": "https://en.acmelighting.com/item/SKYTRK"
+        },
+        {
+          "type": "Laser Hybrid",
+          "name": "PHOTON HYBRID 500",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 26,
+          "powerWatt": 600,
+          "luminousFluxLumen": 16500,
+          "manualUrl": "https://en.acmelighting.com/item/PHOTON-HYBRID-500",
+          "dmxChartUrl": "https://en.acmelighting.com/item/PHOTON-HYBRID-500"
+        },
+        {
           "type": "LED Bar",
           "name": "Pixel Line IP",
           "modes": [
@@ -170,6 +1076,238 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/390",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/390"
+        },
+        {
+          "type": "LED Wash",
+          "name": "COOLIE 186",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 10
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 55,
+          "luminousFluxLumen": 3280,
+          "manualUrl": "https://en.acmelighting.com/item/COOLIE-186",
+          "dmxChartUrl": "https://en.acmelighting.com/item/COOLIE-186"
+        },
+        {
+          "type": "LED Wash",
+          "name": "DIABOLO 300",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 15
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 280,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/item/DIABOLO-300",
+          "dmxChartUrl": "https://en.acmelighting.com/item/DIABOLO-300"
+        },
+        {
+          "type": "LED Wash",
+          "name": "HYPERZONE",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 41
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 42
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1370,
+          "luminousFluxLumen": 19500,
+          "manualUrl": "https://en.acmelighting.com/item/HYPERZONE",
+          "dmxChartUrl": "https://en.acmelighting.com/item/HYPERZONE"
+        },
+        {
+          "type": "LED Wash",
+          "name": "NEOZONE",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 17
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 86
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 10
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 960,
+          "luminousFluxLumen": 11200,
+          "manualUrl": "https://en.acmelighting.com/item/NEOZONE",
+          "dmxChartUrl": "https://en.acmelighting.com/item/NEOZONE"
+        },
+        {
+          "type": "LED Wash",
+          "name": "OXYGEN",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 17
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 37
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 335,
+          "luminousFluxLumen": 4600,
+          "manualUrl": "https://en.acmelighting.com/item/OXYGEN",
+          "dmxChartUrl": "https://en.acmelighting.com/item/OXYGEN"
+        },
+        {
+          "type": "LED Wash",
+          "name": "PASODOBLE",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 2815,
+          "manualUrl": "https://en.acmelighting.com/item/PASODOBLE",
+          "dmxChartUrl": "https://en.acmelighting.com/item/PASODOBLE"
+        },
+        {
+          "type": "LED Wash",
+          "name": "SANDANE FROST",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 5,
+          "powerWatt": 215,
+          "luminousFluxLumen": 9400,
+          "manualUrl": "https://en.acmelighting.com/item/SANDANE-FROST",
+          "dmxChartUrl": "https://en.acmelighting.com/item/SANDANE-FROST"
+        },
+        {
+          "type": "LED Wash",
+          "name": "STAGE PAR 400 ZOOM IP",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 3250,
+          "manualUrl": "https://en.acmelighting.com/item/STAGE-PAR-400-ZOOM-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/STAGE-PAR-400-ZOOM-IP"
+        },
+        {
+          "type": "LED Wash",
+          "name": "TANGO",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/item/TANGO",
+          "dmxChartUrl": "https://en.acmelighting.com/item/TANGO"
+        },
+        {
+          "type": "LED Wash",
+          "name": "THETA",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 29
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 139
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 141
+            }
+          ],
+          "weightKilogram": 34,
+          "powerWatt": 0,
+          "luminousFluxLumen": 19500,
+          "manualUrl": "https://en.acmelighting.com/item/THETA",
+          "dmxChartUrl": "https://en.acmelighting.com/item/THETA"
         },
         {
           "type": "Moving Head",
@@ -373,6 +1511,195 @@
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/330"
         },
         {
+          "type": "Profile",
+          "name": "GEIST BSWF",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 25
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 29
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 34
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 670,
+          "luminousFluxLumen": 20000,
+          "manualUrl": "https://en.acmelighting.com/item/GEIST-BSWF",
+          "dmxChartUrl": "https://en.acmelighting.com/item/GEIST-BSWF"
+        },
+        {
+          "type": "Profile",
+          "name": "HUE 6 IP",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 43
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 45
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 46
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 50
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 13000,
+          "manualUrl": "https://en.acmelighting.com/item/HUE-6-IP",
+          "dmxChartUrl": "https://en.acmelighting.com/item/HUE-6-IP"
+        },
+        {
+          "type": "Profile",
+          "name": "LYRA",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 30
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 39
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 35000,
+          "manualUrl": "https://en.acmelighting.com/item/LYRA",
+          "dmxChartUrl": "https://en.acmelighting.com/item/LYRA"
+        },
+        {
+          "type": "Profile",
+          "name": "MANA PROFILE",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 26000,
+          "manualUrl": "https://en.acmelighting.com/item/MANA-PROFILE",
+          "dmxChartUrl": "https://en.acmelighting.com/item/MANA-PROFILE"
+        },
+        {
+          "type": "Profile",
+          "name": "SANA PROFILE",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 45
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 15000,
+          "manualUrl": "https://en.acmelighting.com/item/SANA-PROFILE",
+          "dmxChartUrl": "https://en.acmelighting.com/item/SANA-PROFILE"
+        },
+        {
+          "type": "Profile",
+          "name": "SUPERNOVA",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 23
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 65000,
+          "manualUrl": "https://en.acmelighting.com/item/SUPERNOVA",
+          "dmxChartUrl": "https://en.acmelighting.com/item/SUPERNOVA"
+        },
+        {
+          "type": "Profile",
+          "name": "SUPERNOVA LT",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 23
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 44
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 70000,
+          "manualUrl": "https://en.acmelighting.com/item/SUPERNOVA-LT",
+          "dmxChartUrl": "https://en.acmelighting.com/item/SUPERNOVA-LT"
+        },
+        {
           "type": "Static",
           "name": "Stage Par 100",
           "modes": [
@@ -413,6 +1740,25 @@
           "luminousFluxLumen": 150000,
           "manualUrl": "https://www.acme.com.cn/Product/details/id/422",
           "dmxChartUrl": "https://www.acme.com.cn/Product/details/id/422"
+        },
+        {
+          "type": "Wash",
+          "name": "LYRA BW",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 30
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 42.5,
+          "powerWatt": 1455,
+          "luminousFluxLumen": 56000,
+          "manualUrl": "https://en.acmelighting.com/item/LYRA-BW",
+          "dmxChartUrl": "https://en.acmelighting.com/item/LYRA-BW"
         }
       ]
     },
@@ -1288,6 +2634,126 @@
       "name": "Cameo",
       "products": [
         {
+          "type": "Beam Moving Head",
+          "name": "AZOR B1",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 120,
+          "luminousFluxLumen": 5000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Beam Moving Head",
+          "name": "AZOR S2",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 13,
+          "powerWatt": 150,
+          "luminousFluxLumen": 7000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Beam Moving Head",
+          "name": "MOVO BEAM 200",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 11,
+          "powerWatt": 200,
+          "luminousFluxLumen": 7000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Beam Moving Head",
+          "name": "MOVO BEAM Z100",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 250,
+          "luminousFluxLumen": 8000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Beam Moving Head",
+          "name": "OTOS B5",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 16,
+          "powerWatt": 300,
+          "luminousFluxLumen": 12000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Hybrid Moving Head",
+          "name": "OPUS H5",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 30,
+          "powerWatt": 600,
+          "luminousFluxLumen": 22000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Hybrid Moving Head",
+          "name": "ORON H2",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 550,
+          "luminousFluxLumen": 19000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Hybrid Moving Head",
+          "name": "OTOS H5",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 26
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 480,
+          "luminousFluxLumen": 19000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
           "type": "LED Bar",
           "name": "Pixbar 600 Pro",
           "modes": [
@@ -1309,6 +2775,36 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.cameolight.com/pixbar-600-pro",
           "dmxChartUrl": "https://www.cameolight.com/pixbar-600-pro"
+        },
+        {
+          "type": "LED Spot Moving Head",
+          "name": "AURO SPOT 200",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 180,
+          "luminousFluxLumen": 6000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "LED Spot Moving Head",
+          "name": "AURO SPOT Z300",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 200,
+          "luminousFluxLumen": 8000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
         },
         {
           "type": "Moving Head",
@@ -1463,6 +2959,187 @@
           "dmxChartUrl": "https://www.cameolight.com/zenit-b200"
         },
         {
+          "type": "Profile Moving Head",
+          "name": "AZOR SP2",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 300,
+          "luminousFluxLumen": 12000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Profile Moving Head",
+          "name": "AZOR SP2 IP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 300,
+          "luminousFluxLumen": 12000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Profile Moving Head",
+          "name": "OPUS SP5 FC",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 26,
+          "powerWatt": 500,
+          "luminousFluxLumen": 18000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Profile Moving Head",
+          "name": "OPUS SP5+",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 26,
+          "powerWatt": 500,
+          "luminousFluxLumen": 18000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Profile Moving Head",
+          "name": "OPUS SP6 FC",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 48
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 600,
+          "luminousFluxLumen": 20000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Profile Moving Head",
+          "name": "OPUS SP6 IP",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 48
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 30,
+          "powerWatt": 600,
+          "luminousFluxLumen": 20000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Profile Moving Head",
+          "name": "OPUS X PROFILE",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 700,
+          "luminousFluxLumen": 25000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Profile Moving Head",
+          "name": "OPUS X4",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 48
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 26
+            }
+          ],
+          "weightKilogram": 30,
+          "powerWatt": 600,
+          "luminousFluxLumen": 23000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Profile Moving Head",
+          "name": "OPUS X4 IP",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 48
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 26
+            }
+          ],
+          "weightKilogram": 33,
+          "powerWatt": 600,
+          "luminousFluxLumen": 23000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Profile Moving Head",
+          "name": "OTOS SP6",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 29,
+          "powerWatt": 600,
+          "luminousFluxLumen": 20000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Spot Moving Head",
+          "name": "OPUS S5",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 24,
+          "powerWatt": 450,
+          "luminousFluxLumen": 15000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
           "type": "Static",
           "name": "Zenit W300",
           "modes": [
@@ -1530,6 +3207,141 @@
           "luminousFluxLumen": 41000,
           "manualUrl": "https://www.cameolight.com/zenit-w600-smd",
           "dmxChartUrl": "https://www.cameolight.com/zenit-w600-smd"
+        },
+        {
+          "type": "Wash Moving Head",
+          "name": "AZOR W2",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 10
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 100,
+          "luminousFluxLumen": 4000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Wash Moving Head",
+          "name": "EVOS W3",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 9,
+          "powerWatt": 120,
+          "luminousFluxLumen": 5000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Wash Moving Head",
+          "name": "EVOS W7",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 22,
+          "powerWatt": 350,
+          "luminousFluxLumen": 14000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Wash Moving Head",
+          "name": "EVOS W7 IP",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 24,
+          "powerWatt": 400,
+          "luminousFluxLumen": 16000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Wash Moving Head",
+          "name": "OPUS W5",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 400,
+          "luminousFluxLumen": 15000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Wash Moving Head",
+          "name": "OPUS X WASH",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 700,
+          "luminousFluxLumen": 28000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Wash Moving Head",
+          "name": "OTOS W12",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 400,
+          "luminousFluxLumen": 15000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Wash Moving Head",
+          "name": "OTOS W3",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 150,
+          "luminousFluxLumen": 6000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
+        },
+        {
+          "type": "Wash Moving Head",
+          "name": "OTOS W6",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 250,
+          "luminousFluxLumen": 10000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://open-fixture-library.org"
         }
       ]
     },
@@ -2859,6 +4671,59 @@
       "name": "ETC",
       "products": [
         {
+          "type": "Beam Moving Head",
+          "name": "Hyperstar",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 56
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 250,
+          "luminousFluxLumen": 15000,
+          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Hyperstar/",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Hyperstar/"
+        },
+        {
+          "type": "Beam Moving Head",
+          "name": "SolaHyBeam 3000",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 60
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 37000,
+          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/SolaHyBeam-3000/",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/SolaHyBeam-3000/"
+        },
+        {
+          "type": "Camera",
+          "name": "RigPOV",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 2,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/"
+        },
+        {
           "type": "Cyclo",
           "name": "ColorSource Cyc",
           "modes": [
@@ -2876,6 +4741,44 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Cyc",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Cyc"
+        },
+        {
+          "type": "Effect",
+          "name": "SolaPix Fan 8",
+          "modes": [
+            {
+              "name": "Pixel",
+              "dmxChannels": 120
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 400,
+          "luminousFluxLumen": 18000,
+          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/"
+        },
+        {
+          "type": "Effect",
+          "name": "Zeo",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 48
+            }
+          ],
+          "weightKilogram": 24,
+          "powerWatt": 800,
+          "luminousFluxLumen": 30000,
+          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Zeo/",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Zeo/"
         },
         {
           "type": "LED Bar",
@@ -3018,6 +4921,25 @@
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Releve"
         },
         {
+          "type": "Moving Mirror",
+          "name": "Cyberlight LED",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 56
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 470,
+          "luminousFluxLumen": 12750,
+          "manualUrl": "https://www.etcconnect.com/cyberlight/",
+          "dmxChartUrl": "https://www.etcconnect.com/cyberlight/"
+        },
+        {
           "type": "Profile",
           "name": "Source Four LED Series 2",
           "modes": [
@@ -3058,6 +4980,101 @@
           "luminousFluxLumen": 13000,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-3",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-3"
+        },
+        {
+          "type": "Profile Moving Head",
+          "name": "Halcyon Gold",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 64
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 32
+            }
+          ],
+          "weightKilogram": 38,
+          "powerWatt": 600,
+          "luminousFluxLumen": 25000,
+          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Halcyon/",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Halcyon/"
+        },
+        {
+          "type": "Profile Moving Head",
+          "name": "Halcyon Platinum",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 68
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 34
+            }
+          ],
+          "weightKilogram": 40,
+          "powerWatt": 650,
+          "luminousFluxLumen": 28000,
+          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Halcyon/",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Halcyon/"
+        },
+        {
+          "type": "Profile Moving Head",
+          "name": "Lonestar",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 60
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 24,
+          "powerWatt": 290,
+          "luminousFluxLumen": 15400,
+          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Lonestar/",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Lonestar/"
+        },
+        {
+          "type": "Profile Moving Head",
+          "name": "Lonestar Prime",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 64
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 32
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 300,
+          "luminousFluxLumen": 17000,
+          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Lonestar/",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Lonestar/"
+        },
+        {
+          "type": "Spot Moving Head",
+          "name": "Ministar",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 48
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 300,
+          "luminousFluxLumen": 9700,
+          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Ministar/",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Ministar/"
         },
         {
           "type": "Static",
@@ -3111,6 +5128,44 @@
           "luminousFluxLumen": 6500,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource"
+        },
+        {
+          "type": "Wash Pixel",
+          "name": "GigaPix",
+          "modes": [
+            {
+              "name": "Pixel",
+              "dmxChannels": 120
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 36
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 700,
+          "luminousFluxLumen": 25000,
+          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/GigaPix/",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/GigaPix/"
+        },
+        {
+          "type": "Wash Pixel",
+          "name": "MegaPix",
+          "modes": [
+            {
+              "name": "Pixel",
+              "dmxChannels": 96
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 32
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 600,
+          "luminousFluxLumen": 20000,
+          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/MegaPix/",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/MegaPix/"
         }
       ]
     },
@@ -6936,6 +8991,401 @@
       ]
     },
     {
+      "name": "Robert Juliat",
+      "products": [
+        {
+          "type": "Accessory",
+          "name": "Dalis Access 863",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Cyclorama",
+          "name": "Dalis 860",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Cyclorama",
+          "name": "Dalis 861",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Cyclorama",
+          "name": "Dalis 862S",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Cyclorama",
+          "name": "Dalis 864S",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Followspot",
+          "name": "Arthur 1014",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Followspot",
+          "name": "Arthur 1014LT",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 26,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Followspot",
+          "name": "Cyrano 1015",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 30,
+          "powerWatt": 2500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Followspot",
+          "name": "Lancelot 1021",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 35,
+          "powerWatt": 4000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Followspot",
+          "name": "Lexie",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 14,
+          "powerWatt": 420,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Followspot",
+          "name": "Morgane",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 19,
+          "powerWatt": 825,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Followspot",
+          "name": "SULLY 1156",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 115,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Followspot",
+          "name": "Tristan",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 825,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Fresnel",
+          "name": "310H",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Fresnel",
+          "name": "329H",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 9,
+          "powerWatt": 2500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Fresnel",
+          "name": "BIZET 370",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Fresnel",
+          "name": "LUTIN 306L",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Fresnel",
+          "name": "SULLY 305L",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 115,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Fresnel",
+          "name": "SULLY 315L 4C",
+          "modes": [
+            {
+              "name": "RGBW",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 7,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Profile",
+          "name": "600SX Series",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 9,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Profile",
+          "name": "700SX2 Series",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 11,
+          "powerWatt": 2500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Profile",
+          "name": "BIZET 670SX",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Profile",
+          "name": "BIZET 771SX",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Profile",
+          "name": "SULLY 650SX",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 115,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Profile",
+          "name": "SULLY 650SX 4C",
+          "modes": [
+            {
+              "name": "RGBW",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 9,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        },
+        {
+          "type": "Profile",
+          "name": "TIBO HE 553",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 7,
+          "powerWatt": 115,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html",
+          "dmxChartUrl": "https://www.robertjuliat.fr/PDF_ManuelsProduitsRJ.html"
+        }
+      ]
+    },
+    {
       "name": "SGM",
       "products": [
         {
@@ -8731,5 +11181,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-03-13T15:10:26.406Z"
+  "updatedAt": "2026-03-18T01:34:21.230Z"
 }
