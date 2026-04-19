@@ -16354,53 +16354,277 @@
       "name": "Hungaroflash",
       "products": [
         {
-          "type": "Strobe",
-          "name": "Euro-Light",
+          "type": "CapStrobe 35J",
+          "name": "Stroboscope architectural xenon capacitif 35J IP65 polycarbonate UV r?sistant",
           "modes": [
             {
-              "name": "Standard",
+              "name": "1ch Dimmer (intensit? flash)",
+              "dmxChannels": 1
+            },
+            {
+              "name": "2ch Full (Dim + Fr?quence)",
               "dmxChannels": 2
             }
           ],
-          "weightKilogram": 4,
-          "powerWatt": 3000,
+          "weightKilogram": 0.75,
+          "powerWatt": 0,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.hungaroflash.hu/euro-light",
-          "dmxChartUrl": "https://www.hungaroflash.hu/dmx/euro-light"
+          "manualUrl": "https://hungaroflash.com/termekek/capstrobe-35j/",
+          "dmxChartUrl": "https://hungaroflash.com/product-manuals-2/"
         },
         {
-          "type": "Strobe",
-          "name": "Quasar (X?non)",
+          "type": "EURODMX PRO 5000W",
+          "name": "Stroboscope Xenon haute puissance 1500-5000W IP20 DMX",
           "modes": [
             {
-              "name": "Standard",
-              "dmxChannels": 6
+              "name": "2ch Standard (Intensit? + Fr?quence)",
+              "dmxChannels": 2
+            },
+            {
+              "name": "4ch Effect Mode (Dim + Fr?q + Dur?e flash + Mode)",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 5000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://hungaroflash.com/termekek/eurodmx-pro-5000w/",
+          "dmxChartUrl": "https://hungaroflash.com/product-manuals-2/"
+        },
+        {
+          "type": "LED T-Light 16kW",
+          "name": "Simulateur lumi?re LED modulaire 16000W ? 2? module 8kW",
+          "modes": [
+            {
+              "name": "2ch Dim + Mode",
+              "dmxChannels": 2
+            },
+            {
+              "name": "4ch Dim + Strobe + Dur?e + Mode",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 16000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://hungaroflash.com/termekek/led-t-light-30kw/",
+          "dmxChartUrl": "https://hungaroflash.com/product-manuals-2/"
+        },
+        {
+          "type": "LED T-Light 24kW",
+          "name": "Simulateur lumi?re LED modulaire 24000W ? 3? module 8kW",
+          "modes": [
+            {
+              "name": "2ch Dim + Mode",
+              "dmxChannels": 2
+            },
+            {
+              "name": "4ch Dim + Strobe + Dur?e + Mode",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 24000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://hungaroflash.com/termekek/led-t-light-30kw/",
+          "dmxChartUrl": "https://hungaroflash.com/product-manuals-2/"
+        },
+        {
+          "type": "LED T-Light 8kW",
+          "name": "Simulateur lumi?re LED modulaire 8000W ? 3 phases 380VAC",
+          "modes": [
+            {
+              "name": "2ch Dim + Mode",
+              "dmxChannels": 2
+            },
+            {
+              "name": "4ch Dim + Strobe + Dur?e + Mode",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 30,
+          "powerWatt": 8000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://hungaroflash.com/termekek/led-t-light-30kw/",
+          "dmxChartUrl": "https://hungaroflash.com/product-manuals-2/"
+        },
+        {
+          "type": "QUASAR PRO 15000W",
+          "name": "Stroboscope Xenon 15000W IP20 DMX/RDM ? le plus puissant du march? indoor",
+          "modes": [
+            {
+              "name": "1ch HungaroFLASH protocol (synchro multi-unit?s)",
+              "dmxChannels": 1
+            },
+            {
+              "name": "2ch Standard (Intensit? + Fr?quence)",
+              "dmxChannels": 2
+            },
+            {
+              "name": "4ch Effect Mode (Dim + Fr?q + Dur?e + Mode)",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 15000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://hungaroflash.com/termekek/quasar-pro-15000w/",
+          "dmxChartUrl": "https://hungaroflash.com/product-manuals-2/"
+        },
+        {
+          "type": "RainPROOF QUASAR PRO 15000W",
+          "name": "Stroboscope Xenon 15000W IP65 acier inox ? version outdoor rainproof",
+          "modes": [
+            {
+              "name": "1ch HungaroFLASH protocol (synchro multi-unit?s)",
+              "dmxChannels": 1
+            },
+            {
+              "name": "2ch Standard (Intensit? + Fr?quence)",
+              "dmxChannels": 2
+            },
+            {
+              "name": "4ch Effect Mode (Dim + Fr?q + Dur?e + Mode)",
+              "dmxChannels": 4
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 15000,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.hungaroflash.hu/quasar",
-          "dmxChartUrl": "https://www.hungaroflash.hu/dmx/quasar"
+          "luminousFluxLumen": 450000,
+          "manualUrl": "https://hungaroflash.com/termekek/rainproof-quasar-pro-15000w/",
+          "dmxChartUrl": "https://hungaroflash.com/product-manuals-2/"
         },
         {
-          "type": "Strobe",
-          "name": "T-Light (85kW)",
+          "type": "RGB 1.5K",
+          "name": "Stroboscope / Blinder LED RGB 1452 LEDs 400W IP65 ? 36000lm color mixing",
           "modes": [
             {
-              "name": "Standard",
+              "name": "1ch Dimmer",
+              "dmxChannels": 1
+            },
+            {
+              "name": "2ch Dim + Strobe",
               "dmxChannels": 2
             },
             {
-              "name": "Turbo Mode",
+              "name": "3ch RGB",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4ch Dim + Strobe + Fr?q + Dur?e",
+              "dmxChannels": 4
+            },
+            {
+              "name": "5ch Dim + Strobe + Fr?q + Dur?e + Mode",
+              "dmxChannels": 5
+            },
+            {
+              "name": "6ch Full RGB + segments (3 zones)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7ch Full RGB + segments + effets",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 400,
+          "luminousFluxLumen": 36000,
+          "manualUrl": "https://hungaroflash.com/termekek/rgb-1-5k/",
+          "dmxChartUrl": "https://hungaroflash.com/product-manuals-2/"
+        },
+        {
+          "type": "SOL 1.5K",
+          "name": "Stroboscope / Blinder LED blanc 1452 LEDs 400W IP65 ? 40000lm",
+          "modes": [
+            {
+              "name": "1ch Dimmer",
+              "dmxChannels": 1
+            },
+            {
+              "name": "2ch Dim + Strobe",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3ch Dim + Strobe + Fr?quence",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4ch Dim + Strobe + Fr?q + Dur?e",
+              "dmxChannels": 4
+            },
+            {
+              "name": "5ch Dim + Strobe + Fr?q + Dur?e + Mode",
+              "dmxChannels": 5
+            },
+            {
+              "name": "6ch Full + segments (3 zones)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7ch Full + segments + effets",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 400,
+          "luminousFluxLumen": 40000,
+          "manualUrl": "https://hungaroflash.com/termekek/sol-1-5k/",
+          "dmxChartUrl": "https://hungaroflash.com/product-manuals-2/"
+        },
+        {
+          "type": "T-LIGHT PRO 85000W",
+          "name": "Simulateur foudre / stroboscope Xenon 85000W IP65 acier inox ? unique au monde",
+          "modes": [
+            {
+              "name": "4ch via contr?leur T-LIGHT (Dim + Dur?e flash + Mode + Trigger)",
               "dmxChannels": 4
             }
           ],
-          "weightKilogram": 15,
+          "weightKilogram": 22,
           "powerWatt": 85000,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.hungaroflash.hu/t-light",
-          "dmxChartUrl": "https://www.hungaroflash.hu/dmx/t-light"
+          "luminousFluxLumen": 2400000,
+          "manualUrl": "https://hungaroflash.com/termekek/t-light-pro-85000w/",
+          "dmxChartUrl": "https://hungaroflash.com/product-manuals-2/"
+        },
+        {
+          "type": "UV 1.5K",
+          "name": "Stroboscope / Blinder UV LED 1452 LEDs 390nm 400W IP65 ? 500lm UV",
+          "modes": [
+            {
+              "name": "1ch Dimmer",
+              "dmxChannels": 1
+            },
+            {
+              "name": "2ch Dim + Strobe",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3ch Dim + Strobe + Fr?quence",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4ch Dim + Strobe + Fr?q + Dur?e",
+              "dmxChannels": 4
+            },
+            {
+              "name": "5ch Dim + Strobe + Fr?q + Dur?e + Mode",
+              "dmxChannels": 5
+            },
+            {
+              "name": "6ch Full + segments (3 zones)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7ch Full + segments + effets",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 400,
+          "luminousFluxLumen": 500,
+          "manualUrl": "https://hungaroflash.com/termekek/uv-1-5k/",
+          "dmxChartUrl": "https://hungaroflash.com/product-manuals-2/"
         }
       ]
     },
@@ -22622,5 +22846,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-04-19T11:00:57.334Z"
+  "updatedAt": "2026-04-19T13:37:53.511Z"
 }
