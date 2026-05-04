@@ -2609,6 +2609,269 @@
       ]
     },
     {
+      "name": "Algam Lighting",
+      "products": [
+        {
+          "type": "LED Bar",
+          "name": "BARWASH244",
+          "modes": [
+            {
+              "name": "16ch",
+              "dmxChannels": 16
+            },
+            {
+              "name": "2ch",
+              "dmxChannels": 2
+            },
+            {
+              "name": "32ch",
+              "dmxChannels": 32
+            },
+            {
+              "name": "4ch",
+              "dmxChannels": 4
+            },
+            {
+              "name": "5ch",
+              "dmxChannels": 5
+            },
+            {
+              "name": "8ch",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 2.15,
+          "powerWatt": 80,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://algam-lighting.com/fr/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head Beam",
+          "name": "MB-80",
+          "modes": [
+            {
+              "name": "11ch",
+              "dmxChannels": 11
+            },
+            {
+              "name": "13ch",
+              "dmxChannels": 13
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 120,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://algam-lighting.com/fr/beam/1448-mb-80-3700166372658.html",
+          "dmxChartUrl": "https://algam-lighting.com/fr/beam/1448-mb-80-3700166372658.html"
+        },
+        {
+          "type": "Moving Head Beam",
+          "name": "MB200",
+          "modes": [
+            {
+              "name": "16ch",
+              "dmxChannels": 16
+            },
+            {
+              "name": "22ch",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 350,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://algam-lighting.com/fr/beam/1545-mb200-3700166377233.html",
+          "dmxChartUrl": "https://algam-lighting.com/fr/beam/1545-mb200-3700166377233.html"
+        },
+        {
+          "type": "Moving Head Hybrid",
+          "name": "MH200",
+          "modes": [
+            {
+              "name": "16ch",
+              "dmxChannels": 16
+            },
+            {
+              "name": "20ch",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 350,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://algam-lighting.com/fr/content/12-projecteurs-asservis",
+          "dmxChartUrl": "https://algam-lighting.com/fr/content/12-projecteurs-asservis"
+        },
+        {
+          "type": "Moving Head Spot",
+          "name": "MS-60",
+          "modes": [
+            {
+              "name": "11ch",
+              "dmxChannels": 11
+            },
+            {
+              "name": "13ch",
+              "dmxChannels": 13
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 120,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://algam-lighting.com/fr/spot/1422-ms-60-3700166370647.html",
+          "dmxChartUrl": "https://algam-lighting.com/fr/spot/1422-ms-60-3700166370647.html"
+        },
+        {
+          "type": "Moving Head Spot",
+          "name": "MS150",
+          "modes": [
+            {
+              "name": "16ch",
+              "dmxChannels": 16
+            },
+            {
+              "name": "17ch",
+              "dmxChannels": 17
+            }
+          ],
+          "weightKilogram": 7,
+          "powerWatt": 350,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://algam-lighting.com/fr/spot/1547-ms150-3700166377240.html",
+          "dmxChartUrl": "https://algam-lighting.com/fr/spot/1547-ms150-3700166377240.html"
+        },
+        {
+          "type": "Moving Head Spot",
+          "name": "MSR-60",
+          "modes": [
+            {
+              "name": "11ch",
+              "dmxChannels": 11
+            },
+            {
+              "name": "13ch",
+              "dmxChannels": 13
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 120,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://algam-lighting.com/fr/spot/1452-msr-60-3700166372665.html",
+          "dmxChartUrl": "https://algam-lighting.com/fr/spot/1452-msr-60-3700166372665.html"
+        },
+        {
+          "type": "Moving Head Wash",
+          "name": "MINIWASH-710",
+          "modes": [],
+          "weightKilogram": 3,
+          "powerWatt": 70,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://algam-lighting.com/fr/wash/1420-miniwash-710-3700166370685.html",
+          "dmxChartUrl": "https://algam-lighting.com/fr/wash/1420-miniwash-710-3700166370685.html"
+        },
+        {
+          "type": "Moving Head Wash",
+          "name": "MW-430",
+          "modes": [
+            {
+              "name": "12ch",
+              "dmxChannels": 12
+            },
+            {
+              "name": "14ch",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 120,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3275519/Algam-Lighting-Mw430.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3275519/Algam-Lighting-Mw430.html"
+        },
+        {
+          "type": "Moving Head Wash",
+          "name": "MW-430Z",
+          "modes": [
+            {
+              "name": "14ch",
+              "dmxChannels": 14
+            },
+            {
+              "name": "16ch",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://algam-lighting.com/fr/wash/1451-mw-430z-3700166370661.html",
+          "dmxChartUrl": "https://algam-lighting.com/fr/wash/1451-mw-430z-3700166370661.html"
+        },
+        {
+          "type": "Moving Head Wash",
+          "name": "MW19X15ZX",
+          "modes": [
+            {
+              "name": "16ch",
+              "dmxChannels": 16
+            },
+            {
+              "name": "24ch",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://algam-lighting.com/fr/wash/1549-mw19x15zx-3700166377462.html",
+          "dmxChartUrl": "https://algam-lighting.com/fr/wash/1549-mw19x15zx-3700166377462.html"
+        },
+        {
+          "type": "Moving Head Wash IP65",
+          "name": "MW740BZ-IP",
+          "modes": [
+            {
+              "name": "16ch",
+              "dmxChannels": 16
+            },
+            {
+              "name": "24ch",
+              "dmxChannels": 24
+            },
+            {
+              "name": "32ch",
+              "dmxChannels": 32
+            },
+            {
+              "name": "60ch",
+              "dmxChannels": 60
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 240,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://algam-lighting.com/fr/wash/1575-mw740bz-ip-3700166378421.html",
+          "dmxChartUrl": "https://algam-lighting.com/fr/wash/1575-mw740bz-ip-3700166378421.html"
+        },
+        {
+          "type": "Moving Head Wash+Laser",
+          "name": "MHE-60",
+          "modes": [
+            {
+              "name": "16ch",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 120,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://algam-lighting.com/fr/wash/1449-mhe-60-3700166372672.html",
+          "dmxChartUrl": "https://algam-lighting.com/fr/wash/1449-mhe-60-3700166372672.html"
+        }
+      ]
+    },
+    {
       "name": "Astera",
       "products": [
         {
@@ -12671,6 +12934,515 @@
           "luminousFluxLumen": 20000,
           "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/MegaPix/",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/MegaPix/"
+        }
+      ]
+    },
+    {
+      "name": "Evolite",
+      "products": [
+        {
+          "type": "Architectural LED IP65",
+          "name": "ArchiTECH 150",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/2283257/Evolite-Architech-150.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/2283257/Evolite-Architech-150.html"
+        },
+        {
+          "type": "Architectural LED IP65",
+          "name": "ArchiTECH 270",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 270,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/1850173/Evolite-Architech-270.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/1850173/Evolite-Architech-270.html"
+        },
+        {
+          "type": "Architectural LED IP65 (Battery)",
+          "name": "ArchiTECH 150 BAT",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/2178061/Evolite-Architech-150-Bat.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/2178061/Evolite-Architech-150-Bat.html"
+        },
+        {
+          "type": "Cold Spark",
+          "name": "Double Spin Spark",
+          "modes": [
+            {
+              "name": "2ch",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3291898/Evolite-Double-Spin-Spark.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3291898/Evolite-Double-Spin-Spark.html"
+        },
+        {
+          "type": "Cold Spark",
+          "name": "EVO SPARK 600",
+          "modes": [
+            {
+              "name": "2ch",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/2622167/Evolite-Evo-Spark-600.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/2622167/Evolite-Evo-Spark-600.html"
+        },
+        {
+          "type": "Fog Machine",
+          "name": "HeavyFOG 2000-P",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 2000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3738356/Evolite-Heavyfog-2000-P.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3738356/Evolite-Heavyfog-2000-P.html"
+        },
+        {
+          "type": "Fog Machine",
+          "name": "HeavyFOG 3000",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 3000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3557481/Evolite-Heavyfog-3000-C.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3557481/Evolite-Heavyfog-3000-C.html"
+        },
+        {
+          "type": "Fog Machine",
+          "name": "HeavyFOG 3000c",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 3000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3557481/Evolite-Heavyfog-3000-C.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3557481/Evolite-Heavyfog-3000-C.html"
+        },
+        {
+          "type": "Fog Machine",
+          "name": "HeavyFOG 4000",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 4000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3755492/Evolite-Heavyfog-4000.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3755492/Evolite-Heavyfog-4000.html"
+        },
+        {
+          "type": "Fog Machine",
+          "name": "HeavyFOG 4000c",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 4000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3755492/Evolite-Heavyfog-4000.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3755492/Evolite-Heavyfog-4000.html"
+        },
+        {
+          "type": "Laser",
+          "name": "Infinium 12000 RGB FB4",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/2275106/Evolite-Infinium-12000-Rgb-Fb4.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/2275106/Evolite-Infinium-12000-Rgb-Fb4.html"
+        },
+        {
+          "type": "Laser",
+          "name": "Infinium 25000 RGB FB4",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/1936312/Evolite-Infinium-25000-Rgb-Fb4.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/1936312/Evolite-Infinium-25000-Rgb-Fb4.html"
+        },
+        {
+          "type": "Laser",
+          "name": "M2000",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/1507916/Evolite-M2000.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/1507916/Evolite-M2000.html"
+        },
+        {
+          "type": "Laser",
+          "name": "M3000",
+          "modes": [
+            {
+              "name": "12ch",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/2398784/Evolite-M3000.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/2398784/Evolite-M3000.html"
+        },
+        {
+          "type": "Laser Bar",
+          "name": "LaserBar 6X400RGB",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3274946/Evolite-Laserbar-6x400rgb.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3274946/Evolite-Laserbar-6x400rgb.html"
+        },
+        {
+          "type": "Laser Bar",
+          "name": "LaserBar 8X500RED",
+          "modes": [
+            {
+              "name": "10ch",
+              "dmxChannels": 10
+            },
+            {
+              "name": "23ch",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3296879/Evolite-Laserbar-8x500red.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3296879/Evolite-Laserbar-8x500red.html"
+        },
+        {
+          "type": "LED Bar",
+          "name": "MaxBAR 180",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 180,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/2404107/Evolite-Maxbar-180.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/2404107/Evolite-Maxbar-180.html"
+        },
+        {
+          "type": "LED Bar",
+          "name": "MaxBAR RGBW PIX",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 288,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3454176/Evolite-Maxbar-Rgbw-Pix.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3454176/Evolite-Maxbar-Rgbw-Pix.html"
+        },
+        {
+          "type": "LED Bar UV",
+          "name": "MaxBAR 180 UV",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 180,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3296847/Evolite-Maxbar-180-Uv.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3296847/Evolite-Maxbar-180-Uv.html"
+        },
+        {
+          "type": "LED Beam",
+          "name": "Cyclop",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/1965474/Evolite-Cyclop.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/1965474/Evolite-Cyclop.html"
+        },
+        {
+          "type": "LED PAR IP65",
+          "name": "IPARLED 18X12W",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 216,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3663140/Evolite-Iparled-18x12w.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3663140/Evolite-Iparled-18x12w.html"
+        },
+        {
+          "type": "Moving Head Beam",
+          "name": "EVO Beam 100",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/1518638/Evolite-Evo-Beam-100.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/1518638/Evolite-Evo-Beam-100.html"
+        },
+        {
+          "type": "Moving Head Beam",
+          "name": "Evo Beam 100-CR",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/4115331/Evolite-Evo-Beam-100-Cr.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/4115331/Evolite-Evo-Beam-100-Cr.html"
+        },
+        {
+          "type": "Moving Head Beam",
+          "name": "Moving Beam 12x10",
+          "modes": [
+            {
+              "name": "15ch",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head Beam",
+          "name": "Moving Beam 1R",
+          "modes": [
+            {
+              "name": "14ch",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 120,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/1253651/Evolite-Moving-Beam-1r.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/1253651/Evolite-Moving-Beam-1r.html"
+        },
+        {
+          "type": "Moving Head Beam",
+          "name": "Moving Beam 2R MkII",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 130,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/brand/evolite",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head Beam",
+          "name": "Moving Beam 5R MkII",
+          "modes": [
+            {
+              "name": "16ch",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 189,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/brand/evolite",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head Beam",
+          "name": "Moving Beam 7R",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 230,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/1731080/Evolite-Moving-Eam-7r.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/1731080/Evolite-Moving-Eam-7r.html"
+        },
+        {
+          "type": "Moving Head Beam",
+          "name": "Pro LUMINA B120",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 120,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3566520/Evolite-Pro-Lumina-B120.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3566520/Evolite-Pro-Lumina-B120.html"
+        },
+        {
+          "type": "Moving Head Beam (Battery)",
+          "name": "Air Beam 60",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3094721/Evolite-Air-Beam-60.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3094721/Evolite-Air-Beam-60.html"
+        },
+        {
+          "type": "Moving Head Hybrid",
+          "name": "Diamond PLUS",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 760,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/1858119/Evolite-Diamond-Plus.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/1858119/Evolite-Diamond-Plus.html"
+        },
+        {
+          "type": "Moving Head Hybrid",
+          "name": "EVO Fusion 5R",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 189,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/1154863/Evolite-Evo-Fusion-5r.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/1154863/Evolite-Evo-Fusion-5r.html"
+        },
+        {
+          "type": "Moving Head Hybrid",
+          "name": "HYBRID 18R",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 382,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/2869539/Evolite-Hybrid-18r.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/2869539/Evolite-Hybrid-18r.html"
+        },
+        {
+          "type": "Moving Head Hybrid",
+          "name": "LUMINA H380",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 380,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3616182/Evolite-Lumina-H380.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3616182/Evolite-Lumina-H380.html"
+        },
+        {
+          "type": "Moving Head Spot",
+          "name": "Evo Spot 120",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 175,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/1634751/Evolite-Evo-Spot-120.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/1634751/Evolite-Evo-Spot-120.html"
+        },
+        {
+          "type": "Moving Head Spot",
+          "name": "Evo Spot 180",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 180,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/2264435/Evolite-Evo-Spot-180.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/2264435/Evolite-Evo-Spot-180.html"
+        },
+        {
+          "type": "Moving Head Spot",
+          "name": "EVO Spot 60",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/875887/Evolite-Evo-Spot-60.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/875887/Evolite-Evo-Spot-60.html"
+        },
+        {
+          "type": "Moving Head Spot",
+          "name": "Evo Spot 60-CR",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3584821/Evolite-Compact-Range-Series.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3584821/Evolite-Compact-Range-Series.html"
+        },
+        {
+          "type": "Moving Head Spot",
+          "name": "Evo Spot 90",
+          "modes": [],
+          "weightKilogram": 11,
+          "powerWatt": 180,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/1519875/Evolite-Evo-Spot-90.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/1519875/Evolite-Evo-Spot-90.html"
+        },
+        {
+          "type": "Moving Head Wash",
+          "name": "Evo Wash 610-CRz",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/1537222/Evolite-Evo-Wash-610-Crz.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/1537222/Evolite-Evo-Wash-610-Crz.html"
+        },
+        {
+          "type": "Moving Head Wash",
+          "name": "Evo Wash 725 CRZ",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 175,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/4113996/Evolite-Evo-Wash-725-Crz.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/4113996/Evolite-Evo-Wash-725-Crz.html"
+        },
+        {
+          "type": "Moving Head Wash",
+          "name": "EvoWash 1240Z-R",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 480,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3296873/Evolite-Evowash1240z-R.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3296873/Evolite-Evowash1240z-R.html"
+        },
+        {
+          "type": "Moving Head Wash",
+          "name": "LUMINA W1940Z",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 760,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/3616072/Evolite-Lumina-W1940z.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/3616072/Evolite-Lumina-W1940z.html"
+        },
+        {
+          "type": "Moving Head Wash",
+          "name": "Moving Wash 19x12Z",
+          "modes": [
+            {
+              "name": "19ch",
+              "dmxChannels": 19
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/923909/Evolite-Moving-Wash19x12-Z.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/923909/Evolite-Moving-Wash19x12-Z.html"
+        },
+        {
+          "type": "Moving Head Wash",
+          "name": "Moving Wash 3x20C",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/1895236/Evolite-52931.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/1895236/Evolite-52931.html"
+        },
+        {
+          "type": "Moving Head Wash (Battery)",
+          "name": "Air Wash 710z",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 70,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/1536588/Evolite-Air-Series.html",
+          "dmxChartUrl": "https://www.manualslib.com/manual/1536588/Evolite-Air-Series.html"
         }
       ]
     },
@@ -22846,5 +23618,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-04-19T13:37:53.511Z"
+  "updatedAt": "2026-05-04T11:55:11.826Z"
 }
