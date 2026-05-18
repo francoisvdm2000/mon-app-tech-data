@@ -22626,78 +22626,8 @@
       "name": "Vari-Lite",
       "products": [
         {
-          "type": "FLX Console",
-          "name": "Console FLX full-size portable",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/flx-console",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/flx-console"
-        },
-        {
-          "type": "FLX S24 Console",
-          "name": "Console FLX S24 surface 24 faders",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/flx-s24",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/flx-s24"
-        },
-        {
-          "type": "FLX S48 Console",
-          "name": "Console FLX S48 surface 48 faders",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/flx-s48",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/flx-s48"
-        },
-        {
-          "type": "Lens Tube 14-35?",
-          "name": "Lens Tube 14-35? pour VL2600 / VL1600",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products"
-        },
-        {
-          "type": "Lens Tube 7-16?",
-          "name": "Lens Tube 7-16? pour VL2600 / VL1600",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products"
-        },
-        {
-          "type": "NEO X3 Console",
-          "name": "Console d'?clairage entertainment NEO X3 compact",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/neo-x-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/neo-x-series"
-        },
-        {
-          "type": "NEO X5 Console",
-          "name": "Console d'?clairage entertainment NEO X5 24/48 faders",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/x5",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/x5"
-        },
-        {
-          "type": "RigSwitch+ 12ch",
-          "name": "Armoire alimentation relay 12 voies",
+          "type": "Armoire alimentation relay 12 voies",
+          "name": "RigSwitch+ 12ch",
           "modes": [],
           "weightKilogram": 0,
           "powerWatt": 0,
@@ -22706,8 +22636,8 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/rigswitch-plus-series"
         },
         {
-          "type": "RigSwitch+ 24ch",
-          "name": "Armoire alimentation relay 24 voies",
+          "type": "Armoire alimentation relay 24 voies",
+          "name": "RigSwitch+ 24ch",
           "modes": [],
           "weightKilogram": 0,
           "powerWatt": 0,
@@ -22716,8 +22646,8 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/rigswitch-plus-series"
         },
         {
-          "type": "RigSwitch+ 4ch",
-          "name": "Armoire alimentation relay 4 voies",
+          "type": "Armoire alimentation relay 4 voies",
+          "name": "RigSwitch+ 4ch",
           "modes": [],
           "weightKilogram": 0,
           "powerWatt": 0,
@@ -22726,8 +22656,8 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/rigswitch-plus-series"
         },
         {
-          "type": "RigSwitch+ 52ch",
-          "name": "Armoire alimentation relay 52 voies",
+          "type": "Armoire alimentation relay 52 voies",
+          "name": "RigSwitch+ 52ch",
           "modes": [],
           "weightKilogram": 0,
           "powerWatt": 0,
@@ -22736,15 +22666,15 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/rigswitch-plus-series"
         },
         {
-          "type": "Showline SL BAR 640",
-          "name": "Barre LED Showline 6x40W RGBW (discontinu?)",
+          "type": "Bar",
+          "name": "Showline SL BAR 640",
           "modes": [
             {
-              "name": "Pixel 28ch",
+              "name": "Pixel",
               "dmxChannels": 28
             },
             {
-              "name": "Standard 7ch",
+              "name": "Standard",
               "dmxChannels": 7
             }
           ],
@@ -22755,27 +22685,104 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Showline SL NITRO 510C",
-          "name": "Stroboscope/Blinder LED Showline (discontinu?)",
+          "type": "Bar",
+          "name": "VL800 BeamLine",
           "modes": [
             {
-              "name": "Extended 9ch",
-              "dmxChannels": 9
+              "name": "Full",
+              "dmxChannels": 74
             },
             {
-              "name": "Standard 5ch",
-              "dmxChannels": 5
+              "name": "Pixel",
+              "dmxChannels": 62
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 3000,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl800-beamline",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl800-beamline"
+        },
+        {
+          "type": "Beam Wash",
+          "name": "VL10 BeamWash",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 68
+            },
+            {
+              "name": "Pixel",
+              "dmxChannels": 144
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 36
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products",
-          "dmxChartUrl": ""
+          "manualUrl": "https://www.vari-lite.com/global/products/vl10-beamwash",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl10-beamwash"
         },
         {
-          "type": "Vision.Net Controller",
-          "name": "Contr?leur architectural Vision.Net",
+          "type": "Console d'?clairage entertainment NEO X3 compact",
+          "name": "NEO X3 Console",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/neo-x-series",
+          "dmxChartUrl": "https://www.vari-lite.com/global/neo-x-series"
+        },
+        {
+          "type": "Console d'?clairage entertainment NEO X5 24/48 faders",
+          "name": "NEO X5 Console",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/products/x5",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/x5"
+        },
+        {
+          "type": "Console FLX full-size portable",
+          "name": "FLX Console",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/products/flx-console",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/flx-console"
+        },
+        {
+          "type": "Console FLX S24 surface 24 faders",
+          "name": "FLX S24 Console",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/products/flx-s24",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/flx-s24"
+        },
+        {
+          "type": "Console FLX S48 surface 48 faders",
+          "name": "FLX S48 Console",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/products/flx-s48",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/flx-s48"
+        },
+        {
+          "type": "Contr?leur architectural Vision.Net",
+          "name": "Vision.Net Controller",
           "modes": [],
           "weightKilogram": 0,
           "powerWatt": 0,
@@ -22784,25 +22791,44 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/visionnet"
         },
         {
-          "type": "Vision.Net Touchscreen",
-          "name": "?cran tactile Vision.Net mural",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/visionnet",
-          "dmxChartUrl": "https://www.vari-lite.com/global/visionnet"
-        },
-        {
-          "type": "VL Fresnel 3.5 FC",
-          "name": "Fresnel LED fixe compact 7 couleurs RGBACL 100W",
+          "type": "Cyclorama",
+          "name": "VL600 Acclaim Cyc",
           "modes": [
             {
-              "name": "Extended 14ch",
+              "name": "Extended",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
+          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
+        },
+        {
+          "type": "?cran tactile Vision.Net mural",
+          "name": "Vision.Net Touchscreen",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/visionnet",
+          "dmxChartUrl": "https://www.vari-lite.com/global/visionnet"
+        },
+        {
+          "type": "Fresnel",
+          "name": "VL Fresnel 3.5 FC",
+          "modes": [
+            {
+              "name": "Extended",
               "dmxChannels": 14
             },
             {
-              "name": "Standard 7ch",
+              "name": "Standard",
               "dmxChannels": 7
             }
           ],
@@ -22813,8 +22839,8 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl-fresnel-3-5-fc"
         },
         {
-          "type": "VL Fresnel 3.5 WW",
-          "name": "Fresnel LED fixe compact warm white 100W",
+          "type": "Fresnel",
+          "name": "VL Fresnel 3.5 WW",
           "modes": [
             {
               "name": "1ch Dimmer",
@@ -22836,15 +22862,15 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl-fresnel-3-5-ww"
         },
         {
-          "type": "VL Fresnel 7 FC",
-          "name": "Fresnel LED fixe 7 couleurs RGBACL 200W",
+          "type": "Fresnel",
+          "name": "VL Fresnel 7 FC",
           "modes": [
             {
-              "name": "Extended 14ch",
+              "name": "Extended",
               "dmxChannels": 14
             },
             {
-              "name": "Standard 7ch",
+              "name": "Standard",
               "dmxChannels": 7
             }
           ],
@@ -22855,8 +22881,8 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl-fresnel-7-fc"
         },
         {
-          "type": "VL Fresnel 7 WW",
-          "name": "Fresnel LED fixe warm white 200W",
+          "type": "Fresnel",
+          "name": "VL Fresnel 7 WW",
           "modes": [
             {
               "name": "1ch Dimmer",
@@ -22878,15 +22904,81 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl-fresnel-7-ww"
         },
         {
-          "type": "VL PAR 64 LED FC",
-          "name": "PAR 64 LED 7 couleurs RGBACL",
+          "type": "Fresnel",
+          "name": "VL600 Acclaim Fresnel",
           "modes": [
             {
-              "name": "Extended 14ch",
+              "name": "Extended",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Full",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
+          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
+        },
+        {
+          "type": "Fresnel",
+          "name": "VL600 Acclaim Fresnel+",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Full",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 305,
+          "luminousFluxLumen": 15000,
+          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
+          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
+        },
+        {
+          "type": "Lens Tube 14-35? pour VL2600 / VL1600",
+          "name": "Lens Tube 14-35?",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/products",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products"
+        },
+        {
+          "type": "Lens Tube 7-16? pour VL2600 / VL1600",
+          "name": "Lens Tube 7-16?",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/products",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products"
+        },
+        {
+          "type": "Par",
+          "name": "VL PAR 64 LED FC",
+          "modes": [
+            {
+              "name": "Extended",
               "dmxChannels": 14
             },
             {
-              "name": "Standard 7ch",
+              "name": "Standard",
               "dmxChannels": 7
             }
           ],
@@ -22897,8 +22989,8 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl-par-64-led-fc"
         },
         {
-          "type": "VL PAR 64 LED WW",
-          "name": "PAR 64 LED warm white",
+          "type": "Par",
+          "name": "VL PAR 64 LED WW",
           "modes": [
             {
               "name": "1ch Dimmer",
@@ -22916,34 +23008,30 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl-par-64-led-ww"
         },
         {
-          "type": "VL10 BeamWash",
-          "name": "Moving Head Wash/Beam LED 24x60W RGBAL",
+          "type": "Par",
+          "name": "VL600 Acclaim PAR",
           "modes": [
             {
-              "name": "Extended 68ch",
-              "dmxChannels": 68
+              "name": "Extended",
+              "dmxChannels": 11
             },
             {
-              "name": "Pixel 144ch",
-              "dmxChannels": 144
-            },
-            {
-              "name": "Standard 36ch",
-              "dmxChannels": 36
+              "name": "Standard",
+              "dmxChannels": 5
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
+          "powerWatt": 150,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl10-beamwash",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl10-beamwash"
+          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
+          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
         },
         {
-          "type": "VL1000 Series",
-          "name": "Moving Head Profile Discharge HMI 600W (discontinu?)",
+          "type": "Profile",
+          "name": "VL1000 Series",
           "modes": [
             {
-              "name": "16-bit 35ch",
+              "name": "16-bit",
               "dmxChannels": 35
             }
           ],
@@ -22954,15 +23042,15 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "VL1600 Profile",
-          "name": "Moving Head Profile LED 600W Tunable White CMY",
+          "type": "Profile",
+          "name": "VL1600 Profile",
           "modes": [
             {
-              "name": "16-bit 40ch",
+              "name": "16-bit",
               "dmxChannels": 40
             },
             {
-              "name": "16-bit Enhanced 45ch",
+              "name": "16-bit Enhanced",
               "dmxChannels": 45
             }
           ],
@@ -22973,30 +23061,11 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl1600-profile"
         },
         {
-          "type": "VL1600 Spot",
-          "name": "Moving Head Spot LED 600W Tunable White CMY",
+          "type": "Profile",
+          "name": "VL2500 Profile",
           "modes": [
             {
-              "name": "16-bit 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "16-bit Enhanced 45ch",
-              "dmxChannels": 45
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 600,
-          "luminousFluxLumen": 28000,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl1600-spot",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl1600-spot"
-        },
-        {
-          "type": "VL2500 Profile",
-          "name": "Moving Head Profile Discharge HMI 575W (discontinu?)",
-          "modes": [
-            {
-              "name": "16-bit 40ch",
+              "name": "16-bit",
               "dmxChannels": 40
             }
           ],
@@ -23007,65 +23076,16 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "VL2500 Spot",
-          "name": "Moving Head Spot Discharge HMI 575W (discontinu?)",
+          "type": "Profile",
+          "name": "VL2600 SE Profile",
           "modes": [
             {
-              "name": "16-bit 40ch",
-              "dmxChannels": 40
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 575,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "VL2500 Wash",
-          "name": "Moving Head Wash Discharge HMI 575W (discontinu?)",
-          "modes": [
-            {
-              "name": "16-bit 40ch",
-              "dmxChannels": 40
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 575,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "VL2600 Profile (Legacy)",
-          "name": "Moving Head Profile LED 550W (version originale 2017)",
-          "modes": [
-            {
-              "name": "16-bit 46ch",
-              "dmxChannels": 46
+              "name": "16-bit",
+              "dmxChannels": 42
             },
             {
-              "name": "16-bit Enhanced 41ch",
-              "dmxChannels": 41
-            }
-          ],
-          "weightKilogram": 32,
-          "powerWatt": 820,
-          "luminousFluxLumen": 19000,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl2600-profile",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "VL2600 SE Profile",
-          "name": "Moving Head Profile LED 570W",
-          "modes": [
-            {
-              "name": "16-bit 41ch",
-              "dmxChannels": 41
-            },
-            {
-              "name": "16-bit Enhanced 46ch",
-              "dmxChannels": 46
+              "name": "16-bit Enhanced",
+              "dmxChannels": 47
             }
           ],
           "weightKilogram": 0,
@@ -23075,121 +23095,15 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2600-profile"
         },
         {
-          "type": "VL2600 SE Spot",
-          "name": "Moving Head Spot LED 570W",
+          "type": "Profile",
+          "name": "VL3600 LT Profile IP",
           "modes": [
             {
-              "name": "16-bit 41ch",
-              "dmxChannels": 41
-            },
-            {
-              "name": "16-bit Enhanced 46ch",
-              "dmxChannels": 46
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 570,
-          "luminousFluxLumen": 23750,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl2600-spot",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2600-spot"
-        },
-        {
-          "type": "VL2600 SE Wash",
-          "name": "Moving Head Wash LED 570W",
-          "modes": [
-            {
-              "name": "16-bit 41ch",
-              "dmxChannels": 41
-            },
-            {
-              "name": "16-bit Enhanced 46ch",
-              "dmxChannels": 46
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 570,
-          "luminousFluxLumen": 27500,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl2600-wash",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2600-wash"
-        },
-        {
-          "type": "VL2600 Spot (Legacy)",
-          "name": "Moving Head Spot LED 550W (version originale 2017)",
-          "modes": [
-            {
-              "name": "16-bit 46ch",
+              "name": "16-bit",
               "dmxChannels": 46
             },
             {
-              "name": "16-bit Enhanced 41ch",
-              "dmxChannels": 41
-            }
-          ],
-          "weightKilogram": 32,
-          "powerWatt": 820,
-          "luminousFluxLumen": 19000,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl2600-spot",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "VL2600 Wash (Legacy)",
-          "name": "Moving Head Wash LED 550W (version originale 2017)",
-          "modes": [
-            {
-              "name": "16-bit 46ch",
-              "dmxChannels": 46
-            },
-            {
-              "name": "16-bit Enhanced 41ch",
-              "dmxChannels": 41
-            }
-          ],
-          "weightKilogram": 32,
-          "powerWatt": 820,
-          "luminousFluxLumen": 22000,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl2600-wash",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "VL3000 Spot",
-          "name": "Moving Head Spot Discharge HMI 1200W (discontinu?)",
-          "modes": [
-            {
-              "name": "16-bit 37ch",
-              "dmxChannels": 37
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 1200,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "VL3500 Spot",
-          "name": "Moving Head Spot Discharge HMI 750W (discontinu?)",
-          "modes": [
-            {
-              "name": "16-bit 37ch",
-              "dmxChannels": 37
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 750,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "VL3600 LT Profile IP",
-          "name": "Moving Head Profile IP65 LED 1000W long throw",
-          "modes": [
-            {
-              "name": "16-bit 46ch",
-              "dmxChannels": 46
-            },
-            {
-              "name": "16-bit Enhanced 56ch",
+              "name": "16-bit Enhanced",
               "dmxChannels": 56
             }
           ],
@@ -23200,15 +23114,15 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl3600-lt-profile-ip"
         },
         {
-          "type": "VL3600 Profile IP",
-          "name": "Moving Head Profile IP65 LED 1000W",
+          "type": "Profile",
+          "name": "VL3600 Profile IP",
           "modes": [
             {
-              "name": "16-bit 46ch",
+              "name": "16-bit",
               "dmxChannels": 46
             },
             {
-              "name": "16-bit Enhanced 56ch",
+              "name": "16-bit Enhanced",
               "dmxChannels": 56
             }
           ],
@@ -23219,11 +23133,133 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl3600-profile-ip"
         },
         {
-          "type": "VL4000 Spot",
-          "name": "Moving Head Spot Discharge HMI 1200W (discontinu?)",
+          "type": "Profile",
+          "name": "VL600 Acclaim PLE",
           "modes": [
             {
-              "name": "16-bit 37ch",
+              "name": "Extended",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Full",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
+          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
+        },
+        {
+          "type": "Profile",
+          "name": "VL600 Acclaim PLE+",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Full",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 305,
+          "luminousFluxLumen": 15000,
+          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
+          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
+        },
+        {
+          "type": "Profile",
+          "name": "VL600 Acclaim PLZX",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Full",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
+          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
+        },
+        {
+          "type": "Spot",
+          "name": "VL1600 Spot",
+          "modes": [
+            {
+              "name": "16-bit",
+              "dmxChannels": 40
+            },
+            {
+              "name": "16-bit Enhanced",
+              "dmxChannels": 45
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 600,
+          "luminousFluxLumen": 28000,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl1600-spot",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl1600-spot"
+        },
+        {
+          "type": "Spot",
+          "name": "VL2500 Spot",
+          "modes": [
+            {
+              "name": "16-bit",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 575,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/products",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "VL2600 Spot (Legacy)",
+          "modes": [
+            {
+              "name": "16-bit",
+              "dmxChannels": 47
+            },
+            {
+              "name": "16-bit Enhanced",
+              "dmxChannels": 42
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 820,
+          "luminousFluxLumen": 19000,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl2600-spot",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "VL3000 Spot",
+          "modes": [
+            {
+              "name": "16-bit",
               "dmxChannels": 37
             }
           ],
@@ -23234,15 +23270,98 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "VL5LED Wash",
-          "name": "Moving Head Wash LED 18x60W RGBALC (style VL5)",
+          "type": "Spot",
+          "name": "VL3500 Spot",
           "modes": [
             {
-              "name": "16-bit 36ch",
+              "name": "16-bit",
+              "dmxChannels": 37
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/products",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "VL4000 Spot",
+          "modes": [
+            {
+              "name": "16-bit",
+              "dmxChannels": 37
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/products",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Stroboscope",
+          "name": "Showline SL NITRO 510C",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/products",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "VL2500 Wash",
+          "modes": [
+            {
+              "name": "16-bit",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 575,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vari-lite.com/global/products",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "VL2600 SE Wash",
+          "modes": [
+            {
+              "name": "16-bit",
+              "dmxChannels": 42
+            },
+            {
+              "name": "16-bit Enhanced",
+              "dmxChannels": 47
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 570,
+          "luminousFluxLumen": 27500,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl2600-wash",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2600-wash"
+        },
+        {
+          "type": "Wash",
+          "name": "VL5LED Wash",
+          "modes": [
+            {
+              "name": "16-bit",
               "dmxChannels": 36
             },
             {
-              "name": "16-bit Enhanced 44ch",
+              "name": "16-bit Enhanced",
               "dmxChannels": 44
             }
           ],
@@ -23253,164 +23372,11 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/products/v5led-wash"
         },
         {
-          "type": "VL600 Acclaim Cyc",
-          "name": "Cyclorama LED th??tre 150W RGBL",
+          "type": "Wash",
+          "name": "VL6500 Wash",
           "modes": [
             {
-              "name": "Extended 11ch",
-              "dmxChannels": 11
-            },
-            {
-              "name": "Standard 5ch",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 150,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
-        },
-        {
-          "type": "VL600 Acclaim Fresnel",
-          "name": "Fresnel LED th??tre 150W RGBL",
-          "modes": [
-            {
-              "name": "Extended 11ch",
-              "dmxChannels": 11
-            },
-            {
-              "name": "Full 16ch",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Standard 5ch",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 150,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
-        },
-        {
-          "type": "VL600 Acclaim Fresnel+",
-          "name": "Fresnel LED th??tre 305W RGBL Ethercon (version plus)",
-          "modes": [
-            {
-              "name": "Extended 11ch",
-              "dmxChannels": 11
-            },
-            {
-              "name": "Full 16ch",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Standard 5ch",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 305,
-          "luminousFluxLumen": 15000,
-          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
-        },
-        {
-          "type": "VL600 Acclaim PAR",
-          "name": "PAR LED th??tre 150W RGBL",
-          "modes": [
-            {
-              "name": "Extended 11ch",
-              "dmxChannels": 11
-            },
-            {
-              "name": "Standard 5ch",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 150,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
-        },
-        {
-          "type": "VL600 Acclaim PLE",
-          "name": "Profile LED th??tre 150W RGBL",
-          "modes": [
-            {
-              "name": "Extended 11ch",
-              "dmxChannels": 11
-            },
-            {
-              "name": "Full 16ch",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Standard 5ch",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 150,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
-        },
-        {
-          "type": "VL600 Acclaim PLE+",
-          "name": "Profile LED th??tre 305W RGBL Ethercon (version plus)",
-          "modes": [
-            {
-              "name": "Extended 11ch",
-              "dmxChannels": 11
-            },
-            {
-              "name": "Full 16ch",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Standard 5ch",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 305,
-          "luminousFluxLumen": 15000,
-          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
-        },
-        {
-          "type": "VL600 Acclaim PLZX",
-          "name": "Profile LED th??tre 150W RGBL avec Zoom",
-          "modes": [
-            {
-              "name": "Extended 11ch",
-              "dmxChannels": 11
-            },
-            {
-              "name": "Full 16ch",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Standard 5ch",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 150,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
-        },
-        {
-          "type": "VL6500 Wash",
-          "name": "Moving Head Wash LED RGBALC grand format (discontinu?)",
-          "modes": [
-            {
-              "name": "16-bit Enhanced 44ch",
+              "name": "16-bit Enhanced",
               "dmxChannels": 44
             }
           ],
@@ -23421,42 +23387,19 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "VL800 BeamLine",
-          "name": "Moving Head Bar lin?aire 12x40W RGBW effets",
+          "type": "Wash FX",
+          "name": "VLHive 151 Digital FX",
           "modes": [
             {
-              "name": "Full 74ch",
-              "dmxChannels": 74
-            },
-            {
-              "name": "Pixel 62ch",
-              "dmxChannels": 62
-            },
-            {
-              "name": "Standard 24ch",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 3000,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl800-beamline",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl800-beamline"
-        },
-        {
-          "type": "VLHive 151 Digital FX",
-          "name": "Moving Head Wash/FX IP65 RGBL digital 151 emetteurs",
-          "modes": [
-            {
-              "name": "Extended 60ch",
+              "name": "Extended",
               "dmxChannels": 60
             },
             {
-              "name": "Pixel 196ch",
+              "name": "Pixel",
               "dmxChannels": 196
             },
             {
-              "name": "Standard 36ch",
+              "name": "Standard",
               "dmxChannels": 36
             }
           ],
@@ -23618,5 +23561,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-04T11:55:11.826Z"
+  "updatedAt": "2026-05-18T08:53:41.400Z"
 }
