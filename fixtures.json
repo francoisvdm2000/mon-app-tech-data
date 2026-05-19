@@ -22626,46 +22626,6 @@
       "name": "Vari-Lite",
       "products": [
         {
-          "type": "Armoire alimentation relay 12 voies",
-          "name": "RigSwitch+ 12ch",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/rigswitch-plus-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/rigswitch-plus-series"
-        },
-        {
-          "type": "Armoire alimentation relay 24 voies",
-          "name": "RigSwitch+ 24ch",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/rigswitch-plus-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/rigswitch-plus-series"
-        },
-        {
-          "type": "Armoire alimentation relay 4 voies",
-          "name": "RigSwitch+ 4ch",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/rigswitch-plus-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/rigswitch-plus-series"
-        },
-        {
-          "type": "Armoire alimentation relay 52 voies",
-          "name": "RigSwitch+ 52ch",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/rigswitch-plus-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/rigswitch-plus-series"
-        },
-        {
           "type": "Bar",
           "name": "Showline SL BAR 640",
           "modes": [
@@ -22731,66 +22691,6 @@
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl10-beamwash"
         },
         {
-          "type": "Console d'?clairage entertainment NEO X3 compact",
-          "name": "NEO X3 Console",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/neo-x-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/neo-x-series"
-        },
-        {
-          "type": "Console d'?clairage entertainment NEO X5 24/48 faders",
-          "name": "NEO X5 Console",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/x5",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/x5"
-        },
-        {
-          "type": "Console FLX full-size portable",
-          "name": "FLX Console",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/flx-console",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/flx-console"
-        },
-        {
-          "type": "Console FLX S24 surface 24 faders",
-          "name": "FLX S24 Console",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/flx-s24",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/flx-s24"
-        },
-        {
-          "type": "Console FLX S48 surface 48 faders",
-          "name": "FLX S48 Console",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/flx-s48",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/flx-s48"
-        },
-        {
-          "type": "Contr?leur architectural Vision.Net",
-          "name": "Vision.Net Controller",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/visionnet",
-          "dmxChartUrl": "https://www.vari-lite.com/global/visionnet"
-        },
-        {
           "type": "Cyclorama",
           "name": "VL600 Acclaim Cyc",
           "modes": [
@@ -22808,16 +22708,6 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
           "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
-        },
-        {
-          "type": "?cran tactile Vision.Net mural",
-          "name": "Vision.Net Touchscreen",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/visionnet",
-          "dmxChartUrl": "https://www.vari-lite.com/global/visionnet"
         },
         {
           "type": "Fresnel",
@@ -22948,26 +22838,6 @@
           "luminousFluxLumen": 15000,
           "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
           "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
-        },
-        {
-          "type": "Lens Tube 14-35? pour VL2600 / VL1600",
-          "name": "Lens Tube 14-35?",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products"
-        },
-        {
-          "type": "Lens Tube 7-16? pour VL2600 / VL1600",
-          "name": "Lens Tube 7-16?",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products"
         },
         {
           "type": "Par",
@@ -23561,5 +23431,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-18T08:53:41.400Z"
+  "updatedAt": "2026-05-19T00:35:08.037Z"
 }
