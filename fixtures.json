@@ -4310,7 +4310,7 @@
               "dmxChannels": 33
             }
           ],
-          "weightKilogram": 14.5,
+          "weightKilogram": 0,
           "powerWatt": 200,
           "luminousFluxLumen": 0,
           "manualUrl": "Kyalami_Web_EN_V113-1.pdf",
@@ -4325,7 +4325,7 @@
               "dmxChannels": 35
             }
           ],
-          "weightKilogram": 6.6,
+          "weightKilogram": 0,
           "powerWatt": 0,
           "luminousFluxLumen": 5000,
           "manualUrl": "MagicDot-Specification-Sheet-V2.pdf",
@@ -4367,7 +4367,7 @@
               "dmxChannels": 35
             }
           ],
-          "weightKilogram": 30.7,
+          "weightKilogram": 0,
           "powerWatt": 480,
           "luminousFluxLumen": 0,
           "manualUrl": "Cobra2_Web_EN_V116.pdf",
@@ -4597,7 +4597,7 @@
               "dmxChannels": 42
             }
           ],
-          "weightKilogram": 30.8,
+          "weightKilogram": 0,
           "powerWatt": 700,
           "luminousFluxLumen": 30000,
           "manualUrl": "RivaleProfile_Web_EN_V121.pdf",
@@ -4670,7 +4670,7 @@
               "dmxChannels": 37
             }
           ],
-          "weightKilogram": 15.6,
+          "weightKilogram": 0,
           "powerWatt": 550,
           "luminousFluxLumen": 11000,
           "manualUrl": "Nando502Wash_Web_EN_V113.pdf",
@@ -4689,7 +4689,7 @@
               "dmxChannels": 38
             }
           ],
-          "weightKilogram": 30.8,
+          "weightKilogram": 0,
           "powerWatt": 700,
           "luminousFluxLumen": 28000,
           "manualUrl": "RivaleWash_Web_EN_V107-2.pdf",
@@ -4712,7 +4712,7 @@
               "dmxChannels": 22
             }
           ],
-          "weightKilogram": 28.7,
+          "weightKilogram": 0,
           "powerWatt": 1000,
           "luminousFluxLumen": 13500,
           "manualUrl": "MagicPanel-FX_Manual.pdf",
@@ -6864,7 +6864,7 @@
               "dmxChannels": 26
             }
           ],
-          "weightKilogram": 32.5,
+          "weightKilogram": 9.43,
           "powerWatt": 800,
           "luminousFluxLumen": 19000,
           "manualUrl": "https://www.cameolight.com/otus-h25",
@@ -6883,7 +6883,7 @@
               "dmxChannels": 26
             }
           ],
-          "weightKilogram": 32,
+          "weightKilogram": 0,
           "powerWatt": 800,
           "luminousFluxLumen": 30000,
           "manualUrl": "https://www.cameolight.com/otus-s25",
@@ -7522,7 +7522,7 @@
               "dmxChannels": 97
             }
           ],
-          "weightKilogram": 12.1,
+          "weightKilogram": 0,
           "powerWatt": 740,
           "luminousFluxLumen": 71620,
           "manualUrl": "Color_Strike_MV2_UM_Rev15.pdf",
@@ -8407,12 +8407,12 @@
           "name": "Moving Head Hybrid Discharge 900W BSW (Scenius)",
           "modes": [
             {
-              "name": "Extended 40ch",
+              "name": "Standard",
               "dmxChannels": 40
             },
             {
-              "name": "Standard 33ch",
-              "dmxChannels": 33
+              "name": "Vector",
+              "dmxChannels": 44
             }
           ],
           "weightKilogram": 0,
@@ -8585,12 +8585,8 @@
           "name": "Moving Head Beam Discharge 330W",
           "modes": [
             {
-              "name": "14ch",
-              "dmxChannels": 14
-            },
-            {
-              "name": "16ch",
-              "dmxChannels": 16
+              "name": "Standard",
+              "dmxChannels": 31
             }
           ],
           "weightKilogram": 0,
@@ -8604,12 +8600,8 @@
           "name": "Moving Head Beam IP66 Discharge 330W",
           "modes": [
             {
-              "name": "14ch",
-              "dmxChannels": 14
-            },
-            {
-              "name": "16ch",
-              "dmxChannels": 16
+              "name": "Standard",
+              "dmxChannels": 31
             }
           ],
           "weightKilogram": 0,
@@ -12443,12 +12435,8 @@
           "name": "Hyperstar",
           "modes": [
             {
-              "name": "Extended",
-              "dmxChannels": 56
-            },
-            {
               "name": "Standard",
-              "dmxChannels": 28
+              "dmxChannels": 39
             }
           ],
           "weightKilogram": 20,
@@ -12621,12 +12609,8 @@
           "name": "Halcyon Gold",
           "modes": [
             {
-              "name": "Enhanced",
-              "dmxChannels": 54
-            },
-            {
               "name": "Standard",
-              "dmxChannels": 40
+              "dmxChannels": 57
             }
           ],
           "weightKilogram": 0,
@@ -12640,12 +12624,8 @@
           "name": "Halcyon Platinum",
           "modes": [
             {
-              "name": "Enhanced",
-              "dmxChannels": 54
-            },
-            {
               "name": "Standard",
-              "dmxChannels": 40
+              "dmxChannels": 60
             }
           ],
           "weightKilogram": 49.4,
@@ -12659,12 +12639,8 @@
           "name": "Halcyon Titanium",
           "modes": [
             {
-              "name": "Enhanced",
-              "dmxChannels": 54
-            },
-            {
               "name": "Standard",
-              "dmxChannels": 40
+              "dmxChannels": 60
             }
           ],
           "weightKilogram": 41.7,
@@ -12754,12 +12730,8 @@
           "name": "Halcyon Gold",
           "modes": [
             {
-              "name": "Extended",
-              "dmxChannels": 64
-            },
-            {
               "name": "Standard",
-              "dmxChannels": 32
+              "dmxChannels": 57
             }
           ],
           "weightKilogram": 38,
@@ -12773,12 +12745,8 @@
           "name": "Halcyon Platinum",
           "modes": [
             {
-              "name": "Extended",
-              "dmxChannels": 68
-            },
-            {
               "name": "Standard",
-              "dmxChannels": 34
+              "dmxChannels": 60
             }
           ],
           "weightKilogram": 40,
@@ -12792,12 +12760,12 @@
           "name": "Lonestar",
           "modes": [
             {
-              "name": "Extended",
-              "dmxChannels": 60
+              "name": "Standard Protocol",
+              "dmxChannels": 48
             },
             {
-              "name": "Standard",
-              "dmxChannels": 30
+              "name": "Trifusion Protocol",
+              "dmxChannels": 48
             }
           ],
           "weightKilogram": 24,
@@ -12811,12 +12779,12 @@
           "name": "Lonestar Prime",
           "modes": [
             {
-              "name": "Extended",
-              "dmxChannels": 64
+              "name": "Standard Protocol",
+              "dmxChannels": 52
             },
             {
-              "name": "Standard",
-              "dmxChannels": 32
+              "name": "Trifusion Protocol",
+              "dmxChannels": 52
             }
           ],
           "weightKilogram": 23,
@@ -16751,7 +16719,7 @@
           "modes": [
             {
               "name": "Standard",
-              "dmxChannels": 38
+              "dmxChannels": 48
             }
           ],
           "weightKilogram": 23,
@@ -16995,12 +16963,12 @@
           "name": "TurboRay",
           "modes": [
             {
-              "name": "Enhanced",
-              "dmxChannels": 105
+              "name": "Reduced Protocol",
+              "dmxChannels": 25
             },
             {
               "name": "Standard",
-              "dmxChannels": 31
+              "dmxChannels": 53
             }
           ],
           "weightKilogram": 0,
@@ -17033,12 +17001,8 @@
           "name": "Cyberlight LED",
           "modes": [
             {
-              "name": "Enhanced",
-              "dmxChannels": 48
-            },
-            {
               "name": "Standard",
-              "dmxChannels": 36
+              "dmxChannels": 40
             }
           ],
           "weightKilogram": 41,
@@ -19078,7 +19042,7 @@
               "dmxChannels": 81
             }
           ],
-          "weightKilogram": 23.6,
+          "weightKilogram": 0,
           "powerWatt": 900,
           "luminousFluxLumen": 0,
           "manualUrl": "Xled4022rz manual.pdf",
@@ -19235,7 +19199,7 @@
               "dmxChannels": 41
             }
           ],
-          "weightKilogram": 26.5,
+          "weightKilogram": 0,
           "powerWatt": 500,
           "luminousFluxLumen": 23400,
           "manualUrl": "User_manual_Robin_GigaPointe.pdf",
@@ -19297,7 +19261,7 @@
           "type": "Decorative lighting",
           "name": "PATT 2017",
           "modes": [],
-          "weightKilogram": 2.3,
+          "weightKilogram": 0,
           "powerWatt": 210,
           "luminousFluxLumen": 0,
           "manualUrl": "User_manual_PATT_2017.pdf",
@@ -19346,7 +19310,7 @@
               "dmxChannels": 28
             }
           ],
-          "weightKilogram": 3.8,
+          "weightKilogram": 0,
           "powerWatt": 240,
           "luminousFluxLumen": 0,
           "manualUrl": "User_manual_PATT_Driver.pdf",
@@ -19450,7 +19414,7 @@
               "dmxChannels": 128
             }
           ],
-          "weightKilogram": 29.3,
+          "weightKilogram": 0,
           "powerWatt": 600,
           "luminousFluxLumen": 10500,
           "manualUrl": "User_manual_Robin_iTetra2.pdf",
@@ -19485,7 +19449,7 @@
               "dmxChannels": 81
             }
           ],
-          "weightKilogram": 11.3,
+          "weightKilogram": 0,
           "powerWatt": 300,
           "luminousFluxLumen": 5300,
           "manualUrl": "User_manual_Robin_Tetra_1.pdf",
@@ -19520,7 +19484,7 @@
               "dmxChannels": 128
             }
           ],
-          "weightKilogram": 18.1,
+          "weightKilogram": 0,
           "powerWatt": 600,
           "luminousFluxLumen": 10500,
           "manualUrl": "User_manual_Robin_Tetra_2.pdf",
@@ -19674,7 +19638,7 @@
               "dmxChannels": 51
             }
           ],
-          "weightKilogram": 28.2,
+          "weightKilogram": 0,
           "powerWatt": 950,
           "luminousFluxLumen": 34000,
           "manualUrl": "User_manual_Robin_Esprite.pdf",
@@ -19786,15 +19750,15 @@
           "modes": [
             {
               "name": "Mode 1 - CMY/RGB",
-              "dmxChannels": 33
+              "dmxChannels": 49
             },
             {
               "name": "Mode 2 - Reduced CMY/RGB",
-              "dmxChannels": 21
+              "dmxChannels": 33
             },
             {
               "name": "Mode 3 - Five colours",
-              "dmxChannels": 37
+              "dmxChannels": 53
             }
           ],
           "weightKilogram": 0,
@@ -20086,7 +20050,7 @@
               "dmxChannels": 16
             }
           ],
-          "weightKilogram": 5.7,
+          "weightKilogram": 0,
           "powerWatt": 220,
           "luminousFluxLumen": 3550,
           "manualUrl": "User_manual_Robin_LEDBeam_150_150Q.pdf",
@@ -23431,5 +23395,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-05-19T00:35:08.037Z"
+  "updatedAt": "2026-06-01T11:15:18.555Z"
 }
