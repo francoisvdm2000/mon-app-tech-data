@@ -2872,6 +2872,150 @@
       ]
     },
     {
+      "name": "Altman",
+      "products": [
+        {
+          "type": "AFS-500",
+          "name": "LED Follow Spot 490W",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 490,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.altmanlighting.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Alpine Cyc",
+          "name": "LED Cyclorama",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.altmanlighting.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Aurora",
+          "name": "LED Downlight Zoom Motoris?",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 70,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.altmanlighting.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Hydra AIP-200",
+          "name": "LED Par RGBL IP65 200W Zoom",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 6.1,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.altmanlighting.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PHX LED 150W",
+          "name": "LED Profile Sc?nique 150W",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.altmanlighting.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PHX LED 250W",
+          "name": "LED Profile Sc?nique 250W",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 250,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.altmanlighting.com/wp-content/uploads/2022/06/PHX_LED_USER_MANUAL_49-0221_20220613-compressed.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spectra Cyc",
+          "name": "LED Cyclorama RGBA 100W",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.altmanlighting.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spectra UV30",
+          "name": "LED UV 30W",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 30,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.altmanlighting.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Summit Par",
+          "name": "LED Par Sc?nique",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.altmanlighting.com/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Astera",
       "products": [
         {
@@ -7288,6 +7432,277 @@
           "luminousFluxLumen": 10000,
           "manualUrl": "https://www.cameolight.com/en/",
           "dmxChartUrl": "https://open-fixture-library.org"
+        }
+      ]
+    },
+    {
+      "name": "Chauvet DJ",
+      "products": [
+        {
+          "type": "COLORband PiX",
+          "name": "LED Bar RGB Pixel",
+          "modes": [
+            {
+              "name": "Pixel",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 42,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "EVE P-100 WW",
+          "name": "LED Par Blanc Chaud 100W",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "EVE P-130 RGB",
+          "name": "LED Par RGB 130W",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 54,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Freedom H1",
+          "name": "LED Par Battery RGBAW+UV",
+          "modes": [
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 36,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "GigBAR 2",
+          "name": "Multi-effet LED Bar",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 11
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 115,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Intimidator Spot 110",
+          "name": "Moving Head Spot 10W LED",
+          "modes": [
+            {
+              "name": "12 Channel",
+              "dmxChannels": 12
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 2.3,
+          "powerWatt": 41,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.chauvetdj.com/wp-content/uploads/2018/08/Intimidator_Spot_110_UM_Rev2.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Intimidator Spot 160",
+          "name": "Moving Head Spot 30W LED",
+          "modes": [
+            {
+              "name": "15 Channel",
+              "dmxChannels": 15
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Intimidator Spot 260",
+          "name": "Moving Head Spot 75W LED",
+          "modes": [
+            {
+              "name": "14 Channel",
+              "dmxChannels": 14
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 5.6,
+          "powerWatt": 107,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.chauvetdj.com/wp-content/uploads/2018/08/Intimidator_Spot_260_UM_Rev3.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Megastrobe FX12",
+          "name": "LED Stroboscope",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 135,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "SlimPAR Pro H USB",
+          "name": "LED Par RGBAW+UV",
+          "modes": [
+            {
+              "name": "12 Channel",
+              "dmxChannels": 12
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 3.3,
+          "powerWatt": 97.5,
+          "luminousFluxLumen": 1827,
+          "manualUrl": "https://www.chauvetdj.com/wp-content/uploads/2016/01/SlimPAR_Pro_H_USB_UM_Rev2_WO-1.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "SlimPAR Pro QZ12",
+          "name": "LED Par Quad RGBW",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "SlimPAR Pro RGBA",
+          "name": "LED Par RGBA",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 54,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "SlimPAR T12 USB",
+          "name": "LED Par RGB Tri",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 36,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "WashFX",
+          "name": "LED Wash Effect RGBA",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -17365,6 +17780,388 @@
       ]
     },
     {
+      "name": "JB Systems",
+      "products": [
+        {
+          "type": "CHALLENGER BEAM",
+          "name": "Moving Head Beam 200W LED",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/challenger-beam",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "CHALLENGER BSW",
+          "name": "Moving Head BSW 150W LED",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 17
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/challenger-bsw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "CHALLENGER WASH",
+          "name": "Moving Head Wash 7?40W RGBW",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Pixel",
+              "dmxChannels": 38
+            },
+            {
+              "name": "Pixel Extended",
+              "dmxChannels": 43
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 280,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/challenger-wash",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "CLUBWASH 2",
+          "name": "LED Wash 7?15W RGBW",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 30
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 105,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/clubwash-2",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "CLUBWASH MINI",
+          "name": "LED Wash Mini 7?10W RGBW",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 70,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/clubwash-mini",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "EXPLORER SPOT",
+          "name": "Moving Head Spot 120W LED",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 120,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/explorer-spot",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "KINETIC",
+          "name": "Kinetic Moving Head LED",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 10
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/kinetic",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED PAR64FC ZOOM",
+          "name": "LED Par 64 RGBW Zoom",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/led-par64fc-zoom",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PIXBAR 12TC",
+          "name": "LED Bar 12?RGBW",
+          "modes": [
+            {
+              "name": "Pixel",
+              "dmxChannels": 48
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/pixbar-12tc",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PIXELTUBE",
+          "name": "LED Pixel Tube",
+          "modes": [
+            {
+              "name": "Pixel",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 20,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/pixeltube",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "QUADRA MOVE",
+          "name": "Moving Head 4-t?tes LED",
+          "modes": [
+            {
+              "name": "Pixel",
+              "dmxChannels": 73
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 25
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/quadra-move",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "RIVAL BEAM",
+          "name": "Moving Head Beam IP65",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/rival-beam",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "RIVAL SPOT",
+          "name": "Moving Head BSW 300W LED IP65",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 17
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/rival-spot",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "ROTOGOBO ZOOM",
+          "name": "Gobo Effect LED Zoom",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 30,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/rotogobo-zoom",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "SUNBAR COMBI Mk2",
+          "name": "LED RGBW+W Bar",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/sunbar-combi-mk2",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "SUNBAR WHITE Mk2",
+          "name": "LED White Bar",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/sunbar-white-mk2",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "UFO X1",
+          "name": "LED Wash Effect 6?40W RGBW",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 17
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 240,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/ufo",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "UFO X4",
+          "name": "Multi-effet Laser+Strobe+RGBW+RGB",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 25
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 17
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 90,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/ufo-x4",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "VECTOR SCAN",
+          "name": "Scanner LED Effect",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 30,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://jb-systems.eu/vector-scan",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "JB-Lighting",
       "products": [
         {
@@ -18435,8 +19232,8 @@
       "name": "Minuit Une",
       "products": [
         {
-          "type": "Immersive",
-          "name": "IVL Dice",
+          "type": "IVL",
+          "name": "Dice",
           "modes": [
             {
               "name": "Mode 1 (Basic)",
@@ -18454,8 +19251,8 @@
           "dmxChartUrl": "https://minuitune.com/dice"
         },
         {
-          "type": "Immersive",
-          "name": "IVL Photon",
+          "type": "IVL",
+          "name": "Photon",
           "modes": [
             {
               "name": "Extended (Creative)",
@@ -18473,8 +19270,8 @@
           "dmxChartUrl": "https://minuitune.com/photon"
         },
         {
-          "type": "Immersive",
-          "name": "IVL Pyramide",
+          "type": "IVL",
+          "name": "Pyramide",
           "modes": [
             {
               "name": "Mode 1",
@@ -18492,8 +19289,8 @@
           "dmxChartUrl": "https://minuitune.com/pyramide"
         },
         {
-          "type": "Immersive",
-          "name": "IVL Square (Carr?)",
+          "type": "IVL",
+          "name": "Square",
           "modes": [
             {
               "name": "Mode 1",
@@ -19165,6 +19962,253 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.prg.com/longbow",
           "dmxChartUrl": "https://www.prg.com/dmx/longbow"
+        }
+      ]
+    },
+    {
+      "name": "Prolights",
+      "products": [
+        {
+          "type": "DIAMOND19",
+          "name": "LED Moving Head Matrix 19?30W",
+          "modes": [
+            {
+              "name": "Pixel",
+              "dmxChannels": 66
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 570,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.prolights.it/en/product/DIAMOND19",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "EclMiniProfile WDMX",
+          "name": "LED Mini Profile Wireless DMX",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://prolights.it/en/product/MINIECLWD",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "EclProfile FW",
+          "name": "LED Profile Full White",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.prolights.it/en/product/ECLFW",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "HaluPix DUO",
+          "name": "LED Matrix Panel 500W RGBWW+Blanc",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.prolights.it/en/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Jet Hybrid200",
+          "name": "Moving Head Beam/Spot 200W LED",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.prolights.it/en/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Jet Profile300LT",
+          "name": "LED Profile 300W Long Throw CMY",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 300,
+          "luminousFluxLumen": 12000,
+          "manualUrl": "https://www.prolights.it/en/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PIXPAN16",
+          "name": "LED Pixel Bar 16?15W motoris?",
+          "modes": [
+            {
+              "name": "Pixel",
+              "dmxChannels": 64
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 240,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.prolights.it/en/product/PIXPAN16",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "POLAR3000",
+          "name": "LED Stroboscope/Wash 3000W",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 3000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.prolights.it/en/product/POLAR3000",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Ra 3000Profile",
+          "name": "LED Profile CRI90 Haute Puissance",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 300,
+          "luminousFluxLumen": 18576,
+          "manualUrl": "https://prolights.it/en/product/RA3000PROFILE",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "REFLEX",
+          "name": "LED Moving Head Wash",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 350,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://prolights.it/en/product/REFLEX",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "SMARTBAT",
+          "name": "LED Par Battery RGBW",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.prolights.it/en/product/SMARTBAT",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "SunRise 2FLXFC",
+          "name": "LED Blinder IP65 2?300W RGBWW+Ambre",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 600,
+          "luminousFluxLumen": 32000,
+          "manualUrl": "https://www.prolights.it/en/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "V700SPOT",
+          "name": "Moving Head Spot 700W MSR",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "22 Channel",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 32.6,
+          "powerWatt": 850,
+          "luminousFluxLumen": 56000,
+          "manualUrl": "https://www.prolights.it/en/product/V700SPOT",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "VersaPar",
+          "name": "LED Par RGBW",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.prolights.it/en/product/VERSAPAR",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -21383,6 +22427,135 @@
       ]
     },
     {
+      "name": "SE Lighting",
+      "products": [
+        {
+          "type": "DMX Flood Light 100W",
+          "name": "LED Projecteur DMX 100W RGBW",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 4.5,
+          "powerWatt": 100,
+          "luminousFluxLumen": 5000,
+          "manualUrl": "https://se.lighting/manufacturer/dmx-flood-light/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "DMX Flood Light 150W",
+          "name": "LED Projecteur DMX 150W RGBW",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 7500,
+          "manualUrl": "https://se.lighting/manufacturer/dmx-flood-light/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "DMX Flood Light 200W",
+          "name": "LED Projecteur DMX 200W RGBW",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 200,
+          "luminousFluxLumen": 10000,
+          "manualUrl": "https://se.lighting/manufacturer/dmx-flood-light/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "DMX Flood Light 300W",
+          "name": "LED Projecteur DMX 300W RGBW",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 300,
+          "luminousFluxLumen": 15000,
+          "manualUrl": "https://se.lighting/manufacturer/dmx-flood-light/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "DMX LED Strip",
+          "name": "Ruban LED DMX Adressable RGBW",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 5,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://se.lighting/manufacturer/led-strip-light/dmx-led-strip/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "DMX Tube Light",
+          "name": "LED Tube Pixel DMX RGB",
+          "modes": [
+            {
+              "name": "Pixel",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 20,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://se.lighting/manufacturer/dmx-tube-lights/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED Wall Washer 18W",
+          "name": "LED Wall Washer DMX 18W RGB",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 18,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://se.lighting/manufacturer/led-wall-washer-light/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED Wall Washer 18W",
+          "name": "LED Wash Bar DMX 18W RGB",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 18,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://se.lighting/manufacturer/led-wall-washer-light/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "SGM",
       "products": [
         {
@@ -21682,6 +22855,201 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://sgmlight.com/products/x-5",
           "dmxChartUrl": "https://sgmlight.com/products/x-5"
+        }
+      ]
+    },
+    {
+      "name": "Shehds",
+      "products": [
+        {
+          "type": "350W 17R Hybrid",
+          "name": "Moving Head BSW 350W 17R",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "24 Channel",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 350,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://shehds.com/products/beam-spot-wash-350w-lighting-17r-bulb-for-event-concert-nightclub-international-standard-dmx512-moving-head-light-indoor",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED 19?15W Zoom Wash",
+          "name": "Moving Head Wash 19?15W RGBW",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 285,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://shehds.com/products/led-moving-head-19x15w-rgbw-wash-zoom-stage-lights-professional-dj-bar-led-stage-machine-dmx512-led-zoom-beam",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED Bee Eye 6?15W",
+          "name": "Moving Head Wash Bee Eye 6?15W RGBW",
+          "modes": [
+            {
+              "name": "11 Channel",
+              "dmxChannels": 11
+            },
+            {
+              "name": "14 Channel",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 90,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://shehds.com/products/high-quality-fast-shipping-led-beamwash-6x12w-rgbw-4in1-bees-eyes-led-moving-head-light-with-excellent-pragrams-11-14-channels",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED BSW 150W 3IN1",
+          "name": "Moving Head Beam/Spot/Zoom 150W LED",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "18 Channel",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://shehds.com/products/150w-beam-pattern-lamp-moving-head-lamp-stage-lamp-event-lighting",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED BSW 160W 3IN1",
+          "name": "Moving Head Beam/Spot/Zoom 160W LED",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 160,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://shehds.com/products/new-arrival-led-beam-spot-zoom-160w-3in1-moving-head-lighting-stage-performance-dj-equipment-spotlight-dj-disco-stage-moving-head-lights",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED Flat Par 18?18W",
+          "name": "LED Par 18?18W 6-en-1",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 324,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://shehds.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED Flat Par 54?3W",
+          "name": "LED Par 54?3W RGB",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 162,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://shehds.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED Flat Par 7?18W RGBWA+UV",
+          "name": "LED Par RGBWA+UV 7?18W",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 126,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://shehds.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED Spot 60W",
+          "name": "Moving Head Spot 60W LED",
+          "modes": [
+            {
+              "name": "11 Channel",
+              "dmxChannels": 11
+            },
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 3.2,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://shehds.com/products/good-technology-led-60w-gobos-moving-head-lighting-for-dmx512-stage-effect-dj-festivals-disco-home-entertainments-in-9-11-channels",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED Strobe Wash 200W",
+          "name": "LED Strobe/Wash 200W 36?LED",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Pixel",
+              "dmxChannels": 146
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://shehds.com/blogs/news/shehds-200w-36-led-ultimate-moving-head-wash-strobe-for-professionals",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -23246,6 +24614,117 @@
       ]
     },
     {
+      "name": "Vello",
+      "products": [
+        {
+          "type": "LED Bee Eyes K20",
+          "name": "Moving Head Wash Bee Eye 19?40W RGBW",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vellolight.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED Bee Eyes K7",
+          "name": "Moving Head Wash Bee Eye 7?60W RGBW",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vellolight.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Solar Par 200 RGBW",
+          "name": "LED Par RGBW IP65 200W",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vellolight.com/a-products/solar-par-200-rgbw/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Storm 2500IP",
+          "name": "LED Strobe/Wash IP65 800W",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vellolight.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "VELLO 24",
+          "name": "LED Par Battery RGBW 4-en-1",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 24,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vellolight.com/a-products/vello-24-4in1-battery-par-light/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wireless DMX 24 Par",
+          "name": "LED Par RGBW Wireless DMX",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 24,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.vellolight.com/a-products/vello-wireless-dmx-24-led-par/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Zap Technology",
       "products": [
         {
@@ -23395,5 +24874,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-06-01T11:15:18.555Z"
+  "updatedAt": "2026-06-01T11:36:20.221Z"
 }
