@@ -23436,6 +23436,1450 @@
       ]
     },
     {
+      "name": "Spotlight",
+      "products": [
+        {
+          "type": "CYC LED 300 RGBW",
+          "name": "Cyclorama LED 300W RGBW",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 14,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://spotlight.it/en/cyclorama-2/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "CYC LED 600 RGBW",
+          "name": "Cyclorama LED 600W RGBW",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 22,
+          "powerWatt": 600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://spotlight.it/en/cyclorama-2/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "DL LED 85 WW",
+          "name": "Downlight LED 85W Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 1.5,
+          "powerWatt": 85,
+          "luminousFluxLumen": 2800,
+          "manualUrl": "https://spotlight.it/en/downlight-2/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 100 6C",
+          "name": "Fresnel LED 100W 6 Couleurs",
+          "modes": [
+            {
+              "name": "22 Channel",
+              "dmxChannels": 22
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 3.5,
+          "powerWatt": 100,
+          "luminousFluxLumen": 2700,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 100 RGBW",
+          "name": "Fresnel LED 100W RGBW",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 3.5,
+          "powerWatt": 100,
+          "luminousFluxLumen": 2400,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 100 TW",
+          "name": "Fresnel LED 100W Blanc R?glable",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 3.5,
+          "powerWatt": 100,
+          "luminousFluxLumen": 3200,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 100 WW",
+          "name": "Fresnel LED 100W Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 3.5,
+          "powerWatt": 100,
+          "luminousFluxLumen": 5500,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 200 6C",
+          "name": "Fresnel LED 200W 6 Couleurs",
+          "modes": [
+            {
+              "name": "22 Channel",
+              "dmxChannels": 22
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 200,
+          "luminousFluxLumen": 5224,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 200 RGBW",
+          "name": "Fresnel LED 200W RGBW",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 200,
+          "luminousFluxLumen": 4506,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 200 TW",
+          "name": "Fresnel LED 200W Blanc R?glable TW",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 200,
+          "luminousFluxLumen": 6530,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 200 WW",
+          "name": "Fresnel LED 200W Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 200,
+          "luminousFluxLumen": 10877,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 300 6C",
+          "name": "Fresnel LED 300W 6 Couleurs",
+          "modes": [
+            {
+              "name": "22 Channel",
+              "dmxChannels": 22
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 9.5,
+          "powerWatt": 300,
+          "luminousFluxLumen": 7486,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 300 RGBW",
+          "name": "Fresnel LED 300W RGBW",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 9.5,
+          "powerWatt": 300,
+          "luminousFluxLumen": 8666,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 300 TW",
+          "name": "Fresnel LED 300W Blanc R?glable TW",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 9.5,
+          "powerWatt": 300,
+          "luminousFluxLumen": 9096,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 300 WW",
+          "name": "Fresnel LED 300W Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 9.5,
+          "powerWatt": 300,
+          "luminousFluxLumen": 8591,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 700 8C",
+          "name": "Fresnel LED 700W 8 Couleurs",
+          "modes": [
+            {
+              "name": "11 Channel",
+              "dmxChannels": 11
+            },
+            {
+              "name": "26 Channel",
+              "dmxChannels": 26
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 700,
+          "luminousFluxLumen": 12700,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 700 TW",
+          "name": "Fresnel LED 700W Blanc R?glable TW",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 700,
+          "luminousFluxLumen": 15500,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FN HY LED 700 WW",
+          "name": "Fresnel LED 700W Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 700,
+          "luminousFluxLumen": 14600,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FS HY LED 300 MARK II",
+          "name": "Followspot LED 300W CW",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 300,
+          "luminousFluxLumen": 16000,
+          "manualUrl": "https://spotlight.it/en/followspot-2/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "FS HY LED 700",
+          "name": "Followspot LED 700W CW",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 36,
+          "powerWatt": 700,
+          "luminousFluxLumen": 48600,
+          "manualUrl": "https://spotlight.it/en/followspot-2/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "MP LED 30 WW",
+          "name": "Mini-Profile LED 30W Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 1,
+          "powerWatt": 30,
+          "luminousFluxLumen": 480,
+          "manualUrl": "https://spotlight.it/en/pinspot-profile/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "ONE DL IP65",
+          "name": "Downlight LED IP65 Outdoor",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 1.5,
+          "powerWatt": 40,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://spotlight.it/en/spotlightone/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "ONE FN PC IP65",
+          "name": "Fresnel/PC LED IP65 Outdoor",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 4.5,
+          "powerWatt": 100,
+          "luminousFluxLumen": 5000,
+          "manualUrl": "https://spotlight.it/en/spotlightone/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 100 6C",
+          "name": "PC LED 100W 6 Couleurs",
+          "modes": [
+            {
+              "name": "22 Channel",
+              "dmxChannels": 22
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 100,
+          "luminousFluxLumen": 2400,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 100 RGBW",
+          "name": "PC LED 100W RGBW",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 100,
+          "luminousFluxLumen": 2200,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 100 TW",
+          "name": "PC LED 100W Blanc R?glable",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 100,
+          "luminousFluxLumen": 3000,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 100 WW",
+          "name": "PC LED 100W Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 100,
+          "luminousFluxLumen": 5200,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 200 6C",
+          "name": "PC LED 200W 6 Couleurs",
+          "modes": [
+            {
+              "name": "22 Channel",
+              "dmxChannels": 22
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 200,
+          "luminousFluxLumen": 4793,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 200 RGBW",
+          "name": "PC LED 200W RGBW",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 200,
+          "luminousFluxLumen": 4425,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 200 TW",
+          "name": "PC LED 200W Blanc R?glable TW",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 200,
+          "luminousFluxLumen": 5991,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 200 WW",
+          "name": "PC LED 200W Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 200,
+          "luminousFluxLumen": 10555,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 300 6C",
+          "name": "PC LED 300W 6 Couleurs",
+          "modes": [
+            {
+              "name": "22 Channel",
+              "dmxChannels": 22
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 12.5,
+          "powerWatt": 300,
+          "luminousFluxLumen": 6398,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 300 RGBW",
+          "name": "PC LED 300W RGBW",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 12.5,
+          "powerWatt": 300,
+          "luminousFluxLumen": 6526,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 300 TW",
+          "name": "PC LED 300W Blanc R?glable TW",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 12.5,
+          "powerWatt": 300,
+          "luminousFluxLumen": 10166,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 300 WW",
+          "name": "PC LED 300W Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 12.5,
+          "powerWatt": 300,
+          "luminousFluxLumen": 8628,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 700 8C",
+          "name": "PC LED 700W 8 Couleurs",
+          "modes": [
+            {
+              "name": "11 Channel",
+              "dmxChannels": 11
+            },
+            {
+              "name": "26 Channel",
+              "dmxChannels": 26
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 700,
+          "luminousFluxLumen": 13000,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 700 TW",
+          "name": "PC LED 700W Blanc R?glable TW",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 700,
+          "luminousFluxLumen": 15900,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PC HY LED 700 WW",
+          "name": "PC LED 700W Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 700,
+          "luminousFluxLumen": 15000,
+          "manualUrl": "https://spotlight.it/en/fresnel-pc-hyperon/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 100 ZS 6C",
+          "name": "Profile LED 100W ZS 6 Couleurs",
+          "modes": [
+            {
+              "name": "22 Channel",
+              "dmxChannels": 22
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 100,
+          "luminousFluxLumen": 1300,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 100 ZS RGBW",
+          "name": "Profile LED 100W ZS RGBW",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 100,
+          "luminousFluxLumen": 1200,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 100 ZS TW",
+          "name": "Profile LED 100W ZS Blanc R?glable",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 100,
+          "luminousFluxLumen": 1600,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 100 ZS WW",
+          "name": "Profile LED 100W ZS Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 100,
+          "luminousFluxLumen": 1800,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 100 ZW RGBW",
+          "name": "Profile LED 100W ZW RGBW",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 5.5,
+          "powerWatt": 100,
+          "luminousFluxLumen": 1300,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 100 ZW TW",
+          "name": "Profile LED 100W ZW Blanc R?glable",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 5.5,
+          "powerWatt": 100,
+          "luminousFluxLumen": 1700,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 100 ZW WW",
+          "name": "Profile LED 100W ZW Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 5.5,
+          "powerWatt": 100,
+          "luminousFluxLumen": 1900,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 200 ZS 6C",
+          "name": "Profile LED 200W ZS 6 Couleurs",
+          "modes": [
+            {
+              "name": "22 Channel",
+              "dmxChannels": 22
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 11.5,
+          "powerWatt": 200,
+          "luminousFluxLumen": 3099,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 200 ZS RGBW",
+          "name": "Profile LED 200W ZS RGBW",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 11.5,
+          "powerWatt": 200,
+          "luminousFluxLumen": 2944,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 200 ZS TW",
+          "name": "Profile LED 200W ZS Blanc R?glable",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 11.5,
+          "powerWatt": 200,
+          "luminousFluxLumen": 3874,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 200 ZS WW",
+          "name": "Profile LED 200W ZS Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 11.5,
+          "powerWatt": 200,
+          "luminousFluxLumen": 3471,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 200 ZW 6C",
+          "name": "Profile LED 200W ZW 6 Couleurs",
+          "modes": [
+            {
+              "name": "22 Channel",
+              "dmxChannels": 22
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 10.9,
+          "powerWatt": 200,
+          "luminousFluxLumen": 3256,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 200 ZW RGBW",
+          "name": "Profile LED 200W ZW RGBW",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 10.9,
+          "powerWatt": 200,
+          "luminousFluxLumen": 3093,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 200 ZW TW",
+          "name": "Profile LED 200W ZW Blanc R?glable",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 10.9,
+          "powerWatt": 200,
+          "luminousFluxLumen": 4233,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 200 ZW WW",
+          "name": "Profile LED 200W ZW Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 10.9,
+          "powerWatt": 200,
+          "luminousFluxLumen": 3647,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 300 ZS 6C",
+          "name": "Profile LED 300W ZS 6 Couleurs",
+          "modes": [
+            {
+              "name": "22 Channel",
+              "dmxChannels": 22
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 300,
+          "luminousFluxLumen": 4750,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 300 ZS RGBW",
+          "name": "Profile LED 300W ZS RGBW",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 300,
+          "luminousFluxLumen": 4845,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 300 ZS TW",
+          "name": "Profile LED 300W ZS Blanc R?glable",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 300,
+          "luminousFluxLumen": 6666,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 300 ZS WW",
+          "name": "Profile LED 300W ZS Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 300,
+          "luminousFluxLumen": 7036,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 300 ZW 6C",
+          "name": "Profile LED 300W ZW 6 Couleurs",
+          "modes": [
+            {
+              "name": "22 Channel",
+              "dmxChannels": 22
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 14,
+          "powerWatt": 300,
+          "luminousFluxLumen": 5455,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 300 ZW RGBW",
+          "name": "Profile LED 300W ZW RGBW",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 14,
+          "powerWatt": 300,
+          "luminousFluxLumen": 5564,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 300 ZW TW",
+          "name": "Profile LED 300W ZW Blanc R?glable",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 14,
+          "powerWatt": 300,
+          "luminousFluxLumen": 8265,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 300 ZW WW",
+          "name": "Profile LED 300W ZW Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 14,
+          "powerWatt": 300,
+          "luminousFluxLumen": 8724,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 700 ZS 8C",
+          "name": "Profile LED 700W ZS 8 Couleurs",
+          "modes": [
+            {
+              "name": "26 Channel",
+              "dmxChannels": 26
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 31,
+          "powerWatt": 700,
+          "luminousFluxLumen": 9900,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 700 ZS TW",
+          "name": "Profile LED 700W ZS Blanc R?glable",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 31,
+          "powerWatt": 700,
+          "luminousFluxLumen": 13500,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 700 ZS WW",
+          "name": "Profile LED 700W ZS Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 31,
+          "powerWatt": 700,
+          "luminousFluxLumen": 11900,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 700 ZW 8C",
+          "name": "Profile LED 700W ZW 8 Couleurs",
+          "modes": [
+            {
+              "name": "26 Channel",
+              "dmxChannels": 26
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 700,
+          "luminousFluxLumen": 10700,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 700 ZW TW",
+          "name": "Profile LED 700W ZW Blanc R?glable",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 700,
+          "luminousFluxLumen": 14300,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PR HY LED 700 ZW WW",
+          "name": "Profile LED 700W ZW Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 700,
+          "luminousFluxLumen": 12500,
+          "manualUrl": "https://spotlight.it/en/profile-hyperion/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PS LED 30 WW",
+          "name": "Pinspot LED 30W Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0.8,
+          "powerWatt": 30,
+          "luminousFluxLumen": 500,
+          "manualUrl": "https://spotlight.it/en/pinspot-profile/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "SL LED 30 WW",
+          "name": "Superlucciola LED 30W Blanc Fixe",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0.9,
+          "powerWatt": 30,
+          "luminousFluxLumen": 500,
+          "manualUrl": "https://spotlight.it/en/pinspot-profile/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Starway",
       "products": [
         {
@@ -24874,5 +26318,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-06-01T11:36:20.221Z"
+  "updatedAt": "2026-06-04T08:06:20.317Z"
 }
