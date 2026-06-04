@@ -3016,6 +3016,252 @@
       ]
     },
     {
+      "name": "Antari",
+      "products": [
+        {
+          "type": "Hazer",
+          "name": "HZ-500",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 31.5,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://antari.com/products/hz-500/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Smoke",
+          "name": "IP-1500",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://antari.com/products/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Smoke",
+          "name": "Z-1500 III",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 13.3,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://antari.com/products/z-1500-iii-fog-machine/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Smoke",
+          "name": "Z-3000 III",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 19.1,
+          "powerWatt": 2500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://antari.com/products/z-3000-iii-fog-machine/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Snow machine",
+          "name": "S-200",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 7,
+          "powerWatt": 700,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://antari.com/products/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "ARRI",
+      "products": [
+        {
+          "type": "Fresnel",
+          "name": "L10-C",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 12.3,
+          "powerWatt": 290,
+          "luminousFluxLumen": 6500,
+          "manualUrl": "https://www.arri.com/en/lighting/led-fresnels/l-series/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "L5-C",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 6.6,
+          "powerWatt": 95,
+          "luminousFluxLumen": 2000,
+          "manualUrl": "https://www.arri.com/en/lighting/led-fresnels/l-series/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "L7-C",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 8.2,
+          "powerWatt": 190,
+          "luminousFluxLumen": 4200,
+          "manualUrl": "https://www.arri.com/en/lighting/led-fresnels/l-series/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Soft Light",
+          "name": "SkyPanel S120-C",
+          "modes": [
+            {
+              "name": "P1 CCT+RGBW 8ch",
+              "dmxChannels": 8
+            },
+            {
+              "name": "P2 CCT 3ch",
+              "dmxChannels": 3
+            },
+            {
+              "name": "P4 RGBW 5ch",
+              "dmxChannels": 5
+            },
+            {
+              "name": "P6 Full 16ch",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 17,
+          "powerWatt": 840,
+          "luminousFluxLumen": 23000,
+          "manualUrl": "https://www.arri.com/en/lighting/led-panel-lights/skypanel-classic/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Soft Light",
+          "name": "SkyPanel S30-C",
+          "modes": [
+            {
+              "name": "P1 CCT+RGBW 8ch",
+              "dmxChannels": 8
+            },
+            {
+              "name": "P2 CCT 3ch",
+              "dmxChannels": 3
+            },
+            {
+              "name": "P4 RGBW 5ch",
+              "dmxChannels": 5
+            },
+            {
+              "name": "P6 Full 16ch",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 7.7,
+          "powerWatt": 240,
+          "luminousFluxLumen": 6800,
+          "manualUrl": "https://www.arri.com/en/lighting/led-panel-lights/skypanel-classic/s30-c",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Soft Light",
+          "name": "SkyPanel S60-C",
+          "modes": [
+            {
+              "name": "P1 CCT+RGBW 8ch",
+              "dmxChannels": 8
+            },
+            {
+              "name": "P2 CCT 3ch",
+              "dmxChannels": 3
+            },
+            {
+              "name": "P4 RGBW 5ch",
+              "dmxChannels": 5
+            },
+            {
+              "name": "P6 Full 16ch",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 12.6,
+          "powerWatt": 420,
+          "luminousFluxLumen": 11800,
+          "manualUrl": "https://www.arri.com/en/lighting/led-spotlights/discontinued/s60-c",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot / Fresnel",
+          "name": "Orbiter",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 14.2,
+          "powerWatt": 400,
+          "luminousFluxLumen": 9000,
+          "manualUrl": "https://www.arri.com/en/lighting/led-spotlights/orbiter/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Astera",
       "products": [
         {
@@ -7942,6 +8188,137 @@
           "luminousFluxLumen": 71620,
           "manualUrl": "Color_Strike_MV2_UM_Rev15.pdf",
           "dmxChartUrl": "Color-STRIKE-MV2_DMX_Chart_Rev10.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Chroma-Q",
+      "products": [
+        {
+          "type": "Batten",
+          "name": "Color Force II 12",
+          "modes": [
+            {
+              "name": "17 Channel",
+              "dmxChannels": 17
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 100,
+          "luminousFluxLumen": 3600,
+          "manualUrl": "https://chroma-q.com/products/color-force-ii-12",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Batten",
+          "name": "Color Force II 48",
+          "modes": [
+            {
+              "name": "17 Channel",
+              "dmxChannels": 17
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 400,
+          "luminousFluxLumen": 13500,
+          "manualUrl": "https://chroma-q.com/products/color-force-ii-48",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Batten",
+          "name": "Color Force II 72",
+          "modes": [
+            {
+              "name": "17 Channel",
+              "dmxChannels": 17
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 24,
+          "powerWatt": 800,
+          "luminousFluxLumen": 18600,
+          "manualUrl": "https://chroma-q.com/products/color-force-ii-72",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Panel",
+          "name": "Space Force octo",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 800,
+          "luminousFluxLumen": 26700,
+          "manualUrl": "https://chroma-q.com/products/space-force",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Panel",
+          "name": "Space Force onebytwo",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 6.5,
+          "powerWatt": 400,
+          "luminousFluxLumen": 13800,
+          "manualUrl": "https://chroma-q.com/products/space-force-onebytwo",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Par",
+          "name": "Color One 100X",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 100,
+          "luminousFluxLumen": 3000,
+          "manualUrl": "https://chroma-q.com/products/color-one-100x",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -18547,6 +18924,291 @@
       ]
     },
     {
+      "name": "Le Ma?tre",
+      "products": [
+        {
+          "type": "Hazer",
+          "name": "Radiance Hazer",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 12.7,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://lemaitreltd.com/products/smoke-fog-haze/haze-machines/radiance-hazer/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Low fog",
+          "name": "LSG",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 30,
+          "powerWatt": 2000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://lemaitreltd.com/products/smoke-fog-haze/low-smoke-generators/lsg/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Smoke",
+          "name": "G300 MK2",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 2200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://lemaitreltd.com/products/smoke-fog-haze/smoke-fog-haze-machines/g300/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Smoke",
+          "name": "G300 MKIII",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 2200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://lemaitreltd.com/products/smoke-fog-haze/smoke-fog-haze-machines/g300/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Litepanels",
+      "products": [
+        {
+          "type": "Panel",
+          "name": "Astra 1x1 Bi-Color",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 2.3,
+          "powerWatt": 75,
+          "luminousFluxLumen": 837,
+          "manualUrl": "https://www.litepanels.com/en/products/astra/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Panel",
+          "name": "Astra 6X Bi-Color",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 3.2,
+          "powerWatt": 105,
+          "luminousFluxLumen": 1653,
+          "manualUrl": "https://www.litepanels.com/en/product/astra-6x-bi-color-led-panel/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Panel",
+          "name": "Gemini 1x1 Hard",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 125,
+          "luminousFluxLumen": 12500,
+          "manualUrl": "https://www.litepanels.com/en/products/gemini/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Panel",
+          "name": "Gemini 2x1 Hard",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 11.5,
+          "powerWatt": 250,
+          "luminousFluxLumen": 23000,
+          "manualUrl": "https://www.litepanels.com/en/products/gemini-2x1-hard/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Panel",
+          "name": "Gemini 2x1 Soft",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 10.1,
+          "powerWatt": 200,
+          "luminousFluxLumen": 1079,
+          "manualUrl": "https://www.litepanels.com/en/products/gemini-2x1-soft/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Panel",
+          "name": "Inca 5",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 1.5,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.litepanels.com/en/products/inca/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Look Solutions",
+      "products": [
+        {
+          "type": "Hazer",
+          "name": "Unique 2.1 Hazer",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 14,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.look.de/en/products/unique-2-1/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Lycian",
+      "products": [
+        {
+          "type": "1290XLT",
+          "name": "Suiveuse HMI 1200W Mid-Range",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lycian.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "M2 Long Throw",
+          "name": "Suiveuse HMI 2500W Longue Port?e",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 35,
+          "powerWatt": 2500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lycian.com/m2-modular-system/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "M2 Short Throw",
+          "name": "Suiveuse HMI 1200W Courte Port?e",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 30,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lycian.com/m2-modular-system/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Starklite+",
+          "name": "Suiveuse HMI 575W L?g?re",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 575,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lycian.com/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Martin",
       "products": [
         {
@@ -19206,6 +19868,56 @@
           "luminousFluxLumen": 43000,
           "manualUrl": "https://www.martin.com/en/products/mac-iii-airfx",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-iii-airfx"
+        }
+      ]
+    },
+    {
+      "name": "MDG",
+      "products": [
+        {
+          "type": "Fog / Hazer",
+          "name": "theONE",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 22,
+          "powerWatt": 1480,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.mdgfog.com/en/theone",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Hazer",
+          "name": "ATMe",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 650,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.mdgfog.com/en/atme",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Hazer",
+          "name": "Atmosphere APS",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 19,
+          "powerWatt": 715,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.mdgfog.com/en/atmosphereaps",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -20189,6 +20901,95 @@
           "powerWatt": 350,
           "luminousFluxLumen": 0,
           "manualUrl": "https://prolights.it/en/product/REFLEX",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Quasar Science",
+      "products": [
+        {
+          "type": "Tube",
+          "name": "Q-LED R 2ft",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 0.6,
+          "powerWatt": 15,
+          "luminousFluxLumen": 800,
+          "manualUrl": "https://www.quasarscience.com/products/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Tube",
+          "name": "Rainbow 2 2ft",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Pixel 30ch",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 0.8,
+          "powerWatt": 25,
+          "luminousFluxLumen": 1266,
+          "manualUrl": "https://www.quasarscience.com/products/rainbow-2",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Tube",
+          "name": "Rainbow 2 4ft",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Pixel 74ch",
+              "dmxChannels": 74
+            }
+          ],
+          "weightKilogram": 1.5,
+          "powerWatt": 50,
+          "luminousFluxLumen": 2500,
+          "manualUrl": "https://www.quasarscience.com/products/rainbow-2",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Tube",
+          "name": "Rainbow 2 8ft",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Pixel 146ch",
+              "dmxChannels": 146
+            }
+          ],
+          "weightKilogram": 2.5,
+          "powerWatt": 100,
+          "luminousFluxLumen": 5000,
+          "manualUrl": "https://www.quasarscience.com/products/rainbow-2",
           "dmxChartUrl": ""
         }
       ]
@@ -25041,6 +25842,70 @@
       ]
     },
     {
+      "name": "Strand Lighting",
+      "products": [
+        {
+          "type": "Fresnel",
+          "name": "200F LED TV Fresnel",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 3.1,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.bhphotovideo.com/c/product/1526399-REG/strand_lighting_200ftvdayltmo_200f_led_tv_fresnel.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "Fresnelite 6\"",
+          "modes": [],
+          "weightKilogram": 3.5,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 24000,
+          "manualUrl": "https://theatrecrafts.com/archive/documents/FresneliteUSA.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "Fresnelite 8\"",
+          "modes": [],
+          "weightKilogram": 5.5,
+          "powerWatt": 2000,
+          "luminousFluxLumen": 46000,
+          "manualUrl": "https://theatrecrafts.com/archive/documents/FresneliteUSA.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "SL Profile 19-50?",
+          "modes": [],
+          "weightKilogram": 6.8,
+          "powerWatt": 575,
+          "luminousFluxLumen": 15500,
+          "manualUrl": "https://theatrecrafts.com/bhc/equipment/strand-sl-profile",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "SL Profile 5-10?",
+          "modes": [],
+          "weightKilogram": 8,
+          "powerWatt": 575,
+          "luminousFluxLumen": 15500,
+          "manualUrl": "https://theatrecrafts.com/bhc/equipment/strand-sl-profile",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Studio Due",
       "products": [
         {
@@ -26229,5 +27094,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-06-04T08:50:31.915Z"
+  "updatedAt": "2026-06-04T13:13:37.235Z"
 }
