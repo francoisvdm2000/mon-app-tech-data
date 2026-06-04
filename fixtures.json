@@ -3016,6 +3016,83 @@
       ]
     },
     {
+      "name": "Anolis",
+      "products": [
+        {
+          "type": "Bar",
+          "name": "ArcBar 24 IP66",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 2,
+          "powerWatt": 36,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.anolislighting.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Bar",
+          "name": "ArcLine 24 RGB",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 1.5,
+          "powerWatt": 30,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.anolislighting.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Panel",
+          "name": "ArcPar 150 Outdoor",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 5.5,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.anolislighting.com/products/arcpartm-150-outdoor",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Panel",
+          "name": "ArcPar S1",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 2.5,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.anolislighting.com/products/arcpartm-s1",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Antari",
       "products": [
         {
@@ -10646,6 +10723,49 @@
       ]
     },
     {
+      "name": "Creamsource",
+      "products": [
+        {
+          "type": "Panel",
+          "name": "Vortex4",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 7,
+          "powerWatt": 325,
+          "luminousFluxLumen": 7000,
+          "manualUrl": "https://creamsource.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Panel",
+          "name": "Vortex8",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 13.7,
+          "powerWatt": 650,
+          "luminousFluxLumen": 14000,
+          "manualUrl": "https://creamsource.com/product/vortex8/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Dedolight",
       "products": [
         {
@@ -13995,6 +14115,91 @@
           "luminousFluxLumen": 20000,
           "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/MegaPix/",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/MegaPix/"
+        }
+      ]
+    },
+    {
+      "name": "Eurolite",
+      "products": [
+        {
+          "type": "Moving Bar",
+          "name": "LED TMH Bar B240",
+          "modes": [
+            {
+              "name": "27 Channel",
+              "dmxChannels": 27
+            },
+            {
+              "name": "48 Channel",
+              "dmxChannels": 48
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 12.55,
+          "powerWatt": 230,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.steinigke.de/en/mpn51786055-eurolite-led-tmh-bar-b240-moving-head-beam.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Par",
+          "name": "LED Par 56 COB",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 1.2,
+          "powerWatt": 30,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.steinigke.de/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "LED TMH-S90",
+          "modes": [
+            {
+              "name": "11 Channel",
+              "dmxChannels": 11
+            },
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 90,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.thomannmusic.com/eurolite_led_tmh_s90_moving_head_spot.htm",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "LED TMH-46",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "18 Channel",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 1.5,
+          "powerWatt": 96,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.thomannmusic.com/eurolite_led_tmh_46_moving_head_wash.htm",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -18180,6 +18385,64 @@
       ]
     },
     {
+      "name": "Hive Lighting",
+      "products": [
+        {
+          "type": "Omni",
+          "name": "Bee 50-C",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 1.5,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://hivelighting.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Omni",
+          "name": "Hornet 200-C",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://hivelighting.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Omni",
+          "name": "Wasp 100-C",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 2.3,
+          "powerWatt": 75,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://hivelighting.com/products/wasp-100-c-open-face-led-light-no-reflector/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Hungaroflash",
       "products": [
         {
@@ -18454,6 +18717,79 @@
           "luminousFluxLumen": 500,
           "manualUrl": "https://hungaroflash.com/termekek/uv-1-5k/",
           "dmxChartUrl": "https://hungaroflash.com/product-manuals-2/"
+        }
+      ]
+    },
+    {
+      "name": "iGuzzini",
+      "products": [
+        {
+          "type": "Bar",
+          "name": "Linealuce 1m",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 1,
+          "powerWatt": 20,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.iguzzini.com/linealuce/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Bar",
+          "name": "Linealuce 2m",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 2,
+          "powerWatt": 40,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.iguzzini.com/linealuce/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "Palco 30W",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 1,
+          "powerWatt": 30,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.iguzzini.com/palco/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "Palco 75W",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 1.5,
+          "powerWatt": 75,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.iguzzini.com/palco/",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -19339,6 +19675,71 @@
       ]
     },
     {
+      "name": "K5600",
+      "products": [
+        {
+          "type": "Daylight",
+          "name": "Joker? 1600W",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 6.5,
+          "powerWatt": 1600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://k5600.com/products/copy-of-joker-200w-evo-kit",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Daylight",
+          "name": "Joker? 200W",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 1.8,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://k5600.com/products/joker-200w-evo-kit",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Daylight",
+          "name": "Joker? 400W",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 2.5,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://k5600.com/products/joker-400w-kit",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Daylight",
+          "name": "Joker? 800W",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 4.1,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://k5600.com/products/joker-800w-kit",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Kino Flo",
       "products": [
         {
@@ -19407,6 +19808,72 @@
           "powerWatt": 200,
           "luminousFluxLumen": 0,
           "manualUrl": "https://kinoflo.com/freestyle-31/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Lanta",
+      "products": [
+        {
+          "type": "Bar",
+          "name": "Orion Link Bar 1m",
+          "modes": [
+            {
+              "name": "26 Channel",
+              "dmxChannels": 26
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 2.6,
+          "powerWatt": 36,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://lantapro.co.uk/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Apollo LED Profile",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://lantapro.co.uk/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Uplighter",
+          "name": "Orion Sunspot DMX",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 1.5,
+          "powerWatt": 18,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://lantapro.co.uk/",
           "dmxChartUrl": ""
         }
       ]
@@ -20552,6 +21019,81 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://minuitune.com/square",
           "dmxChartUrl": "https://minuitune.com/square"
+        }
+      ]
+    },
+    {
+      "name": "Mole-Richardson",
+      "products": [
+        {
+          "type": "Fresnel",
+          "name": "Baby 1000W",
+          "modes": [],
+          "weightKilogram": 5,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.mole.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "Baby LED 150W DL",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 3.86,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.mole.com/baby-led",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "Baby LED 150W TW",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 3.86,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.mole.com/baby-led",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "Senior LED 750W",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 9,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.mole.com/led",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "Tweenie LED 200W",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 2,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.mole.com/led",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -24055,6 +24597,78 @@
           "powerWatt": 18,
           "luminousFluxLumen": 0,
           "manualUrl": "https://se.lighting/manufacturer/led-wall-washer-light/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Selecon",
+      "products": [
+        {
+          "type": "Fresnel",
+          "name": "PLfresnel1 LED",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.seleconlight.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "Rama LED Fresnel",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 8.8,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.seleconlight.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Pacific 575 Profile",
+          "modes": [],
+          "weightKilogram": 7.5,
+          "powerWatt": 575,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.seleconlight.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "PLprofile1 LED MkII",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.seleconlight.com/",
           "dmxChartUrl": ""
         }
       ]
@@ -27661,6 +28275,83 @@
       ]
     },
     {
+      "name": "Varytec",
+      "products": [
+        {
+          "type": "Beam",
+          "name": "Hero Beam 100",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "20 Channel",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.thomannmusic.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Par",
+          "name": "LED Par 14?8W",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 2,
+          "powerWatt": 112,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.thomannmusic.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "Easymove XL 60",
+          "modes": [
+            {
+              "name": "11 Channel",
+              "dmxChannels": 11
+            }
+          ],
+          "weightKilogram": 7,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://musicsquare.eu/131740_Varytec-Easymove-XL-60-LED-Spot-moving-head-DMX.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "Hero Spot 90",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 7.2,
+          "powerWatt": 90,
+          "luminousFluxLumen": 45700,
+          "manualUrl": "https://www.thomannmusic.com/varytec_hero_spot_90.htm",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Vello",
       "products": [
         {
@@ -27921,5 +28612,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-06-04T13:35:10.004Z"
+  "updatedAt": "2026-06-04T13:54:31.714Z"
 }
