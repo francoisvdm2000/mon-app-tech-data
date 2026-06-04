@@ -2609,6 +2609,83 @@
       ]
     },
     {
+      "name": "AFX Light",
+      "products": [
+        {
+          "type": "Bar",
+          "name": "SPIN12-FX",
+          "modes": [
+            {
+              "name": "15 Channel",
+              "dmxChannels": 15
+            },
+            {
+              "name": "23 Channel",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 9.23,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://afx-light.com/gb/329-moving-head",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Beam",
+          "name": "HOTBEAM-3R",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 13,
+          "powerWatt": 230,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.manualslib.com/manual/2136101/Afx-Light-Hotbeam-3r.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "SPOT180LED",
+          "modes": [
+            {
+              "name": "11 Channel",
+              "dmxChannels": 11
+            },
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 9,
+          "powerWatt": 180,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://afx-light.com/gb/329-moving-head",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "BEEDREAM760-FC",
+          "modes": [
+            {
+              "name": "26 Channel",
+              "dmxChannels": 26
+            },
+            {
+              "name": "66 Channel",
+              "dmxChannels": 66
+            }
+          ],
+          "weightKilogram": 13,
+          "powerWatt": 420,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://afx-light.com/gb/329-moving-head",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Algam Lighting",
       "products": [
         {
@@ -8565,6 +8642,60 @@
           "powerWatt": 100,
           "luminousFluxLumen": 3000,
           "manualUrl": "https://chroma-q.com/products/color-one-100x",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Cineo",
+      "products": [
+        {
+          "type": "Compact",
+          "name": "Matchbox",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 0.43,
+          "powerWatt": 30,
+          "luminousFluxLumen": 1000,
+          "manualUrl": "https://www.bhphotovideo.com/c/product/1138135-REG/cineo_cl_600_0100_basic_matchbox_kit.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Panel",
+          "name": "Quantum II",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 800,
+          "luminousFluxLumen": 100000,
+          "manualUrl": "https://cineolighting.com/quantum-studio/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Soft light",
+          "name": "HS2",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.cined.com/cineo-hs2-super-bright-anti-flicker-phosphor-light/",
           "dmxChartUrl": ""
         }
       ]
@@ -14713,6 +14844,107 @@
       ]
     },
     {
+      "name": "Flash",
+      "products": [
+        {
+          "type": "Beam",
+          "name": "Thunder 150 Beam",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "20 Channel",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.flash.com.pl/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Par",
+          "name": "LED PAR 7?10W",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 1.5,
+          "powerWatt": 70,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.flash.com.pl/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "Gobo Spot 60W",
+          "modes": [
+            {
+              "name": "11 Channel",
+              "dmxChannels": 11
+            },
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 5.5,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.flash.com.pl/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Fluotec",
+      "products": [
+        {
+          "type": "Tube",
+          "name": "Studioled 100",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 2,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.fluotec.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Tube",
+          "name": "Studioled 200",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.fluotec.com/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "FOS",
       "products": [
         {
@@ -17817,6 +18049,68 @@
       ]
     },
     {
+      "name": "Godox",
+      "products": [
+        {
+          "type": "Bi-color",
+          "name": "MG1200Bi",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "32 Channel",
+              "dmxChannels": 32
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.godox.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Daylight",
+          "name": "SL200II",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "32 Channel",
+              "dmxChannels": 32
+            }
+          ],
+          "weightKilogram": 3.6,
+          "powerWatt": 200,
+          "luminousFluxLumen": 74000,
+          "manualUrl": "https://godox.eu/product/godox-sl300ii-led-video-light/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Daylight",
+          "name": "SL300II",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "32 Channel",
+              "dmxChannels": 32
+            }
+          ],
+          "weightKilogram": 5,
+          "powerWatt": 320,
+          "luminousFluxLumen": 99300,
+          "manualUrl": "https://godox.eu/product/godox-sl300ii-led-video-light/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Griven",
       "products": [
         {
@@ -19813,6 +20107,56 @@
       ]
     },
     {
+      "name": "KVANT",
+      "products": [
+        {
+          "type": "Laser",
+          "name": "Spectrum 14 IP65",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.kvantlasers.sk/products/spectrum-34-rogb",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Laser",
+          "name": "Spectrum 20 LD",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://phantomdynamics.com/kvant-spectrum-20-ld-rgb-opsl-diode-laser-projector/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Laser",
+          "name": "Spectrum 40",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 48,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://phantomdynamics.com/kvant-spectrum-40-ld-high-powered-rgb-laser-projector/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Lanta",
       "products": [
         {
@@ -19874,6 +20218,56 @@
           "powerWatt": 18,
           "luminousFluxLumen": 0,
           "manualUrl": "https://lantapro.co.uk/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Laserworld",
+      "products": [
+        {
+          "type": "Laser",
+          "name": "DS-1000RGB",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 5,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://dmx-presets.laserworld.com/en/laserworld-ds/laserworld-ds-1000rgb.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Laser",
+          "name": "DS-3000RGB MK5",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.laserworld.com/en/laserworld-ds/laserworld-ds-3000rgb-mk5",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Laser",
+          "name": "EL-300RGB",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 3.5,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.laserworld.com/en/laserworld-el/laserworld-el-300rgb",
           "dmxChartUrl": ""
         }
       ]
@@ -20094,6 +20488,60 @@
           "powerWatt": 1500,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.look.de/en/products/unique-2-1/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "LumenPulse",
+      "products": [
+        {
+          "type": "Architectural",
+          "name": "Lumenbeam Medium",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 2.5,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lumenpulse.com/products/5515/lumenbeam-medium",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Bar",
+          "name": "Lumenfacade 1ft",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 1,
+          "powerWatt": 30,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lumenpulse.com/products/2097/lumenfacade",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Bar",
+          "name": "Lumenfacade 4ft",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 3.5,
+          "powerWatt": 120,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lumenpulse.com/products/2097/lumenfacade",
           "dmxChartUrl": ""
         }
       ]
@@ -21179,6 +21627,83 @@
       ]
     },
     {
+      "name": "Nicols",
+      "products": [
+        {
+          "type": "Par",
+          "name": "NOVA PAR 1210 IP",
+          "modes": [
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            },
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 7,
+          "powerWatt": 207,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://expelec.eu/en/nova/98-nova-par-1210-3510360721707.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Par",
+          "name": "PARLED 1412 FC IP",
+          "modes": [
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 4.5,
+          "powerWatt": 140,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.nicols.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "BIRDY 250 LED",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "20 Channel",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 14,
+          "powerWatt": 250,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://manualzz.com/doc/en/5225172/nicols-birdy-250-led-led-moving-head-user-guide",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "MAGIC LED",
+          "modes": [
+            {
+              "name": "14 Channel",
+              "dmxChannels": 14
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.nicols.com/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Novarlight",
       "products": [
         {
@@ -21485,6 +22010,68 @@
           "luminousFluxLumen": 180,
           "manualUrl": "https://portmanlights.com/products/s-tribuo",
           "dmxChartUrl": "https://portmanlights.com/products/s-tribuo"
+        }
+      ]
+    },
+    {
+      "name": "Power Lighting",
+      "products": [
+        {
+          "type": "Par",
+          "name": "PAR 64 LED RGBW",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 1.5,
+          "powerWatt": 36,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.power-lighting.fr/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Par",
+          "name": "PIXEL BAR 1M",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "Pixel",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 2.5,
+          "powerWatt": 36,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.power-lighting.fr/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "MH 90 SPOT LED",
+          "modes": [
+            {
+              "name": "11 Channel",
+              "dmxChannels": 11
+            },
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 7.5,
+          "powerWatt": 90,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.power-lighting.fr/",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -22239,6 +22826,68 @@
           "powerWatt": 100,
           "luminousFluxLumen": 5000,
           "manualUrl": "https://www.quasarscience.com/products/rainbow-2",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Rayzr 7",
+      "products": [
+        {
+          "type": "Fresnel",
+          "name": "R7 200BM",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 7,
+          "powerWatt": 210,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.adorama.com/rz200bm.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "R7 200D",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 6.4,
+          "powerWatt": 204,
+          "luminousFluxLumen": 7289,
+          "manualUrl": "https://www.bhphotovideo.com/c/product/1340399-REG/rayzr_7_123050031231_rayzr_7_200_daylight.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Panel",
+          "name": "MC200",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 5,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.bhphotovideo.com/c/product/1466669-REG/rayzr_7_16030803_m2100_multi_color_rgb_ww_cw.html",
           "dmxChartUrl": ""
         }
       ]
@@ -27489,6 +28138,45 @@
       ]
     },
     {
+      "name": "Targetti",
+      "products": [
+        {
+          "type": "Ceiling",
+          "name": "Pinup LED",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0.3,
+          "powerWatt": 15,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.targetti.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Rail",
+          "name": "Space7",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0.5,
+          "powerWatt": 30,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.targetti.com/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "URC",
       "products": [
         {
@@ -28463,6 +29151,41 @@
       ]
     },
     {
+      "name": "X-Laser",
+      "products": [
+        {
+          "type": "Laser",
+          "name": "Skywriter HPX 30",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.x-laser.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Laser",
+          "name": "X16",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.x-laser.com/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Zap Technology",
       "products": [
         {
@@ -28547,6 +29270,56 @@
       ]
     },
     {
+      "name": "Zumtobel",
+      "products": [
+        {
+          "type": "LED",
+          "name": "AGILIO",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 2,
+          "powerWatt": 50,
+          "luminousFluxLumen": 5000,
+          "manualUrl": "https://www.zumtobel.com/com-en/products/agilio.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED",
+          "name": "ARCOS",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 1,
+          "powerWatt": 22,
+          "luminousFluxLumen": 2000,
+          "manualUrl": "https://www.zumtobel.com/com-en/products/arcos.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED",
+          "name": "INTRO M",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 1,
+          "powerWatt": 35,
+          "luminousFluxLumen": 3500,
+          "manualUrl": "https://www.zumtobel.com/com-en/products/intro.html",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Zylight",
       "products": [
         {
@@ -28612,5 +29385,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-06-04T13:54:31.714Z"
+  "updatedAt": "2026-06-04T14:11:31.894Z"
 }
