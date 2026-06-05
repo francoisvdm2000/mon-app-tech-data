@@ -5365,6 +5365,56 @@
       ]
     },
     {
+      "name": "Barco",
+      "products": [
+        {
+          "type": "DLP Laser",
+          "name": "UDX-4K28",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 80,
+          "powerWatt": 7500,
+          "luminousFluxLumen": 28000,
+          "manualUrl": "https://www.barco.com/en/product/udx-4k28",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "DLP Laser",
+          "name": "UDX-4K32",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 92,
+          "powerWatt": 8500,
+          "luminousFluxLumen": 31000,
+          "manualUrl": "https://www.barco.com/en/product/udx-4k32",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "DLP Laser",
+          "name": "UDX-4K40 FLEX",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 95,
+          "powerWatt": 9500,
+          "luminousFluxLumen": 36500,
+          "manualUrl": "https://www.barco.com/en/product/udx-4k40",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Blizzard",
       "products": [
         {
@@ -8516,6 +8566,41 @@
       ]
     },
     {
+      "name": "Christie",
+      "products": [
+        {
+          "type": "DLP Laser",
+          "name": "Griffyn 4K32",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 67,
+          "powerWatt": 7500,
+          "luminousFluxLumen": 32000,
+          "manualUrl": "https://www.christiedigital.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "DLP Laser",
+          "name": "M 4K25 RGB+",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 57,
+          "powerWatt": 6500,
+          "luminousFluxLumen": 25000,
+          "manualUrl": "https://www.christiedigital.com/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Chroma-Q",
       "products": [
         {
@@ -8642,6 +8727,68 @@
           "powerWatt": 100,
           "luminousFluxLumen": 3000,
           "manualUrl": "https://chroma-q.com/products/color-one-100x",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Chromlech",
+      "products": [
+        {
+          "type": "Matrice",
+          "name": "Elidy-Big",
+          "modes": [
+            {
+              "name": "Pixel",
+              "dmxChannels": 75
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 75,
+          "luminousFluxLumen": 36000,
+          "manualUrl": "https://www.chromlech.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Matrice",
+          "name": "Elidy-S",
+          "modes": [
+            {
+              "name": "Pixel",
+              "dmxChannels": 50
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.chromlech.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projector",
+          "name": "Jarder",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.chromlech.com/",
           "dmxChartUrl": ""
         }
       ]
@@ -10854,6 +11001,31 @@
       ]
     },
     {
+      "name": "Coolux",
+      "products": [
+        {
+          "type": "Serveur",
+          "name": "Pandoras Box Grand",
+          "modes": [],
+          "weightKilogram": 15,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.coolux.de/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Serveur",
+          "name": "Pandoras Box Player MK2",
+          "modes": [],
+          "weightKilogram": 8,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.coolux.de/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Creamsource",
       "products": [
         {
@@ -10957,6 +11129,31 @@
           "powerWatt": 20,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.dedolight.com/en/products/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Disguise",
+      "products": [
+        {
+          "type": "Serveur",
+          "name": "d3 4x4pro",
+          "modes": [],
+          "weightKilogram": 20,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.disguise.one/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Serveur",
+          "name": "d3 GX2C",
+          "modes": [],
+          "weightKilogram": 12,
+          "powerWatt": 600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.disguise.one/",
           "dmxChartUrl": ""
         }
       ]
@@ -14844,6 +15041,68 @@
       ]
     },
     {
+      "name": "Fine Art",
+      "products": [
+        {
+          "type": "Beam",
+          "name": "FA-200 Beam",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "24 Channel",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.fineart-lighting.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Par",
+          "name": "FA-PAR 324",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 5,
+          "powerWatt": 324,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.fineart-lighting.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "FA-WASH 280",
+          "modes": [
+            {
+              "name": "14 Channel",
+              "dmxChannels": 14
+            },
+            {
+              "name": "20 Channel",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 11,
+          "powerWatt": 280,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.fineart-lighting.com/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Flash",
       "products": [
         {
@@ -17823,6 +18082,45 @@
       ]
     },
     {
+      "name": "Futurelight",
+      "products": [
+        {
+          "type": "Beam",
+          "name": "MH-440 Beam",
+          "modes": [
+            {
+              "name": "14 Channel",
+              "dmxChannels": 14
+            },
+            {
+              "name": "20 Channel",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 9,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.thomannmusic.com/futurelight.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Scan",
+          "name": "ELS-30 LED",
+          "modes": [
+            {
+              "name": "11 Channel",
+              "dmxChannels": 11
+            }
+          ],
+          "weightKilogram": 4.5,
+          "powerWatt": 30,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.thomannmusic.com/futurelight.html",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "GLP",
       "products": [
         {
@@ -18111,8 +18409,138 @@
       ]
     },
     {
+      "name": "Green Hippo",
+      "products": [
+        {
+          "type": "Serveur",
+          "name": "Hippotizer Boreal+",
+          "modes": [],
+          "weightKilogram": 12,
+          "powerWatt": 900,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.green-hippo.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Serveur",
+          "name": "Hippotizer Karst+ MK2",
+          "modes": [],
+          "weightKilogram": 7,
+          "powerWatt": 650,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.green-hippo.com/karst/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Griven",
       "products": [
+        {
+          "type": "Bar",
+          "name": "Chiron RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 40,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/chiron/chiron-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Bar",
+          "name": "Parade L MC DW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/paradel/parade-l-mc-dw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Bar",
+          "name": "Parade L RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/paradel/parade-l-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Deco",
+          "name": "Eklipse RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0.5,
+          "powerWatt": 8,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/eklipse/eklipse-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Deco",
+          "name": "Full Moon Bollard RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 20,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/full-moon-bollard/full-moon-bollard-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Deco",
+          "name": "Full Moon Surface RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 2.5,
+          "powerWatt": 20,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/full-moon-surface/full-moon-surface-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Deco",
+          "name": "Moon Bollard RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 2,
+          "powerWatt": 15,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/moon-bollard/moon-bollard-rgbw",
+          "dmxChartUrl": ""
+        },
         {
           "type": "Floodlight",
           "name": "Capital 600 RGBW",
@@ -18191,6 +18619,21 @@
           "dmxChartUrl": "https://www.griven.com/DMX/powershine"
         },
         {
+          "type": "Gobo",
+          "name": "Goboled 80 D",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 5,
+          "powerWatt": 80,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/goboled/goboled-80-d",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Linear",
           "name": "Parade L2 RGBW",
           "modes": [
@@ -18237,6 +18680,25 @@
           "dmxChartUrl": "https://www.griven.com/DMX/jade"
         },
         {
+          "type": "Panel",
+          "name": "Fresco",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Pixel",
           "name": "Graph-i-Cell RGBW",
           "modes": [
@@ -18250,6 +18712,21 @@
           "luminousFluxLumen": 726,
           "manualUrl": "https://www.griven.com/catalog/graph-i-cell",
           "dmxChartUrl": "https://www.griven.com/DMX/graph-i-cell"
+        },
+        {
+          "type": "Pixel mapping",
+          "name": "Graph-i-Line RGBW",
+          "modes": [
+            {
+              "name": "DMX/ArtNet",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0.5,
+          "powerWatt": 10,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/graph-i-line/graph-i-line-rgbw",
+          "dmxChartUrl": ""
         },
         {
           "type": "Skytracer",
@@ -18299,6 +18776,469 @@
           "luminousFluxLumen": 240000,
           "manualUrl": "https://www.griven.com/catalog/sky-eagle",
           "dmxChartUrl": "https://www.griven.com/DMX/sky-eagle"
+        },
+        {
+          "type": "Uplighter",
+          "name": "GEA RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 2,
+          "powerWatt": 30,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/gea/gea-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Uplighter",
+          "name": "Moon Recessed RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 1.5,
+          "powerWatt": 20,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/moon-recessed/moon-recessed-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Uplighter",
+          "name": "Ruby R RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 1,
+          "powerWatt": 15,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/ruby/ruby-r-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Capital 100 RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 90,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/capital-100/capital-100-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Capital 200 RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 180,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/capital-200/capital-200-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Capital 300 DW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 285,
+          "luminousFluxLumen": 27814,
+          "manualUrl": "https://www.griven.com/en/Catalog/capital-300/capital-300-dw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Capital 300 RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 285,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/capital-300/capital-300-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Capital 600 DW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 32.8,
+          "powerWatt": 600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/capital-600/capital-600-dw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Capital 600 RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 32.8,
+          "powerWatt": 600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/capital-600/capital-600-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Jasper MK2 RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 350,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/jasper/jasper-mk2-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Jupiter RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/jupiter/jupiter-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Jupiter W",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/jupiter/jupiter-w",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Mars RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 120,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/mars/mars-rgbw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Onyx XQ RGBW",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/onyx/onyx-rgb",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Onyx XQ W",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 18,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/en/Catalog/onyx/onyx-w",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Tauro",
+          "modes": [
+            {
+              "name": "14 Channel",
+              "dmxChannels": 14
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Hazebase",
+      "products": [
+        {
+          "type": "Hazer",
+          "name": "Base Hazer 1",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 9,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.hazebaseamerica.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Hazer",
+          "name": "Base Hazer Pro",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 14,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.hazebaseamerica.com/base_hazer_pro.php",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Hazer",
+          "name": "Bazer",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.hazebaseamerica.com/bazer.php",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Hazer",
+          "name": "Hazer2 The Cube",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 350,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.hazebaseamerica.com/hazer2_the_cube.php",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Hazer",
+          "name": "The FAB",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.hazebaseamerica.com/base_the_fab.php",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Hazer",
+          "name": "The FAB2",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.hazebaseamerica.com/the_fab2.php",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Low fog",
+          "name": "Base Low Pro",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 16,
+          "powerWatt": 2600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.hazebaseamerica.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Smoke",
+          "name": "Base Touring2 Double",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 55,
+          "powerWatt": 6200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.hazebaseamerica.com/base_touring2.php",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Smoke",
+          "name": "Base Touring2 Single",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 3100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.hazebaseamerica.com/base_touring2.php",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Smoke",
+          "name": "Base-Guard",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 5,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.hazebaseamerica.com/battery_fog_machines.php",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Smoke",
+          "name": "Classic2",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 17,
+          "powerWatt": 1700,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.hazebaseamerica.com/classic2_from_hazebase.php",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Smoke",
+          "name": "HighPower2",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 22,
+          "powerWatt": 3100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.hazebaseamerica.com/highpower2_from_hazebase.php",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Smoke",
+          "name": "IP Fog Machine",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 1700,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.hazebaseamerica.com/ip-fog-machines.php",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Smoke",
+          "name": "Piccola",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 250,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.hazebaseamerica.com/piccola.php",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -20493,6 +21433,206 @@
       ]
     },
     {
+      "name": "Lucenti",
+      "products": [
+        {
+          "type": "Ampoule",
+          "name": "Vinci Pearl",
+          "modes": [
+            {
+              "name": "Data/DMX 4ch",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0.08,
+          "powerWatt": 6,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lucenti.lighting/collections/vinci",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Ampoule",
+          "name": "Vinci Ruby",
+          "modes": [
+            {
+              "name": "Data/DMX 4ch",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0.08,
+          "powerWatt": 4,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lucenti.lighting/collections/vinci",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Ampoule",
+          "name": "Vinci Topaz",
+          "modes": [
+            {
+              "name": "Data/DMX 4ch",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0.08,
+          "powerWatt": 4,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lucenti.lighting/collections/vinci",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Bar",
+          "name": "Blackwave BW-100",
+          "modes": [
+            {
+              "name": "Pixel 200ch",
+              "dmxChannels": 200
+            }
+          ],
+          "weightKilogram": 0.6,
+          "powerWatt": 13,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lucenti.lighting/collections/blackwave",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Bar",
+          "name": "Blackwave BW-50",
+          "modes": [
+            {
+              "name": "Pixel 100ch",
+              "dmxChannels": 100
+            }
+          ],
+          "weightKilogram": 0.3,
+          "powerWatt": 7,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lucenti.lighting/collections/blackwave",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Controller",
+          "name": "PixlConverter",
+          "modes": [],
+          "weightKilogram": 0.3,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lucenti.lighting/collections/flex",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Controller",
+          "name": "PixlDrive1",
+          "modes": [],
+          "weightKilogram": 2,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lucenti.lighting/collections/blackwave",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Controller",
+          "name": "Vinci Controller",
+          "modes": [],
+          "weightKilogram": 0.5,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lucenti.lighting/collections/vinci",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Dots",
+          "name": "DOTs 2m",
+          "modes": [
+            {
+              "name": "Pixel 40ch",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 0.4,
+          "powerWatt": 18,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lucenti.lighting/collections/flex",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Dots",
+          "name": "DOTs 5m",
+          "modes": [
+            {
+              "name": "Pixel 100ch",
+              "dmxChannels": 100
+            }
+          ],
+          "weightKilogram": 0.8,
+          "powerWatt": 45,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lucenti.lighting/collections/flex",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Flex",
+          "name": "PixlStripOne 120cm",
+          "modes": [
+            {
+              "name": "Pixel 40ch",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 0.2,
+          "powerWatt": 13,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lucenti.lighting/collections/flex",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Flex",
+          "name": "PixlStripOne 240cm",
+          "modes": [
+            {
+              "name": "Pixel 80ch",
+              "dmxChannels": 80
+            }
+          ],
+          "weightKilogram": 0.35,
+          "powerWatt": 25,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lucenti.lighting/collections/flex",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projector",
+          "name": "Eiva+",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 40,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lucenti.it/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projector",
+          "name": "Eiva+ Outdoor",
+          "modes": [
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 5,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.lucenti.it/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "LumenPulse",
       "products": [
         {
@@ -20542,6 +21682,656 @@
           "powerWatt": 120,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.lumenpulse.com/products/2097/lumenfacade",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Luxibel",
+      "products": [
+        {
+          "type": "Bar",
+          "name": "B 5",
+          "modes": [
+            {
+              "name": "25 Channel",
+              "dmxChannels": 25
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 4.8,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/b-5",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Blinder",
+          "name": "B BLINDED",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 6.2,
+          "powerWatt": 235,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/blinders/b-blinded",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Blinder",
+          "name": "B BLINDED1",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 125,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/blinders/b-blinded1",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Flood",
+          "name": "B EXPOFLOODDL60?",
+          "modes": [],
+          "weightKilogram": 6.4,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Flood",
+          "name": "B RAILFLOODWW",
+          "modes": [],
+          "weightKilogram": 4.5,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "B EXPO100MWW",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 4.28,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/b-expo100mww",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "B EXPO200MCW",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/b-expo200mcw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "B EXPO200MWW",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/b-expo200mww",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "B EXPO350M",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 10.5,
+          "powerWatt": 320,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/b-expo350m",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "B EXPO500TW",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 11,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/b-expo500tw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "XFR-140C",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            },
+            {
+              "name": "DMX",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 7,
+          "powerWatt": 140,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/xfr-140c",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Matrice",
+          "name": "B 25",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "105 Channel",
+              "dmxChannels": 105
+            },
+            {
+              "name": "25 Channel",
+              "dmxChannels": 25
+            }
+          ],
+          "weightKilogram": 14.5,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/b-25",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Par",
+          "name": "B PAR105RGBW V2",
+          "modes": [
+            {
+              "name": "14 Channel",
+              "dmxChannels": 14
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 3.3,
+          "powerWatt": 96,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/b-par105rgbw-v2",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Par",
+          "name": "B PAR180RGBW V2",
+          "modes": [
+            {
+              "name": "14 Channel",
+              "dmxChannels": 14
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "9 Channel",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 4.7,
+          "powerWatt": 165,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/b-par180rgbw-v2",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Par",
+          "name": "B PAR180RGBW V2 IP66",
+          "modes": [
+            {
+              "name": "14 Channel",
+              "dmxChannels": 14
+            },
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 5,
+          "powerWatt": 165,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/b-par180rgbw-v2-ip66",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Par",
+          "name": "B PAR360Z",
+          "modes": [
+            {
+              "name": "13 Channel",
+              "dmxChannels": 13
+            },
+            {
+              "name": "18 Channel",
+              "dmxChannels": 18
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 9.6,
+          "powerWatt": 370,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/b-par360z",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Par",
+          "name": "B-PAR 7?15W",
+          "modes": [
+            {
+              "name": "10 Channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "6 Channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 2.5,
+          "powerWatt": 105,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.be/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projector",
+          "name": "XFL-300TW",
+          "modes": [],
+          "weightKilogram": 7.8,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/xfl-300tw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Soft light",
+          "name": "B PANEL120",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 4.6,
+          "powerWatt": 85,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/b-panel120ww",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Soft light",
+          "name": "B PANEL180TW",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 4.8,
+          "powerWatt": 85,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/b-panel180tw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Soft light",
+          "name": "B PANEL240CW",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 8.6,
+          "powerWatt": 240,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/b-panel240cw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Soft light",
+          "name": "B PANEL240WW",
+          "modes": [
+            {
+              "name": "1 Channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 120,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/b-panel240ww",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Soft light",
+          "name": "B PANEL360TW",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 8.6,
+          "powerWatt": 240,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/b-panel360tw",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Soft light",
+          "name": "XPA-400C",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            },
+            {
+              "name": "DMX",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/xpa-400c",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "B RAILNARROWCW",
+          "modes": [],
+          "weightKilogram": 4.5,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "B RAILNARROWWW",
+          "modes": [],
+          "weightKilogram": 4.5,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "B-Moving 180 Spot",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "20 Channel",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 180,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.be/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Strobe",
+          "name": "B BLAST",
+          "modes": [
+            {
+              "name": "390 Channel",
+              "dmxChannels": 390
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 7.8,
+          "powerWatt": 600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/b-blast",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Strobe",
+          "name": "B BLAST PRO",
+          "modes": [
+            {
+              "name": "36 Channel",
+              "dmxChannels": 36
+            },
+            {
+              "name": "390 Channel",
+              "dmxChannels": 390
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 10,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/b-blast-pro",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "AURORA",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 4
+            },
+            {
+              "name": "DMX",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 880,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/aurora",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "B P9",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "22 Channel",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 15.7,
+          "powerWatt": 460,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/b-p9",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "B P9 XTREME",
+          "modes": [
+            {
+              "name": "48 Channel",
+              "dmxChannels": 48
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 1100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "B P9Z",
+          "modes": [
+            {
+              "name": "24 Channel",
+              "dmxChannels": 24
+            },
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 16.9,
+          "powerWatt": 500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/end-of-life/b-p9z",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash strobe",
+          "name": "AURORA BLAST",
+          "modes": [
+            {
+              "name": "DMX",
+              "dmxChannels": 5
+            },
+            {
+              "name": "DMX",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 1600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.luxibel.com/product/continued/aurora-blast",
           "dmxChartUrl": ""
         }
       ]
@@ -21390,6 +23180,45 @@
       ]
     },
     {
+      "name": "Megalite",
+      "products": [
+        {
+          "type": "Par",
+          "name": "Hexpar",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 2,
+          "powerWatt": 70,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.megalite.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "Comet 300",
+          "modes": [
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 200,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.megalite.com/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Minuit Une",
       "products": [
         {
@@ -21780,6 +23609,99 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.novarlight.it/super-nova",
           "dmxChartUrl": "https://www.novarlight.it/dmx/super-nova"
+        }
+      ]
+    },
+    {
+      "name": "Osram",
+      "products": [
+        {
+          "type": "Pinspot",
+          "name": "Traxon Dot XL",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0.3,
+          "powerWatt": 5,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.traxon.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projector",
+          "name": "Traxon Pavo Wash",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.traxon.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Tube",
+          "name": "Traxon LED Tube",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0.5,
+          "powerWatt": 15,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.traxon.com/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "OXO Show Solutions",
+      "products": [
+        {
+          "type": "Gobos",
+          "name": "Gobo Changer",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 2.5,
+          "powerWatt": 15,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.oxoshowsolutions.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Strobe",
+          "name": "Strobe 500",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.oxoshowsolutions.com/",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -22737,6 +24659,49 @@
           "powerWatt": 350,
           "luminousFluxLumen": 0,
           "manualUrl": "https://prolights.it/en/product/REFLEX",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Pulsar",
+      "products": [
+        {
+          "type": "Bar",
+          "name": "Chroma Batten 4",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "8 Channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 2,
+          "powerWatt": 40,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.pulsarlight.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projector",
+          "name": "ChromaFlood 100",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 3,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.pulsarlight.com/",
           "dmxChartUrl": ""
         }
       ]
@@ -26073,6 +28038,56 @@
       ]
     },
     {
+      "name": "Smoke Factory",
+      "products": [
+        {
+          "type": "Hazer",
+          "name": "Tiny Haze",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 5,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://smoke-factory.de/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Hazer",
+          "name": "Tour Hazer II",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 15.2,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://smoke-factory.de/tourhazer/tourhazereng-2/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Smoke",
+          "name": "Captain Smoke",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 3000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://smoke-factory.de/",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Space Cannon",
       "products": [
         {
@@ -27647,6 +29662,68 @@
       ]
     },
     {
+      "name": "Stairville",
+      "products": [
+        {
+          "type": "Bar",
+          "name": "LED Pixel Bar 1m",
+          "modes": [
+            {
+              "name": "3 Channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "Pixel",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 2,
+          "powerWatt": 36,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.thomannmusic.com/stairville.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Par",
+          "name": "LED Par 64",
+          "modes": [
+            {
+              "name": "4 Channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "7 Channel",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 1.5,
+          "powerWatt": 70,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.thomannmusic.com/stairville.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "MH-X90",
+          "modes": [
+            {
+              "name": "11 Channel",
+              "dmxChannels": 11
+            },
+            {
+              "name": "16 Channel",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 7.5,
+          "powerWatt": 90,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.thomannmusic.com/stairville.html",
+          "dmxChartUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Starway",
       "products": [
         {
@@ -28134,6 +30211,41 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.studiodue.com/turbo-colour",
           "dmxChartUrl": "https://www.studiodue.com/dmx/turbo-colour"
+        }
+      ]
+    },
+    {
+      "name": "Swefog",
+      "products": [
+        {
+          "type": "Hazer Haute Puissance",
+          "name": "Ultimate",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 20,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.swefog.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Hazer Professionnel Touring",
+          "name": "Unicorn",
+          "modes": [
+            {
+              "name": "2 Channel",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 700,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.swefog.com/",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -29385,5 +31497,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-06-04T14:11:31.894Z"
+  "updatedAt": "2026-06-05T16:40:13.182Z"
 }
