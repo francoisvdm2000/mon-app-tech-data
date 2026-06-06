@@ -18634,6 +18634,21 @@
           "dmxChartUrl": ""
         },
         {
+          "type": "Kaleido",
+          "name": "Kaleido MSD 575W",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 575,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Linear",
           "name": "Parade L2 RGBW",
           "modes": [
@@ -18955,6 +18970,66 @@
           "powerWatt": 200,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.griven.com/en/Catalog/jupiter/jupiter-w",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Kolorado 4000",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 53,
+          "powerWatt": 4000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://open-fixture-library.org/griven/kolorado-4000",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Kolorado MK2 2500",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 45.5,
+          "powerWatt": 2500,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.griven.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Kolorado MK3 2500",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 77.5,
+          "powerWatt": 2500,
+          "luminousFluxLumen": 250000,
+          "manualUrl": "https://www.griven.com/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Kolorado MK4 2500",
+          "modes": [
+            {
+              "name": "5 Channel",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 77,
+          "powerWatt": 2500,
+          "luminousFluxLumen": 250000,
+          "manualUrl": "https://www.griven.com/",
           "dmxChartUrl": ""
         },
         {
@@ -31497,5 +31572,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-06-05T16:40:13.182Z"
+  "updatedAt": "2026-06-06T00:34:19.322Z"
 }
