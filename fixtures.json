@@ -282,6 +282,45 @@
           "dmxChartUrl": "https://en.acmelighting.com/item/AUTOLUX"
         },
         {
+          "type": "Barre effet beam/strobe compacte",
+          "name": "Gemini",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 23
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 25
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 55
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 58
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 70
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1240,
+          "luminousFluxLumen": 41000,
+          "manualUrl": "https://shop.solotech.com/products/acme-gemini-dual-purpose-led-lighting-fixture",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "BEAMONE",
           "name": "Moving Head Beam Discharge compact",
           "modes": [
@@ -829,6 +868,37 @@
           "luminousFluxLumen": 26000,
           "manualUrl": "https://en.acmelighting.com/item/MANA-PROFILE",
           "dmxChartUrl": "https://en.acmelighting.com/item/MANA-PROFILE"
+        },
+        {
+          "type": "Moving head hybride beam/wash/strobe/strip",
+          "name": "Lightning X",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 43
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 100
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 230
+            }
+          ],
+          "weightKilogram": 19,
+          "powerWatt": 1135,
+          "luminousFluxLumen": 34000,
+          "manualUrl": "https://en.acmelighting.com/item/LIGHTNING-X",
+          "dmxChartUrl": ""
         },
         {
           "type": "NEOZONE",
@@ -2475,6 +2545,65 @@
       "name": "ADJ",
       "products": [
         {
+          "type": "Effet barre hybride (tilt continu 360)",
+          "name": "JOLT MFX 360",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Mode 10",
+              "dmxChannels": 220
+            },
+            {
+              "name": "Mode 11",
+              "dmxChannels": 223
+            },
+            {
+              "name": "Mode 12",
+              "dmxChannels": 229
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 42
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 79
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 96
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 99
+            },
+            {
+              "name": "Mode 8",
+              "dmxChannels": 105
+            },
+            {
+              "name": "Mode 9",
+              "dmxChannels": 203
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 780,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.adj.com/products/jolt-mfx-360",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "LED Bar",
           "name": "Jolt Bar FX",
           "modes": [
@@ -2586,6 +2715,140 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.adj.com/vizi-cmy-300",
           "dmxChartUrl": "https://www.adj.com/vizi-cmy-300"
+        },
+        {
+          "type": "Moving head beam decharge IP65",
+          "name": "HYDRO BEAM CMY",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 450,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.adj.com/products/hydro-beam-cmy",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head beam/wash haute vitesse",
+          "name": "VIZI XTREME",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 73
+            },
+            {
+              "name": "Extended CMY",
+              "dmxChannels": 63
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Standard CMY",
+              "dmxChannels": 54
+            }
+          ],
+          "weightKilogram": 7,
+          "powerWatt": 316,
+          "luminousFluxLumen": 2700,
+          "manualUrl": "https://www.adj.com/products/vizi-xtreme",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head multi-effet (wash/beam/kaleido)",
+          "name": "VIZI FX7",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 55
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 57
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 60
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 237
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.adj.com/products/vizi-fx7",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head profile CMY",
+          "name": "FOCUS CMY COMPACT",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 450,
+          "luminousFluxLumen": 15800,
+          "manualUrl": "https://www.adj.com/products/focus-cmy-compact",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head profile entree de gamme",
+          "name": "Prot?g? XS",
+          "modes": [],
+          "weightKilogram": 17.85,
+          "powerWatt": 616,
+          "luminousFluxLumen": 9800,
+          "manualUrl": "https://www.adj.com/products/protege-xs",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head profile haut de gamme",
+          "name": "Prot?g? XL",
+          "modes": [],
+          "weightKilogram": 27,
+          "powerWatt": 781,
+          "luminousFluxLumen": 20000,
+          "manualUrl": "https://www.adj.com/products/protege-xl",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head profile moyen format",
+          "name": "Prot?g? XM",
+          "modes": [],
+          "weightKilogram": 22,
+          "powerWatt": 675,
+          "luminousFluxLumen": 16000,
+          "manualUrl": "https://www.adj.com/products/protege-xm",
+          "dmxChartUrl": ""
         },
         {
           "type": "Strobe",
@@ -3518,6 +3781,21 @@
     {
       "name": "Astera",
       "products": [
+        {
+          "type": "Ampoule LED sans fil E27 (nouvelle generation)",
+          "name": "NYX Bulb",
+          "modes": [
+            {
+              "name": "Wireless CRMX",
+              "dmxChannels": 79
+            }
+          ],
+          "weightKilogram": 0.24,
+          "powerWatt": 14,
+          "luminousFluxLumen": 750,
+          "manualUrl": "https://astera-led.com/products/nyx-bulb/",
+          "dmxChartUrl": ""
+        },
         {
           "type": "ART7 AsteraBox",
           "name": "Transmetteur DMX sans fil CRMX/W-DMX/Bluetooth",
@@ -5112,6 +5390,63 @@
           "luminousFluxLumen": 14000,
           "manualUrl": "KARIF-User-Manual-V2.pdf",
           "dmxChartUrl": "Karif-LT-DMX-Chart_V225.pdf"
+        },
+        {
+          "type": "Moving head beam laser IP65",
+          "name": "RawBeam 350",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 660,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.ayrton.eu/produit/rawbeam-350/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head hybrid IP65 (Nando series)",
+          "name": "Nando 1202",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 50
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 150
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1450,
+          "luminousFluxLumen": 25000,
+          "manualUrl": "https://www.ayrton.eu/wp-content/uploads/2026/05/Nando1202_Web_EN_V111.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Poursuite (followspot) LED IP65",
+          "name": "EagleStrike LT",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 66
+            }
+          ],
+          "weightKilogram": 54.7,
+          "powerWatt": 1450,
+          "luminousFluxLumen": 55000,
+          "manualUrl": "https://www.ayrton.eu/wp-content/uploads/2025/11/EAGLESTRIKE-Specification-Sheet-V4.pdf",
+          "dmxChartUrl": "https://www.ayrton.eu/wp-content/uploads/2025/11/EagleStrike_DMX_V103.pdf"
         },
         {
           "type": "Profile",
@@ -8562,6 +8897,88 @@
           "luminousFluxLumen": 71620,
           "manualUrl": "Color_Strike_MV2_UM_Rev15.pdf",
           "dmxChartUrl": "Color-STRIKE-MV2_DMX_Chart_Rev10.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Chauvet Professional",
+      "products": [
+        {
+          "type": "Moving head LED pixel-mapping",
+          "name": "NXT-1",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 23
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 81
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 106
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 119
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.chauvetprofessional.com/wp-content/uploads/2015/06/NEXT_NXT-1_UM_Rev8_ML4_WO.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head profile (serie Maverick Force)",
+          "name": "Maverick Force X Profile",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 47
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 595,
+          "luminousFluxLumen": 18963,
+          "manualUrl": "https://chauvetprofessional.com/product/maverick-force-x-profile/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head profile (serie Maverick)",
+          "name": "Maverick Storm 2 Profile",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 48
+            }
+          ],
+          "weightKilogram": 31.9,
+          "powerWatt": 0,
+          "luminousFluxLumen": 25840,
+          "manualUrl": "https://www.chauvetprofessional.com/products/maverick-storm-2-profile-m/",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -13778,6 +14195,41 @@
       "name": "Elation",
       "products": [
         {
+          "type": "Barre lin?aire tilt IP",
+          "name": "REBEL LINE 16",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 122
+            },
+            {
+              "name": "Mode 4 (2x22)",
+              "dmxChannels": 44
+            },
+            {
+              "name": "Mode 5 (2x30)",
+              "dmxChannels": 60
+            },
+            {
+              "name": "Mode 6 (2x70)",
+              "dmxChannels": 140
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1690,
+          "luminousFluxLumen": 25355,
+          "manualUrl": "https://www.elationlighting.eu/rebel-line-16",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Blinder",
           "name": "Cuepix Blinder WW4",
           "modes": [
@@ -13797,6 +14249,100 @@
           "dmxChartUrl": "https://www.elationlighting.com/cuepix-blinder-ww4"
         },
         {
+          "type": "Fresnel LED IP",
+          "name": "KL FRESNEL 6 IP",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Mode 8",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Mode 9",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 268,
+          "luminousFluxLumen": 7400,
+          "manualUrl": "https://www.elationlighting.com/products/kl-fresnel-6-ip",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel LED IP",
+          "name": "KL FRESNEL 8 IP",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Mode 8",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Mode 9",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 551,
+          "luminousFluxLumen": 16028,
+          "manualUrl": "https://www.elationlighting.com/products/kl-fresnel-8-ip",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "LED Bar",
           "name": "Proteus Rayzor STROBE",
           "modes": [
@@ -13814,6 +14360,36 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.elationlighting.com/proteus-rayzor-strobe",
           "dmxChartUrl": "https://www.elationlighting.com/proteus-rayzor-strobe"
+        },
+        {
+          "type": "LED batten/wash IP65 (1 pied)",
+          "name": "KL BATTEN 12",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 200,
+          "luminousFluxLumen": 10300,
+          "manualUrl": "https://hollywooddj.com/products/elation-professional-kl-batten-12-rgbma-led-batten",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED batten/wash IP65 (4 pieds)",
+          "name": "KL BATTEN 48",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 800,
+          "luminousFluxLumen": 39475,
+          "manualUrl": "https://www.elationlighting.com/products/kl-batten-48",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED batten/wash IP65 (6 pieds)",
+          "name": "KL BATTEN 72",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 61275,
+          "manualUrl": "https://www.elationlighting.eu/kl-batten-72",
+          "dmxChartUrl": ""
         },
         {
           "type": "Moving Head",
@@ -13946,6 +14522,16 @@
           "luminousFluxLumen": 8000,
           "manualUrl": "https://www.elationlighting.com/proteus-rayzor-760",
           "dmxChartUrl": "https://www.elationlighting.com/proteus-rayzor-760"
+        },
+        {
+          "type": "Moving head beam",
+          "name": "REBEL DARTZ",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 240,
+          "luminousFluxLumen": 1785,
+          "manualUrl": "https://www.elationlighting.com/products/rebel-dartz",
+          "dmxChartUrl": ""
         },
         {
           "type": "Strobe",
@@ -18158,6 +18744,16 @@
           "dmxChartUrl": "https://glp.de/files/products/impression-x4-bar-20-product-data/impression_X4_Bar_20_DMX_Channel_Index_EN.pdf"
         },
         {
+          "type": "Moving head wash/strobe hybride double-face",
+          "name": "TWYN",
+          "modes": [],
+          "weightKilogram": 16,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.germanlightproducts.com/product/twyn/",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Strobe wash light",
           "name": "JDC1",
           "modes": [
@@ -19642,6 +20238,21 @@
     {
       "name": "High End Systems",
       "products": [
+        {
+          "type": "Moving head profile silencieux (theatre)",
+          "name": "SolaFrame Theatre",
+          "modes": [
+            {
+              "name": "DMX-512",
+              "dmxChannels": 47
+            }
+          ],
+          "weightKilogram": 49.8,
+          "powerWatt": 700,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.fullcompass.com/common/files/30802-HighEndSystemsSolaFrameTheatreUserManual.pdf",
+          "dmxChartUrl": ""
+        },
         {
           "type": "Strobe",
           "name": "Dataflash AF1000",
@@ -24495,6 +25106,16 @@
       "name": "Prolights",
       "products": [
         {
+          "type": "Barre LED",
+          "name": "HaluStrip Duo",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 200,
+          "luminousFluxLumen": 3086,
+          "manualUrl": "https://prolights.it/en/product/HALUSTRIPDUO",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Beam / Spot",
           "name": "Jet Hybrid200",
           "modes": [
@@ -24533,6 +25154,36 @@
           "dmxChartUrl": ""
         },
         {
+          "type": "Ecran/affichage LED",
+          "name": "EclDisplayXB",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.ravepubs.com/prolights-introduces-12-new-products-ldi-2025/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Effet LED",
+          "name": "Astra Blade100IP",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://prolights.it/product/ASTRABLADE100IP",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel LED compact",
+          "name": "EclFresnelXS",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.ravepubs.com/prolights-introduces-12-new-products-ldi-2025/",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Matrix",
           "name": "HaluPix DUO",
           "modes": [
@@ -24545,6 +25196,21 @@
           "powerWatt": 500,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.prolights.it/en/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head spot compact",
+          "name": "Jet Spot120",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 238,
+          "luminousFluxLumen": 5600,
+          "manualUrl": "https://gobo.dk/Files/Images/Ecom/JETSPOT120_/techdocs/Jetspot120_USER_MANUAL_EN.pdf",
           "dmxChartUrl": ""
         },
         {
@@ -24579,6 +25245,84 @@
           "powerWatt": 100,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.prolights.it/en/product/VERSAPAR",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PAR LED IP65",
+          "name": "EclPar IPLFC \"L\"",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 2
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 8.35,
+          "powerWatt": 315,
+          "luminousFluxLumen": 12000,
+          "manualUrl": "https://www.prolights.it/en/product/ECLPARIPLFC",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "PAR LED IP65",
+          "name": "EclPar IPSFC \"S\"",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 2
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 65,
+          "luminousFluxLumen": 2500,
+          "manualUrl": "https://www.prolights.it/en/product/ECLPARIPSFC",
           "dmxChartUrl": ""
         },
         {
@@ -24696,6 +25440,16 @@
           "powerWatt": 3000,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.prolights.it/en/product/POLAR3000",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wallwasher LED cube",
+          "name": "Gallery WashDATVW",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 60,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.ravepubs.com/prolights-introduces-12-new-products-ldi-2025/",
           "dmxChartUrl": ""
         },
         {
@@ -25288,6 +26042,135 @@
           "luminousFluxLumen": 5300,
           "manualUrl": "User_manual_Robin_Tetra_X.pdf",
           "dmxChartUrl": "Robin_Tetra_X_DMX_charts.pdf"
+        },
+        {
+          "type": "Moving head Fresnel (rapid-change objective)",
+          "name": "T10 Fresnel",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Mode 8",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/t10-fresnel",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_T10_Profile_PC_Fresnel_DMX_charts.pdf"
+        },
+        {
+          "type": "Moving head PC (rapid-change objective)",
+          "name": "T10 PC",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Mode 8",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/t10-pc",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_T10_Profile_PC_Fresnel_DMX_charts.pdf"
+        },
+        {
+          "type": "Moving head profile (rapid-change objective)",
+          "name": "T10 Profile",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Mode 8",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 275,
+          "luminousFluxLumen": 8300,
+          "manualUrl": "https://www.robe.cz/t10-profile",
+          "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_T10_Profile_PC_Fresnel_DMX_charts.pdf"
         },
         {
           "type": "PC",
@@ -29998,6 +30881,136 @@
           "dmxChartUrl": "https://www.star-way.com/dmx/vega-std"
         },
         {
+          "type": "Moving head beam compact IP",
+          "name": "Monza WET",
+          "modes": [],
+          "weightKilogram": 26,
+          "powerWatt": 550,
+          "luminousFluxLumen": 13000,
+          "manualUrl": "https://starway.eu/en/produits/monza-wet",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head beam laser IP65",
+          "name": "SuperFast WET",
+          "modes": [],
+          "weightKilogram": 19,
+          "powerWatt": 100,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://fr.audiofanzine.com/lyre/starway/superfast-wet/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving head IP outdoor",
+          "name": "Baracca 360 WET",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 7910,
+          "manualUrl": "https://starway.eu/en/produits/baracca-360-wet",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projecteur outdoor HD",
+          "name": "Astra 105 HDL New",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 105,
+          "luminousFluxLumen": 3511,
+          "manualUrl": "https://starway.eu/en/produits/astra-105-hdl",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projecteur outdoor HD",
+          "name": "Astra 180 HDL New",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 180,
+          "luminousFluxLumen": 6334,
+          "manualUrl": "https://starway.eu/en/produits/astra-180-hdl",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projecteur outdoor HD",
+          "name": "Astra 270 HDL New",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 270,
+          "luminousFluxLumen": 10770,
+          "manualUrl": "https://starway.eu/en/produits/astra-270-hdl",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projecteur sur batterie",
+          "name": "ACTARUS",
+          "modes": [],
+          "weightKilogram": 8,
+          "powerWatt": 0,
+          "luminousFluxLumen": 4070,
+          "manualUrl": "https://starway.eu/en/produits/actarus",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projecteur sur batterie",
+          "name": "ALCOR",
+          "modes": [],
+          "weightKilogram": 2,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1385,
+          "manualUrl": "https://starway.eu/en/produits/alcor",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projecteur sur batterie",
+          "name": "ULYS New",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 2467,
+          "manualUrl": "https://starway.eu/fr/ulys",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projecteur theatre (serie Heritage)",
+          "name": "Fresnel 250 New",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 330,
+          "luminousFluxLumen": 10239,
+          "manualUrl": "https://starway.eu/en/fresnel-250",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projecteur theatre (serie Heritage)",
+          "name": "Fresnel 500 New",
+          "modes": [],
+          "weightKilogram": 10,
+          "powerWatt": 550,
+          "luminousFluxLumen": 18300,
+          "manualUrl": "https://starway.eu/en/produits/fresnel500",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projecteur theatre (serie Heritage)",
+          "name": "Profile 250 New",
+          "modes": [],
+          "weightKilogram": 10,
+          "powerWatt": 550,
+          "luminousFluxLumen": 4724,
+          "manualUrl": "https://starway.eu/en/produits/profile-250",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Projecteur theatre (serie Heritage)",
+          "name": "Profile 500 New",
+          "modes": [],
+          "weightKilogram": 10,
+          "powerWatt": 550,
+          "luminousFluxLumen": 19800,
+          "manualUrl": "https://starway.eu/en/profile-500",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Strobe",
           "name": "StormLite HD",
           "modes": [
@@ -30706,6 +31719,16 @@
           "luminousFluxLumen": 15000,
           "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
           "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
+        },
+        {
+          "type": "Moving head profile IP",
+          "name": "VL3200 LT Profile IP",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 22000,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl3200-lt-profile-ip",
+          "dmxChartUrl": ""
         },
         {
           "type": "Par",
@@ -31572,5 +32595,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-06-06T00:34:19.322Z"
+  "updatedAt": "2026-09-16T00:34:20.082Z"
 }
