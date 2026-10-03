@@ -1,0 +1,2558 @@
+{
+  "version": 1,
+  "manufacturers": [
+    {
+      "name": "Adamson",
+      "amps": [],
+      "speakers": [
+        {
+          "type": "Point source",
+          "name": "PC8",
+          "section": "",
+          "zNomOhm": 4,
+          "rmsWatt": 300,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/05/PC8_TechnicalData.pdf"
+        },
+        {
+          "type": "Point source",
+          "name": "PC10",
+          "section": "",
+          "zNomOhm": 4,
+          "rmsWatt": 330,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/06/PC10_TechnicalData.pdf"
+        },
+        {
+          "type": "Point source",
+          "name": "PC12",
+          "section": "",
+          "zNomOhm": 4,
+          "rmsWatt": 430,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/06/PC12_TechnicalData.pdf"
+        },
+        {
+          "type": "Line array",
+          "name": "IS7",
+          "section": "LF",
+          "zNomOhm": 16,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://test.seesound.es/pdfs/IS7_TechnicalData-5807.pdf"
+        },
+        {
+          "type": "Line array",
+          "name": "IS7",
+          "section": "HF",
+          "zNomOhm": 16,
+          "rmsWatt": 110,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://test.seesound.es/pdfs/IS7_TechnicalData-5807.pdf"
+        },
+        {
+          "type": "Line array",
+          "name": "S7",
+          "section": "LF",
+          "zNomOhm": 8,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/05/S7-Spec-Sheet.pdf"
+        },
+        {
+          "type": "Line array",
+          "name": "S7",
+          "section": "HF",
+          "zNomOhm": 8,
+          "rmsWatt": 110,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/05/S7-Spec-Sheet.pdf"
+        },
+        {
+          "type": "Line array",
+          "name": "S10",
+          "section": "LF",
+          "zNomOhm": 8,
+          "rmsWatt": 700,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/05/S10-Spec-Sheet.pdf"
+        },
+        {
+          "type": "Line array",
+          "name": "S10",
+          "section": "HF",
+          "zNomOhm": 8,
+          "rmsWatt": 160,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/05/S10-Spec-Sheet.pdf"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "S118",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://seesound.es/productos/pdfs/S118_TechnicalData-9238.pdf"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "S119",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 1200,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/05/S119-Spec-Sheet.pdf"
+        },
+        {
+          "type": "Line array",
+          "name": "E12",
+          "section": "LF (×2 ch)",
+          "zNomOhm": 8,
+          "rmsWatt": 800,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/05/E12_TechnicalData.pdf"
+        },
+        {
+          "type": "Line array",
+          "name": "E12",
+          "section": "MF",
+          "zNomOhm": 8,
+          "rmsWatt": 350,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/05/E12_TechnicalData.pdf"
+        },
+        {
+          "type": "Line array",
+          "name": "E12",
+          "section": "HF",
+          "zNomOhm": 8,
+          "rmsWatt": 160,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/05/E12_TechnicalData.pdf"
+        },
+        {
+          "type": "Line array",
+          "name": "E15",
+          "section": "LF (×2 ch)",
+          "zNomOhm": 8,
+          "rmsWatt": 800,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/05/E15_TechnicalData.pdf"
+        },
+        {
+          "type": "Line array",
+          "name": "E15",
+          "section": "MF",
+          "zNomOhm": 16,
+          "rmsWatt": 700,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/05/E15_TechnicalData.pdf"
+        },
+        {
+          "type": "Line array",
+          "name": "E15",
+          "section": "HF",
+          "zNomOhm": 16,
+          "rmsWatt": 320,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/05/E15_TechnicalData.pdf"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "E119",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 1600,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/05/E119_TechnicalData.pdf"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "E219",
+          "section": "LF (×2 ch)",
+          "zNomOhm": 8,
+          "rmsWatt": 1600,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/05/E219_TechnicalData.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Crown",
+      "amps": [
+        {
+          "name": "XLS 1502",
+          "channels": 2,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 300
+            },
+            {
+              "ohm": 4,
+              "watt": 525
+            },
+            {
+              "ohm": 2,
+              "watt": 775
+            }
+          ],
+          "note": "",
+          "manualUrl": ""
+        },
+        {
+          "name": "XLS 2502",
+          "channels": 2,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 440
+            },
+            {
+              "ohm": 4,
+              "watt": 775
+            },
+            {
+              "ohm": 2,
+              "watt": 1200
+            }
+          ],
+          "note": "",
+          "manualUrl": ""
+        },
+        {
+          "name": "XTi 4002",
+          "channels": 2,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 650
+            },
+            {
+              "ohm": 4,
+              "watt": 1200
+            },
+            {
+              "ohm": 2,
+              "watt": 1600
+            }
+          ],
+          "note": "",
+          "manualUrl": ""
+        },
+        {
+          "name": "I-Tech 4x3500HD",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1900
+            },
+            {
+              "ohm": 4,
+              "watt": 2400
+            },
+            {
+              "ohm": 2,
+              "watt": 2100
+            }
+          ],
+          "note": "1 kHz burst",
+          "manualUrl": "https://www.avc-group.com/assets/products/Crown/pdf/crown-um-it4x3500hd.pdf"
+        }
+      ],
+      "speakers": []
+    },
+    {
+      "name": "d&b audiotechnik",
+      "amps": [
+        {
+          "name": "D6",
+          "channels": 2,
+          "zMinOhm": 4,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 350
+            },
+            {
+              "ohm": 4,
+              "watt": 600
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/amplifiers/d6/"
+        },
+        {
+          "name": "10D",
+          "channels": 4,
+          "zMinOhm": 4,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 350
+            },
+            {
+              "ohm": 4,
+              "watt": 700
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/amplifiers/10d/"
+        },
+        {
+          "name": "30D",
+          "channels": 4,
+          "zMinOhm": 4,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 800
+            },
+            {
+              "ohm": 4,
+              "watt": 1000
+            }
+          ],
+          "note": "CF 6 dB · 1600 W @ 4 Ω (CF 12 dB)",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/amplifiers/30d/"
+        },
+        {
+          "name": "D20",
+          "channels": 4,
+          "zMinOhm": 4,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 800
+            },
+            {
+              "ohm": 4,
+              "watt": 1600
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/amplifiers/d20/"
+        },
+        {
+          "name": "D40",
+          "channels": 4,
+          "zMinOhm": 4,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 2000
+            },
+            {
+              "ohm": 4,
+              "watt": 2400
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/amplifiers/d40/"
+        },
+        {
+          "name": "40D",
+          "channels": 4,
+          "zMinOhm": 4,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 2000
+            },
+            {
+              "ohm": 4,
+              "watt": 2400
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/amplifiers/40d/"
+        },
+        {
+          "name": "D80",
+          "channels": 4,
+          "zMinOhm": 3,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 2000
+            },
+            {
+              "ohm": 4,
+              "watt": 2600
+            }
+          ],
+          "note": "CF 6 dB · 4000 W @ 4 Ω (CF 12 dB) · SL-SUB / J-INFRA 3 Ω",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/amplifiers/d80/"
+        },
+        {
+          "name": "D90",
+          "channels": 4,
+          "zMinOhm": 4,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 2700
+            },
+            {
+              "ohm": 4,
+              "watt": 5400
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/amplifiers/d90/"
+        }
+      ],
+      "speakers": [
+        {
+          "type": "Point source",
+          "name": "5S",
+          "section": "",
+          "zNomOhm": 16,
+          "rmsWatt": 60,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/xs-series/5s/"
+        },
+        {
+          "type": "Point source",
+          "name": "44S",
+          "section": "",
+          "zNomOhm": 16,
+          "rmsWatt": 150,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/xs-series/44s/"
+        },
+        {
+          "type": "Point source",
+          "name": "8S",
+          "section": "",
+          "zNomOhm": 12,
+          "rmsWatt": 150,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/xs-series/8s/"
+        },
+        {
+          "type": "Point source",
+          "name": "10S",
+          "section": "",
+          "zNomOhm": 12,
+          "rmsWatt": 200,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/xs-series/10s/"
+        },
+        {
+          "type": "Point source",
+          "name": "24S",
+          "section": "",
+          "zNomOhm": 4,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/xs-series/24s/"
+        },
+        {
+          "type": "Point source",
+          "name": "E8",
+          "section": "",
+          "zNomOhm": 12,
+          "rmsWatt": 150,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/e-series/e8/"
+        },
+        {
+          "type": "Point source",
+          "name": "E12",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 300,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/e-series/e12/"
+        },
+        {
+          "type": "Point source",
+          "name": "T10",
+          "section": "",
+          "zNomOhm": 16,
+          "rmsWatt": 200,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/t-series/t10/"
+        },
+        {
+          "type": "Stage monitor",
+          "name": "M4",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/monitors/m4/"
+        },
+        {
+          "type": "Stage monitor",
+          "name": "M6",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/monitors/m6/"
+        },
+        {
+          "type": "Line array",
+          "name": "Q1",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/heritage/q1/"
+        },
+        {
+          "type": "Point source",
+          "name": "Q7",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/fr/fr/produits/heritage/q7/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "Q-SUB",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/heritage/q-sub/"
+        },
+        {
+          "type": "Point source",
+          "name": "Y7P",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/y-series/y7p/"
+        },
+        {
+          "type": "Point source",
+          "name": "Y10P",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/y-series/y10p/"
+        },
+        {
+          "type": "Line array",
+          "name": "Y8",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/y-series/y8/"
+        },
+        {
+          "type": "Line array",
+          "name": "Y12",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/y-series/y12/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "Y-SUB",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 600,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/y-series/y-sub/"
+        },
+        {
+          "type": "Point source",
+          "name": "V7P",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/v-series/v7p/"
+        },
+        {
+          "type": "Point source",
+          "name": "V10P",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/v-series/v10p/"
+        },
+        {
+          "type": "Line array",
+          "name": "V8",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/v-series/v8/"
+        },
+        {
+          "type": "Line array",
+          "name": "V12",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/v-series/v12/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "V-SUB",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 800,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/v-series/v-sub/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "V-GSUB",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 800,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/v-series/v-gsub/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "18S-SUB",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/xs-series/18s-sub/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "21S-SUB",
+          "section": "",
+          "zNomOhm": 4,
+          "rmsWatt": 650,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/xs-series/21s-sub/"
+        },
+        {
+          "type": "Line array",
+          "name": "J8 / J12",
+          "section": "LF",
+          "zNomOhm": 6,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/j-series/j8/"
+        },
+        {
+          "type": "Line array",
+          "name": "J8 / J12",
+          "section": "MHF",
+          "zNomOhm": 12,
+          "rmsWatt": 200,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/j-series/j8/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "J-SUB",
+          "section": "Front",
+          "zNomOhm": 4,
+          "rmsWatt": 800,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/j-series/j-sub/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "J-SUB",
+          "section": "Rear",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/j-series/j-sub/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "J-INFRA",
+          "section": "Front",
+          "zNomOhm": 3,
+          "rmsWatt": 1200,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/j-series/j-infra/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "J-INFRA",
+          "section": "Rear",
+          "zNomOhm": 6,
+          "rmsWatt": 600,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/j-series/j-infra/"
+        },
+        {
+          "type": "Line array",
+          "name": "KSL8 / KSL12",
+          "section": "Front LF",
+          "zNomOhm": 8,
+          "rmsWatt": 450,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/sl-series/ksl8/"
+        },
+        {
+          "type": "Line array",
+          "name": "KSL8 / KSL12",
+          "section": "Side LF/MF/HF",
+          "zNomOhm": 8,
+          "rmsWatt": 250,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/sl-series/ksl8/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "KSL-SUB",
+          "section": "Front",
+          "zNomOhm": 4,
+          "rmsWatt": 900,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/sl-series/ksl-sub/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "KSL-SUB",
+          "section": "Rear",
+          "zNomOhm": 8,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/sl-series/ksl-sub/"
+        },
+        {
+          "type": "Line array",
+          "name": "GSL8 / GSL12",
+          "section": "Front LF",
+          "zNomOhm": 4,
+          "rmsWatt": 800,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/sl-series/gsl8/"
+        },
+        {
+          "type": "Line array",
+          "name": "GSL8 / GSL12",
+          "section": "Side LF/MF/HF",
+          "zNomOhm": 4,
+          "rmsWatt": 800,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/sl-series/gsl8/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "SL-SUB",
+          "section": "Front",
+          "zNomOhm": 3,
+          "rmsWatt": 1000,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/sl-series/sl-sub/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "SL-SUB",
+          "section": "Rear",
+          "zNomOhm": 6,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.dbaudio.com/global/en/products/series/sl-series/sl-sub/"
+        }
+      ]
+    },
+    {
+      "name": "Electro-Voice",
+      "amps": [],
+      "speakers": [
+        {
+          "type": "Point source",
+          "name": "ZLX-12",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 250,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://products.electrovoice.com/na/en/zlx-12"
+        },
+        {
+          "type": "Point source",
+          "name": "ZLX-15",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 250,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://products.electrovoice.com/na/en/zlx-15"
+        },
+        {
+          "type": "Point source",
+          "name": "ELX200-10",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 300,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://products.electrovoice.com/na/en/elx200-10"
+        },
+        {
+          "type": "Point source",
+          "name": "ELX200-12",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 300,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://products.electrovoice.com/na/en/elx200-12"
+        },
+        {
+          "type": "Point source",
+          "name": "ELX200-15",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 300,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://products.electrovoice.com/na/en/elx200-15"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "ELX200-12S",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": ""
+        },
+        {
+          "type": "Subwoofer",
+          "name": "ELX200-18S",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": ""
+        },
+        {
+          "type": "Point source",
+          "name": "EKX-12",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 350,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://products.electrovoice.com/na/en/ekx-12"
+        },
+        {
+          "type": "Point source",
+          "name": "EKX-15",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://products.electrovoice.com/na/en/ekx-15"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "EKX-18S",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://products.electrovoice.com/na/en/ekx-18s"
+        },
+        {
+          "type": "Point source",
+          "name": "QRx 115/75",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://products.electrovoice.com/binary/QRx-115_75-EDS.pdf"
+        },
+        {
+          "type": "Point source",
+          "name": "QRx 212/75",
+          "section": "",
+          "zNomOhm": 4,
+          "rmsWatt": 600,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://products.electrovoice.com/binary/QRx-212-75%20EDS.pdf"
+        },
+        {
+          "type": "Point source",
+          "name": "QRx 153/75",
+          "section": "LF",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.fullcompass.com/common/files/2932-QRx15375SpecSheet.pdf"
+        },
+        {
+          "type": "Point source",
+          "name": "QRx 153/75",
+          "section": "MF/HF",
+          "zNomOhm": 12,
+          "rmsWatt": 150,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.fullcompass.com/common/files/2932-QRx15375SpecSheet.pdf"
+        },
+        {
+          "type": "Point source",
+          "name": "EVF-1122S/96",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://products.electrovoice.com/na/en/evf-1122s-96"
+        },
+        {
+          "type": "Line array",
+          "name": "XLC127DVX",
+          "section": "LF",
+          "zNomOhm": 8,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": ""
+        },
+        {
+          "type": "Line array",
+          "name": "XLC127DVX",
+          "section": "MB",
+          "zNomOhm": 8,
+          "rmsWatt": 300,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": ""
+        },
+        {
+          "type": "Line array",
+          "name": "XLC127DVX",
+          "section": "HF",
+          "zNomOhm": 8,
+          "rmsWatt": 150,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "JBL",
+      "amps": [],
+      "speakers": [
+        {
+          "type": "Point source",
+          "name": "JRX212",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 250,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://jblpro.com/en-US/products/jrx212"
+        },
+        {
+          "type": "Point source",
+          "name": "JRX215",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 250,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://jblpro.com/en-US/products/jrx215"
+        },
+        {
+          "type": "Point source",
+          "name": "JRX225",
+          "section": "",
+          "zNomOhm": 4,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://jblpro.com/en-US/products/jrx225"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "JRX218S",
+          "section": "",
+          "zNomOhm": 4,
+          "rmsWatt": 350,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://jblpro.com/en-US/products/jrx218s"
+        },
+        {
+          "type": "Point source",
+          "name": "SRX812",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 800,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://jblpro.com/en-US/products/srx812"
+        },
+        {
+          "type": "Point source",
+          "name": "SRX815",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 800,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://jblpro.com/en-US/products/SRX815"
+        },
+        {
+          "type": "Point source",
+          "name": "SRX835",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 800,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://jblpro.com/en-US/products/srx835"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "SRX818S",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 600,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://jblpro.com/en-US/products/srx818s"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "SRX828S",
+          "section": "",
+          "zNomOhm": 4,
+          "rmsWatt": 1200,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://jblpro.com/en-US/products/srx828s"
+        },
+        {
+          "type": "Line array",
+          "name": "VRX928LA",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://jblpro.com/en-US/products/vrx928la"
+        },
+        {
+          "type": "Line array",
+          "name": "VRX932LA-1",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 800,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://jblpro.com/en-US/products/vrx932la-1"
+        },
+        {
+          "type": "Stage monitor",
+          "name": "VRX915M",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 800,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://jblpro.com/en-US/products/vrx915m"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "VRX918S",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 800,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://jblpro.com/en-US/products/vrx918s"
+        }
+      ]
+    },
+    {
+      "name": "L-Acoustics",
+      "amps": [
+        {
+          "name": "LA2Xi",
+          "channels": 4,
+          "zMinOhm": 4,
+          "ratings": [
+            {
+              "ohm": 16,
+              "watt": 190
+            },
+            {
+              "ohm": 8,
+              "watt": 360
+            },
+            {
+              "ohm": 4,
+              "watt": 640
+            }
+          ],
+          "note": "SE · BTL 2×1260 W @ 8 Ω",
+          "manualUrl": "https://www.l-acoustics.com/products/la2xi"
+        },
+        {
+          "name": "LA4X",
+          "channels": 4,
+          "zMinOhm": 4,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1000
+            },
+            {
+              "ohm": 4,
+              "watt": 1000
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/LA4X/"
+        },
+        {
+          "name": "LA7.16i",
+          "channels": 16,
+          "zMinOhm": 4,
+          "ratings": [
+            {
+              "ohm": 16,
+              "watt": 700
+            },
+            {
+              "ohm": 8,
+              "watt": 1300
+            },
+            {
+              "ohm": 4,
+              "watt": 1100
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://l-acoustics.com/products/la7.16i/"
+        },
+        {
+          "name": "LA8",
+          "channels": 4,
+          "zMinOhm": 2.7,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1100
+            },
+            {
+              "ohm": 4,
+              "watt": 1800
+            },
+            {
+              "ohm": 2.7,
+              "watt": 1800
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://hire.on-productions.co.uk/uploads/docs/LA8_UM_EN_5_705.0.pdf"
+        },
+        {
+          "name": "LA12X",
+          "channels": 4,
+          "zMinOhm": 2.7,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1400
+            },
+            {
+              "ohm": 4,
+              "watt": 2600
+            },
+            {
+              "ohm": 2.7,
+              "watt": 3300
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://l-acoustics.com/products/la12x"
+        }
+      ],
+      "speakers": [
+        {
+          "type": "Point source",
+          "name": "X4i",
+          "section": "",
+          "zNomOhm": 16,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/x4i/"
+        },
+        {
+          "type": "Point source",
+          "name": "5XT",
+          "section": "",
+          "zNomOhm": 16,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/5xt/"
+        },
+        {
+          "type": "Point source",
+          "name": "X8",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/x8/"
+        },
+        {
+          "type": "Point source",
+          "name": "X12",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/x12/"
+        },
+        {
+          "type": "Point source",
+          "name": "X15 HiQ",
+          "section": "LF",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/x15-hiq/"
+        },
+        {
+          "type": "Point source",
+          "name": "X15 HiQ",
+          "section": "HF",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/x15-hiq/"
+        },
+        {
+          "type": "Line array",
+          "name": "A10 / A10i (Focus · Wide)",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/A10-Focus/"
+        },
+        {
+          "type": "Column",
+          "name": "Syva",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/syva/"
+        },
+        {
+          "type": "Line array",
+          "name": "Kiva II",
+          "section": "",
+          "zNomOhm": 16,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://l-acoustics.com/products/kiva-ii/"
+        },
+        {
+          "type": "Line array",
+          "name": "ARCS II",
+          "section": "LF",
+          "zNomOhm": 8,
+          "rmsWatt": 600,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://benelux.novelty.fr/download/materiel_fiches_techniques/l-acoustics_arcsII_ft.pdf"
+        },
+        {
+          "type": "Line array",
+          "name": "ARCS II",
+          "section": "HF",
+          "zNomOhm": 8,
+          "rmsWatt": 100,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://benelux.novelty.fr/download/materiel_fiches_techniques/l-acoustics_arcsII_ft.pdf"
+        },
+        {
+          "type": "Line array",
+          "name": "Kara II / Kara IIi",
+          "section": "LF",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/kara-ii/"
+        },
+        {
+          "type": "Line array",
+          "name": "Kara II / Kara IIi",
+          "section": "HF",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/kara-ii/"
+        },
+        {
+          "type": "Line array",
+          "name": "K3",
+          "section": "LF",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/k3/"
+        },
+        {
+          "type": "Line array",
+          "name": "K3",
+          "section": "HF",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/k3/"
+        },
+        {
+          "type": "Line array",
+          "name": "K2",
+          "section": "LF (×2 ch)",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/k2/"
+        },
+        {
+          "type": "Line array",
+          "name": "K2",
+          "section": "MF",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/k2/"
+        },
+        {
+          "type": "Line array",
+          "name": "K2",
+          "section": "HF",
+          "zNomOhm": 16,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/k2/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "SB15m",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://l-acoustics.com/products/sb15m/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "SB18",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/SB18/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "KS21",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/ks21/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "SB28",
+          "section": "",
+          "zNomOhm": 4,
+          "rmsWatt": 655,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": ""
+        },
+        {
+          "type": "Subwoofer",
+          "name": "KS28",
+          "section": "",
+          "zNomOhm": 4,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.l-acoustics.com/products/ks28/"
+        }
+      ]
+    },
+    {
+      "name": "Lab.gruppen",
+      "amps": [
+        {
+          "name": "D 20:4L",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 500
+            },
+            {
+              "ohm": 4,
+              "watt": 500
+            },
+            {
+              "ohm": 2,
+              "watt": 500
+            }
+          ],
+          "note": "RPM · 1 ch : 1600 W @ 4 Ω",
+          "manualUrl": ""
+        },
+        {
+          "name": "FP 10000Q",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1300
+            },
+            {
+              "ohm": 4,
+              "watt": 2100
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://fullcompass.com/common/files/89426-LABFP10000QSPDataSheet.pdf"
+        },
+        {
+          "name": "FP 14000",
+          "channels": 2,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 2350
+            },
+            {
+              "ohm": 4,
+              "watt": 4400
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://service-tcgroup.tcelectronic.com/files/Tech_Service_LabG/FP/FP14000/FPplus-Series_Technical_Data_Sheet_TDS-FP14000_V5.pdf"
+        },
+        {
+          "name": "PLM 12K44",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1900
+            },
+            {
+              "ohm": 4,
+              "watt": 3000
+            },
+            {
+              "ohm": 2,
+              "watt": 3000
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/11/PLM_K44_Data_Sheet.pdf"
+        },
+        {
+          "name": "PLM 20K44",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 2300
+            },
+            {
+              "ohm": 4,
+              "watt": 4400
+            },
+            {
+              "ohm": 2,
+              "watt": 4400
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://www.procom-me.com/wp-content/uploads/2022/11/PLM_K44_Data_Sheet.pdf"
+        }
+      ],
+      "speakers": []
+    },
+    {
+      "name": "Martin Audio",
+      "amps": [
+        {
+          "name": "iK41",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 750
+            },
+            {
+              "ohm": 4,
+              "watt": 1500
+            },
+            {
+              "ohm": 2,
+              "watt": 1500
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://static.martin-audio.com/downloads/brochures/Electronics-Brochure.pdf"
+        },
+        {
+          "name": "iK42",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1500
+            },
+            {
+              "ohm": 4,
+              "watt": 3000
+            },
+            {
+              "ohm": 2,
+              "watt": 5000
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://static.martin-audio.com/downloads/brochures/Electronics-Brochure.pdf"
+        },
+        {
+          "name": "iK81",
+          "channels": 8,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1250
+            },
+            {
+              "ohm": 4,
+              "watt": 1250
+            },
+            {
+              "ohm": 2,
+              "watt": 1250
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://martin-audio.com/products/electronics/ik81"
+        }
+      ],
+      "speakers": [
+        {
+          "type": "Point source",
+          "name": "Blackline X8",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 200,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://martin-audio.com/downloads/brochures/blacklineX.pdf"
+        },
+        {
+          "type": "Point source",
+          "name": "Blackline X10",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 250,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://martin-audio.com/downloads/brochures/blacklineX.pdf"
+        },
+        {
+          "type": "Point source",
+          "name": "Blackline X12",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 300,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://martin-audio.com/downloads/brochures/blacklineX.pdf"
+        },
+        {
+          "type": "Point source",
+          "name": "Blackline X15",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://martin-audio.com/downloads/brochures/blacklineX.pdf"
+        },
+        {
+          "type": "Point source",
+          "name": "Blackline X115",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 500,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://martin-audio.com/downloads/brochures/blacklineX.pdf"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "Blackline X118",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": 800,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://martin-audio.com/downloads/brochures/blacklineX.pdf"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "Blackline X218",
+          "section": "",
+          "zNomOhm": 4,
+          "rmsWatt": 1600,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://martin-audio.com/downloads/brochures/blacklineX.pdf"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "SX218",
+          "section": "LF (×2 ch)",
+          "zNomOhm": 8,
+          "rmsWatt": 1000,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://shop.ccisolutions.com/StoreFront/jsp/pdf/MAU-SX218_specifications.pdf"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "SXH218",
+          "section": "",
+          "zNomOhm": 4,
+          "rmsWatt": 3400,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://martin-audio.com/downloads/datasheets/SXH218datasheet.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Nexo",
+      "amps": [
+        {
+          "name": "NXAMP4x1mk2",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 600
+            },
+            {
+              "ohm": 4,
+              "watt": 900
+            },
+            {
+              "ohm": 2,
+              "watt": 1300
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/nxamp4x1mk2"
+        },
+        {
+          "name": "NXAMP4x4mk2",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1900
+            },
+            {
+              "ohm": 4,
+              "watt": 3300
+            },
+            {
+              "ohm": 2,
+              "watt": 4500
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/nxamp4x4mk2/"
+        }
+      ],
+      "speakers": [
+        {
+          "type": "Point source",
+          "name": "ID24",
+          "section": "",
+          "zNomOhm": 16,
+          "rmsWatt": null,
+          "ampMinWatt": 200,
+          "ampMaxWatt": 500,
+          "note": "",
+          "manualUrl": "https://nexo-sa.com/wp-content/uploads/ID_Series_Data_Sheet.pdf"
+        },
+        {
+          "type": "Point source",
+          "name": "PS8",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 200,
+          "ampMaxWatt": 500,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/ps8"
+        },
+        {
+          "type": "Point source",
+          "name": "PS10 R2",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 500,
+          "ampMaxWatt": 1250,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/ps10-r2"
+        },
+        {
+          "type": "Point source",
+          "name": "PS15 R2",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 1000,
+          "ampMaxWatt": 2000,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/ps15-r2"
+        },
+        {
+          "type": "Point source",
+          "name": "PS15 R2",
+          "section": "LF",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 1000,
+          "ampMaxWatt": 2000,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/ps15-r2"
+        },
+        {
+          "type": "Point source",
+          "name": "PS15 R2",
+          "section": "HF",
+          "zNomOhm": 16,
+          "rmsWatt": null,
+          "ampMinWatt": 250,
+          "ampMaxWatt": 500,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/ps15-r2"
+        },
+        {
+          "type": "Point source",
+          "name": "P8",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 350,
+          "ampMaxWatt": 550,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/p8"
+        },
+        {
+          "type": "Point source",
+          "name": "P10",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 550,
+          "ampMaxWatt": 870,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/p10"
+        },
+        {
+          "type": "Point source",
+          "name": "P12",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 800,
+          "ampMaxWatt": 1270,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/p12"
+        },
+        {
+          "type": "Point source",
+          "name": "P12",
+          "section": "LF",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 800,
+          "ampMaxWatt": 1270,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/p12"
+        },
+        {
+          "type": "Point source",
+          "name": "P12",
+          "section": "HF",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 400,
+          "ampMaxWatt": 630,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/p12"
+        },
+        {
+          "type": "Point source",
+          "name": "P15",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 800,
+          "ampMaxWatt": 1350,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/p15"
+        },
+        {
+          "type": "Point source",
+          "name": "P15",
+          "section": "LF",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 800,
+          "ampMaxWatt": 1350,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/p15"
+        },
+        {
+          "type": "Point source",
+          "name": "P15",
+          "section": "HF",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 400,
+          "ampMaxWatt": 630,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/p15"
+        },
+        {
+          "type": "Point source",
+          "name": "P18",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 1200,
+          "ampMaxWatt": 1900,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/p18"
+        },
+        {
+          "type": "Point source",
+          "name": "P18",
+          "section": "LF",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 1200,
+          "ampMaxWatt": 1900,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/p18"
+        },
+        {
+          "type": "Point source",
+          "name": "P18",
+          "section": "HF",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 600,
+          "ampMaxWatt": 950,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/p18"
+        },
+        {
+          "type": "Line array",
+          "name": "GEO M6 (M620)",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": 450,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/geo-m620"
+        },
+        {
+          "type": "Line array",
+          "name": "GEO M10 (M1012)",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": 750,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/geo-m1012/"
+        },
+        {
+          "type": "Line array",
+          "name": "GEO S12 (S1210)",
+          "section": "LF",
+          "zNomOhm": 16,
+          "rmsWatt": null,
+          "ampMinWatt": 500,
+          "ampMaxWatt": 900,
+          "note": "",
+          "manualUrl": "https://nexo-sa.com/products/geo-s1210/"
+        },
+        {
+          "type": "Line array",
+          "name": "GEO S12 (S1210)",
+          "section": "HF",
+          "zNomOhm": 16,
+          "rmsWatt": null,
+          "ampMinWatt": 250,
+          "ampMaxWatt": 450,
+          "note": "",
+          "manualUrl": "https://nexo-sa.com/products/geo-s1210/"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "LS18",
+          "section": "",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": null,
+          "ampMaxWatt": null,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/wp-content/uploads/ls18datasheet.pdf"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "L18",
+          "section": "",
+          "zNomOhm": 4,
+          "rmsWatt": null,
+          "ampMinWatt": 1550,
+          "ampMaxWatt": 2450,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/l18"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "RS18",
+          "section": "Omni",
+          "zNomOhm": 4,
+          "rmsWatt": null,
+          "ampMinWatt": 2000,
+          "ampMaxWatt": 4000,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/rs18"
+        },
+        {
+          "type": "Subwoofer",
+          "name": "RS18",
+          "section": "Cardio (×2 ch)",
+          "zNomOhm": 8,
+          "rmsWatt": null,
+          "ampMinWatt": 1000,
+          "ampMaxWatt": 2000,
+          "note": "",
+          "manualUrl": "https://www.nexo-sa.com/products/rs18"
+        }
+      ]
+    },
+    {
+      "name": "Powersoft",
+      "amps": [
+        {
+          "name": "T302",
+          "channels": 2,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1200
+            },
+            {
+              "ohm": 4,
+              "watt": 1500
+            },
+            {
+              "ohm": 2,
+              "watt": 1500
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://powersoft.com/en/products/touring-amps/t904-a"
+        },
+        {
+          "name": "T602",
+          "channels": 2,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1300
+            },
+            {
+              "ohm": 4,
+              "watt": 2500
+            },
+            {
+              "ohm": 2,
+              "watt": 3000
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://powersoft.com/en/products/touring-amps/t904-a"
+        },
+        {
+          "name": "T902",
+          "channels": 2,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1800
+            },
+            {
+              "ohm": 4,
+              "watt": 3200
+            },
+            {
+              "ohm": 2,
+              "watt": 4000
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://powersoft.com/en/products/touring-amps/t904-a"
+        },
+        {
+          "name": "T304",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 750
+            },
+            {
+              "ohm": 4,
+              "watt": 750
+            },
+            {
+              "ohm": 2,
+              "watt": 750
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://powersoft.com/en/products/touring-amps/t904-a"
+        },
+        {
+          "name": "T604",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1250
+            },
+            {
+              "ohm": 4,
+              "watt": 1500
+            },
+            {
+              "ohm": 2,
+              "watt": 1500
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://powersoft.com/en/products/touring-amps/t904-a"
+        },
+        {
+          "name": "T904",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1600
+            },
+            {
+              "ohm": 4,
+              "watt": 2000
+            },
+            {
+              "ohm": 2,
+              "watt": 1800
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://powersoft.com/en/products/touring-amps/t904-a"
+        },
+        {
+          "name": "X4",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1600
+            },
+            {
+              "ohm": 4,
+              "watt": 3000
+            },
+            {
+              "ohm": 2,
+              "watt": 5200
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://powersoft.com/en/products/touring-amps/x4"
+        },
+        {
+          "name": "X8",
+          "channels": 8,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1600
+            },
+            {
+              "ohm": 4,
+              "watt": 3000
+            },
+            {
+              "ohm": 2,
+              "watt": 5200
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://powersoft.com/en/products/touring-amps/x8"
+        },
+        {
+          "name": "X4L",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 4800
+            },
+            {
+              "ohm": 4,
+              "watt": 6800
+            },
+            {
+              "ohm": 2,
+              "watt": 8200
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://powersoft.com/en/products/touring-amps/x4l"
+        },
+        {
+          "name": "K10",
+          "channels": 2,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 2000
+            },
+            {
+              "ohm": 4,
+              "watt": 4000
+            },
+            {
+              "ohm": 2,
+              "watt": 6000
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://www.powersoft.com/ja/products/touring-amps/k10"
+        },
+        {
+          "name": "Quattrocanali 8804",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1600
+            },
+            {
+              "ohm": 4,
+              "watt": 2400
+            },
+            {
+              "ohm": 2,
+              "watt": 1800
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://powersoft.com/en/products/install-amps/quattrocanali-8804-dspd"
+        },
+        {
+          "name": "Ottocanali 12K4",
+          "channels": 8,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 850
+            },
+            {
+              "ohm": 4,
+              "watt": 1500
+            },
+            {
+              "ohm": 2,
+              "watt": 1000
+            }
+          ],
+          "note": "",
+          "manualUrl": "https://www.powersoft.com/es/products/install-amps/ottocanali-12k4"
+        }
+      ],
+      "speakers": []
+    },
+    {
+      "name": "QSC",
+      "amps": [
+        {
+          "name": "PLD4.2",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 400
+            },
+            {
+              "ohm": 4,
+              "watt": 400
+            },
+            {
+              "ohm": 2,
+              "watt": 325
+            }
+          ],
+          "note": "FAST",
+          "manualUrl": "https://qsc.com/resource-files/productresources/amp/pld/q_amp_pld_specs_fr.pdf"
+        },
+        {
+          "name": "PLD4.5",
+          "channels": 4,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1150
+            },
+            {
+              "ohm": 4,
+              "watt": 1250
+            },
+            {
+              "ohm": 2,
+              "watt": 625
+            }
+          ],
+          "note": "FAST",
+          "manualUrl": "https://qsc.com/resource-files/productresources/amp/pld/q_amp_pld_specs_fr.pdf"
+        }
+      ],
+      "speakers": []
+    },
+    {
+      "name": "Yamaha",
+      "amps": [
+        {
+          "name": "PX8",
+          "channels": 2,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 800
+            },
+            {
+              "ohm": 4,
+              "watt": 1050
+            },
+            {
+              "ohm": 2,
+              "watt": 600
+            }
+          ],
+          "note": "",
+          "manualUrl": ""
+        },
+        {
+          "name": "PX10",
+          "channels": 2,
+          "zMinOhm": 2,
+          "ratings": [
+            {
+              "ohm": 8,
+              "watt": 1000
+            },
+            {
+              "ohm": 4,
+              "watt": 1200
+            },
+            {
+              "ohm": 2,
+              "watt": 700
+            }
+          ],
+          "note": "",
+          "manualUrl": ""
+        }
+      ],
+      "speakers": []
+    }
+  ],
+  "updatedAt": "2026-10-03T17:14:47.133Z"
+}
