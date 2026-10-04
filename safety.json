@@ -1,0 +1,1206 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "HAUT",
+      "fr": "Travail en hauteur",
+      "en": "Work at height",
+      "icon": "height"
+    },
+    {
+      "id": "LEV",
+      "fr": "Levage et rigging",
+      "en": "Lifting and rigging",
+      "icon": "anchor"
+    },
+    {
+      "id": "ELEC",
+      "fr": "Électricité",
+      "en": "Electricity",
+      "icon": "bolt"
+    },
+    {
+      "id": "MAN",
+      "fr": "Manutention",
+      "en": "Manual handling",
+      "icon": "inventory_2"
+    },
+    {
+      "id": "CIRC",
+      "fr": "Circulation et engins",
+      "en": "Traffic and vehicles",
+      "icon": "local_shipping"
+    },
+    {
+      "id": "ORG",
+      "fr": "Organisation du travail",
+      "en": "Work organisation",
+      "icon": "groups"
+    },
+    {
+      "id": "ENV",
+      "fr": "Ambiance de travail",
+      "en": "Working environment",
+      "icon": "nightlight"
+    },
+    {
+      "id": "MET",
+      "fr": "Météo (plein air)",
+      "en": "Weather (outdoor)",
+      "icon": "thunderstorm"
+    },
+    {
+      "id": "EFF",
+      "fr": "Effets spéciaux et lasers",
+      "en": "Special effects and lasers",
+      "icon": "flare"
+    },
+    {
+      "id": "INC",
+      "fr": "Incendie",
+      "en": "Fire",
+      "icon": "local_fire_department"
+    },
+    {
+      "id": "PUB",
+      "fr": "Public",
+      "en": "Audience",
+      "icon": "diversity_3"
+    }
+  ],
+  "risks": [
+    {
+      "id": "R001",
+      "category": "HAUT",
+      "fr": "Chute de hauteur sur grill, passerelle ou structure",
+      "en": "Fall from height on grid, catwalk or truss",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 4,
+      "probability": 3,
+      "country": "ALL"
+    },
+    {
+      "id": "R002",
+      "category": "HAUT",
+      "fr": "Chute depuis une nacelle (PEMP)",
+      "en": "Fall from a mobile elevating work platform",
+      "phases": [
+        "M",
+        "D"
+      ],
+      "severity": 4,
+      "probability": 2,
+      "country": "ALL"
+    },
+    {
+      "id": "R003",
+      "category": "HAUT",
+      "fr": "Chute depuis un escabeau ou une échelle",
+      "en": "Fall from a ladder or stepladder",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 3,
+      "probability": 3,
+      "country": "ALL"
+    },
+    {
+      "id": "R004",
+      "category": "HAUT",
+      "fr": "Chute d'objets ou d'outils depuis une zone en hauteur",
+      "en": "Falling objects or tools",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 4,
+      "probability": 3,
+      "country": "ALL"
+    },
+    {
+      "id": "R005",
+      "category": "LEV",
+      "fr": "Chute d'une charge suspendue (pont, projecteur, enceinte)",
+      "en": "Fall of a suspended load (truss, fixture, speaker)",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 4,
+      "probability": 2,
+      "country": "ALL"
+    },
+    {
+      "id": "R006",
+      "category": "LEV",
+      "fr": "Défaillance d'un palan ou d'un point d'accroche",
+      "en": "Hoist or rigging point failure",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 4,
+      "probability": 2,
+      "country": "ALL"
+    },
+    {
+      "id": "R007",
+      "category": "LEV",
+      "fr": "Surcharge de la structure ou du grill",
+      "en": "Overloading of the structure or grid",
+      "phases": [
+        "M",
+        "E"
+      ],
+      "severity": 4,
+      "probability": 2,
+      "country": "ALL"
+    },
+    {
+      "id": "R008",
+      "category": "ELEC",
+      "fr": "Électrisation ou électrocution lors des raccordements",
+      "en": "Electric shock during connection work",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 4,
+      "probability": 2,
+      "country": "ALL"
+    },
+    {
+      "id": "R009",
+      "category": "ELEC",
+      "fr": "Défaut d'isolement ou absence de terre sur le matériel",
+      "en": "Insulation fault or missing earth on equipment",
+      "phases": [
+        "M",
+        "E"
+      ],
+      "severity": 4,
+      "probability": 2,
+      "country": "ALL"
+    },
+    {
+      "id": "R010",
+      "category": "ELEC",
+      "fr": "Échauffement ou incendie de câbles surchargés",
+      "en": "Overheating or fire of overloaded cables",
+      "phases": [
+        "E"
+      ],
+      "severity": 3,
+      "probability": 2,
+      "country": "ALL"
+    },
+    {
+      "id": "R011",
+      "category": "MAN",
+      "fr": "Lombalgies et TMS lors de la manutention de flight-cases",
+      "en": "Back injuries and MSDs when handling flight cases",
+      "phases": [
+        "M",
+        "D"
+      ],
+      "severity": 2,
+      "probability": 4,
+      "country": "ALL"
+    },
+    {
+      "id": "R012",
+      "category": "MAN",
+      "fr": "Écrasement des mains ou des pieds",
+      "en": "Crushed hands or feet",
+      "phases": [
+        "M",
+        "D"
+      ],
+      "severity": 3,
+      "probability": 3,
+      "country": "ALL"
+    },
+    {
+      "id": "R013",
+      "category": "CIRC",
+      "fr": "Heurt par chariot élévateur, transpalette ou véhicule",
+      "en": "Struck by forklift, pallet truck or vehicle",
+      "phases": [
+        "M",
+        "D"
+      ],
+      "severity": 4,
+      "probability": 2,
+      "country": "ALL"
+    },
+    {
+      "id": "R014",
+      "category": "CIRC",
+      "fr": "Chute de plain-pied, trébuchement sur câbles",
+      "en": "Slips and trips over cables",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 2,
+      "probability": 4,
+      "country": "ALL"
+    },
+    {
+      "id": "R015",
+      "category": "ORG",
+      "fr": "Coactivité entre équipes (son, lumière, vidéo, structure, décor)",
+      "en": "Simultaneous work by several teams",
+      "phases": [
+        "M",
+        "D"
+      ],
+      "severity": 3,
+      "probability": 4,
+      "country": "ALL"
+    },
+    {
+      "id": "R016",
+      "category": "ORG",
+      "fr": "Travail isolé",
+      "en": "Lone working",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 3,
+      "probability": 2,
+      "country": "ALL"
+    },
+    {
+      "id": "R017",
+      "category": "ENV",
+      "fr": "Fatigue liée au travail de nuit et aux journées longues",
+      "en": "Fatigue from night work and long days",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 3,
+      "probability": 4,
+      "country": "ALL"
+    },
+    {
+      "id": "R018",
+      "category": "ENV",
+      "fr": "Exposition au bruit pendant les balances et le spectacle",
+      "en": "Noise exposure during soundcheck and show",
+      "phases": [
+        "E"
+      ],
+      "severity": 3,
+      "probability": 3,
+      "country": "ALL"
+    },
+    {
+      "id": "R019",
+      "category": "ENV",
+      "fr": "Travail dans l'obscurité ou sous faible éclairage",
+      "en": "Working in the dark or in low light",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 2,
+      "probability": 3,
+      "country": "ALL"
+    },
+    {
+      "id": "R020",
+      "category": "MET",
+      "fr": "Vent fort sur structures et ponts extérieurs",
+      "en": "High wind on outdoor structures",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 4,
+      "probability": 2,
+      "country": "ALL"
+    },
+    {
+      "id": "R021",
+      "category": "MET",
+      "fr": "Orage et foudre",
+      "en": "Thunderstorms and lightning",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 4,
+      "probability": 2,
+      "country": "ALL"
+    },
+    {
+      "id": "R022",
+      "category": "MET",
+      "fr": "Chaleur ou froid extrême",
+      "en": "Extreme heat or cold",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 2,
+      "probability": 3,
+      "country": "ALL"
+    },
+    {
+      "id": "R023",
+      "category": "EFF",
+      "fr": "Exposition aux faisceaux laser",
+      "en": "Laser beam exposure",
+      "phases": [
+        "E"
+      ],
+      "severity": 3,
+      "probability": 2,
+      "country": "ALL"
+    },
+    {
+      "id": "R024",
+      "category": "EFF",
+      "fr": "Pyrotechnie, CO2 et effets spéciaux",
+      "en": "Pyrotechnics, CO2 and special effects",
+      "phases": [
+        "E"
+      ],
+      "severity": 4,
+      "probability": 1,
+      "country": "ALL"
+    },
+    {
+      "id": "R025",
+      "category": "EFF",
+      "fr": "Inhalation de fumée ou de brouillard artificiel",
+      "en": "Inhalation of smoke or haze",
+      "phases": [
+        "E"
+      ],
+      "severity": 1,
+      "probability": 3,
+      "country": "ALL"
+    },
+    {
+      "id": "R026",
+      "category": "INC",
+      "fr": "Départ de feu (projecteurs chauds, décor, filtres)",
+      "en": "Fire (hot fixtures, scenery, filters)",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 4,
+      "probability": 2,
+      "country": "ALL"
+    },
+    {
+      "id": "R027",
+      "category": "PUB",
+      "fr": "Accès du public aux zones techniques",
+      "en": "Audience access to technical areas",
+      "phases": [
+        "E"
+      ],
+      "severity": 3,
+      "probability": 2,
+      "country": "ALL"
+    }
+  ],
+  "measures": [
+    {
+      "id": "M001",
+      "risk": "R001",
+      "type": "Collective",
+      "fr": "Garde-corps sur passerelles et plateformes",
+      "en": "Guardrails on catwalks and platforms",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M002",
+      "risk": "R001",
+      "type": "Individuelle",
+      "fr": "Harnais antichute avec double longe, ancré sur un point validé",
+      "en": "Fall arrest harness with twin lanyard on an approved anchor",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M003",
+      "risk": "R001",
+      "type": "Organisationnelle",
+      "fr": "Formation au travail en hauteur et au port du harnais",
+      "en": "Work at height and harness training",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M004",
+      "risk": "R002",
+      "type": "Organisationnelle",
+      "fr": "Conducteur titulaire du CACES R486 et d'une autorisation de conduite",
+      "en": "Operator holds CACES R486 and a driving authorisation",
+      "country": "FR",
+      "mandatory": true
+    },
+    {
+      "id": "M005",
+      "risk": "R002",
+      "type": "Organisationnelle",
+      "fr": "Conducteur formé et autorisé par l'employeur",
+      "en": "Operator trained and authorised by the employer",
+      "country": "BE",
+      "mandatory": true
+    },
+    {
+      "id": "M006",
+      "risk": "R002",
+      "type": "Individuelle",
+      "fr": "Harnais attaché au point d'ancrage de la nacelle",
+      "en": "Harness attached to the platform anchor point",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M007",
+      "risk": "R002",
+      "type": "Organisationnelle",
+      "fr": "Vérification périodique de la nacelle à jour",
+      "en": "Periodic inspection of the platform up to date",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M008",
+      "risk": "R003",
+      "type": "Collective",
+      "fr": "Plateforme individuelle roulante préférée à l'escabeau",
+      "en": "Mobile podium preferred to a stepladder",
+      "country": "ALL",
+      "mandatory": false
+    },
+    {
+      "id": "M009",
+      "risk": "R003",
+      "type": "Organisationnelle",
+      "fr": "Échelle utilisée comme moyen d'accès, pas comme poste de travail",
+      "en": "Ladder used for access only, not as a workstation",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M010",
+      "risk": "R004",
+      "type": "Collective",
+      "fr": "Balisage et interdiction de passage sous la zone de travail",
+      "en": "Exclusion zone below the work area",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M011",
+      "risk": "R004",
+      "type": "Individuelle",
+      "fr": "Casque de protection en zone de levage",
+      "en": "Hard hat in lifting areas",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M012",
+      "risk": "R004",
+      "type": "Collective",
+      "fr": "Outils attachés par dragonne",
+      "en": "Tools secured with lanyards",
+      "country": "ALL",
+      "mandatory": false
+    },
+    {
+      "id": "M013",
+      "risk": "R005",
+      "type": "Collective",
+      "fr": "Élingue de sécurité secondaire sur chaque élément suspendu",
+      "en": "Secondary safety sling on each suspended item",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M014",
+      "risk": "R005",
+      "type": "Organisationnelle",
+      "fr": "Interdiction de stationner sous les charges en mouvement",
+      "en": "No standing under moving loads",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M015",
+      "risk": "R005",
+      "type": "Organisationnelle",
+      "fr": "Accrochage réalisé par un rigger qualifié",
+      "en": "Rigging carried out by a qualified rigger",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M016",
+      "risk": "R006",
+      "type": "Organisationnelle",
+      "fr": "Palans et accessoires vérifiés, registre de contrôle à jour",
+      "en": "Hoists and accessories inspected, inspection log up to date",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M017",
+      "risk": "R006",
+      "type": "Collective",
+      "fr": "Palans adaptés au levage au-dessus de personnes (type D8+)",
+      "en": "Hoists suitable for lifting over people (D8+ type)",
+      "country": "ALL",
+      "mandatory": false
+    },
+    {
+      "id": "M018",
+      "risk": "R007",
+      "type": "Organisationnelle",
+      "fr": "Note de calcul des charges validée avant le montage",
+      "en": "Load calculation approved before rigging",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M019",
+      "risk": "R007",
+      "type": "Organisationnelle",
+      "fr": "Respect des charges maximales du fabricant de la structure",
+      "en": "Manufacturer's maximum loads respected",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M020",
+      "risk": "R008",
+      "type": "Organisationnelle",
+      "fr": "Raccordements par du personnel titulaire d'une habilitation électrique (NF C 18-510)",
+      "en": "Connections by staff with electrical authorisation (NF C 18-510)",
+      "country": "FR",
+      "mandatory": true
+    },
+    {
+      "id": "M021",
+      "risk": "R008",
+      "type": "Organisationnelle",
+      "fr": "Raccordements par du personnel BA4 ou BA5 (RGIE)",
+      "en": "Connections by BA4 or BA5 staff (RGIE)",
+      "country": "BE",
+      "mandatory": true
+    },
+    {
+      "id": "M022",
+      "risk": "R008",
+      "type": "Collective",
+      "fr": "Protection différentielle 30 mA sur les circuits terminaux",
+      "en": "30 mA RCD protection on final circuits",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M023",
+      "risk": "R009",
+      "type": "Organisationnelle",
+      "fr": "Contrôle visuel du matériel et des câbles avant mise sous tension",
+      "en": "Visual check of equipment and cables before power-up",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M024",
+      "risk": "R009",
+      "type": "Organisationnelle",
+      "fr": "Vérification de la continuité de terre de la distribution",
+      "en": "Earth continuity check on power distribution",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M025",
+      "risk": "R010",
+      "type": "Collective",
+      "fr": "Sections de câbles adaptées à l'intensité, enrouleurs entièrement déroulés",
+      "en": "Cable sizes matched to current, cable reels fully unwound",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M026",
+      "risk": "R011",
+      "type": "Collective",
+      "fr": "Utilisation de diables, transpalettes et rampes",
+      "en": "Use of hand trucks, pallet trucks and ramps",
+      "country": "ALL",
+      "mandatory": false
+    },
+    {
+      "id": "M027",
+      "risk": "R011",
+      "type": "Organisationnelle",
+      "fr": "Port à plusieurs des charges lourdes et rotation des tâches",
+      "en": "Team lifting for heavy loads and task rotation",
+      "country": "ALL",
+      "mandatory": false
+    },
+    {
+      "id": "M028",
+      "risk": "R011",
+      "type": "Organisationnelle",
+      "fr": "Formation gestes et postures",
+      "en": "Manual handling training",
+      "country": "ALL",
+      "mandatory": false
+    },
+    {
+      "id": "M029",
+      "risk": "R012",
+      "type": "Individuelle",
+      "fr": "Chaussures de sécurité et gants de manutention",
+      "en": "Safety shoes and handling gloves",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M030",
+      "risk": "R013",
+      "type": "Organisationnelle",
+      "fr": "Plan de circulation séparant piétons et engins",
+      "en": "Traffic plan separating pedestrians and vehicles",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M031",
+      "risk": "R013",
+      "type": "Organisationnelle",
+      "fr": "Cariste titulaire du CACES R489 et d'une autorisation de conduite",
+      "en": "Forklift driver holds CACES R489 and a driving authorisation",
+      "country": "FR",
+      "mandatory": true
+    },
+    {
+      "id": "M032",
+      "risk": "R013",
+      "type": "Individuelle",
+      "fr": "Gilet haute visibilité en zone de déchargement",
+      "en": "High-visibility vest in loading areas",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M033",
+      "risk": "R014",
+      "type": "Collective",
+      "fr": "Passages de câbles et câbles regroupés le long des murs",
+      "en": "Cable ramps and cables run along walls",
+      "country": "ALL",
+      "mandatory": false
+    },
+    {
+      "id": "M034",
+      "risk": "R014",
+      "type": "Collective",
+      "fr": "Éclairage de service suffisant pendant montage et démontage",
+      "en": "Adequate work lights during load-in and load-out",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M035",
+      "risk": "R015",
+      "type": "Organisationnelle",
+      "fr": "Planning de montage par équipe validé en réunion de coordination",
+      "en": "Load-in schedule per team agreed in a coordination meeting",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M036",
+      "risk": "R015",
+      "type": "Organisationnelle",
+      "fr": "Désignation d'un responsable technique qui coordonne les interventions",
+      "en": "A named technical manager coordinates all work",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M037",
+      "risk": "R016",
+      "type": "Organisationnelle",
+      "fr": "Pas de travail isolé en hauteur ou sous tension",
+      "en": "No lone working at height or on live equipment",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M038",
+      "risk": "R016",
+      "type": "Organisationnelle",
+      "fr": "Moyen d'alerte (radio, téléphone) et contact régulier",
+      "en": "Means of alert (radio, phone) and regular check-ins",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M039",
+      "risk": "R017",
+      "type": "Organisationnelle",
+      "fr": "Respect des temps de repos, planning communiqué à l'avance",
+      "en": "Rest periods respected, schedule shared in advance",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M040",
+      "risk": "R017",
+      "type": "Organisationnelle",
+      "fr": "Repos ou transport organisé après un démontage de nuit",
+      "en": "Rest or transport arranged after a night load-out",
+      "country": "ALL",
+      "mandatory": false
+    },
+    {
+      "id": "M041",
+      "risk": "R018",
+      "type": "Individuelle",
+      "fr": "Protections auditives mises à disposition",
+      "en": "Hearing protection provided",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M042",
+      "risk": "R018",
+      "type": "Organisationnelle",
+      "fr": "Mesure du niveau sonore pendant le spectacle",
+      "en": "Sound level monitoring during the show",
+      "country": "ALL",
+      "mandatory": false
+    },
+    {
+      "id": "M043",
+      "risk": "R019",
+      "type": "Collective",
+      "fr": "Lampes frontales et éclairage de service en coulisses",
+      "en": "Head torches and backstage work lights",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M044",
+      "risk": "R019",
+      "type": "Collective",
+      "fr": "Marquage phosphorescent des marches et du nez de scène",
+      "en": "Glow tape on steps and stage edge",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M045",
+      "risk": "R020",
+      "type": "Organisationnelle",
+      "fr": "Anémomètre sur site et seuils d'arrêt définis selon le fabricant",
+      "en": "Anemometer on site and stop thresholds set by the manufacturer",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M046",
+      "risk": "R020",
+      "type": "Organisationnelle",
+      "fr": "Procédure de mise en sécurité (descente des ponts, retrait des bâches)",
+      "en": "Wind procedure (lower trusses, remove banners)",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M047",
+      "risk": "R021",
+      "type": "Organisationnelle",
+      "fr": "Suivi météo et évacuation des structures en cas d'orage",
+      "en": "Weather monitoring and evacuation of structures during storms",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M048",
+      "risk": "R022",
+      "type": "Organisationnelle",
+      "fr": "Eau potable, zones abritées, horaires adaptés",
+      "en": "Drinking water, sheltered areas, adapted hours",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M049",
+      "risk": "R023",
+      "type": "Organisationnelle",
+      "fr": "Installation et réglage par un opérateur laser compétent, zones d'exposition contrôlées",
+      "en": "Set-up by a competent laser operator, controlled exposure zones",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M050",
+      "risk": "R023",
+      "type": "Collective",
+      "fr": "Arrêt d'urgence laser accessible à l'opérateur",
+      "en": "Laser emergency stop within the operator's reach",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M051",
+      "risk": "R024",
+      "type": "Organisationnelle",
+      "fr": "Mise en œuvre par un artificier qualifié selon la réglementation nationale",
+      "en": "Operated by a qualified pyrotechnician under national rules",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M052",
+      "risk": "R024",
+      "type": "Collective",
+      "fr": "Périmètres de sécurité et extincteurs adaptés",
+      "en": "Safety distances and suitable extinguishers",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M053",
+      "risk": "R025",
+      "type": "Organisationnelle",
+      "fr": "Fiches de données de sécurité des liquides disponibles, ventilation",
+      "en": "Safety data sheets for fluids available, ventilation",
+      "country": "ALL",
+      "mandatory": false
+    },
+    {
+      "id": "M054",
+      "risk": "R026",
+      "type": "Collective",
+      "fr": "Extincteurs adaptés (CO2 pour l'électrique) près des postes",
+      "en": "Suitable extinguishers (CO2 for electrical) near workstations",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M055",
+      "risk": "R026",
+      "type": "Organisationnelle",
+      "fr": "Distances de sécurité entre projecteurs et matériaux combustibles, décors ignifugés",
+      "en": "Safe distances from fixtures to combustibles, fire-rated scenery",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M056",
+      "risk": "R027",
+      "type": "Collective",
+      "fr": "Barriérage et contrôle d'accès aux zones techniques",
+      "en": "Barriers and access control for technical areas",
+      "country": "ALL",
+      "mandatory": true
+    },
+    {
+      "id": "M057",
+      "risk": "R027",
+      "type": "Organisationnelle",
+      "fr": "Câbles en zone public protégés et balisés",
+      "en": "Cables in audience areas covered and marked",
+      "country": "ALL",
+      "mandatory": true
+    }
+  ],
+  "controls": [
+    {
+      "id": "C001",
+      "family": "Structure",
+      "fr": "Structure montée selon la notice et le plan du fabricant",
+      "en": "Structure assembled per manufacturer instructions and drawing",
+      "country": "ALL",
+      "photoRequired": false
+    },
+    {
+      "id": "C002",
+      "family": "Structure",
+      "fr": "Goupilles, boulons et connecteurs en place et sécurisés",
+      "en": "Pins, bolts and connectors fitted and secured",
+      "country": "ALL",
+      "photoRequired": true
+    },
+    {
+      "id": "C003",
+      "family": "Structure",
+      "fr": "Aucun élément déformé, fissuré ou corrodé",
+      "en": "No bent, cracked or corroded parts",
+      "country": "ALL",
+      "photoRequired": false
+    },
+    {
+      "id": "C004",
+      "family": "Structure",
+      "fr": "Lest ou ancrage au sol conforme à la note de calcul",
+      "en": "Ballast or ground anchoring per load calculation",
+      "country": "ALL",
+      "photoRequired": true
+    },
+    {
+      "id": "C005",
+      "family": "Structure",
+      "fr": "Haubanage en place pour les structures extérieures",
+      "en": "Guying in place for outdoor structures",
+      "country": "ALL",
+      "photoRequired": true
+    },
+    {
+      "id": "C006",
+      "family": "Structure",
+      "fr": "Aplomb et niveau vérifiés",
+      "en": "Plumb and level checked",
+      "country": "ALL",
+      "photoRequired": false
+    },
+    {
+      "id": "C007",
+      "family": "Levage",
+      "fr": "Élingue de sécurité sur chaque point d'accroche",
+      "en": "Safety sling on every rigging point",
+      "country": "ALL",
+      "photoRequired": true
+    },
+    {
+      "id": "C008",
+      "family": "Levage",
+      "fr": "Charge appliquée inférieure à la charge admissible",
+      "en": "Applied load below rated load",
+      "country": "ALL",
+      "photoRequired": false
+    },
+    {
+      "id": "C009",
+      "family": "Levage",
+      "fr": "Chaînes de palans sans torsion, sacs à chaîne en place",
+      "en": "Hoist chains untwisted, chain bags fitted",
+      "country": "ALL",
+      "photoRequired": true
+    },
+    {
+      "id": "C010",
+      "family": "Levage",
+      "fr": "Freins des palans testés",
+      "en": "Hoist brakes tested",
+      "country": "ALL",
+      "photoRequired": false
+    },
+    {
+      "id": "C011",
+      "family": "Levage",
+      "fr": "Manilles fermées et goupillées, élingues sans défaut",
+      "en": "Shackles closed and moused, slings undamaged",
+      "country": "ALL",
+      "photoRequired": true
+    },
+    {
+      "id": "C012",
+      "family": "Levage",
+      "fr": "Points d'accroche du bâtiment validés par le lieu",
+      "en": "Venue rigging points approved by the venue",
+      "country": "ALL",
+      "photoRequired": false
+    },
+    {
+      "id": "C013",
+      "family": "Électricité",
+      "fr": "Mise à la terre des structures métalliques",
+      "en": "Metal structures earthed",
+      "country": "ALL",
+      "photoRequired": true
+    },
+    {
+      "id": "C014",
+      "family": "Électricité",
+      "fr": "Protection différentielle 30 mA testée",
+      "en": "30 mA RCD tested",
+      "country": "ALL",
+      "photoRequired": false
+    },
+    {
+      "id": "C015",
+      "family": "Électricité",
+      "fr": "Câbles protégés dans les zones de passage",
+      "en": "Cables protected in walkways",
+      "country": "ALL",
+      "photoRequired": false
+    },
+    {
+      "id": "C016",
+      "family": "Électricité",
+      "fr": "Vérification par personnel habilité (NF C 18-510)",
+      "en": "Checked by authorised staff (NF C 18-510)",
+      "country": "FR",
+      "photoRequired": false
+    },
+    {
+      "id": "C017",
+      "family": "Électricité",
+      "fr": "Vérification par personnel BA4 ou BA5 (RGIE)",
+      "en": "Checked by BA4 or BA5 staff (RGIE)",
+      "country": "BE",
+      "photoRequired": false
+    },
+    {
+      "id": "C018",
+      "family": "Scène",
+      "fr": "Praticables verrouillés entre eux, pieds bloqués",
+      "en": "Stage decks locked together, legs secured",
+      "country": "ALL",
+      "photoRequired": true
+    },
+    {
+      "id": "C019",
+      "family": "Scène",
+      "fr": "Garde-corps sur les bords de scène en hauteur",
+      "en": "Guardrails on raised stage edges",
+      "country": "ALL",
+      "photoRequired": true
+    },
+    {
+      "id": "C020",
+      "family": "Scène",
+      "fr": "Escaliers d'accès stables avec main courante",
+      "en": "Stable access stairs with handrail",
+      "country": "ALL",
+      "photoRequired": false
+    },
+    {
+      "id": "C021",
+      "family": "Scène",
+      "fr": "Nez de scène et marches balisés",
+      "en": "Stage edge and steps marked",
+      "country": "ALL",
+      "photoRequired": false
+    },
+    {
+      "id": "C022",
+      "family": "Général",
+      "fr": "Matériel conforme aux certificats et contrôles périodiques",
+      "en": "Equipment covered by valid certificates and inspections",
+      "country": "ALL",
+      "photoRequired": false
+    },
+    {
+      "id": "C023",
+      "family": "Général",
+      "fr": "Zones techniques interdites au public",
+      "en": "Technical areas closed to the public",
+      "country": "ALL",
+      "photoRequired": false
+    },
+    {
+      "id": "C024",
+      "family": "Général",
+      "fr": "Issues de secours et extincteurs dégagés",
+      "en": "Fire exits and extinguishers kept clear",
+      "country": "ALL",
+      "photoRequired": true
+    }
+  ],
+  "countries": [
+    {
+      "code": "FR",
+      "name": "France",
+      "document": "PPSPS (Plan particulier de sécurité et de protection de la santé)",
+      "languages": [
+        "fr"
+      ],
+      "references": "Code du travail, art. L4532-9 et R4532-63 et suivants",
+      "status": "Lancement"
+    },
+    {
+      "code": "BE",
+      "name": "Belgique",
+      "document": "Plan de sécurité et de santé",
+      "languages": [
+        "fr",
+        "nl"
+      ],
+      "references": "Code du bien-être au travail, livre V, titre 2 (chantiers temporaires ou mobiles)",
+      "status": "Lancement"
+    },
+    {
+      "code": "UK",
+      "name": "Royaume-Uni",
+      "document": "RAMS (Risk Assessment and Method Statement)",
+      "languages": [
+        "en"
+      ],
+      "references": "Management of Health and Safety at Work Regulations 1999, CDM 2015",
+      "status": "Prévu"
+    },
+    {
+      "code": "LU",
+      "name": "Luxembourg",
+      "document": "Plan de sécurité et de santé",
+      "languages": [
+        "fr",
+        "de"
+      ],
+      "references": "Code du travail, chantiers temporaires ou mobiles",
+      "status": "Prévu"
+    },
+    {
+      "code": "DE",
+      "name": "Allemagne",
+      "document": "Gefährdungsbeurteilung, SiGe-Plan",
+      "languages": [
+        "de"
+      ],
+      "references": "ArbSchG, BaustellV",
+      "status": "Prévu"
+    },
+    {
+      "code": "NL",
+      "name": "Pays-Bas",
+      "document": "V&G-plan",
+      "languages": [
+        "nl"
+      ],
+      "references": "Arbobesluit",
+      "status": "Prévu"
+    }
+  ],
+  "updatedAt": "2026-10-04T09:58:02.807Z"
+}
