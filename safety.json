@@ -579,6 +579,24 @@
       "de": "Zutritt des Publikums zu technischen Bereichen",
       "es": "Acceso del público a zonas técnicas",
       "pt": "Acesso do público às zonas técnicas"
+    },
+    {
+      "id": "R028",
+      "category": "MET",
+      "fr": "Pluie : sols glissants et matériel électrique exposé",
+      "en": "Rain: slippery floors and exposed electrical equipment",
+      "phases": [
+        "M",
+        "E",
+        "D"
+      ],
+      "severity": 3,
+      "probability": 3,
+      "country": "ALL",
+      "nl": "Regen: gladde vloeren en blootgesteld elektrisch materiaal",
+      "de": "Regen: rutschige Böden und ungeschütztes elektrisches Material",
+      "es": "Lluvia: suelos resbaladizos y material eléctrico expuesto",
+      "pt": "Chuva: pisos escorregadios e material elétrico exposto"
     }
   ],
   "measures": [
@@ -1322,6 +1340,45 @@
       "de": "Kabel im Publikumsbereich abgedeckt und markiert",
       "es": "Cables en zonas de público protegidos y señalizados",
       "pt": "Cabos nas zonas de público protegidos e sinalizados"
+    },
+    {
+      "id": "M058",
+      "risk": "R028",
+      "type": "Collective",
+      "fr": "Matériel électrique protégé de la pluie (housses, indice IP adapté, raccordements hors de l'eau)",
+      "en": "Electrical equipment protected from rain (covers, suitable IP rating, connections off the ground)",
+      "country": "ALL",
+      "mandatory": true,
+      "nl": "Elektrisch materiaal beschermd tegen regen (hoezen, geschikte IP-klasse, aansluitingen niet in het water)",
+      "de": "Elektrisches Material vor Regen geschützt (Abdeckungen, passende IP-Schutzart, Anschlüsse nicht im Wasser)",
+      "es": "Material eléctrico protegido de la lluvia (fundas, grado IP adecuado, conexiones fuera del agua)",
+      "pt": "Material elétrico protegido da chuva (capas, índice IP adequado, ligações fora da água)"
+    },
+    {
+      "id": "M059",
+      "risk": "R028",
+      "type": "Collective",
+      "fr": "Tapis antidérapants et zones de passage dégagées et séchées",
+      "en": "Anti-slip mats and walkways kept clear and dried",
+      "country": "ALL",
+      "mandatory": true,
+      "nl": "Antislipmatten en doorgangen vrij en droog gehouden",
+      "de": "Rutschfeste Matten, Laufwege frei und trocken gehalten",
+      "es": "Alfombras antideslizantes y zonas de paso despejadas y secas",
+      "pt": "Tapetes antiderrapantes e zonas de passagem desobstruídas e secas"
+    },
+    {
+      "id": "M060",
+      "risk": "R028",
+      "type": "Individuelle",
+      "fr": "Vêtements de pluie et chaussures de sécurité antidérapantes",
+      "en": "Rain gear and slip-resistant safety shoes",
+      "country": "ALL",
+      "mandatory": false,
+      "nl": "Regenkleding en antislip-veiligheidsschoenen",
+      "de": "Regenkleidung und rutschfeste Sicherheitsschuhe",
+      "es": "Ropa de lluvia y calzado de seguridad antideslizante",
+      "pt": "Roupa de chuva e calçado de segurança antiderrapante"
     }
   ],
   "controls": [
@@ -1678,5 +1735,5 @@
       "status": "Prévu"
     }
   ],
-  "updatedAt": "2026-10-04T13:03:22.479Z"
+  "updatedAt": "2026-10-04T15:08:21.122Z"
 }
