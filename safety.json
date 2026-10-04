@@ -5,67 +5,111 @@
       "id": "HAUT",
       "fr": "Travail en hauteur",
       "en": "Work at height",
-      "icon": "height"
+      "icon": "height",
+      "nl": "Werken op hoogte",
+      "de": "Arbeiten in der Höhe",
+      "es": "Trabajo en altura",
+      "pt": "Trabalho em altura"
     },
     {
       "id": "LEV",
       "fr": "Levage et rigging",
       "en": "Lifting and rigging",
-      "icon": "anchor"
+      "icon": "anchor",
+      "nl": "Hijsen en rigging",
+      "de": "Heben und Rigging",
+      "es": "Elevación y rigging",
+      "pt": "Elevação e rigging"
     },
     {
       "id": "ELEC",
       "fr": "Électricité",
       "en": "Electricity",
-      "icon": "bolt"
+      "icon": "bolt",
+      "nl": "Elektriciteit",
+      "de": "Elektrizität",
+      "es": "Electricidad",
+      "pt": "Eletricidade"
     },
     {
       "id": "MAN",
       "fr": "Manutention",
       "en": "Manual handling",
-      "icon": "inventory_2"
+      "icon": "inventory_2",
+      "nl": "Manueel hanteren van lasten",
+      "de": "Manuelle Lastenhandhabung",
+      "es": "Manipulación manual de cargas",
+      "pt": "Movimentação manual de cargas"
     },
     {
       "id": "CIRC",
       "fr": "Circulation et engins",
       "en": "Traffic and vehicles",
-      "icon": "local_shipping"
+      "icon": "local_shipping",
+      "nl": "Verkeer en voertuigen",
+      "de": "Verkehr und Fahrzeuge",
+      "es": "Tráfico y vehículos",
+      "pt": "Circulação e veículos"
     },
     {
       "id": "ORG",
       "fr": "Organisation du travail",
       "en": "Work organisation",
-      "icon": "groups"
+      "icon": "groups",
+      "nl": "Werkorganisatie",
+      "de": "Arbeitsorganisation",
+      "es": "Organización del trabajo",
+      "pt": "Organização do trabalho"
     },
     {
       "id": "ENV",
       "fr": "Ambiance de travail",
       "en": "Working environment",
-      "icon": "nightlight"
+      "icon": "nightlight",
+      "nl": "Werkomgeving",
+      "de": "Arbeitsumgebung",
+      "es": "Entorno de trabajo",
+      "pt": "Ambiente de trabalho"
     },
     {
       "id": "MET",
       "fr": "Météo (plein air)",
       "en": "Weather (outdoor)",
-      "icon": "thunderstorm"
+      "icon": "thunderstorm",
+      "nl": "Weer (openlucht)",
+      "de": "Wetter (im Freien)",
+      "es": "Meteorología (exterior)",
+      "pt": "Meteorologia (exterior)"
     },
     {
       "id": "EFF",
       "fr": "Effets spéciaux et lasers",
       "en": "Special effects and lasers",
-      "icon": "flare"
+      "icon": "flare",
+      "nl": "Speciale effecten en lasers",
+      "de": "Spezialeffekte und Laser",
+      "es": "Efectos especiales y láseres",
+      "pt": "Efeitos especiais e lasers"
     },
     {
       "id": "INC",
       "fr": "Incendie",
       "en": "Fire",
-      "icon": "local_fire_department"
+      "icon": "local_fire_department",
+      "nl": "Brand",
+      "de": "Brand",
+      "es": "Incendio",
+      "pt": "Incêndio"
     },
     {
       "id": "PUB",
       "fr": "Public",
       "en": "Audience",
-      "icon": "diversity_3"
+      "icon": "diversity_3",
+      "nl": "Publiek",
+      "de": "Publikum",
+      "es": "Público",
+      "pt": "Público"
     }
   ],
   "risks": [
@@ -81,7 +125,11 @@
       ],
       "severity": 4,
       "probability": 3,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Val van hoogte op grid, loopbrug of truss",
+      "de": "Absturz von Grid, Laufsteg oder Traverse",
+      "es": "Caída en altura desde parrilla, pasarela o estructura",
+      "pt": "Queda em altura de grelha, passadiço ou estrutura"
     },
     {
       "id": "R002",
@@ -94,7 +142,11 @@
       ],
       "severity": 4,
       "probability": 2,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Val vanaf een hoogwerker",
+      "de": "Absturz von einer Hubarbeitsbühne",
+      "es": "Caída desde una plataforma elevadora (PEMP)",
+      "pt": "Queda de uma plataforma elevatória (PEMP)"
     },
     {
       "id": "R003",
@@ -108,7 +160,11 @@
       ],
       "severity": 3,
       "probability": 3,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Val van een ladder of trapladder",
+      "de": "Sturz von einer Leiter oder Stehleiter",
+      "es": "Caída desde una escalera de mano o de tijera",
+      "pt": "Queda de escada simples ou escadote"
     },
     {
       "id": "R004",
@@ -122,7 +178,11 @@
       ],
       "severity": 4,
       "probability": 3,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Vallende voorwerpen of gereedschap",
+      "de": "Herabfallende Gegenstände oder Werkzeuge",
+      "es": "Caída de objetos o herramientas desde altura",
+      "pt": "Queda de objetos ou ferramentas"
     },
     {
       "id": "R005",
@@ -136,7 +196,11 @@
       ],
       "severity": 4,
       "probability": 2,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Vallende hangende last (truss, armatuur, luidspreker)",
+      "de": "Absturz einer hängenden Last (Traverse, Scheinwerfer, Lautsprecher)",
+      "es": "Caída de una carga suspendida (truss, proyector, altavoz)",
+      "pt": "Queda de carga suspensa (truss, projetor, coluna)"
     },
     {
       "id": "R006",
@@ -150,7 +214,11 @@
       ],
       "severity": 4,
       "probability": 2,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Falen van een takel of ophangpunt",
+      "de": "Versagen eines Kettenzugs oder Anschlagpunkts",
+      "es": "Fallo de un polipasto o punto de anclaje",
+      "pt": "Falha de um diferencial ou ponto de fixação"
     },
     {
       "id": "R007",
@@ -163,7 +231,11 @@
       ],
       "severity": 4,
       "probability": 2,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Overbelasting van de structuur of het grid",
+      "de": "Überlastung der Konstruktion oder des Grids",
+      "es": "Sobrecarga de la estructura o parrilla",
+      "pt": "Sobrecarga da estrutura ou grelha"
     },
     {
       "id": "R008",
@@ -177,7 +249,11 @@
       ],
       "severity": 4,
       "probability": 2,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Elektrische schok of elektrocutie bij aansluitingen",
+      "de": "Stromschlag beim Anschließen",
+      "es": "Electrocución durante las conexiones",
+      "pt": "Eletrocussão durante as ligações"
     },
     {
       "id": "R009",
@@ -190,7 +266,11 @@
       ],
       "severity": 4,
       "probability": 2,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Isolatiefout of ontbrekende aarding op het materiaal",
+      "de": "Isolationsfehler oder fehlende Erdung am Material",
+      "es": "Fallo de aislamiento o falta de toma de tierra en el material",
+      "pt": "Defeito de isolamento ou falta de ligação à terra no material"
     },
     {
       "id": "R010",
@@ -202,7 +282,11 @@
       ],
       "severity": 3,
       "probability": 2,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Oververhitting of brand van overbelaste kabels",
+      "de": "Überhitzung oder Brand überlasteter Kabel",
+      "es": "Sobrecalentamiento o incendio de cables sobrecargados",
+      "pt": "Sobreaquecimento ou incêndio de cabos sobrecarregados"
     },
     {
       "id": "R011",
@@ -215,7 +299,11 @@
       ],
       "severity": 2,
       "probability": 4,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Rugletsels en spier- en skeletaandoeningen bij het hanteren van flightcases",
+      "de": "Rückenverletzungen und Muskel-Skelett-Erkrankungen beim Bewegen von Flightcases",
+      "es": "Lesiones de espalda y trastornos musculoesqueléticos al manipular flight cases",
+      "pt": "Lesões lombares e músculo-esqueléticas ao movimentar flight cases"
     },
     {
       "id": "R012",
@@ -228,7 +316,11 @@
       ],
       "severity": 3,
       "probability": 3,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Verpletterde handen of voeten",
+      "de": "Quetschungen an Händen oder Füßen",
+      "es": "Aplastamiento de manos o pies",
+      "pt": "Esmagamento de mãos ou pés"
     },
     {
       "id": "R013",
@@ -241,7 +333,11 @@
       ],
       "severity": 4,
       "probability": 2,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Aangereden worden door heftruck, transpallet of voertuig",
+      "de": "Anfahren durch Gabelstapler, Hubwagen oder Fahrzeug",
+      "es": "Atropello por carretilla, transpaleta o vehículo",
+      "pt": "Atropelamento por empilhador, porta-paletes ou veículo"
     },
     {
       "id": "R014",
@@ -255,7 +351,11 @@
       ],
       "severity": 2,
       "probability": 4,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Struikelen en uitglijden over kabels",
+      "de": "Stolpern und Ausrutschen über Kabel",
+      "es": "Resbalones y tropiezos con cables",
+      "pt": "Escorregadelas e tropeções em cabos"
     },
     {
       "id": "R015",
@@ -268,7 +368,11 @@
       ],
       "severity": 3,
       "probability": 4,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Gelijktijdige werken door meerdere ploegen (geluid, licht, video, structuur, decor)",
+      "de": "Gleichzeitige Arbeiten mehrerer Teams (Ton, Licht, Video, Konstruktion, Bühnenbau)",
+      "es": "Trabajos simultáneos de varios equipos (sonido, luz, vídeo, estructura, decorado)",
+      "pt": "Trabalhos simultâneos de várias equipas (som, luz, vídeo, estrutura, cenografia)"
     },
     {
       "id": "R016",
@@ -282,7 +386,11 @@
       ],
       "severity": 3,
       "probability": 2,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Alleen werken",
+      "de": "Alleinarbeit",
+      "es": "Trabajo en solitario",
+      "pt": "Trabalho isolado"
     },
     {
       "id": "R017",
@@ -296,7 +404,11 @@
       ],
       "severity": 3,
       "probability": 4,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Vermoeidheid door nachtwerk en lange dagen",
+      "de": "Ermüdung durch Nachtarbeit und lange Arbeitstage",
+      "es": "Fatiga por trabajo nocturno y jornadas largas",
+      "pt": "Fadiga por trabalho noturno e jornadas longas"
     },
     {
       "id": "R018",
@@ -308,7 +420,11 @@
       ],
       "severity": 3,
       "probability": 3,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Blootstelling aan lawaai tijdens soundcheck en show",
+      "de": "Lärmbelastung bei Soundcheck und Show",
+      "es": "Exposición al ruido durante las pruebas de sonido y el espectáculo",
+      "pt": "Exposição ao ruído durante o soundcheck e o espetáculo"
     },
     {
       "id": "R019",
@@ -322,7 +438,11 @@
       ],
       "severity": 2,
       "probability": 3,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Werken in het donker of bij weinig licht",
+      "de": "Arbeiten im Dunkeln oder bei schwacher Beleuchtung",
+      "es": "Trabajo a oscuras o con poca iluminación",
+      "pt": "Trabalho no escuro ou com pouca iluminação"
     },
     {
       "id": "R020",
@@ -336,7 +456,11 @@
       ],
       "severity": 4,
       "probability": 2,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Harde wind op buitenstructuren",
+      "de": "Starker Wind an Konstruktionen im Freien",
+      "es": "Viento fuerte en estructuras exteriores",
+      "pt": "Vento forte em estruturas exteriores"
     },
     {
       "id": "R021",
@@ -350,7 +474,11 @@
       ],
       "severity": 4,
       "probability": 2,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Onweer en bliksem",
+      "de": "Gewitter und Blitzschlag",
+      "es": "Tormentas y rayos",
+      "pt": "Trovoadas e raios"
     },
     {
       "id": "R022",
@@ -364,7 +492,11 @@
       ],
       "severity": 2,
       "probability": 3,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Extreme hitte of koude",
+      "de": "Extreme Hitze oder Kälte",
+      "es": "Calor o frío extremos",
+      "pt": "Calor ou frio extremos"
     },
     {
       "id": "R023",
@@ -376,7 +508,11 @@
       ],
       "severity": 3,
       "probability": 2,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Blootstelling aan laserstralen",
+      "de": "Exposition gegenüber Laserstrahlen",
+      "es": "Exposición a haces láser",
+      "pt": "Exposição a feixes laser"
     },
     {
       "id": "R024",
@@ -388,7 +524,11 @@
       ],
       "severity": 4,
       "probability": 1,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Pyrotechniek, CO2 en speciale effecten",
+      "de": "Pyrotechnik, CO2 und Spezialeffekte",
+      "es": "Pirotecnia, CO2 y efectos especiales",
+      "pt": "Pirotecnia, CO2 e efeitos especiais"
     },
     {
       "id": "R025",
@@ -400,7 +540,11 @@
       ],
       "severity": 1,
       "probability": 3,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Inademing van rook of nevel",
+      "de": "Einatmen von Rauch oder Nebel",
+      "es": "Inhalación de humo o niebla artificial",
+      "pt": "Inalação de fumo ou névoa artificial"
     },
     {
       "id": "R026",
@@ -414,7 +558,11 @@
       ],
       "severity": 4,
       "probability": 2,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Brand (hete armaturen, decor, filters)",
+      "de": "Brand (heiße Scheinwerfer, Dekoration, Filter)",
+      "es": "Incendio (proyectores calientes, decorado, filtros)",
+      "pt": "Incêndio (projetores quentes, cenografia, filtros)"
     },
     {
       "id": "R027",
@@ -426,7 +574,11 @@
       ],
       "severity": 3,
       "probability": 2,
-      "country": "ALL"
+      "country": "ALL",
+      "nl": "Toegang van publiek tot technische zones",
+      "de": "Zutritt des Publikums zu technischen Bereichen",
+      "es": "Acceso del público a zonas técnicas",
+      "pt": "Acesso do público às zonas técnicas"
     }
   ],
   "measures": [
@@ -437,7 +589,11 @@
       "fr": "Garde-corps sur passerelles et plateformes",
       "en": "Guardrails on catwalks and platforms",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Leuningen op loopbruggen en platformen",
+      "de": "Geländer an Laufstegen und Plattformen",
+      "es": "Barandillas en pasarelas y plataformas",
+      "pt": "Guarda-corpos em passadiços e plataformas"
     },
     {
       "id": "M002",
@@ -446,7 +602,11 @@
       "fr": "Harnais antichute avec double longe, ancré sur un point validé",
       "en": "Fall arrest harness with twin lanyard on an approved anchor",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Valharnas met dubbele lijn, verankerd aan een goedgekeurd punt",
+      "de": "Auffanggurt mit Doppelverbindungsmittel an einem geprüften Anschlagpunkt",
+      "es": "Arnés anticaídas con doble cabo, anclado en un punto validado",
+      "pt": "Arnês antiqueda com dupla linha, ancorado num ponto validado"
     },
     {
       "id": "M003",
@@ -455,7 +615,11 @@
       "fr": "Formation au travail en hauteur et au port du harnais",
       "en": "Work at height and harness training",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Opleiding werken op hoogte en gebruik van het harnas",
+      "de": "Schulung für Arbeiten in der Höhe und Gurtnutzung",
+      "es": "Formación en trabajos en altura y uso del arnés",
+      "pt": "Formação em trabalho em altura e uso do arnês"
     },
     {
       "id": "M004",
@@ -464,7 +628,11 @@
       "fr": "Conducteur titulaire du CACES R486 et d'une autorisation de conduite",
       "en": "Operator holds CACES R486 and a driving authorisation",
       "country": "FR",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Bestuurder met CACES R486 en rijbevoegdheid",
+      "de": "Bediener mit CACES R486 und Fahrberechtigung",
+      "es": "Operador con CACES R486 y autorización de conducción",
+      "pt": "Operador com CACES R486 e autorização de condução"
     },
     {
       "id": "M005",
@@ -473,7 +641,11 @@
       "fr": "Conducteur formé et autorisé par l'employeur",
       "en": "Operator trained and authorised by the employer",
       "country": "BE",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Bestuurder opgeleid en gemachtigd door de werkgever",
+      "de": "Bediener vom Arbeitgeber geschult und beauftragt",
+      "es": "Operador formado y autorizado por el empleador",
+      "pt": "Operador formado e autorizado pelo empregador"
     },
     {
       "id": "M006",
@@ -482,7 +654,11 @@
       "fr": "Harnais attaché au point d'ancrage de la nacelle",
       "en": "Harness attached to the platform anchor point",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Harnas vastgemaakt aan het ankerpunt van de hoogwerker",
+      "de": "Gurt am Anschlagpunkt der Arbeitsbühne befestigt",
+      "es": "Arnés sujeto al punto de anclaje de la plataforma",
+      "pt": "Arnês preso ao ponto de ancoragem da plataforma"
     },
     {
       "id": "M007",
@@ -491,7 +667,11 @@
       "fr": "Vérification périodique de la nacelle à jour",
       "en": "Periodic inspection of the platform up to date",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Periodieke keuring van de hoogwerker up-to-date",
+      "de": "Wiederkehrende Prüfung der Arbeitsbühne aktuell",
+      "es": "Revisión periódica de la plataforma al día",
+      "pt": "Inspeção periódica da plataforma em dia"
     },
     {
       "id": "M008",
@@ -500,7 +680,11 @@
       "fr": "Plateforme individuelle roulante préférée à l'escabeau",
       "en": "Mobile podium preferred to a stepladder",
       "country": "ALL",
-      "mandatory": false
+      "mandatory": false,
+      "nl": "Rolsteiger of podiumtrap verkiezen boven een trapladder",
+      "de": "Podestleiter statt Stehleiter bevorzugen",
+      "es": "Preferir una plataforma rodante individual a la escalera de tijera",
+      "pt": "Preferir uma plataforma individual móvel ao escadote"
     },
     {
       "id": "M009",
@@ -509,7 +693,11 @@
       "fr": "Échelle utilisée comme moyen d'accès, pas comme poste de travail",
       "en": "Ladder used for access only, not as a workstation",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Ladder enkel als toegangsmiddel, niet als werkpost",
+      "de": "Leiter nur als Zugang, nicht als Arbeitsplatz",
+      "es": "Escalera solo como medio de acceso, no como puesto de trabajo",
+      "pt": "Escada apenas como meio de acesso, não como posto de trabalho"
     },
     {
       "id": "M010",
@@ -518,7 +706,11 @@
       "fr": "Balisage et interdiction de passage sous la zone de travail",
       "en": "Exclusion zone below the work area",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Afbakening en doorgangsverbod onder de werkzone",
+      "de": "Absperrung und Durchgangsverbot unter dem Arbeitsbereich",
+      "es": "Balizamiento y prohibición de paso bajo la zona de trabajo",
+      "pt": "Balizamento e proibição de passagem sob a zona de trabalho"
     },
     {
       "id": "M011",
@@ -527,7 +719,11 @@
       "fr": "Casque de protection en zone de levage",
       "en": "Hard hat in lifting areas",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Veiligheidshelm in de hijszone",
+      "de": "Schutzhelm im Hebebereich",
+      "es": "Casco de protección en la zona de elevación",
+      "pt": "Capacete de proteção na zona de elevação"
     },
     {
       "id": "M012",
@@ -536,7 +732,11 @@
       "fr": "Outils attachés par dragonne",
       "en": "Tools secured with lanyards",
       "country": "ALL",
-      "mandatory": false
+      "mandatory": false,
+      "nl": "Gereedschap vastgemaakt met een koord",
+      "de": "Werkzeuge mit Fangleine gesichert",
+      "es": "Herramientas sujetas con cordón",
+      "pt": "Ferramentas presas com cordão"
     },
     {
       "id": "M013",
@@ -545,7 +745,11 @@
       "fr": "Élingue de sécurité secondaire sur chaque élément suspendu",
       "en": "Secondary safety sling on each suspended item",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Secundaire veiligheidsstrop op elk opgehangen element",
+      "de": "Sekundärsicherung an jedem hängenden Element",
+      "es": "Eslinga de seguridad secundaria en cada elemento suspendido",
+      "pt": "Linga de segurança secundária em cada elemento suspenso"
     },
     {
       "id": "M014",
@@ -554,7 +758,11 @@
       "fr": "Interdiction de stationner sous les charges en mouvement",
       "en": "No standing under moving loads",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Verbod om onder bewegende lasten te staan",
+      "de": "Aufenthalt unter bewegten Lasten verboten",
+      "es": "Prohibido permanecer bajo cargas en movimiento",
+      "pt": "Proibido permanecer sob cargas em movimento"
     },
     {
       "id": "M015",
@@ -563,7 +771,11 @@
       "fr": "Accrochage réalisé par un rigger qualifié",
       "en": "Rigging carried out by a qualified rigger",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Ophanging uitgevoerd door een gekwalificeerde rigger",
+      "de": "Rigging durch einen qualifizierten Rigger",
+      "es": "Colgado realizado por un rigger cualificado",
+      "pt": "Suspensão realizada por um rigger qualificado"
     },
     {
       "id": "M016",
@@ -572,7 +784,11 @@
       "fr": "Palans et accessoires vérifiés, registre de contrôle à jour",
       "en": "Hoists and accessories inspected, inspection log up to date",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Takels en hijsmiddelen gekeurd, keuringsregister up-to-date",
+      "de": "Kettenzüge und Anschlagmittel geprüft, Prüfbuch aktuell",
+      "es": "Polipastos y accesorios revisados, registro de control al día",
+      "pt": "Diferenciais e acessórios inspecionados, registo de controlo em dia"
     },
     {
       "id": "M017",
@@ -581,7 +797,11 @@
       "fr": "Palans adaptés au levage au-dessus de personnes (type D8+)",
       "en": "Hoists suitable for lifting over people (D8+ type)",
       "country": "ALL",
-      "mandatory": false
+      "mandatory": false,
+      "nl": "Takels geschikt voor hijsen boven personen (type D8+)",
+      "de": "Kettenzüge für Lasten über Personen geeignet (Typ D8+)",
+      "es": "Polipastos aptos para elevación sobre personas (tipo D8+)",
+      "pt": "Diferenciais adequados para elevação sobre pessoas (tipo D8+)"
     },
     {
       "id": "M018",
@@ -590,7 +810,11 @@
       "fr": "Note de calcul des charges validée avant le montage",
       "en": "Load calculation approved before rigging",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Belastingsberekening goedgekeurd vóór de opbouw",
+      "de": "Lastberechnung vor dem Aufbau freigegeben",
+      "es": "Cálculo de cargas validado antes del montaje",
+      "pt": "Cálculo de cargas validado antes da montagem"
     },
     {
       "id": "M019",
@@ -599,7 +823,11 @@
       "fr": "Respect des charges maximales du fabricant de la structure",
       "en": "Manufacturer's maximum loads respected",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Maximale belasting van de fabrikant gerespecteerd",
+      "de": "Maximallasten des Herstellers eingehalten",
+      "es": "Cargas máximas del fabricante respetadas",
+      "pt": "Cargas máximas do fabricante respeitadas"
     },
     {
       "id": "M020",
@@ -608,7 +836,11 @@
       "fr": "Raccordements par du personnel titulaire d'une habilitation électrique (NF C 18-510)",
       "en": "Connections by staff with electrical authorisation (NF C 18-510)",
       "country": "FR",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Aansluitingen door personeel met elektrische bevoegdheid (NF C 18-510)",
+      "de": "Anschlüsse durch Personal mit elektrischer Befähigung (NF C 18-510)",
+      "es": "Conexiones por personal con habilitación eléctrica (NF C 18-510)",
+      "pt": "Ligações por pessoal com habilitação elétrica (NF C 18-510)"
     },
     {
       "id": "M021",
@@ -617,7 +849,11 @@
       "fr": "Raccordements par du personnel BA4 ou BA5 (RGIE)",
       "en": "Connections by BA4 or BA5 staff (RGIE)",
       "country": "BE",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Aansluitingen door BA4- of BA5-personeel (AREI)",
+      "de": "Anschlüsse durch BA4- oder BA5-Personal (RGIE)",
+      "es": "Conexiones por personal BA4 o BA5 (RGIE)",
+      "pt": "Ligações por pessoal BA4 ou BA5 (RGIE)"
     },
     {
       "id": "M022",
@@ -626,7 +862,11 @@
       "fr": "Protection différentielle 30 mA sur les circuits terminaux",
       "en": "30 mA RCD protection on final circuits",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Differentieelschakelaar 30 mA op de eindkringen",
+      "de": "Fehlerstromschutz 30 mA an den Endstromkreisen",
+      "es": "Protección diferencial de 30 mA en los circuitos terminales",
+      "pt": "Proteção diferencial de 30 mA nos circuitos terminais"
     },
     {
       "id": "M023",
@@ -635,7 +875,11 @@
       "fr": "Contrôle visuel du matériel et des câbles avant mise sous tension",
       "en": "Visual check of equipment and cables before power-up",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Visuele controle van materiaal en kabels vóór inschakeling",
+      "de": "Sichtprüfung von Material und Kabeln vor dem Einschalten",
+      "es": "Control visual del material y los cables antes de la puesta en tensión",
+      "pt": "Controlo visual do material e dos cabos antes da ligação"
     },
     {
       "id": "M024",
@@ -644,7 +888,11 @@
       "fr": "Vérification de la continuité de terre de la distribution",
       "en": "Earth continuity check on power distribution",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Controle van de aardingscontinuïteit van de distributie",
+      "de": "Prüfung des Schutzleiterdurchgangs der Verteilung",
+      "es": "Verificación de la continuidad de tierra de la distribución",
+      "pt": "Verificação da continuidade da terra na distribuição"
     },
     {
       "id": "M025",
@@ -653,7 +901,11 @@
       "fr": "Sections de câbles adaptées à l'intensité, enrouleurs entièrement déroulés",
       "en": "Cable sizes matched to current, cable reels fully unwound",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Kabelsecties aangepast aan de stroom, haspels volledig afgerold",
+      "de": "Kabelquerschnitte passend zum Strom, Kabeltrommeln ganz abgewickelt",
+      "es": "Secciones de cable adecuadas a la intensidad, enrolladores totalmente desenrollados",
+      "pt": "Secções de cabo adequadas à corrente, enroladores totalmente desenrolados"
     },
     {
       "id": "M026",
@@ -662,7 +914,11 @@
       "fr": "Utilisation de diables, transpalettes et rampes",
       "en": "Use of hand trucks, pallet trucks and ramps",
       "country": "ALL",
-      "mandatory": false
+      "mandatory": false,
+      "nl": "Gebruik van steekwagens, transpallets en hellingen",
+      "de": "Einsatz von Sackkarren, Hubwagen und Rampen",
+      "es": "Uso de carretillas, transpaletas y rampas",
+      "pt": "Uso de carrinhos, porta-paletes e rampas"
     },
     {
       "id": "M027",
@@ -671,7 +927,11 @@
       "fr": "Port à plusieurs des charges lourdes et rotation des tâches",
       "en": "Team lifting for heavy loads and task rotation",
       "country": "ALL",
-      "mandatory": false
+      "mandatory": false,
+      "nl": "Zware lasten met meerdere personen dragen, taakrotatie",
+      "de": "Schwere Lasten zu mehreren tragen, Aufgabenwechsel",
+      "es": "Carga de pesos entre varias personas y rotación de tareas",
+      "pt": "Cargas pesadas transportadas por várias pessoas e rotação de tarefas"
     },
     {
       "id": "M028",
@@ -680,7 +940,11 @@
       "fr": "Formation gestes et postures",
       "en": "Manual handling training",
       "country": "ALL",
-      "mandatory": false
+      "mandatory": false,
+      "nl": "Opleiding tilhouding en ergonomie",
+      "de": "Schulung zu Heben und Tragen",
+      "es": "Formación en manipulación manual de cargas",
+      "pt": "Formação em movimentação manual de cargas"
     },
     {
       "id": "M029",
@@ -689,7 +953,11 @@
       "fr": "Chaussures de sécurité et gants de manutention",
       "en": "Safety shoes and handling gloves",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Veiligheidsschoenen en werkhandschoenen",
+      "de": "Sicherheitsschuhe und Arbeitshandschuhe",
+      "es": "Calzado de seguridad y guantes de manipulación",
+      "pt": "Calçado de segurança e luvas de manuseamento"
     },
     {
       "id": "M030",
@@ -698,7 +966,11 @@
       "fr": "Plan de circulation séparant piétons et engins",
       "en": "Traffic plan separating pedestrians and vehicles",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Circulatieplan dat voetgangers en voertuigen scheidt",
+      "de": "Verkehrsplan mit Trennung von Fußgängern und Fahrzeugen",
+      "es": "Plan de circulación que separa peatones y vehículos",
+      "pt": "Plano de circulação que separa peões e veículos"
     },
     {
       "id": "M031",
@@ -707,7 +979,11 @@
       "fr": "Cariste titulaire du CACES R489 et d'une autorisation de conduite",
       "en": "Forklift driver holds CACES R489 and a driving authorisation",
       "country": "FR",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Heftruckbestuurder met CACES R489 en rijbevoegdheid",
+      "de": "Staplerfahrer mit CACES R489 und Fahrberechtigung",
+      "es": "Carretillero con CACES R489 y autorización de conducción",
+      "pt": "Condutor de empilhador com CACES R489 e autorização de condução"
     },
     {
       "id": "M032",
@@ -716,7 +992,11 @@
       "fr": "Gilet haute visibilité en zone de déchargement",
       "en": "High-visibility vest in loading areas",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Fluohesje in de laad- en loszone",
+      "de": "Warnweste im Ladebereich",
+      "es": "Chaleco de alta visibilidad en la zona de descarga",
+      "pt": "Colete de alta visibilidade na zona de descarga"
     },
     {
       "id": "M033",
@@ -725,7 +1005,11 @@
       "fr": "Passages de câbles et câbles regroupés le long des murs",
       "en": "Cable ramps and cables run along walls",
       "country": "ALL",
-      "mandatory": false
+      "mandatory": false,
+      "nl": "Kabelbruggen en kabels gebundeld langs de muren",
+      "de": "Kabelbrücken und Kabel gebündelt an den Wänden entlang",
+      "es": "Pasacables y cables agrupados a lo largo de las paredes",
+      "pt": "Passa-cabos e cabos agrupados ao longo das paredes"
     },
     {
       "id": "M034",
@@ -734,7 +1018,11 @@
       "fr": "Éclairage de service suffisant pendant montage et démontage",
       "en": "Adequate work lights during load-in and load-out",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Voldoende werkverlichting tijdens op- en afbouw",
+      "de": "Ausreichende Arbeitsbeleuchtung bei Auf- und Abbau",
+      "es": "Iluminación de trabajo suficiente durante montaje y desmontaje",
+      "pt": "Iluminação de trabalho suficiente durante montagem e desmontagem"
     },
     {
       "id": "M035",
@@ -743,7 +1031,11 @@
       "fr": "Planning de montage par équipe validé en réunion de coordination",
       "en": "Load-in schedule per team agreed in a coordination meeting",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Opbouwplanning per ploeg goedgekeurd in een coördinatievergadering",
+      "de": "Aufbauplan pro Team in einer Koordinationsbesprechung abgestimmt",
+      "es": "Planificación de montaje por equipo validada en reunión de coordinación",
+      "pt": "Planeamento de montagem por equipa validado em reunião de coordenação"
     },
     {
       "id": "M036",
@@ -752,7 +1044,11 @@
       "fr": "Désignation d'un responsable technique qui coordonne les interventions",
       "en": "A named technical manager coordinates all work",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Aanstelling van een technisch verantwoordelijke die de werken coördineert",
+      "de": "Benennung eines technischen Leiters, der die Arbeiten koordiniert",
+      "es": "Designación de un responsable técnico que coordina las intervenciones",
+      "pt": "Designação de um responsável técnico que coordena as intervenções"
     },
     {
       "id": "M037",
@@ -761,7 +1057,11 @@
       "fr": "Pas de travail isolé en hauteur ou sous tension",
       "en": "No lone working at height or on live equipment",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Niet alleen werken op hoogte of onder spanning",
+      "de": "Keine Alleinarbeit in der Höhe oder unter Spannung",
+      "es": "Sin trabajo en solitario en altura o en tensión",
+      "pt": "Sem trabalho isolado em altura ou sob tensão"
     },
     {
       "id": "M038",
@@ -770,7 +1070,11 @@
       "fr": "Moyen d'alerte (radio, téléphone) et contact régulier",
       "en": "Means of alert (radio, phone) and regular check-ins",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Alarmmiddel (portofoon, telefoon) en regelmatig contact",
+      "de": "Alarmmittel (Funk, Telefon) und regelmäßiger Kontakt",
+      "es": "Medio de alerta (radio, teléfono) y contacto regular",
+      "pt": "Meio de alerta (rádio, telefone) e contacto regular"
     },
     {
       "id": "M039",
@@ -779,7 +1083,11 @@
       "fr": "Respect des temps de repos, planning communiqué à l'avance",
       "en": "Rest periods respected, schedule shared in advance",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Rusttijden gerespecteerd, planning op voorhand meegedeeld",
+      "de": "Ruhezeiten eingehalten, Zeitplan vorab mitgeteilt",
+      "es": "Respeto de los tiempos de descanso, planificación comunicada con antelación",
+      "pt": "Tempos de descanso respeitados, planeamento comunicado com antecedência"
     },
     {
       "id": "M040",
@@ -788,7 +1096,11 @@
       "fr": "Repos ou transport organisé après un démontage de nuit",
       "en": "Rest or transport arranged after a night load-out",
       "country": "ALL",
-      "mandatory": false
+      "mandatory": false,
+      "nl": "Rust of vervoer geregeld na een nachtelijke afbouw",
+      "de": "Ruhe oder Transport nach einem nächtlichen Abbau organisiert",
+      "es": "Descanso o transporte organizado tras un desmontaje nocturno",
+      "pt": "Descanso ou transporte organizado após uma desmontagem noturna"
     },
     {
       "id": "M041",
@@ -797,7 +1109,11 @@
       "fr": "Protections auditives mises à disposition",
       "en": "Hearing protection provided",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Gehoorbescherming ter beschikking",
+      "de": "Gehörschutz bereitgestellt",
+      "es": "Protección auditiva a disposición",
+      "pt": "Proteção auditiva disponível"
     },
     {
       "id": "M042",
@@ -806,7 +1122,11 @@
       "fr": "Mesure du niveau sonore pendant le spectacle",
       "en": "Sound level monitoring during the show",
       "country": "ALL",
-      "mandatory": false
+      "mandatory": false,
+      "nl": "Meting van het geluidsniveau tijdens de show",
+      "de": "Schallpegelmessung während der Show",
+      "es": "Medición del nivel sonoro durante el espectáculo",
+      "pt": "Medição do nível sonoro durante o espetáculo"
     },
     {
       "id": "M043",
@@ -815,7 +1135,11 @@
       "fr": "Lampes frontales et éclairage de service en coulisses",
       "en": "Head torches and backstage work lights",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Hoofdlampen en werkverlichting backstage",
+      "de": "Stirnlampen und Arbeitslicht hinter der Bühne",
+      "es": "Linternas frontales e iluminación de trabajo entre bastidores",
+      "pt": "Lanternas frontais e iluminação de trabalho nos bastidores"
     },
     {
       "id": "M044",
@@ -824,7 +1148,11 @@
       "fr": "Marquage phosphorescent des marches et du nez de scène",
       "en": "Glow tape on steps and stage edge",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Fluorescerende markering van treden en podiumrand",
+      "de": "Nachleuchtende Markierung von Stufen und Bühnenkante",
+      "es": "Marcado fotoluminiscente de escalones y borde del escenario",
+      "pt": "Marcação fotoluminescente de degraus e boca de cena"
     },
     {
       "id": "M045",
@@ -833,7 +1161,11 @@
       "fr": "Anémomètre sur site et seuils d'arrêt définis selon le fabricant",
       "en": "Anemometer on site and stop thresholds set by the manufacturer",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Windmeter ter plaatse en stopdrempels volgens de fabrikant",
+      "de": "Windmesser vor Ort und Abschaltwerte nach Herstellerangaben",
+      "es": "Anemómetro en el lugar y umbrales de parada según el fabricante",
+      "pt": "Anemómetro no local e limites de paragem segundo o fabricante"
     },
     {
       "id": "M046",
@@ -842,7 +1174,11 @@
       "fr": "Procédure de mise en sécurité (descente des ponts, retrait des bâches)",
       "en": "Wind procedure (lower trusses, remove banners)",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Veiligheidsprocedure (trussen laten zakken, doeken verwijderen)",
+      "de": "Sicherungsverfahren (Traversen ablassen, Planen entfernen)",
+      "es": "Procedimiento de puesta en seguridad (bajar truss, retirar lonas)",
+      "pt": "Procedimento de segurança (baixar truss, retirar lonas)"
     },
     {
       "id": "M047",
@@ -851,7 +1187,11 @@
       "fr": "Suivi météo et évacuation des structures en cas d'orage",
       "en": "Weather monitoring and evacuation of structures during storms",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Weeropvolging en evacuatie van structuren bij onweer",
+      "de": "Wetterbeobachtung und Räumung der Konstruktionen bei Gewitter",
+      "es": "Seguimiento meteorológico y evacuación de estructuras en caso de tormenta",
+      "pt": "Acompanhamento meteorológico e evacuação das estruturas em caso de trovoada"
     },
     {
       "id": "M048",
@@ -860,7 +1200,11 @@
       "fr": "Eau potable, zones abritées, horaires adaptés",
       "en": "Drinking water, sheltered areas, adapted hours",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Drinkwater, beschutte zones, aangepaste uren",
+      "de": "Trinkwasser, geschützte Bereiche, angepasste Arbeitszeiten",
+      "es": "Agua potable, zonas resguardadas, horarios adaptados",
+      "pt": "Água potável, zonas abrigadas, horários adaptados"
     },
     {
       "id": "M049",
@@ -869,7 +1213,11 @@
       "fr": "Installation et réglage par un opérateur laser compétent, zones d'exposition contrôlées",
       "en": "Set-up by a competent laser operator, controlled exposure zones",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Installatie en afstelling door een bevoegde laseroperator, gecontroleerde blootstellingszones",
+      "de": "Aufbau und Justage durch einen fachkundigen Laseroperator, kontrollierte Expositionsbereiche",
+      "es": "Instalación y ajuste por un operador láser competente, zonas de exposición controladas",
+      "pt": "Instalação e afinação por um operador laser competente, zonas de exposição controladas"
     },
     {
       "id": "M050",
@@ -878,7 +1226,11 @@
       "fr": "Arrêt d'urgence laser accessible à l'opérateur",
       "en": "Laser emergency stop within the operator's reach",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Noodstop van de laser binnen bereik van de operator",
+      "de": "Laser-Not-Aus in Reichweite des Operators",
+      "es": "Parada de emergencia del láser al alcance del operador",
+      "pt": "Paragem de emergência do laser ao alcance do operador"
     },
     {
       "id": "M051",
@@ -887,7 +1239,11 @@
       "fr": "Mise en œuvre par un artificier qualifié selon la réglementation nationale",
       "en": "Operated by a qualified pyrotechnician under national rules",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Uitvoering door een gekwalificeerde pyrotechnicus volgens de nationale regelgeving",
+      "de": "Durchführung durch einen qualifizierten Pyrotechniker nach nationalem Recht",
+      "es": "Ejecución por un pirotécnico cualificado según la normativa nacional",
+      "pt": "Execução por um pirotécnico qualificado segundo a regulamentação nacional"
     },
     {
       "id": "M052",
@@ -896,7 +1252,11 @@
       "fr": "Périmètres de sécurité et extincteurs adaptés",
       "en": "Safety distances and suitable extinguishers",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Veiligheidsperimeters en aangepaste blusmiddelen",
+      "de": "Sicherheitsabstände und geeignete Feuerlöscher",
+      "es": "Perímetros de seguridad y extintores adecuados",
+      "pt": "Perímetros de segurança e extintores adequados"
     },
     {
       "id": "M053",
@@ -905,7 +1265,11 @@
       "fr": "Fiches de données de sécurité des liquides disponibles, ventilation",
       "en": "Safety data sheets for fluids available, ventilation",
       "country": "ALL",
-      "mandatory": false
+      "mandatory": false,
+      "nl": "Veiligheidsinformatiebladen van de vloeistoffen beschikbaar, ventilatie",
+      "de": "Sicherheitsdatenblätter der Fluide verfügbar, Belüftung",
+      "es": "Fichas de datos de seguridad de los líquidos disponibles, ventilación",
+      "pt": "Fichas de dados de segurança dos líquidos disponíveis, ventilação"
     },
     {
       "id": "M054",
@@ -914,7 +1278,11 @@
       "fr": "Extincteurs adaptés (CO2 pour l'électrique) près des postes",
       "en": "Suitable extinguishers (CO2 for electrical) near workstations",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Aangepaste blusmiddelen (CO2 voor elektriciteit) bij de werkposten",
+      "de": "Geeignete Feuerlöscher (CO2 für Elektrik) an den Arbeitsplätzen",
+      "es": "Extintores adecuados (CO2 para lo eléctrico) cerca de los puestos",
+      "pt": "Extintores adequados (CO2 para o elétrico) junto aos postos"
     },
     {
       "id": "M055",
@@ -923,7 +1291,11 @@
       "fr": "Distances de sécurité entre projecteurs et matériaux combustibles, décors ignifugés",
       "en": "Safe distances from fixtures to combustibles, fire-rated scenery",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Veiligheidsafstanden tussen armaturen en brandbare materialen, brandvertragend decor",
+      "de": "Sicherheitsabstände zwischen Scheinwerfern und brennbaren Materialien, schwer entflammbare Dekoration",
+      "es": "Distancias de seguridad entre proyectores y materiales combustibles, decorados ignífugos",
+      "pt": "Distâncias de segurança entre projetores e materiais combustíveis, cenografia ignífuga"
     },
     {
       "id": "M056",
@@ -932,7 +1304,11 @@
       "fr": "Barriérage et contrôle d'accès aux zones techniques",
       "en": "Barriers and access control for technical areas",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Afsluiting en toegangscontrole van de technische zones",
+      "de": "Absperrung und Zutrittskontrolle der technischen Bereiche",
+      "es": "Vallado y control de acceso a las zonas técnicas",
+      "pt": "Vedação e controlo de acesso às zonas técnicas"
     },
     {
       "id": "M057",
@@ -941,7 +1317,11 @@
       "fr": "Câbles en zone public protégés et balisés",
       "en": "Cables in audience areas covered and marked",
       "country": "ALL",
-      "mandatory": true
+      "mandatory": true,
+      "nl": "Kabels in publieke zones afgedekt en gemarkeerd",
+      "de": "Kabel im Publikumsbereich abgedeckt und markiert",
+      "es": "Cables en zonas de público protegidos y señalizados",
+      "pt": "Cabos nas zonas de público protegidos e sinalizados"
     }
   ],
   "controls": [
@@ -951,7 +1331,11 @@
       "fr": "Structure montée selon la notice et le plan du fabricant",
       "en": "Structure assembled per manufacturer instructions and drawing",
       "country": "ALL",
-      "photoRequired": false
+      "photoRequired": false,
+      "nl": "Structuur opgebouwd volgens handleiding en plan van de fabrikant",
+      "de": "Konstruktion nach Anleitung und Plan des Herstellers aufgebaut",
+      "es": "Estructura montada según el manual y el plano del fabricante",
+      "pt": "Estrutura montada segundo o manual e o plano do fabricante"
     },
     {
       "id": "C002",
@@ -959,7 +1343,11 @@
       "fr": "Goupilles, boulons et connecteurs en place et sécurisés",
       "en": "Pins, bolts and connectors fitted and secured",
       "country": "ALL",
-      "photoRequired": true
+      "photoRequired": true,
+      "nl": "Pennen, bouten en verbindingen aanwezig en geborgd",
+      "de": "Bolzen, Schrauben und Verbinder vorhanden und gesichert",
+      "es": "Pasadores, tornillos y conectores colocados y asegurados",
+      "pt": "Pinos, parafusos e conectores colocados e fixados"
     },
     {
       "id": "C003",
@@ -967,7 +1355,11 @@
       "fr": "Aucun élément déformé, fissuré ou corrodé",
       "en": "No bent, cracked or corroded parts",
       "country": "ALL",
-      "photoRequired": false
+      "photoRequired": false,
+      "nl": "Geen vervormde, gescheurde of gecorrodeerde onderdelen",
+      "de": "Keine verbogenen, gerissenen oder korrodierten Teile",
+      "es": "Ningún elemento deformado, fisurado o corroído",
+      "pt": "Nenhum elemento deformado, fissurado ou corroído"
     },
     {
       "id": "C004",
@@ -975,7 +1367,11 @@
       "fr": "Lest ou ancrage au sol conforme à la note de calcul",
       "en": "Ballast or ground anchoring per load calculation",
       "country": "ALL",
-      "photoRequired": true
+      "photoRequired": true,
+      "nl": "Ballast of grondverankering volgens de berekening",
+      "de": "Ballast oder Bodenverankerung gemäß Berechnung",
+      "es": "Lastre o anclaje al suelo según el cálculo",
+      "pt": "Lastro ou ancoragem ao solo conforme o cálculo"
     },
     {
       "id": "C005",
@@ -983,7 +1379,11 @@
       "fr": "Haubanage en place pour les structures extérieures",
       "en": "Guying in place for outdoor structures",
       "country": "ALL",
-      "photoRequired": true
+      "photoRequired": true,
+      "nl": "Tuien aanwezig voor buitenstructuren",
+      "de": "Abspannung bei Konstruktionen im Freien vorhanden",
+      "es": "Vientos instalados en estructuras exteriores",
+      "pt": "Espias instaladas nas estruturas exteriores"
     },
     {
       "id": "C006",
@@ -991,7 +1391,11 @@
       "fr": "Aplomb et niveau vérifiés",
       "en": "Plumb and level checked",
       "country": "ALL",
-      "photoRequired": false
+      "photoRequired": false,
+      "nl": "Loodrechte stand en waterpas gecontroleerd",
+      "de": "Lot und Waage geprüft",
+      "es": "Aplomo y nivel comprobados",
+      "pt": "Prumo e nível verificados"
     },
     {
       "id": "C007",
@@ -999,7 +1403,11 @@
       "fr": "Élingue de sécurité sur chaque point d'accroche",
       "en": "Safety sling on every rigging point",
       "country": "ALL",
-      "photoRequired": true
+      "photoRequired": true,
+      "nl": "Veiligheidsstrop op elk ophangpunt",
+      "de": "Sekundärsicherung an jedem Anschlagpunkt",
+      "es": "Eslinga de seguridad en cada punto de colgado",
+      "pt": "Linga de segurança em cada ponto de suspensão"
     },
     {
       "id": "C008",
@@ -1007,7 +1415,11 @@
       "fr": "Charge appliquée inférieure à la charge admissible",
       "en": "Applied load below rated load",
       "country": "ALL",
-      "photoRequired": false
+      "photoRequired": false,
+      "nl": "Toegepaste last lager dan de toelaatbare last",
+      "de": "Aufgebrachte Last unter der zulässigen Last",
+      "es": "Carga aplicada inferior a la carga admisible",
+      "pt": "Carga aplicada inferior à carga admissível"
     },
     {
       "id": "C009",
@@ -1015,7 +1427,11 @@
       "fr": "Chaînes de palans sans torsion, sacs à chaîne en place",
       "en": "Hoist chains untwisted, chain bags fitted",
       "country": "ALL",
-      "photoRequired": true
+      "photoRequired": true,
+      "nl": "Takelkettingen niet getordeerd, kettingzakken aanwezig",
+      "de": "Kettenzugketten nicht verdreht, Kettenspeicher angebracht",
+      "es": "Cadenas de polipasto sin torsión, bolsas de cadena colocadas",
+      "pt": "Correntes dos diferenciais sem torção, sacos de corrente colocados"
     },
     {
       "id": "C010",
@@ -1023,7 +1439,11 @@
       "fr": "Freins des palans testés",
       "en": "Hoist brakes tested",
       "country": "ALL",
-      "photoRequired": false
+      "photoRequired": false,
+      "nl": "Remmen van de takels getest",
+      "de": "Bremsen der Kettenzüge geprüft",
+      "es": "Frenos de los polipastos probados",
+      "pt": "Travões dos diferenciais testados"
     },
     {
       "id": "C011",
@@ -1031,7 +1451,11 @@
       "fr": "Manilles fermées et goupillées, élingues sans défaut",
       "en": "Shackles closed and moused, slings undamaged",
       "country": "ALL",
-      "photoRequired": true
+      "photoRequired": true,
+      "nl": "Sluitingen dicht en geborgd, stroppen zonder gebreken",
+      "de": "Schäkel geschlossen und gesichert, Anschlagmittel ohne Mängel",
+      "es": "Grilletes cerrados y asegurados, eslingas sin defectos",
+      "pt": "Manilhas fechadas e travadas, lingas sem defeitos"
     },
     {
       "id": "C012",
@@ -1039,7 +1463,11 @@
       "fr": "Points d'accroche du bâtiment validés par le lieu",
       "en": "Venue rigging points approved by the venue",
       "country": "ALL",
-      "photoRequired": false
+      "photoRequired": false,
+      "nl": "Ophangpunten van het gebouw goedgekeurd door de locatie",
+      "de": "Anschlagpunkte des Gebäudes vom Veranstaltungsort freigegeben",
+      "es": "Puntos de colgado del edificio validados por el recinto",
+      "pt": "Pontos de suspensão do edifício validados pelo recinto"
     },
     {
       "id": "C013",
@@ -1047,7 +1475,11 @@
       "fr": "Mise à la terre des structures métalliques",
       "en": "Metal structures earthed",
       "country": "ALL",
-      "photoRequired": true
+      "photoRequired": true,
+      "nl": "Aarding van metalen structuren",
+      "de": "Erdung der Metallkonstruktionen",
+      "es": "Puesta a tierra de las estructuras metálicas",
+      "pt": "Ligação à terra das estruturas metálicas"
     },
     {
       "id": "C014",
@@ -1055,7 +1487,11 @@
       "fr": "Protection différentielle 30 mA testée",
       "en": "30 mA RCD tested",
       "country": "ALL",
-      "photoRequired": false
+      "photoRequired": false,
+      "nl": "Differentieelschakelaar 30 mA getest",
+      "de": "Fehlerstromschutz 30 mA geprüft",
+      "es": "Protección diferencial de 30 mA probada",
+      "pt": "Proteção diferencial de 30 mA testada"
     },
     {
       "id": "C015",
@@ -1063,7 +1499,11 @@
       "fr": "Câbles protégés dans les zones de passage",
       "en": "Cables protected in walkways",
       "country": "ALL",
-      "photoRequired": false
+      "photoRequired": false,
+      "nl": "Kabels beschermd in doorgangszones",
+      "de": "Kabel in Durchgangsbereichen geschützt",
+      "es": "Cables protegidos en las zonas de paso",
+      "pt": "Cabos protegidos nas zonas de passagem"
     },
     {
       "id": "C016",
@@ -1071,7 +1511,11 @@
       "fr": "Vérification par personnel habilité (NF C 18-510)",
       "en": "Checked by authorised staff (NF C 18-510)",
       "country": "FR",
-      "photoRequired": false
+      "photoRequired": false,
+      "nl": "Gecontroleerd door bevoegd personeel (NF C 18-510)",
+      "de": "Geprüft durch befugtes Personal (NF C 18-510)",
+      "es": "Verificado por personal habilitado (NF C 18-510)",
+      "pt": "Verificado por pessoal habilitado (NF C 18-510)"
     },
     {
       "id": "C017",
@@ -1079,7 +1523,11 @@
       "fr": "Vérification par personnel BA4 ou BA5 (RGIE)",
       "en": "Checked by BA4 or BA5 staff (RGIE)",
       "country": "BE",
-      "photoRequired": false
+      "photoRequired": false,
+      "nl": "Gecontroleerd door BA4- of BA5-personeel (AREI)",
+      "de": "Geprüft durch BA4- oder BA5-Personal (RGIE)",
+      "es": "Verificado por personal BA4 o BA5 (RGIE)",
+      "pt": "Verificado por pessoal BA4 ou BA5 (RGIE)"
     },
     {
       "id": "C018",
@@ -1087,7 +1535,11 @@
       "fr": "Praticables verrouillés entre eux, pieds bloqués",
       "en": "Stage decks locked together, legs secured",
       "country": "ALL",
-      "photoRequired": true
+      "photoRequired": true,
+      "nl": "Podiumelementen onderling vergrendeld, poten geblokkeerd",
+      "de": "Bühnenpodeste miteinander verriegelt, Füße gesichert",
+      "es": "Tarimas bloqueadas entre sí, patas aseguradas",
+      "pt": "Estrados travados entre si, pés bloqueados"
     },
     {
       "id": "C019",
@@ -1095,7 +1547,11 @@
       "fr": "Garde-corps sur les bords de scène en hauteur",
       "en": "Guardrails on raised stage edges",
       "country": "ALL",
-      "photoRequired": true
+      "photoRequired": true,
+      "nl": "Leuningen op verhoogde podiumranden",
+      "de": "Geländer an erhöhten Bühnenkanten",
+      "es": "Barandillas en los bordes elevados del escenario",
+      "pt": "Guarda-corpos nos bordos elevados do palco"
     },
     {
       "id": "C020",
@@ -1103,7 +1559,11 @@
       "fr": "Escaliers d'accès stables avec main courante",
       "en": "Stable access stairs with handrail",
       "country": "ALL",
-      "photoRequired": false
+      "photoRequired": false,
+      "nl": "Stabiele toegangstrappen met leuning",
+      "de": "Standsichere Zugangstreppen mit Handlauf",
+      "es": "Escaleras de acceso estables con pasamanos",
+      "pt": "Escadas de acesso estáveis com corrimão"
     },
     {
       "id": "C021",
@@ -1111,7 +1571,11 @@
       "fr": "Nez de scène et marches balisés",
       "en": "Stage edge and steps marked",
       "country": "ALL",
-      "photoRequired": false
+      "photoRequired": false,
+      "nl": "Podiumrand en treden gemarkeerd",
+      "de": "Bühnenkante und Stufen markiert",
+      "es": "Borde del escenario y escalones señalizados",
+      "pt": "Boca de cena e degraus sinalizados"
     },
     {
       "id": "C022",
@@ -1119,7 +1583,11 @@
       "fr": "Matériel conforme aux certificats et contrôles périodiques",
       "en": "Equipment covered by valid certificates and inspections",
       "country": "ALL",
-      "photoRequired": false
+      "photoRequired": false,
+      "nl": "Materiaal conform certificaten en periodieke keuringen",
+      "de": "Material mit gültigen Zertifikaten und wiederkehrenden Prüfungen",
+      "es": "Material conforme a certificados y revisiones periódicas",
+      "pt": "Material conforme certificados e inspeções periódicas"
     },
     {
       "id": "C023",
@@ -1127,7 +1595,11 @@
       "fr": "Zones techniques interdites au public",
       "en": "Technical areas closed to the public",
       "country": "ALL",
-      "photoRequired": false
+      "photoRequired": false,
+      "nl": "Technische zones verboden voor publiek",
+      "de": "Technische Bereiche für das Publikum gesperrt",
+      "es": "Zonas técnicas prohibidas al público",
+      "pt": "Zonas técnicas interditas ao público"
     },
     {
       "id": "C024",
@@ -1135,7 +1607,11 @@
       "fr": "Issues de secours et extincteurs dégagés",
       "en": "Fire exits and extinguishers kept clear",
       "country": "ALL",
-      "photoRequired": true
+      "photoRequired": true,
+      "nl": "Nooduitgangen en blusmiddelen vrij",
+      "de": "Notausgänge und Feuerlöscher freigehalten",
+      "es": "Salidas de emergencia y extintores despejados",
+      "pt": "Saídas de emergência e extintores desobstruídos"
     }
   ],
   "countries": [
@@ -1202,5 +1678,5 @@
       "status": "Prévu"
     }
   ],
-  "updatedAt": "2026-10-04T09:58:02.807Z"
+  "updatedAt": "2026-10-04T13:03:22.479Z"
 }
