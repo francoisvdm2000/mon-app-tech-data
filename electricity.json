@@ -1,0 +1,679 @@
+{
+  "version": 1,
+  "connectors": [
+    {
+      "id": "powerlock400",
+      "label": "Powerlock 400A",
+      "short": "PL 400",
+      "amps": 400,
+      "phases": 3,
+      "singleCore": true,
+      "color": "#B0BEC5",
+      "section": 150,
+      "circuits": 1
+    },
+    {
+      "id": "cee125",
+      "label": "CEE 125A 5P",
+      "short": "125A",
+      "amps": 125,
+      "phases": 3,
+      "singleCore": false,
+      "color": "#E5484D",
+      "section": 35,
+      "circuits": 1
+    },
+    {
+      "id": "cee63",
+      "label": "CEE 63A 5P",
+      "short": "63A",
+      "amps": 63,
+      "phases": 3,
+      "singleCore": false,
+      "color": "#E5484D",
+      "section": 16,
+      "circuits": 1
+    },
+    {
+      "id": "cee32",
+      "label": "CEE 32A 5P",
+      "short": "32A",
+      "amps": 32,
+      "phases": 3,
+      "singleCore": false,
+      "color": "#E5484D",
+      "section": 6,
+      "circuits": 1
+    },
+    {
+      "id": "cee16",
+      "label": "CEE 16A 5P",
+      "short": "16A",
+      "amps": 16,
+      "phases": 3,
+      "singleCore": false,
+      "color": "#E5484D",
+      "section": 2.5,
+      "circuits": 1
+    },
+    {
+      "id": "cee32mono",
+      "label": "CEE 32A 3P",
+      "short": "32A mono",
+      "amps": 32,
+      "phases": 1,
+      "singleCore": false,
+      "color": "#2F80ED",
+      "section": 6,
+      "circuits": 1
+    },
+    {
+      "id": "cee16mono",
+      "label": "CEE 16A 3P",
+      "short": "16A mono",
+      "amps": 16,
+      "phases": 1,
+      "singleCore": false,
+      "color": "#2F80ED",
+      "section": 2.5,
+      "circuits": 1
+    },
+    {
+      "id": "schuko",
+      "label": "Schuko 16A",
+      "short": "Schuko",
+      "amps": 16,
+      "phases": 1,
+      "singleCore": false,
+      "color": "#9E9E9E",
+      "section": 2.5,
+      "circuits": 1
+    },
+    {
+      "id": "socapex",
+      "label": "Socapex 19 broches",
+      "short": "Socapex",
+      "amps": 16,
+      "phases": 3,
+      "singleCore": false,
+      "color": "#F2C94C",
+      "section": 2.5,
+      "circuits": 6
+    },
+    {
+      "id": "harting16",
+      "label": "Harting 16 broches",
+      "short": "Harting 16",
+      "amps": 16,
+      "phases": 3,
+      "singleCore": false,
+      "color": "#B794F4",
+      "section": 2.5,
+      "circuits": 6
+    }
+  ],
+  "distros": [
+    {
+      "id": "d400",
+      "name": "Distro 400A",
+      "input": "powerlock400",
+      "mainBreaker": 400,
+      "note": "Tête de distribution générale",
+      "outputs": [
+        {
+          "connector": "cee125",
+          "count": 3
+        },
+        {
+          "connector": "cee63",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "d400-4x125",
+      "name": "Distro 400A · 4×125A",
+      "input": "powerlock400",
+      "mainBreaker": 400,
+      "note": "Tête vers les grosses régies (son, vidéo, lumière)",
+      "outputs": [
+        {
+          "connector": "cee125",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "d400-mix",
+      "name": "Distro 400A mixte",
+      "input": "powerlock400",
+      "mainBreaker": 400,
+      "note": "Tête polyvalente avec petits départs",
+      "outputs": [
+        {
+          "connector": "cee125",
+          "count": 2
+        },
+        {
+          "connector": "cee63",
+          "count": 2
+        },
+        {
+          "connector": "cee32",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "d400-link",
+      "name": "Distro 400A avec repiquage",
+      "input": "powerlock400",
+      "mainBreaker": 400,
+      "note": "Sortie Powerlock pour chaîner un second tableau",
+      "outputs": [
+        {
+          "connector": "powerlock400",
+          "count": 1
+        },
+        {
+          "connector": "cee125",
+          "count": 2
+        },
+        {
+          "connector": "cee63",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "d250",
+      "name": "Distro 250A",
+      "input": "powerlock400",
+      "mainBreaker": 250,
+      "note": "",
+      "outputs": [
+        {
+          "connector": "cee125",
+          "count": 1
+        },
+        {
+          "connector": "cee63",
+          "count": 2
+        },
+        {
+          "connector": "cee32",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "d250-2x125",
+      "name": "Distro 250A · 2×125A",
+      "input": "powerlock400",
+      "mainBreaker": 250,
+      "note": "Éclatement vers deux tableaux 125A",
+      "outputs": [
+        {
+          "connector": "cee125",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "d125",
+      "name": "Distro 125A",
+      "input": "cee125",
+      "mainBreaker": 125,
+      "note": "",
+      "outputs": [
+        {
+          "connector": "cee63",
+          "count": 1
+        },
+        {
+          "connector": "cee32",
+          "count": 3
+        },
+        {
+          "connector": "schuko",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "d125-3x63",
+      "name": "Distro 125A · 3×63A",
+      "input": "cee125",
+      "mainBreaker": 125,
+      "note": "Éclatement vers trois tableaux 63A",
+      "outputs": [
+        {
+          "connector": "cee63",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "d125-mix",
+      "name": "Distro 125A · 2×63A + 2×32A",
+      "input": "cee125",
+      "mainBreaker": 125,
+      "note": "",
+      "outputs": [
+        {
+          "connector": "cee63",
+          "count": 2
+        },
+        {
+          "connector": "cee32",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "d125-stage",
+      "name": "Distro 125A plateau",
+      "input": "cee125",
+      "mainBreaker": 125,
+      "note": "Plateau ou régie : 16A en CEE bleue et en Schuko",
+      "outputs": [
+        {
+          "connector": "cee63",
+          "count": 1
+        },
+        {
+          "connector": "cee32",
+          "count": 2
+        },
+        {
+          "connector": "cee16",
+          "count": 2
+        },
+        {
+          "connector": "cee16mono",
+          "count": 3
+        },
+        {
+          "connector": "schuko",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "d125-4soca",
+      "name": "Distro 125A · 4× Socapex",
+      "input": "cee125",
+      "mainBreaker": 125,
+      "note": "Distribution lumière multi : 24 circuits 16A",
+      "outputs": [
+        {
+          "connector": "socapex",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "d125-4hart",
+      "name": "Distro 125A · 4× Harting 16",
+      "input": "cee125",
+      "mainBreaker": 125,
+      "note": "Distribution lumière multi : 24 circuits 16A",
+      "outputs": [
+        {
+          "connector": "harting16",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "d63",
+      "name": "Distro 63A",
+      "input": "cee63",
+      "mainBreaker": 63,
+      "note": "",
+      "outputs": [
+        {
+          "connector": "cee32",
+          "count": 2
+        },
+        {
+          "connector": "cee16",
+          "count": 1
+        },
+        {
+          "connector": "schuko",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "d63-3x32",
+      "name": "Distro 63A · 3×32A",
+      "input": "cee63",
+      "mainBreaker": 63,
+      "note": "Éclatement vers trois tableaux 32A",
+      "outputs": [
+        {
+          "connector": "cee32",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "d63-light",
+      "name": "Distro 63A lumière",
+      "input": "cee63",
+      "mainBreaker": 63,
+      "note": "Départs 16A mono répartis sur les 3 phases",
+      "outputs": [
+        {
+          "connector": "cee32",
+          "count": 1
+        },
+        {
+          "connector": "cee16mono",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "d63-sound",
+      "name": "Distro 63A son / backline",
+      "input": "cee63",
+      "mainBreaker": 63,
+      "note": "Schuko répartis sur les 3 phases",
+      "outputs": [
+        {
+          "connector": "cee16",
+          "count": 1
+        },
+        {
+          "connector": "schuko",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "d63-2soca",
+      "name": "Distro 63A · 2× Socapex",
+      "input": "cee63",
+      "mainBreaker": 63,
+      "note": "Distribution lumière multi : 12 circuits 16A",
+      "outputs": [
+        {
+          "connector": "socapex",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "d63-2hart",
+      "name": "Distro 63A · 2× Harting 16",
+      "input": "cee63",
+      "mainBreaker": 63,
+      "note": "Distribution lumière multi : 12 circuits 16A",
+      "outputs": [
+        {
+          "connector": "harting16",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "d32",
+      "name": "Distro 32A",
+      "input": "cee32",
+      "mainBreaker": 32,
+      "note": "",
+      "outputs": [
+        {
+          "connector": "cee16",
+          "count": 1
+        },
+        {
+          "connector": "schuko",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "d32-12s",
+      "name": "Distro 32A · 12× Schuko",
+      "input": "cee32",
+      "mainBreaker": 32,
+      "note": "Backline, régie, catering léger",
+      "outputs": [
+        {
+          "connector": "schuko",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "d32-6blue",
+      "name": "Distro 32A · 6× CEE 16A 3P",
+      "input": "cee32",
+      "mainBreaker": 32,
+      "note": "Départs mono en CEE bleue",
+      "outputs": [
+        {
+          "connector": "cee16mono",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "d32-split",
+      "name": "Splitter 32A → 3× CEE 16A 3P",
+      "input": "cee32",
+      "mainBreaker": 32,
+      "note": "Une prise mono par phase",
+      "outputs": [
+        {
+          "connector": "cee16mono",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "d32-soca",
+      "name": "Distro 32A · 1× Socapex",
+      "input": "cee32",
+      "mainBreaker": 32,
+      "note": "6 circuits 16A, à ne pas tous charger à fond",
+      "outputs": [
+        {
+          "connector": "socapex",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "d32-hart",
+      "name": "Distro 32A · 1× Harting 16",
+      "input": "cee32",
+      "mainBreaker": 32,
+      "note": "6 circuits 16A, à ne pas tous charger à fond",
+      "outputs": [
+        {
+          "connector": "harting16",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "d16",
+      "name": "Distro 16A",
+      "input": "cee16",
+      "mainBreaker": 16,
+      "note": "",
+      "outputs": [
+        {
+          "connector": "schuko",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "d16-split",
+      "name": "Splitter 16A → 3× Schuko",
+      "input": "cee16",
+      "mainBreaker": 16,
+      "note": "Une Schuko par phase",
+      "outputs": [
+        {
+          "connector": "schuko",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "m32",
+      "name": "Distro 32A mono",
+      "input": "cee32mono",
+      "mainBreaker": 32,
+      "note": "",
+      "outputs": [
+        {
+          "connector": "cee16mono",
+          "count": 1
+        },
+        {
+          "connector": "schuko",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "m32-2x16",
+      "name": "Distro 32A mono · 2× CEE 16A 3P",
+      "input": "cee32mono",
+      "mainBreaker": 32,
+      "note": "",
+      "outputs": [
+        {
+          "connector": "cee16mono",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "m16",
+      "name": "Boîtier 16A mono · 4× Schuko",
+      "input": "cee16mono",
+      "mainBreaker": 16,
+      "note": "",
+      "outputs": [
+        {
+          "connector": "schuko",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "strip",
+      "name": "Multiprise 6× Schuko",
+      "input": "schuko",
+      "mainBreaker": 16,
+      "note": "",
+      "outputs": [
+        {
+          "connector": "schuko",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "strip3",
+      "name": "Multiprise 3× Schuko",
+      "input": "schuko",
+      "mainBreaker": 16,
+      "note": "",
+      "outputs": [
+        {
+          "connector": "schuko",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dim12",
+      "name": "Rack gradateur 12 circuits",
+      "input": "cee63",
+      "mainBreaker": 63,
+      "note": "12 circuits gradués en 2 sorties Socapex",
+      "outputs": [
+        {
+          "connector": "socapex",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dim24",
+      "name": "Rack gradateur 24 circuits",
+      "input": "cee125",
+      "mainBreaker": 125,
+      "note": "24 circuits gradués en 4 sorties Harting 16",
+      "outputs": [
+        {
+          "connector": "harting16",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "spider-soca",
+      "name": "Araignée Socapex → 6× Schuko",
+      "input": "socapex",
+      "mainBreaker": 32,
+      "note": "Passive : chaque circuit est protégé en amont",
+      "outputs": [
+        {
+          "connector": "schuko",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "spider-soca-cee",
+      "name": "Araignée Socapex → 6× CEE 16A 3P",
+      "input": "socapex",
+      "mainBreaker": 32,
+      "note": "Passive : chaque circuit est protégé en amont",
+      "outputs": [
+        {
+          "connector": "cee16mono",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "spider-hart",
+      "name": "Araignée Harting 16 → 6× Schuko",
+      "input": "harting16",
+      "mainBreaker": 32,
+      "note": "Passive : chaque circuit est protégé en amont",
+      "outputs": [
+        {
+          "connector": "schuko",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "spider-hart-cee",
+      "name": "Araignée Harting 16 → 6× CEE 16A 3P",
+      "input": "harting16",
+      "mainBreaker": 32,
+      "note": "Passive : chaque circuit est protégé en amont",
+      "outputs": [
+        {
+          "connector": "cee16mono",
+          "count": 6
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-10-04T15:32:32.727Z"
+}
