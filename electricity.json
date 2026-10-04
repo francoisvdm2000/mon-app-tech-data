@@ -98,7 +98,24 @@
       "singleCore": false,
       "color": "#F2C94C",
       "section": 2.5,
-      "circuits": 6
+      "circuits": 6,
+      "i18n": {
+        "en": {
+          "label": "Socapex 19-pin"
+        },
+        "de": {
+          "label": "Socapex 19-polig"
+        },
+        "es": {
+          "label": "Socapex 19 pines"
+        },
+        "nl": {
+          "label": "Socapex 19-polig"
+        },
+        "pt": {
+          "label": "Socapex 19 pinos"
+        }
+      }
     },
     {
       "id": "harting16",
@@ -109,7 +126,24 @@
       "singleCore": false,
       "color": "#B794F4",
       "section": 2.5,
-      "circuits": 6
+      "circuits": 6,
+      "i18n": {
+        "en": {
+          "label": "Harting 16-pin"
+        },
+        "de": {
+          "label": "Harting 16-polig"
+        },
+        "es": {
+          "label": "Harting 16 pines"
+        },
+        "nl": {
+          "label": "Harting 16-polig"
+        },
+        "pt": {
+          "label": "Harting 16 pinos"
+        }
+      }
     }
   ],
   "distros": [
@@ -128,7 +162,24 @@
           "connector": "cee63",
           "count": 2
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "note": "Main head distro"
+        },
+        "de": {
+          "note": "Hauptverteiler"
+        },
+        "es": {
+          "note": "Cuadro general de cabecera"
+        },
+        "nl": {
+          "note": "Hoofdverdeelkast"
+        },
+        "pt": {
+          "note": "Quadro geral de cabeceira"
+        }
+      }
     },
     {
       "id": "d400-4x125",
@@ -141,7 +192,24 @@
           "connector": "cee125",
           "count": 4
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "note": "Head distro feeding the main departments (sound, video, lighting)"
+        },
+        "de": {
+          "note": "Hauptverteiler für die großen Gewerke (Ton, Video, Licht)"
+        },
+        "es": {
+          "note": "Cabecera hacia los grandes departamentos (sonido, vídeo, luz)"
+        },
+        "nl": {
+          "note": "Hoofdverdeler naar de grote afdelingen (geluid, video, licht)"
+        },
+        "pt": {
+          "note": "Cabeceira para os grandes departamentos (som, vídeo, luz)"
+        }
+      }
     },
     {
       "id": "d400-mix",
@@ -162,7 +230,29 @@
           "connector": "cee32",
           "count": 2
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "Distro 400A mixed",
+          "note": "All-purpose head distro with small outlets"
+        },
+        "de": {
+          "name": "Distro 400A gemischt",
+          "note": "Vielseitiger Hauptverteiler mit kleinen Abgängen"
+        },
+        "es": {
+          "name": "Distro 400A mixto",
+          "note": "Cabecera polivalente con salidas pequeñas"
+        },
+        "nl": {
+          "name": "Distro 400A gemengd",
+          "note": "Veelzijdige hoofdverdeler met kleine uitgangen"
+        },
+        "pt": {
+          "name": "Distro 400A misto",
+          "note": "Cabeceira polivalente com saídas pequenas"
+        }
+      }
     },
     {
       "id": "d400-link",
@@ -183,7 +273,29 @@
           "connector": "cee63",
           "count": 2
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "Distro 400A with link-out",
+          "note": "Powerlock outlet to daisy-chain a second distro"
+        },
+        "de": {
+          "name": "Distro 400A mit Durchschleifung",
+          "note": "Powerlock-Ausgang zum Weiterschleifen eines zweiten Verteilers"
+        },
+        "es": {
+          "name": "Distro 400A con salida de enlace",
+          "note": "Salida Powerlock para encadenar un segundo cuadro"
+        },
+        "nl": {
+          "name": "Distro 400A met doorlus",
+          "note": "Powerlock-uitgang om een tweede verdeelkast door te lussen"
+        },
+        "pt": {
+          "name": "Distro 400A com saída de ligação",
+          "note": "Saída Powerlock para encadear um segundo quadro"
+        }
+      }
     },
     {
       "id": "d250",
@@ -217,7 +329,24 @@
           "connector": "cee125",
           "count": 2
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "note": "Split to two 125A distros"
+        },
+        "de": {
+          "note": "Aufteilung auf zwei 125A-Verteiler"
+        },
+        "es": {
+          "note": "Reparto hacia dos cuadros de 125A"
+        },
+        "nl": {
+          "note": "Splitsing naar twee verdeelkasten van 125A"
+        },
+        "pt": {
+          "note": "Repartição para dois quadros de 125A"
+        }
+      }
     },
     {
       "id": "d125",
@@ -251,7 +380,24 @@
           "connector": "cee63",
           "count": 3
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "note": "Split to three 63A distros"
+        },
+        "de": {
+          "note": "Aufteilung auf drei 63A-Verteiler"
+        },
+        "es": {
+          "note": "Reparto hacia tres cuadros de 63A"
+        },
+        "nl": {
+          "note": "Splitsing naar drie verdeelkasten van 63A"
+        },
+        "pt": {
+          "note": "Repartição para três quadros de 63A"
+        }
+      }
     },
     {
       "id": "d125-mix",
@@ -297,7 +443,29 @@
           "connector": "schuko",
           "count": 6
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "Distro 125A stage",
+          "note": "Stage or FOH: 16A on blue CEE and Schuko"
+        },
+        "de": {
+          "name": "Distro 125A Bühne",
+          "note": "Bühne oder Regie: 16A als blaue CEE und Schuko"
+        },
+        "es": {
+          "name": "Distro 125A escenario",
+          "note": "Escenario o control: 16A en CEE azul y Schuko"
+        },
+        "nl": {
+          "name": "Distro 125A podium",
+          "note": "Podium of regie: 16A op blauwe CEE en Schuko"
+        },
+        "pt": {
+          "name": "Distro 125A palco",
+          "note": "Palco ou régie: 16A em CEE azul e Schuko"
+        }
+      }
     },
     {
       "id": "d125-4soca",
@@ -310,7 +478,24 @@
           "connector": "socapex",
           "count": 4
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "note": "Multicore lighting distribution: 24 × 16A circuits"
+        },
+        "de": {
+          "note": "Licht-Multicore-Verteilung: 24 Stromkreise 16A"
+        },
+        "es": {
+          "note": "Distribución de luz multicircuito: 24 circuitos de 16A"
+        },
+        "nl": {
+          "note": "Multi-lichtverdeling: 24 circuits van 16A"
+        },
+        "pt": {
+          "note": "Distribuição de luz multicircuito: 24 circuitos de 16A"
+        }
+      }
     },
     {
       "id": "d125-4hart",
@@ -323,7 +508,24 @@
           "connector": "harting16",
           "count": 4
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "note": "Multicore lighting distribution: 24 × 16A circuits"
+        },
+        "de": {
+          "note": "Licht-Multicore-Verteilung: 24 Stromkreise 16A"
+        },
+        "es": {
+          "note": "Distribución de luz multicircuito: 24 circuitos de 16A"
+        },
+        "nl": {
+          "note": "Multi-lichtverdeling: 24 circuits van 16A"
+        },
+        "pt": {
+          "note": "Distribuição de luz multicircuito: 24 circuitos de 16A"
+        }
+      }
     },
     {
       "id": "d63",
@@ -357,7 +559,24 @@
           "connector": "cee32",
           "count": 3
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "note": "Split to three 32A distros"
+        },
+        "de": {
+          "note": "Aufteilung auf drei 32A-Verteiler"
+        },
+        "es": {
+          "note": "Reparto hacia tres cuadros de 32A"
+        },
+        "nl": {
+          "note": "Splitsing naar drie verdeelkasten van 32A"
+        },
+        "pt": {
+          "note": "Repartição para três quadros de 32A"
+        }
+      }
     },
     {
       "id": "d63-light",
@@ -374,7 +593,29 @@
           "connector": "cee16mono",
           "count": 6
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "Distro 63A lighting",
+          "note": "Single-phase 16A outlets spread over the 3 phases"
+        },
+        "de": {
+          "name": "Distro 63A Licht",
+          "note": "1-phasige 16A-Abgänge auf die 3 Phasen verteilt"
+        },
+        "es": {
+          "name": "Distro 63A iluminación",
+          "note": "Salidas monofásicas de 16A repartidas en las 3 fases"
+        },
+        "nl": {
+          "name": "Distro 63A licht",
+          "note": "1-fase uitgangen van 16A verdeeld over de 3 fasen"
+        },
+        "pt": {
+          "name": "Distro 63A iluminação",
+          "note": "Saídas monofásicas de 16A repartidas pelas 3 fases"
+        }
+      }
     },
     {
       "id": "d63-sound",
@@ -391,7 +632,29 @@
           "connector": "schuko",
           "count": 12
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "Distro 63A sound / backline",
+          "note": "Schuko outlets spread over the 3 phases"
+        },
+        "de": {
+          "name": "Distro 63A Ton / Backline",
+          "note": "Schuko auf die 3 Phasen verteilt"
+        },
+        "es": {
+          "name": "Distro 63A sonido / backline",
+          "note": "Schuko repartidos en las 3 fases"
+        },
+        "nl": {
+          "name": "Distro 63A geluid / backline",
+          "note": "Schuko verdeeld over de 3 fasen"
+        },
+        "pt": {
+          "name": "Distro 63A som / backline",
+          "note": "Schuko repartidos pelas 3 fases"
+        }
+      }
     },
     {
       "id": "d63-2soca",
@@ -404,7 +667,24 @@
           "connector": "socapex",
           "count": 2
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "note": "Multicore lighting distribution: 12 × 16A circuits"
+        },
+        "de": {
+          "note": "Licht-Multicore-Verteilung: 12 Stromkreise 16A"
+        },
+        "es": {
+          "note": "Distribución de luz multicircuito: 12 circuitos de 16A"
+        },
+        "nl": {
+          "note": "Multi-lichtverdeling: 12 circuits van 16A"
+        },
+        "pt": {
+          "note": "Distribuição de luz multicircuito: 12 circuitos de 16A"
+        }
+      }
     },
     {
       "id": "d63-2hart",
@@ -417,7 +697,24 @@
           "connector": "harting16",
           "count": 2
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "note": "Multicore lighting distribution: 12 × 16A circuits"
+        },
+        "de": {
+          "note": "Licht-Multicore-Verteilung: 12 Stromkreise 16A"
+        },
+        "es": {
+          "note": "Distribución de luz multicircuito: 12 circuitos de 16A"
+        },
+        "nl": {
+          "note": "Multi-lichtverdeling: 12 circuits van 16A"
+        },
+        "pt": {
+          "note": "Distribuição de luz multicircuito: 12 circuitos de 16A"
+        }
+      }
     },
     {
       "id": "d32",
@@ -447,7 +744,24 @@
           "connector": "schuko",
           "count": 12
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "note": "Backline, FOH, light catering"
+        },
+        "de": {
+          "note": "Backline, Regie, leichtes Catering"
+        },
+        "es": {
+          "note": "Backline, control, catering ligero"
+        },
+        "nl": {
+          "note": "Backline, regie, lichte catering"
+        },
+        "pt": {
+          "note": "Backline, régie, catering ligeiro"
+        }
+      }
     },
     {
       "id": "d32-6blue",
@@ -460,7 +774,24 @@
           "connector": "cee16mono",
           "count": 6
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "note": "Single-phase outlets on blue CEE"
+        },
+        "de": {
+          "note": "1-phasige Abgänge als blaue CEE"
+        },
+        "es": {
+          "note": "Salidas monofásicas en CEE azul"
+        },
+        "nl": {
+          "note": "1-fase uitgangen op blauwe CEE"
+        },
+        "pt": {
+          "note": "Saídas monofásicas em CEE azul"
+        }
+      }
     },
     {
       "id": "d32-split",
@@ -473,7 +804,29 @@
           "connector": "cee16mono",
           "count": 3
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "Splitter 32A → 3× CEE 16A 3P",
+          "note": "One single-phase outlet per phase"
+        },
+        "de": {
+          "name": "Splitter 32A → 3× CEE 16A 3P",
+          "note": "Eine 1-phasige Steckdose pro Phase"
+        },
+        "es": {
+          "name": "Divisor 32A → 3× CEE 16A 3P",
+          "note": "Una toma monofásica por fase"
+        },
+        "nl": {
+          "name": "Splitter 32A → 3× CEE 16A 3P",
+          "note": "Eén 1-fase stopcontact per fase"
+        },
+        "pt": {
+          "name": "Divisor 32A → 3× CEE 16A 3P",
+          "note": "Uma tomada monofásica por fase"
+        }
+      }
     },
     {
       "id": "d32-soca",
@@ -486,7 +839,24 @@
           "connector": "socapex",
           "count": 1
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "note": "6 × 16A circuits, don't load them all to the max"
+        },
+        "de": {
+          "note": "6 Stromkreise 16A, nicht alle voll auslasten"
+        },
+        "es": {
+          "note": "6 circuitos de 16A, no cargarlos todos al máximo"
+        },
+        "nl": {
+          "note": "6 circuits van 16A, niet allemaal volledig belasten"
+        },
+        "pt": {
+          "note": "6 circuitos de 16A, não carregar todos ao máximo"
+        }
+      }
     },
     {
       "id": "d32-hart",
@@ -499,7 +869,24 @@
           "connector": "harting16",
           "count": 1
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "note": "6 × 16A circuits, don't load them all to the max"
+        },
+        "de": {
+          "note": "6 Stromkreise 16A, nicht alle voll auslasten"
+        },
+        "es": {
+          "note": "6 circuitos de 16A, no cargarlos todos al máximo"
+        },
+        "nl": {
+          "note": "6 circuits van 16A, niet allemaal volledig belasten"
+        },
+        "pt": {
+          "note": "6 circuitos de 16A, não carregar todos ao máximo"
+        }
+      }
     },
     {
       "id": "d16",
@@ -525,7 +912,29 @@
           "connector": "schuko",
           "count": 3
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "Splitter 16A → 3× Schuko",
+          "note": "One Schuko per phase"
+        },
+        "de": {
+          "name": "Splitter 16A → 3× Schuko",
+          "note": "Eine Schuko pro Phase"
+        },
+        "es": {
+          "name": "Divisor 16A → 3× Schuko",
+          "note": "Un Schuko por fase"
+        },
+        "nl": {
+          "name": "Splitter 16A → 3× Schuko",
+          "note": "Eén Schuko per fase"
+        },
+        "pt": {
+          "name": "Divisor 16A → 3× Schuko",
+          "note": "Uma Schuko por fase"
+        }
+      }
     },
     {
       "id": "m32",
@@ -542,7 +951,24 @@
           "connector": "schuko",
           "count": 6
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "Distro 32A single-phase"
+        },
+        "de": {
+          "name": "Distro 32A 1-phasig"
+        },
+        "es": {
+          "name": "Distro 32A monofásico"
+        },
+        "nl": {
+          "name": "Distro 32A 1-fase"
+        },
+        "pt": {
+          "name": "Distro 32A monofásico"
+        }
+      }
     },
     {
       "id": "m32-2x16",
@@ -555,7 +981,24 @@
           "connector": "cee16mono",
           "count": 2
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "Distro 32A single-phase · 2× CEE 16A 3P"
+        },
+        "de": {
+          "name": "Distro 32A 1-phasig · 2× CEE 16A 3P"
+        },
+        "es": {
+          "name": "Distro 32A monofásico · 2× CEE 16A 3P"
+        },
+        "nl": {
+          "name": "Distro 32A 1-fase · 2× CEE 16A 3P"
+        },
+        "pt": {
+          "name": "Distro 32A monofásico · 2× CEE 16A 3P"
+        }
+      }
     },
     {
       "id": "m16",
@@ -568,7 +1011,24 @@
           "connector": "schuko",
           "count": 4
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "16A single-phase box · 4× Schuko"
+        },
+        "de": {
+          "name": "16A-Box 1-phasig · 4× Schuko"
+        },
+        "es": {
+          "name": "Caja 16A monofásica · 4× Schuko"
+        },
+        "nl": {
+          "name": "16A-kastje 1-fase · 4× Schuko"
+        },
+        "pt": {
+          "name": "Caixa 16A monofásica · 4× Schuko"
+        }
+      }
     },
     {
       "id": "strip",
@@ -581,7 +1041,24 @@
           "connector": "schuko",
           "count": 6
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "6× Schuko power strip"
+        },
+        "de": {
+          "name": "Steckdosenleiste 6× Schuko"
+        },
+        "es": {
+          "name": "Regleta 6× Schuko"
+        },
+        "nl": {
+          "name": "Stekkerdoos 6× Schuko"
+        },
+        "pt": {
+          "name": "Extensão 6× Schuko"
+        }
+      }
     },
     {
       "id": "strip3",
@@ -594,7 +1071,24 @@
           "connector": "schuko",
           "count": 3
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "3× Schuko power strip"
+        },
+        "de": {
+          "name": "Steckdosenleiste 3× Schuko"
+        },
+        "es": {
+          "name": "Regleta 3× Schuko"
+        },
+        "nl": {
+          "name": "Stekkerdoos 3× Schuko"
+        },
+        "pt": {
+          "name": "Extensão 3× Schuko"
+        }
+      }
     },
     {
       "id": "dim12",
@@ -607,7 +1101,29 @@
           "connector": "socapex",
           "count": 2
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "12-channel dimmer rack",
+          "note": "12 dimmed circuits on 2 Socapex outputs"
+        },
+        "de": {
+          "name": "Dimmerrack 12 Kanäle",
+          "note": "12 gedimmte Stromkreise auf 2 Socapex-Ausgängen"
+        },
+        "es": {
+          "name": "Rack de dimmers 12 circuitos",
+          "note": "12 circuitos regulados en 2 salidas Socapex"
+        },
+        "nl": {
+          "name": "Dimmerrack 12 kanalen",
+          "note": "12 gedimde circuits op 2 Socapex-uitgangen"
+        },
+        "pt": {
+          "name": "Rack de dimmers 12 circuitos",
+          "note": "12 circuitos regulados em 2 saídas Socapex"
+        }
+      }
     },
     {
       "id": "dim24",
@@ -620,7 +1136,29 @@
           "connector": "harting16",
           "count": 4
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "24-channel dimmer rack",
+          "note": "24 dimmed circuits on 4 Harting 16 outputs"
+        },
+        "de": {
+          "name": "Dimmerrack 24 Kanäle",
+          "note": "24 gedimmte Stromkreise auf 4 Harting 16-Ausgängen"
+        },
+        "es": {
+          "name": "Rack de dimmers 24 circuitos",
+          "note": "24 circuitos regulados en 4 salidas Harting 16"
+        },
+        "nl": {
+          "name": "Dimmerrack 24 kanalen",
+          "note": "24 gedimde circuits op 4 Harting 16-uitgangen"
+        },
+        "pt": {
+          "name": "Rack de dimmers 24 circuitos",
+          "note": "24 circuitos regulados em 4 saídas Harting 16"
+        }
+      }
     },
     {
       "id": "spider-soca",
@@ -633,7 +1171,29 @@
           "connector": "schuko",
           "count": 6
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "Socapex breakout → 6× Schuko",
+          "note": "Passive: each circuit is protected upstream"
+        },
+        "de": {
+          "name": "Socapex-Spinne → 6× Schuko",
+          "note": "Passiv: jeder Stromkreis ist vorgeschaltet abgesichert"
+        },
+        "es": {
+          "name": "Araña Socapex → 6× Schuko",
+          "note": "Pasiva: cada circuito está protegido aguas arriba"
+        },
+        "nl": {
+          "name": "Socapex-breakout → 6× Schuko",
+          "note": "Passief: elk circuit is stroomopwaarts beveiligd"
+        },
+        "pt": {
+          "name": "Aranha Socapex → 6× Schuko",
+          "note": "Passiva: cada circuito está protegido a montante"
+        }
+      }
     },
     {
       "id": "spider-soca-cee",
@@ -646,7 +1206,29 @@
           "connector": "cee16mono",
           "count": 6
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "Socapex breakout → 6× CEE 16A 3P",
+          "note": "Passive: each circuit is protected upstream"
+        },
+        "de": {
+          "name": "Socapex-Spinne → 6× CEE 16A 3P",
+          "note": "Passiv: jeder Stromkreis ist vorgeschaltet abgesichert"
+        },
+        "es": {
+          "name": "Araña Socapex → 6× CEE 16A 3P",
+          "note": "Pasiva: cada circuito está protegido aguas arriba"
+        },
+        "nl": {
+          "name": "Socapex-breakout → 6× CEE 16A 3P",
+          "note": "Passief: elk circuit is stroomopwaarts beveiligd"
+        },
+        "pt": {
+          "name": "Aranha Socapex → 6× CEE 16A 3P",
+          "note": "Passiva: cada circuito está protegido a montante"
+        }
+      }
     },
     {
       "id": "spider-hart",
@@ -659,7 +1241,29 @@
           "connector": "schuko",
           "count": 6
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "Harting 16 breakout → 6× Schuko",
+          "note": "Passive: each circuit is protected upstream"
+        },
+        "de": {
+          "name": "Harting 16-Spinne → 6× Schuko",
+          "note": "Passiv: jeder Stromkreis ist vorgeschaltet abgesichert"
+        },
+        "es": {
+          "name": "Araña Harting 16 → 6× Schuko",
+          "note": "Pasiva: cada circuito está protegido aguas arriba"
+        },
+        "nl": {
+          "name": "Harting 16-breakout → 6× Schuko",
+          "note": "Passief: elk circuit is stroomopwaarts beveiligd"
+        },
+        "pt": {
+          "name": "Aranha Harting 16 → 6× Schuko",
+          "note": "Passiva: cada circuito está protegido a montante"
+        }
+      }
     },
     {
       "id": "spider-hart-cee",
@@ -672,8 +1276,30 @@
           "connector": "cee16mono",
           "count": 6
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "name": "Harting 16 breakout → 6× CEE 16A 3P",
+          "note": "Passive: each circuit is protected upstream"
+        },
+        "de": {
+          "name": "Harting 16-Spinne → 6× CEE 16A 3P",
+          "note": "Passiv: jeder Stromkreis ist vorgeschaltet abgesichert"
+        },
+        "es": {
+          "name": "Araña Harting 16 → 6× CEE 16A 3P",
+          "note": "Pasiva: cada circuito está protegido aguas arriba"
+        },
+        "nl": {
+          "name": "Harting 16-breakout → 6× CEE 16A 3P",
+          "note": "Passief: elk circuit is stroomopwaarts beveiligd"
+        },
+        "pt": {
+          "name": "Aranha Harting 16 → 6× CEE 16A 3P",
+          "note": "Passiva: cada circuito está protegido a montante"
+        }
+      }
     }
   ],
-  "updatedAt": "2026-10-04T15:32:32.727Z"
+  "updatedAt": "2026-10-04T15:42:54.300Z"
 }
