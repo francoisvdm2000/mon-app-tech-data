@@ -1866,6 +1866,33 @@
         },
         {
           "type": "Cyclorama",
+          "name": "ORKIS CYC",
+          "modes": [
+            {
+              "name": "Extended HSV 27ch",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Extended RGB 27ch",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Standard HSV 14ch",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Standard RGB 14ch",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://claypaky.it/products/orkis-cyc",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Cyclorama",
           "name": "SVOBODA",
           "modes": [],
           "weightKilogram": 0,
@@ -5277,6 +5304,40 @@
           "dmxChartUrl": "Perseo-Beam-DMX-Chart_V224.pdf"
         },
         {
+          "type": "Beam",
+          "name": "Rawbeam 350",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 660,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.ayrton.eu/produit/rawbeam-350/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Beam Spot",
+          "name": "Cobra",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 45
+            }
+          ],
+          "weightKilogram": 33,
+          "powerWatt": 480,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.ayrton.eu/produit/cobra/",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Beam Spot",
           "name": "Cobra 2",
           "modes": [
@@ -5294,6 +5355,21 @@
           "luminousFluxLumen": 0,
           "manualUrl": "Cobra2_Web_EN_V116.pdf",
           "dmxChartUrl": "Cobra?-DMX-Chart-V116.pdf"
+        },
+        {
+          "type": "Beam Spot",
+          "name": "Naja",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 49
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 700,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.ayrton.eu/produit/naja/",
+          "dmxChartUrl": ""
         },
         {
           "type": "Linear moving head wash",
@@ -5317,6 +5393,25 @@
           "luminousFluxLumen": 4200,
           "manualUrl": "MagicBladeFX_Web_EN.pdf",
           "dmxChartUrl": "MAGICBLADE_FX.pdf"
+        },
+        {
+          "type": "Linear moving head wash",
+          "name": "MagicBlade Neo",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 175
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 184
+            }
+          ],
+          "weightKilogram": 32.4,
+          "powerWatt": 800,
+          "luminousFluxLumen": 15000,
+          "manualUrl": "https://www.ayrton.eu/produit/magicblade-neo/",
+          "dmxChartUrl": ""
         },
         {
           "type": "Long throw",
@@ -5496,6 +5591,44 @@
         },
         {
           "type": "Profile",
+          "name": "EagleStrike",
+          "modes": [
+            {
+              "name": "Extended mode",
+              "dmxChannels": 66
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 44
+            }
+          ],
+          "weightKilogram": 54.7,
+          "powerWatt": 0,
+          "luminousFluxLumen": 55000,
+          "manualUrl": "https://www.ambersphere.com/product/eaglestrike/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Eurus",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 39
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 62
+            }
+          ],
+          "weightKilogram": 32.9,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 36000,
+          "manualUrl": "https://www.ayrton.eu/produit/eurus/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
           "name": "Ghibli",
           "modes": [
             {
@@ -5542,6 +5675,40 @@
         },
         {
           "type": "Profile",
+          "name": "Khamsin",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 64
+            }
+          ],
+          "weightKilogram": 39.8,
+          "powerWatt": 1150,
+          "luminousFluxLumen": 40000,
+          "manualUrl": "https://www.ayrton.eu/produit/khamsin/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Mamba",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 47
+            }
+          ],
+          "weightKilogram": 41,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.ayrton.eu/produit/mamba/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
           "name": "Perseo Profile",
           "modes": [
             {
@@ -5581,6 +5748,105 @@
           "luminousFluxLumen": 30000,
           "manualUrl": "RivaleProfile_Web_EN_V121.pdf",
           "dmxChartUrl": "Rivale-Profile-DMX-chart_V118.pdf"
+        },
+        {
+          "type": "Profile",
+          "name": "Stradale Profile",
+          "modes": [
+            {
+              "name": "Extended mode",
+              "dmxChannels": 65
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 42
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 630,
+          "luminousFluxLumen": 20000,
+          "manualUrl": "https://www.ayrton.eu/produit/stradale-profile/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Veloce Profile",
+          "modes": [
+            {
+              "name": "Extended mode",
+              "dmxChannels": 67
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 44
+            }
+          ],
+          "weightKilogram": 40.5,
+          "powerWatt": 1300,
+          "luminousFluxLumen": 43000,
+          "manualUrl": "https://www.ayrton.eu/produit/veloce-profile/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "Mistral",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 39
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 550,
+          "luminousFluxLumen": 18000,
+          "manualUrl": "https://www.ayrton.eu/produit/mistral/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Argo 6 Wash",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 67
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 950,
+          "luminousFluxLumen": 13000,
+          "manualUrl": "https://www.ayrton.eu/produit/argo-6-wash/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Bora",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 30
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 52
+            }
+          ],
+          "weightKilogram": 37.8,
+          "powerWatt": 1150,
+          "luminousFluxLumen": 40000,
+          "manualUrl": "https://www.ayrton.eu/produit/bora/",
+          "dmxChartUrl": ""
         },
         {
           "type": "Wash",
@@ -5630,6 +5896,48 @@
         },
         {
           "type": "Wash",
+          "name": "Levante",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 29
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 50
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 22,
+          "powerWatt": 550,
+          "luminousFluxLumen": 20000,
+          "manualUrl": "https://www.ayrton.eu/produit/levante/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Nando 1202",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended Pixel mode",
+              "dmxChannels": 150
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1450,
+          "luminousFluxLumen": 25000,
+          "manualUrl": "https://www.ayrton.eu/produit/nando-1202/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
           "name": "Nando 502 Wash",
           "modes": [
             {
@@ -5675,6 +5983,97 @@
           "dmxChartUrl": "Rivale_WASH_DMX_Chart_V107.pdf"
         },
         {
+          "type": "Wash",
+          "name": "Veloce Wash",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 60
+            }
+          ],
+          "weightKilogram": 39,
+          "powerWatt": 1300,
+          "luminousFluxLumen": 40000,
+          "manualUrl": "https://www.ayrton.eu/produit/veloce-wash/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Wildsun K9 Wash",
+          "modes": [
+            {
+              "name": "Extended mode",
+              "dmxChannels": 30
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 63000,
+          "manualUrl": "https://www.ayrton.eu/produit/wildsun-k9-wash/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Zonda 3 Wash",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 46
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 400,
+          "luminousFluxLumen": 5200,
+          "manualUrl": "https://www.ayrton.eu/produit/zonda-3-wash/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Zonda 9 Wash",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 54
+            }
+          ],
+          "weightKilogram": 29.2,
+          "powerWatt": 1400,
+          "luminousFluxLumen": 25000,
+          "manualUrl": "https://www.ayrton.eu/produit/zonda-9-wash/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash FX",
+          "name": "Argo 6 FX",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 127
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 950,
+          "luminousFluxLumen": 13000,
+          "manualUrl": "https://www.ayrton.eu/produit/argo-6-fx/",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Wash FX",
           "name": "MagicPanel FX",
           "modes": [
@@ -5696,6 +6095,71 @@
           "luminousFluxLumen": 13500,
           "manualUrl": "MagicPanel-FX_Manual.pdf",
           "dmxChartUrl": "MAGICPANEL_FX_V1.pdf"
+        },
+        {
+          "type": "Wash FX",
+          "name": "MiniPanel FX",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 34
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 220,
+          "luminousFluxLumen": 2400,
+          "manualUrl": "https://www.ayrton.eu/produit/minipanel-fx/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash FX",
+          "name": "Zonda 3 FX",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended mode",
+              "dmxChannels": 79
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 400,
+          "luminousFluxLumen": 5200,
+          "manualUrl": "https://www.ayrton.eu/produit/zonda-3-fx/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash FX",
+          "name": "Zonda 9 FX",
+          "modes": [
+            {
+              "name": "Basic mode",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended Pixel mode",
+              "dmxChannels": 199
+            },
+            {
+              "name": "Extended Ring mode",
+              "dmxChannels": 54
+            },
+            {
+              "name": "Standard mode",
+              "dmxChannels": 50
+            }
+          ],
+          "weightKilogram": 29.2,
+          "powerWatt": 1400,
+          "luminousFluxLumen": 25000,
+          "manualUrl": "https://www.ayrton.eu/produit/zonda-9-fx/",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -8732,6 +9196,25 @@
           "dmxChartUrl": "COLORado-PXL-Curve-12_DMX_Chart_Rev5.pdf"
         },
         {
+          "type": "Profile",
+          "name": "Maverick Storm 2 Profile",
+          "modes": [
+            {
+              "name": "32 channel",
+              "dmxChannels": 32
+            },
+            {
+              "name": "48 channel",
+              "dmxChannels": 48
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 763,
+          "luminousFluxLumen": 28000,
+          "manualUrl": "https://chauvetprofessional.com/product/maverick-storm-2-profile/",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Static wash light",
           "name": "Well fit",
           "modes": [
@@ -8897,6 +9380,33 @@
           "luminousFluxLumen": 71620,
           "manualUrl": "Color_Strike_MV2_UM_Rev15.pdf",
           "dmxChartUrl": "Color-STRIKE-MV2_DMX_Chart_Rev10.pdf"
+        },
+        {
+          "type": "Wash",
+          "name": "Maverick Storm 2 BeamWash",
+          "modes": [
+            {
+              "name": "145 channel",
+              "dmxChannels": 145
+            },
+            {
+              "name": "265 channel",
+              "dmxChannels": 265
+            },
+            {
+              "name": "327 channel",
+              "dmxChannels": 327
+            },
+            {
+              "name": "33 channel",
+              "dmxChannels": 33
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1040,
+          "luminousFluxLumen": 9927,
+          "manualUrl": "https://chauvetprofessional.com/product/maverick-storm-2-beamwash/",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -9268,275 +9778,642 @@
       "name": "ClayPaky",
       "products": [
         {
-          "type": "A.leda B-Eye K10",
-          "name": "Moving Head Wash/Effect LED 19x15W RGBW",
+          "type": "Architectural flood",
+          "name": "Odeon Flood",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.sgssistemas.lv/uploads/resources/166/lv/claypaky-productguide2019-en.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Beam",
+          "name": "Sharpy",
           "modes": [
             {
-              "name": "102ch Pixel",
-              "dmxChannels": 102
+              "name": "16ch",
+              "dmxChannels": 16
             },
             {
-              "name": "114ch Full",
-              "dmxChannels": 114
+              "name": "20ch",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 19,
+          "powerWatt": 350,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/sharpy-legacy/",
+          "dmxChartUrl": "https://www.claypaky.it/products/sharpy/"
+        },
+        {
+          "type": "Beam",
+          "name": "Ultimo Sharpy",
+          "modes": [
+            {
+              "name": "Mode 1 (27ch)",
+              "dmxChannels": 27
             },
             {
-              "name": "28ch",
-              "dmxChannels": 28
+              "name": "Mode 2 (16ch)",
+              "dmxChannels": 16
             },
             {
-              "name": "38ch",
-              "dmxChannels": 38
+              "name": "Mode 3 (27ch)",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 19.48,
+          "powerWatt": 450,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/ultimo-sharpy/",
+          "dmxChartUrl": "https://www.claypaky.it/products/sharpy-x-spot/"
+        },
+        {
+          "type": "Beam",
+          "name": "Ultimo Skybeam",
+          "modes": [
+            {
+              "name": "Single mode 25ch",
+              "dmxChannels": 25
+            }
+          ],
+          "weightKilogram": 34,
+          "powerWatt": 700,
+          "luminousFluxLumen": 14390,
+          "manualUrl": "https://www.claypaky.it/products/ultimo-skybeam/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Beam (laser)",
+          "name": "Mini Xtylos",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 9,
+          "powerWatt": 0,
+          "luminousFluxLumen": 292,
+          "manualUrl": "https://www.claypaky.it/products/mini-xtylos",
+          "dmxChartUrl": "https://www.claypaky.it/products/skylos/"
+        },
+        {
+          "type": "Beam (laser)",
+          "name": "Mini Xtylos HPE",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 9,
+          "powerWatt": 90,
+          "luminousFluxLumen": 470,
+          "manualUrl": "https://www.claypaky.it/products/mini-xtylos",
+          "dmxChartUrl": "https://www.claypaky.it/products/mini-xtylos/"
+        },
+        {
+          "type": "Beam (laser)",
+          "name": "Xtylos",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 24,
+          "powerWatt": 400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://goknight.com/claypaky-cj3000-xtylos-moving-head-fixture/",
+          "dmxChartUrl": "https://www.claypaky.it/products/xtylos-aqua/"
+        },
+        {
+          "type": "Beam (laser)",
+          "name": "Xtylos Aqua",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 400,
+          "luminousFluxLumen": 2900,
+          "manualUrl": "https://claypaky.it/products/xtylos-aqua",
+          "dmxChartUrl": "https://www.claypaky.it/products/mini-xtylos-hpe/"
+        },
+        {
+          "type": "Beam FX",
+          "name": "Tambora Rays",
+          "modes": [
+            {
+              "name": "Main 10ch",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Main 26ch",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Main 32ch",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Pixel engine 108ch",
+              "dmxChannels": 108
+            },
+            {
+              "name": "Pixel engine 81ch",
+              "dmxChannels": 81
+            }
+          ],
+          "weightKilogram": 10.44,
+          "powerWatt": 720,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/tambora-rays/",
+          "dmxChartUrl": "https://www.claypaky.it/products/sharbar/"
+        },
+        {
+          "type": "Blinder/Strobe",
+          "name": "Tambora Glare",
+          "modes": [
+            {
+              "name": "Advanced 52ch",
+              "dmxChannels": 52
+            },
+            {
+              "name": "Basic 19ch",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Pixel engine 40ch",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Standard 41ch",
+              "dmxChannels": 41
+            },
+            {
+              "name": "Strobe engine 100ch",
+              "dmxChannels": 100
+            },
+            {
+              "name": "Strobe engine 50ch (A)",
+              "dmxChannels": 50
+            },
+            {
+              "name": "Strobe engine 50ch (B)",
+              "dmxChannels": 50
+            },
+            {
+              "name": "Strobe engine 50ch (C)",
+              "dmxChannels": 50
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/a-leda-b-eye-k10/",
-          "dmxChartUrl": "https://www.claypaky.it/products/a-leda-b-eye-k10/"
+          "manualUrl": "https://www.claypaky.it/products/tambora-glare/",
+          "dmxChartUrl": "https://www.claypaky.it/products/odeon-flood/"
         },
         {
-          "type": "A.leda B-Eye K20",
-          "name": "Moving Head Wash/Effect LED 19x40W RGBW",
+          "type": "Enclosure",
+          "name": "Igloo EASY",
           "modes": [
             {
-              "name": "102ch Pixel",
-              "dmxChannels": 102
-            },
-            {
-              "name": "114ch Full",
-              "dmxChannels": 114
-            },
-            {
-              "name": "28ch",
-              "dmxChannels": 28
-            },
-            {
-              "name": "38ch",
-              "dmxChannels": 38
+              "name": "1ch",
+              "dmxChannels": 1
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/a-leda-b-eye-k20/",
-          "dmxChartUrl": "https://www.claypaky.it/products/a-leda-b-eye-k20/"
+          "manualUrl": "https://plsn.com/?p=265418",
+          "dmxChartUrl": ""
         },
         {
-          "type": "Actoris Fresnel",
-          "name": "Fresnel LED th??tre (ADB by Claypaky)",
+          "type": "Fresnel",
+          "name": "Actoris Fresnel",
           "modes": [
             {
-              "name": "1ch Dimmer",
+              "name": "Mode 17ch",
+              "dmxChannels": 17
+            },
+            {
+              "name": "Mode 1ch",
               "dmxChannels": 1
             },
             {
-              "name": "2ch CCT",
-              "dmxChannels": 2
+              "name": "Mode 33ch",
+              "dmxChannels": 33
             },
             {
-              "name": "3ch Full",
-              "dmxChannels": 3
+              "name": "Mode 9ch",
+              "dmxChannels": 9
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
+          "weightKilogram": 11,
+          "powerWatt": 570,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.claypaky.it/products/actoris-fresnel/",
-          "dmxChartUrl": "https://www.claypaky.it/products/actoris-fresnel/"
+          "dmxChartUrl": ""
         },
         {
-          "type": "Actoris ParLED",
-          "name": "PAR LED statique th??tre",
+          "type": "Hybrid",
+          "name": "Mythos 2",
           "modes": [
             {
-              "name": "4ch RGBW",
-              "dmxChannels": 4
+              "name": "Standard",
+              "dmxChannels": 30
             },
             {
-              "name": "8ch 16bit",
-              "dmxChannels": 8
+              "name": "Vector",
+              "dmxChannels": 34
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 700,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://goknight.com/claypaky-c61396-mythos2-moving-head-fixture",
+          "dmxChartUrl": "https://www.claypaky.it/products/ultimo-sharpy/"
+        },
+        {
+          "type": "Hybrid",
+          "name": "Sharpy Plus",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 540,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/sharpy-plus/",
+          "dmxChartUrl": "https://www.claypaky.it/products/sharpy-plus/"
+        },
+        {
+          "type": "Hybrid",
+          "name": "Sharpy Plus Aqua",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 37.5,
+          "powerWatt": 560,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/sharpy-plus-aqua/",
+          "dmxChartUrl": "https://www.claypaky.it/products/sharpy-plus-aqua/"
+        },
+        {
+          "type": "Hybrid",
+          "name": "Sharpy X Frame",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/sharpy-xframe/",
+          "dmxChartUrl": "https://www.claypaky.it/products/sharpy-plus-aqua/"
+        },
+        {
+          "type": "Hybrid",
+          "name": "Sharpy X Spot",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 32
+            }
+          ],
+          "weightKilogram": 27,
+          "powerWatt": 750,
+          "luminousFluxLumen": 18800,
+          "manualUrl": "https://www.claypaky.it/products/sharpy-x-spot/",
+          "dmxChartUrl": "https://www.claypaky.it/products/sharpy-xframe/"
+        },
+        {
+          "type": "Hybrid",
+          "name": "Ultimo Hybrid",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 41.9,
+          "powerWatt": 750,
+          "luminousFluxLumen": 19000,
+          "manualUrl": "https://www.claypaky.it/products/ultimo-hybrid/",
+          "dmxChartUrl": "https://www.claypaky.it/products/ultimo-sharpy/"
+        },
+        {
+          "type": "LED bar",
+          "name": "Tambora Linear 100",
+          "modes": [
+            {
+              "name": "Main 13ch",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Main 31ch",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Main 33ch",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Main 39ch",
+              "dmxChannels": 39
+            },
+            {
+              "name": "Main 9ch",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Pixel engine 75ch",
+              "dmxChannels": 75
+            },
+            {
+              "name": "Strobe engine 25ch",
+              "dmxChannels": 25
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/actoris-parled/",
-          "dmxChartUrl": "https://www.claypaky.it/products/actoris-parled/"
+          "manualUrl": "https://www.claypaky.it/en/products/tambora-linear",
+          "dmxChartUrl": "https://www.claypaky.it/products/tambora-flash/"
         },
         {
-          "type": "Arolla Aqua",
-          "name": "Moving Head Profile IP66 LED 900W",
+          "type": "LED bar",
+          "name": "Tambora Linear 60",
           "modes": [
             {
-              "name": "Extended 50ch",
-              "dmxChannels": 50
+              "name": "Main 13ch",
+              "dmxChannels": 13
             },
             {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
+              "name": "Main 31ch",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Main 33ch",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Main 39ch",
+              "dmxChannels": 39
+            },
+            {
+              "name": "Main 9ch",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Pixel engine 45ch",
+              "dmxChannels": 45
+            },
+            {
+              "name": "Strobe engine 15ch",
+              "dmxChannels": 15
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 900,
-          "luminousFluxLumen": 40000,
-          "manualUrl": "https://www.claypaky.it/products/arolla-aqua/",
-          "dmxChartUrl": "https://www.claypaky.it/products/arolla-aqua/"
+          "powerWatt": 420,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://claypaky.it/products/tambora-linear-60",
+          "dmxChartUrl": "https://www.claypaky.it/products/tambora-stormy-linear/"
         },
         {
-          "type": "Arolla Aqua HP",
-          "name": "Moving Head Profile IP66 LED 1400W",
+          "type": "LED bar moving",
+          "name": "SharBar",
+          "modes": [],
+          "weightKilogram": 15,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.huss-licht-ton.de/product_info.php/Clay-Paky-SharBar-LED-Bar/info/41440.html",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED bar moving",
+          "name": "Show Batten 100",
           "modes": [
             {
-              "name": "Extended 50ch",
+              "name": "Extended",
               "dmxChannels": 50
             },
             {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
+              "name": "Standard",
+              "dmxChannels": 10
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 1400,
-          "luminousFluxLumen": 60000,
-          "manualUrl": "https://www.claypaky.it/products/arolla-aqua-hp/",
-          "dmxChartUrl": "https://www.claypaky.it/products/arolla-aqua-hp/"
+          "powerWatt": 170,
+          "luminousFluxLumen": 2840,
+          "manualUrl": "https://pssl.com/products/clay-paky-show-batten-100-rgbw-moving-led-bar",
+          "dmxChartUrl": ""
         },
         {
-          "type": "Arolla Aqua LT",
-          "name": "Moving Head Profile IP66 LED 900W long throw",
+          "type": "LED bar moving",
+          "name": "Show Batten 100 AS",
           "modes": [
             {
-              "name": "Extended 50ch",
+              "name": "Extended",
               "dmxChannels": 50
             },
             {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
+              "name": "Standard",
+              "dmxChannels": 10
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 900,
-          "luminousFluxLumen": 40000,
-          "manualUrl": "https://www.claypaky.it/products/arolla-aqua-lt/",
-          "dmxChartUrl": "https://www.claypaky.it/products/arolla-aqua-lt/"
+          "powerWatt": 170,
+          "luminousFluxLumen": 2590,
+          "manualUrl": "https://pssl.com/products/clay-paky-show-batten-100-rgbw-moving-led-bar",
+          "dmxChartUrl": ""
         },
         {
-          "type": "Arolla Aqua M-LT",
-          "name": "Moving Head Profile IP66 LED 550W",
+          "type": "LED bar moving",
+          "name": "Tambora Batten Round",
           "modes": [
             {
-              "name": "Extended 50ch",
+              "name": "Main 13ch",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Main 17ch",
+              "dmxChannels": 17
+            },
+            {
+              "name": "Main 27ch",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Main 29ch",
+              "dmxChannels": 29
+            },
+            {
+              "name": "Main 35ch",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Pixel engine 48ch",
+              "dmxChannels": 48
+            },
+            {
+              "name": "Pixel engine 64ch",
+              "dmxChannels": 64
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 660,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/tambora-batten/",
+          "dmxChartUrl": "https://www.claypaky.it/products/tambora-linear-60/"
+        },
+        {
+          "type": "LED bar moving",
+          "name": "Tambora Batten Square",
+          "modes": [
+            {
+              "name": "Main 13ch",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Main 17ch",
+              "dmxChannels": 17
+            },
+            {
+              "name": "Main 27ch",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Main 29ch",
+              "dmxChannels": 29
+            },
+            {
+              "name": "Main 35ch",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Pixel engine 48ch",
+              "dmxChannels": 48
+            },
+            {
+              "name": "Pixel engine 64ch",
+              "dmxChannels": 64
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 660,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/tambora-batten/",
+          "dmxChartUrl": "https://www.claypaky.it/products/tambora-batten/"
+        },
+        {
+          "type": "LED bar moving",
+          "name": "Volero Batten Aqua",
+          "modes": [
+            {
+              "name": "Main 16ch",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Main 33ch",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Main 34ch",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Pixel engine 30ch",
+              "dmxChannels": 30
+            },
+            {
+              "name": "Pixel engine 40ch",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://claypaky.it/products/volero-batten-aqua",
+          "dmxChartUrl": "https://www.claypaky.it/products/volero-batten-aqua/"
+        },
+        {
+          "type": "LED bar moving",
+          "name": "Volero Twins",
+          "modes": [
+            {
+              "name": "Basic 25ch",
+              "dmxChannels": 25
+            },
+            {
+              "name": "Basic 43ch",
+              "dmxChannels": 43
+            },
+            {
+              "name": "Basic 50ch",
               "dmxChannels": 50
             },
             {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 550,
-          "luminousFluxLumen": 28000,
-          "manualUrl": "https://www.claypaky.it/products/arolla-aqua-m-lt/",
-          "dmxChartUrl": "https://www.claypaky.it/products/arolla-aqua-m-lt/"
-        },
-        {
-          "type": "Arolla Aqua S-LT",
-          "name": "Moving Head Profile IP66 LED 350W compact",
-          "modes": [
-            {
-              "name": "Extended 50ch",
-              "dmxChannels": 50
+              "name": "Pixel engine 32ch",
+              "dmxChannels": 32
             },
             {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
+              "name": "Strobe engine 20ch",
+              "dmxChannels": 20
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 350,
-          "luminousFluxLumen": 21000,
-          "manualUrl": "https://www.claypaky.it/products/arolla-aqua-s-lt/",
-          "dmxChartUrl": "https://www.claypaky.it/products/arolla-aqua-s-lt/"
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/volero-twins/",
+          "dmxChartUrl": "https://www.claypaky.it/products/tambora-batten/"
         },
         {
-          "type": "Arolla Aqua Wash HC",
-          "name": "Moving Head Wash IP66 LED HC (Fresnel + PC)",
+          "type": "LED bar moving",
+          "name": "Volero Wave",
           "modes": [
             {
-              "name": "Extended 38ch",
+              "name": "Advanced",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Pixel engine RGB",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Pixel engine RGBW",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Shape",
               "dmxChannels": 38
             },
             {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
+              "name": "Standard",
+              "dmxChannels": 20
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
+          "powerWatt": 400,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/arolla-aqua-wash-hc/",
-          "dmxChartUrl": "https://www.claypaky.it/products/arolla-aqua-wash-hc/"
+          "manualUrl": "https://www.claypaky.it/products/volero-wave/",
+          "dmxChartUrl": "https://www.claypaky.it/products/skylos-nv/"
         },
         {
-          "type": "Arolla Profile HP",
-          "name": "Moving Head Profile LED 1200W",
-          "modes": [
-            {
-              "name": "Extended 50ch",
-              "dmxChannels": 50
-            },
-            {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 1200,
-          "luminousFluxLumen": 52000,
-          "manualUrl": "https://www.claypaky.it/products/arolla-profile-hp/",
-          "dmxChartUrl": "https://www.claypaky.it/products/arolla-profile-hp/"
-        },
-        {
-          "type": "Arolla Profile MP",
-          "name": "Moving Head Profile LED 470W 6000K eSWAP",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 470,
-          "luminousFluxLumen": 22000,
-          "manualUrl": "https://www.claypaky.it/products/arolla-profile-mp/",
-          "dmxChartUrl": "https://www.claypaky.it/products/arolla-profile-mp/"
-        },
-        {
-          "type": "Arolla Spot MP",
-          "name": "Moving Head Spot LED 470W 6000K",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 470,
-          "luminousFluxLumen": 22000,
-          "manualUrl": "https://www.claypaky.it/products/arolla-spot-mp/",
-          "dmxChartUrl": "https://www.claypaky.it/products/arolla-spot-mp/"
-        },
-        {
-          "type": "Axcor Beam 300",
-          "name": "Moving Head Beam LED 110W 7600K",
+          "type": "Moving Head Beam LED 110W 7600K",
+          "name": "Axcor Beam 300",
           "modes": [
             {
               "name": "Standard 18ch",
@@ -9550,27 +10427,8 @@
           "dmxChartUrl": "https://www.claypaky.it/products/axcor-beam-300/"
         },
         {
-          "type": "Axcor Profile 400",
-          "name": "Moving Head Profile LED 300W 6500K",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 300,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/axcor-profile-400/",
-          "dmxChartUrl": "https://www.claypaky.it/products/axcor-profile-400/"
-        },
-        {
-          "type": "Axcor Profile 400 HC",
-          "name": "Moving Head Profile LED 300W 5600K HC",
+          "type": "Moving Head Profile LED 300W 5600K HC",
+          "name": "Axcor Profile 400 HC",
           "modes": [
             {
               "name": "Extended 40ch",
@@ -9588,8 +10446,27 @@
           "dmxChartUrl": "https://www.claypaky.it/products/axcor-profile-400-hc/"
         },
         {
-          "type": "Axcor Profile 600",
-          "name": "Moving Head Profile LED 550W",
+          "type": "Moving Head Profile LED 300W 6500K",
+          "name": "Axcor Profile 400",
+          "modes": [
+            {
+              "name": "Extended 40ch",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Standard 28ch",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/axcor-profile-400/",
+          "dmxChartUrl": "https://www.claypaky.it/products/axcor-profile-400/"
+        },
+        {
+          "type": "Moving Head Profile LED 550W",
+          "name": "Axcor Profile 600",
           "modes": [
             {
               "name": "Extended 50ch",
@@ -9607,8 +10484,8 @@
           "dmxChartUrl": "https://www.claypaky.it/products/axcor-profile-600/"
         },
         {
-          "type": "Axcor Profile 600 Teatro",
-          "name": "Moving Head Profile LED 550W (version th??tre)",
+          "type": "Moving Head Profile LED 550W (version th??tre)",
+          "name": "Axcor Profile 600 Teatro",
           "modes": [
             {
               "name": "Extended 50ch",
@@ -9626,8 +10503,8 @@
           "dmxChartUrl": "https://www.claypaky.it/products/axcor-profile-600-teatro/"
         },
         {
-          "type": "Axcor Spot 300",
-          "name": "Moving Head Spot LED 180W 7000K",
+          "type": "Moving Head Spot LED 180W 7000K",
+          "name": "Axcor Spot 300",
           "modes": [
             {
               "name": "Extended 28ch",
@@ -9645,27 +10522,8 @@
           "dmxChartUrl": "https://www.claypaky.it/products/axcor-spot-300/"
         },
         {
-          "type": "Axcor Spot 400",
-          "name": "Moving Head Spot LED 300W 6500K",
-          "modes": [
-            {
-              "name": "Extended 28ch",
-              "dmxChannels": 28
-            },
-            {
-              "name": "Standard 18ch",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 300,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/axcor-spot-400/",
-          "dmxChartUrl": "https://www.claypaky.it/products/axcor-spot-400/"
-        },
-        {
-          "type": "Axcor Wash 600",
-          "name": "Moving Head Wash LED 550W",
+          "type": "Moving Head Wash LED 550W",
+          "name": "Axcor Wash 600",
           "modes": [
             {
               "name": "Extended 38ch",
@@ -9683,8 +10541,8 @@
           "dmxChartUrl": "https://www.claypaky.it/products/axcor-wash-600/"
         },
         {
-          "type": "Axcor Wash 600 HC",
-          "name": "Moving Head Wash LED 550W HC",
+          "type": "Moving Head Wash LED 550W HC",
+          "name": "Axcor Wash 600 HC",
           "modes": [
             {
               "name": "Extended 38ch",
@@ -9702,443 +10560,270 @@
           "dmxChartUrl": "https://www.claypaky.it/products/axcor-wash-600-hc/"
         },
         {
-          "type": "CloudIO",
-          "name": "Syst?me de gestion et maintenance digitale des projecteurs",
-          "modes": [],
+          "type": "Moving mirror",
+          "name": "ReflectXion",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 6
+            }
+          ],
           "weightKilogram": 0,
-          "powerWatt": 0,
+          "powerWatt": 100,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/en/cloudio/",
+          "manualUrl": "https://goknight.com/content/documentation/ReflectXion_DataSheet_08.2021.pdf",
           "dmxChartUrl": ""
         },
         {
-          "type": "HY B-Eye K15",
-          "name": "Moving Head Wash/Beam/FX LED 19x40W RGBW",
+          "type": "Moving yoke",
+          "name": "Panify",
           "modes": [
             {
-              "name": "102ch Pixel",
-              "dmxChannels": 102
-            },
+              "name": "Single mode",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 150,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://claypaky.it/products/panify",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving yoke",
+          "name": "Panify 2",
+          "modes": [
             {
-              "name": "114ch Full",
-              "dmxChannels": 114
-            },
-            {
-              "name": "28ch",
-              "dmxChannels": 28
-            },
-            {
-              "name": "38ch",
-              "dmxChannels": 38
+              "name": "Single mode",
+              "dmxChannels": 5
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/hy-b-eye-k15/",
-          "dmxChartUrl": "https://www.claypaky.it/products/hy-b-eye-k15/"
+          "manualUrl": "https://claypaky.it/products/panify-2",
+          "dmxChartUrl": ""
         },
         {
-          "type": "HY B-Eye K15 Aqua",
-          "name": "Moving Head Wash/Beam/FX IP66 LED 19x40W RGBW",
+          "type": "PAR",
+          "name": "Actoris ParLED",
           "modes": [
             {
-              "name": "102ch Pixel",
-              "dmxChannels": 102
+              "name": "Basic RGBW",
+              "dmxChannels": 13
             },
             {
-              "name": "114ch Full",
-              "dmxChannels": 114
-            },
-            {
-              "name": "28ch",
-              "dmxChannels": 28
-            },
-            {
-              "name": "38ch",
-              "dmxChannels": 38
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/hy-b-eye-k15-aqua/",
-          "dmxChartUrl": "https://www.claypaky.it/products/hy-b-eye-k15-aqua/"
-        },
-        {
-          "type": "HY B-Eye K25",
-          "name": "Moving Head Wash/Beam/FX LED 19x60W RGBW",
-          "modes": [
-            {
-              "name": "102ch Pixel",
-              "dmxChannels": 102
-            },
-            {
-              "name": "114ch Full",
-              "dmxChannels": 114
-            },
-            {
-              "name": "28ch",
-              "dmxChannels": 28
-            },
-            {
-              "name": "38ch",
-              "dmxChannels": 38
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/hy-b-eye-k25/",
-          "dmxChartUrl": "https://www.claypaky.it/products/hy-b-eye-k25/"
-        },
-        {
-          "type": "HY B-Eye K25 Teatro",
-          "name": "Moving Head Wash/Beam/FX LED 19x60W RGBW (version th??tre)",
-          "modes": [
-            {
-              "name": "102ch Pixel",
-              "dmxChannels": 102
-            },
-            {
-              "name": "114ch Full",
-              "dmxChannels": 114
-            },
-            {
-              "name": "28ch",
-              "dmxChannels": 28
-            },
-            {
-              "name": "38ch",
-              "dmxChannels": 38
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/hy-b-eye-k25/",
-          "dmxChartUrl": "https://www.claypaky.it/products/hy-b-eye-k25/"
-        },
-        {
-          "type": "Igloo EASY",
-          "name": "Dome LED pixel sph?rique",
-          "modes": [
-            {
-              "name": "Pixel 48ch",
-              "dmxChannels": 48
-            },
-            {
-              "name": "Standard 12ch",
-              "dmxChannels": 12
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/igloo-easy/",
-          "dmxChartUrl": "https://www.claypaky.it/products/igloo-easy/"
-        },
-        {
-          "type": "K-Eye K10 HCR",
-          "name": "Moving Head Wash LED 19x15W 6 couleurs HCR",
-          "modes": [
-            {
-              "name": "102ch Pixel",
-              "dmxChannels": 102
-            },
-            {
-              "name": "28ch",
-              "dmxChannels": 28
-            },
-            {
-              "name": "38ch",
-              "dmxChannels": 38
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/k-eye-k10-hcr/",
-          "dmxChartUrl": "https://www.claypaky.it/products/k-eye-k10-hcr/"
-        },
-        {
-          "type": "K-Eye K20 HCR",
-          "name": "Moving Head Wash LED 19x40W 6 couleurs HCR",
-          "modes": [
-            {
-              "name": "102ch Pixel",
-              "dmxChannels": 102
-            },
-            {
-              "name": "28ch",
-              "dmxChannels": 28
-            },
-            {
-              "name": "38ch",
-              "dmxChannels": 38
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/k-eye-k20-hcr/",
-          "dmxChartUrl": "https://www.claypaky.it/products/k-eye-k20-hcr/"
-        },
-        {
-          "type": "Midi-B",
-          "name": "Moving Head Wash/Beam LED 7x40W RGBW",
-          "modes": [
-            {
-              "name": "17ch",
+              "name": "Basic RGBW 16bit",
               "dmxChannels": 17
-            },
-            {
-              "name": "21ch",
-              "dmxChannels": 21
-            },
-            {
-              "name": "25ch",
-              "dmxChannels": 25
-            },
-            {
-              "name": "47ch Pixel",
-              "dmxChannels": 47
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/midi-b/",
-          "dmxChartUrl": "https://www.claypaky.it/products/midi-b/"
+          "powerWatt": 326,
+          "luminousFluxLumen": 3400,
+          "manualUrl": "https://www.claypaky.it/products/actoris-parled/",
+          "dmxChartUrl": ""
         },
         {
-          "type": "Midi-B FX",
-          "name": "Moving Head Wash/FX LED 7x40W RGBW roue anim?e",
+          "type": "Profile",
+          "name": "Actoris Profile FC",
           "modes": [
             {
-              "name": "17ch",
-              "dmxChannels": 17
+              "name": "Mode 15ch",
+              "dmxChannels": 15
             },
             {
-              "name": "21ch",
-              "dmxChannels": 21
+              "name": "Mode 31ch",
+              "dmxChannels": 31
             },
             {
-              "name": "25ch",
-              "dmxChannels": 25
-            },
-            {
-              "name": "47ch Pixel",
-              "dmxChannels": 47
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/midi-b-fx/",
-          "dmxChartUrl": "https://www.claypaky.it/products/midi-b-fx/"
-        },
-        {
-          "type": "Midi-B WW",
-          "name": "Moving Head Wash LED 7x40W Blanc chaud",
-          "modes": [
-            {
-              "name": "12ch",
-              "dmxChannels": 12
-            },
-            {
-              "name": "8ch",
-              "dmxChannels": 8
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/midi-b-ww/",
-          "dmxChartUrl": "https://www.claypaky.it/products/midi-b-ww/"
-        },
-        {
-          "type": "Mini Xtylos",
-          "name": "Moving Head Beam Laser RGB mini",
-          "modes": [
-            {
-              "name": "27ch",
-              "dmxChannels": 27
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/mini-xtylos/",
-          "dmxChartUrl": "https://www.claypaky.it/products/mini-xtylos/"
-        },
-        {
-          "type": "Mini Xtylos HPE",
-          "name": "Moving Head Beam Laser RGB mini pan infini",
-          "modes": [
-            {
-              "name": "27ch",
-              "dmxChannels": 27
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/mini-xtylos-hpe/",
-          "dmxChartUrl": "https://www.claypaky.it/products/mini-xtylos-hpe/"
-        },
-        {
-          "type": "Mini-B",
-          "name": "Moving Head Wash/Beam LED 7x40W RGBW mini",
-          "modes": [
-            {
-              "name": "17ch",
-              "dmxChannels": 17
-            },
-            {
-              "name": "21ch",
-              "dmxChannels": 21
-            },
-            {
-              "name": "25ch",
-              "dmxChannels": 25
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/mini-b/",
-          "dmxChartUrl": "https://www.claypaky.it/products/mini-b/"
-        },
-        {
-          "type": "Mini-B Aqua",
-          "name": "Moving Head Wash/Beam IP66 LED 7x40W RGBW",
-          "modes": [
-            {
-              "name": "17ch",
-              "dmxChannels": 17
-            },
-            {
-              "name": "21ch",
-              "dmxChannels": 21
-            },
-            {
-              "name": "25ch",
-              "dmxChannels": 25
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/mini-b-aqua/",
-          "dmxChartUrl": "https://www.claypaky.it/products/mini-b-aqua/"
-        },
-        {
-          "type": "Mini-B Aqua PX",
-          "name": "Moving Head Wash/Beam IP66 LED 7x40W pixel control",
-          "modes": [
-            {
-              "name": "17ch",
-              "dmxChannels": 17
-            },
-            {
-              "name": "21ch",
-              "dmxChannels": 21
-            },
-            {
-              "name": "25ch",
-              "dmxChannels": 25
-            },
-            {
-              "name": "47ch Pixel",
-              "dmxChannels": 47
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/mini-b-aqua-px/",
-          "dmxChartUrl": "https://www.claypaky.it/products/mini-b-aqua-px/"
-        },
-        {
-          "type": "Mini-B ParLED Aqua",
-          "name": "PAR LED IP66 statique (famille Mini-B)",
-          "modes": [
-            {
-              "name": "4ch RGBW",
+              "name": "Mode 4ch",
               "dmxChannels": 4
             },
             {
-              "name": "8ch 16bit",
-              "dmxChannels": 8
+              "name": "Mode 6ch",
+              "dmxChannels": 6
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
+          "powerWatt": 420,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/mini-b-parled-aqua/",
-          "dmxChartUrl": "https://www.claypaky.it/products/mini-b-parled-aqua/"
+          "manualUrl": "https://www.claypaky.it/products/actoris-profile-fc/",
+          "dmxChartUrl": ""
         },
         {
-          "type": "Mini-B Sparky Aqua",
-          "name": "Moving Head Wash/Effect IP66 LED mini sparkle",
+          "type": "Profile",
+          "name": "Arolla Aqua",
           "modes": [
             {
-              "name": "Extended 28ch",
-              "dmxChannels": 28
+              "name": "Extended",
+              "dmxChannels": 41
             },
             {
-              "name": "Standard 18ch",
-              "dmxChannels": 18
+              "name": "Standard",
+              "dmxChannels": 38
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/mini-b-sparky-aqua/",
-          "dmxChartUrl": "https://www.claypaky.it/products/mini-b-sparky-aqua/"
+          "powerWatt": 1100,
+          "luminousFluxLumen": 40360,
+          "manualUrl": "https://www.claypaky.it/products/arolla-aqua/",
+          "dmxChartUrl": "https://www.claypaky.it/products/arolla-profile-hp/"
         },
         {
-          "type": "Mini-B Spot",
-          "name": "Moving Head Spot LED mini",
+          "type": "Profile",
+          "name": "Arolla Aqua HP",
           "modes": [
             {
-              "name": "Extended 28ch",
-              "dmxChannels": 28
-            },
-            {
-              "name": "Standard 18ch",
-              "dmxChannels": 18
+              "name": "Single mode",
+              "dmxChannels": 43
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/mini-b-spot/",
-          "dmxChartUrl": "https://www.claypaky.it/products/mini-b-spot/"
+          "weightKilogram": 56.9,
+          "powerWatt": 1900,
+          "luminousFluxLumen": 66000,
+          "manualUrl": "https://www.claypaky.it/products/arolla-aqua-hp/",
+          "dmxChartUrl": "https://www.claypaky.it/products/arolla-aqua/"
         },
         {
-          "type": "Mini-B WW",
-          "name": "Moving Head Wash LED 7x40W Blanc chaud mini",
+          "type": "Profile",
+          "name": "Arolla Aqua LT",
           "modes": [
             {
-              "name": "12ch",
-              "dmxChannels": 12
+              "name": "Extended",
+              "dmxChannels": 41
             },
             {
-              "name": "8ch",
-              "dmxChannels": 8
+              "name": "Standard",
+              "dmxChannels": 38
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/mini-b-ww/",
-          "dmxChartUrl": "https://www.claypaky.it/products/mini-b-ww/"
+          "powerWatt": 1400,
+          "luminousFluxLumen": 44000,
+          "manualUrl": "https://www.claypaky.it/products/arolla-aqua-lt/",
+          "dmxChartUrl": "https://www.claypaky.it/products/arolla-aqua-hp/"
         },
         {
-          "type": "Mythos 2",
-          "name": "Moving Head Hybrid Discharge 900W BSW (Scenius)",
+          "type": "Profile",
+          "name": "Arolla Aqua M-LT",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 44
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 54
+            }
+          ],
+          "weightKilogram": 31.2,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 31000,
+          "manualUrl": "https://www.claypaky.it/products/arolla-aqua-m-lt/",
+          "dmxChartUrl": "https://www.claypaky.it/products/arolla-aqua-lt/"
+        },
+        {
+          "type": "Profile",
+          "name": "Arolla Aqua M-LT HC",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 44
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 54
+            }
+          ],
+          "weightKilogram": 31.2,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 20151,
+          "manualUrl": "https://www.claypaky.it/products/arolla-aqua-m-lt/",
+          "dmxChartUrl": "https://www.claypaky.it/products/arolla-aqua-m-lt/"
+        },
+        {
+          "type": "Profile",
+          "name": "Arolla Aqua S-LT",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 44
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 54
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 680,
+          "luminousFluxLumen": 21000,
+          "manualUrl": "https://www.claypaky.it/products/arolla-aqua-s-lt/",
+          "dmxChartUrl": "https://www.claypaky.it/products/arolla-aqua-s-lt/"
+        },
+        {
+          "type": "Profile",
+          "name": "Arolla Profile HP",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 39
+            }
+          ],
+          "weightKilogram": 44.7,
+          "powerWatt": 1650,
+          "luminousFluxLumen": 52000,
+          "manualUrl": "https://www.claypaky.it/products/arolla-profile-hp/",
+          "dmxChartUrl": "https://www.claypaky.it/products/arolla-profile-hp/"
+        },
+        {
+          "type": "Profile",
+          "name": "Arolla Profile MP",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 39
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 740,
+          "luminousFluxLumen": 22054,
+          "manualUrl": "https://www.claypaky.it/products/arolla-profile-mp/",
+          "dmxChartUrl": "https://www.claypaky.it/products/arolla-profile-mp/"
+        },
+        {
+          "type": "Profile",
+          "name": "Rhapsodya / Sinfonya Profile HP",
+          "modes": [
+            {
+              "name": "Full 62ch",
+              "dmxChannels": 62
+            },
+            {
+              "name": "LED engine 20ch",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Simplified 46ch",
+              "dmxChannels": 46
+            },
+            {
+              "name": "Standard 54ch",
+              "dmxChannels": 54
+            }
+          ],
+          "weightKilogram": 48,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/rhapsodya/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Scenius Unico",
           "modes": [
             {
               "name": "Standard",
@@ -10150,800 +10835,881 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 900,
+          "powerWatt": 1800,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/mythos-2/",
-          "dmxChartUrl": "https://www.claypaky.it/products/mythos-2/"
+          "manualUrl": "https://goknight.com/claypaky-c61515-scenius-unico-moving-head-fixture",
+          "dmxChartUrl": "https://www.claypaky.it/products/ultimo-hybrid/"
         },
         {
-          "type": "Odeon Flood",
-          "name": "Flood LED architectural IP",
+          "type": "Profile",
+          "name": "Sinfonya Profile 600",
           "modes": [
             {
-              "name": "4ch RGBW",
-              "dmxChannels": 4
+              "name": "Mode 43ch",
+              "dmxChannels": 43
             },
             {
-              "name": "8ch 16bit",
-              "dmxChannels": 8
+              "name": "Mode 49ch",
+              "dmxChannels": 49
+            },
+            {
+              "name": "Standard 58ch",
+              "dmxChannels": 58
             }
           ],
-          "weightKilogram": 0,
+          "weightKilogram": 36.8,
           "powerWatt": 0,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/odeon-flood/",
-          "dmxChartUrl": "https://www.claypaky.it/products/odeon-flood/"
+          "manualUrl": "https://www.claypaky.it/products/Sinfonya-Profile-600/",
+          "dmxChartUrl": ""
         },
         {
-          "type": "Panify",
-          "name": "Accessoire m?canique motoris? pour montage Tambora Batten",
+          "type": "Searchlight (laser)",
+          "name": "Skylos",
           "modes": [
             {
-              "name": "2ch Pan/Tilt",
-              "dmxChannels": 2
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/panify/",
-          "dmxChartUrl": "https://www.claypaky.it/products/panify/"
-        },
-        {
-          "type": "Panify 2",
-          "name": "Accessoire m?canique motoris? V2",
-          "modes": [
-            {
-              "name": "2ch Pan/Tilt",
-              "dmxChannels": 2
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/panify-2/",
-          "dmxChartUrl": "https://www.claypaky.it/products/panify-2/"
-        },
-        {
-          "type": "ReflectXion",
-          "name": "Moving Mirror LED (miroir motoris? de r?flexion)",
-          "modes": [
-            {
-              "name": "Extended 20ch",
+              "name": "Single mode",
               "dmxChannels": 20
-            },
-            {
-              "name": "Standard 15ch",
-              "dmxChannels": 15
             }
           ],
-          "weightKilogram": 0,
+          "weightKilogram": 60,
           "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/reflectxion/",
-          "dmxChartUrl": "https://www.claypaky.it/products/reflectxion/"
-        },
-        {
-          "type": "Rhapsodya",
-          "name": "Moving Head Profile LED Multispectral 1200W",
-          "modes": [
-            {
-              "name": "Extended 50ch",
-              "dmxChannels": 50
-            },
-            {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 1200,
-          "luminousFluxLumen": 24000,
-          "manualUrl": "https://www.claypaky.it/products/rhapsodya/",
-          "dmxChartUrl": "https://www.claypaky.it/products/rhapsodya/"
-        },
-        {
-          "type": "Scenius Unico",
-          "name": "Moving Head Hybrid Discharge 1400W BSW+Profile (discontinu?)",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 33ch",
-              "dmxChannels": 33
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 1400,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "SharBar",
-          "name": "LED Bar Moving type Sharpy (barre ? effets beams)",
-          "modes": [
-            {
-              "name": "Extended 28ch",
-              "dmxChannels": 28
-            },
-            {
-              "name": "Pixel 56ch",
-              "dmxChannels": 56
-            },
-            {
-              "name": "Standard 18ch",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/sharbar/",
-          "dmxChartUrl": "https://www.claypaky.it/products/sharbar/"
-        },
-        {
-          "type": "Sharpy",
-          "name": "Moving Head Beam Discharge 189W (original)",
-          "modes": [
-            {
-              "name": "14ch",
-              "dmxChannels": 14
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 189,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/sharpy/",
-          "dmxChartUrl": "https://www.claypaky.it/products/sharpy/"
-        },
-        {
-          "type": "Sharpy (original)",
-          "name": "Moving Head Beam Discharge 189W (2010, discontinu?)",
-          "modes": [
-            {
-              "name": "14ch",
-              "dmxChannels": 14
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 189,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Sharpy Plus",
-          "name": "Moving Head Beam Discharge 330W",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 31
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 330,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/sharpy-plus/",
-          "dmxChartUrl": "https://www.claypaky.it/products/sharpy-plus/"
-        },
-        {
-          "type": "Sharpy Plus Aqua",
-          "name": "Moving Head Beam IP66 Discharge 330W",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 31
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 330,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/sharpy-plus-aqua/",
-          "dmxChartUrl": "https://www.claypaky.it/products/sharpy-plus-aqua/"
-        },
-        {
-          "type": "Sharpy Wash 330",
-          "name": "Moving Head Wash Discharge 330W",
-          "modes": [
-            {
-              "name": "16ch",
-              "dmxChannels": 16
-            },
-            {
-              "name": "22ch",
-              "dmxChannels": 22
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 330,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/sharpy-wash-330/",
-          "dmxChartUrl": "https://www.claypaky.it/products/sharpy-wash-330/"
-        },
-        {
-          "type": "Sharpy Wash 330",
-          "name": "Moving Head Wash Discharge 330W (discontinu?)",
-          "modes": [
-            {
-              "name": "16ch",
-              "dmxChannels": 16
-            },
-            {
-              "name": "22ch",
-              "dmxChannels": 22
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 330,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Sharpy X Frame",
-          "name": "Moving Head Hybrid Discharge 550W (Beam/Spot/Profile)",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 33ch",
-              "dmxChannels": 33
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 550,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/sharpy-xframe/",
-          "dmxChartUrl": "https://www.claypaky.it/products/sharpy-xframe/"
-        },
-        {
-          "type": "Sharpy X Spot",
-          "name": "Moving Head Spot Discharge 550W",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 550,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/sharpy-x-spot/",
-          "dmxChartUrl": "https://www.claypaky.it/products/sharpy-x-spot/"
-        },
-        {
-          "type": "ShowBatten 100",
-          "name": "LED Bar statique flood/cyclorama 1m",
-          "modes": [
-            {
-              "name": "4ch RGBW",
-              "dmxChannels": 4
-            },
-            {
-              "name": "8ch 16bit",
-              "dmxChannels": 8
-            },
-            {
-              "name": "Pixel 24ch",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/showbatten-100/",
-          "dmxChartUrl": "https://www.claypaky.it/products/showbatten-100/"
-        },
-        {
-          "type": "Sinfonya Profile 600",
-          "name": "Moving Head Profile LED 550W (th??tre)",
-          "modes": [
-            {
-              "name": "Extended 50ch",
-              "dmxChannels": 50
-            },
-            {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 550,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/sinfonya-profile-600/",
-          "dmxChartUrl": "https://www.claypaky.it/products/sinfonya-profile-600/"
-        },
-        {
-          "type": "Sinfonya Profile HP",
-          "name": "Moving Head Profile LED Multispectral (version HP)",
-          "modes": [
-            {
-              "name": "Extended 50ch",
-              "dmxChannels": 50
-            },
-            {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/rhapsodya/",
-          "dmxChartUrl": "https://www.claypaky.it/products/rhapsodya/"
-        },
-        {
-          "type": "Skylos",
-          "name": "Moving Head Beam/Spot IP66 Laser Blanc 300W",
-          "modes": [
-            {
-              "name": "Extended 37ch",
-              "dmxChannels": 37
-            },
-            {
-              "name": "Standard 26ch",
-              "dmxChannels": 26
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 300,
-          "luminousFluxLumen": 0,
+          "luminousFluxLumen": 10717,
           "manualUrl": "https://www.claypaky.it/products/skylos/",
           "dmxChartUrl": "https://www.claypaky.it/products/skylos/"
         },
         {
-          "type": "Skylos NV",
-          "name": "Moving Head Beam/Spot IP66 Laser Blanc 300W (Night Vision)",
+          "type": "Searchlight (laser)",
+          "name": "Skylos NV",
           "modes": [
             {
-              "name": "Extended 37ch",
-              "dmxChannels": 37
-            },
-            {
-              "name": "Standard 26ch",
-              "dmxChannels": 26
+              "name": "Single mode",
+              "dmxChannels": 20
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 300,
+          "weightKilogram": 60,
+          "powerWatt": 0,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/skylos-nv/",
+          "manualUrl": "https://www.claypaky.it/products/skylos/",
           "dmxChartUrl": "https://www.claypaky.it/products/skylos-nv/"
         },
         {
-          "type": "Stormy CC",
-          "name": "Stroboscope/Blinder LED IP66 RGBW puissant",
+          "type": "Spot",
+          "name": "Arolla Spot MP",
           "modes": [
             {
-              "name": "Extended 20ch",
-              "dmxChannels": 20
+              "name": "Mode 1",
+              "dmxChannels": 29
             },
             {
-              "name": "Pixel 28ch",
+              "name": "Mode 2",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 24,
+          "powerWatt": 740,
+          "luminousFluxLumen": 22054,
+          "manualUrl": "https://www.claypaky.it/products/arolla-spot-mp/",
+          "dmxChartUrl": "https://www.claypaky.it/products/arolla-spot-mp/"
+        },
+        {
+          "type": "Spot",
+          "name": "Axcor Spot 400",
+          "modes": [
+            {
+              "name": "Single mode",
               "dmxChannels": 28
-            },
-            {
-              "name": "Standard 12ch",
-              "dmxChannels": 12
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
+          "weightKilogram": 26,
+          "powerWatt": 540,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/stormy-cc/",
-          "dmxChartUrl": "https://www.claypaky.it/products/stormy-cc/"
+          "manualUrl": "https://www.claypaky.it/products/axcor-spot400/",
+          "dmxChartUrl": "https://www.claypaky.it/products/axcor-spot-400/"
         },
         {
-          "type": "Tambora Batten Round",
-          "name": "LED Bar effet IP66 16x40W RGBW (lentilles rondes)",
+          "type": "Spot",
+          "name": "Axcor Spot 400 HC",
           "modes": [
             {
-              "name": "107ch Full",
-              "dmxChannels": 107
-            },
-            {
-              "name": "13ch",
-              "dmxChannels": 13
-            },
-            {
-              "name": "31ch",
-              "dmxChannels": 31
-            },
-            {
-              "name": "75ch Pixel",
-              "dmxChannels": 75
-            },
-            {
-              "name": "9ch",
-              "dmxChannels": 9
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/tambora-batten/",
-          "dmxChartUrl": "https://www.claypaky.it/products/tambora-batten/"
-        },
-        {
-          "type": "Tambora Batten Square",
-          "name": "LED Bar effet IP66 16x40W RGBW (lentilles carr?es)",
-          "modes": [
-            {
-              "name": "107ch Full",
-              "dmxChannels": 107
-            },
-            {
-              "name": "13ch",
-              "dmxChannels": 13
-            },
-            {
-              "name": "31ch",
-              "dmxChannels": 31
-            },
-            {
-              "name": "75ch Pixel",
-              "dmxChannels": 75
-            },
-            {
-              "name": "9ch",
-              "dmxChannels": 9
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/tambora-batten/",
-          "dmxChartUrl": "https://www.claypaky.it/products/tambora-batten/"
-        },
-        {
-          "type": "Tambora Flash",
-          "name": "Strobe/Blinder/Wash IP66 4xCOB 100W + pixels RGB",
-          "modes": [
-            {
-              "name": "107ch Full",
-              "dmxChannels": 107
-            },
-            {
-              "name": "13ch",
-              "dmxChannels": 13
-            },
-            {
-              "name": "31ch",
-              "dmxChannels": 31
-            },
-            {
-              "name": "75ch Pixel",
-              "dmxChannels": 75
-            },
-            {
-              "name": "9ch",
-              "dmxChannels": 9
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 1200,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/tambora-flash/",
-          "dmxChartUrl": "https://www.claypaky.it/products/tambora-flash/"
-        },
-        {
-          "type": "Tambora Glare",
-          "name": "Effect LED IP66 Wash/Strobe/FX haut-flux",
-          "modes": [
-            {
-              "name": "Extended 28ch",
+              "name": "Single mode",
               "dmxChannels": 28
-            },
+            }
+          ],
+          "weightKilogram": 26,
+          "powerWatt": 540,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/axcor-spot400/",
+          "dmxChartUrl": "https://www.claypaky.it/products/axcor-spot-400/"
+        },
+        {
+          "type": "Spot",
+          "name": "Mini-B Spot",
+          "modes": [
             {
-              "name": "Standard 18ch",
-              "dmxChannels": 18
+              "name": "Single mode 19ch",
+              "dmxChannels": 19
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/tambora-glare/",
-          "dmxChartUrl": "https://www.claypaky.it/products/tambora-glare/"
+          "powerWatt": 150,
+          "luminousFluxLumen": 3500,
+          "manualUrl": "https://www.claypaky.it/products/Mini-B-Spot",
+          "dmxChartUrl": "https://www.claypaky.it/products/mini-b-aqua/"
         },
         {
-          "type": "Tambora Linear 100",
-          "name": "LED Bar Strobe/Pixel 1m IP66 (Strobe blanc+couleurs)",
+          "type": "Static wash light",
+          "name": "Mini-B ParLED Aqua",
           "modes": [
             {
-              "name": "107ch Full",
-              "dmxChannels": 107
-            },
-            {
-              "name": "25ch Strobe",
-              "dmxChannels": 25
-            },
-            {
-              "name": "31ch",
-              "dmxChannels": 31
-            },
-            {
-              "name": "75ch Pixel",
-              "dmxChannels": 75
-            },
-            {
-              "name": "9ch Base",
-              "dmxChannels": 9
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/tambora-linear-100/",
-          "dmxChartUrl": "https://www.claypaky.it/products/tambora-linear-100/"
-        },
-        {
-          "type": "Tambora Linear 60",
-          "name": "LED Bar Strobe/Pixel 60cm IP66 (version courte)",
-          "modes": [
-            {
-              "name": "25ch Strobe",
-              "dmxChannels": 25
-            },
-            {
-              "name": "75ch Pixel",
-              "dmxChannels": 75
-            },
-            {
-              "name": "9ch Base",
-              "dmxChannels": 9
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/tambora-linear-60/",
-          "dmxChartUrl": "https://www.claypaky.it/products/tambora-linear-60/"
-        },
-        {
-          "type": "Tambora Rays",
-          "name": "Effect LED 9x3 RGBWW pixel bar compact (grid/line)",
-          "modes": [
-            {
-              "name": "13ch",
+              "name": "Mode 1 - 13ch",
               "dmxChannels": 13
             },
             {
-              "name": "31ch",
-              "dmxChannels": 31
+              "name": "Mode 2 - 17ch",
+              "dmxChannels": 17
             },
             {
-              "name": "75ch Pixel",
-              "dmxChannels": 75
+              "name": "Mode 3 - 17ch",
+              "dmxChannels": 17
             },
             {
-              "name": "9ch",
-              "dmxChannels": 9
+              "name": "Mode 4 - 25ch",
+              "dmxChannels": 25
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/tambora-rays/",
-          "dmxChartUrl": "https://www.claypaky.it/products/tambora-rays/"
+          "manualUrl": "https://goknight.com/claypaky-cl2018-mini-b-parled-aqua-led-par-fixture/",
+          "dmxChartUrl": "https://www.claypaky.it/products/mini-b-parled-aqua/"
         },
         {
-          "type": "Tambora Stormy",
-          "name": "Strobe/Wash IP66 LED RGBW (corps partag? avec Flash/Rays)",
+          "type": "Strobe",
+          "name": "Stormy",
           "modes": [
             {
-              "name": "13ch",
-              "dmxChannels": 13
-            },
-            {
-              "name": "31ch",
-              "dmxChannels": 31
-            },
-            {
-              "name": "75ch Pixel",
-              "dmxChannels": 75
-            },
-            {
-              "name": "9ch",
-              "dmxChannels": 9
+              "name": "3ch",
+              "dmxChannels": 3
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
+          "luminousFluxLumen": 80000,
+          "manualUrl": "https://claypaky.it/en/products/stormy",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Strobe",
+          "name": "Stormy CC",
+          "modes": [
+            {
+              "name": "7ch",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 40000,
+          "manualUrl": "https://claypaky.it/en/products/stormy",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Strobe",
+          "name": "Tambora Stormy",
+          "modes": [
+            {
+              "name": "Main 10ch",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Main 26ch",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Main 32ch",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Pixel engine 108ch",
+              "dmxChannels": 108
+            },
+            {
+              "name": "Pixel engine 81ch",
+              "dmxChannels": 81
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 720,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.claypaky.it/products/tambora-stormy/",
-          "dmxChartUrl": "https://www.claypaky.it/products/tambora-stormy/"
+          "dmxChartUrl": "https://www.claypaky.it/products/actoris-fresnel/"
         },
         {
-          "type": "Tambora Stormy Linear",
-          "name": "Strobe/Wash IP66 LED RGBW format bar lin?aire",
+          "type": "Strobe",
+          "name": "Tambora Stormy Linear",
           "modes": [
             {
-              "name": "13ch",
-              "dmxChannels": 13
+              "name": "Main 16ch",
+              "dmxChannels": 16
             },
             {
-              "name": "31ch",
-              "dmxChannels": 31
+              "name": "Main 36ch",
+              "dmxChannels": 36
             },
             {
-              "name": "75ch Pixel",
+              "name": "Main 48ch",
+              "dmxChannels": 48
+            },
+            {
+              "name": "Pixel engine 75ch",
               "dmxChannels": 75
             },
             {
-              "name": "9ch",
-              "dmxChannels": 9
+              "name": "Strobe engine 100ch",
+              "dmxChannels": 100
+            },
+            {
+              "name": "Strobe engine 50ch (A)",
+              "dmxChannels": 50
+            },
+            {
+              "name": "Strobe engine 50ch (B)",
+              "dmxChannels": 50
+            },
+            {
+              "name": "Strobe engine 50ch (C)",
+              "dmxChannels": 50
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.claypaky.it/products/tambora-stormy-linear/",
-          "dmxChartUrl": "https://www.claypaky.it/products/tambora-stormy-linear/"
+          "dmxChartUrl": "https://www.claypaky.it/products/stormy-cc/"
         },
         {
-          "type": "Ultimo Hybrid",
-          "name": "Moving Head Hybrid Discharge 550W (Beam/Spot/Profile)",
+          "type": "Strobe/Blinder",
+          "name": "Tambora Flash",
           "modes": [
             {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
+              "name": "Main 16ch",
+              "dmxChannels": 16
             },
             {
-              "name": "Standard 33ch",
-              "dmxChannels": 33
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 550,
-          "luminousFluxLumen": 19000,
-          "manualUrl": "https://www.claypaky.it/products/ultimo-hybrid/",
-          "dmxChartUrl": "https://www.claypaky.it/products/ultimo-hybrid/"
-        },
-        {
-          "type": "Ultimo Sharpy",
-          "name": "Moving Head Beam IP66 Discharge 250W (HID OSRAM)",
-          "modes": [
-            {
-              "name": "Extended 37ch",
-              "dmxChannels": 37
+              "name": "Main 20ch",
+              "dmxChannels": 20
             },
             {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 250,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/ultimo-sharpy/",
-          "dmxChartUrl": "https://www.claypaky.it/products/ultimo-sharpy/"
-        },
-        {
-          "type": "Volero Batten Aqua",
-          "name": "LED Bar IP66 10x60W RGBW zoom motoris?",
-          "modes": [
-            {
-              "name": "Full 64ch",
-              "dmxChannels": 64
+              "name": "Main 34ch",
+              "dmxChannels": 34
             },
             {
-              "name": "Pixel 48ch",
-              "dmxChannels": 48
+              "name": "Main 36ch",
+              "dmxChannels": 36
             },
             {
-              "name": "Standard 16ch",
+              "name": "Main 42ch",
+              "dmxChannels": 42
+            },
+            {
+              "name": "Pixel engine 12ch",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Pixel engine 16ch",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Strobe engine 16ch",
               "dmxChannels": 16
             }
           ],
-          "weightKilogram": 29,
-          "powerWatt": 800,
+          "weightKilogram": 0,
+          "powerWatt": 0,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/volero-batten-aqua/",
-          "dmxChartUrl": "https://www.claypaky.it/products/volero-batten-aqua/"
+          "manualUrl": "https://www.claypaky.it/products/tambora-flash/",
+          "dmxChartUrl": "https://www.claypaky.it/products/tambora-glare/"
         },
         {
-          "type": "Volero Cube",
-          "name": "Moving Head Wash/Beam LED 7x60W RGBW cube",
+          "type": "Wash",
+          "name": "Arolla Aqua Wash HC Fresnel",
           "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 36,
+          "powerWatt": 1580,
+          "luminousFluxLumen": 27368,
+          "manualUrl": "https://www.claypaky.it/products/arolla-aqua-wash-hc/",
+          "dmxChartUrl": "https://www.claypaky.it/products/arolla-aqua-wash-hc/"
+        },
+        {
+          "type": "Wash",
+          "name": "Arolla Aqua Wash HC PC",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 36,
+          "powerWatt": 1580,
+          "luminousFluxLumen": 31318,
+          "manualUrl": "https://www.claypaky.it/products/arolla-aqua-wash-hc/",
+          "dmxChartUrl": "https://www.claypaky.it/products/arolla-aqua-wash-hc/"
+        },
+        {
+          "type": "Wash",
+          "name": "K-Eye K10 HCR",
+          "modes": [
+            {
+              "name": "Extended 31ch",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Standard 27ch",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 450,
+          "luminousFluxLumen": 5500,
+          "manualUrl": "https://www.claypaky.it/products/k-eye-k10-hcr/",
+          "dmxChartUrl": "https://www.claypaky.it/products/k-eye-k20-hcr/"
+        },
+        {
+          "type": "Wash",
+          "name": "K-Eye K20 HCR",
+          "modes": [
+            {
+              "name": "Extended 31ch",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Standard 27ch",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 750,
+          "luminousFluxLumen": 11000,
+          "manualUrl": "https://www.claypaky.it/products/k-eye-k20-hcr/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Midi-B",
+          "modes": [
+            {
+              "name": "17ch",
+              "dmxChannels": 17
+            },
             {
               "name": "21ch",
               "dmxChannels": 21
             },
             {
-              "name": "Pixel 47ch",
+              "name": "25ch",
+              "dmxChannels": 25
+            },
+            {
+              "name": "37ch",
+              "dmxChannels": 37
+            }
+          ],
+          "weightKilogram": 17,
+          "powerWatt": 830,
+          "luminousFluxLumen": 11401,
+          "manualUrl": "https://www.claypaky.it/products/midib/",
+          "dmxChartUrl": "https://www.claypaky.it/products/midi-b/"
+        },
+        {
+          "type": "Wash",
+          "name": "Midi-B WW",
+          "modes": [
+            {
+              "name": "17ch",
+              "dmxChannels": 17
+            },
+            {
+              "name": "21ch",
+              "dmxChannels": 21
+            },
+            {
+              "name": "25ch",
+              "dmxChannels": 25
+            },
+            {
+              "name": "37ch",
+              "dmxChannels": 37
+            }
+          ],
+          "weightKilogram": 17,
+          "powerWatt": 830,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/midib/",
+          "dmxChartUrl": "https://www.claypaky.it/products/midi-b-ww/"
+        },
+        {
+          "type": "Wash",
+          "name": "Mini-B",
+          "modes": [
+            {
+              "name": "17ch",
+              "dmxChannels": 17
+            },
+            {
+              "name": "21ch",
+              "dmxChannels": 21
+            },
+            {
+              "name": "29ch",
+              "dmxChannels": 29
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 375,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://claypaky.it/products/mini-b/",
+          "dmxChartUrl": "https://www.claypaky.it/products/mini-b/"
+        },
+        {
+          "type": "Wash",
+          "name": "Mini-B Aqua",
+          "modes": [
+            {
+              "name": "16ch",
+              "dmxChannels": 16
+            },
+            {
+              "name": "20ch",
+              "dmxChannels": 20
+            },
+            {
+              "name": "28ch",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 375,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://claypaky.it/products/Mini-B-Aqua",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Mini-B Aqua PX",
+          "modes": [
+            {
+              "name": "22ch",
+              "dmxChannels": 22
+            },
+            {
+              "name": "41ch",
+              "dmxChannels": 41
+            },
+            {
+              "name": "45ch",
+              "dmxChannels": 45
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/mini-b-aqua/",
+          "dmxChartUrl": "https://www.claypaky.it/products/mini-b-aqua/"
+        },
+        {
+          "type": "Wash",
+          "name": "Mini-B WW",
+          "modes": [
+            {
+              "name": "17ch",
+              "dmxChannels": 17
+            },
+            {
+              "name": "21ch",
+              "dmxChannels": 21
+            },
+            {
+              "name": "29ch",
+              "dmxChannels": 29
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 375,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://claypaky.it/products/mini-b/",
+          "dmxChartUrl": "https://www.claypaky.it/products/mini-b-spot/"
+        },
+        {
+          "type": "Wash",
+          "name": "Sharpy Wash 330",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Vector",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 550,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://goknight.com/claypaky-c61378-sharpy-wash-330-moving-head-fixture",
+          "dmxChartUrl": "https://www.claypaky.it/products/sharpy-xframe/"
+        },
+        {
+          "type": "Wash FX",
+          "name": "A.leda B-Eye K10",
+          "modes": [
+            {
+              "name": "Pixel RGB 57ch",
+              "dmxChannels": 57
+            },
+            {
+              "name": "Pixel RGBW 76ch",
+              "dmxChannels": 76
+            },
+            {
+              "name": "Shapes 35ch",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Standard 21ch",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 450,
+          "luminousFluxLumen": 5500,
+          "manualUrl": "https://claypaky.it/products/a-leda-b-eye-k10",
+          "dmxChartUrl": "https://www.claypaky.it/products/a-leda-b-eye-k10/"
+        },
+        {
+          "type": "Wash FX",
+          "name": "A.leda B-Eye K20",
+          "modes": [
+            {
+              "name": "Pixel RGB 111ch",
+              "dmxChannels": 111
+            },
+            {
+              "name": "Pixel RGBW 148ch",
+              "dmxChannels": 148
+            },
+            {
+              "name": "Shapes 35ch",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Standard 21ch",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 21,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/a-leda-b-eye-k20",
+          "dmxChartUrl": "https://www.claypaky.it/products/a-leda-b-eye-k20/"
+        },
+        {
+          "type": "Wash FX",
+          "name": "B-EYE 12",
+          "modes": [
+            {
+              "name": "Extended 47ch",
               "dmxChannels": 47
             },
             {
-              "name": "Standard 17ch",
-              "dmxChannels": 17
+              "name": "Standard 30ch",
+              "dmxChannels": 30
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
+          "powerWatt": 800,
+          "luminousFluxLumen": 15200,
+          "manualUrl": "https://www.claypaky.it/products/b-eye-12/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash FX",
+          "name": "B-EYE 7",
+          "modes": [
+            {
+              "name": "Extended 47ch",
+              "dmxChannels": 47
+            },
+            {
+              "name": "Standard 30ch",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 500,
+          "luminousFluxLumen": 7700,
+          "manualUrl": "https://www.claypaky.it/products/b-eye-7/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash FX",
+          "name": "B-EYE K30",
+          "modes": [
+            {
+              "name": "Extended 47ch",
+              "dmxChannels": 47
+            },
+            {
+              "name": "Standard 30ch",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 37.6,
+          "powerWatt": 1700,
+          "luminousFluxLumen": 28000,
+          "manualUrl": "https://www.claypaky.it/products/b-eye-k30/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash FX",
+          "name": "B-EYE K30 FX",
+          "modes": [
+            {
+              "name": "Extended 54ch",
+              "dmxChannels": 54
+            },
+            {
+              "name": "Standard 38ch",
+              "dmxChannels": 38
+            }
+          ],
+          "weightKilogram": 37.4,
+          "powerWatt": 1700,
+          "luminousFluxLumen": 35000,
+          "manualUrl": "https://www.claypaky.it/products/b-eye-k30-fx/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash FX",
+          "name": "HY B-Eye K15",
+          "modes": [
+            {
+              "name": "Basic 21ch",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Basic 22ch",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Basic 35ch",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Basic 36ch",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Pixel RGB 57ch",
+              "dmxChannels": 57
+            },
+            {
+              "name": "Pixel RGBW 76ch",
+              "dmxChannels": 76
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 700,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/hy-b-eye-k15/",
+          "dmxChartUrl": "https://www.claypaky.it/products/hy-b-eye-k15/"
+        },
+        {
+          "type": "Wash FX",
+          "name": "HY B-Eye K15 Aqua",
+          "modes": [
+            {
+              "name": "Basic 21ch",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Basic 22ch",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Basic 35ch",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Basic 36ch",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Basic 37ch",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Pixel RGB 57ch",
+              "dmxChannels": 57
+            },
+            {
+              "name": "Pixel RGBW 76ch",
+              "dmxChannels": 76
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 680,
+          "luminousFluxLumen": 13500,
+          "manualUrl": "https://claypaky.it/products/hy-b-eye-k15-aqua/",
+          "dmxChartUrl": "https://www.claypaky.it/products/hy-b-eye-k15-aqua/"
+        },
+        {
+          "type": "Wash FX",
+          "name": "HY B-Eye K25",
+          "modes": [
+            {
+              "name": "Basic 22ch",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Basic 36ch",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Pixel RGB 111ch",
+              "dmxChannels": 111
+            },
+            {
+              "name": "Pixel RGBW 148ch",
+              "dmxChannels": 148
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1250,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/hy-b-eye-k25/",
+          "dmxChartUrl": "https://www.claypaky.it/products/hy-b-eye-k25/"
+        },
+        {
+          "type": "Wash FX",
+          "name": "HY B-Eye K25 Teatro",
+          "modes": [
+            {
+              "name": "Basic 22ch",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Basic 36ch",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Pixel RGB 111ch",
+              "dmxChannels": 111
+            },
+            {
+              "name": "Pixel RGBW 148ch",
+              "dmxChannels": 148
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1250,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/hy-b-eye-k25/",
+          "dmxChartUrl": "https://www.claypaky.it/products/k-eye-k10-hcr/"
+        },
+        {
+          "type": "Wash FX",
+          "name": "Midi-B FX",
+          "modes": [
+            {
+              "name": "23ch",
+              "dmxChannels": 23
+            },
+            {
+              "name": "30ch",
+              "dmxChannels": 30
+            },
+            {
+              "name": "43ch",
+              "dmxChannels": 43
+            },
+            {
+              "name": "70ch",
+              "dmxChannels": 70
+            }
+          ],
+          "weightKilogram": 19,
+          "powerWatt": 830,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/midi-b-fx/",
+          "dmxChartUrl": "https://www.claypaky.it/products/midi-b-fx/"
+        },
+        {
+          "type": "Wash FX",
+          "name": "Mini-B Sparky Aqua",
+          "modes": [
+            {
+              "name": "14ch",
+              "dmxChannels": 14
+            },
+            {
+              "name": "18ch",
+              "dmxChannels": 18
+            },
+            {
+              "name": "28ch",
+              "dmxChannels": 28
+            },
+            {
+              "name": "30ch",
+              "dmxChannels": 30
+            },
+            {
+              "name": "36ch",
+              "dmxChannels": 36
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 300,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/products/mini-b-sparky-aqua/",
+          "dmxChartUrl": "https://www.claypaky.it/products/mini-b-aqua-px/"
+        },
+        {
+          "type": "Wash FX",
+          "name": "Volero Cube",
+          "modes": [
+            {
+              "name": "Basic 22ch",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Basic 41ch",
+              "dmxChannels": 41
+            },
+            {
+              "name": "Basic 45ch",
+              "dmxChannels": 45
+            },
+            {
+              "name": "Pixel engine 16ch",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Strobe engine 8ch",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 500,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.claypaky.it/products/volero-cube/",
-          "dmxChartUrl": "https://www.claypaky.it/products/volero-cube/"
-        },
-        {
-          "type": "Volero Twins",
-          "name": "Moving Head double t?te LED IP66",
-          "modes": [
-            {
-              "name": "Extended 34ch",
-              "dmxChannels": 34
-            },
-            {
-              "name": "Standard 24ch",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/volero-twins/",
           "dmxChartUrl": "https://www.claypaky.it/products/volero-twins/"
-        },
-        {
-          "type": "Volero Wave",
-          "name": "LED Bar 8 t?tes mobiles 8x40W RGBW tilt 220?",
-          "modes": [
-            {
-              "name": "Full 88ch",
-              "dmxChannels": 88
-            },
-            {
-              "name": "Pixel 64ch",
-              "dmxChannels": 64
-            },
-            {
-              "name": "Standard 24ch",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/volero-wave/",
-          "dmxChartUrl": "https://www.claypaky.it/products/volero-wave/"
-        },
-        {
-          "type": "Xtylos",
-          "name": "Moving Head Beam Laser RGB 40W",
-          "modes": [
-            {
-              "name": "27ch",
-              "dmxChannels": 27
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/xtylos/",
-          "dmxChartUrl": "https://www.claypaky.it/products/xtylos/"
-        },
-        {
-          "type": "Xtylos Aqua",
-          "name": "Moving Head Beam IP66 Laser RGB 40W",
-          "modes": [
-            {
-              "name": "27ch",
-              "dmxChannels": 27
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/xtylos-aqua/",
-          "dmxChartUrl": "https://www.claypaky.it/products/xtylos-aqua/"
         }
       ]
     },
@@ -14450,6 +15216,71 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.elationlighting.com/fuze-wash-z350",
           "dmxChartUrl": "https://www.elationlighting.com/fuze-wash-z350"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Paragon LT",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 44
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 67
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 47
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 73
+            }
+          ],
+          "weightKilogram": 43.6,
+          "powerWatt": 1900,
+          "luminousFluxLumen": 50000,
+          "manualUrl": "https://avlgear.com/collections/led-par-lights/products/elation-paragon-lt-1300w-50000-lumens-profile-beam-wash-fixture",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Paragon M",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 65
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 1400,
+          "luminousFluxLumen": 37200,
+          "manualUrl": "https://www.elationlighting.com/paragon-m",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Moving Head",
+          "name": "Paragon S",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 64
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 41
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 20500,
+          "manualUrl": "https://aboveavl.com/products/paragon-s",
+          "dmxChartUrl": ""
         },
         {
           "type": "Moving Head",
@@ -18710,6 +19541,117 @@
       "name": "GLP",
       "products": [
         {
+          "type": "Beam",
+          "name": "FUSION Exo Beam 10",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 185,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/fusion-exo-beam-10-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Blinder",
+          "name": "Matrix Eye 2",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 2
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 38
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 700,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/static-lights/matrix-eye-2-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Blinder",
+          "name": "Matrix Eye 4",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 76
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/static-lights/matrix-eye-4-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Hybrid",
+          "name": "FUSION Exo Hybrid 40",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 463,
+          "luminousFluxLumen": 11000,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/fusion-exo-hybrid-40-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Linear moving head wash",
+          "name": "impression FR10 Bar",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 25
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 51
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 57
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 79
+            }
+          ],
+          "weightKilogram": 24,
+          "powerWatt": 740,
+          "luminousFluxLumen": 5800,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-fr10-bar-en",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Linear moving head wash",
           "name": "impression X4 Bar 10",
           "modes": [
@@ -18744,6 +19686,95 @@
           "dmxChartUrl": "https://glp.de/files/products/impression-x4-bar-20-product-data/impression_X4_Bar_20_DMX_Channel_Index_EN.pdf"
         },
         {
+          "type": "Linear moving head wash",
+          "name": "impression X5 Bar 1000",
+          "modes": [
+            {
+              "name": "M1 - Basic",
+              "dmxChannels": 20
+            },
+            {
+              "name": "M2 - Normal",
+              "dmxChannels": 33
+            },
+            {
+              "name": "M3 - Segment",
+              "dmxChannels": 48
+            },
+            {
+              "name": "M4 - Multipix Advanced",
+              "dmxChannels": 84
+            },
+            {
+              "name": "M5 - Multipix Compressed",
+              "dmxChannels": 63
+            },
+            {
+              "name": "M6 - Multipix Compressed RGBL",
+              "dmxChannels": 81
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-x5-bar-1000-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Linear moving head wash",
+          "name": "impression X5 IP Bar 1000",
+          "modes": [
+            {
+              "name": "M1 - Basic",
+              "dmxChannels": 20
+            },
+            {
+              "name": "M2 - Normal",
+              "dmxChannels": 33
+            },
+            {
+              "name": "M3 - Segment",
+              "dmxChannels": 48
+            },
+            {
+              "name": "M4 - Multipix Advanced",
+              "dmxChannels": 84
+            },
+            {
+              "name": "M5 - Multipix Compressed",
+              "dmxChannels": 63
+            },
+            {
+              "name": "M6 - Multipix Compressed RGBL",
+              "dmxChannels": 81
+            }
+          ],
+          "weightKilogram": 27,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-x5-ip-bar-1000-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Linear moving head wash",
+          "name": "WildBar 16",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 79
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 700,
+          "luminousFluxLumen": 10300,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/wildbar-16-en",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Moving head wash/strobe hybride double-face",
           "name": "TWYN",
           "modes": [],
@@ -18751,6 +19782,358 @@
           "powerWatt": 800,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.germanlightproducts.com/product/twyn/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "impression S500 Profile",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 35
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-s500-profile-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "FUSION Exo Spot 30",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 295,
+          "luminousFluxLumen": 8300,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/fusion-exo-spot-30-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Static wash light",
+          "name": "FUSION X-PAR 12Z",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 135,
+          "luminousFluxLumen": 2600,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/static-lights/fusion-x-par-12z-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Static wash light",
+          "name": "FUSION X-PAR 18Z",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 200,
+          "luminousFluxLumen": 4790,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/static-lights/fusion-x-par-18z-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Static wash light",
+          "name": "FUSION X-PAR 8Z",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 85,
+          "luminousFluxLumen": 1600,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/static-lights/fusion-x-par-8z-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Static wash light",
+          "name": "TW Dot Pinspot",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 20,
+          "luminousFluxLumen": 700,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/static-lights/tw-dot-pinspot-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Static wash light",
+          "name": "TW Dot Wash",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 11
+            }
+          ],
+          "weightKilogram": 0.58,
+          "powerWatt": 20,
+          "luminousFluxLumen": 600,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/static-lights/tw-dot-wash-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Static wash light",
+          "name": "X5 atom",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 17
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 60
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 84
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 40,
+          "luminousFluxLumen": 430,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/static-lights/x5-atom-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Static wash light",
+          "name": "X5 Dot Wash",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 11
+            }
+          ],
+          "weightKilogram": 0.58,
+          "powerWatt": 20,
+          "luminousFluxLumen": 550,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/static-lights/x5-dot-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Strobe wash light",
+          "name": "JDC Burst 1",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Mode 10",
+              "dmxChannels": 62
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 87
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 135
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 231
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 105
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 153
+            },
+            {
+              "name": "Mode 8",
+              "dmxChannels": 249
+            },
+            {
+              "name": "Mode 9",
+              "dmxChannels": 68
+            }
+          ],
+          "weightKilogram": 14,
+          "powerWatt": 1400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/strobes/jdc-burst-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Strobe wash light",
+          "name": "JDC Line 1000",
+          "modes": [
+            {
+              "name": "M1 - RGBWStrobe",
+              "dmxChannels": 32
+            },
+            {
+              "name": "M2 - WStrobe/RGBStrobe",
+              "dmxChannels": 68
+            },
+            {
+              "name": "M3 - WStrobe/RGB Pixel",
+              "dmxChannels": 168
+            },
+            {
+              "name": "M4 - RGBStrobe/W Pixel",
+              "dmxChannels": 94
+            },
+            {
+              "name": "M5 - MultiPix",
+              "dmxChannels": 196
+            },
+            {
+              "name": "M6 - MultiPix Advanced",
+              "dmxChannels": 316
+            },
+            {
+              "name": "M7 - Multipix Quadpix",
+              "dmxChannels": 78
+            }
+          ],
+          "weightKilogram": 12,
+          "powerWatt": 1600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/strobes/jdc-line-1000-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Strobe wash light",
+          "name": "JDC Line 500",
+          "modes": [
+            {
+              "name": "M1 - RGBWStrobe",
+              "dmxChannels": 16
+            },
+            {
+              "name": "M2 - WStrobe/RGBStrobe",
+              "dmxChannels": 34
+            },
+            {
+              "name": "M3 - WStrobe/RGB Pixel",
+              "dmxChannels": 84
+            },
+            {
+              "name": "M4 - RGBStrobe/W Pixel",
+              "dmxChannels": 47
+            },
+            {
+              "name": "M5 - MultiPix",
+              "dmxChannels": 98
+            },
+            {
+              "name": "M6 - MultiPix Advanced",
+              "dmxChannels": 158
+            },
+            {
+              "name": "M7 - Multipix Quadpix",
+              "dmxChannels": 38
+            }
+          ],
+          "weightKilogram": 6,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/strobes/jdc-line-500-en",
           "dmxChartUrl": ""
         },
         {
@@ -18808,18 +20191,227 @@
           "dmxChartUrl": "https://glp.de/files/products/jdc2-ip-product-data/GLP_JDC2_IP_DMX_Channel_Index_EN_Rev20241002-05.pdf"
         },
         {
+          "type": "Strobe wash light",
+          "name": "KNV Arc",
+          "modes": [
+            {
+              "name": "Mode 1 - RGBW 16-bit",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Mode 2 - White strobe FX / RGB FX",
+              "dmxChannels": 23
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 86
+            },
+            {
+              "name": "Mode 5 - Multi-layer RGBW FX",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 102
+            },
+            {
+              "name": "Mode 7 - RGBW 25-pixel 16-bit",
+              "dmxChannels": 202
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/static-lights/knv-arc-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Strobe wash light",
+          "name": "KNV Cube",
+          "modes": [
+            {
+              "name": "Mode 1 - RGBW 16-bit",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Mode 2 - White strobe FX / RGB FX",
+              "dmxChannels": 23
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 86
+            },
+            {
+              "name": "Mode 5 - Multi-layer RGBW FX",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 102
+            },
+            {
+              "name": "Mode 7 - RGBW 25-pixel 16-bit",
+              "dmxChannels": 202
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/static-lights/knv-cube-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Creos",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 42
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 51
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 87
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 66
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 84
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 800,
+          "luminousFluxLumen": 10800,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/creos-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "FUSION Exo Wash 30",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 50
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 230,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/fusion-exo-wash-30-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "impression FR1",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 85,
+          "luminousFluxLumen": 790,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-fr1-en",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Wash",
           "name": "impression FR1 TM",
           "modes": [
             {
-              "name": "Standard mode",
-              "dmxChannels": 20
+              "name": "Mode 1",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 4,
+          "powerWatt": 85,
+          "luminousFluxLumen": 790,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-fr1-tm-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "impression FR2 Wash",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 52
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 171
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 427
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 170,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://glp.de/files/products/impression-fr1-tm-product-data/GLP_impression_FR1TM_User_Manual_EN.pdf",
+          "powerWatt": 200,
+          "luminousFluxLumen": 3220,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-fr2-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "impression S500 Wash",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 750,
+          "luminousFluxLumen": 13100,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-s500-wash-en",
           "dmxChartUrl": ""
         },
         {
@@ -18907,37 +20499,172 @@
           "name": "impression X5",
           "modes": [
             {
-              "name": "Basic mode",
+              "name": "M1 - Basic",
               "dmxChannels": 24
             },
             {
-              "name": "Mulitpixel mode",
+              "name": "M2 - Normal",
+              "dmxChannels": 35
+            },
+            {
+              "name": "M3 - Segment",
+              "dmxChannels": 41
+            },
+            {
+              "name": "M4 - Multipix Advanced",
               "dmxChannels": 89
             },
             {
-              "name": "Normal mode",
-              "dmxChannels": 35
+              "name": "M5 - Multipix Compressed RGB",
+              "dmxChannels": 70
+            },
+            {
+              "name": "M6 - Multipix Compressed RGBL",
+              "dmxChannels": 89
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.germanlightproducts.com/wp-content/uploads/2022/01/GLP-impression-X5-User-Manual-EN.pdf",
+          "powerWatt": 710,
+          "luminousFluxLumen": 12500,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-x5-en",
           "dmxChartUrl": "https://www.germanlightproducts.com/wp-content/uploads/2022/01/GLP-impression-X5-DMX-Channel-Index-EN.pdf"
+        },
+        {
+          "type": "Wash",
+          "name": "impression X5 Compact",
+          "modes": [
+            {
+              "name": "M1 - Basic",
+              "dmxChannels": 22
+            },
+            {
+              "name": "M2 - Normal",
+              "dmxChannels": 33
+            },
+            {
+              "name": "M3 - Segment",
+              "dmxChannels": 36
+            },
+            {
+              "name": "M4 - Multipix Advanced",
+              "dmxChannels": 51
+            },
+            {
+              "name": "M5 - Multipix Compressed RGB",
+              "dmxChannels": 32
+            },
+            {
+              "name": "M6 - Multipix Compressed RGBL",
+              "dmxChannels": 39
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 350,
+          "luminousFluxLumen": 3980,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-x5-compact-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "impression X5 IP",
+          "modes": [
+            {
+              "name": "M1 - Basic",
+              "dmxChannels": 24
+            },
+            {
+              "name": "M2 - Normal",
+              "dmxChannels": 35
+            },
+            {
+              "name": "M3 - Segment",
+              "dmxChannels": 41
+            },
+            {
+              "name": "M4 - Multipix Advanced",
+              "dmxChannels": 89
+            },
+            {
+              "name": "M5 - Multipix Compressed RGB",
+              "dmxChannels": 70
+            },
+            {
+              "name": "M6 - Multipix Compressed RGBL",
+              "dmxChannels": 89
+            }
+          ],
+          "weightKilogram": 21,
+          "powerWatt": 700,
+          "luminousFluxLumen": 11400,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-x5-ip-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "impression X5 IP Maxx",
+          "modes": [
+            {
+              "name": "M1 - Basic",
+              "dmxChannels": 22
+            },
+            {
+              "name": "M2 - Normal",
+              "dmxChannels": 33
+            },
+            {
+              "name": "M3 - Segment",
+              "dmxChannels": 42
+            },
+            {
+              "name": "M4 - Multipix Advanced",
+              "dmxChannels": 141
+            },
+            {
+              "name": "M5 - Multipix Compressed RGB",
+              "dmxChannels": 122
+            },
+            {
+              "name": "M6 - Multipix Compressed RGBL",
+              "dmxChannels": 159
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1500,
+          "luminousFluxLumen": 21000,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-x5-ip-maxx-en",
+          "dmxChartUrl": ""
         },
         {
           "type": "Wash",
           "name": "MAD MAXX",
           "modes": [
             {
-              "name": "Standard mode",
+              "name": "MultiBeam",
+              "dmxChannels": 70
+            },
+            {
+              "name": "Normal",
               "dmxChannels": 15
+            },
+            {
+              "name": "Segment",
+              "dmxChannels": 22
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
+          "weightKilogram": 208,
+          "powerWatt": 2500,
+          "luminousFluxLumen": 68000,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/mad-maxx-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash/Strobe dual-face",
+          "name": "TWYN",
+          "modes": [],
+          "weightKilogram": 16,
+          "powerWatt": 800,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://glp.de/files/products/mad-maxx-product-data/GLP_MAD_MAXX_User_Manual_EN.pdf",
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/twyn-en",
           "dmxChartUrl": ""
         }
       ]
@@ -23176,6 +24903,29 @@
         },
         {
           "type": "Beam",
+          "name": "MAC One Beam",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Compact",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Ludicrous",
+              "dmxChannels": 107
+            }
+          ],
+          "weightKilogram": 4.95,
+          "powerWatt": 55,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.martin.com/en-US/products/mac-one-beam",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Beam",
           "name": "MAC Ultra HyBeam",
           "modes": [
             {
@@ -23192,6 +24942,33 @@
           "luminousFluxLumen": 46500,
           "manualUrl": "https://www.martin.com/en/products/mac-ultra-hybeam",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-ultra-hybeam"
+        },
+        {
+          "type": "Beam Wash",
+          "name": "MAC One",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Compact",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Compact Direct",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Ludicrous",
+              "dmxChannels": 108
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 180,
+          "luminousFluxLumen": 2500,
+          "manualUrl": "https://www.martin.com/en-US/products/mac-one",
+          "dmxChartUrl": ""
         },
         {
           "type": "LED Bar",
@@ -23230,6 +25007,124 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.martin.com/en/products/vdo-sceptron-10",
           "dmxChartUrl": "https://www.martin.com/en/products/vdo-sceptron-10"
+        },
+        {
+          "type": "LED Bar",
+          "name": "VDO Sceptron XB 1000 mm",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Mode 10",
+              "dmxChannels": 30
+            },
+            {
+              "name": "Mode 11",
+              "dmxChannels": 75
+            },
+            {
+              "name": "Mode 12",
+              "dmxChannels": 300
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 29
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 44
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 89
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 314
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Mode 8",
+              "dmxChannels": 3
+            },
+            {
+              "name": "Mode 9",
+              "dmxChannels": 15
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://soundpro.com/products/martin-lighting-vdo-sceptron-xb-led-pixel-batten-parent",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED Bar",
+          "name": "VDO Sceptron XB 320 mm",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Mode 10",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Mode 11",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 12",
+              "dmxChannels": 96
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 38
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 110
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Mode 8",
+              "dmxChannels": 3
+            },
+            {
+              "name": "Mode 9",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.fullcompass.com/prod/653403-martin-pro-vdo-sceptron-xb-320-vdo-sceptron-xb-320-mm",
+          "dmxChartUrl": ""
         },
         {
           "type": "LED Fresnel",
@@ -23347,36 +25242,92 @@
         },
         {
           "type": "Profile",
+          "name": "ERA 300 Profile",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 17,
+          "powerWatt": 260,
+          "luminousFluxLumen": 9500,
+          "manualUrl": "https://soundpro.com/products/martin-lighting-9025109886",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "ERA 400 Performance CLD",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 300,
+          "luminousFluxLumen": 10000,
+          "manualUrl": "https://soundpro.com/products/martin-lighting-9025121796",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
           "name": "ERA 600 Performance",
           "modes": [
             {
-              "name": "Standard",
-              "dmxChannels": 33
+              "name": "Mode 1",
+              "dmxChannels": 41
             }
           ],
-          "weightKilogram": 30,
-          "powerWatt": 810,
+          "weightKilogram": 0,
+          "powerWatt": 550,
           "luminousFluxLumen": 19000,
-          "manualUrl": "https://www.martin.com/en/products/mac-era-600-performance",
+          "manualUrl": "https://www.leisuretec.co.uk/product/era-600-performance-led-profile-moving-head-550w-webmar01291",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-era-600-performance"
+        },
+        {
+          "type": "Profile",
+          "name": "ERA 600 Profile",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 35
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 550,
+          "luminousFluxLumen": 19000,
+          "manualUrl": "https://soundpro.com/products/martin-lighting-9025123580",
+          "dmxChartUrl": ""
         },
         {
           "type": "Profile",
           "name": "ERA 800 Performance",
           "modes": [
             {
-              "name": "Extended",
-              "dmxChannels": 41
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 34
+              "name": "Mode 1",
+              "dmxChannels": 42
             }
           ],
-          "weightKilogram": 38.5,
-          "powerWatt": 1235,
+          "weightKilogram": 41,
+          "powerWatt": 800,
           "luminousFluxLumen": 34000,
-          "manualUrl": "https://www.martin.com/en/products/mac-era-800-performance",
+          "manualUrl": "https://www.pssl.com/products/martin-era-800-performance-led-profile-moving-head",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-era-800-performance"
+        },
+        {
+          "type": "Profile",
+          "name": "ERA 800 Profile",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 36
+            }
+          ],
+          "weightKilogram": 40,
+          "powerWatt": 800,
+          "luminousFluxLumen": 34000,
+          "manualUrl": "https://fullcompass.com/prod/585197-martin-pro-era-800-profile-800w-led-moving-head-profile-with-cmy-color-mixing",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-era-800-performance"
         },
         {
@@ -23393,6 +25344,59 @@
           "luminousFluxLumen": 21000,
           "manualUrl": "https://www.martin.com/en/products/mac-2000-performance",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-2000-performance"
+        },
+        {
+          "type": "Profile",
+          "name": "MAC Encore Performance CLD",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 38
+            }
+          ],
+          "weightKilogram": 31,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.pssl.com/products/martin-mac-encore-performance-cld-sip-moving-head-fixture",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "MAC Encore Performance WRM",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 38
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.almoproav.com/productdetails/MARTIN/90234020HU",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "MAC Encore Two",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 52
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 62
+            },
+            {
+              "name": "Ludicrous",
+              "dmxChannels": 68
+            }
+          ],
+          "weightKilogram": 36,
+          "powerWatt": 760,
+          "luminousFluxLumen": 21000,
+          "manualUrl": "https://leisuretec.co.uk/products/mac-encore-two-high-performance-led-moving-head-760w",
+          "dmxChartUrl": ""
         },
         {
           "type": "Profile",
@@ -23438,7 +25442,11 @@
           "modes": [
             {
               "name": "Extended",
-              "dmxChannels": 52
+              "dmxChannels": 58
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 48
             }
           ],
           "weightKilogram": 44,
@@ -23446,6 +25454,67 @@
           "luminousFluxLumen": 46500,
           "manualUrl": "https://www.martin.com/en/products/mac-ultra-performance",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-ultra-performance"
+        },
+        {
+          "type": "Profile",
+          "name": "MAC Viper Performance",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 37.9,
+          "powerWatt": 1186,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.fullcompass.com/prod/545673-martin-pro-mac-viper-perform-mac-viper-performance-26000-lumen-moving-head-fixture",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "MAC Viper Profile",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 34
+            }
+          ],
+          "weightKilogram": 37.2,
+          "powerWatt": 1186,
+          "luminousFluxLumen": 26000,
+          "manualUrl": "https://pssl.com/products/martin-mac-viper-profile-moving-head-with-2-unit-flightcase",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "MAC Viper XIP",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 54
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 64
+            },
+            {
+              "name": "Ludicrous",
+              "dmxChannels": 70
+            }
+          ],
+          "weightKilogram": 37,
+          "powerWatt": 1040,
+          "luminousFluxLumen": 28000,
+          "manualUrl": "https://soundpro.com/products/martin-lighting-mar-90250300hu",
+          "dmxChartUrl": ""
         },
         {
           "type": "Spot",
@@ -23613,6 +25682,21 @@
         },
         {
           "type": "Wash",
+          "name": "ERA 150 Wash",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 3900,
+          "manualUrl": "https://fullcompass.com/prod/610156-martin-pro-era-150-wash-moving-head-led-wash-fixture-with-zoom",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
           "name": "MAC 2000 Wash",
           "modes": [
             {
@@ -23712,26 +25796,53 @@
           "modes": [
             {
               "name": "Basic",
-              "dmxChannels": 32
+              "dmxChannels": 36
+            },
+            {
+              "name": "Compact",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Compact Direct",
+              "dmxChannels": 20
             },
             {
               "name": "Extended",
-              "dmxChannels": 89
+              "dmxChannels": 57
             },
             {
               "name": "Ludicrous",
-              "dmxChannels": 111
+              "dmxChannels": 93
             },
             {
-              "name": "Standard",
-              "dmxChannels": 20
+              "name": "XB Extended",
+              "dmxChannels": 25
+            },
+            {
+              "name": "XB Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 8.95,
+          "powerWatt": 340,
+          "luminousFluxLumen": 6000,
+          "manualUrl": "https://soundpro.com/products/martinligh-mar-90250100hu-mac-aura-xip-in-cardboard",
+          "dmxChartUrl": "https://www.martin.com/en/products/mac-aura-xip"
+        },
+        {
+          "type": "Wash",
+          "name": "MAC Encore Wash CLD",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 24
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 340,
-          "luminousFluxLumen": 6000,
-          "manualUrl": "https://www.martin.com/en/products/mac-aura-xip",
-          "dmxChartUrl": "https://www.martin.com/en/products/mac-aura-xip"
+          "powerWatt": 0,
+          "luminousFluxLumen": 11000,
+          "manualUrl": "https://soundpro.com/products/martin-lighting-90234050hu",
+          "dmxChartUrl": ""
         },
         {
           "type": "Wash",
@@ -23768,6 +25879,59 @@
           "dmxChartUrl": "https://www.martin.com/en/products/mac-quantum-wash"
         },
         {
+          "type": "Wash",
+          "name": "MAC Ultra Wash",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 29
+            }
+          ],
+          "weightKilogram": 39,
+          "powerWatt": 1150,
+          "luminousFluxLumen": 63500,
+          "manualUrl": "https://soundpro.com/products/martin-lighting-90250090hu",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "MAC Viper Wash",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 33,
+          "powerWatt": 0,
+          "luminousFluxLumen": 33000,
+          "manualUrl": "https://www.usedlighting.com/61899/martin-mac-viper-wash-pkg-of-2-",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "MAC Viper Wash DX",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 34.1,
+          "powerWatt": 0,
+          "luminousFluxLumen": 33000,
+          "manualUrl": "https://www.pssl.com/products/martin-mac-viper-wash-dx-high-output-wash-with-2-unit-flightcase",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Wash FX",
           "name": "MAC Aura PXL",
           "modes": [
@@ -23796,6 +25960,41 @@
         },
         {
           "type": "Wash FX",
+          "name": "MAC Aura Raven XIP",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 38
+            },
+            {
+              "name": "Compact",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Compact Direct",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 149
+            },
+            {
+              "name": "Ludicrous",
+              "dmxChannels": 266
+            },
+            {
+              "name": "Plaid",
+              "dmxChannels": 851
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1120,
+          "luminousFluxLumen": 27000,
+          "manualUrl": "https://soundpro.com/products/martin-lighting-mar-90250405hu",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash FX",
           "name": "MAC III AirFX",
           "modes": [
             {
@@ -23812,6 +26011,25 @@
           "luminousFluxLumen": 43000,
           "manualUrl": "https://www.martin.com/en/products/mac-iii-airfx",
           "dmxChartUrl": "https://www.martin.com/en/products/mac-iii-airfx"
+        },
+        {
+          "type": "Wash FX",
+          "name": "MAC Viper AirFX",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 35000,
+          "manualUrl": "https://www.fullcompass.com/prod/262936-martin-professional-mac-viper-airfx-moving-head-beamlight",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -25705,6 +27923,25 @@
           "dmxChartUrl": "Robin_T.5_Profile_DMX_charts.pdf"
         },
         {
+          "type": "Beam",
+          "name": "Spikie",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://pssl.com/products/robe-spikie-rgbw-led-beam-moving-light-set-of-8",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Beam Spot",
           "name": "Giga Pointe",
           "modes": [
@@ -25722,6 +27959,70 @@
           "luminousFluxLumen": 23400,
           "manualUrl": "User_manual_Robin_GigaPointe.pdf",
           "dmxChartUrl": "Robin_GigaPointe_DMX_charts.pdf"
+        },
+        {
+          "type": "Beam Wash",
+          "name": "BMFL WashBeam",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 48
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 41
+            }
+          ],
+          "weightKilogram": 38.4,
+          "powerWatt": 2000,
+          "luminousFluxLumen": 41000,
+          "manualUrl": "https://www.robe.cz/api/robe/pdfs/en/product/650",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Beam Wash",
+          "name": "iFORTE LTX FS",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 54
+            }
+          ],
+          "weightKilogram": 49,
+          "powerWatt": 1250,
+          "luminousFluxLumen": 55000,
+          "manualUrl": "https://robe.cz/api/robe/pdfs/en/product/5617",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Beam Wash",
+          "name": "iFORTE LTX WB",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 54
+            }
+          ],
+          "weightKilogram": 49,
+          "powerWatt": 1250,
+          "luminousFluxLumen": 55000,
+          "manualUrl": "https://robe.cz/api/robe/pdfs/en/product/5442",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Beam Wash",
+          "name": "iPAINTE LTM WB",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 51
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 750,
+          "luminousFluxLumen": 23000,
+          "manualUrl": "https://www.robe.cz/ipainte-ltm-wb",
+          "dmxChartUrl": ""
         },
         {
           "type": "BWS",
@@ -25833,6 +28134,67 @@
           "luminousFluxLumen": 0,
           "manualUrl": "User_manual_PATT_Driver.pdf",
           "dmxChartUrl": "PATT_Driver_DMX_charts (1).pdf"
+        },
+        {
+          "type": "Follow spot",
+          "name": "BMFL FollowSpot LT",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 2000,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://manuals.plus/m/8b708ad8c74ee39a870dbf806abea2c6d7bb50996b53ff82033ddba8b4d6a86d_pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "iESPRITE Fresnel",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 30
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.artlighting.cz/www/upload/131859c6/20260226105944728.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Fresnel",
+          "name": "iFORTE Fresnel",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 35
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1250,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.artlighting.cz/www/upload/131859c6/20260226094226333.pdf",
+          "dmxChartUrl": ""
         },
         {
           "type": "Fresnel",
@@ -26346,16 +28708,32 @@
           "name": "iESPRITE",
           "modes": [
             {
+              "name": "Mode 1",
+              "dmxChannels": 49
+            },
+            {
               "name": "Mode 1 - Standard 16-bit",
               "dmxChannels": 49
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 42
             },
             {
               "name": "Mode 2 - Reduced 8-bit",
               "dmxChannels": 42
             },
             {
+              "name": "Mode 3",
+              "dmxChannels": 50
+            },
+            {
               "name": "Mode 3 - Standard 16-bit + green correction",
               "dmxChannels": 50
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 43
             },
             {
               "name": "Mode 4 - Reduce 8 bit + green correction",
@@ -26371,6 +28749,25 @@
           "luminousFluxLumen": 34000,
           "manualUrl": "User_manual_Robin_iEsprite_iEsprite_FS_CE.pdf",
           "dmxChartUrl": "Robin_iEsprite_iEsprite_FS_DMX_charts.pdf"
+        },
+        {
+          "type": "Profile",
+          "name": "iFORTE",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 54
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 56
+            }
+          ],
+          "weightKilogram": 42.5,
+          "powerWatt": 1250,
+          "luminousFluxLumen": 50000,
+          "manualUrl": "https://old.robe.cz/api/robe/pdfs/en/product/5260",
+          "dmxChartUrl": ""
         },
         {
           "type": "Profile",
@@ -26685,6 +29082,212 @@
           "dmxChartUrl": "Robin_T.5_Profile_DMX_charts.pdf"
         },
         {
+          "type": "Static profile light",
+          "name": "T10 Profile",
+          "modes": [
+            {
+              "name": "Mode 1 - 16-bit CMY/RGB",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Mode 2 - 8-bit CMY/RGB",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 3 - 16-bit RGBAL",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 4 - White light + dimmer",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 5 - Dimmer only",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Mode 6 - 16-bit CMY/RGB + gobos/iris",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 7 - 8-bit CMY/RGB + gobos/iris",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Mode 8 - 16-bit RGBAL + gobos/iris",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 275,
+          "luminousFluxLumen": 8300,
+          "manualUrl": "https://www.robe.cz/t10-profile",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Static profile light",
+          "name": "T11 Profile",
+          "modes": [
+            {
+              "name": "Mode 1 - 16-bit CMY/RGB",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Mode 2 - 8-bit CMY/RGB",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 3 - 16-bit RGBAL",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Mode 5 - Dimmer only",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Mode 6 - 16-bit CMY/RGB + gobos/iris",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 7 - 8-bit CMY/RGB + gobos/iris",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Mode 8 - 16-bit RGBAL + gobos/iris",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 420,
+          "luminousFluxLumen": 12000,
+          "manualUrl": "https://robe.cz/api/robe/pdfs/en/product/4533",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Arianne 6",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 43
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 50
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 750,
+          "luminousFluxLumen": 18000,
+          "manualUrl": "https://www.robe.cz/arianne-6",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "iBeam 250",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 280,
+          "luminousFluxLumen": 4400,
+          "manualUrl": "https://www.robe.cz/api/robe/pdfs/en/product/4921",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "iBeam 350",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 450,
+          "luminousFluxLumen": 7800,
+          "manualUrl": "https://www.robe.cz/ibeam-350",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "iSpiiderX",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 49
+            },
+            {
+              "name": "Mode 10",
+              "dmxChannels": 123
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 90
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 47
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 91
+            },
+            {
+              "name": "Mode 8",
+              "dmxChannels": 110
+            },
+            {
+              "name": "Mode 9",
+              "dmxChannels": 104
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 13100,
+          "manualUrl": "https://www.artlighting.cz/www/upload/131859c6/20260226103645698.pdf",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Wash",
           "name": "LedBeam 150",
           "modes": [
@@ -26725,6 +29328,80 @@
           "luminousFluxLumen": 8200,
           "manualUrl": "User_manual_Robin_LEDBeam_350_FW_EP_FWEP.pdf",
           "dmxChartUrl": "Robin_LedBeam_350_Robin_LEDBeam_350_FW_DMX_charts.pdf"
+        },
+        {
+          "type": "Wash",
+          "name": "LEDBeam 400",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 50
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 550,
+          "luminousFluxLumen": 12500,
+          "manualUrl": "https://www.robe.cz/ledbeam-400",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Spiider",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 49
+            },
+            {
+              "name": "Mode 10",
+              "dmxChannels": 123
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 90
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 47
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 91
+            },
+            {
+              "name": "Mode 8",
+              "dmxChannels": 110
+            },
+            {
+              "name": "Mode 9",
+              "dmxChannels": 104
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 600,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/pdfs/product/667",
+          "dmxChartUrl": ""
         },
         {
           "type": "Wash and effect light",
@@ -32595,5 +35272,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-09-16T00:34:20.082Z"
+  "updatedAt": "2026-11-06T10:54:17.409Z"
 }
