@@ -149,139 +149,6 @@
       "name": "ACME",
       "products": [
         {
-          "type": "AECO 15",
-          "name": "Moving Head Profile LED H-CRI compact",
-          "modes": [
-            {
-              "name": "Extended 28ch",
-              "dmxChannels": 28
-            },
-            {
-              "name": "Standard 18ch",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/AECO-15",
-          "dmxChartUrl": "https://en.acmelighting.com/item/AECO-15"
-        },
-        {
-          "type": "AECO 20",
-          "name": "Moving Head Profile LED H-CRI moyen format",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/AECO-20",
-          "dmxChartUrl": "https://en.acmelighting.com/item/AECO-20"
-        },
-        {
-          "type": "AECO 30 IP",
-          "name": "Moving Head Profile LED H-CRI IP65 haute pr?cision",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/AECO-30-IP",
-          "dmxChartUrl": "https://en.acmelighting.com/item/AECO-30-IP"
-        },
-        {
-          "type": "AECO 5",
-          "name": "Moving Head Profile LED H-CRI mini",
-          "modes": [
-            {
-              "name": "Extended 18ch",
-              "dmxChannels": 18
-            },
-            {
-              "name": "Standard 14ch",
-              "dmxChannels": 14
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/AECO-5",
-          "dmxChartUrl": "https://en.acmelighting.com/item/AECO-5"
-        },
-        {
-          "type": "ARES",
-          "name": "Moving Head Beam Discharge 230W 7R",
-          "modes": [
-            {
-              "name": "14ch",
-              "dmxChannels": 14
-            },
-            {
-              "name": "16ch",
-              "dmxChannels": 16
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 230,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/ARES",
-          "dmxChartUrl": "https://en.acmelighting.com/item/ARES"
-        },
-        {
-          "type": "ARES IP",
-          "name": "Moving Head Beam IP66 Discharge 230W 7R",
-          "modes": [
-            {
-              "name": "14ch",
-              "dmxChannels": 14
-            },
-            {
-              "name": "16ch",
-              "dmxChannels": 16
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 230,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/ARES-IP",
-          "dmxChartUrl": "https://en.acmelighting.com/item/ARES-IP"
-        },
-        {
-          "type": "AUTOLUX",
-          "name": "Moving Head Wash LED blanc (nouveau)",
-          "modes": [
-            {
-              "name": "Extended 34ch",
-              "dmxChannels": 34
-            },
-            {
-              "name": "Standard 24ch",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/AUTOLUX",
-          "dmxChartUrl": "https://en.acmelighting.com/item/AUTOLUX"
-        },
-        {
           "type": "Barre effet beam/strobe compacte",
           "name": "Gemini",
           "modes": [
@@ -321,553 +188,206 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "BEAMONE",
-          "name": "Moving Head Beam Discharge compact",
+          "type": "Beam",
+          "name": "GEIST BEAM",
           "modes": [
             {
-              "name": "14ch",
-              "dmxChannels": 14
+              "name": "17-channel",
+              "dmxChannels": 17
             },
             {
-              "name": "16ch",
-              "dmxChannels": 16
+              "name": "24-channel",
+              "dmxChannels": 24
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/BEAMONE",
-          "dmxChartUrl": "https://en.acmelighting.com/item/BEAMONE"
+          "luminousFluxLumen": 13600,
+          "manualUrl": "https://en.acmelighting.com/item/GEIST-BEAM",
+          "dmxChartUrl": "https://en.acmelighting.com/item/GEIST-BEAM"
         },
         {
-          "type": "BLINDER LINE 10 IP",
-          "name": "LED Bar Blinder/Strobe IP66 10x150W RGBAW + frost",
+          "type": "LED Bar",
+          "name": "PIXEL LINE IP",
           "modes": [
             {
-              "name": "Basic 12ch",
-              "dmxChannels": 12
+              "name": "112-channel",
+              "dmxChannels": 112
             },
             {
-              "name": "Full 80ch",
-              "dmxChannels": 80
+              "name": "117-channel",
+              "dmxChannels": 117
             },
             {
-              "name": "Pixel 62ch",
+              "name": "15-channel",
+              "dmxChannels": 15
+            },
+            {
+              "name": "17-channel",
+              "dmxChannels": 17
+            },
+            {
+              "name": "21-channel",
+              "dmxChannels": 21
+            },
+            {
+              "name": "33-channel",
+              "dmxChannels": 33
+            },
+            {
+              "name": "35-channel",
+              "dmxChannels": 35
+            },
+            {
+              "name": "38-channel",
+              "dmxChannels": 38
+            },
+            {
+              "name": "39-channel",
+              "dmxChannels": 39
+            },
+            {
+              "name": "7-channel",
+              "dmxChannels": 7
+            },
+            {
+              "name": "70-channel",
+              "dmxChannels": 70
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 420,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/",
+          "dmxChartUrl": "https://en.acmelighting.com/"
+        },
+        {
+          "type": "LED Bar",
+          "name": "PIXEL LINE IP 500",
+          "modes": [
+            {
+              "name": "10-channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "16-channel",
+              "dmxChannels": 16
+            },
+            {
+              "name": "18-channel",
+              "dmxChannels": 18
+            },
+            {
+              "name": "22-channel",
+              "dmxChannels": 22
+            },
+            {
+              "name": "26-channel",
+              "dmxChannels": 26
+            },
+            {
+              "name": "34-channel",
+              "dmxChannels": 34
+            },
+            {
+              "name": "37-channel",
+              "dmxChannels": 37
+            },
+            {
+              "name": "39-channel",
+              "dmxChannels": 39
+            },
+            {
+              "name": "56-channel",
+              "dmxChannels": 56
+            },
+            {
+              "name": "62-channel",
               "dmxChannels": 62
             },
             {
-              "name": "Standard 24ch",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/BLINDER-LINE-10-IP",
-          "dmxChartUrl": "https://en.acmelighting.com/item/BLINDER-LINE-10-IP"
-        },
-        {
-          "type": "BLINDER LINE 5 IP",
-          "name": "LED Bar Blinder/Strobe IP66 5x150W RGBAW + frost",
-          "modes": [
-            {
-              "name": "Basic 12ch",
-              "dmxChannels": 12
-            },
-            {
-              "name": "Pixel 37ch",
-              "dmxChannels": 37
-            },
-            {
-              "name": "Standard 24ch",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/BLINDER-LINE-5-IP",
-          "dmxChartUrl": "https://en.acmelighting.com/item/BLINDER-LINE-5-IP"
-        },
-        {
-          "type": "COMET",
-          "name": "Poursuite LED Follow Spot (statique sur tr?pied)",
-          "modes": [
-            {
-              "name": "DMX 6ch",
-              "dmxChannels": 6
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/COMET",
-          "dmxChartUrl": "https://en.acmelighting.com/item/COMET"
-        },
-        {
-          "type": "COOLIE 186",
-          "name": "PAR/Flood LED IP66 186 LEDs RGBW",
-          "modes": [
-            {
-              "name": "14ch Full",
-              "dmxChannels": 14
-            },
-            {
-              "name": "4ch RGBW",
-              "dmxChannels": 4
-            },
-            {
-              "name": "8ch 16bit",
+              "name": "8-channel",
               "dmxChannels": 8
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/COOLIE-186",
-          "dmxChartUrl": "https://en.acmelighting.com/item/COOLIE-186"
+          "manualUrl": "https://en.acmelighting.com/",
+          "dmxChartUrl": "https://en.acmelighting.com/"
         },
         {
-          "type": "CYCLONE",
-          "name": "Effect Moving Head LED 150W RGBL Beam+Wash+FX + pixel ring",
+          "type": "Moving Head",
+          "name": "GEIST BSWF",
           "modes": [
             {
-              "name": "Extended 37ch",
-              "dmxChannels": 37
+              "name": "25-channel",
+              "dmxChannels": 25
             },
             {
-              "name": "Pixel 55ch",
-              "dmxChannels": 55
+              "name": "29-channel",
+              "dmxChannels": 29
             },
             {
-              "name": "Standard 24ch",
-              "dmxChannels": 24
+              "name": "34-channel",
+              "dmxChannels": 34
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
-          "luminousFluxLumen": 3600,
-          "manualUrl": "https://en.acmelighting.com/item/CYCLONE",
-          "dmxChartUrl": "https://en.acmelighting.com/item/CYCLONE"
-        },
-        {
-          "type": "DOTCHAIN 300",
-          "name": "Effect LED dot-chain 300 LEDs pixel",
-          "modes": [
-            {
-              "name": "Full 48ch",
-              "dmxChannels": 48
-            },
-            {
-              "name": "Pixel 24ch",
-              "dmxChannels": 24
-            },
-            {
-              "name": "Standard 8ch",
-              "dmxChannels": 8
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/DOTCHAIN-300",
-          "dmxChartUrl": "https://en.acmelighting.com/item/DOTCHAIN-300"
-        },
-        {
-          "type": "ELLIPSOIDAL 300",
-          "name": "D?coupe LED th??tre H-CRI 300W (Ellipsoidal)",
-          "modes": [
-            {
-              "name": "1ch Dimmer",
-              "dmxChannels": 1
-            },
-            {
-              "name": "2ch",
-              "dmxChannels": 2
-            },
-            {
-              "name": "4ch Full",
-              "dmxChannels": 4
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 300,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=323",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "ELLIPSOIDAL 40",
-          "name": "D?coupe LED th??tre H-CRI 40W (mini)",
-          "modes": [
-            {
-              "name": "1ch Dimmer",
-              "dmxChannels": 1
-            },
-            {
-              "name": "2ch",
-              "dmxChannels": 2
-            },
-            {
-              "name": "4ch Full",
-              "dmxChannels": 4
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 40,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=331",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "FLANDINA 12",
-          "name": "Effect LED multi-dot 12 bras pixel",
-          "modes": [
-            {
-              "name": "Pixel 24ch",
-              "dmxChannels": 24
-            },
-            {
-              "name": "Standard 12ch",
-              "dmxChannels": 12
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/FLANDINA-12",
-          "dmxChartUrl": "https://en.acmelighting.com/item/FLANDINA-12"
-        },
-        {
-          "type": "GEIST BSWF",
-          "name": "Moving Head Hybrid LED blanc BSW+Framing",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
+          "luminousFluxLumen": 20000,
           "manualUrl": "https://en.acmelighting.com/item/GEIST-BSWF",
           "dmxChartUrl": "https://en.acmelighting.com/item/GEIST-BSWF"
         },
         {
-          "type": "GEMINI",
-          "name": "Effect Moving Bar 5x60W RGBW + strobe 36 LED, pan/tilt infini",
+          "type": "Moving Head",
+          "name": "PHOTON HYBRID 500",
           "modes": [
             {
-              "name": "Basic 14ch",
-              "dmxChannels": 14
-            },
-            {
-              "name": "Full 88ch",
-              "dmxChannels": 88
-            },
-            {
-              "name": "Master 97ch",
-              "dmxChannels": 97
-            },
-            {
-              "name": "Pixel 55ch",
-              "dmxChannels": 55
-            },
-            {
-              "name": "Standard 24ch",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 41000,
-          "manualUrl": "https://en.acmelighting.com/item/GEMINI",
-          "dmxChartUrl": "https://en.acmelighting.com/item/GEMINI"
-        },
-        {
-          "type": "HUE 6 IP",
-          "name": "Moving Head Profile IP66 LED 6 couleurs (multispectre)",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 28ch",
+              "name": "28-channel",
               "dmxChannels": 28
+            },
+            {
+              "name": "31-channel",
+              "dmxChannels": 31
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/HUE-6-IP",
-          "dmxChartUrl": "https://en.acmelighting.com/item/HUE-6-IP"
+          "luminousFluxLumen": 16900,
+          "manualUrl": "https://en.acmelighting.com/",
+          "dmxChartUrl": "https://en.acmelighting.com/"
         },
         {
-          "type": "HUELINE 16 IP",
-          "name": "LED Bar IP66 16 LEDs RGBW pixel",
+          "type": "Moving Head",
+          "name": "TORNADO",
           "modes": [
             {
-              "name": "Basic 8ch",
-              "dmxChannels": 8
+              "name": "170-channel",
+              "dmxChannels": 170
             },
             {
-              "name": "Pixel 64ch",
-              "dmxChannels": 64
+              "name": "41-channel",
+              "dmxChannels": 41
             },
             {
-              "name": "Standard 16ch",
-              "dmxChannels": 16
+              "name": "71-channel",
+              "dmxChannels": 71
+            },
+            {
+              "name": "75-channel",
+              "dmxChannels": 75
+            },
+            {
+              "name": "85-channel",
+              "dmxChannels": 85
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/HUELINE-16-IP",
-          "dmxChartUrl": "https://en.acmelighting.com/item/HUELINE-16-IP"
-        },
-        {
-          "type": "HYPERZONE",
-          "name": "Moving Head Wash/Beam IP66 LED 7x150W RGBL",
-          "modes": [
-            {
-              "name": "Extended 34ch",
-              "dmxChannels": 34
-            },
-            {
-              "name": "Pixel 58ch",
-              "dmxChannels": 58
-            },
-            {
-              "name": "Standard 24ch",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/HYPERZONE",
-          "dmxChartUrl": "https://en.acmelighting.com/item/HYPERZONE"
-        },
-        {
-          "type": "LIGHTNING",
-          "name": "Stroboscope/Wash IP66 240x12W RGBW + 30x10W Beam LED Smart Glass",
-          "modes": [
-            {
-              "name": "113ch",
-              "dmxChannels": 113
-            },
-            {
-              "name": "17ch",
-              "dmxChannels": 17
-            },
-            {
-              "name": "1ch",
-              "dmxChannels": 1
-            },
-            {
-              "name": "37ch",
-              "dmxChannels": 37
-            },
-            {
-              "name": "5ch",
-              "dmxChannels": 5
-            },
-            {
-              "name": "65ch",
-              "dmxChannels": 65
-            },
-            {
-              "name": "97ch",
-              "dmxChannels": 97
-            },
-            {
-              "name": "9ch",
-              "dmxChannels": 9
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/LIGHTNING",
-          "dmxChartUrl": "https://en.acmelighting.com/item/LIGHTNING"
-        },
-        {
-          "type": "LIGHTNING X",
-          "name": "Stroboscope/Wash IP66 RGBW + Beam LED Smart Glass (version X)",
-          "modes": [
-            {
-              "name": "113ch",
-              "dmxChannels": 113
-            },
-            {
-              "name": "145ch Full",
-              "dmxChannels": 145
-            },
-            {
-              "name": "17ch",
-              "dmxChannels": 17
-            },
-            {
-              "name": "1ch",
-              "dmxChannels": 1
-            },
-            {
-              "name": "2ch",
-              "dmxChannels": 2
-            },
-            {
-              "name": "37ch",
-              "dmxChannels": 37
-            },
-            {
-              "name": "5ch",
-              "dmxChannels": 5
-            },
-            {
-              "name": "65ch",
-              "dmxChannels": 65
-            },
-            {
-              "name": "97ch Pixel",
-              "dmxChannels": 97
-            },
-            {
-              "name": "9ch",
-              "dmxChannels": 9
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/LIGHTNING-X",
-          "dmxChartUrl": "https://en.acmelighting.com/item/LIGHTNING-X"
-        },
-        {
-          "type": "LINEFORCE 10 IP",
-          "name": "LED Bar Strobe/Wash/FX IP66 10 t?tes zoom",
-          "modes": [
-            {
-              "name": "Basic 14ch",
-              "dmxChannels": 14
-            },
-            {
-              "name": "Pixel 62ch",
-              "dmxChannels": 62
-            },
-            {
-              "name": "Standard 24ch",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/LINEFORCE-10-IP",
-          "dmxChartUrl": "https://en.acmelighting.com/item/LINEFORCE-10-IP"
-        },
-        {
-          "type": "LINEFORCE 5 IP",
-          "name": "LED Bar Strobe/Wash/FX IP66 5 t?tes zoom",
-          "modes": [
-            {
-              "name": "Basic 14ch",
-              "dmxChannels": 14
-            },
-            {
-              "name": "Pixel 37ch",
-              "dmxChannels": 37
-            },
-            {
-              "name": "Standard 24ch",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/LINEFORCE-5-IP",
-          "dmxChartUrl": "https://en.acmelighting.com/item/LINEFORCE-5-IP"
-        },
-        {
-          "type": "LYRA",
-          "name": "Moving Head Profile/Spot IP66 LED 1000W",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 33ch",
-              "dmxChannels": 33
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 1000,
-          "luminousFluxLumen": 35000,
-          "manualUrl": "https://en.acmelighting.com/item/LYRA",
-          "dmxChartUrl": "https://en.acmelighting.com/item/LYRA"
-        },
-        {
-          "type": "LYRA BW",
-          "name": "Moving Head Wash/Beam IP66 LED blanc (version wash de LYRA)",
-          "modes": [
-            {
-              "name": "Extended 38ch",
-              "dmxChannels": 38
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/LYRA-BW",
-          "dmxChartUrl": "https://en.acmelighting.com/item/LYRA-BW"
-        },
-        {
-          "type": "MANA HYBRID",
-          "name": "Moving Head Hybrid IP66 LED 600W BSW+Profile",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 33ch",
-              "dmxChannels": 33
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 600,
-          "luminousFluxLumen": 21000,
-          "manualUrl": "https://en.acmelighting.com/item/MANA-HYBRID",
-          "dmxChartUrl": "https://en.acmelighting.com/item/MANA-HYBRID"
-        },
-        {
-          "type": "MANA PROFILE",
-          "name": "Moving Head Profile IP66 LED 600W",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 33ch",
-              "dmxChannels": 33
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 600,
-          "luminousFluxLumen": 26000,
-          "manualUrl": "https://en.acmelighting.com/item/MANA-PROFILE",
-          "dmxChartUrl": "https://en.acmelighting.com/item/MANA-PROFILE"
+          "weightKilogram": 30,
+          "powerWatt": 935,
+          "luminousFluxLumen": 13000,
+          "manualUrl": "https://en.acmelighting.com/",
+          "dmxChartUrl": "https://en.acmelighting.com/"
         },
         {
           "type": "Moving head hybride beam/wash/strobe/strip",
@@ -901,851 +421,267 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "NEOZONE",
-          "name": "Moving Head Wash LED RGBW",
+          "type": "Profile",
+          "name": "HUE 6 IP",
           "modes": [
             {
-              "name": "Extended 34ch",
-              "dmxChannels": 34
+              "name": "43-channel",
+              "dmxChannels": 43
             },
             {
-              "name": "Standard 24ch",
-              "dmxChannels": 24
+              "name": "45-channel",
+              "dmxChannels": 45
+            },
+            {
+              "name": "46-channel",
+              "dmxChannels": 46
+            },
+            {
+              "name": "50-channel",
+              "dmxChannels": 50
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/NEOZONE",
-          "dmxChartUrl": "https://en.acmelighting.com/item/NEOZONE"
+          "manualUrl": "https://en.acmelighting.com/",
+          "dmxChartUrl": "https://en.acmelighting.com/"
         },
         {
-          "type": "NOVA BEAM",
-          "name": "Moving Head Beam LED blanc",
+          "type": "Profile",
+          "name": "LYRA",
           "modes": [
             {
-              "name": "Extended 24ch",
-              "dmxChannels": 24
+              "name": "22-channel",
+              "dmxChannels": 22
             },
             {
-              "name": "Standard 16ch",
-              "dmxChannels": 16
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/NOVA-BEAM",
-          "dmxChartUrl": "https://en.acmelighting.com/item/NOVA-BEAM"
-        },
-        {
-          "type": "OXYGEN",
-          "name": "Moving Head Wash LED RGBW",
-          "modes": [
-            {
-              "name": "Extended 34ch",
-              "dmxChannels": 34
+              "name": "30-channel",
+              "dmxChannels": 30
             },
             {
-              "name": "Standard 24ch",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/OXYGEN",
-          "dmxChartUrl": "https://en.acmelighting.com/item/OXYGEN"
-        },
-        {
-          "type": "PASODOBLE",
-          "name": "Wash/PAR LED RGBW zoom",
-          "modes": [
-            {
-              "name": "Extended 14ch",
-              "dmxChannels": 14
+              "name": "31-channel",
+              "dmxChannels": 31
             },
             {
-              "name": "Standard 7ch",
-              "dmxChannels": 7
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/PASODOBLE",
-          "dmxChartUrl": "https://en.acmelighting.com/item/PASODOBLE"
-        },
-        {
-          "type": "PHOTON HYBRID 500",
-          "name": "Moving Head Hybrid Laser 500W IP66",
-          "modes": [
+              "name": "39-channel",
+              "dmxChannels": 39
+            },
             {
-              "name": "Extended 40ch",
+              "name": "40-channel",
               "dmxChannels": 40
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/PHOTON-HYBRID-500",
-          "dmxChartUrl": "https://en.acmelighting.com/item/PHOTON-HYBRID-500"
+          "weightKilogram": 42,
+          "powerWatt": 1190,
+          "luminousFluxLumen": 35000,
+          "manualUrl": "https://en.acmelighting.com/item/LYRA",
+          "dmxChartUrl": "https://en.acmelighting.com/item/LYRA"
         },
         {
-          "type": "PIXEL LINE IP",
-          "name": "LED Bar Strobe/Pixel/Wash IP66 Smart Glass 672 RGBW + 112 CW",
+          "type": "Profile",
+          "name": "MANA PROFILE",
           "modes": [
             {
-              "name": "113ch",
-              "dmxChannels": 113
+              "name": "22-channel",
+              "dmxChannels": 22
             },
             {
-              "name": "145ch Full",
-              "dmxChannels": 145
+              "name": "31-channel A",
+              "dmxChannels": 31
             },
             {
-              "name": "17ch",
-              "dmxChannels": 17
+              "name": "31-channel B",
+              "dmxChannels": 31
             },
             {
-              "name": "1ch",
-              "dmxChannels": 1
-            },
-            {
-              "name": "2ch",
-              "dmxChannels": 2
-            },
-            {
-              "name": "37ch",
-              "dmxChannels": 37
-            },
-            {
-              "name": "5ch",
-              "dmxChannels": 5
-            },
-            {
-              "name": "65ch",
-              "dmxChannels": 65
-            },
-            {
-              "name": "97ch Pixel",
-              "dmxChannels": 97
-            },
-            {
-              "name": "9ch",
-              "dmxChannels": 9
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/PIXEL-LINE-IP",
-          "dmxChartUrl": "https://en.acmelighting.com/item/PIXEL-LINE-IP"
-        },
-        {
-          "type": "PIXEL LINE IP 500",
-          "name": "LED Bar Strobe/Pixel/Wash IP66 version 500mm",
-          "modes": [
-            {
-              "name": "17ch",
-              "dmxChannels": 17
-            },
-            {
-              "name": "1ch",
-              "dmxChannels": 1
-            },
-            {
-              "name": "37ch",
-              "dmxChannels": 37
-            },
-            {
-              "name": "5ch",
-              "dmxChannels": 5
-            },
-            {
-              "name": "65ch Pixel",
-              "dmxChannels": 65
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/PIXEL-LINE-IP-500",
-          "dmxChartUrl": "https://en.acmelighting.com/item/PIXEL-LINE-IP-500"
-        },
-        {
-          "type": "PULSAR PLUS S2",
-          "name": "Effect Moving Head LED Beam+Pixel+Strobe (version PLUS)",
-          "modes": [
-            {
-              "name": "Basic 24ch",
-              "dmxChannels": 24
-            },
-            {
-              "name": "Full 97ch",
-              "dmxChannels": 97
-            },
-            {
-              "name": "Pixel 55ch",
-              "dmxChannels": 55
-            },
-            {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/PULSAR-PLUS-S2",
-          "dmxChartUrl": "https://en.acmelighting.com/item/PULSAR-PLUS-S2"
-        },
-        {
-          "type": "PULSAR S2",
-          "name": "Effect Moving Head LED Beam+Pixel+Strobe double t?te",
-          "modes": [
-            {
-              "name": "Basic 24ch",
-              "dmxChannels": 24
-            },
-            {
-              "name": "Full 97ch",
-              "dmxChannels": 97
-            },
-            {
-              "name": "Pixel 55ch",
-              "dmxChannels": 55
-            },
-            {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/PULSAR-S2",
-          "dmxChartUrl": "https://en.acmelighting.com/item/PULSAR-S2"
-        },
-        {
-          "type": "SAGITTA IP",
-          "name": "Moving Head Beam IP66 Discharge compact",
-          "modes": [
-            {
-              "name": "14ch",
-              "dmxChannels": 14
-            },
-            {
-              "name": "16ch",
-              "dmxChannels": 16
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/SAGITTA-IP",
-          "dmxChartUrl": "https://en.acmelighting.com/item/SAGITTA-IP"
-        },
-        {
-          "type": "SANA BEAM",
-          "name": "Moving Head Beam IP66 LED blanc compact",
-          "modes": [
-            {
-              "name": "Extended 24ch",
-              "dmxChannels": 24
-            },
-            {
-              "name": "Standard 16ch",
-              "dmxChannels": 16
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/SANA-BEAM",
-          "dmxChartUrl": "https://en.acmelighting.com/item/SANA-BEAM"
-        },
-        {
-          "type": "SANA PROFILE",
-          "name": "Moving Head Profile/Spot IP66 LED 330W",
-          "modes": [
-            {
-              "name": "Extended 40ch",
+              "name": "40-channel",
               "dmxChannels": 40
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 330,
+          "weightKilogram": 32.5,
+          "powerWatt": 910,
+          "luminousFluxLumen": 26000,
+          "manualUrl": "https://en.acmelighting.com/",
+          "dmxChartUrl": "https://en.acmelighting.com/"
+        },
+        {
+          "type": "Profile",
+          "name": "SANA PROFILE",
+          "modes": [
+            {
+              "name": "27-channel",
+              "dmxChannels": 27
+            },
+            {
+              "name": "36-channel A",
+              "dmxChannels": 36
+            },
+            {
+              "name": "36-channel B",
+              "dmxChannels": 36
+            },
+            {
+              "name": "45-channel",
+              "dmxChannels": 45
+            }
+          ],
+          "weightKilogram": 26,
+          "powerWatt": 0,
           "luminousFluxLumen": 15000,
           "manualUrl": "https://en.acmelighting.com/item/SANA-PROFILE",
           "dmxChartUrl": "https://en.acmelighting.com/item/SANA-PROFILE"
         },
         {
-          "type": "SANDANE FROST",
-          "name": "PAR/Flood LED IP66 55x6W RGBL avec Electronic Frost",
+          "type": "Profile",
+          "name": "SUPERNOVA",
           "modes": [
             {
-              "name": "14ch Full",
-              "dmxChannels": 14
+              "name": "23-channel",
+              "dmxChannels": 23
             },
             {
-              "name": "4ch RGBL",
-              "dmxChannels": 4
+              "name": "32-channel",
+              "dmxChannels": 32
             },
             {
-              "name": "8ch 16bit",
-              "dmxChannels": 8
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 330,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/SANDANE-FROST",
-          "dmxChartUrl": "https://en.acmelighting.com/item/SANDANE-FROST"
-        },
-        {
-          "type": "SKYTRK",
-          "name": "Moving Head Beam Laser IP66",
-          "modes": [
-            {
-              "name": "Extended 24ch",
-              "dmxChannels": 24
+              "name": "34-channel",
+              "dmxChannels": 34
             },
             {
-              "name": "Standard 16ch",
-              "dmxChannels": 16
+              "name": "43-channel",
+              "dmxChannels": 43
             }
           ],
           "weightKilogram": 0,
           "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/SKYTRK",
-          "dmxChartUrl": "https://en.acmelighting.com/item/SKYTRK"
-        },
-        {
-          "type": "SNOWSTORM",
-          "name": "Effect Moving Spider/Multi-Beam LED",
-          "modes": [
-            {
-              "name": "Extended 37ch",
-              "dmxChannels": 37
-            },
-            {
-              "name": "Standard 24ch",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/SNOWSTORM",
-          "dmxChartUrl": "https://en.acmelighting.com/item/SNOWSTORM"
-        },
-        {
-          "type": "SOLAR WIND",
-          "name": "Moving Head Hybrid LED 500W BSW",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 500,
-          "luminousFluxLumen": 16000,
-          "manualUrl": "https://en.acmelighting.com/item/SOLAR-WIND",
-          "dmxChartUrl": "https://en.acmelighting.com/item/SOLAR-WIND"
-        },
-        {
-          "type": "STAGE PAR 100 IP",
-          "name": "PAR LED IP65 100W RGBW compact",
-          "modes": [
-            {
-              "name": "4ch RGBW",
-              "dmxChannels": 4
-            },
-            {
-              "name": "8ch 16bit",
-              "dmxChannels": 8
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 100,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=328",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "STAGE PAR 400 ZOOM IP",
-          "name": "PAR LED IP65 RGBW zoom motoris? 400W",
-          "modes": [
-            {
-              "name": "Extended 14ch",
-              "dmxChannels": 14
-            },
-            {
-              "name": "Pixel 28ch",
-              "dmxChannels": 28
-            },
-            {
-              "name": "Standard 7ch",
-              "dmxChannels": 7
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/STAGE-PAR-400-ZOOM-IP",
-          "dmxChartUrl": "https://en.acmelighting.com/item/STAGE-PAR-400-ZOOM-IP"
-        },
-        {
-          "type": "SUPER DOTLINE",
-          "name": "Effect Bar LED Beam+Strobe+Wash (10x60W RGBW + pixels)",
-          "modes": [
-            {
-              "name": "Basic 16ch",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Full 88ch",
-              "dmxChannels": 88
-            },
-            {
-              "name": "Pixel 55ch",
-              "dmxChannels": 55
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 23000,
-          "manualUrl": "https://en.acmelighting.com/item/SUPER-DOTLINE",
-          "dmxChartUrl": "https://en.acmelighting.com/item/SUPER-DOTLINE"
-        },
-        {
-          "type": "SUPERNOVA",
-          "name": "Moving Head Profile/Spot IP66 LED 1800W",
-          "modes": [
-            {
-              "name": "Extended 50ch",
-              "dmxChannels": 50
-            },
-            {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 1800,
           "luminousFluxLumen": 65000,
           "manualUrl": "https://en.acmelighting.com/item/SUPERNOVA",
           "dmxChartUrl": "https://en.acmelighting.com/item/SUPERNOVA"
         },
         {
-          "type": "SUPERNOVA LT",
-          "name": "Moving Head Profile/Spot IP66 LED 1800W LT",
+          "type": "Profile",
+          "name": "SUPERNOVA LT",
           "modes": [
             {
-              "name": "Extended 50ch",
-              "dmxChannels": 50
+              "name": "23-channel",
+              "dmxChannels": 23
             },
             {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
+              "name": "32-channel",
+              "dmxChannels": 32
+            },
+            {
+              "name": "34-channel",
+              "dmxChannels": 34
+            },
+            {
+              "name": "43-channel",
+              "dmxChannels": 43
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 1800,
+          "weightKilogram": 64.5,
+          "powerWatt": 0,
           "luminousFluxLumen": 70000,
           "manualUrl": "https://en.acmelighting.com/item/SUPERNOVA-LT",
           "dmxChartUrl": "https://en.acmelighting.com/item/SUPERNOVA-LT"
         },
         {
-          "type": "TANGO",
-          "name": "Wash/PAR LED RGBW compact",
+          "type": "Strobe",
+          "name": "LIGHTNING",
           "modes": [
             {
-              "name": "4ch RGBW",
-              "dmxChannels": 4
+              "name": "10-channel",
+              "dmxChannels": 10
             },
             {
-              "name": "7ch",
-              "dmxChannels": 7
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/TANGO",
-          "dmxChartUrl": "https://en.acmelighting.com/item/TANGO"
-        },
-        {
-          "type": "THEATRE SPOT 300",
-          "name": "Fresnel/PC LED th??tre H-CRI 300W",
-          "modes": [
-            {
-              "name": "1ch Dimmer",
-              "dmxChannels": 1
+              "name": "150-channel",
+              "dmxChannels": 150
             },
             {
-              "name": "2ch CCT",
-              "dmxChannels": 2
+              "name": "158-channel",
+              "dmxChannels": 158
             },
             {
-              "name": "4ch Full",
-              "dmxChannels": 4
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 300,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=322",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "THEATRE SPOT 500",
-          "name": "Fresnel/PC LED th??tre H-CRI 500W",
-          "modes": [
-            {
-              "name": "1ch Dimmer",
-              "dmxChannels": 1
-            },
-            {
-              "name": "2ch CCT",
-              "dmxChannels": 2
-            },
-            {
-              "name": "4ch Full",
-              "dmxChannels": 4
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 500,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=325",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "THETA",
-          "name": "Moving Head Wash/Beam/FX LED (200W blanc + 30x40W RGBW)",
-          "modes": [
-            {
-              "name": "Basic 17ch",
+              "name": "17-channel",
               "dmxChannels": 17
             },
             {
-              "name": "Extended 55ch",
-              "dmxChannels": 55
+              "name": "21-channel",
+              "dmxChannels": 21
             },
             {
-              "name": "Pixel 113ch",
-              "dmxChannels": 113
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/THETA",
-          "dmxChartUrl": "https://en.acmelighting.com/item/THETA"
-        },
-        {
-          "type": "THUNDER IP",
-          "name": "Stroboscope LED IP (1188x0.8W RGBW SMD)",
-          "modes": [
-            {
-              "name": "18ch",
-              "dmxChannels": 18
-            },
-            {
-              "name": "1ch",
-              "dmxChannels": 1
-            },
-            {
-              "name": "36ch Pixel",
-              "dmxChannels": 36
-            },
-            {
-              "name": "3ch",
-              "dmxChannels": 3
-            },
-            {
-              "name": "8ch",
-              "dmxChannels": 8
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/THUNDER-IP",
-          "dmxChartUrl": "https://en.acmelighting.com/item/THUNDER-IP"
-        },
-        {
-          "type": "THUNDERBOLT",
-          "name": "Stroboscope/Blinder LED IP66 RGBW puissant",
-          "modes": [
-            {
-              "name": "16ch",
-              "dmxChannels": 16
-            },
-            {
-              "name": "1ch",
-              "dmxChannels": 1
-            },
-            {
-              "name": "36ch Pixel",
-              "dmxChannels": 36
-            },
-            {
-              "name": "4ch",
-              "dmxChannels": 4
-            },
-            {
-              "name": "8ch",
-              "dmxChannels": 8
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/THUNDERBOLT",
-          "dmxChartUrl": "https://en.acmelighting.com/item/THUNDERBOLT"
-        },
-        {
-          "type": "TORNADO",
-          "name": "Effect Moving Multi-Beam IP66 5x120W LED + pixels",
-          "modes": [
-            {
-              "name": "Basic 22ch",
-              "dmxChannels": 22
-            },
-            {
-              "name": "Pixel 97ch",
-              "dmxChannels": 97
-            },
-            {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 20000,
-          "manualUrl": "https://en.acmelighting.com/item/TORNADO",
-          "dmxChartUrl": "https://en.acmelighting.com/item/TORNADO"
-        },
-        {
-          "type": "TV LIGHT PANEL 1000",
-          "name": "Panel LED TV/Studio bicolor 1000W",
-          "modes": [
-            {
-              "name": "1ch Dimmer",
-              "dmxChannels": 1
-            },
-            {
-              "name": "2ch CCT",
-              "dmxChannels": 2
-            },
-            {
-              "name": "4ch 16bit",
-              "dmxChannels": 4
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 1000,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=327",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "TV LIGHT PANEL 2000",
-          "name": "Panel LED TV/Studio bicolor 2000W",
-          "modes": [
-            {
-              "name": "1ch Dimmer",
-              "dmxChannels": 1
-            },
-            {
-              "name": "2ch CCT",
-              "dmxChannels": 2
-            },
-            {
-              "name": "4ch 16bit",
-              "dmxChannels": 4
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 2000,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/cms/xilie/list?xilie=326",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "TV LIGHT PANEL 3000",
-          "name": "Panel LED TV/Studio bicolor 3000W",
-          "modes": [
-            {
-              "name": "1ch Dimmer",
-              "dmxChannels": 1
-            },
-            {
-              "name": "2ch CCT",
-              "dmxChannels": 2
-            },
-            {
-              "name": "4ch 16bit",
-              "dmxChannels": 4
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 3000,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/TV-LIGHT-PANEL-3000",
-          "dmxChartUrl": "https://en.acmelighting.com/item/TV-LIGHT-PANEL-3000"
-        },
-        {
-          "type": "ULTRA BLINDER IP",
-          "name": "Blinder LED IP66 RGBW puissant",
-          "modes": [
-            {
-              "name": "16ch Pixel",
-              "dmxChannels": 16
-            },
-            {
-              "name": "4ch RGBW",
-              "dmxChannels": 4
-            },
-            {
-              "name": "8ch",
-              "dmxChannels": 8
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/ULTRA-BLINDER-IP",
-          "dmxChartUrl": "https://en.acmelighting.com/item/ULTRA-BLINDER-IP"
-        },
-        {
-          "type": "ULTRA PAR IP",
-          "name": "PAR/Wash LED IP65 RGBAW ultra compact",
-          "modes": [
-            {
-              "name": "5ch RGBAW",
-              "dmxChannels": 5
-            },
-            {
-              "name": "9ch 16bit",
-              "dmxChannels": 9
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/ULTRA-PAR-IP",
-          "dmxChartUrl": "https://en.acmelighting.com/item/ULTRA-PAR-IP"
-        },
-        {
-          "type": "VOLTKA",
-          "name": "Stroboscope LED RGBW compact",
-          "modes": [
-            {
-              "name": "18ch",
-              "dmxChannels": 18
-            },
-            {
-              "name": "1ch",
-              "dmxChannels": 1
-            },
-            {
-              "name": "3ch",
-              "dmxChannels": 3
-            },
-            {
-              "name": "8ch",
-              "dmxChannels": 8
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/VOLTKA",
-          "dmxChartUrl": "https://en.acmelighting.com/item/VOLTKA"
-        },
-        {
-          "type": "WILLOW 200",
-          "name": "Moving Head Hybrid LED 150W BSW compact",
-          "modes": [
-            {
-              "name": "Extended 28ch",
-              "dmxChannels": 28
-            },
-            {
-              "name": "Standard 18ch",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 150,
-          "luminousFluxLumen": 8000,
-          "manualUrl": "https://en.acmelighting.com/item/WILLOW-200",
-          "dmxChartUrl": "https://en.acmelighting.com/item/WILLOW-200"
-        },
-        {
-          "type": "WILLOW 500",
-          "name": "Moving Head Hybrid LED 500W BSW",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 500,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://en.acmelighting.com/item/WILLOW-500",
-          "dmxChartUrl": "https://en.acmelighting.com/item/WILLOW-500"
-        },
-        {
-          "type": "ZEUS",
-          "name": "Moving Head Hybrid IP66 Discharge Philips MSD 420W",
-          "modes": [
-            {
-              "name": "Extended 33ch",
-              "dmxChannels": 33
-            },
-            {
-              "name": "Standard 24ch",
+              "name": "24-channel",
               "dmxChannels": 24
+            },
+            {
+              "name": "26-channel",
+              "dmxChannels": 26
+            },
+            {
+              "name": "36-channel",
+              "dmxChannels": 36
+            },
+            {
+              "name": "41-channel",
+              "dmxChannels": 41
+            },
+            {
+              "name": "61-channel",
+              "dmxChannels": 61
             }
           ],
-          "weightKilogram": 30,
-          "powerWatt": 420,
-          "luminousFluxLumen": 13800,
-          "manualUrl": "https://en.acmelighting.com/item/ZEUS",
-          "dmxChartUrl": "https://en.acmelighting.com/item/ZEUS"
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/",
+          "dmxChartUrl": "https://en.acmelighting.com/"
+        },
+        {
+          "type": "Wash",
+          "name": "HYPERZONE",
+          "modes": [
+            {
+              "name": "19-channel",
+              "dmxChannels": 19
+            },
+            {
+              "name": "20-channel",
+              "dmxChannels": 20
+            },
+            {
+              "name": "41-channel",
+              "dmxChannels": 41
+            },
+            {
+              "name": "42-channel",
+              "dmxChannels": 42
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/",
+          "dmxChartUrl": "https://en.acmelighting.com/"
+        },
+        {
+          "type": "Wash",
+          "name": "LYRA BW",
+          "modes": [
+            {
+              "name": "18-channel",
+              "dmxChannels": 18
+            },
+            {
+              "name": "30-channel",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 42.5,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://en.acmelighting.com/item/LYRA-BW",
+          "dmxChartUrl": "https://en.acmelighting.com/item/LYRA-BW"
         }
       ]
     },
@@ -8143,714 +7079,462 @@
       "name": "Cameo",
       "products": [
         {
-          "type": "Beam Moving Head",
-          "name": "AZOR B1",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 12
-            }
-          ],
-          "weightKilogram": 8,
-          "powerWatt": 120,
-          "luminousFluxLumen": 5000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Beam Moving Head",
-          "name": "AZOR S2",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 14
-            }
-          ],
-          "weightKilogram": 13,
-          "powerWatt": 150,
-          "luminousFluxLumen": 7000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Beam Moving Head",
-          "name": "MOVO BEAM 200",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 16
-            }
-          ],
-          "weightKilogram": 11,
-          "powerWatt": 200,
-          "luminousFluxLumen": 7000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Beam Moving Head",
-          "name": "MOVO BEAM Z100",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 12,
-          "powerWatt": 250,
-          "luminousFluxLumen": 8000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Beam Moving Head",
+          "type": "Beam",
           "name": "OTOS B5",
           "modes": [
             {
-              "name": "Standard",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 16,
-          "powerWatt": 300,
-          "luminousFluxLumen": 12000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Hybrid Moving Head",
-          "name": "OPUS H5",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 30
-            }
-          ],
-          "weightKilogram": 30,
-          "powerWatt": 600,
-          "luminousFluxLumen": 22000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Hybrid Moving Head",
-          "name": "ORON H2",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 32,
-          "powerWatt": 550,
-          "luminousFluxLumen": 19000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Hybrid Moving Head",
-          "name": "OTOS H5",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 26
-            }
-          ],
-          "weightKilogram": 28,
-          "powerWatt": 480,
-          "luminousFluxLumen": 19000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "LED Bar",
-          "name": "Pixbar 600 Pro",
-          "modes": [
-            {
-              "name": "Full Mode",
-              "dmxChannels": 78
+              "name": "17-channel Basic",
+              "dmxChannels": 17
             },
             {
-              "name": "RGB Mode",
-              "dmxChannels": 36
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 2
-            }
-          ],
-          "weightKilogram": 6,
-          "powerWatt": 160,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.cameolight.com/pixbar-600-pro",
-          "dmxChartUrl": "https://www.cameolight.com/pixbar-600-pro"
-        },
-        {
-          "type": "LED Spot Moving Head",
-          "name": "AURO SPOT 200",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 16
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 180,
-          "luminousFluxLumen": 6000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "LED Spot Moving Head",
-          "name": "AURO SPOT Z300",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 200,
-          "luminousFluxLumen": 8000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Moving Head",
-          "name": "Auro Beam 150",
-          "modes": [
-            {
-              "name": "Extended",
+              "name": "19-channel Standard",
               "dmxChannels": 19
             },
             {
-              "name": "Standard",
-              "dmxChannels": 13
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 130,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.cameolight.com/auro-beam-150",
-          "dmxChartUrl": "https://www.cameolight.com/auro-beam-150"
-        },
-        {
-          "type": "Moving Head",
-          "name": "Azur W600",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 31
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 15
-            }
-          ],
-          "weightKilogram": 21,
-          "powerWatt": 650,
-          "luminousFluxLumen": 21000,
-          "manualUrl": "https://www.cameolight.com/azur-w600",
-          "dmxChartUrl": "https://www.cameolight.com/azur-w600"
-        },
-        {
-          "type": "Moving Head",
-          "name": "Evos W3",
-          "modes": [
-            {
-              "name": "Full Pixel",
-              "dmxChannels": 25
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 7,
-          "powerWatt": 350,
-          "luminousFluxLumen": 4035,
-          "manualUrl": "https://www.cameolight.com/evos-w3",
-          "dmxChartUrl": "https://www.cameolight.com/evos-w3"
-        },
-        {
-          "type": "Moving Head",
-          "name": "Evos W7",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 33
-            },
-            {
-              "name": "Full Pixel",
-              "dmxChannels": 117
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 14
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 900,
-          "luminousFluxLumen": 12500,
-          "manualUrl": "https://www.cameolight.com/evos-w7",
-          "dmxChartUrl": "https://www.cameolight.com/evos-w7"
-        },
-        {
-          "type": "Moving Head",
-          "name": "Opus S5",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 33
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 27
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 600,
-          "luminousFluxLumen": 17500,
-          "manualUrl": "https://www.cameolight.com/opus-s5",
-          "dmxChartUrl": "https://www.cameolight.com/opus-s5"
-        },
-        {
-          "type": "Moving Head",
-          "name": "Otus H25",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 32
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 26
-            }
-          ],
-          "weightKilogram": 9.43,
-          "powerWatt": 800,
-          "luminousFluxLumen": 19000,
-          "manualUrl": "https://www.cameolight.com/otus-h25",
-          "dmxChartUrl": "https://www.cameolight.com/otus-h25"
-        },
-        {
-          "type": "Moving Head",
-          "name": "Otus S25",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 32
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 26
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 800,
-          "luminousFluxLumen": 30000,
-          "manualUrl": "https://www.cameolight.com/otus-s25",
-          "dmxChartUrl": "https://www.cameolight.com/otus-s25"
-        },
-        {
-          "type": "Moving Head",
-          "name": "Zenit B200",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 15
-            }
-          ],
-          "weightKilogram": 12,
-          "powerWatt": 180,
-          "luminousFluxLumen": 6600,
-          "manualUrl": "https://www.cameolight.com/zenit-b200",
-          "dmxChartUrl": "https://www.cameolight.com/zenit-b200"
-        },
-        {
-          "type": "Profile Moving Head",
-          "name": "AZOR SP2",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 18,
-          "powerWatt": 300,
-          "luminousFluxLumen": 12000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Profile Moving Head",
-          "name": "AZOR SP2 IP",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 20,
-          "powerWatt": 300,
-          "luminousFluxLumen": 12000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Profile Moving Head",
-          "name": "OPUS SP5 FC",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 22
-            }
-          ],
-          "weightKilogram": 26,
-          "powerWatt": 500,
-          "luminousFluxLumen": 18000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Profile Moving Head",
-          "name": "OPUS SP5+",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 22
-            }
-          ],
-          "weightKilogram": 26,
-          "powerWatt": 500,
-          "luminousFluxLumen": 18000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Profile Moving Head",
-          "name": "OPUS SP6 FC",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 48
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 28,
-          "powerWatt": 600,
-          "luminousFluxLumen": 20000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Profile Moving Head",
-          "name": "OPUS SP6 IP",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 48
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 30,
-          "powerWatt": 600,
-          "luminousFluxLumen": 20000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Profile Moving Head",
-          "name": "OPUS X PROFILE",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 30
-            }
-          ],
-          "weightKilogram": 32,
-          "powerWatt": 700,
-          "luminousFluxLumen": 25000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Profile Moving Head",
-          "name": "OPUS X4",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 48
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 26
-            }
-          ],
-          "weightKilogram": 30,
-          "powerWatt": 600,
-          "luminousFluxLumen": 23000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Profile Moving Head",
-          "name": "OPUS X4 IP",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 48
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 26
+              "name": "23-channel Extended",
+              "dmxChannels": 23
             }
           ],
           "weightKilogram": 33,
-          "powerWatt": 600,
-          "luminousFluxLumen": 23000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.cameolight.com/en/detail/index/sArticle/29085",
+          "dmxChartUrl": "https://www.cameolight.com/en/detail/index/sArticle/29085"
         },
         {
-          "type": "Profile Moving Head",
+          "type": "Moving Head",
+          "name": "OPUS H5",
+          "modes": [
+            {
+              "name": "27-channel",
+              "dmxChannels": 27
+            },
+            {
+              "name": "36-channel",
+              "dmxChannels": 36
+            }
+          ],
+          "weightKilogram": 27,
+          "powerWatt": 0,
+          "luminousFluxLumen": 18000,
+          "manualUrl": "https://www.cameolight.com/en/detail/index/sArticle/20662",
+          "dmxChartUrl": "https://www.cameolight.com/en/detail/index/sArticle/20662"
+        },
+        {
+          "type": "Moving Head",
+          "name": "OTOS H5",
+          "modes": [
+            {
+              "name": "26-channel",
+              "dmxChannels": 26
+            },
+            {
+              "name": "32-channel",
+              "dmxChannels": 32
+            }
+          ],
+          "weightKilogram": 33,
+          "powerWatt": 0,
+          "luminousFluxLumen": 19000,
+          "manualUrl": "https://www.cameolight.com/en/detail/index/sArticle/26039",
+          "dmxChartUrl": "https://www.cameolight.com/en/detail/index/sArticle/26039"
+        },
+        {
+          "type": "Profile",
+          "name": "OPUS SP5",
+          "modes": [
+            {
+              "name": "34-channel",
+              "dmxChannels": 34
+            },
+            {
+              "name": "50-channel",
+              "dmxChannels": 50
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 14800,
+          "manualUrl": "https://www.cameolight.com/en/detail/index/sArticle/19889",
+          "dmxChartUrl": "https://www.cameolight.com/en/detail/index/sArticle/19889"
+        },
+        {
+          "type": "Profile",
+          "name": "OPUS SP5 FC",
+          "modes": [
+            {
+              "name": "Direct-Extended",
+              "dmxChannels": 56
+            },
+            {
+              "name": "Direct-Standard",
+              "dmxChannels": 39
+            },
+            {
+              "name": "HSI-Extended",
+              "dmxChannels": 49
+            },
+            {
+              "name": "HSI-Standard",
+              "dmxChannels": 36
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://www.cameolight.com/en/"
+        },
+        {
+          "type": "Profile",
+          "name": "OPUS SP5+",
+          "modes": [
+            {
+              "name": "34-channel",
+              "dmxChannels": 34
+            },
+            {
+              "name": "50-channel",
+              "dmxChannels": 50
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 800,
+          "luminousFluxLumen": 22000,
+          "manualUrl": "https://www.cameolight.com/en/detail/index/sArticle/29239",
+          "dmxChartUrl": "https://www.cameolight.com/en/detail/index/sArticle/29239"
+        },
+        {
+          "type": "Profile",
+          "name": "OPUS X Profile",
+          "modes": [
+            {
+              "name": "37-channel",
+              "dmxChannels": 37
+            },
+            {
+              "name": "55-channel",
+              "dmxChannels": 55
+            }
+          ],
+          "weightKilogram": 41.1,
+          "powerWatt": 0,
+          "luminousFluxLumen": 33000,
+          "manualUrl": "https://www.cameolight.com/en/detail/index/sArticle/20663",
+          "dmxChartUrl": "https://www.cameolight.com/en/detail/index/sArticle/20663"
+        },
+        {
+          "type": "Profile",
           "name": "OTOS SP6",
           "modes": [
             {
-              "name": "Standard",
-              "dmxChannels": 24
+              "name": "33-channel Basic",
+              "dmxChannels": 33
+            },
+            {
+              "name": "36-channel Standard",
+              "dmxChannels": 36
+            },
+            {
+              "name": "50-channel Extended",
+              "dmxChannels": 50
             }
           ],
-          "weightKilogram": 29,
-          "powerWatt": 600,
-          "luminousFluxLumen": 20000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
+          "weightKilogram": 34,
+          "powerWatt": 780,
+          "luminousFluxLumen": 19000,
+          "manualUrl": "https://www.cameolight.com/en/detail/index/sArticle/29049",
+          "dmxChartUrl": "https://www.cameolight.com/en/detail/index/sArticle/29049"
         },
         {
-          "type": "Spot Moving Head",
-          "name": "OPUS S5",
+          "type": "Spot",
+          "name": "AURO SPOT Z300",
           "modes": [
             {
-              "name": "Standard",
+              "name": "17-channel",
+              "dmxChannels": 17
+            },
+            {
+              "name": "20-channel",
               "dmxChannels": 20
             }
           ],
-          "weightKilogram": 24,
-          "powerWatt": 450,
-          "luminousFluxLumen": 15000,
+          "weightKilogram": 0,
+          "powerWatt": 320,
+          "luminousFluxLumen": 7500,
           "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
+          "dmxChartUrl": "https://www.cameolight.com/en/"
         },
         {
-          "type": "Static",
-          "name": "Zenit W300",
+          "type": "Spot",
+          "name": "AZOR S2",
           "modes": [
             {
-              "name": "Standard",
-              "dmxChannels": 15
+              "name": "21-channel Basic",
+              "dmxChannels": 21
+            },
+            {
+              "name": "24-channel Standard",
+              "dmxChannels": 24
+            },
+            {
+              "name": "28-channel Extended",
+              "dmxChannels": 28
             }
           ],
-          "weightKilogram": 8,
-          "powerWatt": 300,
-          "luminousFluxLumen": 10000,
-          "manualUrl": "https://www.cameolight.com/zenit-w300",
-          "dmxChartUrl": "https://www.cameolight.com/zenit-w300"
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 13000,
+          "manualUrl": "https://www.cameolight.com/en/detail/index/sArticle/28489",
+          "dmxChartUrl": "https://www.cameolight.com/en/detail/index/sArticle/28489"
         },
         {
-          "type": "Static",
-          "name": "Zenit W600",
+          "type": "Spot",
+          "name": "OPUS S5",
           "modes": [
             {
-              "name": "10-Channel",
+              "name": "27-channel",
+              "dmxChannels": 27
+            },
+            {
+              "name": "33-channel",
+              "dmxChannels": 33
+            }
+          ],
+          "weightKilogram": 24,
+          "powerWatt": 650,
+          "luminousFluxLumen": 17500,
+          "manualUrl": "https://www.cameolight.com/en/detail/index/sArticle/19890",
+          "dmxChartUrl": "https://www.cameolight.com/en/detail/index/sArticle/19890"
+        },
+        {
+          "type": "Static Wash",
+          "name": "ZENIT W300",
+          "modes": [
+            {
+              "name": "10-channel",
               "dmxChannels": 10
             },
             {
-              "name": "15-Channel",
+              "name": "15-channel",
               "dmxChannels": 15
             },
             {
-              "name": "2-Channel",
+              "name": "2-channel",
               "dmxChannels": 2
             },
             {
-              "name": "3-Channel",
+              "name": "3-channel",
               "dmxChannels": 3
             },
             {
-              "name": "4-Channel",
+              "name": "4-channel",
               "dmxChannels": 4
             },
             {
-              "name": "8-Channel",
+              "name": "8-1 channel",
+              "dmxChannels": 8
+            },
+            {
+              "name": "8-2 channel",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 8,
+          "powerWatt": 0,
+          "luminousFluxLumen": 10000,
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://www.cameolight.com/en/"
+        },
+        {
+          "type": "Static Wash",
+          "name": "ZENIT W600",
+          "modes": [
+            {
+              "name": "10-channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "15-channel",
+              "dmxChannels": 15
+            },
+            {
+              "name": "2-channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3-channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4-channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "8-1 channel",
+              "dmxChannels": 8
+            },
+            {
+              "name": "8-2 channel",
               "dmxChannels": 8
             }
           ],
           "weightKilogram": 13,
           "powerWatt": 565,
           "luminousFluxLumen": 21000,
-          "manualUrl": "https://www.cameolight.com/zenit-w600",
-          "dmxChartUrl": "https://www.cameolight.com/zenit-w600"
+          "manualUrl": "https://www.cameolight.com/en/detail/index/sArticle/18383",
+          "dmxChartUrl": "https://www.cameolight.com/en/detail/index/sArticle/18383"
         },
         {
-          "type": "Strobe",
-          "name": "Zenit W600 SMD",
+          "type": "Static Wash",
+          "name": "ZENIT W600 SMD",
           "modes": [
             {
-              "name": "Extended",
-              "dmxChannels": 118
+              "name": "1-channel",
+              "dmxChannels": 1
             },
             {
-              "name": "Standard",
-              "dmxChannels": 8
+              "name": "2-channel 1",
+              "dmxChannels": 2
+            },
+            {
+              "name": "2-channel 2",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3-channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4-channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "5-channel",
+              "dmxChannels": 5
             }
           ],
           "weightKilogram": 13,
-          "powerWatt": 1100,
+          "powerWatt": 0,
           "luminousFluxLumen": 41000,
-          "manualUrl": "https://www.cameolight.com/zenit-w600-smd",
-          "dmxChartUrl": "https://www.cameolight.com/zenit-w600-smd"
+          "manualUrl": "https://www.cameolight.com/en/",
+          "dmxChartUrl": "https://www.cameolight.com/en/"
         },
         {
-          "type": "Wash Moving Head",
-          "name": "AZOR W2",
+          "type": "Static Wash",
+          "name": "ZENIT W600-D",
           "modes": [
             {
-              "name": "Standard",
-              "dmxChannels": 10
+              "name": "1-channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "2-channel",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3-channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4-channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6-channel",
+              "dmxChannels": 6
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 100,
-          "luminousFluxLumen": 4000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
+          "powerWatt": 0,
+          "luminousFluxLumen": 41000,
+          "manualUrl": "https://www.cameolight.com/en/detail/index/sArticle/19213",
+          "dmxChartUrl": "https://www.cameolight.com/en/detail/index/sArticle/19213"
         },
         {
-          "type": "Wash Moving Head",
+          "type": "Wash",
           "name": "EVOS W3",
           "modes": [
             {
-              "name": "Standard",
-              "dmxChannels": 12
+              "name": "18-channel",
+              "dmxChannels": 18
+            },
+            {
+              "name": "23-channel",
+              "dmxChannels": 23
+            },
+            {
+              "name": "33-channel",
+              "dmxChannels": 33
+            },
+            {
+              "name": "39-channel",
+              "dmxChannels": 39
+            },
+            {
+              "name": "43-channel",
+              "dmxChannels": 43
             }
           ],
-          "weightKilogram": 9,
-          "powerWatt": 120,
-          "luminousFluxLumen": 5000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
+          "weightKilogram": 0,
+          "powerWatt": 325,
+          "luminousFluxLumen": 4035,
+          "manualUrl": "https://www.cameolight.com/en/detail/index/sArticle/20664",
+          "dmxChartUrl": "https://www.cameolight.com/en/detail/index/sArticle/20664"
         },
         {
-          "type": "Wash Moving Head",
+          "type": "Wash",
           "name": "EVOS W7",
           "modes": [
             {
-              "name": "Standard",
-              "dmxChannels": 20
-            }
-          ],
-          "weightKilogram": 22,
-          "powerWatt": 350,
-          "luminousFluxLumen": 14000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Wash Moving Head",
-          "name": "EVOS W7 IP",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 24,
-          "powerWatt": 400,
-          "luminousFluxLumen": 16000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Wash Moving Head",
-          "name": "OPUS W5",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 20
-            }
-          ],
-          "weightKilogram": 20,
-          "powerWatt": 400,
-          "luminousFluxLumen": 15000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Wash Moving Head",
-          "name": "OPUS X WASH",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 32,
-          "powerWatt": 700,
-          "luminousFluxLumen": 28000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Wash Moving Head",
-          "name": "OTOS W12",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 20
-            }
-          ],
-          "weightKilogram": 20,
-          "powerWatt": 400,
-          "luminousFluxLumen": 15000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Wash Moving Head",
-          "name": "OTOS W3",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 14
-            }
-          ],
-          "weightKilogram": 10,
-          "powerWatt": 150,
-          "luminousFluxLumen": 6000,
-          "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
-        },
-        {
-          "type": "Wash Moving Head",
-          "name": "OTOS W6",
-          "modes": [
-            {
-              "name": "Standard",
+              "name": "16-channel",
               "dmxChannels": 16
+            },
+            {
+              "name": "18-channel",
+              "dmxChannels": 18
+            },
+            {
+              "name": "23-channel",
+              "dmxChannels": 23
+            },
+            {
+              "name": "33-channel",
+              "dmxChannels": 33
+            },
+            {
+              "name": "43-channel",
+              "dmxChannels": 43
+            },
+            {
+              "name": "97-channel",
+              "dmxChannels": 97
             }
           ],
-          "weightKilogram": 15,
-          "powerWatt": 250,
-          "luminousFluxLumen": 10000,
+          "weightKilogram": 23,
+          "powerWatt": 900,
+          "luminousFluxLumen": 12500,
+          "manualUrl": "https://www.cameolight.com/en/detail/index/sArticle/20565",
+          "dmxChartUrl": "https://www.cameolight.com/en/detail/index/sArticle/20565"
+        },
+        {
+          "type": "Wash",
+          "name": "OPUS X Wash",
+          "modes": [
+            {
+              "name": "29-channel",
+              "dmxChannels": 29
+            },
+            {
+              "name": "48-channel",
+              "dmxChannels": 48
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 32000,
           "manualUrl": "https://www.cameolight.com/en/",
-          "dmxChartUrl": "https://open-fixture-library.org"
+          "dmxChartUrl": "https://www.cameolight.com/en/"
         }
       ]
     },
@@ -9129,6 +7813,41 @@
       "name": "Chauvet Pro",
       "products": [
         {
+          "type": "Blinder",
+          "name": "STRIKE Array 4",
+          "modes": [
+            {
+              "name": "1 channel",
+              "dmxChannels": 1
+            },
+            {
+              "name": "10 channel",
+              "dmxChannels": 10
+            },
+            {
+              "name": "3 channel",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4 channel",
+              "dmxChannels": 4
+            },
+            {
+              "name": "5 channel",
+              "dmxChannels": 5
+            },
+            {
+              "name": "6 channel",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 13,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://chauvetprofessional.com/product/strike-array-4/",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Linear moving head wash",
           "name": "Colorado pixel curve",
           "modes": [
@@ -9196,6 +7915,63 @@
           "dmxChartUrl": "COLORado-PXL-Curve-12_DMX_Chart_Rev5.pdf"
         },
         {
+          "type": "Moving Head",
+          "name": "Maverick Storm 1 Hybrid",
+          "modes": [
+            {
+              "name": "24 channel",
+              "dmxChannels": 24
+            },
+            {
+              "name": "29 channel",
+              "dmxChannels": 29
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 647,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://chauvetprofessional.com/product/maverick-storm-1-hybrid/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Maverick Force 3 Profile",
+          "modes": [
+            {
+              "name": "37 channel",
+              "dmxChannels": 37
+            },
+            {
+              "name": "53 channel",
+              "dmxChannels": 53
+            }
+          ],
+          "weightKilogram": 38.2,
+          "powerWatt": 0,
+          "luminousFluxLumen": 40906,
+          "manualUrl": "https://chauvetprofessional.com/product/maverick-force-3-profile/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Maverick MK3 Profile",
+          "modes": [
+            {
+              "name": "38 channel",
+              "dmxChannels": 38
+            },
+            {
+              "name": "54 channel",
+              "dmxChannels": 54
+            }
+          ],
+          "weightKilogram": 34.7,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://chauvetprofessional.com/product/maverick-mk3-profile/",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Profile",
           "name": "Maverick Storm 2 Profile",
           "modes": [
@@ -9212,6 +7988,63 @@
           "powerWatt": 763,
           "luminousFluxLumen": 28000,
           "manualUrl": "https://chauvetprofessional.com/product/maverick-storm-2-profile/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Maverick Storm 3 Profile",
+          "modes": [
+            {
+              "name": "34 channel",
+              "dmxChannels": 34
+            },
+            {
+              "name": "50 channel",
+              "dmxChannels": 50
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 30000,
+          "manualUrl": "https://chauvetprofessional.com/product/maverick-storm-3-profile/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "Maverick Storm 4 Profile",
+          "modes": [
+            {
+              "name": "38 channel",
+              "dmxChannels": 38
+            },
+            {
+              "name": "55 channel",
+              "dmxChannels": 55
+            }
+          ],
+          "weightKilogram": 46.5,
+          "powerWatt": 0,
+          "luminousFluxLumen": 60000,
+          "manualUrl": "https://chauvetprofessional.com/product/maverick-storm-4-profile/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "Rogue R2X Spot",
+          "modes": [
+            {
+              "name": "18 channel",
+              "dmxChannels": 18
+            },
+            {
+              "name": "21 channel",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 11000,
+          "manualUrl": "https://chauvetprofessional.com/product/rogue-r2x-spot/",
           "dmxChartUrl": ""
         },
         {
@@ -9383,6 +8216,108 @@
         },
         {
           "type": "Wash",
+          "name": "Maverick MK3 Wash",
+          "modes": [
+            {
+              "name": "Dual Function 21 channel",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Dual Function 27 channel",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Dual Function 9 channel",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Dual Pixel 108 channel",
+              "dmxChannels": 108
+            },
+            {
+              "name": "Dual Pixel 216 channel",
+              "dmxChannels": 216
+            },
+            {
+              "name": "Dual Pixel 81 channel",
+              "dmxChannels": 81
+            },
+            {
+              "name": "Single 129 channel",
+              "dmxChannels": 129
+            },
+            {
+              "name": "Single 20 channel",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Single 243 channel",
+              "dmxChannels": 243
+            },
+            {
+              "name": "Single 297 channel",
+              "dmxChannels": 297
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://chauvetprofessional.com/product/maverick-mk3-wash/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Maverick Storm 1 Wash",
+          "modes": [
+            {
+              "name": "Dual Function 20 channel",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Dual Function 26 channel",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Dual Function 8 channel",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Dual Pixel 152 channel",
+              "dmxChannels": 152
+            },
+            {
+              "name": "Dual Pixel 57 channel",
+              "dmxChannels": 57
+            },
+            {
+              "name": "Dual Pixel 76 channel",
+              "dmxChannels": 76
+            },
+            {
+              "name": "Single 178 channel",
+              "dmxChannels": 178
+            },
+            {
+              "name": "Single 20 channel",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Single 216 channel",
+              "dmxChannels": 216
+            },
+            {
+              "name": "Single 96 channel",
+              "dmxChannels": 96
+            }
+          ],
+          "weightKilogram": 27,
+          "powerWatt": 461,
+          "luminousFluxLumen": 6000,
+          "manualUrl": "https://chauvetprofessional.com/product/maverick-storm-1-wash/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
           "name": "Maverick Storm 2 BeamWash",
           "modes": [
             {
@@ -9406,6 +8341,139 @@
           "powerWatt": 1040,
           "luminousFluxLumen": 9927,
           "manualUrl": "https://chauvetprofessional.com/product/maverick-storm-2-beamwash/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Maverick Storm 3 BeamWash",
+          "modes": [
+            {
+              "name": "Dual Movement 12 channel",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Dual Movement 35 channel",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Dual Movement 46 channel",
+              "dmxChannels": 46
+            },
+            {
+              "name": "Dual Pixel 120 channel",
+              "dmxChannels": 120
+            },
+            {
+              "name": "Dual Pixel 148 channel",
+              "dmxChannels": 148
+            },
+            {
+              "name": "Dual Pixel 296 channel",
+              "dmxChannels": 296
+            },
+            {
+              "name": "Single 180 channel",
+              "dmxChannels": 180
+            },
+            {
+              "name": "Single 20 channel",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Single 32 channel",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Single 336 channel",
+              "dmxChannels": 336
+            },
+            {
+              "name": "Single 38 channel",
+              "dmxChannels": 38
+            },
+            {
+              "name": "Single 416 channel",
+              "dmxChannels": 416
+            },
+            {
+              "name": "Single 424 channel",
+              "dmxChannels": 424
+            }
+          ],
+          "weightKilogram": 37.4,
+          "powerWatt": 0,
+          "luminousFluxLumen": 19062,
+          "manualUrl": "https://chauvetprofessional.com/product/maverick-storm-3-beamwash/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Rogue R2X Wash",
+          "modes": [
+            {
+              "name": "15 channel",
+              "dmxChannels": 15
+            },
+            {
+              "name": "17 channel",
+              "dmxChannels": 17
+            },
+            {
+              "name": "22 channel",
+              "dmxChannels": 22
+            },
+            {
+              "name": "33 channel",
+              "dmxChannels": 33
+            },
+            {
+              "name": "33 channel MS",
+              "dmxChannels": 33
+            },
+            {
+              "name": "54 channel",
+              "dmxChannels": 54
+            },
+            {
+              "name": "54 channel MS",
+              "dmxChannels": 54
+            },
+            {
+              "name": "56 channel",
+              "dmxChannels": 56
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 344,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://chauvetprofessional.com/product/rogue-r2x-wash/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "Rogue R3X Wash",
+          "modes": [
+            {
+              "name": "107 channel",
+              "dmxChannels": 107
+            },
+            {
+              "name": "21 channel",
+              "dmxChannels": 21
+            },
+            {
+              "name": "62 channel",
+              "dmxChannels": 62
+            },
+            {
+              "name": "71 channel",
+              "dmxChannels": 71
+            }
+          ],
+          "weightKilogram": 17.46,
+          "powerWatt": 650,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://chauvetprofessional.com/product/rogue-r3x-wash/",
           "dmxChartUrl": ""
         }
       ]
@@ -9786,6 +8854,25 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.sgssistemas.lv/uploads/resources/166/lv/claypaky-productguide2019-en.pdf",
           "dmxChartUrl": ""
+        },
+        {
+          "type": "Beam",
+          "name": "Axcor Beam 300",
+          "modes": [
+            {
+              "name": "Sharpy mode",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1800,
+          "manualUrl": "https://www.claypaky.it/en/products/axcor-beam-300",
+          "dmxChartUrl": "https://www.claypaky.it/en/products/axcor-beam-300"
         },
         {
           "type": "Beam",
@@ -10412,154 +9499,6 @@
           "dmxChartUrl": "https://www.claypaky.it/products/skylos-nv/"
         },
         {
-          "type": "Moving Head Beam LED 110W 7600K",
-          "name": "Axcor Beam 300",
-          "modes": [
-            {
-              "name": "Standard 18ch",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 110,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/axcor-beam-300/",
-          "dmxChartUrl": "https://www.claypaky.it/products/axcor-beam-300/"
-        },
-        {
-          "type": "Moving Head Profile LED 300W 5600K HC",
-          "name": "Axcor Profile 400 HC",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 300,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/axcor-profile-400-hc/",
-          "dmxChartUrl": "https://www.claypaky.it/products/axcor-profile-400-hc/"
-        },
-        {
-          "type": "Moving Head Profile LED 300W 6500K",
-          "name": "Axcor Profile 400",
-          "modes": [
-            {
-              "name": "Extended 40ch",
-              "dmxChannels": 40
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 300,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/axcor-profile-400/",
-          "dmxChartUrl": "https://www.claypaky.it/products/axcor-profile-400/"
-        },
-        {
-          "type": "Moving Head Profile LED 550W",
-          "name": "Axcor Profile 600",
-          "modes": [
-            {
-              "name": "Extended 50ch",
-              "dmxChannels": 50
-            },
-            {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 550,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/axcor-profile-600/",
-          "dmxChartUrl": "https://www.claypaky.it/products/axcor-profile-600/"
-        },
-        {
-          "type": "Moving Head Profile LED 550W (version th??tre)",
-          "name": "Axcor Profile 600 Teatro",
-          "modes": [
-            {
-              "name": "Extended 50ch",
-              "dmxChannels": 50
-            },
-            {
-              "name": "Standard 37ch",
-              "dmxChannels": 37
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 550,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/axcor-profile-600-teatro/",
-          "dmxChartUrl": "https://www.claypaky.it/products/axcor-profile-600-teatro/"
-        },
-        {
-          "type": "Moving Head Spot LED 180W 7000K",
-          "name": "Axcor Spot 300",
-          "modes": [
-            {
-              "name": "Extended 28ch",
-              "dmxChannels": 28
-            },
-            {
-              "name": "Standard 18ch",
-              "dmxChannels": 18
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 180,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/axcor-spot-300/",
-          "dmxChartUrl": "https://www.claypaky.it/products/axcor-spot-300/"
-        },
-        {
-          "type": "Moving Head Wash LED 550W",
-          "name": "Axcor Wash 600",
-          "modes": [
-            {
-              "name": "Extended 38ch",
-              "dmxChannels": 38
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 550,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/axcor-wash-600/",
-          "dmxChartUrl": "https://www.claypaky.it/products/axcor-wash-600/"
-        },
-        {
-          "type": "Moving Head Wash LED 550W HC",
-          "name": "Axcor Wash 600 HC",
-          "modes": [
-            {
-              "name": "Extended 38ch",
-              "dmxChannels": 38
-            },
-            {
-              "name": "Standard 28ch",
-              "dmxChannels": 28
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 550,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/axcor-wash-600-hc/",
-          "dmxChartUrl": "https://www.claypaky.it/products/axcor-wash-600-hc/"
-        },
-        {
           "type": "Moving mirror",
           "name": "ReflectXion",
           "modes": [
@@ -10796,6 +9735,112 @@
         },
         {
           "type": "Profile",
+          "name": "Axcor Profile 400",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 36
+            }
+          ],
+          "weightKilogram": 27,
+          "powerWatt": 500,
+          "luminousFluxLumen": 9800,
+          "manualUrl": "https://www.claypaky.it/en/products/axcor-profile",
+          "dmxChartUrl": "https://www.claypaky.it/en/products/axcor-profile"
+        },
+        {
+          "type": "Profile",
+          "name": "Axcor Profile 400 HC",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 36
+            }
+          ],
+          "weightKilogram": 27,
+          "powerWatt": 500,
+          "luminousFluxLumen": 6700,
+          "manualUrl": "https://www.claypaky.it/en/products/axcor-profile",
+          "dmxChartUrl": "https://www.claypaky.it/en/products/axcor-profile"
+        },
+        {
+          "type": "Profile",
+          "name": "Axcor Profile 600",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Vector",
+              "dmxChannels": 44
+            }
+          ],
+          "weightKilogram": 33,
+          "powerWatt": 800,
+          "luminousFluxLumen": 18100,
+          "manualUrl": "https://claypaky.it/products/axcor-profile600",
+          "dmxChartUrl": "https://claypaky.it/products/axcor-profile600"
+        },
+        {
+          "type": "Profile",
+          "name": "Axcor Profile 600 HC",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Vector",
+              "dmxChannels": 44
+            }
+          ],
+          "weightKilogram": 33,
+          "powerWatt": 800,
+          "luminousFluxLumen": 14300,
+          "manualUrl": "https://claypaky.it/products/axcor-profile600",
+          "dmxChartUrl": "https://claypaky.it/products/axcor-profile600"
+        },
+        {
+          "type": "Profile",
+          "name": "Axcor Profile 600 HC Teatro",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Vector",
+              "dmxChannels": 44
+            }
+          ],
+          "weightKilogram": 33,
+          "powerWatt": 800,
+          "luminousFluxLumen": 14000,
+          "manualUrl": "https://claypaky.it/products/axcor-profile600",
+          "dmxChartUrl": "https://claypaky.it/products/axcor-profile600"
+        },
+        {
+          "type": "Profile",
+          "name": "Axcor Profile 600 Teatro",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Vector",
+              "dmxChannels": 44
+            }
+          ],
+          "weightKilogram": 33,
+          "powerWatt": 800,
+          "luminousFluxLumen": 15500,
+          "manualUrl": "https://claypaky.it/products/axcor-profile600",
+          "dmxChartUrl": "https://claypaky.it/products/axcor-profile600"
+        },
+        {
+          "type": "Profile",
           "name": "Rhapsodya / Sinfonya Profile HP",
           "modes": [
             {
@@ -10914,6 +9959,21 @@
         },
         {
           "type": "Spot",
+          "name": "Axcor Spot 300",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/en/products/axcor-spot-300",
+          "dmxChartUrl": "https://www.claypaky.it/en/products/axcor-spot-300"
+        },
+        {
+          "type": "Spot",
           "name": "Axcor Spot 400",
           "modes": [
             {
@@ -10924,8 +9984,8 @@
           "weightKilogram": 26,
           "powerWatt": 540,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/axcor-spot400/",
-          "dmxChartUrl": "https://www.claypaky.it/products/axcor-spot-400/"
+          "manualUrl": "https://www.claypaky.it/en/products/axcor-spot-400",
+          "dmxChartUrl": "https://www.claypaky.it/en/products/axcor-spot-400"
         },
         {
           "type": "Spot",
@@ -10939,8 +9999,8 @@
           "weightKilogram": 26,
           "powerWatt": 540,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.claypaky.it/products/axcor-spot400/",
-          "dmxChartUrl": "https://www.claypaky.it/products/axcor-spot-400/"
+          "manualUrl": "https://www.claypaky.it/en/products/axcor-spot-400",
+          "dmxChartUrl": "https://www.claypaky.it/en/products/axcor-spot-400"
         },
         {
           "type": "Spot",
@@ -11160,6 +10220,59 @@
           "luminousFluxLumen": 31318,
           "manualUrl": "https://www.claypaky.it/products/arolla-aqua-wash-hc/",
           "dmxChartUrl": "https://www.claypaky.it/products/arolla-aqua-wash-hc/"
+        },
+        {
+          "type": "Wash",
+          "name": "Axcor Wash 300",
+          "modes": [
+            {
+              "name": "Single mode",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 290,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.claypaky.it/en/products/axcor-wash-300",
+          "dmxChartUrl": "https://www.claypaky.it/en/products/axcor-wash-300"
+        },
+        {
+          "type": "Wash",
+          "name": "Axcor Wash 600",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Vector",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 33.9,
+          "powerWatt": 800,
+          "luminousFluxLumen": 28500,
+          "manualUrl": "https://www.claypaky.it/en/products/axcor-wash-600",
+          "dmxChartUrl": "https://www.claypaky.it/en/products/axcor-wash-600"
+        },
+        {
+          "type": "Wash",
+          "name": "Axcor Wash 600 HC",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Vector",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 33.9,
+          "powerWatt": 800,
+          "luminousFluxLumen": 20700,
+          "manualUrl": "https://www.claypaky.it/en/products/axcor-wash-600",
+          "dmxChartUrl": "https://www.claypaky.it/en/products/axcor-wash-600"
         },
         {
           "type": "Wash",
@@ -15015,6 +14128,202 @@
           "dmxChartUrl": "https://www.elationlighting.com/cuepix-blinder-ww4"
         },
         {
+          "type": "Blinder",
+          "name": "DTW Blinder 700 IP",
+          "modes": [
+            {
+              "name": "13CH",
+              "dmxChannels": 13
+            },
+            {
+              "name": "1CH",
+              "dmxChannels": 1
+            },
+            {
+              "name": "2CH",
+              "dmxChannels": 2
+            },
+            {
+              "name": "4CH",
+              "dmxChannels": 4
+            },
+            {
+              "name": "4CH-1",
+              "dmxChannels": 4
+            },
+            {
+              "name": "5CH",
+              "dmxChannels": 5
+            },
+            {
+              "name": "6CH-1",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7CH",
+              "dmxChannels": 7
+            },
+            {
+              "name": "9CH",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 680,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.elationlighting.com/products/dtw-blinder-700-ip",
+          "dmxChartUrl": "https://www.elationlighting.com/products/dtw-blinder-700-ip"
+        },
+        {
+          "type": "Blinder",
+          "name": "SOL II Blinder",
+          "modes": [
+            {
+              "name": "2x Dim",
+              "dmxChannels": 2
+            },
+            {
+              "name": "2x Dim/CCT",
+              "dmxChannels": 4
+            },
+            {
+              "name": "2x Dim/CCT/Color",
+              "dmxChannels": 10
+            },
+            {
+              "name": "2x Dim/Str/CCT",
+              "dmxChannels": 5
+            },
+            {
+              "name": "2x IRGB",
+              "dmxChannels": 8
+            },
+            {
+              "name": "2x Raw Color",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Dim",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Dim/CCT",
+              "dmxChannels": 2
+            },
+            {
+              "name": "Dim/CCT/Color",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Dim/Str/CCT",
+              "dmxChannels": 3
+            },
+            {
+              "name": "IRGB",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Mode 13",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 14",
+              "dmxChannels": 37
+            },
+            {
+              "name": "Mode 15",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Mode 16",
+              "dmxChannels": 25
+            },
+            {
+              "name": "Mode 17",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Mode 18",
+              "dmxChannels": 25
+            },
+            {
+              "name": "Raw Color",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 650,
+          "luminousFluxLumen": 30750,
+          "manualUrl": "https://www.elationlighting.com/products/sol-ii-blinder",
+          "dmxChartUrl": "https://www.elationlighting.com/products/sol-ii-blinder"
+        },
+        {
+          "type": "Fresnel",
+          "name": "KL Fresnel 8",
+          "modes": [
+            {
+              "name": "3CH",
+              "dmxChannels": 3
+            },
+            {
+              "name": "Dimmer",
+              "dmxChannels": 2
+            },
+            {
+              "name": "Dimmer 16bit",
+              "dmxChannels": 3
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 430,
+          "luminousFluxLumen": 14000,
+          "manualUrl": "https://www.elationlighting.com/products/kl-fresnel-8",
+          "dmxChartUrl": "https://www.elationlighting.com/products/kl-fresnel-8"
+        },
+        {
+          "type": "Fresnel",
+          "name": "KL Fresnel 8 FC",
+          "modes": [
+            {
+              "name": "CMY",
+              "dmxChannels": 10
+            },
+            {
+              "name": "CMY Extended",
+              "dmxChannels": 15
+            },
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Dimmer Color",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 514,
+          "luminousFluxLumen": 18000,
+          "manualUrl": "https://www.elationlighting.com/products/kl-fresnel-8-fc",
+          "dmxChartUrl": "https://www.elationlighting.com/products/kl-fresnel-8-fc"
+        },
+        {
           "type": "Fresnel LED IP",
           "name": "KL FRESNEL 6 IP",
           "modes": [
@@ -15110,6 +14419,99 @@
         },
         {
           "type": "LED Bar",
+          "name": "Chorus Line 16",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 78
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 739,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.elationlighting.com/products/chorus-line-16",
+          "dmxChartUrl": "https://www.elationlighting.com/products/chorus-line-16"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Proteus Rayzor Blade L",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 76
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 140
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 108
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 120
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 188
+            }
+          ],
+          "weightKilogram": 33,
+          "powerWatt": 1400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.elationlighting.com/products/proteus-rayzor-blade-l",
+          "dmxChartUrl": "https://www.elationlighting.com/products/proteus-rayzor-blade-l"
+        },
+        {
+          "type": "LED Bar",
+          "name": "Proteus Rayzor Blade S",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 50
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 82
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 66
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 72
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 106
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 700,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.elationlighting.com/products/proteus-rayzor-blade-s",
+          "dmxChartUrl": "https://www.elationlighting.com/products/proteus-rayzor-blade-s"
+        },
+        {
+          "type": "LED Bar",
           "name": "Proteus Rayzor STROBE",
           "modes": [
             {
@@ -15126,6 +14528,92 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.elationlighting.com/proteus-rayzor-strobe",
           "dmxChartUrl": "https://www.elationlighting.com/proteus-rayzor-strobe"
+        },
+        {
+          "type": "LED Bar",
+          "name": "SixBar 1000",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 72
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 75
+            },
+            {
+              "name": "Mode 8",
+              "dmxChannels": 79
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 145,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.elationlighting.com/products/sixbar-1000",
+          "dmxChartUrl": "https://www.elationlighting.com/products/sixbar-1000"
+        },
+        {
+          "type": "LED Bar",
+          "name": "SixBar 1000 IP",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Mode 6",
+              "dmxChannels": 72
+            },
+            {
+              "name": "Mode 7",
+              "dmxChannels": 75
+            },
+            {
+              "name": "Mode 8",
+              "dmxChannels": 79
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 145,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.elationlighting.com/products/sixbar-1000-ip",
+          "dmxChartUrl": "https://www.elationlighting.com/products/sixbar-1000-ip"
         },
         {
           "type": "LED batten/wash IP65 (1 pied)",
@@ -15156,6 +14644,76 @@
           "luminousFluxLumen": 61275,
           "manualUrl": "https://www.elationlighting.eu/kl-batten-72",
           "dmxChartUrl": ""
+        },
+        {
+          "type": "LED Panel",
+          "name": "KL Panel",
+          "modes": [
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Dimmer Color",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Dimmer Color FX",
+              "dmxChannels": 7
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 23
+            },
+            {
+              "name": "HSI",
+              "dmxChannels": 4
+            },
+            {
+              "name": "HSI Extended",
+              "dmxChannels": 12
+            },
+            {
+              "name": "RGBWLC",
+              "dmxChannels": 6
+            },
+            {
+              "name": "RGBWLC 16bit",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 13,
+          "powerWatt": 295,
+          "luminousFluxLumen": 24000,
+          "manualUrl": "https://www.elationlighting.com/products/kl-panel",
+          "dmxChartUrl": "https://www.elationlighting.com/products/kl-panel"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Artiste DaVinci",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 28
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 470,
+          "luminousFluxLumen": 12000,
+          "manualUrl": "https://www.elationlighting.com/products/artiste-davinci",
+          "dmxChartUrl": "https://www.elationlighting.com/products/artiste-davinci"
         },
         {
           "type": "Moving Head",
@@ -15201,6 +14759,161 @@
           "luminousFluxLumen": 51000,
           "manualUrl": "https://www.elationlighting.com/artiste-rembrandt",
           "dmxChartUrl": "https://www.elationlighting.com/artiste-rembrandt"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Artiste Van Gogh",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 600,
+          "luminousFluxLumen": 16000,
+          "manualUrl": "https://www.elationlighting.com/products/artiste-van-gogh",
+          "dmxChartUrl": "https://www.elationlighting.com/products/artiste-van-gogh"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Dartz 360",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 25
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 22
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 154,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.elationlighting.com/products/dartz-360",
+          "dmxChartUrl": "https://www.elationlighting.com/products/dartz-360"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Fuze Max Spot",
+          "modes": [
+            {
+              "name": "CMY Extended",
+              "dmxChannels": 40
+            },
+            {
+              "name": "CMY Standard",
+              "dmxChannels": 32
+            },
+            {
+              "name": "RGBMA Extended",
+              "dmxChannels": 44
+            },
+            {
+              "name": "RGBMA Standard",
+              "dmxChannels": 34
+            }
+          ],
+          "weightKilogram": 34.5,
+          "powerWatt": 1214,
+          "luminousFluxLumen": 21000,
+          "manualUrl": "https://www.elationlighting.com/products/fuze-max-spot",
+          "dmxChartUrl": "https://www.elationlighting.com/products/fuze-max-spot"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Fuze Spot",
+          "modes": [
+            {
+              "name": "CMY Extended",
+              "dmxChannels": 37
+            },
+            {
+              "name": "CMY Standard",
+              "dmxChannels": 29
+            },
+            {
+              "name": "RGBMA Extended",
+              "dmxChannels": 41
+            },
+            {
+              "name": "RGBMA Standard",
+              "dmxChannels": 31
+            }
+          ],
+          "weightKilogram": 21,
+          "powerWatt": 466,
+          "luminousFluxLumen": 10000,
+          "manualUrl": "https://www.elationlighting.com/products/fuze-spot",
+          "dmxChartUrl": "https://www.elationlighting.com/products/fuze-spot"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Fuze Wash 500",
+          "modes": [
+            {
+              "name": "CMY Extended",
+              "dmxChannels": 22
+            },
+            {
+              "name": "CMY Extended (barndoor)",
+              "dmxChannels": 26
+            },
+            {
+              "name": "CMY Standard",
+              "dmxChannels": 15
+            },
+            {
+              "name": "CMY Standard (barndoor)",
+              "dmxChannels": 19
+            },
+            {
+              "name": "RGB Extended",
+              "dmxChannels": 22
+            },
+            {
+              "name": "RGB Extended (barndoor)",
+              "dmxChannels": 26
+            },
+            {
+              "name": "RGB Standard",
+              "dmxChannels": 15
+            },
+            {
+              "name": "RGB Standard (barndoor)",
+              "dmxChannels": 19
+            },
+            {
+              "name": "RGBMA Extended",
+              "dmxChannels": 26
+            },
+            {
+              "name": "RGBMA Extended (barndoor)",
+              "dmxChannels": 30
+            },
+            {
+              "name": "RGBMA Standard",
+              "dmxChannels": 17
+            },
+            {
+              "name": "RGBMA Standard (barndoor)",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 609,
+          "luminousFluxLumen": 17000,
+          "manualUrl": "https://www.elationlighting.com/products/fuze-wash-500",
+          "dmxChartUrl": "https://www.elationlighting.com/products/fuze-wash-500"
         },
         {
           "type": "Moving Head",
@@ -15314,6 +15027,29 @@
         },
         {
           "type": "Moving Head",
+          "name": "Proteus Hybrid",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 37
+            }
+          ],
+          "weightKilogram": 38,
+          "powerWatt": 700,
+          "luminousFluxLumen": 14000,
+          "manualUrl": "https://www.elationlighting.com/products/proteus-hybrid",
+          "dmxChartUrl": "https://www.elationlighting.com/products/proteus-hybrid"
+        },
+        {
+          "type": "Moving Head",
           "name": "Proteus Maximus",
           "modes": [
             {
@@ -15355,6 +15091,63 @@
           "dmxChartUrl": "https://www.elationlighting.com/proteus-rayzor-760"
         },
         {
+          "type": "Moving Head",
+          "name": "Proteus Smarty Hybrid",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 35.5,
+          "powerWatt": 500,
+          "luminousFluxLumen": 11000,
+          "manualUrl": "https://www.elationlighting.com/products/proteus-smarty-hybrid",
+          "dmxChartUrl": "https://www.elationlighting.com/products/proteus-smarty-hybrid"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Smarty Hybrid",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 480,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.elationlighting.com/products/smarty-hybrid",
+          "dmxChartUrl": "https://www.elationlighting.com/products/smarty-hybrid"
+        },
+        {
+          "type": "Moving Head",
+          "name": "Smarty Max",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 44
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 700,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.elationlighting.com/products/smarty-max",
+          "dmxChartUrl": "https://www.elationlighting.com/products/smarty-max"
+        },
+        {
           "type": "Moving head beam",
           "name": "REBEL DARTZ",
           "modes": [],
@@ -15363,6 +15156,456 @@
           "luminousFluxLumen": 1785,
           "manualUrl": "https://www.elationlighting.com/products/rebel-dartz",
           "dmxChartUrl": ""
+        },
+        {
+          "type": "Par",
+          "name": "KL Par FC",
+          "modes": [
+            {
+              "name": "CMY",
+              "dmxChannels": 9
+            },
+            {
+              "name": "CMY Extended",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Dimmer",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Dimmer Color",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 11
+            }
+          ],
+          "weightKilogram": 7.25,
+          "powerWatt": 284,
+          "luminousFluxLumen": 11000,
+          "manualUrl": "https://www.elationlighting.com/products/kl-par-fc",
+          "dmxChartUrl": "https://www.elationlighting.com/products/kl-par-fc"
+        },
+        {
+          "type": "Par",
+          "name": "SixPar 300",
+          "modes": [
+            {
+              "name": "12CH",
+              "dmxChannels": 12
+            },
+            {
+              "name": "6CH",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7CH",
+              "dmxChannels": 7
+            },
+            {
+              "name": "8CH",
+              "dmxChannels": 8
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 220,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.elationlighting.com/products/sixpar-300",
+          "dmxChartUrl": "https://www.elationlighting.com/products/sixpar-300"
+        },
+        {
+          "type": "Profile",
+          "name": "Artiste Monet",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 67
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 42.6,
+          "powerWatt": 1400,
+          "luminousFluxLumen": 45000,
+          "manualUrl": "https://www.elationlighting.com/products/artiste-monet",
+          "dmxChartUrl": "https://www.elationlighting.com/products/artiste-monet"
+        },
+        {
+          "type": "Profile",
+          "name": "Fuze Max Profile",
+          "modes": [
+            {
+              "name": "CMY Extended",
+              "dmxChannels": 57
+            },
+            {
+              "name": "CMY Standard",
+              "dmxChannels": 38
+            },
+            {
+              "name": "RGBMA Extended",
+              "dmxChannels": 61
+            },
+            {
+              "name": "RGBMA Standard",
+              "dmxChannels": 40
+            }
+          ],
+          "weightKilogram": 34.6,
+          "powerWatt": 1126,
+          "luminousFluxLumen": 21000,
+          "manualUrl": "https://www.elationlighting.com/products/fuze-max-profile",
+          "dmxChartUrl": "https://www.elationlighting.com/products/fuze-max-profile"
+        },
+        {
+          "type": "Profile",
+          "name": "Fuze PFX",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 55
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 38
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 15000,
+          "manualUrl": "https://www.elationlighting.com/products/fuze-pfx",
+          "dmxChartUrl": "https://www.elationlighting.com/products/fuze-pfx"
+        },
+        {
+          "type": "Profile",
+          "name": "Fuze Profile",
+          "modes": [
+            {
+              "name": "CMY Extended",
+              "dmxChannels": 55
+            },
+            {
+              "name": "CMY Standard",
+              "dmxChannels": 36
+            },
+            {
+              "name": "RGBMA Extended",
+              "dmxChannels": 59
+            },
+            {
+              "name": "RGBMA Standard",
+              "dmxChannels": 38
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 540,
+          "luminousFluxLumen": 10100,
+          "manualUrl": "https://www.elationlighting.com/products/fuze-profile",
+          "dmxChartUrl": "https://www.elationlighting.com/products/fuze-profile"
+        },
+        {
+          "type": "Profile",
+          "name": "Fuze Profile CW",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 26
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 590,
+          "luminousFluxLumen": 13000,
+          "manualUrl": "https://www.elationlighting.com/products/fuze-profile-cw",
+          "dmxChartUrl": "https://www.elationlighting.com/products/fuze-profile-cw"
+        },
+        {
+          "type": "Profile",
+          "name": "KL Profile FC",
+          "modes": [
+            {
+              "name": "12CH",
+              "dmxChannels": 12
+            },
+            {
+              "name": "1CH",
+              "dmxChannels": 1
+            },
+            {
+              "name": "21CH",
+              "dmxChannels": 21
+            },
+            {
+              "name": "5CH",
+              "dmxChannels": 5
+            },
+            {
+              "name": "CMY Extended",
+              "dmxChannels": 17
+            },
+            {
+              "name": "CMY Standard",
+              "dmxChannels": 10
+            },
+            {
+              "name": "RGB Extended",
+              "dmxChannels": 17
+            },
+            {
+              "name": "RGB Standard",
+              "dmxChannels": 10
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 358,
+          "luminousFluxLumen": 10600,
+          "manualUrl": "https://www.elationlighting.com/products/kl-profile-fc",
+          "dmxChartUrl": "https://www.elationlighting.com/products/kl-profile-fc"
+        },
+        {
+          "type": "Profile",
+          "name": "Proteus Lucius",
+          "modes": [
+            {
+              "name": "Extended",
+              "dmxChannels": 68
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 40.8,
+          "powerWatt": 950,
+          "luminousFluxLumen": 33500,
+          "manualUrl": "https://www.elationlighting.com/products/proteus-lucius",
+          "dmxChartUrl": "https://www.elationlighting.com/products/proteus-lucius"
+        },
+        {
+          "type": "Static Wash",
+          "name": "Paladin Brick",
+          "modes": [
+            {
+              "name": "16bit",
+              "dmxChannels": 8
+            },
+            {
+              "name": "16bit + Dim",
+              "dmxChannels": 10
+            },
+            {
+              "name": "8bit",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Cells",
+              "dmxChannels": 48
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Extended Cells",
+              "dmxChannels": 56
+            },
+            {
+              "name": "HSI",
+              "dmxChannels": 4
+            },
+            {
+              "name": "HSI Cells",
+              "dmxChannels": 26
+            },
+            {
+              "name": "HSI Extended",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Master Cells",
+              "dmxChannels": 50
+            },
+            {
+              "name": "RGB",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 390,
+          "luminousFluxLumen": 9600,
+          "manualUrl": "https://www.elationlighting.com/products/paladin-brick",
+          "dmxChartUrl": "https://www.elationlighting.com/products/paladin-brick"
+        },
+        {
+          "type": "Static Wash",
+          "name": "Paladin Cube",
+          "modes": [
+            {
+              "name": "16bit",
+              "dmxChannels": 8
+            },
+            {
+              "name": "16bit + Dim",
+              "dmxChannels": 10
+            },
+            {
+              "name": "8bit",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Cells",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Cells + Dim",
+              "dmxChannels": 26
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Extended + Cells",
+              "dmxChannels": 32
+            },
+            {
+              "name": "HSI",
+              "dmxChannels": 4
+            },
+            {
+              "name": "HSI + Cells",
+              "dmxChannels": 17
+            },
+            {
+              "name": "HSI Extended",
+              "dmxChannels": 10
+            },
+            {
+              "name": "RGB",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 4.75,
+          "powerWatt": 120,
+          "luminousFluxLumen": 3200,
+          "manualUrl": "https://www.elationlighting.com/products/paladin-cube",
+          "dmxChartUrl": "https://www.elationlighting.com/products/paladin-cube"
+        },
+        {
+          "type": "Static Wash",
+          "name": "Paladin Panel",
+          "modes": [
+            {
+              "name": "16bit",
+              "dmxChannels": 8
+            },
+            {
+              "name": "16bit + Dim",
+              "dmxChannels": 10
+            },
+            {
+              "name": "8bit",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Cells",
+              "dmxChannels": 80
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Extended Cells",
+              "dmxChannels": 88
+            },
+            {
+              "name": "HSI",
+              "dmxChannels": 4
+            },
+            {
+              "name": "HSI Cells",
+              "dmxChannels": 38
+            },
+            {
+              "name": "HSI Extended",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Master Cells",
+              "dmxChannels": 82
+            },
+            {
+              "name": "RGB",
+              "dmxChannels": 3
+            }
+          ],
+          "weightKilogram": 15,
+          "powerWatt": 800,
+          "luminousFluxLumen": 20000,
+          "manualUrl": "https://www.elationlighting.com/products/paladin-panel",
+          "dmxChartUrl": "https://www.elationlighting.com/products/paladin-panel"
+        },
+        {
+          "type": "Strobe",
+          "name": "Paladin",
+          "modes": [
+            {
+              "name": "Basic",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Extended",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 990,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.elationlighting.com/products/paladin",
+          "dmxChartUrl": "https://www.elationlighting.com/products/paladin"
+        },
+        {
+          "type": "Strobe",
+          "name": "Protron 3K",
+          "modes": [
+            {
+              "name": "1CH",
+              "dmxChannels": 1
+            },
+            {
+              "name": "2CH",
+              "dmxChannels": 2
+            },
+            {
+              "name": "3CH",
+              "dmxChannels": 3
+            },
+            {
+              "name": "4CH",
+              "dmxChannels": 4
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 80000,
+          "manualUrl": "https://www.elationlighting.com/products/protron-3k",
+          "dmxChartUrl": "https://www.elationlighting.com/products/protron-3k"
         },
         {
           "type": "Strobe",
@@ -15382,6 +15625,85 @@
           "luminousFluxLumen": 40000,
           "manualUrl": "https://www.elationlighting.com/protron-3k-color",
           "dmxChartUrl": "https://www.elationlighting.com/protron-3k-color"
+        },
+        {
+          "type": "Strobe",
+          "name": "Protron Eclypse",
+          "modes": [
+            {
+              "name": "1 zone",
+              "dmxChannels": 13
+            },
+            {
+              "name": "12 zones",
+              "dmxChannels": 57
+            },
+            {
+              "name": "2 zones",
+              "dmxChannels": 17
+            },
+            {
+              "name": "3 zones",
+              "dmxChannels": 21
+            },
+            {
+              "name": "4 zones",
+              "dmxChannels": 25
+            },
+            {
+              "name": "6 zones",
+              "dmxChannels": 33
+            },
+            {
+              "name": "F1",
+              "dmxChannels": 12
+            },
+            {
+              "name": "F12",
+              "dmxChannels": 56
+            },
+            {
+              "name": "F2V / F2H",
+              "dmxChannels": 16
+            },
+            {
+              "name": "F3",
+              "dmxChannels": 20
+            },
+            {
+              "name": "F4",
+              "dmxChannels": 24
+            },
+            {
+              "name": "F6H / F6V",
+              "dmxChannels": 32
+            },
+            {
+              "name": "RGB",
+              "dmxChannels": 3
+            },
+            {
+              "name": "RGB 16bit",
+              "dmxChannels": 6
+            },
+            {
+              "name": "RGBW",
+              "dmxChannels": 4
+            },
+            {
+              "name": "RGBW 16bit",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Strobe",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.elationlighting.com/products/protron-eclypse",
+          "dmxChartUrl": "https://www.elationlighting.com/products/protron-eclypse"
         }
       ]
     },
@@ -19625,6 +19947,114 @@
           "dmxChartUrl": ""
         },
         {
+          "type": "Hybrid",
+          "name": "GT-1",
+          "modes": [
+            {
+              "name": "Normal mode",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 25,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/files/products/gt-1-fl-product-data/GT-1_Data_Sheet_EN.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Laser",
+          "name": "impression Laser",
+          "modes": [
+            {
+              "name": "Normal mode",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/discontinued/impression-laser-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED bar",
+          "name": "FUSION Stick FS10",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard",
+              "dmxChannels": 12
+            },
+            {
+              "name": "Mode 2 - Advanced",
+              "dmxChannels": 17
+            },
+            {
+              "name": "Mode 3 - RGBW",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Mode 4 - Compressed",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Mode 5 - Pixel",
+              "dmxChannels": 52
+            },
+            {
+              "name": "Mode 6 - Compressed Pixel",
+              "dmxChannels": 40
+            },
+            {
+              "name": "Mode 8 - Patterns",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 9 - Rocket",
+              "dmxChannels": 61
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 179,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/discontinued/fusion-stick-fs10-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "LED bar",
+          "name": "FUSION Stick FS16 Z",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Mode 2 - Advanced",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Mode 3 - Pixel 8-bit",
+              "dmxChannels": 79
+            },
+            {
+              "name": "Mode 4 - Compressed RGBW",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Mode 5 - Compressed Pixel 8-bit",
+              "dmxChannels": 69
+            },
+            {
+              "name": "Mode 6 - Pixel 16-bit",
+              "dmxChannels": 143
+            }
+          ],
+          "weightKilogram": 13,
+          "powerWatt": 450,
+          "luminousFluxLumen": 5890,
+          "manualUrl": "https://glp.de/en/products/discontinued/fusion-stick-fs16-z-en",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Linear moving head wash",
           "name": "impression FR10 Bar",
           "modes": [
@@ -19660,8 +20090,16 @@
               "dmxChannels": 19
             },
             {
+              "name": "High Resolution mode",
+              "dmxChannels": 34
+            },
+            {
               "name": "Normal mode",
               "dmxChannels": 33
+            },
+            {
+              "name": "Single Pixel mode",
+              "dmxChannels": 48
             }
           ],
           "weightKilogram": 8,
@@ -19675,8 +20113,24 @@
           "name": "impression X4 Bar 20",
           "modes": [
             {
+              "name": "Compressed mode",
+              "dmxChannels": 19
+            },
+            {
+              "name": "High Resolution mode",
+              "dmxChannels": 35
+            },
+            {
               "name": "Normal mode",
-              "dmxChannels": 33
+              "dmxChannels": 34
+            },
+            {
+              "name": "Single Pixel High Resolution mode",
+              "dmxChannels": 89
+            },
+            {
+              "name": "Single Pixel mode",
+              "dmxChannels": 88
             }
           ],
           "weightKilogram": 0,
@@ -19786,6 +20240,36 @@
         },
         {
           "type": "Profile",
+          "name": "impression E350",
+          "modes": [
+            {
+              "name": "Normal mode",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://goknight.com/content/documentation/impression E350 DMX Channel Index V50 EN Rev C 20200217.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
+          "name": "impression S350",
+          "modes": [
+            {
+              "name": "Normal mode",
+              "dmxChannels": 35
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-s350-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Profile",
           "name": "impression S500 Profile",
           "modes": [
             {
@@ -19812,6 +20296,60 @@
           "powerWatt": 295,
           "luminousFluxLumen": 8300,
           "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/fusion-exo-spot-30-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Spot",
+          "name": "impression Spot One",
+          "modes": [
+            {
+              "name": "High Resolution mode",
+              "dmxChannels": 31
+            },
+            {
+              "name": "Normal mode",
+              "dmxChannels": 24
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/discontinued/impression-spot-one-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Static wash light",
+          "name": "FUSION PAR FP7",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard",
+              "dmxChannels": 8
+            },
+            {
+              "name": "Mode 2 - 6-Channel",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Mode 3 - 5-Channel",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 4 - RGBW",
+              "dmxChannels": 4
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 3
+            },
+            {
+              "name": "Mode 6 - Easy",
+              "dmxChannels": 2
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 222,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/discontinued/fusion-par-fp7-en",
           "dmxChartUrl": ""
         },
         {
@@ -20336,6 +20874,40 @@
         },
         {
           "type": "Wash",
+          "name": "HIGHLANDER Wash",
+          "modes": [
+            {
+              "name": "Normal mode",
+              "dmxChannels": 26
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1750,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/en/products/moving-lights-discharge/highlander-wash",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "impression Chrome",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 10
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 350,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://richardmartinlighting.co.uk/glp-impression-chrome/",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
           "name": "impression FR1",
           "modes": [
             {
@@ -20401,6 +20973,21 @@
         },
         {
           "type": "Wash",
+          "name": "impression S350 Wash",
+          "modes": [
+            {
+              "name": "Normal mode",
+              "dmxChannels": 27
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 8900,
+          "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-s350-wash-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
           "name": "impression S500 Wash",
           "modes": [
             {
@@ -20412,6 +20999,48 @@
           "powerWatt": 750,
           "luminousFluxLumen": 13100,
           "manualUrl": "https://glp.de/en/products/entertainment-lighting/moving-lights/impression-s500-wash-en",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "impression Wash One",
+          "modes": [
+            {
+              "name": "Compress mode",
+              "dmxChannels": 14
+            },
+            {
+              "name": "High Resolution (Extended) mode",
+              "dmxChannels": 24
+            },
+            {
+              "name": "Normal mode",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/files/products/impression-wash-one-product-data/Impression_WashOne_DMX_1.02_EN.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "impression X1",
+          "modes": [
+            {
+              "name": "Compressed mode",
+              "dmxChannels": 14
+            },
+            {
+              "name": "Normal mode",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 85,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://glp.de/files/products/impression-x1-product-data/Impression_X1_DMX_v1.1_EN.pdf",
           "dmxChartUrl": ""
         },
         {
@@ -20452,6 +21081,10 @@
             {
               "name": "Normal mode",
               "dmxChannels": 29
+            },
+            {
+              "name": "Single Pixel mode",
+              "dmxChannels": 169
             }
           ],
           "weightKilogram": 0,
@@ -20464,6 +21097,10 @@
           "type": "Wash",
           "name": "impression X4 S",
           "modes": [
+            {
+              "name": "High Resolution (Extended) mode",
+              "dmxChannels": 19
+            },
             {
               "name": "Standard mode",
               "dmxChannels": 18
@@ -20482,6 +21119,10 @@
             {
               "name": "Compressed mode",
               "dmxChannels": 16
+            },
+            {
+              "name": "High Resolution (Extended) mode",
+              "dmxChannels": 27
             },
             {
               "name": "Normal mode",
@@ -25944,12 +26585,16 @@
               "dmxChannels": 17
             },
             {
+              "name": "Compact Direct",
+              "dmxChannels": 17
+            },
+            {
               "name": "Extended",
               "dmxChannels": 89
             },
             {
               "name": "Ludicrous",
-              "dmxChannels": 117
+              "dmxChannels": 512
             }
           ],
           "weightKilogram": 0,
@@ -27981,6 +28626,21 @@
         },
         {
           "type": "Beam Wash",
+          "name": "iESPRITE LTL WB",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 53
+            }
+          ],
+          "weightKilogram": 37.5,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/iesprite-ltl-wb",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Beam Wash",
           "name": "iFORTE LTX FS",
           "modes": [
             {
@@ -28022,6 +28682,29 @@
           "powerWatt": 750,
           "luminousFluxLumen": 23000,
           "manualUrl": "https://www.robe.cz/ipainte-ltm-wb",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Beam Wash",
+          "name": "SVB1",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 61
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 58
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://cdn.aws.robe.cz/print/en_product_6152.pdf",
           "dmxChartUrl": ""
         },
         {
@@ -28155,6 +28838,190 @@
           "dmxChartUrl": ""
         },
         {
+          "type": "Footlight",
+          "name": "FOOTSIE1 MC",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 35
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 45,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robelighting.com/footsie1-mc",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Footlight",
+          "name": "FOOTSIE1 RGBW",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 28
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 35
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 45,
+          "luminousFluxLumen": 2470,
+          "manualUrl": "https://www.robelighting.de/res/web/downloads/catalogues/ROBE_Footsie_range_leaflet_online_version.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Footlight",
+          "name": "FOOTSIE1 TW",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 2
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 16
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 23
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 45,
+          "luminousFluxLumen": 3620,
+          "manualUrl": "https://www.robelighting.de/res/web/downloads/catalogues/ROBE_Footsie_range_leaflet_online_version.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Footlight",
+          "name": "FOOTSIE1 WW",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 11
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 18
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 45,
+          "luminousFluxLumen": 3557,
+          "manualUrl": "https://www.robelighting.de/res/web/downloads/catalogues/ROBE_Footsie_range_leaflet_online_version.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Footlight",
+          "name": "FOOTSIE2 MC",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 49
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 85,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/footsie2-mc",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Footlight",
+          "name": "FOOTSIE2 RGBW",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 36
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 49
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robelighting.de/res/web/downloads/catalogues/ROBE_Footsie_range_leaflet_online_version.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Footlight",
+          "name": "FOOTSIE2 TW",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 2
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 20
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 33
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 7240,
+          "manualUrl": "https://www.robelighting.de/res/web/downloads/catalogues/ROBE_Footsie_range_leaflet_online_version.pdf",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Footlight",
+          "name": "FOOTSIE2 WW",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 13
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 26
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 7115,
+          "manualUrl": "https://www.robelighting.de/res/web/downloads/catalogues/ROBE_Footsie_range_leaflet_online_version.pdf",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Fresnel",
           "name": "iESPRITE Fresnel",
           "modes": [
@@ -28218,6 +29085,37 @@
           "luminousFluxLumen": 10320,
           "manualUrl": "User_manual_Robin_T1_Fresnel_T1_PC.pdf",
           "dmxChartUrl": "Robin_T1_Fresnel_Robin_T1_PC_DMX_charts.pdf"
+        },
+        {
+          "type": "Fresnel",
+          "name": "T11 Fresnel",
+          "modes": [
+            {
+              "name": "Mode 1 - 16-bit CMY/RGB",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Mode 2 - 8-bit CMY/RGB",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 3 - 16-bit RGBAL",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 4 - White light + dimmer",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Mode 5 - Dimmer only",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 9600,
+          "manualUrl": "https://robe.cz/t11-fresnel",
+          "dmxChartUrl": ""
         },
         {
           "type": "Fresnel",
@@ -28556,6 +29454,37 @@
           "luminousFluxLumen": 9939,
           "manualUrl": "User_manual_Robin_T1_Fresnel_T1_PC.pdf",
           "dmxChartUrl": "Robin_T1_Fresnel_Robin_T1_PC_DMX_charts.pdf"
+        },
+        {
+          "type": "PC",
+          "name": "T11 PC",
+          "modes": [
+            {
+              "name": "Mode 1 - 16-bit CMY/RGB",
+              "dmxChannels": 18
+            },
+            {
+              "name": "Mode 2 - 8-bit CMY/RGB",
+              "dmxChannels": 9
+            },
+            {
+              "name": "Mode 3 - 16-bit RGBAL",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 4 - White light + dimmer",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Mode 5 - Dimmer only",
+              "dmxChannels": 1
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 9400,
+          "manualUrl": "https://robe.cz/t11-pc",
+          "dmxChartUrl": ""
         },
         {
           "type": "PC",
@@ -28989,6 +29918,21 @@
           "dmxChartUrl": "Robin_BMFL_Spot_DMX_charts.pdf"
         },
         {
+          "type": "Spot",
+          "name": "CUETE",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 29
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 220,
+          "luminousFluxLumen": 5300,
+          "manualUrl": "https://www.robe.cz/res/downloads/catalogues/ROBE_CUETE_leaflet_online_version.pdf",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Static fresnel light",
           "name": "T15 Fresnel",
           "modes": [
@@ -29192,6 +30136,44 @@
           "powerWatt": 750,
           "luminousFluxLumen": 18000,
           "manualUrl": "https://www.robe.cz/arianne-6",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "BMFL Wash",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 25
+            },
+            {
+              "name": "Mode 2 - Reduced 8-bit",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 35,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/api/robe/pdfs/en/product/646",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash",
+          "name": "BMFL Wash XF",
+          "modes": [
+            {
+              "name": "Mode 1 - Standard 16-bit",
+              "dmxChannels": 34
+            },
+            {
+              "name": "Mode 2 - Reduced 8-bit",
+              "dmxChannels": 30
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/api/robe/pdfs/en/product/646",
           "dmxChartUrl": ""
         },
         {
@@ -29421,6 +30403,137 @@
           "luminousFluxLumen": 7200,
           "manualUrl": "https://www.robe.cz/res/downloads/user_manuals/User_manual_Robin_WTF.pdf",
           "dmxChartUrl": "https://www.robe.cz/res/downloads/dmx_charts/Robin_WTF_DMX_charts.pdf"
+        },
+        {
+          "type": "Wash FX",
+          "name": "Arianne 12",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 66
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robelighting.com/arianne-12",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash FX",
+          "name": "Arianne 2",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 15
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 35
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 42
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 330,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/arianne-2",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash FX",
+          "name": "Arianne 4",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 22
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 27
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 50
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/arianne-4",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash FX",
+          "name": "SVOPATT",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 124
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 286
+            },
+            {
+              "name": "Mode 5",
+              "dmxChannels": 384
+            }
+          ],
+          "weightKilogram": 39.7,
+          "powerWatt": 2400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/svopatt",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Wash FX",
+          "name": "SVOPATT Classic",
+          "modes": [
+            {
+              "name": "Mode 1",
+              "dmxChannels": 1
+            },
+            {
+              "name": "Mode 2",
+              "dmxChannels": 5
+            },
+            {
+              "name": "Mode 3",
+              "dmxChannels": 19
+            },
+            {
+              "name": "Mode 4",
+              "dmxChannels": 83
+            }
+          ],
+          "weightKilogram": 36.3,
+          "powerWatt": 2400,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.robe.cz/svopatt-classic",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -34184,218 +35297,23 @@
       "name": "Vari-Lite",
       "products": [
         {
-          "type": "Bar",
-          "name": "Showline SL BAR 640",
-          "modes": [
-            {
-              "name": "Pixel",
-              "dmxChannels": 28
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 7
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Bar",
-          "name": "VL800 BeamLine",
-          "modes": [
-            {
-              "name": "Full",
-              "dmxChannels": 74
-            },
-            {
-              "name": "Pixel",
-              "dmxChannels": 62
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 3000,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl800-beamline",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl800-beamline"
-        },
-        {
           "type": "Beam Wash",
           "name": "VL10 BeamWash",
           "modes": [
             {
-              "name": "Extended",
-              "dmxChannels": 68
-            },
-            {
-              "name": "Pixel",
-              "dmxChannels": 144
-            },
-            {
-              "name": "Standard",
+              "name": "16-bit",
               "dmxChannels": 36
+            },
+            {
+              "name": "16-bit Enhanced",
+              "dmxChannels": 41
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
+          "weightKilogram": 33,
+          "powerWatt": 850,
+          "luminousFluxLumen": 28000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl10-beamwash",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl10-beamwash"
-        },
-        {
-          "type": "Cyclorama",
-          "name": "VL600 Acclaim Cyc",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 11
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 150,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
-        },
-        {
-          "type": "Fresnel",
-          "name": "VL Fresnel 3.5 FC",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 14
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 7
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 100,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl-fresnel-3-5-fc",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl-fresnel-3-5-fc"
-        },
-        {
-          "type": "Fresnel",
-          "name": "VL Fresnel 3.5 WW",
-          "modes": [
-            {
-              "name": "1ch Dimmer",
-              "dmxChannels": 1
-            },
-            {
-              "name": "2ch CCT",
-              "dmxChannels": 2
-            },
-            {
-              "name": "4ch 16bit",
-              "dmxChannels": 4
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 100,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl-fresnel-3-5-ww",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl-fresnel-3-5-ww"
-        },
-        {
-          "type": "Fresnel",
-          "name": "VL Fresnel 7 FC",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 14
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 7
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 200,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl-fresnel-7-fc",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl-fresnel-7-fc"
-        },
-        {
-          "type": "Fresnel",
-          "name": "VL Fresnel 7 WW",
-          "modes": [
-            {
-              "name": "1ch Dimmer",
-              "dmxChannels": 1
-            },
-            {
-              "name": "2ch CCT",
-              "dmxChannels": 2
-            },
-            {
-              "name": "4ch 16bit",
-              "dmxChannels": 4
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 200,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl-fresnel-7-ww",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl-fresnel-7-ww"
-        },
-        {
-          "type": "Fresnel",
-          "name": "VL600 Acclaim Fresnel",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 11
-            },
-            {
-              "name": "Full",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 150,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
-        },
-        {
-          "type": "Fresnel",
-          "name": "VL600 Acclaim Fresnel+",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 11
-            },
-            {
-              "name": "Full",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 305,
-          "luminousFluxLumen": 15000,
-          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
         },
         {
           "type": "Moving head profile IP",
@@ -34406,63 +35324,6 @@
           "luminousFluxLumen": 22000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl3200-lt-profile-ip",
           "dmxChartUrl": ""
-        },
-        {
-          "type": "Par",
-          "name": "VL PAR 64 LED FC",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 14
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 7
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl-par-64-led-fc",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl-par-64-led-fc"
-        },
-        {
-          "type": "Par",
-          "name": "VL PAR 64 LED WW",
-          "modes": [
-            {
-              "name": "1ch Dimmer",
-              "dmxChannels": 1
-            },
-            {
-              "name": "2ch CCT",
-              "dmxChannels": 2
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl-par-64-led-ww",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl-par-64-led-ww"
-        },
-        {
-          "type": "Par",
-          "name": "VL600 Acclaim PAR",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 11
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 150,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
         },
         {
           "type": "Profile",
@@ -34481,25 +35342,6 @@
         },
         {
           "type": "Profile",
-          "name": "VL1600 Profile",
-          "modes": [
-            {
-              "name": "16-bit",
-              "dmxChannels": 40
-            },
-            {
-              "name": "16-bit Enhanced",
-              "dmxChannels": 45
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 600,
-          "luminousFluxLumen": 33000,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl1600-profile",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl1600-profile"
-        },
-        {
-          "type": "Profile",
           "name": "VL2500 Profile",
           "modes": [
             {
@@ -34515,6 +35357,25 @@
         },
         {
           "type": "Profile",
+          "name": "VL2600 Profile",
+          "modes": [
+            {
+              "name": "16-bit",
+              "dmxChannels": 42
+            },
+            {
+              "name": "16-bit Enhanced",
+              "dmxChannels": 47
+            }
+          ],
+          "weightKilogram": 32,
+          "powerWatt": 820,
+          "luminousFluxLumen": 19000,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl2600-profile",
+          "dmxChartUrl": "https://www.vari-lite.com/b-dam/vari-lite/products/vl2600-profile/dmx-map/vl2600-profile_dmx_16-bit.pdf"
+        },
+        {
+          "type": "Profile",
           "name": "VL2600 SE Profile",
           "modes": [
             {
@@ -34526,8 +35387,8 @@
               "dmxChannels": 47
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 570,
+          "weightKilogram": 32,
+          "powerWatt": 0,
           "luminousFluxLumen": 23750,
           "manualUrl": "https://www.vari-lite.com/global/products/vl2600-profile",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2600-profile"
@@ -34538,16 +35399,16 @@
           "modes": [
             {
               "name": "16-bit",
-              "dmxChannels": 46
+              "dmxChannels": 49
             },
             {
               "name": "16-bit Enhanced",
-              "dmxChannels": 56
+              "dmxChannels": 52
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 1000,
-          "luminousFluxLumen": 50000,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.vari-lite.com/global/products/vl3600-lt-profile-ip",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl3600-lt-profile-ip"
         },
@@ -34557,106 +35418,18 @@
           "modes": [
             {
               "name": "16-bit",
-              "dmxChannels": 46
+              "dmxChannels": 49
             },
             {
               "name": "16-bit Enhanced",
-              "dmxChannels": 56
+              "dmxChannels": 54
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 1000,
+          "weightKilogram": 48,
+          "powerWatt": 0,
           "luminousFluxLumen": 45000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl3600-profile-ip",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl3600-profile-ip"
-        },
-        {
-          "type": "Profile",
-          "name": "VL600 Acclaim PLE",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 11
-            },
-            {
-              "name": "Full",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 150,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
-        },
-        {
-          "type": "Profile",
-          "name": "VL600 Acclaim PLE+",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 11
-            },
-            {
-              "name": "Full",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 305,
-          "luminousFluxLumen": 15000,
-          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
-        },
-        {
-          "type": "Profile",
-          "name": "VL600 Acclaim PLZX",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 11
-            },
-            {
-              "name": "Full",
-              "dmxChannels": 16
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 150,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/acclaim-series",
-          "dmxChartUrl": "https://www.vari-lite.com/global/acclaim-series"
-        },
-        {
-          "type": "Spot",
-          "name": "VL1600 Spot",
-          "modes": [
-            {
-              "name": "16-bit",
-              "dmxChannels": 40
-            },
-            {
-              "name": "16-bit Enhanced",
-              "dmxChannels": 45
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 600,
-          "luminousFluxLumen": 28000,
-          "manualUrl": "https://www.vari-lite.com/global/products/vl1600-spot",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl1600-spot"
         },
         {
           "type": "Spot",
@@ -34675,22 +35448,22 @@
         },
         {
           "type": "Spot",
-          "name": "VL2600 Spot (Legacy)",
+          "name": "VL2600 Spot",
           "modes": [
             {
               "name": "16-bit",
-              "dmxChannels": 47
+              "dmxChannels": 36
             },
             {
               "name": "16-bit Enhanced",
-              "dmxChannels": 42
+              "dmxChannels": 41
             }
           ],
           "weightKilogram": 32,
           "powerWatt": 820,
           "luminousFluxLumen": 19000,
           "manualUrl": "https://www.vari-lite.com/global/products/vl2600-spot",
-          "dmxChartUrl": ""
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2600-spot"
         },
         {
           "type": "Spot",
@@ -34738,25 +35511,6 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "Stroboscope",
-          "name": "Showline SL NITRO 510C",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 9
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products",
-          "dmxChartUrl": ""
-        },
-        {
           "type": "Wash",
           "name": "VL2500 Wash",
           "modes": [
@@ -34777,37 +35531,87 @@
           "modes": [
             {
               "name": "16-bit",
-              "dmxChannels": 42
+              "dmxChannels": 29
             },
             {
               "name": "16-bit Enhanced",
-              "dmxChannels": 47
+              "dmxChannels": 32
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 570,
-          "luminousFluxLumen": 27500,
+          "weightKilogram": 30,
+          "powerWatt": 820,
+          "luminousFluxLumen": 0,
           "manualUrl": "https://www.vari-lite.com/global/products/vl2600-wash",
           "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2600-wash"
+        },
+        {
+          "type": "Wash",
+          "name": "VL2600 Wash",
+          "modes": [
+            {
+              "name": "16-bit",
+              "dmxChannels": 29
+            },
+            {
+              "name": "16-bit Enhanced",
+              "dmxChannels": 32
+            }
+          ],
+          "weightKilogram": 30.2,
+          "powerWatt": 820,
+          "luminousFluxLumen": 22000,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl2600-wash",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl2600-wash"
+        },
+        {
+          "type": "Wash",
+          "name": "VL3000 Wash",
+          "modes": [
+            {
+              "name": "16-bit",
+              "dmxChannels": 16
+            }
+          ],
+          "weightKilogram": 36,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.castinfo.de/downloaditem/v/l/vl3000washdatasheet.pdf",
+          "dmxChartUrl": "https://www.castinfo.de/downloaditem/v/l/vl3000washdatasheet.pdf"
         },
         {
           "type": "Wash",
           "name": "VL5LED Wash",
           "modes": [
             {
-              "name": "16-bit",
+              "name": "Open Source ? Blade pixel 0",
+              "dmxChannels": 33
+            },
+            {
+              "name": "Open Source ? Blade pixel 1",
               "dmxChannels": 36
             },
             {
-              "name": "16-bit Enhanced",
-              "dmxChannels": 44
+              "name": "Open Source ? Blade pixel 16",
+              "dmxChannels": 81
+            },
+            {
+              "name": "Smart Color ? Blade pixel 0",
+              "dmxChannels": 29
+            },
+            {
+              "name": "Smart Color ? Blade pixel 1",
+              "dmxChannels": 32
+            },
+            {
+              "name": "Smart Color ? Blade pixel 16",
+              "dmxChannels": 77
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.vari-lite.com/global/products/v5led-wash",
-          "dmxChartUrl": "https://www.vari-lite.com/global/products/v5led-wash"
+          "powerWatt": 1320,
+          "luminousFluxLumen": 14000,
+          "manualUrl": "https://www.vari-lite.com/global/products/vl5led-wash",
+          "dmxChartUrl": "https://www.vari-lite.com/global/products/vl5led-wash"
         },
         {
           "type": "Wash",
@@ -34823,29 +35627,6 @@
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.vari-lite.com/global/products",
           "dmxChartUrl": ""
-        },
-        {
-          "type": "Wash FX",
-          "name": "VLHive 151 Digital FX",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 60
-            },
-            {
-              "name": "Pixel",
-              "dmxChannels": 196
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 36
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 45000,
-          "manualUrl": "https://www.vari-lite.com/global/vlhive",
-          "dmxChartUrl": "https://www.vari-lite.com/global/vlhive"
         }
       ]
     },
@@ -35272,5 +36053,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-06T10:54:17.409Z"
+  "updatedAt": "2026-11-06T15:56:42.081Z"
 }
