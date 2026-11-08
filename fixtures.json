@@ -2745,6 +2745,81 @@
       "name": "Astera",
       "products": [
         {
+          "type": "Accessory",
+          "name": "ART7 AsteraBox",
+          "modes": [
+            {
+              "name": "1 univers DMX512 CRMX",
+              "dmxChannels": 512
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://astera-led.com/products/?c=controller",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Accessory",
+          "name": "ART7 AsteraBox WiFi",
+          "modes": [
+            {
+              "name": "1 univers DMX512 CRMX/WiFi",
+              "dmxChannels": 512
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://astera-led.com/products/?c=controller",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Accessory",
+          "name": "DataLink",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://astera-led.com/products/?c=controller",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Accessory",
+          "name": "PowerBox 2x86W",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://astera-led.com/products/?c=controller",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Accessory",
+          "name": "PrepBox",
+          "modes": [],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://astera-led.com/products/?c=controller",
+          "dmxChartUrl": ""
+        },
+        {
+          "type": "Accessory",
+          "name": "Titan PowerBox",
+          "modes": [
+            {
+              "name": "1 univers DMX/ArtNet/sACN (10 tubes ? 48ch max)",
+              "dmxChannels": 512
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://astera-led.com/products/titan-powerbox/",
+          "dmxChartUrl": ""
+        },
+        {
           "type": "Ampoule LED sans fil E27 (nouvelle generation)",
           "name": "NYX Bulb",
           "modes": [
@@ -2760,38 +2835,215 @@
           "dmxChartUrl": ""
         },
         {
-          "type": "ART7 AsteraBox",
-          "name": "Transmetteur DMX sans fil CRMX/W-DMX/Bluetooth",
+          "type": "Bulb",
+          "name": "LunaBulb",
           "modes": [
             {
-              "name": "1 univers DMX512 CRMX",
-              "dmxChannels": 512
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "2 - RGBW (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
+          "weightKilogram": 0.081,
+          "powerWatt": 4.25,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/?c=controller",
-          "dmxChartUrl": ""
+          "manualUrl": "https://astera-led.com/products/lunabulb/",
+          "dmxChartUrl": "https://astera-led.com/products/lunabulb/downloads/"
         },
         {
-          "type": "ART7 AsteraBox WiFi",
-          "name": "Transmetteur DMX sans fil CRMX + WiFi",
+          "type": "Bulb",
+          "name": "NYX Bulb",
           "modes": [
             {
-              "name": "1 univers DMX512 CRMX/WiFi",
-              "dmxChannels": 512
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "2 - RGBW (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
+              "dmxChannels": 6
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/?c=controller",
-          "dmxChartUrl": ""
+          "weightKilogram": 0.24,
+          "powerWatt": 10,
+          "luminousFluxLumen": 750,
+          "manualUrl": "https://astera-led.com/products/nyx-bulb/",
+          "dmxChartUrl": "https://astera-led.com/products/nyx-bulb/downloads/"
         },
         {
-          "type": "AX1 PixelTube",
-          "name": "Tube LED RGBMA 1m batterie IP65 16 pixels (version AX1)",
+          "type": "Bulb",
+          "name": "SolaBulb",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0.433,
+          "powerWatt": 0,
+          "luminousFluxLumen": 394,
+          "manualUrl": "https://astera-led.com/products/solabulb/",
+          "dmxChartUrl": "https://astera-led.com/products/solabulb/downloads/"
+        },
+        {
+          "type": "Fresnel",
+          "name": "LeoFresnel",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "91 - D16+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 9
+            },
+            {
+              "name": "93 - D16+X+Y (Pixel=1)",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 13.83,
+          "powerWatt": 250,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://astera-led.com/products/leofresnel/",
+          "dmxChartUrl": "https://astera-led.com/products/leofresnel/downloads/"
+        },
+        {
+          "type": "Fresnel",
+          "name": "PlutoFresnel",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "91 - D16+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 9
+            },
+            {
+              "name": "93 - D16+X+Y (Pixel=1)",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 4.637,
+          "powerWatt": 80,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://astera-led.com/products/plutofresnel/",
+          "dmxChartUrl": "https://astera-led.com/products/plutofresnel/downloads/"
+        },
+        {
+          "type": "LED Bar",
+          "name": "AX2 PixelBar 100cm",
           "modes": [
             {
               "name": "1 - RGB (Pixel=1, tube entier)",
@@ -2939,204 +3191,264 @@
             }
           ],
           "weightKilogram": 0,
-          "powerWatt": 0,
+          "powerWatt": 160,
           "luminousFluxLumen": 0,
+          "manualUrl": "https://astera-led.com/products/ax2-pixelbar/",
+          "dmxChartUrl": "https://astera-led.com/products/ax2-pixelbar/downloads/"
+        },
+        {
+          "type": "LED Bar",
+          "name": "AX2 PixelBar 50cm",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1, tube entier)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "18 - RGB?4 (Pixel=4)",
+              "dmxChannels": 12
+            },
+            {
+              "name": "2 - RGBW (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "20 - RGBAW?4 (Pixel=4)",
+              "dmxChannels": 20
+            },
+            {
+              "name": "21 - DIM+RGB?4 (Pixel=4)",
+              "dmxChannels": 16
+            },
+            {
+              "name": "24 - RGB+CCT+Dim?4 (Pixel=4)",
+              "dmxChannels": 28
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "66 - RGB?8 (Pixel=8 ? natif Helios)",
+              "dmxChannels": 24
+            },
+            {
+              "name": "67 - RGBW?8 (Pixel=8)",
+              "dmxChannels": 32
+            },
+            {
+              "name": "68 - RGBAW?8 (Pixel=8)",
+              "dmxChannels": 40
+            },
+            {
+              "name": "69 - DIM+RGB?8 (Pixel=8)",
+              "dmxChannels": 32
+            },
+            {
+              "name": "7 - RGB+CCT+Dim+Ind (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "71 - DIM+RGBAW?8 (Pixel=8)",
+              "dmxChannels": 48
+            },
+            {
+              "name": "72 - RGB+CCT+Dim?8 (Pixel=8)",
+              "dmxChannels": 56
+            },
+            {
+              "name": "74 - RGBS?8+strobe (Pixel=8)",
+              "dmxChannels": 25
+            },
+            {
+              "name": "76 - RGBAWS?8+strobe (Pixel=8)",
+              "dmxChannels": 41
+            },
+            {
+              "name": "8 - RGBS+strobe (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 49,
+          "luminousFluxLumen": 2230,
+          "manualUrl": "https://astera-led.com/products/ax2-pixelbar/",
+          "dmxChartUrl": "https://astera-led.com/products/ax2-pixelbar/downloads/"
+        },
+        {
+          "type": "LED Tube",
+          "name": "AX1 PixelTube",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1, tube entier)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "10 - RGBAWS+strobe (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "113 - D16+CCT+GM+RGB?16 (Pixel=16)",
+              "dmxChannels": 128
+            },
+            {
+              "name": "18 - RGB?4 (Pixel=4)",
+              "dmxChannels": 12
+            },
+            {
+              "name": "19 - RGBW?4 (Pixel=4)",
+              "dmxChannels": 16
+            },
+            {
+              "name": "2 - RGBW (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "20 - RGBAW?4 (Pixel=4)",
+              "dmxChannels": 20
+            },
+            {
+              "name": "21 - DIM+RGB?4 (Pixel=4)",
+              "dmxChannels": 16
+            },
+            {
+              "name": "23 - DIM+RGBAW?4 (Pixel=4)",
+              "dmxChannels": 24
+            },
+            {
+              "name": "24 - RGB+CCT+Dim?4 (Pixel=4)",
+              "dmxChannels": 28
+            },
+            {
+              "name": "26 - RGBS?4+strobe (Pixel=4)",
+              "dmxChannels": 13
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "42 - RGB?16 (Pixel=16)",
+              "dmxChannels": 48
+            },
+            {
+              "name": "43 - RGBW?16 (Pixel=16)",
+              "dmxChannels": 64
+            },
+            {
+              "name": "44 - RGBAW?16 (Pixel=16)",
+              "dmxChannels": 80
+            },
+            {
+              "name": "45 - DIM+RGB?16 (Pixel=16)",
+              "dmxChannels": 64
+            },
+            {
+              "name": "47 - DIM+RGBAW?16 (Pixel=16)",
+              "dmxChannels": 96
+            },
+            {
+              "name": "48 - RGB+CCT+Dim?16 (Pixel=16)",
+              "dmxChannels": 112
+            },
+            {
+              "name": "5 - DIM+RGBW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "50 - RGBS?16+strobe (Pixel=16)",
+              "dmxChannels": 49
+            },
+            {
+              "name": "52 - RGBAWS?16+strobe (Pixel=16)",
+              "dmxChannels": 81
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "66 - RGB?8 (Pixel=8)",
+              "dmxChannels": 24
+            },
+            {
+              "name": "67 - RGBW?8 (Pixel=8)",
+              "dmxChannels": 32
+            },
+            {
+              "name": "68 - RGBAW?8 (Pixel=8)",
+              "dmxChannels": 40
+            },
+            {
+              "name": "69 - DIM+RGB?8 (Pixel=8)",
+              "dmxChannels": 32
+            },
+            {
+              "name": "7 - RGB+CCT+Dim+Ind (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "71 - DIM+RGBAW?8 (Pixel=8)",
+              "dmxChannels": 48
+            },
+            {
+              "name": "72 - RGB+CCT+Dim?8 (Pixel=8)",
+              "dmxChannels": 56
+            },
+            {
+              "name": "8 - RGBS+strobe (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "9 - RGBWS+strobe (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "91 - D16+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 9
+            },
+            {
+              "name": "93 - D16+X+Y (Pixel=1)",
+              "dmxChannels": 5
+            }
+          ],
+          "weightKilogram": 1,
+          "powerWatt": 0,
+          "luminousFluxLumen": 695,
           "manualUrl": "https://astera-led.com/products/ax1-pixeltube/",
           "dmxChartUrl": "https://astera-led.com/wp-content/uploads/AX1_PixelTube_DMX_Profiles_V1.pdf"
         },
         {
-          "type": "AX10 SpotMax",
-          "name": "Spot LED RGBMA batterie IP65 haute puissance",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/ax10-spotmax/",
-          "dmxChartUrl": "https://astera-led.com/products/ax10-spotmax/downloads/"
-        },
-        {
-          "type": "AX2 PixelBar 100cm",
-          "name": "Barre LED pixel 100cm RGBMA batterie IP65 16 pixels",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1, tube entier)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "10 - RGBAWS+strobe (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "113 - D16+CCT+GM+RGB?16 (Pixel=16)",
-              "dmxChannels": 128
-            },
-            {
-              "name": "18 - RGB?4 (Pixel=4)",
-              "dmxChannels": 12
-            },
-            {
-              "name": "19 - RGBW?4 (Pixel=4)",
-              "dmxChannels": 16
-            },
-            {
-              "name": "2 - RGBW (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "20 - RGBAW?4 (Pixel=4)",
-              "dmxChannels": 20
-            },
-            {
-              "name": "21 - DIM+RGB?4 (Pixel=4)",
-              "dmxChannels": 16
-            },
-            {
-              "name": "23 - DIM+RGBAW?4 (Pixel=4)",
-              "dmxChannels": 24
-            },
-            {
-              "name": "24 - RGB+CCT+Dim?4 (Pixel=4)",
-              "dmxChannels": 28
-            },
-            {
-              "name": "26 - RGBS?4+strobe (Pixel=4)",
-              "dmxChannels": 13
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "42 - RGB?16 (Pixel=16)",
-              "dmxChannels": 48
-            },
-            {
-              "name": "43 - RGBW?16 (Pixel=16)",
-              "dmxChannels": 64
-            },
-            {
-              "name": "44 - RGBAW?16 (Pixel=16)",
-              "dmxChannels": 80
-            },
-            {
-              "name": "45 - DIM+RGB?16 (Pixel=16)",
-              "dmxChannels": 64
-            },
-            {
-              "name": "47 - DIM+RGBAW?16 (Pixel=16)",
-              "dmxChannels": 96
-            },
-            {
-              "name": "48 - RGB+CCT+Dim?16 (Pixel=16)",
-              "dmxChannels": 112
-            },
-            {
-              "name": "5 - DIM+RGBW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "50 - RGBS?16+strobe (Pixel=16)",
-              "dmxChannels": 49
-            },
-            {
-              "name": "52 - RGBAWS?16+strobe (Pixel=16)",
-              "dmxChannels": 81
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "66 - RGB?8 (Pixel=8)",
-              "dmxChannels": 24
-            },
-            {
-              "name": "67 - RGBW?8 (Pixel=8)",
-              "dmxChannels": 32
-            },
-            {
-              "name": "68 - RGBAW?8 (Pixel=8)",
-              "dmxChannels": 40
-            },
-            {
-              "name": "69 - DIM+RGB?8 (Pixel=8)",
-              "dmxChannels": 32
-            },
-            {
-              "name": "7 - RGB+CCT+Dim+Ind (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "71 - DIM+RGBAW?8 (Pixel=8)",
-              "dmxChannels": 48
-            },
-            {
-              "name": "72 - RGB+CCT+Dim?8 (Pixel=8)",
-              "dmxChannels": 56
-            },
-            {
-              "name": "8 - RGBS+strobe (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "9 - RGBWS+strobe (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "91 - D16+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 9
-            },
-            {
-              "name": "93 - D16+X+Y (Pixel=1)",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/ax2-pixelbar/",
-          "dmxChartUrl": "https://astera-led.com/products/ax2-pixelbar/downloads/"
-        },
-        {
-          "type": "AX2 PixelBar 50cm",
-          "name": "Barre LED pixel 50cm RGBMA batterie IP65 8 pixels",
+          "type": "LED Tube",
+          "name": "Helios Tube",
           "modes": [
             {
               "name": "1 - RGB (Pixel=1, tube entier)",
@@ -3223,311 +3535,15 @@
               "dmxChannels": 6
             }
           ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/ax2-pixelbar/",
-          "dmxChartUrl": "https://astera-led.com/products/ax2-pixelbar/downloads/"
-        },
-        {
-          "type": "AX3 LightDrop",
-          "name": "PAR LED RGBMA batterie IP65 compact plafond/sol",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/ax3-lightdrop/",
-          "dmxChartUrl": "https://astera-led.com/products/ax3-lightdrop/downloads/"
-        },
-        {
-          "type": "AX5 TriplePAR",
-          "name": "PAR LED RGBMA batterie IP65 3-en-1",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
-              "dmxChannels": 6
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/ax5-triplepar/",
-          "dmxChartUrl": "https://astera-led.com/products/ax5-triplepar/downloads/"
-        },
-        {
-          "type": "AX7 SpotLite",
-          "name": "Spot LED RGBMA batterie IP65 zoomable",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/ax7-spotlite/",
-          "dmxChartUrl": "https://astera-led.com/products/ax7-spotlite/downloads/"
-        },
-        {
-          "type": "AX9 PowerPAR",
-          "name": "PAR LED RGBMA batterie IP65 haute puissance",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
-              "dmxChannels": 6
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/ax9-powerpar/",
-          "dmxChartUrl": "https://astera-led.com/products/ax9-powerpar/downloads/"
-        },
-        {
-          "type": "DataLink",
-          "name": "Injecteur DMX wired pour Hyperion/Titan/Helios (sans alim int?gr?e)",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/?c=controller",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Helios Tube",
-          "name": "Tube LED RGBMA 55cm batterie IP65 8 pixels (FP2)",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1, tube entier)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "18 - RGB?4 (Pixel=4)",
-              "dmxChannels": 12
-            },
-            {
-              "name": "2 - RGBW (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "20 - RGBAW?4 (Pixel=4)",
-              "dmxChannels": 20
-            },
-            {
-              "name": "21 - DIM+RGB?4 (Pixel=4)",
-              "dmxChannels": 16
-            },
-            {
-              "name": "24 - RGB+CCT+Dim?4 (Pixel=4)",
-              "dmxChannels": 28
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "66 - RGB?8 (Pixel=8 ? natif Helios)",
-              "dmxChannels": 24
-            },
-            {
-              "name": "67 - RGBW?8 (Pixel=8)",
-              "dmxChannels": 32
-            },
-            {
-              "name": "68 - RGBAW?8 (Pixel=8)",
-              "dmxChannels": 40
-            },
-            {
-              "name": "69 - DIM+RGB?8 (Pixel=8)",
-              "dmxChannels": 32
-            },
-            {
-              "name": "7 - RGB+CCT+Dim+Ind (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "71 - DIM+RGBAW?8 (Pixel=8)",
-              "dmxChannels": 48
-            },
-            {
-              "name": "72 - RGB+CCT+Dim?8 (Pixel=8)",
-              "dmxChannels": 56
-            },
-            {
-              "name": "74 - RGBS?8+strobe (Pixel=8)",
-              "dmxChannels": 25
-            },
-            {
-              "name": "76 - RGBAWS?8+strobe (Pixel=8)",
-              "dmxChannels": 41
-            },
-            {
-              "name": "8 - RGBS+strobe (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
-              "dmxChannels": 6
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 20,
-          "luminousFluxLumen": 0,
+          "weightKilogram": 0.765,
+          "powerWatt": 24,
+          "luminousFluxLumen": 340,
           "manualUrl": "https://astera-led.com/products/helios-tube/",
           "dmxChartUrl": "https://astera-led.com/products/helios-tube/downloads/"
         },
         {
-          "type": "HydraPanel",
-          "name": "Panel LED RGBMA batterie IP65",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "Pixel multi-zones",
-              "dmxChannels": 12
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/hydrapanel/",
-          "dmxChartUrl": "https://astera-led.com/products/hydrapanel/downloads/"
-        },
-        {
-          "type": "Hyperion Tube",
-          "name": "Tube LED RGBMA 2m batterie IP65 32 pixels (FP3)",
+          "type": "LED Tube",
+          "name": "Hyperion Tube",
           "modes": [
             {
               "name": "1 - RGB (Pixel=1, tube entier)",
@@ -3622,413 +3638,15 @@
               "dmxChannels": 128
             }
           ],
-          "weightKilogram": 1.35,
+          "weightKilogram": 0,
           "powerWatt": 92,
           "luminousFluxLumen": 5800,
           "manualUrl": "https://astera-led.com/products/hyperion-tube/",
           "dmxChartUrl": "https://astera-led.com/products/hyperion-tube/downloads/"
         },
         {
-          "type": "LeoFresnel",
-          "name": "Fresnel LED RGBMA batterie IP55 eq. 1000W Tungst?ne",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "91 - D16+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 9
-            },
-            {
-              "name": "93 - D16+X+Y (Pixel=1)",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 250,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/leofresnel/",
-          "dmxChartUrl": "https://astera-led.com/products/leofresnel/downloads/"
-        },
-        {
-          "type": "LunaBulb",
-          "name": "Ampoule LED RGBMA E26/E27/B22 IP44 4.25W",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "2 - RGBW (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            }
-          ],
-          "weightKilogram": 0.081,
-          "powerWatt": 4.25,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/lunabulb/",
-          "dmxChartUrl": "https://astera-led.com/products/lunabulb/downloads/"
-        },
-        {
-          "type": "NYX Bulb",
-          "name": "Ampoule LED RGBMA E27/B22 IP44 5.25W",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "2 - RGBW (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
-              "dmxChannels": 6
-            }
-          ],
-          "weightKilogram": 0.081,
-          "powerWatt": 5.25,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/nyx-bulb/",
-          "dmxChartUrl": "https://astera-led.com/products/nyx-bulb/downloads/"
-        },
-        {
-          "type": "PixelBrick",
-          "name": "Soft panel LED RGBMA compact batterie IP65",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/pixelbrick/",
-          "dmxChartUrl": "https://astera-led.com/products/pixelbrick/downloads/"
-        },
-        {
-          "type": "PlutoFresnel",
-          "name": "Fresnel LED RGBMA batterie IP55 eq. 300W Tungst?ne",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "91 - D16+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 9
-            },
-            {
-              "name": "93 - D16+X+Y (Pixel=1)",
-              "dmxChannels": 5
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 80,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/plutofresnel/",
-          "dmxChartUrl": "https://astera-led.com/products/plutofresnel/downloads/"
-        },
-        {
-          "type": "PowerBox 2x86W",
-          "name": "Alimentation 2 sorties pour PlutoFresnel/HydraPanel/PixelBrick",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/?c=controller",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "PrepBox",
-          "name": "Outil de pr?paration rapide QuikSpot/AX5 (Blue Mode)",
-          "modes": [],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/?c=controller",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "QuikBeam",
-          "name": "Spot Fresnel compact LED RGBMA eq. 200W Tungst?ne IP65 PoE",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "91 - D16+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 9
-            }
-          ],
-          "weightKilogram": 1.617,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/quikbeam/",
-          "dmxChartUrl": "https://astera-led.com/products/quikbeam/specs/"
-        },
-        {
-          "type": "QuikPunch",
-          "name": "PAR/Fresnel/Wash compact LED RGBMA batterie IP65",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "91 - D16+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 9
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/quikpunch/",
-          "dmxChartUrl": "https://astera-led.com/products/quikpunch/downloads/"
-        },
-        {
-          "type": "QuikSpot",
-          "name": "Spot Fresnel LED RGBMA 60W batterie IP65 zoom 13-60?",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 7
-            },
-            {
-              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "91 - D16+CCT+GM+C+RGB (Pixel=1)",
-              "dmxChannels": 9
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 60,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/quikspot/",
-          "dmxChartUrl": "https://astera-led.com/products/quikspot/specs/"
-        },
-        {
-          "type": "SolaBulb",
-          "name": "Mini PAR LED RGBMA zoomable batterie IP65",
-          "modes": [
-            {
-              "name": "1 - RGB (Pixel=1)",
-              "dmxChannels": 3
-            },
-            {
-              "name": "3 - RGBAW (Pixel=1)",
-              "dmxChannels": 5
-            },
-            {
-              "name": "4 - DIM+RGB (Pixel=1)",
-              "dmxChannels": 4
-            },
-            {
-              "name": "6 - DIM+RGBAW (Pixel=1)",
-              "dmxChannels": 6
-            },
-            {
-              "name": "7 - RGB+CCT+Dim (Pixel=1)",
-              "dmxChannels": 7
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/solabulb/",
-          "dmxChartUrl": "https://astera-led.com/products/solabulb/downloads/"
-        },
-        {
-          "type": "Titan PowerBox",
-          "name": "Alimentation + hub DMX/ArtNet/sACN pour 10? Titan/Helios",
-          "modes": [
-            {
-              "name": "1 univers DMX/ArtNet/sACN (10 tubes ? 48ch max)",
-              "dmxChannels": 512
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 0,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://astera-led.com/products/titan-powerbox/",
-          "dmxChartUrl": ""
-        },
-        {
-          "type": "Titan Tube",
-          "name": "Tube LED RGBMA 1m batterie IP65 16 pixels (FP1)",
+          "type": "LED Tube",
+          "name": "Titan Tube",
           "modes": [
             {
               "name": "1 - RGB (Pixel=1, tube entier)",
@@ -4176,10 +3794,392 @@
             }
           ],
           "weightKilogram": 1.35,
-          "powerWatt": 40,
-          "luminousFluxLumen": 0,
+          "powerWatt": 48,
+          "luminousFluxLumen": 2900,
           "manualUrl": "https://astera-led.com/products/titan/",
           "dmxChartUrl": "https://astera-led.com/wp-content/uploads/FP1_Titan_Tube_DMX_Profiles_V1.pdf"
+        },
+        {
+          "type": "Panel",
+          "name": "HydraPanel",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "Pixel multi-zones",
+              "dmxChannels": 12
+            }
+          ],
+          "weightKilogram": 0.604,
+          "powerWatt": 17,
+          "luminousFluxLumen": 1287,
+          "manualUrl": "https://astera-led.com/products/hydrapanel/",
+          "dmxChartUrl": "https://astera-led.com/products/hydrapanel/downloads/"
+        },
+        {
+          "type": "Panel",
+          "name": "PixelBrick",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 20,
+          "luminousFluxLumen": 475,
+          "manualUrl": "https://astera-led.com/products/pixelbrick/",
+          "dmxChartUrl": "https://astera-led.com/products/pixelbrick/downloads/"
+        },
+        {
+          "type": "PAR",
+          "name": "AX3 LightDrop",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0.68,
+          "powerWatt": 15,
+          "luminousFluxLumen": 430,
+          "manualUrl": "https://astera-led.com/products/ax3-lightdrop/",
+          "dmxChartUrl": "https://astera-led.com/products/ax3-lightdrop/downloads/"
+        },
+        {
+          "type": "PAR",
+          "name": "AX5 TriplePAR",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1413,
+          "manualUrl": "https://astera-led.com/products/ax5-triplepar/",
+          "dmxChartUrl": "https://astera-led.com/products/ax5-triplepar/downloads/"
+        },
+        {
+          "type": "PAR",
+          "name": "AX9 PowerPAR",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
+              "dmxChannels": 6
+            }
+          ],
+          "weightKilogram": 5.66,
+          "powerWatt": 110,
+          "luminousFluxLumen": 3214,
+          "manualUrl": "https://astera-led.com/products/ax9-powerpar/",
+          "dmxChartUrl": "https://astera-led.com/products/ax9-powerpar/downloads/"
+        },
+        {
+          "type": "PAR",
+          "name": "QuikPunch",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "91 - D16+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 6.567,
+          "powerWatt": 100,
+          "luminousFluxLumen": 3679,
+          "manualUrl": "https://astera-led.com/products/quikpunch/",
+          "dmxChartUrl": "https://astera-led.com/products/quikpunch/downloads/"
+        },
+        {
+          "type": "Spot",
+          "name": "AX10 SpotMax",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 7.94,
+          "powerWatt": 0,
+          "luminousFluxLumen": 3350,
+          "manualUrl": "https://astera-led.com/products/ax10-spotmax/",
+          "dmxChartUrl": "https://astera-led.com/products/ax10-spotmax/downloads/"
+        },
+        {
+          "type": "Spot",
+          "name": "AX7 SpotLite",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 0,
+          "luminousFluxLumen": 1675,
+          "manualUrl": "https://astera-led.com/products/ax7-spotlite/",
+          "dmxChartUrl": "https://astera-led.com/products/ax7-spotlite/downloads/"
+        },
+        {
+          "type": "Spot",
+          "name": "QuikBeam",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "91 - D16+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 1.617,
+          "powerWatt": 40,
+          "luminousFluxLumen": 1239,
+          "manualUrl": "https://astera-led.com/products/quikbeam/",
+          "dmxChartUrl": "https://astera-led.com/products/quikbeam/specs/"
+        },
+        {
+          "type": "Spot",
+          "name": "QuikSpot",
+          "modes": [
+            {
+              "name": "1 - RGB (Pixel=1)",
+              "dmxChannels": 3
+            },
+            {
+              "name": "3 - RGBAW (Pixel=1)",
+              "dmxChannels": 5
+            },
+            {
+              "name": "4 - DIM+RGB (Pixel=1)",
+              "dmxChannels": 4
+            },
+            {
+              "name": "6 - DIM+RGBAW (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "7 - RGB+CCT+Dim (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "89 - D+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 7
+            },
+            {
+              "name": "90 - D+CCT+GM+HueSat (Pixel=1)",
+              "dmxChannels": 6
+            },
+            {
+              "name": "91 - D16+CCT+GM+C+RGB (Pixel=1)",
+              "dmxChannels": 9
+            }
+          ],
+          "weightKilogram": 3.45,
+          "powerWatt": 50,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://astera-led.com/products/quikspot/",
+          "dmxChartUrl": "https://astera-led.com/products/quikspot/specs/"
         }
       ]
     },
@@ -15711,53 +15711,19 @@
       "name": "ETC",
       "products": [
         {
-          "type": "Beam Moving Head",
-          "name": "Hyperstar",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 39
-            }
-          ],
-          "weightKilogram": 20,
-          "powerWatt": 250,
-          "luminousFluxLumen": 15000,
-          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Hyperstar/",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Hyperstar/"
-        },
-        {
-          "type": "Beam Moving Head",
+          "type": "Beam",
           "name": "SolaHyBeam 3000",
           "modes": [
             {
-              "name": "Extended",
-              "dmxChannels": 60
-            },
-            {
               "name": "Standard",
-              "dmxChannels": 30
+              "dmxChannels": 51
             }
           ],
-          "weightKilogram": 32,
-          "powerWatt": 1000,
+          "weightKilogram": 50.8,
+          "powerWatt": 1276,
           "luminousFluxLumen": 37000,
           "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/SolaHyBeam-3000/",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/SolaHyBeam-3000/"
-        },
-        {
-          "type": "Camera",
-          "name": "RigPOV",
-          "modes": [
-            {
-              "name": "Basic",
-              "dmxChannels": 4
-            }
-          ],
-          "weightKilogram": 2,
-          "powerWatt": 50,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/"
         },
         {
           "type": "Cyclo",
@@ -15779,46 +15745,8 @@
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Cyc"
         },
         {
-          "type": "Effect",
-          "name": "SolaPix Fan 8",
-          "modes": [
-            {
-              "name": "Pixel",
-              "dmxChannels": 120
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 40
-            }
-          ],
-          "weightKilogram": 12,
-          "powerWatt": 400,
-          "luminousFluxLumen": 18000,
-          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/"
-        },
-        {
-          "type": "Effect",
-          "name": "Zeo",
-          "modes": [
-            {
-              "name": "Basic",
-              "dmxChannels": 24
-            },
-            {
-              "name": "Extended",
-              "dmxChannels": 48
-            }
-          ],
-          "weightKilogram": 24,
-          "powerWatt": 800,
-          "luminousFluxLumen": 30000,
-          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Zeo/",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Zeo/"
-        },
-        {
           "type": "LED Bar",
-          "name": "ColorSource Liner (0.5m)",
+          "name": "ColorSource Linear (0.5m)",
           "modes": [
             {
               "name": "Direct",
@@ -15837,7 +15765,7 @@
         },
         {
           "type": "LED Bar",
-          "name": "ColorSource Liner (1m)",
+          "name": "ColorSource Linear (1m)",
           "modes": [
             {
               "name": "Multicell (2 cell)",
@@ -15849,25 +15777,6 @@
           "luminousFluxLumen": 9000,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Linear",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource-Linear"
-        },
-        {
-          "type": "LED Bar",
-          "name": "fos/4 Panel (8x24)",
-          "modes": [
-            {
-              "name": "Direct Control",
-              "dmxChannels": 13
-            },
-            {
-              "name": "Multicell (8 cell)",
-              "dmxChannels": 104
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 420,
-          "luminousFluxLumen": 19000,
-          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/fos4",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/fos4"
         },
         {
           "type": "LED Bar",
@@ -15886,51 +15795,6 @@
         },
         {
           "type": "Moving Head",
-          "name": "Halcyon Gold",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 57
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 750,
-          "luminousFluxLumen": 31000,
-          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon"
-        },
-        {
-          "type": "Moving Head",
-          "name": "Halcyon Platinum",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 60
-            }
-          ],
-          "weightKilogram": 49.4,
-          "powerWatt": 1650,
-          "luminousFluxLumen": 54000,
-          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon"
-        },
-        {
-          "type": "Moving Head",
-          "name": "Halcyon Titanium",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 60
-            }
-          ],
-          "weightKilogram": 41.7,
-          "powerWatt": 1200,
-          "luminousFluxLumen": 40000,
-          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Halcyon"
-        },
-        {
-          "type": "Moving Head",
           "name": "Relev? Spot",
           "modes": [
             {
@@ -15945,23 +15809,68 @@
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Releve"
         },
         {
-          "type": "Moving Mirror",
-          "name": "Cyberlight LED",
+          "type": "Panel",
+          "name": "fos/4 Panel (8x24)",
           "modes": [
             {
-              "name": "Extended",
-              "dmxChannels": 56
+              "name": "Direct Control",
+              "dmxChannels": 13
             },
             {
-              "name": "Standard",
-              "dmxChannels": 28
+              "name": "Multicell (8 cell)",
+              "dmxChannels": 104
             }
           ],
-          "weightKilogram": 28,
-          "powerWatt": 470,
-          "luminousFluxLumen": 12750,
-          "manualUrl": "https://www.etcconnect.com/cyberlight/",
-          "dmxChartUrl": "https://www.etcconnect.com/cyberlight/"
+          "weightKilogram": 0,
+          "powerWatt": 475,
+          "luminousFluxLumen": 20569,
+          "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/fos4",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/fos4"
+        },
+        {
+          "type": "Profile",
+          "name": "Halcyon Gold",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 57
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 684,
+          "luminousFluxLumen": 31000,
+          "manualUrl": "https://www.etcconnect.com/Halcyon/",
+          "dmxChartUrl": "https://www.etcconnect.com/Halcyon/"
+        },
+        {
+          "type": "Profile",
+          "name": "Halcyon Platinum",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 60
+            }
+          ],
+          "weightKilogram": 45,
+          "powerWatt": 1820,
+          "luminousFluxLumen": 54000,
+          "manualUrl": "https://www.etcconnect.com/Halcyon/",
+          "dmxChartUrl": "https://www.etcconnect.com/Halcyon/"
+        },
+        {
+          "type": "Profile",
+          "name": "Halcyon Titanium",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 60
+            }
+          ],
+          "weightKilogram": 34.5,
+          "powerWatt": 1200,
+          "luminousFluxLumen": 40000,
+          "manualUrl": "https://www.etcconnect.com/Halcyon/",
+          "dmxChartUrl": "https://www.etcconnect.com/Halcyon/"
         },
         {
           "type": "Profile",
@@ -15991,10 +15900,6 @@
               "dmxChannels": 8
             },
             {
-              "name": "Lustr X8 (Direct)",
-              "dmxChannels": 12
-            },
-            {
               "name": "RGB",
               "dmxChannels": 3
             }
@@ -16006,91 +15911,19 @@
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/Source-Four-LED-Series-3"
         },
         {
-          "type": "Profile Moving Head",
-          "name": "Halcyon Gold",
+          "type": "Spot",
+          "name": "Hyperstar",
           "modes": [
             {
-              "name": "Standard",
-              "dmxChannels": 57
+              "name": "Trifusion",
+              "dmxChannels": 39
             }
           ],
-          "weightKilogram": 38,
-          "powerWatt": 600,
-          "luminousFluxLumen": 25000,
-          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Halcyon/",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Halcyon/"
-        },
-        {
-          "type": "Profile Moving Head",
-          "name": "Halcyon Platinum",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 60
-            }
-          ],
-          "weightKilogram": 40,
-          "powerWatt": 650,
-          "luminousFluxLumen": 28000,
-          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Halcyon/",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Halcyon/"
-        },
-        {
-          "type": "Profile Moving Head",
-          "name": "Lonestar",
-          "modes": [
-            {
-              "name": "Standard Protocol",
-              "dmxChannels": 48
-            },
-            {
-              "name": "Trifusion Protocol",
-              "dmxChannels": 48
-            }
-          ],
-          "weightKilogram": 24,
-          "powerWatt": 290,
+          "weightKilogram": 0,
+          "powerWatt": 535,
           "luminousFluxLumen": 15400,
-          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Lonestar/",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Lonestar/"
-        },
-        {
-          "type": "Profile Moving Head",
-          "name": "Lonestar Prime",
-          "modes": [
-            {
-              "name": "Standard Protocol",
-              "dmxChannels": 52
-            },
-            {
-              "name": "Trifusion Protocol",
-              "dmxChannels": 52
-            }
-          ],
-          "weightKilogram": 23,
-          "powerWatt": 300,
-          "luminousFluxLumen": 17000,
-          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Lonestar/",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Lonestar/"
-        },
-        {
-          "type": "Spot Moving Head",
-          "name": "Ministar",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 48
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 24
-            }
-          ],
-          "weightKilogram": 18,
-          "powerWatt": 300,
-          "luminousFluxLumen": 9700,
-          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Ministar/",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Ministar/"
+          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Hyperstar/",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/Hyperstar/"
         },
         {
           "type": "Static",
@@ -16144,44 +15977,6 @@
           "luminousFluxLumen": 6500,
           "manualUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource",
           "dmxChartUrl": "https://www.etcconnect.com/Products/Lighting-Fixtures/ColorSource"
-        },
-        {
-          "type": "Wash Pixel",
-          "name": "GigaPix",
-          "modes": [
-            {
-              "name": "Pixel",
-              "dmxChannels": 120
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 36
-            }
-          ],
-          "weightKilogram": 18,
-          "powerWatt": 700,
-          "luminousFluxLumen": 25000,
-          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/GigaPix/",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/GigaPix/"
-        },
-        {
-          "type": "Wash Pixel",
-          "name": "MegaPix",
-          "modes": [
-            {
-              "name": "Pixel",
-              "dmxChannels": 96
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 32
-            }
-          ],
-          "weightKilogram": 15,
-          "powerWatt": 600,
-          "luminousFluxLumen": 20000,
-          "manualUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/MegaPix/",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Automated-Fixtures/MegaPix/"
         }
       ]
     },
@@ -22285,34 +22080,23 @@
       "name": "High End",
       "products": [
         {
-          "type": "Moving Head",
-          "name": "Lonestar",
+          "type": "Beam",
+          "name": "TurboRay",
           "modes": [
+            {
+              "name": "Reduced",
+              "dmxChannels": 25
+            },
             {
               "name": "Standard",
-              "dmxChannels": 48
+              "dmxChannels": 53
             }
           ],
-          "weightKilogram": 23,
-          "powerWatt": 600,
-          "luminousFluxLumen": 15400,
-          "manualUrl": "https://www.etcconnect.com/Products/High-End-Systems/Lonestar",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/High-End-Systems/Lonestar"
-        },
-        {
-          "type": "Moving Head",
-          "name": "Shapeshifter S1",
-          "modes": [
-            {
-              "name": "Extended",
-              "dmxChannels": 128
-            }
-          ],
-          "weightKilogram": 25,
-          "powerWatt": 600,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.etcconnect.com/Products/Legacy/Shapeshifter",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Shapeshifter"
+          "weightKilogram": 0,
+          "powerWatt": 500,
+          "luminousFluxLumen": 6000,
+          "manualUrl": "https://www.etcconnect.com/Products/TurboRay",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/TurboRay"
         },
         {
           "type": "Moving Head",
@@ -22345,210 +22129,6 @@
           "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Showgun"
         },
         {
-          "type": "Moving Head",
-          "name": "SolaFrame 1000",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 43
-            }
-          ],
-          "weightKilogram": 30,
-          "powerWatt": 750,
-          "luminousFluxLumen": 20000,
-          "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/1000",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/1000"
-        },
-        {
-          "type": "Moving Head",
-          "name": "SolaFrame 2000",
-          "modes": [
-            {
-              "name": "Enhanced",
-              "dmxChannels": 51
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 42
-            }
-          ],
-          "weightKilogram": 43,
-          "powerWatt": 1100,
-          "luminousFluxLumen": 26000,
-          "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/2000",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/2000"
-        },
-        {
-          "type": "Moving Head",
-          "name": "SolaFrame 3000",
-          "modes": [
-            {
-              "name": "Enhanced",
-              "dmxChannels": 63
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 49
-            }
-          ],
-          "weightKilogram": 48,
-          "powerWatt": 1450,
-          "luminousFluxLumen": 37000,
-          "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/3000",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/3000"
-        },
-        {
-          "type": "Moving Head",
-          "name": "SolaFrame Studio",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 43
-            }
-          ],
-          "weightKilogram": 21,
-          "powerWatt": 450,
-          "luminousFluxLumen": 10000,
-          "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/Studio",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/Studio"
-        },
-        {
-          "type": "Moving Head",
-          "name": "SolaPix 19",
-          "modes": [
-            {
-              "name": "Pixel (RGBW)",
-              "dmxChannels": 97
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 21
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 750,
-          "luminousFluxLumen": 19500,
-          "manualUrl": "https://www.etcconnect.com/Products/SolaPix/19",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaPix/19"
-        },
-        {
-          "type": "Moving Head",
-          "name": "SolaPix 37",
-          "modes": [
-            {
-              "name": "Pixel (RGBW)",
-              "dmxChannels": 169
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 21
-            }
-          ],
-          "weightKilogram": 31,
-          "powerWatt": 1450,
-          "luminousFluxLumen": 38000,
-          "manualUrl": "https://www.etcconnect.com/Products/SolaPix/37",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaPix/37"
-        },
-        {
-          "type": "Moving Head",
-          "name": "SolaPix 7",
-          "modes": [
-            {
-              "name": "Pixel (RGBW)",
-              "dmxChannels": 48
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 20
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 300,
-          "luminousFluxLumen": 7500,
-          "manualUrl": "https://www.etcconnect.com/Products/SolaPix/7",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaPix/7"
-        },
-        {
-          "type": "Moving Head",
-          "name": "SolaSpot 2000",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 33
-            }
-          ],
-          "weightKilogram": 40,
-          "powerWatt": 1100,
-          "luminousFluxLumen": 26000,
-          "manualUrl": "https://www.etcconnect.com/Products/SolaSpot/2000",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaSpot/2000"
-        },
-        {
-          "type": "Moving Head",
-          "name": "SolaSpot 3000",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 43
-            }
-          ],
-          "weightKilogram": 46,
-          "powerWatt": 1450,
-          "luminousFluxLumen": 37000,
-          "manualUrl": "https://www.etcconnect.com/Products/SolaSpot/3000",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaSpot/3000"
-        },
-        {
-          "type": "Moving Head",
-          "name": "Studio Color 575",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 16
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 750,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Color",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Color"
-        },
-        {
-          "type": "Moving Head",
-          "name": "Studio Spot 575",
-          "modes": [
-            {
-              "name": "Standard",
-              "dmxChannels": 14
-            }
-          ],
-          "weightKilogram": 28,
-          "powerWatt": 750,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Spot",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Spot"
-        },
-        {
-          "type": "Moving Head",
-          "name": "TurboRay",
-          "modes": [
-            {
-              "name": "Reduced Protocol",
-              "dmxChannels": 25
-            },
-            {
-              "name": "Standard",
-              "dmxChannels": 53
-            }
-          ],
-          "weightKilogram": 0,
-          "powerWatt": 600,
-          "luminousFluxLumen": 0,
-          "manualUrl": "https://www.etcconnect.com/Products/TurboRay",
-          "dmxChartUrl": "https://www.etcconnect.com/Products/TurboRay"
-        },
-        {
           "type": "Moving Mirror",
           "name": "Cyberlight (Legacy)",
           "modes": [
@@ -22576,8 +22156,8 @@
               "dmxChannels": 40
             }
           ],
-          "weightKilogram": 41,
-          "powerWatt": 750,
+          "weightKilogram": 38,
+          "powerWatt": 700,
           "luminousFluxLumen": 12750,
           "manualUrl": "https://www.etcconnect.com/Products/High-End-Systems/Cyberlight-LED",
           "dmxChartUrl": "https://www.etcconnect.com/Products/High-End-Systems/Cyberlight-LED"
@@ -22600,26 +22180,111 @@
           "luminousFluxLumen": 30000,
           "manualUrl": "https://www.etcconnect.com/Products/High-End-Systems/Legacy/Cyberlight",
           "dmxChartUrl": "https://www.etcconnect.com/Products/High-End-Systems/Legacy/Cyberlight"
-        }
-      ]
-    },
-    {
-      "name": "High End Systems",
-      "products": [
+        },
         {
-          "type": "Moving head profile silencieux (theatre)",
-          "name": "SolaFrame Theatre",
+          "type": "Profile",
+          "name": "Lonestar",
           "modes": [
             {
-              "name": "DMX-512",
+              "name": "Trifusion",
+              "dmxChannels": 48
+            }
+          ],
+          "weightKilogram": 23,
+          "powerWatt": 615,
+          "luminousFluxLumen": 15400,
+          "manualUrl": "https://www.etcconnect.com/Products/High-End-Systems/Lonestar",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/High-End-Systems/Lonestar"
+        },
+        {
+          "type": "Profile",
+          "name": "SolaFrame 1000",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 49
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 900,
+          "luminousFluxLumen": 20000,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/1000",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/1000"
+        },
+        {
+          "type": "Profile",
+          "name": "SolaFrame 2000",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 48
+            }
+          ],
+          "weightKilogram": 43.5,
+          "powerWatt": 855,
+          "luminousFluxLumen": 26000,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/2000",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/2000"
+        },
+        {
+          "type": "Profile",
+          "name": "SolaFrame 3000",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 49
+            }
+          ],
+          "weightKilogram": 48,
+          "powerWatt": 1341,
+          "luminousFluxLumen": 37000,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaFrame/3000",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaFrame/3000"
+        },
+        {
+          "type": "Spot",
+          "name": "SolaSpot 2000",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 43
+            }
+          ],
+          "weightKilogram": 41.5,
+          "powerWatt": 800,
+          "luminousFluxLumen": 0,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaSpot/2000",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaSpot/2000"
+        },
+        {
+          "type": "Spot",
+          "name": "SolaSpot 3000",
+          "modes": [
+            {
+              "name": "Standard",
               "dmxChannels": 47
             }
           ],
-          "weightKilogram": 49.8,
-          "powerWatt": 700,
+          "weightKilogram": 46.7,
+          "powerWatt": 1471,
+          "luminousFluxLumen": 37000,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaSpot/3000",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaSpot/3000"
+        },
+        {
+          "type": "Spot",
+          "name": "Studio Spot 575",
+          "modes": [
+            {
+              "name": "Standard",
+              "dmxChannels": 14
+            }
+          ],
+          "weightKilogram": 28,
+          "powerWatt": 750,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.fullcompass.com/common/files/30802-HighEndSystemsSolaFrameTheatreUserManual.pdf",
-          "dmxChartUrl": ""
+          "manualUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Spot",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Spot"
         },
         {
           "type": "Strobe",
@@ -22641,34 +22306,104 @@
           "dmxChartUrl": "https://www.etcconnect.com/dmx/af1000"
         },
         {
-          "type": "Strobe",
-          "name": "SolaPix 7 (Strobe Mode)",
+          "type": "Wash",
+          "name": "Studio Color 575",
           "modes": [
             {
               "name": "Standard",
-              "dmxChannels": 22
+              "dmxChannels": 16
             }
           ],
-          "weightKilogram": 8,
-          "powerWatt": 300,
+          "weightKilogram": 0,
+          "powerWatt": 750,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.etcconnect.com/solapix",
-          "dmxChartUrl": "https://www.etcconnect.com/dmx/solapix"
+          "manualUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Color",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/Legacy/Studio-Color"
         },
         {
-          "type": "Strobe",
-          "name": "TurboRay",
+          "type": "Wash FX",
+          "name": "SolaPix 19",
           "modes": [
             {
-              "name": "Standard",
-              "dmxChannels": 29
+              "name": "Base",
+              "dmxChannels": 21
+            },
+            {
+              "name": "Base + Flex",
+              "dmxChannels": 38
+            },
+            {
+              "name": "Base + Flex + Pixel",
+              "dmxChannels": 114
+            },
+            {
+              "name": "Base + Pixel",
+              "dmxChannels": 97
             }
           ],
-          "weightKilogram": 23,
-          "powerWatt": 450,
+          "weightKilogram": 0,
+          "powerWatt": 1000,
+          "luminousFluxLumen": 14500,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaPix/19",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaPix/19"
+        },
+        {
+          "type": "Wash FX",
+          "name": "SolaPix 37",
+          "modes": [
+            {
+              "name": "Pixel (RGBW)",
+              "dmxChannels": 169
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 21
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 1891,
+          "luminousFluxLumen": 29000,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaPix/37",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaPix/37"
+        },
+        {
+          "type": "Wash FX",
+          "name": "SolaPix 7",
+          "modes": [
+            {
+              "name": "Pixel (RGBW)",
+              "dmxChannels": 48
+            },
+            {
+              "name": "Standard",
+              "dmxChannels": 20
+            }
+          ],
+          "weightKilogram": 0,
+          "powerWatt": 410,
+          "luminousFluxLumen": 5500,
+          "manualUrl": "https://www.etcconnect.com/Products/SolaPix/7",
+          "dmxChartUrl": "https://www.etcconnect.com/Products/SolaPix/7"
+        }
+      ]
+    },
+    {
+      "name": "High End Systems",
+      "products": [
+        {
+          "type": "Moving head profile silencieux (theatre)",
+          "name": "SolaFrame Theatre",
+          "modes": [
+            {
+              "name": "DMX-512",
+              "dmxChannels": 47
+            }
+          ],
+          "weightKilogram": 49.8,
+          "powerWatt": 700,
           "luminousFluxLumen": 0,
-          "manualUrl": "https://www.etcconnect.com/turboray",
-          "dmxChartUrl": "https://www.etcconnect.com/dmx/turboray"
+          "manualUrl": "https://www.fullcompass.com/common/files/30802-HighEndSystemsSolaFrameTheatreUserManual.pdf",
+          "dmxChartUrl": ""
         }
       ]
     },
@@ -35471,10 +35206,10 @@
           "modes": [
             {
               "name": "16-bit",
-              "dmxChannels": 37
+              "dmxChannels": 28
             }
           ],
-          "weightKilogram": 0,
+          "weightKilogram": 41,
           "powerWatt": 1200,
           "luminousFluxLumen": 0,
           "manualUrl": "https://www.vari-lite.com/global/products",
@@ -36053,5 +35788,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-06T15:56:42.081Z"
+  "updatedAt": "2026-11-08T01:34:20.815Z"
 }
